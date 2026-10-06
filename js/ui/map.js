@@ -141,9 +141,16 @@ export async function mountLocator(container, country, activeId, onPick) {
   // Anchor the label away from the nearer edge so long names aren't clipped.
   const anchor = ap && (ap[0] < W / 3 ? 'start' : ap[0] > (2 * W) / 3 ? 'end' : 'middle');
   const lx = ap && (anchor === 'start' ? Math.max(4, ap[0] - 10) : anchor === 'end' ? Math.min(W - 4, ap[0] + 10) : ap[0]);
-  const label = ap ? `<text class="on" x="${lx.toFixed(1)}" y="${(ap[1] > 24 ? ap[1] - 11 : ap[1] + 20).toFixed(1)}" text-anchor="${anchor}">${esc(active.name)}</text>` : '';
+  const label = ap ? `<text class="on" x="${lx.toFixed(1)}" y="${(ap[1] > 24 ? ap[1] - 11 : ap[1] + 20).toFixed(1)}" text-anchor="${anchor}">${esc(active.name.replace(/\s*\(.*\)\s*/, ' ').trim())}</text>` : '';
   container.innerHTML = `<svg class="locator" viewBox="0 0 ${W} ${H}" role="img" aria-label="Map of ${esc(country.name)} highlighting ${esc(active?.name || '')}">
     ${feature ? `<path d="${path(feature)}"></path>` : ''}${dots}${label}</svg>`;
+  // Squeeze a label that would still overflow the frame (long region names).
+  const text = container.querySelector('text');
+  const room = anchor === 'middle' ? 2 * Math.min(lx, W - lx) : anchor === 'start' ? W - lx : lx;
+  if (text && text.getComputedTextLength() > room - 4) {
+    text.setAttribute('textLength', room - 4);
+    text.setAttribute('lengthAdjust', 'spacingAndGlyphs');
+  }
   container.querySelector('svg').addEventListener('click', e => {
     const id = e.target.closest('circle')?.dataset.region;
     if (id) onPick(id);
