@@ -2,6 +2,86 @@
   "continent": "Europe",
   "countries": [
     {
+      "iso2": "AL",
+      "isoNum": "008",
+      "name": "Albania",
+      "aliases": ["Shqipëria", "Shqiperia"],
+      "continent": "Europe",
+      "flag": "🇦🇱",
+      "summary": "Albania's Riviera (Ksamil, Himarë, Dhërmi) is a June–September beach destination, best in June and September. The Accursed Mountains (Theth, Valbona) open for hiking from June. The UNESCO towns of Berat and Gjirokastër are lovely in spring and autumn. It's one of Europe's best-value countries.",
+      "splitByRegion": false,
+      "splitReason": "Albania is small, and the Riviera, the cities and the Alps share one Mediterranean-continental calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Tirana, the Albanian Riviera, Berat, Gjirokastër, Shkodër and the Accursed Mountains.",
+          "lat": 41.33,
+          "lon": 19.82,
+          "tags": ["beach", "mountain", "history", "value"],
+          "best": [
+            { "from": "05-15", "to": "06-30", "why": "Uncrowded Riviera beaches, with the Theth and Valbona hikes opening in June.", "goodFor": ["beach", "mountain", "city", "roadtrip", "nature"] },
+            { "from": "09-01", "to": "10-15", "why": "A warm sea and golden mountains.", "goodFor": ["beach", "mountain", "city", "roadtrip"] }
+          ],
+          "worst": [ { "from": "11-15", "to": "02-28", "why": "Rainy, with mountain roads (Theth) snowbound." } ],
+          "shoulder": [
+            { "from": "03-01", "to": "05-14", "why": "Spring blossom, with a cool sea." },
+            { "from": "07-01", "to": "08-31", "why": "Busy Riviera beaches (Ksamil) and heat." },
+            { "from": "10-16", "to": "11-14", "why": "Autumn rains." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "06-01", "to": "09-30" } ],
+            "mountain": [ { "from": "06-15", "to": "09-30" } ],
+            "city": [ { "from": "04-01", "to": "10-31" } ],
+            "roadtrip": [ { "from": "05-01", "to": "10-15" } ],
+            "nature": [ { "from": "05-01", "to": "10-15" } ]
+          },
+          "climate": {
+            "avgHighC": [12, 14, 17, 20, 25, 29, 32, 32, 28, 23, 17, 13],
+            "avgLowC": [2, 3, 5, 8, 13, 16, 18, 18, 15, 11, 7, 4],
+            "rainMm": [140, 130, 110, 95, 85, 55, 30, 40, 75, 120, 190, 160],
+            "rainDays": [13, 12, 12, 11, 10, 6, 4, 4, 6, 9, 14, 14],
+            "sunHours": [120, 130, 170, 200, 260, 300, 340, 320, 250, 190, 120, 100],
+            "seaTempC": [14, 14, 14, 16, 19, 23, 25, 26, 24, 21, 18, 15],
+            "humidity": [74, 72, 72, 73, 72, 66, 61, 62, 68, 73, 78, 77]
+          },
+          "crowds": [1, 1, 2, 3, 3, 4, 5, 5, 4, 2, 1, 1],
+          "risks": [
+            { "type": "extreme heat", "from": "07-01", "to": "08-31", "note": "Inland heat of 38 °C+." },
+            { "type": "wildfire", "from": "07-01", "to": "09-15", "note": "Hillside fires." },
+            { "type": "road closures", "from": "12-01", "to": "04-30", "note": "The road to Theth is closed by snow." }
+          ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 35, "shoulder": 45, "high": 60 },
+            "midrangePerDay": { "low": 70, "shoulder": 85, "high": 120 },
+            "hotelNightMid": { "low": 40, "shoulder": 60, "high": 100 },
+            "notes": "Great value, though Ksamil prices rise sharply in August."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Tirana", "aliases": [], "region": "country" },
+        { "name": "Sarandë", "aliases": ["Saranda", "Ksamil", "Butrint"], "region": "country" },
+        { "name": "Himarë", "aliases": ["Himara", "Dhermi", "Albanian Riviera"], "region": "country" },
+        { "name": "Berat", "aliases": [], "region": "country" },
+        { "name": "Gjirokastër", "aliases": ["Gjirokaster"], "region": "country" },
+        { "name": "Shkodër", "aliases": ["Shkoder"], "region": "country" },
+        { "name": "Theth", "aliases": ["Valbona", "Accursed Mountains"], "region": "country" },
+        { "name": "Durrës", "aliases": ["Durres"], "region": "country" },
+        { "name": "Vlorë", "aliases": ["Vlore"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Albania" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/albania" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/albania/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
       "iso2": "AD",
       "isoNum": "020",
       "name": "Andorra",
@@ -162,6 +242,74 @@
       "lastReviewed": "2026-10"
     },
     {
+      "iso2": "BY",
+      "isoNum": "112",
+      "name": "Belarus",
+      "aliases": ["Belarus", "Byelorussia"],
+      "continent": "Europe",
+      "flag": "🇧🇾",
+      "summary": "Many governments advise against travel to Belarus, so check current advice. Climatically, late spring and summer suit Minsk, Mir and Nesvizh castles and the primeval Białowieża Forest. Winters are long and cold.",
+      "splitByRegion": false,
+      "splitReason": "Belarus is flat, with one continental calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Minsk, Brest and the Białowieża Forest, Grodno, and the Mir and Nesvizh castles.",
+          "lat": 53.9,
+          "lon": 27.57,
+          "tags": ["city", "history", "nature"],
+          "best": [
+            { "from": "05-15", "to": "06-30", "why": "Long, green days for the castles and forest.", "goodFor": ["city", "nature"] },
+            { "from": "08-25", "to": "09-25", "why": "Warm late summer with the harvest beginning.", "goodFor": ["city", "nature"] }
+          ],
+          "worst": [ { "from": "11-15", "to": "03-15", "why": "A long, cold, grey winter." } ],
+          "shoulder": [
+            { "from": "03-16", "to": "05-14", "why": "A slow spring." },
+            { "from": "07-01", "to": "08-24", "why": "Warm, with some storms." },
+            { "from": "09-26", "to": "11-14", "why": "Autumn chill." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "05-01", "to": "09-30" } ],
+            "nature": [ { "from": "05-15", "to": "09-30" } ]
+          },
+          "climate": {
+            "avgHighC": [-3, -2, 3, 12, 18, 21, 23, 22, 16, 10, 3, -1],
+            "avgLowC": [-8, -8, -4, 2, 7, 11, 13, 12, 7, 3, -2, -6],
+            "rainMm": [40, 35, 40, 40, 60, 80, 90, 70, 60, 50, 50, 45],
+            "rainDays": [10, 9, 9, 8, 10, 11, 11, 9, 9, 9, 10, 11],
+            "sunHours": [35, 60, 110, 170, 250, 250, 260, 230, 160, 100, 40, 25],
+            "seaTempC": null,
+            "humidity": [86, 83, 78, 70, 68, 72, 75, 77, 81, 84, 88, 88]
+          },
+          "crowds": [1, 1, 1, 1, 2, 2, 2, 2, 2, 1, 1, 1],
+          "risks": [ { "type": "extreme cold", "from": "12-15", "to": "02-15", "note": "Deep cold." } ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 35, "shoulder": 40, "high": 45 },
+            "midrangePerDay": { "low": 70, "shoulder": 80, "high": 95 },
+            "hotelNightMid": { "low": 45, "shoulder": 55, "high": 70 },
+            "notes": "Visa rules and international card acceptance change often, so check before going."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Minsk", "aliases": [], "region": "country" },
+        { "name": "Brest", "aliases": ["Brest Fortress", "Belovezhskaya Pushcha"], "region": "country" },
+        { "name": "Grodno", "aliases": ["Hrodna"], "region": "country" },
+        { "name": "Mir Castle", "aliases": ["Mir", "Nesvizh"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Belarus" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/belarus" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/belarus/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
       "iso2": "BE",
       "isoNum": "056",
       "name": "Belgium",
@@ -232,6 +380,355 @@
         { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Belgium" },
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/belgium" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/belgium/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "BA",
+      "isoNum": "070",
+      "name": "Bosnia and Herzegovina",
+      "aliases": ["Bosnia", "BiH", "Herzegovina"],
+      "continent": "Europe",
+      "flag": "🇧🇦",
+      "summary": "Bosnia and Herzegovina is best in late spring and early autumn. Summer is hot in Mostar (38 °C) and busy at the Stari Most bridge. Winter brings cheap skiing at Jahorina and Bjelašnica, but also smog in Sarajevo on still days.",
+      "splitByRegion": false,
+      "splitReason": "Bosnia and Herzegovina is small, and Sarajevo, Mostar and the mountains share one calendar; Mostar is simply hotter.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Sarajevo, Mostar, Blagaj, the Kravice falls, Jajce and the Olympic mountains.",
+          "lat": 43.86,
+          "lon": 18.41,
+          "tags": ["city", "history", "mountain", "snow"],
+          "best": [
+            { "from": "05-01", "to": "06-30", "why": "Green valleys, the Kravice falls flowing and comfortable sightseeing.", "goodFor": ["city", "nature", "roadtrip", "mountain"] },
+            { "from": "09-01", "to": "10-20", "why": "Golden autumn days in the valleys and old towns.", "goodFor": ["city", "nature", "roadtrip", "mountain"] }
+          ],
+          "worst": [ { "from": "11-01", "to": "11-30", "why": "Wet and foggy, with the mountain resorts not yet open." } ],
+          "shoulder": [
+            { "from": "12-01", "to": "03-31", "why": "Skiing at Jahorina and Bjelašnica, with Sarajevo smog on still days." },
+            { "from": "04-01", "to": "04-30", "why": "Spring arriving." },
+            { "from": "07-01", "to": "08-31", "why": "Mostar is hot (38 °C) and crowded at Stari Most." },
+            { "from": "10-21", "to": "10-31", "why": "Late autumn." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "04-15", "to": "10-31" } ],
+            "mountain": [ { "from": "06-01", "to": "09-30" } ],
+            "snow": [ { "from": "12-15", "to": "03-15" } ],
+            "roadtrip": [ { "from": "05-01", "to": "10-15" } ],
+            "nature": [ { "from": "05-01", "to": "10-15" } ]
+          },
+          "climate": {
+            "avgHighC": [3, 5, 10, 15, 20, 24, 27, 27, 22, 16, 9, 4],
+            "avgLowC": [-4, -3, 0, 4, 8, 12, 14, 13, 10, 6, 1, -2],
+            "rainMm": [70, 65, 70, 75, 85, 90, 75, 70, 80, 90, 100, 90],
+            "rainDays": [12, 11, 12, 13, 13, 12, 9, 8, 9, 10, 13, 13],
+            "sunHours": [60, 80, 120, 150, 190, 220, 260, 240, 180, 130, 70, 50],
+            "seaTempC": null,
+            "humidity": [79, 74, 68, 66, 68, 67, 64, 64, 70, 76, 80, 82]
+          },
+          "crowds": [2, 2, 2, 3, 4, 4, 5, 5, 4, 3, 2, 2],
+          "risks": [
+            { "type": "air pollution", "from": "11-15", "to": "02-28", "note": "Winter smog in Sarajevo." },
+            { "type": "extreme heat", "from": "07-01", "to": "08-31", "note": "Herzegovina heat." }
+          ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 35, "shoulder": 40, "high": 50 },
+            "midrangePerDay": { "low": 70, "shoulder": 80, "high": 100 },
+            "hotelNightMid": { "low": 45, "shoulder": 55, "high": 75 },
+            "notes": "Great value. Mostar is busiest with day-trippers from Dubrovnik at midday."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Sarajevo", "aliases": [], "region": "country" },
+        { "name": "Mostar", "aliases": ["Stari Most"], "region": "country" },
+        { "name": "Jahorina", "aliases": ["Bjelašnica", "Bjelasnica"], "region": "country" },
+        { "name": "Blagaj", "aliases": [], "region": "country" },
+        { "name": "Kravice", "aliases": ["Kravice Falls"], "region": "country" },
+        { "name": "Jajce", "aliases": [], "region": "country" },
+        { "name": "Počitelj", "aliases": ["Pocitelj"], "region": "country" },
+        { "name": "Višegrad", "aliases": ["Visegrad"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Bosnia_and_Herzegovina" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/bosnia-and-herzegovina" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/bosnia-and-herzegovina/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "BG",
+      "isoNum": "100",
+      "name": "Bulgaria",
+      "aliases": ["България", "Balgariya"],
+      "continent": "Europe",
+      "flag": "🇧🇬",
+      "summary": "Bulgaria combines a Black Sea beach coast (best June–September), the Rila and Pirin mountains (hiking in summer, cheap skiing at Bansko from December to March) and historic Sofia, Plovdiv and Veliko Tarnovo. Late May to early June is rose-harvest time in the Valley of Roses.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "coast",
+          "name": "Black Sea Coast",
+          "description": "Varna, Burgas, Sunny Beach, Nesebar, Sozopol and Golden Sands.",
+          "lat": 43.21,
+          "lon": 27.91,
+          "tags": ["beach", "nightlife", "history"],
+          "best": [
+            { "from": "06-01", "to": "06-30", "why": "A warming sea and long sunny days before the crowds.", "goodFor": ["beach", "sun", "city"] },
+            { "from": "09-01", "to": "09-20", "why": "The sea still warm, with resorts quieter.", "goodFor": ["beach", "sun", "city"] }
+          ],
+          "worst": [ { "from": "10-15", "to": "04-30", "why": "Resorts are closed and it's grey and windy." } ],
+          "shoulder": [
+            { "from": "05-01", "to": "05-31", "why": "Resorts are reopening and the sea is cool." },
+            { "from": "07-01", "to": "08-31", "why": "Peak season: Sunny Beach is packed and hot." },
+            { "from": "09-21", "to": "10-14", "why": "Closing down." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "06-10", "to": "09-15" } ],
+            "sun": [ { "from": "06-01", "to": "09-15" } ],
+            "city": [ { "from": "05-01", "to": "10-15" } ]
+          },
+          "climate": {
+            "avgHighC": [6, 7, 11, 16, 21, 26, 29, 29, 25, 19, 13, 8],
+            "avgLowC": [-1, 0, 3, 8, 12, 16, 19, 19, 15, 11, 6, 1],
+            "rainMm": [35, 30, 35, 35, 45, 55, 45, 35, 40, 50, 50, 50],
+            "rainDays": [7, 6, 7, 7, 7, 7, 5, 4, 4, 6, 7, 8],
+            "sunHours": [80, 100, 140, 190, 250, 290, 330, 310, 240, 170, 100, 70],
+            "seaTempC": [7, 6, 7, 10, 16, 21, 24, 25, 22, 18, 13, 9],
+            "humidity": [84, 82, 81, 78, 77, 74, 71, 72, 75, 80, 84, 85]
+          },
+          "crowds": [1, 1, 1, 2, 3, 4, 5, 5, 3, 1, 1, 1],
+          "risks": [ { "type": "thunderstorms", "from": "06-15", "to": "08-31", "note": "Summer storms." } ],
+          "recurringHolidays": [
+            { "name": "Rose Festival (Kazanlak)", "approx": "Early June", "effect": "The rose-picking and festival in the Valley of Roses.", "dates": { "from": "06-01", "to": "06-07" } }
+          ],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 50, "high": 70 },
+            "midrangePerDay": { "low": 70, "shoulder": 90, "high": 130 },
+            "hotelNightMid": { "low": 45, "shoulder": 65, "high": 110 },
+            "notes": "Sunny Beach is a party resort, while Sozopol and Nesebar are quieter."
+          }
+        },
+        {
+          "id": "interior",
+          "name": "Sofia, Plovdiv & the Mountains",
+          "description": "Sofia, Plovdiv, Rila Monastery and the Seven Lakes, Veliko Tarnovo, Bansko and the Pirin, Borovets and Koprivshtitsa.",
+          "lat": 42.7,
+          "lon": 23.32,
+          "tags": ["city", "mountain", "snow", "history"],
+          "best": [
+            { "from": "05-01", "to": "06-30", "why": "The rose harvest in the Valley of Roses (late May to early June), with mountain trails opening.", "goodFor": ["city", "mountain", "nature", "roadtrip"] },
+            { "from": "09-01", "to": "10-15", "why": "Warm autumn and clear mountain views.", "goodFor": ["city", "mountain", "nature", "roadtrip"] }
+          ],
+          "worst": [ { "from": "03-15", "to": "04-15", "why": "Mud season: skiing is over and the high trails are closed." } ],
+          "shoulder": [
+            { "from": "12-15", "to": "03-14", "why": "Skiing at Bansko and Borovets (good value)." },
+            { "from": "04-16", "to": "04-30", "why": "Spring arriving." },
+            { "from": "07-01", "to": "08-31", "why": "Hot cities, but perfect for Rila and Pirin hikes." },
+            { "from": "10-16", "to": "12-14", "why": "Cool late autumn." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "04-15", "to": "10-31" } ],
+            "mountain": [ { "from": "06-15", "to": "09-30" } ],
+            "snow": [ { "from": "12-15", "to": "03-31" } ],
+            "roadtrip": [ { "from": "05-01", "to": "10-15" } ],
+            "nature": [ { "from": "05-01", "to": "10-15" } ]
+          },
+          "climate": {
+            "avgHighC": [3, 5, 10, 16, 21, 24, 27, 27, 23, 17, 10, 4],
+            "avgLowC": [-4, -3, 0, 5, 10, 13, 15, 15, 11, 6, 1, -2],
+            "rainMm": [35, 35, 40, 55, 75, 75, 60, 50, 45, 40, 50, 45],
+            "rainDays": [8, 8, 9, 10, 12, 11, 8, 6, 6, 7, 9, 9],
+            "sunHours": [80, 100, 150, 180, 220, 250, 300, 290, 220, 160, 90, 70],
+            "seaTempC": null,
+            "humidity": [80, 77, 70, 66, 67, 66, 61, 60, 67, 74, 80, 82]
+          },
+          "crowds": [3, 3, 2, 2, 3, 4, 4, 4, 4, 3, 2, 3],
+          "risks": [
+            { "type": "avalanche", "from": "12-15", "to": "03-31", "note": "Off-piste risk." },
+            { "type": "air pollution", "from": "12-01", "to": "02-15", "note": "Sofia has smoggy winter days." }
+          ],
+          "recurringHolidays": [
+            { "name": "Rose Festival (Kazanlak)", "approx": "Early June", "effect": "The rose-picking and festival in the Valley of Roses.", "dates": { "from": "06-01", "to": "06-07" } }
+          ],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 35, "shoulder": 45, "high": 55 },
+            "midrangePerDay": { "low": 70, "shoulder": 85, "high": 110 },
+            "hotelNightMid": { "low": 45, "shoulder": 60, "high": 90 },
+            "notes": "Bansko is among Europe's cheapest ski resorts."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Varna", "aliases": ["Golden Sands"], "region": "coast" },
+        { "name": "Burgas", "aliases": [], "region": "coast" },
+        { "name": "Sunny Beach", "aliases": ["Nesebar"], "region": "coast" },
+        { "name": "Sozopol", "aliases": [], "region": "coast" },
+        { "name": "Sofia", "aliases": [], "region": "interior" },
+        { "name": "Plovdiv", "aliases": [], "region": "interior" },
+        { "name": "Rila Monastery", "aliases": ["Rila", "Seven Rila Lakes"], "region": "interior" },
+        { "name": "Veliko Tarnovo", "aliases": [], "region": "interior" },
+        { "name": "Bansko", "aliases": ["Pirin"], "region": "interior" },
+        { "name": "Borovets", "aliases": [], "region": "interior" },
+        { "name": "Koprivshtitsa", "aliases": [], "region": "interior" },
+        { "name": "Kazanlak", "aliases": ["Valley of Roses"], "region": "interior" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://bulgariatravel.org" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Bulgaria" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/bulgaria" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/bulgaria/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "HR",
+      "isoNum": "191",
+      "name": "Croatia",
+      "aliases": ["Hrvatska"],
+      "continent": "Europe",
+      "flag": "🇭🇷",
+      "summary": "Croatia's Adriatic coast and islands are a May-to-October destination, best in June and September. July–August means peak crowds in Dubrovnik and Hvar and full ferries, and most island hotels shut in winter. Inland, Zagreb and the Plitvice Lakes are good from spring to autumn, and Zagreb's Advent is among Europe's best Christmas markets.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "coast",
+          "name": "Adriatic Coast & Islands",
+          "description": "Dubrovnik, Split, Hvar, Brač, Korčula, Vis, Zadar, Šibenik and Krka, Makarska, Istria (Rovinj, Pula) and Kvarner.",
+          "lat": 43.51,
+          "lon": 16.44,
+          "tags": ["beach", "islands", "sailing", "history"],
+          "best": [
+            { "from": "05-20", "to": "06-25", "why": "Warm sea, sunny days and island ferries running before the crowds.", "goodFor": ["beach", "sun", "city", "roadtrip", "diving"] },
+            { "from": "09-01", "to": "10-10", "why": "The sea at 23–25 °C, calmer old towns and the grape harvest.", "goodFor": ["beach", "sun", "city", "roadtrip", "diving"] }
+          ],
+          "worst": [
+            { "from": "07-15", "to": "08-20", "why": "Cruise crowds in Dubrovnik, peak prices and full ferries." },
+            { "from": "11-15", "to": "03-15", "why": "Island hotels and ferries are limited, with bora winds and rain." }
+          ],
+          "shoulder": [
+            { "from": "03-16", "to": "05-19", "why": "Spring wildflowers, with a cool sea." },
+            { "from": "06-26", "to": "07-14", "why": "Hot and busy." },
+            { "from": "08-21", "to": "08-31", "why": "Very warm sea, with crowds easing." },
+            { "from": "10-11", "to": "11-14", "why": "Season winding down." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "06-01", "to": "09-30" } ],
+            "sun": [ { "from": "05-20", "to": "09-30" } ],
+            "diving": [ { "from": "06-01", "to": "10-15" } ],
+            "city": [ { "from": "04-01", "to": "06-30" }, { "from": "09-01", "to": "10-31" } ],
+            "roadtrip": [ { "from": "05-01", "to": "06-30" }, { "from": "09-01", "to": "10-15" } ],
+            "nature": [ { "from": "05-01", "to": "10-15" } ]
+          },
+          "climate": {
+            "avgHighC": [10, 11, 14, 18, 23, 27, 30, 30, 26, 21, 15, 11],
+            "avgLowC": [5, 5, 8, 11, 15, 19, 22, 22, 18, 14, 10, 6],
+            "rainMm": [75, 70, 65, 65, 55, 50, 30, 45, 70, 90, 110, 110],
+            "rainDays": [10, 9, 9, 9, 8, 6, 4, 4, 6, 8, 11, 11],
+            "sunHours": [130, 140, 180, 210, 270, 300, 350, 320, 250, 190, 130, 120],
+            "seaTempC": [14, 13, 14, 15, 18, 22, 24, 25, 23, 20, 17, 15],
+            "humidity": [63, 61, 63, 65, 66, 63, 58, 59, 64, 67, 67, 65]
+          },
+          "crowds": [1, 1, 2, 3, 4, 5, 5, 5, 4, 2, 1, 1],
+          "risks": [
+            { "type": "wildfire", "from": "07-01", "to": "09-15", "note": "Coastal forest fires." },
+            { "type": "strong wind", "from": "11-01", "to": "03-31", "note": "Bora gales close bridges and ferries." }
+          ],
+          "recurringHolidays": [
+            { "name": "Assumption Day", "approx": "Aug 15", "effect": "Peak holiday crowds on the coast.", "dates": { "from": "08-14", "to": "08-16" } }
+          ],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 60, "shoulder": 75, "high": 110 },
+            "midrangePerDay": { "low": 110, "shoulder": 150, "high": 230 },
+            "hotelNightMid": { "low": 80, "shoulder": 120, "high": 220 },
+            "notes": "Dubrovnik and Hvar are the priciest. Book ferries and catamarans ahead in summer."
+          }
+        },
+        {
+          "id": "inland",
+          "name": "Zagreb & Inland Croatia",
+          "description": "Zagreb, the Plitvice Lakes, Rastoke, Varaždin and Slavonia.",
+          "lat": 45.81,
+          "lon": 15.98,
+          "tags": ["city", "nature", "waterfalls"],
+          "best": [
+            { "from": "05-01", "to": "06-20", "why": "The Plitvice waterfalls in full flow, with everything green.", "goodFor": ["nature", "city", "roadtrip"] },
+            { "from": "09-15", "to": "10-31", "why": "Autumn colours at Plitvice and fewer crowds.", "goodFor": ["nature", "city", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "01-07", "to": "02-28", "why": "Cold and grey; Plitvice's upper-lake paths can close with snow and ice." }
+          ],
+          "shoulder": [
+            { "from": "11-25", "to": "01-06", "why": "Advent in Zagreb, one of Europe's best Christmas markets." },
+            { "from": "03-01", "to": "04-30", "why": "Spring with swollen waterfalls." },
+            { "from": "06-21", "to": "09-14", "why": "Hot and busy, with Plitvice crowds peaking." },
+            { "from": "11-01", "to": "11-24", "why": "Damp late autumn." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "04-01", "to": "10-31" }, { "from": "11-25", "to": "01-06" } ],
+            "nature": [ { "from": "04-15", "to": "10-31" } ],
+            "roadtrip": [ { "from": "05-01", "to": "10-15" } ]
+          },
+          "climate": {
+            "avgHighC": [3, 6, 11, 16, 21, 25, 27, 27, 22, 16, 9, 4],
+            "avgLowC": [-3, -2, 2, 6, 10, 14, 15, 15, 11, 7, 3, -1],
+            "rainMm": [50, 45, 60, 65, 80, 95, 80, 90, 100, 80, 90, 70],
+            "rainDays": [10, 9, 10, 11, 12, 12, 10, 9, 9, 9, 11, 11],
+            "sunHours": [60, 95, 140, 170, 220, 240, 280, 250, 180, 130, 70, 50],
+            "seaTempC": null,
+            "humidity": [82, 77, 71, 69, 70, 71, 70, 73, 78, 82, 84, 85]
+          },
+          "crowds": [2, 2, 2, 3, 4, 4, 5, 5, 4, 3, 2, 4],
+          "risks": [ { "type": "thunderstorms", "from": "06-15", "to": "08-31", "note": "Summer storms." } ],
+          "recurringHolidays": [
+            { "name": "Assumption Day", "approx": "Aug 15", "effect": "Peak holiday crowds on the coast.", "dates": { "from": "08-14", "to": "08-16" } }
+          ],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 50, "shoulder": 60, "high": 75 },
+            "midrangePerDay": { "low": 90, "shoulder": 110, "high": 140 },
+            "hotelNightMid": { "low": 60, "shoulder": 80, "high": 110 },
+            "notes": "Buy Plitvice tickets online for a time slot in summer."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Dubrovnik", "aliases": [], "region": "coast" },
+        { "name": "Split", "aliases": [], "region": "coast" },
+        { "name": "Hvar", "aliases": [], "region": "coast" },
+        { "name": "Brač", "aliases": ["Brac", "Bol"], "region": "coast" },
+        { "name": "Korčula", "aliases": ["Korcula"], "region": "coast" },
+        { "name": "Vis", "aliases": [], "region": "coast" },
+        { "name": "Zadar", "aliases": [], "region": "coast" },
+        { "name": "Šibenik", "aliases": ["Sibenik", "Krka"], "region": "coast" },
+        { "name": "Makarska", "aliases": [], "region": "coast" },
+        { "name": "Rovinj", "aliases": ["Istria", "Pula", "Poreč", "Porec"], "region": "coast" },
+        { "name": "Rijeka", "aliases": ["Opatija", "Krk"], "region": "coast" },
+        { "name": "Zagreb", "aliases": [], "region": "inland" },
+        { "name": "Plitvice Lakes", "aliases": ["Plitvice"], "region": "inland" },
+        { "name": "Rastoke", "aliases": [], "region": "inland" },
+        { "name": "Varaždin", "aliases": ["Varazdin"], "region": "inland" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://croatia.hr" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Croatia" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/croatia" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/croatia/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"
@@ -317,6 +814,82 @@
       "lastReviewed": "2026-10"
     },
     {
+      "iso2": "CZ",
+      "isoNum": "203",
+      "name": "Czechia",
+      "aliases": ["Czech Republic", "Česko", "Cesko"],
+      "continent": "Europe",
+      "flag": "🇨🇿",
+      "summary": "Prague and the Czech towns are lovely in late spring and early autumn. Summer brings huge crowds on Charles Bridge, and Advent brings beautiful but busy Christmas markets. January to early March is cold and grey.",
+      "splitByRegion": false,
+      "splitReason": "Czechia is small, with one central-European climate.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "The whole country: Prague, Český Krumlov, Karlovy Vary, Kutná Hora, Brno and Bohemian Switzerland.",
+          "lat": 50.08,
+          "lon": 14.44,
+          "tags": ["city", "history", "beer", "castles"],
+          "best": [
+            { "from": "05-01", "to": "06-20", "why": "Blooming gardens and warm days before the summer crowds.", "goodFor": ["city", "roadtrip", "nature"] },
+            { "from": "09-01", "to": "10-15", "why": "A golden autumn and the wine harvest in Moravia.", "goodFor": ["city", "roadtrip", "nature"] }
+          ],
+          "worst": [ { "from": "01-07", "to": "03-05", "why": "Cold and grey (−3 to 3 °C)." } ],
+          "shoulder": [
+            { "from": "11-25", "to": "01-06", "why": "Prague's Christmas markets: beautiful but crowded." },
+            { "from": "03-06", "to": "04-30", "why": "Cool spring." },
+            { "from": "06-21", "to": "08-31", "why": "Peak crowds on Charles Bridge." },
+            { "from": "10-16", "to": "11-24", "why": "Foggy late autumn." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "03-15", "to": "11-15" }, { "from": "11-25", "to": "12-23" } ],
+            "roadtrip": [ { "from": "05-01", "to": "10-15" } ],
+            "nature": [ { "from": "05-01", "to": "10-15" } ]
+          },
+          "climate": {
+            "avgHighC": [2, 4, 9, 14, 19, 22, 24, 24, 19, 13, 7, 3],
+            "avgLowC": [-3, -2, 1, 4, 9, 12, 14, 14, 10, 5, 1, -2],
+            "rainMm": [25, 25, 30, 35, 65, 70, 75, 70, 45, 30, 30, 30],
+            "rainDays": [8, 7, 8, 8, 10, 10, 10, 9, 8, 7, 8, 9],
+            "sunHours": [50, 70, 120, 170, 215, 215, 230, 220, 160, 110, 55, 45],
+            "seaTempC": null,
+            "humidity": [84, 80, 74, 68, 69, 70, 70, 71, 76, 81, 86, 86]
+          },
+          "crowds": [2, 2, 3, 4, 4, 4, 5, 5, 4, 4, 3, 5],
+          "risks": [ { "type": "thunderstorms", "from": "06-15", "to": "08-31", "note": "Summer storms and flash floods." } ],
+          "recurringHolidays": [
+            { "name": "Christmas markets", "approx": "Late November – Jan 6", "effect": "The Old Town Square and Wenceslas Square are busy.", "dates": { "from": "11-29", "to": "01-06" } }
+          ],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 55, "shoulder": 65, "high": 80 },
+            "midrangePerDay": { "low": 100, "shoulder": 120, "high": 150 },
+            "hotelNightMid": { "low": 70, "shoulder": 90, "high": 130 },
+            "notes": "Prague's old town is pricier than the rest of the country. Český Krumlov is best visited overnight."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Prague", "aliases": ["Praha"], "region": "country" },
+        { "name": "Český Krumlov", "aliases": ["Cesky Krumlov"], "region": "country" },
+        { "name": "Karlovy Vary", "aliases": ["Carlsbad"], "region": "country" },
+        { "name": "Kutná Hora", "aliases": ["Kutna Hora"], "region": "country" },
+        { "name": "Brno", "aliases": [], "region": "country" },
+        { "name": "Bohemian Switzerland", "aliases": ["Ceske Svycarsko", "Pravcicka Gate"], "region": "country" },
+        { "name": "Olomouc", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.visitczechia.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Czech_Republic" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/czech-republic" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/czech-republic/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
       "iso2": "DK",
       "isoNum": "208",
       "name": "Denmark",
@@ -389,6 +962,78 @@
         { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Denmark" },
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/denmark" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/denmark/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "EE",
+      "isoNum": "233",
+      "name": "Estonia",
+      "aliases": ["Eesti"],
+      "continent": "Europe",
+      "flag": "🇪🇪",
+      "summary": "Estonia's medieval Tallinn and its islands are best in summer, with white nights and festivals. Winters are long and dark, but Tallinn's Christmas market is one of Europe's prettiest.",
+      "splitByRegion": false,
+      "splitReason": "Estonia is small and flat, with one Baltic climate.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Tallinn, Tartu, Pärnu, Saaremaa and Lahemaa National Park.",
+          "lat": 59.44,
+          "lon": 24.75,
+          "tags": ["city", "history", "nature", "islands"],
+          "best": [
+            { "from": "06-01", "to": "08-31", "why": "White nights, a buzzing medieval old town and the islands (Saaremaa).", "goodFor": ["city", "nature", "beach", "roadtrip"] }
+          ],
+          "worst": [ { "from": "01-07", "to": "02-28", "why": "Dark, cold and slushy." } ],
+          "shoulder": [
+            { "from": "11-01", "to": "01-06", "why": "Dark, but Tallinn's Christmas market is magical." },
+            { "from": "03-01", "to": "05-31", "why": "Lengthening days." },
+            { "from": "09-01", "to": "10-31", "why": "Crisp autumn." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "05-01", "to": "09-30" }, { "from": "11-25", "to": "12-31" } ],
+            "nature": [ { "from": "05-15", "to": "09-15" } ],
+            "beach": [ { "from": "07-01", "to": "08-15" } ],
+            "roadtrip": [ { "from": "05-15", "to": "09-15" } ]
+          },
+          "climate": {
+            "avgHighC": [-1, -2, 2, 9, 15, 19, 22, 20, 15, 9, 4, 1],
+            "avgLowC": [-6, -7, -4, 1, 5, 10, 13, 12, 8, 4, 0, -4],
+            "rainMm": [55, 40, 35, 35, 40, 70, 75, 90, 75, 85, 75, 65],
+            "rainDays": [13, 10, 10, 8, 8, 9, 10, 12, 13, 14, 14, 14],
+            "sunHours": [30, 60, 130, 190, 270, 280, 280, 230, 150, 80, 30, 20],
+            "seaTempC": [1, 0, 0, 3, 9, 15, 18, 18, 14, 10, 6, 3],
+            "humidity": [86, 85, 80, 73, 70, 73, 76, 79, 83, 85, 88, 88]
+          },
+          "crowds": [2, 2, 2, 2, 3, 4, 5, 5, 3, 2, 2, 3],
+          "risks": [ { "type": "extreme cold", "from": "01-01", "to": "02-28", "note": "Icy winter." } ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 60, "shoulder": 70, "high": 85 },
+            "midrangePerDay": { "low": 110, "shoulder": 130, "high": 160 },
+            "hotelNightMid": { "low": 80, "shoulder": 100, "high": 140 },
+            "notes": "Tallinn is busy with cruise day-trippers in summer."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Tallinn", "aliases": [], "region": "country" },
+        { "name": "Tartu", "aliases": [], "region": "country" },
+        { "name": "Pärnu", "aliases": ["Parnu"], "region": "country" },
+        { "name": "Saaremaa", "aliases": ["Kuressaare"], "region": "country" },
+        { "name": "Lahemaa", "aliases": ["Lahemaa National Park"], "region": "country" },
+        { "name": "Haapsalu", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.visitestonia.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Estonia" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/estonia" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/estonia/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"
@@ -1405,6 +2050,87 @@
       "lastReviewed": "2026-10"
     },
     {
+      "iso2": "HU",
+      "isoNum": "348",
+      "name": "Hungary",
+      "aliases": ["Magyarország", "Magyarorszag"],
+      "continent": "Europe",
+      "flag": "🇭🇺",
+      "summary": "Budapest is great in spring and autumn. Summers are hot (30 °C+), when Lake Balaton beaches and festivals like Sziget are the draw. Winters are cold and grey, but the thermal baths and Christmas markets shine.",
+      "splitByRegion": false,
+      "splitReason": "Hungary is a compact, flat country with one continental climate.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Budapest, Lake Balaton, Eger, Tokaj, Pécs and the Danube Bend.",
+          "lat": 47.5,
+          "lon": 19.04,
+          "tags": ["city", "thermal baths", "food", "wine"],
+          "best": [
+            { "from": "04-20", "to": "06-15", "why": "Warm, blossoming Budapest and terrace season.", "goodFor": ["city", "roadtrip", "nature"] },
+            { "from": "09-01", "to": "10-20", "why": "Harvest festivals in Eger and Tokaj, with comfortable city days.", "goodFor": ["city", "roadtrip", "nature"] }
+          ],
+          "worst": [
+            { "from": "01-07", "to": "02-28", "why": "Cold, foggy and grey (−3 to 3 °C), though the thermal baths shine." }
+          ],
+          "shoulder": [
+            { "from": "11-01", "to": "01-06", "why": "Christmas markets and the thermal baths." },
+            { "from": "03-01", "to": "04-19", "why": "Cool spring." },
+            { "from": "06-16", "to": "08-31", "why": "Hot (28–33 °C), with the Lake Balaton season and the Sziget festival." },
+            { "from": "10-21", "to": "10-31", "why": "Autumn colour." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "03-15", "to": "11-15" }, { "from": "11-20", "to": "12-31" } ],
+            "beach": [ { "from": "06-15", "to": "08-31" } ],
+            "roadtrip": [ { "from": "04-15", "to": "10-15" } ],
+            "nature": [ { "from": "04-15", "to": "10-15" } ]
+          },
+          "climate": {
+            "avgHighC": [2, 5, 11, 17, 22, 25, 28, 27, 22, 16, 8, 3],
+            "avgLowC": [-3, -2, 2, 7, 11, 15, 17, 16, 12, 7, 2, -1],
+            "rainMm": [35, 35, 30, 45, 60, 65, 50, 55, 45, 40, 55, 45],
+            "rainDays": [7, 6, 6, 6, 8, 8, 7, 7, 6, 5, 8, 8],
+            "sunHours": [65, 95, 140, 190, 240, 250, 280, 260, 200, 150, 70, 50],
+            "seaTempC": null,
+            "humidity": [80, 75, 68, 63, 64, 65, 63, 64, 69, 75, 81, 83]
+          },
+          "crowds": [2, 2, 3, 4, 4, 4, 5, 5, 4, 4, 3, 4],
+          "risks": [ { "type": "extreme heat", "from": "07-01", "to": "08-20", "note": "Heatwaves of 35 °C+." } ],
+          "recurringHolidays": [
+            { "name": "Sziget Festival", "approx": "Early-to-mid August", "effect": "One of Europe's biggest music festivals; Budapest hotels peak.", "dates": { "from": "08-06", "to": "08-12" } },
+            { "name": "St Stephen's Day", "approx": "Aug 20", "effect": "Fireworks over the Danube.", "dates": { "from": "08-20", "to": "08-20" } }
+          ],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 45, "shoulder": 55, "high": 70 },
+            "midrangePerDay": { "low": 90, "shoulder": 110, "high": 140 },
+            "hotelNightMid": { "low": 60, "shoulder": 80, "high": 120 },
+            "notes": "Good value. The famous baths (Széchenyi, Gellért) cost €25–35."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Budapest", "aliases": [], "region": "country" },
+        { "name": "Lake Balaton", "aliases": ["Balaton", "Siófok", "Tihany"], "region": "country" },
+        { "name": "Eger", "aliases": [], "region": "country" },
+        { "name": "Pécs", "aliases": ["Pecs"], "region": "country" },
+        { "name": "Szentendre", "aliases": [], "region": "country" },
+        { "name": "Hévíz", "aliases": ["Heviz"], "region": "country" },
+        { "name": "Tokaj", "aliases": [], "region": "country" },
+        { "name": "Debrecen", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://visithungary.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Hungary" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/hungary" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/hungary/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
       "iso2": "IS",
       "isoNum": "352",
       "name": "Iceland",
@@ -1869,6 +2595,154 @@
       "lastReviewed": "2026-10"
     },
     {
+      "iso2": "XK",
+      "isoNum": "900",
+      "name": "Kosovo",
+      "aliases": ["Kosova", "Republic of Kosovo"],
+      "continent": "Europe",
+      "flag": "🇽🇰",
+      "summary": "Kosovo is young and welcoming. Prishtina, Prizren and the Rugova mountains are best from May to October. Summer brings the diaspora home and festivals such as Dokufest in Prizren. Winter is cold, with smog in the capital, and skiing at Brezovica.",
+      "splitByRegion": false,
+      "splitReason": "Kosovo is a small, landlocked country with one continental calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Prishtina, Prizren, Peja and the Rugova Gorge, Gjakova and Brezovica.",
+          "lat": 42.66,
+          "lon": 21.17,
+          "tags": ["city", "mountain", "history", "value"],
+          "best": [
+            { "from": "05-15", "to": "06-30", "why": "Green mountains and pleasant city days.", "goodFor": ["city", "mountain", "roadtrip", "nature"] },
+            { "from": "09-01", "to": "10-15", "why": "A golden autumn in Rugova.", "goodFor": ["city", "mountain", "roadtrip", "nature"] }
+          ],
+          "worst": [ { "from": "12-01", "to": "02-28", "why": "Cold, with smog in Prishtina." } ],
+          "shoulder": [
+            { "from": "03-01", "to": "05-14", "why": "Spring arriving." },
+            { "from": "07-01", "to": "08-31", "why": "The diaspora returns: busy, hot and festive (Dokufest in Prizren)." },
+            { "from": "10-16", "to": "11-30", "why": "Cooling down." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "04-15", "to": "10-31" } ],
+            "mountain": [ { "from": "06-01", "to": "09-30" } ],
+            "nature": [ { "from": "05-15", "to": "10-15" } ],
+            "snow": [ { "from": "12-20", "to": "03-10" } ],
+            "roadtrip": [ { "from": "05-01", "to": "10-15" } ]
+          },
+          "climate": {
+            "avgHighC": [3, 5, 11, 16, 21, 25, 28, 28, 24, 17, 10, 4],
+            "avgLowC": [-5, -4, 0, 4, 8, 12, 13, 13, 9, 5, 1, -3],
+            "rainMm": [40, 40, 45, 55, 65, 60, 45, 40, 45, 50, 65, 55],
+            "rainDays": [9, 9, 10, 11, 11, 9, 7, 6, 7, 8, 10, 10],
+            "sunHours": [70, 95, 140, 170, 220, 260, 300, 290, 220, 160, 85, 60],
+            "seaTempC": null,
+            "humidity": [82, 77, 71, 67, 67, 65, 62, 62, 68, 74, 80, 84]
+          },
+          "crowds": [1, 1, 1, 2, 3, 3, 4, 5, 3, 2, 1, 1],
+          "risks": [ { "type": "air pollution", "from": "11-15", "to": "02-28", "note": "Winter smog in Prishtina." } ],
+          "recurringHolidays": [
+            { "name": "Dokufest (Prizren)", "approx": "Early August", "effect": "The documentary film festival; Prizren is busy.", "dates": { "from": "08-01", "to": "08-09" } }
+          ],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 35, "high": 45 },
+            "midrangePerDay": { "low": 60, "shoulder": 70, "high": 85 },
+            "hotelNightMid": { "low": 35, "shoulder": 45, "high": 65 },
+            "notes": "Uses the euro, and is very affordable."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Pristina", "aliases": ["Prishtina", "Prishtinë"], "region": "country" },
+        { "name": "Prizren", "aliases": [], "region": "country" },
+        { "name": "Peja", "aliases": ["Peć", "Pec", "Rugova Gorge"], "region": "country" },
+        { "name": "Gjakova", "aliases": [], "region": "country" },
+        { "name": "Brezovica", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Kosovo" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/kosovo" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/kosovo/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "LV",
+      "isoNum": "428",
+      "name": "Latvia",
+      "aliases": ["Latvija"],
+      "continent": "Europe",
+      "flag": "🇱🇻",
+      "summary": "Riga's Art Nouveau streets and the Jūrmala beaches are best in summer, when Midsummer (Jāņi) is the biggest celebration of the year. Spring and autumn are cool, and winter is dark and snowy.",
+      "splitByRegion": false,
+      "splitReason": "Latvia is small and flat, with one Baltic climate.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Riga, Jūrmala, Sigulda and Gauja National Park, Cēsis, Rundāle and Kurzeme.",
+          "lat": 56.95,
+          "lon": 24.11,
+          "tags": ["city", "beach", "architecture", "nature"],
+          "best": [
+            { "from": "06-01", "to": "08-31", "why": "Jūrmala beaches, Riga's Art Nouveau in summer light and Jāņi (Midsummer).", "goodFor": ["city", "beach", "nature", "roadtrip"] }
+          ],
+          "worst": [ { "from": "01-07", "to": "02-28", "why": "Dark, cold and grey." } ],
+          "shoulder": [
+            { "from": "11-01", "to": "01-06", "why": "Christmas lights in Riga." },
+            { "from": "03-01", "to": "05-31", "why": "Spring arriving." },
+            { "from": "09-01", "to": "10-31", "why": "Golden autumn in Gauja." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "05-01", "to": "09-30" }, { "from": "11-25", "to": "12-31" } ],
+            "nature": [ { "from": "05-15", "to": "09-30" } ],
+            "beach": [ { "from": "07-01", "to": "08-15" } ],
+            "roadtrip": [ { "from": "05-15", "to": "09-15" } ]
+          },
+          "climate": {
+            "avgHighC": [-2, -1, 3, 11, 17, 21, 23, 22, 17, 11, 4, 0],
+            "avgLowC": [-7, -7, -4, 1, 6, 10, 13, 12, 8, 4, 0, -4],
+            "rainMm": [35, 30, 30, 35, 40, 65, 75, 75, 65, 60, 50, 45],
+            "rainDays": [11, 9, 9, 8, 8, 9, 10, 11, 11, 12, 12, 12],
+            "sunHours": [35, 65, 130, 200, 280, 290, 290, 250, 160, 90, 40, 25],
+            "seaTempC": [1, 0, 1, 4, 10, 16, 19, 19, 15, 11, 6, 3],
+            "humidity": [86, 84, 79, 71, 67, 71, 74, 77, 81, 84, 88, 88]
+          },
+          "crowds": [2, 2, 2, 2, 3, 4, 5, 5, 3, 2, 2, 3],
+          "risks": [ { "type": "extreme cold", "from": "01-01", "to": "02-28", "note": "Icy winter." } ],
+          "recurringHolidays": [
+            { "name": "Jāņi (Midsummer)", "approx": "Jun 23 – Jun 24", "effect": "Latvia's biggest holiday: shops close and everyone heads to the countryside.", "dates": { "from": "06-23", "to": "06-24" } }
+          ],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 50, "shoulder": 60, "high": 75 },
+            "midrangePerDay": { "low": 100, "shoulder": 115, "high": 140 },
+            "hotelNightMid": { "low": 70, "shoulder": 85, "high": 120 },
+            "notes": "Good value. Riga's old town is pricier than the centre."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Riga", "aliases": [], "region": "country" },
+        { "name": "Jūrmala", "aliases": ["Jurmala"], "region": "country" },
+        { "name": "Sigulda", "aliases": ["Gauja"], "region": "country" },
+        { "name": "Cēsis", "aliases": ["Cesis"], "region": "country" },
+        { "name": "Rundāle", "aliases": ["Rundale Palace"], "region": "country" },
+        { "name": "Liepāja", "aliases": ["Liepaja"], "region": "country" },
+        { "name": "Kuldīga", "aliases": ["Kuldiga"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Latvia" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/latvia" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/latvia/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
       "iso2": "LI",
       "isoNum": "438",
       "name": "Liechtenstein",
@@ -1933,6 +2807,78 @@
         { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Liechtenstein" },
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/liechtenstein" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/liechtenstein/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "LT",
+      "isoNum": "440",
+      "name": "Lithuania",
+      "aliases": ["Lietuva"],
+      "continent": "Europe",
+      "flag": "🇱🇹",
+      "summary": "Vilnius's baroque old town, Trakai castle and the Curonian Spit's dunes are best from June to August, with white-ish nights and Midsummer (Joninės). Winters are long and cold.",
+      "splitByRegion": false,
+      "splitReason": "Lithuania is small and flat, with one Baltic climate.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Vilnius, Trakai, Kaunas, Klaipėda, the Curonian Spit and Palanga.",
+          "lat": 54.69,
+          "lon": 25.28,
+          "tags": ["city", "history", "beach", "nature"],
+          "best": [
+            { "from": "06-01", "to": "08-31", "why": "The Curonian Spit's dunes, terraces in Vilnius's old town and Midsummer (Joninės).", "goodFor": ["city", "beach", "nature", "roadtrip"] }
+          ],
+          "worst": [ { "from": "01-07", "to": "02-28", "why": "Dark and cold, with icy streets." } ],
+          "shoulder": [
+            { "from": "11-01", "to": "01-06", "why": "Christmas in Vilnius." },
+            { "from": "03-01", "to": "05-31", "why": "Spring arriving." },
+            { "from": "09-01", "to": "10-31", "why": "Golden autumn." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "05-01", "to": "09-30" }, { "from": "11-25", "to": "12-31" } ],
+            "nature": [ { "from": "05-15", "to": "09-30" } ],
+            "beach": [ { "from": "07-01", "to": "08-15" } ],
+            "roadtrip": [ { "from": "05-15", "to": "09-15" } ]
+          },
+          "climate": {
+            "avgHighC": [-2, -1, 4, 12, 18, 21, 23, 22, 17, 10, 4, 0],
+            "avgLowC": [-7, -7, -3, 2, 7, 11, 13, 12, 8, 3, -1, -5],
+            "rainMm": [40, 35, 40, 45, 55, 70, 85, 75, 60, 55, 55, 50],
+            "rainDays": [11, 10, 10, 9, 9, 10, 10, 10, 10, 11, 12, 12],
+            "sunHours": [35, 60, 120, 180, 260, 260, 270, 250, 170, 100, 40, 25],
+            "seaTempC": [2, 1, 1, 4, 10, 16, 19, 19, 15, 11, 6, 3],
+            "humidity": [86, 84, 79, 71, 68, 72, 74, 77, 81, 84, 88, 88]
+          },
+          "crowds": [2, 2, 2, 2, 3, 4, 5, 5, 3, 2, 2, 3],
+          "risks": [ { "type": "extreme cold", "from": "01-01", "to": "02-28", "note": "Icy winter." } ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 50, "shoulder": 60, "high": 70 },
+            "midrangePerDay": { "low": 95, "shoulder": 110, "high": 130 },
+            "hotelNightMid": { "low": 65, "shoulder": 80, "high": 110 },
+            "notes": "Good value. Nida on the Curonian Spit books out in July."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Vilnius", "aliases": [], "region": "country" },
+        { "name": "Trakai", "aliases": [], "region": "country" },
+        { "name": "Kaunas", "aliases": [], "region": "country" },
+        { "name": "Klaipėda", "aliases": ["Klaipeda"], "region": "country" },
+        { "name": "Curonian Spit", "aliases": ["Nida", "Neringa"], "region": "country" },
+        { "name": "Hill of Crosses", "aliases": ["Šiauliai", "Siauliai"], "region": "country" },
+        { "name": "Palanga", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Lithuania" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/lithuania" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/lithuania/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"
@@ -2086,6 +3032,80 @@
       "lastReviewed": "2026-10"
     },
     {
+      "iso2": "MD",
+      "isoNum": "498",
+      "name": "Moldova",
+      "aliases": ["Republic of Moldova"],
+      "continent": "Europe",
+      "flag": "🇲🇩",
+      "summary": "Moldova is wine country, with vast cellars at Cricova and Mileștii Mici. Visit in late spring or during the September–October harvest, when National Wine Day falls in early October. Winters are cold and grey.",
+      "splitByRegion": false,
+      "splitReason": "Moldova is small and landlocked, with one continental calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Chișinău, the Cricova and Mileștii Mici wine cellars, Orheiul Vechi and Soroca.",
+          "lat": 47.01,
+          "lon": 28.86,
+          "tags": ["wine", "city", "history"],
+          "best": [
+            { "from": "05-01", "to": "06-20", "why": "Green countryside and pleasant warmth.", "goodFor": ["city", "roadtrip", "nature"] },
+            { "from": "09-01", "to": "10-15", "why": "The wine harvest and National Wine Day (early October).", "goodFor": ["city", "roadtrip", "nature"] }
+          ],
+          "worst": [ { "from": "01-07", "to": "02-28", "why": "Cold and grey, with few visitors." } ],
+          "shoulder": [
+            { "from": "11-01", "to": "01-06", "why": "Chilly, with festive lights." },
+            { "from": "03-01", "to": "04-30", "why": "Cool spring." },
+            { "from": "06-21", "to": "08-31", "why": "Hot summer." },
+            { "from": "10-16", "to": "10-31", "why": "Late autumn." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "04-15", "to": "10-31" } ],
+            "roadtrip": [ { "from": "05-01", "to": "10-15" } ],
+            "nature": [ { "from": "05-01", "to": "10-15" } ]
+          },
+          "climate": {
+            "avgHighC": [1, 3, 9, 16, 22, 26, 28, 28, 22, 16, 8, 2],
+            "avgLowC": [-5, -4, 0, 6, 11, 15, 17, 16, 12, 6, 1, -3],
+            "rainMm": [40, 35, 30, 40, 50, 75, 65, 50, 45, 30, 40, 40],
+            "rainDays": [9, 8, 8, 8, 9, 10, 8, 6, 6, 6, 9, 10],
+            "sunHours": [70, 90, 130, 180, 250, 280, 310, 300, 220, 160, 80, 60],
+            "seaTempC": null,
+            "humidity": [84, 80, 75, 68, 66, 68, 67, 67, 72, 77, 84, 86]
+          },
+          "crowds": [1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 1, 2],
+          "risks": [ { "type": "extreme heat", "from": "07-01", "to": "08-15", "note": "Heatwaves." } ],
+          "recurringHolidays": [
+            { "name": "National Wine Day", "approx": "First weekend of October", "effect": "Wine festival in Chișinău.", "dates": { "from": "10-04", "to": "10-06" } }
+          ],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 35, "high": 45 },
+            "midrangePerDay": { "low": 60, "shoulder": 70, "high": 85 },
+            "hotelNightMid": { "low": 35, "shoulder": 45, "high": 65 },
+            "notes": "Very cheap. Check advice before visiting Transnistria."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Chișinău", "aliases": ["Chisinau"], "region": "country" },
+        { "name": "Cricova", "aliases": [], "region": "country" },
+        { "name": "Mileștii Mici", "aliases": ["Milestii Mici"], "region": "country" },
+        { "name": "Orheiul Vechi", "aliases": ["Old Orhei"], "region": "country" },
+        { "name": "Tiraspol", "aliases": ["Transnistria"], "region": "country" },
+        { "name": "Soroca", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Moldova" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/moldova" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/moldova/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
       "iso2": "MC",
       "isoNum": "492",
       "name": "Monaco",
@@ -2149,6 +3169,89 @@
         { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Monaco" },
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/monaco" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/monaco/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "ME",
+      "isoNum": "499",
+      "name": "Montenegro",
+      "aliases": ["Crna Gora"],
+      "continent": "Europe",
+      "flag": "🇲🇪",
+      "summary": "Montenegro's Bay of Kotor and Budva beaches shine from late spring to early autumn, while Durmitor's mountains are a summer hiking and rafting destination. July–August is crowded and expensive. Winters on the coast are among Europe's wettest.",
+      "splitByRegion": false,
+      "splitReason": "Montenegro is small, and the coast and Durmitor mountains share one calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Kotor and its bay, Budva, Herceg Novi, Ulcinj, Durmitor and the Tara Canyon, and Cetinje.",
+          "lat": 42.42,
+          "lon": 18.77,
+          "tags": ["beach", "mountain", "history", "nature"],
+          "best": [
+            { "from": "05-15", "to": "06-30", "why": "A warm sea and calm old towns before the cruise peak.", "goodFor": ["beach", "city", "roadtrip", "nature"] },
+            { "from": "09-01", "to": "10-10", "why": "The sea is still warm, with crowds thinning.", "goodFor": ["beach", "city", "roadtrip", "mountain"] }
+          ],
+          "worst": [
+            { "from": "07-15", "to": "08-20", "why": "Peak crowds in Kotor and Budva, with peak prices." },
+            { "from": "11-15", "to": "03-15", "why": "The coast is among Europe's wettest (2,000+ mm in Kotor), and resorts close." }
+          ],
+          "shoulder": [
+            { "from": "03-16", "to": "05-14", "why": "Spring, with snow on the peaks." },
+            { "from": "07-01", "to": "07-14", "why": "Hot and busy." },
+            { "from": "08-21", "to": "08-31", "why": "Still busy." },
+            { "from": "10-11", "to": "11-14", "why": "Rains are returning." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "06-01", "to": "09-30" } ],
+            "mountain": [ { "from": "06-15", "to": "09-30" } ],
+            "city": [ { "from": "04-15", "to": "10-31" } ],
+            "roadtrip": [ { "from": "05-01", "to": "10-15" } ],
+            "nature": [ { "from": "05-01", "to": "10-15" } ],
+            "snow": [ { "from": "12-20", "to": "03-15" } ]
+          },
+          "climate": {
+            "avgHighC": [12, 13, 15, 18, 23, 27, 30, 30, 26, 21, 16, 13],
+            "avgLowC": [4, 5, 7, 10, 14, 17, 20, 20, 16, 12, 8, 5],
+            "rainMm": [200, 190, 170, 140, 100, 70, 40, 70, 150, 220, 250, 240],
+            "rainDays": [13, 12, 12, 12, 10, 7, 4, 5, 8, 11, 14, 14],
+            "sunHours": [120, 130, 170, 200, 260, 300, 340, 310, 240, 180, 120, 110],
+            "seaTempC": [14, 14, 14, 15, 18, 22, 24, 25, 23, 20, 17, 15],
+            "humidity": [66, 65, 66, 68, 69, 66, 62, 63, 67, 69, 69, 68]
+          },
+          "crowds": [1, 1, 2, 3, 4, 5, 5, 5, 4, 2, 1, 1],
+          "risks": [
+            { "type": "heavy rain", "from": "10-15", "to": "03-15", "note": "Torrential winter rain." },
+            { "type": "wildfire", "from": "07-01", "to": "09-15", "note": "Coastal fires." }
+          ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 50, "shoulder": 60, "high": 80 },
+            "midrangePerDay": { "low": 90, "shoulder": 120, "high": 170 },
+            "hotelNightMid": { "low": 60, "shoulder": 90, "high": 150 },
+            "notes": "Stay in Perast or Dobrota to avoid Kotor's cruise crowds."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Kotor", "aliases": ["Bay of Kotor", "Perast"], "region": "country" },
+        { "name": "Budva", "aliases": ["Sveti Stefan"], "region": "country" },
+        { "name": "Tivat", "aliases": ["Porto Montenegro"], "region": "country" },
+        { "name": "Herceg Novi", "aliases": [], "region": "country" },
+        { "name": "Ulcinj", "aliases": [], "region": "country" },
+        { "name": "Durmitor", "aliases": ["Žabljak", "Zabljak", "Tara Canyon"], "region": "country" },
+        { "name": "Podgorica", "aliases": [], "region": "country" },
+        { "name": "Lovćen", "aliases": ["Lovcen", "Cetinje"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Montenegro" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/montenegro" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/montenegro/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"
@@ -2231,6 +3334,81 @@
         { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Netherlands" },
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/netherlands" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/netherlands/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "MK",
+      "isoNum": "807",
+      "name": "North Macedonia",
+      "aliases": ["Macedonia", "Severna Makedonija"],
+      "continent": "Europe",
+      "flag": "🇲🇰",
+      "summary": "Lake Ohrid is the highlight: swimming from June to early September and quiet beauty in spring and autumn. Skopje is quirky and cheap. Winters are cold, with heavy smog in Skopje.",
+      "splitByRegion": false,
+      "splitReason": "North Macedonia is small and landlocked, with one continental calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Skopje, Ohrid, Bitola, the Matka Canyon and Mavrovo.",
+          "lat": 41.12,
+          "lon": 20.8,
+          "tags": ["lake", "history", "city", "nature"],
+          "best": [
+            { "from": "05-15", "to": "06-30", "why": "Warm days at Lake Ohrid before the summer crowds.", "goodFor": ["city", "nature", "roadtrip", "beach"] },
+            { "from": "09-01", "to": "10-15", "why": "A calm lake and a mild autumn.", "goodFor": ["city", "nature", "roadtrip"] }
+          ],
+          "worst": [ { "from": "12-01", "to": "02-28", "why": "Cold, with severe smog in Skopje." } ],
+          "shoulder": [
+            { "from": "03-01", "to": "05-14", "why": "Spring blossom." },
+            { "from": "07-01", "to": "08-31", "why": "The Ohrid Summer Festival and busy lake beaches." },
+            { "from": "10-16", "to": "11-30", "why": "Cooling, with the first smog days." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "04-15", "to": "10-31" } ],
+            "beach": [ { "from": "06-15", "to": "09-10" } ],
+            "nature": [ { "from": "05-01", "to": "10-15" } ],
+            "mountain": [ { "from": "06-01", "to": "09-30" } ],
+            "roadtrip": [ { "from": "05-01", "to": "10-15" } ]
+          },
+          "climate": {
+            "avgHighC": [4, 7, 12, 17, 22, 26, 29, 29, 25, 18, 11, 6],
+            "avgLowC": [-3, -2, 1, 5, 9, 13, 15, 15, 11, 7, 2, -1],
+            "rainMm": [60, 55, 60, 55, 65, 45, 35, 35, 50, 65, 85, 75],
+            "rainDays": [10, 9, 10, 10, 10, 7, 5, 4, 5, 7, 10, 11],
+            "sunHours": [90, 110, 150, 180, 230, 270, 320, 300, 230, 170, 100, 80],
+            "seaTempC": null,
+            "humidity": [78, 74, 69, 65, 65, 61, 57, 58, 64, 71, 77, 80]
+          },
+          "crowds": [1, 1, 2, 3, 3, 4, 5, 5, 4, 2, 1, 1],
+          "risks": [
+            { "type": "air pollution", "from": "11-15", "to": "02-28", "note": "Skopje and Tetovo have some of Europe's worst winter smog." }
+          ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 35, "high": 45 },
+            "midrangePerDay": { "low": 60, "shoulder": 70, "high": 90 },
+            "hotelNightMid": { "low": 35, "shoulder": 45, "high": 70 },
+            "notes": "Very cheap. Ohrid books up in August."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Skopje", "aliases": [], "region": "country" },
+        { "name": "Ohrid", "aliases": ["Lake Ohrid"], "region": "country" },
+        { "name": "Bitola", "aliases": [], "region": "country" },
+        { "name": "Mavrovo", "aliases": [], "region": "country" },
+        { "name": "Matka Canyon", "aliases": ["Matka"], "region": "country" },
+        { "name": "Kratovo", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/North_Macedonia" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/north-macedonia" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/north-macedonia/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"
@@ -2422,6 +3600,91 @@
         { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Norway" },
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/norway" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/norway/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "PL",
+      "isoNum": "616",
+      "name": "Poland",
+      "aliases": ["Polska"],
+      "continent": "Europe",
+      "flag": "🇵🇱",
+      "summary": "Poland has warm summers and cold winters. May–June and the 'golden Polish autumn' (September–early October) are ideal for Kraków, Warsaw and Gdańsk. Summer brings Baltic beaches and Tatra hiking, and December brings Christmas markets. January to March is cold and grey, with smog in Kraków, though it's ski season in Zakopane.",
+      "splitByRegion": false,
+      "splitReason": "Poland follows one continental calendar, with the Baltic coast adding summer beaches and the Tatras skiing.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "The whole country: Kraków, Warsaw, Gdańsk, Wrocław, Zakopane and the Tatras, the Masurian lakes and the Baltic coast.",
+          "lat": 50.06,
+          "lon": 19.94,
+          "tags": ["city", "history", "food", "mountain"],
+          "best": [
+            { "from": "05-01", "to": "06-30", "why": "Warm 18–24 °C with beer gardens and green parks.", "goodFor": ["city", "roadtrip", "nature"] },
+            { "from": "09-01", "to": "10-10", "why": "The golden Polish autumn: mild, sunny and colourful.", "goodFor": ["city", "roadtrip", "nature", "mountain"] }
+          ],
+          "worst": [ { "from": "01-07", "to": "03-10", "why": "Cold (−5 °C), grey and smoggy in Kraków." } ],
+          "shoulder": [
+            { "from": "11-25", "to": "01-06", "why": "Kraków's Christmas markets, but cold." },
+            { "from": "03-11", "to": "04-30", "why": "Spring arriving slowly." },
+            { "from": "07-01", "to": "08-31", "why": "Busy summer, with Baltic beaches and Tatra crowds." },
+            { "from": "10-11", "to": "11-24", "why": "Damp late autumn." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "04-15", "to": "10-15" }, { "from": "11-25", "to": "12-23" } ],
+            "mountain": [ { "from": "06-01", "to": "09-30" } ],
+            "snow": [ { "from": "12-20", "to": "03-15" } ],
+            "beach": [ { "from": "07-01", "to": "08-25" } ],
+            "roadtrip": [ { "from": "05-01", "to": "09-30" } ],
+            "nature": [ { "from": "05-01", "to": "10-10" } ]
+          },
+          "climate": {
+            "avgHighC": [1, 3, 8, 14, 19, 22, 24, 24, 19, 13, 7, 2],
+            "avgLowC": [-5, -4, -1, 4, 9, 12, 14, 13, 9, 5, 1, -3],
+            "rainMm": [35, 30, 35, 45, 75, 85, 90, 75, 60, 45, 40, 40],
+            "rainDays": [9, 8, 9, 9, 11, 11, 11, 10, 9, 8, 9, 10],
+            "sunHours": [45, 65, 115, 160, 215, 215, 230, 215, 155, 115, 55, 40],
+            "seaTempC": [3, 2, 3, 6, 10, 15, 18, 19, 16, 12, 8, 5],
+            "humidity": [84, 81, 76, 70, 70, 72, 73, 74, 79, 82, 86, 86]
+          },
+          "crowds": [2, 2, 2, 3, 4, 4, 5, 5, 4, 3, 2, 4],
+          "risks": [
+            { "type": "air pollution", "from": "11-15", "to": "03-15", "note": "Winter smog in Kraków and Silesia." },
+            { "type": "thunderstorms", "from": "06-15", "to": "08-31", "note": "Summer storms." }
+          ],
+          "recurringHolidays": [
+            { "name": "Christmas markets", "approx": "Late November – Dec 23", "effect": "Kraków's main square market.", "dates": { "from": "11-25", "to": "12-23" } }
+          ],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 45, "shoulder": 55, "high": 70 },
+            "midrangePerDay": { "low": 90, "shoulder": 110, "high": 140 },
+            "hotelNightMid": { "low": 60, "shoulder": 80, "high": 110 },
+            "notes": "Good value. Book Auschwitz-Birkenau guided tours online in advance."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Warsaw", "aliases": ["Warszawa"], "region": "country" },
+        { "name": "Kraków", "aliases": ["Krakow", "Cracow", "Wieliczka", "Auschwitz"], "region": "country" },
+        { "name": "Gdańsk", "aliases": ["Gdansk", "Sopot", "Gdynia"], "region": "country" },
+        { "name": "Wrocław", "aliases": ["Wroclaw"], "region": "country" },
+        { "name": "Zakopane", "aliases": ["Tatras", "Tatra Mountains"], "region": "country" },
+        { "name": "Poznań", "aliases": ["Poznan"], "region": "country" },
+        { "name": "Toruń", "aliases": ["Torun"], "region": "country" },
+        { "name": "Malbork", "aliases": [], "region": "country" },
+        { "name": "Masuria", "aliases": ["Masurian Lakes"], "region": "country" },
+        { "name": "Białowieża", "aliases": ["Bialowieza"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.poland.travel" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Poland" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/poland" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/poland/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"
@@ -2668,6 +3931,365 @@
       "lastReviewed": "2026-10"
     },
     {
+      "iso2": "RO",
+      "isoNum": "642",
+      "name": "Romania",
+      "aliases": ["România"],
+      "continent": "Europe",
+      "flag": "🇷🇴",
+      "summary": "Romania's Transylvanian towns and Carpathian scenery are best from late spring to mid-autumn. The spectacular Transfăgărășan road opens only from July to October, and the Danube Delta's birdlife peaks in May–June. Winter brings snowy villages and skiing at Poiana Brașov.",
+      "splitByRegion": false,
+      "splitReason": "Transylvania, Bucharest, the Danube Delta and the coast follow one continental calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "The whole country: Transylvania (Brașov, Sibiu, Sighișoara, Bran), Bucharest, the Carpathians, Maramureș, Bucovina, the Danube Delta and the Black Sea.",
+          "lat": 45.66,
+          "lon": 25.6,
+          "tags": ["castles", "mountain", "nature", "history"],
+          "best": [
+            { "from": "05-15", "to": "06-30", "why": "Green Carpathians, with the Danube Delta's birdlife at its peak (May–June).", "goodFor": ["city", "nature", "roadtrip", "mountain"] },
+            { "from": "09-01", "to": "10-15", "why": "A golden Transylvanian autumn, with the Transfăgărășan still open.", "goodFor": ["city", "nature", "roadtrip", "mountain"] }
+          ],
+          "worst": [ { "from": "03-15", "to": "04-30", "why": "The thaw: muddy and grey, with mountain roads closed." } ],
+          "shoulder": [
+            { "from": "12-15", "to": "03-14", "why": "Skiing at Poiana Brașov and Christmas markets." },
+            { "from": "05-01", "to": "05-14", "why": "Spring greening." },
+            { "from": "07-01", "to": "08-31", "why": "A busy Black Sea coast and the Transfăgărășan open." },
+            { "from": "10-16", "to": "12-14", "why": "Cool late autumn." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "04-15", "to": "10-31" }, { "from": "12-01", "to": "12-23" } ],
+            "mountain": [ { "from": "06-15", "to": "09-30" } ],
+            "snow": [ { "from": "12-15", "to": "03-15" } ],
+            "roadtrip": [ { "from": "07-01", "to": "10-15" } ],
+            "nature": [ { "from": "05-01", "to": "09-30" } ],
+            "beach": [ { "from": "07-01", "to": "08-31" } ]
+          },
+          "climate": {
+            "avgHighC": [1, 3, 9, 15, 20, 23, 25, 25, 20, 14, 8, 2],
+            "avgLowC": [-9, -8, -3, 2, 7, 10, 12, 11, 7, 2, -2, -7],
+            "rainMm": [25, 25, 35, 55, 85, 105, 105, 80, 55, 40, 35, 30],
+            "rainDays": [7, 7, 8, 10, 13, 13, 12, 10, 8, 7, 7, 8],
+            "sunHours": [80, 100, 140, 170, 210, 230, 260, 250, 190, 150, 90, 70],
+            "seaTempC": [4, 4, 6, 10, 16, 21, 23, 23, 20, 15, 10, 6],
+            "humidity": [85, 82, 77, 73, 75, 77, 77, 78, 80, 82, 85, 86]
+          },
+          "crowds": [2, 2, 2, 3, 3, 4, 5, 5, 4, 3, 2, 3],
+          "risks": [
+            { "type": "road closures", "from": "11-01", "to": "06-30", "note": "The Transfăgărășan and Transalpina are closed." }
+          ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 50, "high": 60 },
+            "midrangePerDay": { "low": 80, "shoulder": 95, "high": 120 },
+            "hotelNightMid": { "low": 50, "shoulder": 65, "high": 90 },
+            "notes": "Good value. Driving is the best way to explore the villages."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Bucharest", "aliases": ["București", "Bucuresti"], "region": "country" },
+        { "name": "Brașov", "aliases": ["Brasov", "Bran Castle", "Bran"], "region": "country" },
+        { "name": "Sibiu", "aliases": [], "region": "country" },
+        { "name": "Sighișoara", "aliases": ["Sighisoara"], "region": "country" },
+        { "name": "Cluj-Napoca", "aliases": ["Cluj"], "region": "country" },
+        { "name": "Transfăgărășan", "aliases": ["Transfagarasan", "Balea Lake"], "region": "country" },
+        { "name": "Danube Delta", "aliases": ["Tulcea"], "region": "country" },
+        { "name": "Constanța", "aliases": ["Constanta", "Mamaia"], "region": "country" },
+        { "name": "Maramureș", "aliases": ["Maramures"], "region": "country" },
+        { "name": "Bucovina", "aliases": ["Suceava", "Painted Monasteries"], "region": "country" },
+        { "name": "Sinaia", "aliases": ["Peleș", "Peles"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://romania.travel" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Romania" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/romania" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/romania/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "RU",
+      "isoNum": "643",
+      "name": "Russia",
+      "aliases": ["Russian Federation", "Rossiya"],
+      "continent": "Europe",
+      "flag": "🇷🇺",
+      "summary": "Many governments, including the UK's, advise against all travel to Russia, so check current advice. Seasonally, Moscow and St Petersburg are best from late May to mid-July (St Petersburg's White Nights) and in the brief golden autumn. Sochi is a subtropical summer resort with winter skiing nearby. Lake Baikal is spectacular when frozen (February–March) and in summer. Kamchatka's volcanoes and bears are a July–September expedition.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "moscow",
+          "name": "Moscow, St Petersburg & the Golden Ring",
+          "description": "Moscow, St Petersburg, the Golden Ring towns (Suzdal, Vladimir) and Kazan.",
+          "lat": 55.76,
+          "lon": 37.62,
+          "tags": ["city", "culture", "history", "art"],
+          "best": [
+            { "from": "05-20", "to": "07-15", "why": "St Petersburg's White Nights (late May to mid-July) and lush Moscow parks.", "goodFor": ["city", "roadtrip", "nature"] },
+            { "from": "09-01", "to": "09-30", "why": "A brief golden autumn.", "goodFor": ["city", "roadtrip"] }
+          ],
+          "worst": [ { "from": "11-01", "to": "03-15", "why": "Dark, snowy and −10 °C, with slush." } ],
+          "shoulder": [
+            { "from": "03-16", "to": "05-19", "why": "A late spring thaw." },
+            { "from": "07-16", "to": "08-31", "why": "Warm and busy." },
+            { "from": "10-01", "to": "10-31", "why": "Cold and grey arriving." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "05-01", "to": "09-30" }, { "from": "12-20", "to": "01-10" } ],
+            "roadtrip": [ { "from": "06-01", "to": "09-15" } ],
+            "nature": [ { "from": "06-01", "to": "09-15" } ]
+          },
+          "climate": {
+            "avgHighC": [-4, -3, 2, 11, 19, 22, 24, 22, 16, 8, 1, -3],
+            "avgLowC": [-10, -10, -5, 2, 8, 12, 14, 12, 7, 2, -3, -7],
+            "rainMm": [50, 40, 35, 40, 50, 80, 85, 80, 65, 65, 55, 50],
+            "rainDays": [12, 10, 9, 9, 10, 11, 12, 11, 11, 11, 12, 13],
+            "sunHours": [30, 60, 130, 170, 270, 280, 280, 250, 150, 80, 30, 20],
+            "seaTempC": null,
+            "humidity": [85, 82, 76, 66, 63, 67, 72, 75, 80, 83, 87, 87]
+          },
+          "crowds": [2, 2, 2, 2, 3, 5, 5, 4, 3, 2, 2, 3],
+          "risks": [ { "type": "extreme cold", "from": "12-15", "to": "02-28", "note": "Severe cold snaps." } ],
+          "recurringHolidays": [
+            { "name": "New Year holidays", "approx": "Dec 31 – Jan 8", "effect": "Russia's longest holiday: transport and resorts are busy.", "dates": { "from": "12-31", "to": "01-08" } },
+            { "name": "May holidays", "approx": "May 1 – May 10", "effect": "A domestic travel peak.", "dates": { "from": "05-01", "to": "05-10" } }
+          ],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 60, "shoulder": 70, "high": 90 },
+            "midrangePerDay": { "low": 110, "shoulder": 130, "high": 170 },
+            "hotelNightMid": { "low": 80, "shoulder": 100, "high": 140 },
+            "notes": "International cards don't work, and visa rules change, so check before going."
+          }
+        },
+        {
+          "id": "south",
+          "name": "Sochi & the Caucasus",
+          "description": "Sochi, Krasnaya Polyana and Rosa Khutor, Mt Elbrus and Dombay.",
+          "lat": 43.6,
+          "lon": 39.73,
+          "tags": ["beach", "mountain", "snow"],
+          "best": [
+            { "from": "06-01", "to": "06-30", "why": "Warm sea and mountain meadows in bloom.", "goodFor": ["beach", "mountain", "nature", "city"] },
+            { "from": "09-01", "to": "10-10", "why": "A warm sea into October.", "goodFor": ["beach", "mountain", "city"] }
+          ],
+          "worst": [ { "from": "11-01", "to": "11-30", "why": "Rainy, with the ski season not yet started." } ],
+          "shoulder": [
+            { "from": "12-01", "to": "04-30", "why": "Skiing at Krasnaya Polyana." },
+            { "from": "05-01", "to": "05-31", "why": "Spring arriving." },
+            { "from": "07-01", "to": "08-31", "why": "Busy summer." },
+            { "from": "10-11", "to": "10-31", "why": "Late autumn." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "06-15", "to": "09-30" } ],
+            "mountain": [ { "from": "06-15", "to": "09-15" } ],
+            "snow": [ { "from": "12-15", "to": "04-10" } ],
+            "city": [ { "from": "05-01", "to": "10-15" } ]
+          },
+          "climate": {
+            "avgHighC": [10, 10, 13, 17, 21, 25, 28, 28, 25, 20, 15, 12],
+            "avgLowC": [3, 3, 6, 9, 13, 17, 20, 20, 16, 12, 8, 5],
+            "rainMm": [180, 130, 115, 115, 90, 90, 85, 80, 110, 140, 170, 180],
+            "rainDays": [14, 12, 12, 11, 10, 9, 7, 7, 8, 10, 12, 14],
+            "sunHours": [90, 100, 140, 170, 230, 270, 290, 280, 220, 170, 110, 80],
+            "seaTempC": [9, 8, 9, 11, 16, 22, 25, 26, 23, 19, 15, 11],
+            "humidity": [72, 70, 72, 74, 77, 77, 77, 76, 76, 75, 73, 72]
+          },
+          "crowds": [2, 3, 2, 2, 3, 4, 5, 5, 4, 2, 2, 3],
+          "risks": [ { "type": "avalanche", "from": "12-01", "to": "04-15", "note": "Caucasus avalanche risk." } ],
+          "recurringHolidays": [
+            { "name": "New Year holidays", "approx": "Dec 31 – Jan 8", "effect": "Russia's longest holiday: transport and resorts are busy.", "dates": { "from": "12-31", "to": "01-08" } },
+            { "name": "May holidays", "approx": "May 1 – May 10", "effect": "A domestic travel peak.", "dates": { "from": "05-01", "to": "05-10" } }
+          ],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 50, "shoulder": 60, "high": 80 },
+            "midrangePerDay": { "low": 90, "shoulder": 110, "high": 150 },
+            "hotelNightMid": { "low": 60, "shoulder": 80, "high": 120 },
+            "notes": "Mostly domestic tourism."
+          }
+        },
+        {
+          "id": "siberia",
+          "name": "Lake Baikal & Siberia",
+          "description": "Lake Baikal (Listvyanka, Olkhon), Irkutsk, the Altai, Novosibirsk, Yekaterinburg and the Trans-Siberian railway.",
+          "lat": 52.29,
+          "lon": 104.3,
+          "tags": ["nature", "lake", "trains", "snow"],
+          "best": [
+            { "from": "02-15", "to": "03-31", "why": "Baikal's clear blue ice: drive, skate and hike on the frozen lake.", "goodFor": ["nature", "snow"] },
+            { "from": "06-20", "to": "08-31", "why": "Warm summer for Olkhon, Altai treks and the Trans-Siberian.", "goodFor": ["nature", "mountain", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "04-15", "to": "05-31", "why": "Ice break-up: the lake is unsafe and roads are muddy." },
+            { "from": "11-01", "to": "12-31", "why": "Freezing, but Baikal isn't walkable yet." }
+          ],
+          "shoulder": [
+            { "from": "01-01", "to": "02-14", "why": "Deep cold (−25 °C) as the ice forms." },
+            { "from": "06-01", "to": "06-19", "why": "Late spring." },
+            { "from": "09-01", "to": "10-31", "why": "Golden larches, then cold." },
+            { "from": "04-01", "to": "04-14", "why": "The ice is weakening." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "02-15", "to": "03-31" }, { "from": "06-15", "to": "09-15" } ],
+            "snow": [ { "from": "12-15", "to": "03-31" } ],
+            "mountain": [ { "from": "06-15", "to": "09-15" } ],
+            "roadtrip": [ { "from": "06-15", "to": "09-15" } ]
+          },
+          "climate": {
+            "avgHighC": [-15, -11, -2, 7, 16, 22, 24, 21, 15, 6, -5, -13],
+            "avgLowC": [-26, -24, -16, -5, 2, 8, 12, 9, 2, -6, -16, -23],
+            "rainMm": [15, 10, 10, 15, 35, 80, 120, 110, 55, 20, 15, 15],
+            "rainDays": [7, 5, 5, 6, 8, 12, 14, 13, 10, 7, 8, 9],
+            "sunHours": [120, 170, 230, 240, 270, 270, 260, 230, 190, 150, 100, 90],
+            "seaTempC": null,
+            "humidity": [80, 75, 65, 55, 55, 65, 75, 80, 75, 70, 78, 80]
+          },
+          "crowds": [2, 3, 4, 1, 2, 4, 5, 5, 3, 1, 1, 1],
+          "risks": [ { "type": "extreme cold", "from": "12-01", "to": "02-28", "note": "−30 °C nights." } ],
+          "recurringHolidays": [
+            { "name": "New Year holidays", "approx": "Dec 31 – Jan 8", "effect": "Russia's longest holiday: transport and resorts are busy.", "dates": { "from": "12-31", "to": "01-08" } },
+            { "name": "May holidays", "approx": "May 1 – May 10", "effect": "A domestic travel peak.", "dates": { "from": "05-01", "to": "05-10" } }
+          ],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 50, "high": 60 },
+            "midrangePerDay": { "low": 70, "shoulder": 85, "high": 110 },
+            "hotelNightMid": { "low": 40, "shoulder": 55, "high": 80 },
+            "notes": "Book Trans-Siberian compartments well in advance in summer."
+          }
+        },
+        {
+          "id": "fareast",
+          "name": "Kamchatka & the Far East",
+          "description": "Kamchatka (volcanoes, bears, the Valley of Geysers), Vladivostok and Sakhalin.",
+          "lat": 53.02,
+          "lon": 158.65,
+          "tags": ["volcano", "wildlife", "nature", "expedition"],
+          "best": [
+            { "from": "07-01", "to": "09-15", "why": "Volcano treks, brown bears at Kurile Lake and the Valley of Geysers by helicopter.", "goodFor": ["nature", "mountain"] }
+          ],
+          "worst": [ { "from": "11-01", "to": "01-31", "why": "Deep snow and storms, with most excursions closed." } ],
+          "shoulder": [
+            { "from": "02-01", "to": "04-15", "why": "Heli-skiing season." },
+            { "from": "04-16", "to": "06-30", "why": "Snowmelt and muddy trails." },
+            { "from": "09-16", "to": "10-31", "why": "Autumn colours, then early snow." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "07-01", "to": "09-30" } ],
+            "mountain": [ { "from": "07-01", "to": "09-15" } ],
+            "snow": [ { "from": "02-01", "to": "04-30" } ]
+          },
+          "climate": {
+            "avgHighC": [-4, -4, -1, 3, 8, 13, 16, 17, 13, 7, 1, -3],
+            "avgLowC": [-11, -11, -8, -3, 1, 6, 10, 10, 6, 0, -5, -9],
+            "rainMm": [100, 80, 80, 70, 60, 50, 70, 90, 100, 130, 110, 100],
+            "rainDays": [15, 13, 14, 12, 11, 10, 12, 13, 13, 15, 15, 15],
+            "sunHours": [60, 100, 160, 170, 170, 170, 170, 170, 160, 130, 80, 50],
+            "seaTempC": null,
+            "humidity": [70, 70, 70, 72, 78, 85, 88, 87, 80, 73, 70, 70]
+          },
+          "crowds": [2, 2, 3, 2, 2, 4, 5, 5, 4, 2, 1, 1],
+          "risks": [ { "type": "extreme cold", "from": "12-01", "to": "02-28", "note": "Blizzards." } ],
+          "recurringHolidays": [
+            { "name": "New Year holidays", "approx": "Dec 31 – Jan 8", "effect": "Russia's longest holiday: transport and resorts are busy.", "dates": { "from": "12-31", "to": "01-08" } },
+            { "name": "May holidays", "approx": "May 1 – May 10", "effect": "A domestic travel peak.", "dates": { "from": "05-01", "to": "05-10" } }
+          ],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 60, "shoulder": 70, "high": 90 },
+            "midrangePerDay": { "low": 130, "shoulder": 150, "high": 200 },
+            "hotelNightMid": { "low": 70, "shoulder": 90, "high": 120 },
+            "notes": "Helicopter excursions cost €500 or more per person."
+          }
+        },
+        {
+          "id": "north",
+          "name": "Murmansk, Karelia & the Arctic",
+          "description": "Murmansk, Teriberka, the Kola Peninsula, Karelia (Kizhi) and Arkhangelsk.",
+          "lat": 68.97,
+          "lon": 33.08,
+          "tags": ["aurora", "arctic", "nature"],
+          "best": [
+            { "from": "01-15", "to": "03-31", "why": "Northern lights over Teriberka's icy coast.", "goodFor": ["nature", "snow"] },
+            { "from": "06-15", "to": "08-15", "why": "Midnight sun and Kizhi island in Karelia.", "goodFor": ["nature", "city"] }
+          ],
+          "worst": [ { "from": "04-15", "to": "05-31", "why": "Snowmelt slush, with the aurora season over." } ],
+          "shoulder": [
+            { "from": "12-01", "to": "01-14", "why": "Polar night." },
+            { "from": "04-01", "to": "04-14", "why": "Late winter." },
+            { "from": "06-01", "to": "06-14", "why": "Early summer." },
+            { "from": "08-16", "to": "10-31", "why": "Autumn, with auroras from September." },
+            { "from": "11-01", "to": "11-30", "why": "Darkening." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "01-15", "to": "03-31" }, { "from": "06-15", "to": "09-30" } ],
+            "snow": [ { "from": "12-15", "to": "04-15" } ]
+          },
+          "climate": {
+            "avgHighC": [-8, -8, -4, 1, 6, 13, 17, 14, 9, 2, -3, -6],
+            "avgLowC": [-14, -14, -10, -5, 0, 5, 9, 8, 4, -2, -8, -12],
+            "rainMm": [30, 25, 25, 25, 35, 55, 70, 70, 55, 45, 35, 30],
+            "rainDays": [15, 13, 13, 11, 11, 12, 13, 14, 15, 16, 16, 16],
+            "sunHours": [0, 30, 110, 180, 210, 240, 250, 170, 90, 40, 5, 0],
+            "seaTempC": null,
+            "humidity": [85, 84, 80, 76, 75, 73, 76, 81, 84, 86, 87, 86]
+          },
+          "crowds": [3, 3, 3, 1, 1, 2, 3, 2, 2, 2, 2, 3],
+          "risks": [ { "type": "extreme cold", "from": "12-01", "to": "03-15", "note": "Arctic cold." } ],
+          "recurringHolidays": [
+            { "name": "New Year holidays", "approx": "Dec 31 – Jan 8", "effect": "Russia's longest holiday: transport and resorts are busy.", "dates": { "from": "12-31", "to": "01-08" } },
+            { "name": "May holidays", "approx": "May 1 – May 10", "effect": "A domestic travel peak.", "dates": { "from": "05-01", "to": "05-10" } }
+          ],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 45, "shoulder": 55, "high": 70 },
+            "midrangePerDay": { "low": 80, "shoulder": 95, "high": 120 },
+            "hotelNightMid": { "low": 50, "shoulder": 65, "high": 90 },
+            "notes": "Aurora tours from Murmansk cost about €60–120."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Moscow", "aliases": ["Moskva"], "region": "moscow" },
+        { "name": "Saint Petersburg", "aliases": ["St Petersburg", "Petersburg"], "region": "moscow" },
+        { "name": "Suzdal", "aliases": ["Golden Ring", "Vladimir"], "region": "moscow" },
+        { "name": "Kazan", "aliases": [], "region": "moscow" },
+        { "name": "Sochi", "aliases": ["Krasnaya Polyana", "Rosa Khutor"], "region": "south" },
+        { "name": "Elbrus", "aliases": ["Mount Elbrus"], "region": "south" },
+        { "name": "Dombay", "aliases": [], "region": "south" },
+        { "name": "Irkutsk", "aliases": [], "region": "siberia" },
+        { "name": "Lake Baikal", "aliases": ["Baikal", "Listvyanka", "Olkhon"], "region": "siberia" },
+        { "name": "Altai", "aliases": ["Gorno-Altaysk"], "region": "siberia" },
+        { "name": "Novosibirsk", "aliases": [], "region": "siberia" },
+        { "name": "Yekaterinburg", "aliases": [], "region": "siberia" },
+        { "name": "Petropavlovsk-Kamchatsky", "aliases": ["Kamchatka"], "region": "fareast" },
+        { "name": "Vladivostok", "aliases": [], "region": "fareast" },
+        { "name": "Sakhalin", "aliases": ["Yuzhno-Sakhalinsk"], "region": "fareast" },
+        { "name": "Murmansk", "aliases": ["Teriberka"], "region": "north" },
+        { "name": "Petrozavodsk", "aliases": ["Karelia", "Kizhi"], "region": "north" },
+        { "name": "Arkhangelsk", "aliases": ["Solovetsky"], "region": "north" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Russia" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/russia" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/russia/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
       "iso2": "SM",
       "isoNum": "674",
       "name": "San Marino",
@@ -2729,6 +4351,245 @@
         { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/San_Marino" },
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/san-marino" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/san-marino/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "RS",
+      "isoNum": "688",
+      "name": "Serbia",
+      "aliases": ["Srbija"],
+      "continent": "Europe",
+      "flag": "🇷🇸",
+      "summary": "Belgrade is lively all year, with river clubs in summer and cosy kafanas in winter. Spring and early autumn are most comfortable. July brings the EXIT festival in Novi Sad and hot weather. Winter is cold and windy, with skiing at Kopaonik.",
+      "splitByRegion": false,
+      "splitReason": "Serbia is landlocked, with one continental calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Belgrade, Novi Sad, Niš, Zlatibor, Tara National Park and Kopaonik.",
+          "lat": 44.79,
+          "lon": 20.45,
+          "tags": ["city", "nightlife", "nature", "snow"],
+          "best": [
+            { "from": "05-01", "to": "06-20", "why": "Warm, green days with Belgrade's river terraces opening.", "goodFor": ["city", "roadtrip", "nature"] },
+            { "from": "09-01", "to": "10-20", "why": "Mild autumn and the wine harvest.", "goodFor": ["city", "roadtrip", "nature"] }
+          ],
+          "worst": [ { "from": "01-07", "to": "02-28", "why": "Cold, with biting Košava winds." } ],
+          "shoulder": [
+            { "from": "11-01", "to": "01-06", "why": "Chilly, with festive lights." },
+            { "from": "03-01", "to": "04-30", "why": "Changeable spring." },
+            { "from": "06-21", "to": "08-31", "why": "Hot (30 °C+), with the EXIT festival and lively river clubs." },
+            { "from": "10-21", "to": "10-31", "why": "Late autumn." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "04-15", "to": "10-31" } ],
+            "roadtrip": [ { "from": "05-01", "to": "10-15" } ],
+            "mountain": [ { "from": "06-01", "to": "09-30" } ],
+            "snow": [ { "from": "12-15", "to": "03-10" } ],
+            "nature": [ { "from": "05-01", "to": "10-15" } ]
+          },
+          "climate": {
+            "avgHighC": [4, 7, 12, 18, 23, 27, 29, 30, 24, 18, 11, 5],
+            "avgLowC": [-2, -1, 3, 8, 13, 16, 18, 18, 14, 9, 4, 0],
+            "rainMm": [45, 40, 50, 55, 70, 90, 65, 55, 55, 50, 55, 55],
+            "rainDays": [8, 8, 9, 10, 11, 10, 8, 7, 7, 7, 9, 9],
+            "sunHours": [70, 95, 150, 190, 240, 270, 300, 290, 220, 160, 80, 55],
+            "seaTempC": null,
+            "humidity": [78, 73, 65, 62, 63, 65, 63, 63, 68, 72, 76, 80]
+          },
+          "crowds": [2, 2, 2, 3, 4, 4, 5, 5, 4, 3, 2, 3],
+          "risks": [
+            { "type": "extreme heat", "from": "07-01", "to": "08-20", "note": "Heatwaves." },
+            { "type": "strong wind", "from": "11-01", "to": "03-15", "note": "Košava gales." }
+          ],
+          "recurringHolidays": [
+            { "name": "EXIT Festival (Novi Sad)", "approx": "Mid-July", "effect": "Novi Sad sells out.", "dates": { "from": "07-09", "to": "07-13" } },
+            { "name": "Orthodox Christmas", "approx": "Jan 6 – Jan 8", "effect": "Family holiday.", "dates": { "from": "01-06", "to": "01-08" } }
+          ],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 50, "high": 60 },
+            "midrangePerDay": { "low": 80, "shoulder": 95, "high": 120 },
+            "hotelNightMid": { "low": 50, "shoulder": 65, "high": 90 },
+            "notes": "Very good value. Belgrade's nightlife is legendary."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Belgrade", "aliases": ["Beograd"], "region": "country" },
+        { "name": "Novi Sad", "aliases": ["Petrovaradin"], "region": "country" },
+        { "name": "Niš", "aliases": ["Nis"], "region": "country" },
+        { "name": "Zlatibor", "aliases": [], "region": "country" },
+        { "name": "Tara National Park", "aliases": ["Tara", "Drina"], "region": "country" },
+        { "name": "Kopaonik", "aliases": [], "region": "country" },
+        { "name": "Subotica", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Serbia" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/serbia" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/serbia/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "SK",
+      "isoNum": "703",
+      "name": "Slovakia",
+      "aliases": ["Slovensko"],
+      "continent": "Europe",
+      "flag": "🇸🇰",
+      "summary": "Slovakia's High Tatras have strict seasons: the high trails open from June 16 to October 31, and skiing runs from December to March at Jasná and the Tatras. Bratislava and the castles are best in late spring and early autumn.",
+      "splitByRegion": false,
+      "splitReason": "Slovakia is small and shares one continental calendar, with the Tatras setting the mountain seasons.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Bratislava, the High and Low Tatras, Slovak Paradise, Banská Štiavnica and Spiš Castle.",
+          "lat": 48.15,
+          "lon": 17.11,
+          "tags": ["mountain", "snow", "castles", "city"],
+          "best": [
+            { "from": "06-16", "to": "06-30", "why": "The High Tatras' upper trails reopen on June 16.", "goodFor": ["mountain", "nature", "city", "roadtrip"] },
+            { "from": "09-01", "to": "10-10", "why": "Clear autumn hiking with fewer people.", "goodFor": ["mountain", "nature", "city", "roadtrip"] },
+            { "from": "05-15", "to": "06-15", "why": "Green valleys and castles, with the lower trails open.", "goodFor": ["city", "nature", "roadtrip"] }
+          ],
+          "worst": [ { "from": "03-15", "to": "04-30", "why": "Mud season: skiing is over and the high trails are closed." } ],
+          "shoulder": [
+            { "from": "12-15", "to": "03-14", "why": "Ski season at Jasná and in the Tatras." },
+            { "from": "05-01", "to": "05-14", "why": "Spring with snow lingering up high." },
+            { "from": "07-01", "to": "08-31", "why": "Peak Tatras hiking, busy at weekends." },
+            { "from": "10-11", "to": "12-14", "why": "High trails close on November 1; grey early winter." }
+          ],
+          "activityWindows": {
+            "mountain": [ { "from": "06-16", "to": "10-31" } ],
+            "snow": [ { "from": "12-15", "to": "03-31" } ],
+            "city": [ { "from": "04-15", "to": "10-31" } ],
+            "nature": [ { "from": "05-15", "to": "10-15" } ],
+            "roadtrip": [ { "from": "05-15", "to": "10-15" } ]
+          },
+          "climate": {
+            "avgHighC": [2, 5, 10, 16, 21, 24, 27, 26, 21, 15, 8, 3],
+            "avgLowC": [-3, -2, 1, 6, 10, 14, 16, 15, 11, 6, 2, -1],
+            "rainMm": [40, 35, 35, 40, 55, 65, 60, 60, 45, 40, 55, 50],
+            "rainDays": [8, 7, 7, 7, 9, 9, 8, 8, 6, 6, 9, 9],
+            "sunHours": [60, 85, 130, 185, 230, 240, 260, 250, 190, 135, 65, 50],
+            "seaTempC": null,
+            "humidity": [82, 78, 71, 66, 66, 67, 66, 68, 73, 79, 84, 85]
+          },
+          "crowds": [2, 2, 2, 3, 3, 4, 5, 5, 4, 3, 2, 3],
+          "risks": [
+            { "type": "avalanche", "from": "12-01", "to": "04-15", "note": "Tatra avalanche risk." },
+            { "type": "thunderstorms", "from": "06-15", "to": "08-31", "note": "Afternoon storms on the ridges." }
+          ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 45, "shoulder": 55, "high": 65 },
+            "midrangePerDay": { "low": 85, "shoulder": 100, "high": 130 },
+            "hotelNightMid": { "low": 60, "shoulder": 75, "high": 100 },
+            "notes": "Mountain chalets (chaty) need booking for summer weekends."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Bratislava", "aliases": [], "region": "country" },
+        { "name": "High Tatras", "aliases": ["Tatras", "Štrbské Pleso", "Strbske Pleso", "Poprad"], "region": "country" },
+        { "name": "Jasná", "aliases": ["Jasna", "Low Tatras"], "region": "country" },
+        { "name": "Banská Štiavnica", "aliases": ["Banska Stiavnica"], "region": "country" },
+        { "name": "Slovak Paradise", "aliases": ["Slovensky raj"], "region": "country" },
+        { "name": "Spiš Castle", "aliases": ["Spis", "Levoča", "Levoca"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Slovakia" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/slovakia" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/slovakia/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "SI",
+      "isoNum": "705",
+      "name": "Slovenia",
+      "aliases": ["Slovenija"],
+      "continent": "Europe",
+      "flag": "🇸🇮",
+      "summary": "Slovenia packs the Julian Alps, Lake Bled, the emerald Soča and a sliver of Adriatic coast into a tiny area. Late spring and September are ideal; July and August are busy at Bled. November is the wettest month, and winter brings skiing at Kranjska Gora and Vogel.",
+      "splitByRegion": false,
+      "splitReason": "Slovenia is small, and the Alps, Ljubljana, the Karst and the coast share one calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "The whole country: Ljubljana, Bled, Bohinj and the Julian Alps, the Soča valley, the Karst caves and Piran.",
+          "lat": 46.06,
+          "lon": 14.51,
+          "tags": ["mountain", "lakes", "nature", "city"],
+          "best": [
+            { "from": "05-15", "to": "06-30", "why": "Lake Bled and the Julian Alps are green, the Soča is emerald and days are 22–26 °C.", "goodFor": ["mountain", "nature", "city", "roadtrip", "beach"] },
+            { "from": "09-01", "to": "10-15", "why": "Clear autumn, the wine harvest and fewer crowds at Bled.", "goodFor": ["mountain", "nature", "city", "roadtrip"] }
+          ],
+          "worst": [ { "from": "11-01", "to": "11-30", "why": "The wettest month: foggy and grey." } ],
+          "shoulder": [
+            { "from": "12-01", "to": "03-31", "why": "Skiing at Kranjska Gora and Vogel; Christmas lights in Ljubljana." },
+            { "from": "04-01", "to": "05-14", "why": "Spring, with snow lingering up high." },
+            { "from": "07-01", "to": "08-31", "why": "Bled is packed, with afternoon storms." },
+            { "from": "10-16", "to": "10-31", "why": "Late autumn colours." }
+          ],
+          "activityWindows": {
+            "mountain": [ { "from": "06-15", "to": "09-30" } ],
+            "nature": [ { "from": "05-01", "to": "10-15" } ],
+            "city": [ { "from": "04-01", "to": "10-31" }, { "from": "12-01", "to": "12-31" } ],
+            "snow": [ { "from": "12-20", "to": "03-15" } ],
+            "beach": [ { "from": "06-15", "to": "09-15" } ],
+            "roadtrip": [ { "from": "05-01", "to": "10-15" } ]
+          },
+          "climate": {
+            "avgHighC": [3, 6, 11, 15, 21, 24, 27, 26, 21, 15, 9, 4],
+            "avgLowC": [-4, -3, 1, 5, 10, 13, 15, 15, 11, 7, 2, -2],
+            "rainMm": [70, 70, 85, 100, 110, 140, 115, 130, 140, 140, 130, 100],
+            "rainDays": [10, 9, 11, 13, 14, 15, 11, 11, 11, 11, 12, 11],
+            "sunHours": [70, 110, 150, 170, 220, 240, 280, 250, 180, 120, 70, 55],
+            "seaTempC": [11, 10, 11, 13, 17, 21, 24, 25, 22, 19, 16, 13],
+            "humidity": [85, 79, 73, 71, 72, 73, 72, 74, 79, 84, 86, 87]
+          },
+          "crowds": [2, 2, 2, 3, 4, 4, 5, 5, 4, 3, 2, 3],
+          "risks": [
+            { "type": "thunderstorms", "from": "06-15", "to": "08-31", "note": "Afternoon mountain storms." },
+            { "type": "flooding", "from": "10-01", "to": "11-30", "note": "Autumn floods." }
+          ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 60, "shoulder": 70, "high": 90 },
+            "midrangePerDay": { "low": 110, "shoulder": 130, "high": 170 },
+            "hotelNightMid": { "low": 80, "shoulder": 100, "high": 150 },
+            "notes": "Bled accommodation peaks in summer. The Vršič pass is open from about May to October."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Ljubljana", "aliases": [], "region": "country" },
+        { "name": "Lake Bled", "aliases": ["Bled"], "region": "country" },
+        { "name": "Lake Bohinj", "aliases": ["Bohinj", "Triglav"], "region": "country" },
+        { "name": "Piran", "aliases": ["Portorož", "Portoroz", "Izola"], "region": "country" },
+        { "name": "Postojna", "aliases": ["Postojna Cave", "Predjama", "Škocjan", "Skocjan"], "region": "country" },
+        { "name": "Kranjska Gora", "aliases": ["Vršič", "Vrsic"], "region": "country" },
+        { "name": "Soča Valley", "aliases": ["Bovec", "Kobarid", "Soca"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.slovenia.info" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Slovenia" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/slovenia" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/slovenia/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"
@@ -3326,6 +5187,78 @@
         { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Switzerland" },
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/switzerland" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/switzerland/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "UA",
+      "isoNum": "804",
+      "name": "Ukraine",
+      "aliases": ["Ukraina"],
+      "continent": "Europe",
+      "flag": "🇺🇦",
+      "summary": "Ukraine is at war, and many governments advise against all travel, so check current advice. In normal times, Kyiv and Lviv are best in late spring and early autumn, the Carpathians in summer (hiking) and winter (skiing at Bukovel), and Odesa's coast in summer.",
+      "splitByRegion": false,
+      "splitReason": "Ukraine follows one continental calendar; the Carpathians add skiing and hiking.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Kyiv, Lviv, Odesa, Chernivtsi and the Carpathians.",
+          "lat": 50.45,
+          "lon": 30.52,
+          "tags": ["city", "history", "mountain"],
+          "best": [
+            { "from": "05-01", "to": "06-20", "why": "Chestnut blossom in Kyiv and green parks.", "goodFor": ["city", "nature", "roadtrip"] },
+            { "from": "09-01", "to": "10-10", "why": "Golden autumn days in Kyiv and Lviv.", "goodFor": ["city", "nature", "roadtrip"] }
+          ],
+          "worst": [ { "from": "12-01", "to": "02-28", "why": "Cold and snowy (−5 °C)." } ],
+          "shoulder": [
+            { "from": "03-01", "to": "04-30", "why": "Late, chilly spring." },
+            { "from": "06-21", "to": "08-31", "why": "Warm summer." },
+            { "from": "10-11", "to": "11-30", "why": "Grey late autumn." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "04-15", "to": "10-15" } ],
+            "nature": [ { "from": "05-01", "to": "10-15" } ],
+            "mountain": [ { "from": "06-01", "to": "09-30" } ],
+            "snow": [ { "from": "12-20", "to": "03-15" } ]
+          },
+          "climate": {
+            "avgHighC": [-2, 0, 5, 14, 21, 24, 26, 25, 19, 12, 5, 0],
+            "avgLowC": [-7, -7, -3, 4, 10, 14, 16, 15, 10, 5, 0, -4],
+            "rainMm": [40, 40, 40, 45, 55, 70, 80, 60, 55, 40, 45, 45],
+            "rainDays": [10, 9, 9, 9, 9, 10, 10, 8, 8, 7, 9, 10],
+            "sunHours": [40, 60, 120, 180, 260, 270, 280, 260, 190, 120, 50, 30],
+            "seaTempC": null,
+            "humidity": [86, 83, 78, 68, 64, 68, 70, 70, 75, 80, 86, 88]
+          },
+          "crowds": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "risks": [ { "type": "extreme cold", "from": "12-15", "to": "02-15", "note": "Winter cold." } ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 35, "high": 45 },
+            "midrangePerDay": { "low": 60, "shoulder": 70, "high": 85 },
+            "hotelNightMid": { "low": 40, "shoulder": 50, "high": 70 },
+            "notes": "Wartime conditions mean insurance, flights and security all need checking."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Kyiv", "aliases": ["Kiev"], "region": "country" },
+        { "name": "Lviv", "aliases": ["Lvov"], "region": "country" },
+        { "name": "Odesa", "aliases": ["Odessa"], "region": "country" },
+        { "name": "Kharkiv", "aliases": [], "region": "country" },
+        { "name": "Chernivtsi", "aliases": [], "region": "country" },
+        { "name": "Carpathians", "aliases": ["Bukovel", "Yaremche"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Ukraine" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/ukraine" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/ukraine/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"
