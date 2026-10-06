@@ -87,26 +87,61 @@ export async function mountWorldMap(container, opts) {
   return { refresh };
 }
 
+const activeRegion = (country, id) => country.regions.find(r => r.id === id) || country.regions[0];
+
+/** The largest polygon of a country (e.g. metropolitan France without French Guiana). */
+function mainland(d3, f) {
+  if (f.geometry.type !== 'MultiPolygon') return f;
+  const parts = f.geometry.coordinates.map(c => ({ type: 'Feature', properties: {}, geometry: { type: 'Polygon', coordinates: c } }));
+  return parts.reduce((a, b) => (d3.geoArea(b) > d3.geoArea(a) ? b : a));
+}
+
+/** Is [lon, lat] inside geoBounds b (which may wrap across 180°), widened by m degrees? */
+function inBounds([lon, lat], [[w, s], [e, n]], m) {
+  if (lat < s - m || lat > n + m) return false;
+  const span = (e - w + 360) % 360 || 360;
+  return (lon - (w - m) + 720) % 360 <= span + 2 * m;
+}
+
 /** Small map of one country with a dot per region; clicking a dot calls onPick(regionId). */
 export async function mountLocator(container, country, activeId, onPick) {
   let geo;
   try { geo = await getGeo(); } catch { container.remove(); return; }
-  const { d3, byId } = geo;
+  const { d3, byId, features } = geo;
   const W = 220, H = 180;
-  const feature = byId.get(country.isoNum);
-  const pts = { type: 'MultiPoint', coordinates: country.regions.map(r => [r.lon, r.lat]) };
-  const projection = country.iso2 === 'US' ? d3.geoAlbersUsa() : d3.geoMercator();
-  projection.fitExtent([[12, 12], [W - 12, H - 12]], feature || pts);
+  const feature = byId.get(country.isoNum) || features.find(f => !f.id && f.properties.name === country.name);
+  // Frame the country shape plus any region points near it (Galápagos), but zoom to the
+  // active region alone when it lies far outside the shape (France's overseas regions).
+  // Small islands have no 110m shape: frame a ~150 km circle around a lone point
+  // (a zero-size extent would give NaN coordinates).
+  const coords = country.regions.map(r => [r.lon, r.lat]);
+  const a = activeRegion(country, activeId);
+  const here = [a.lon, a.lat];
+  const main = feature && mainland(d3, feature);
+  const box = main && d3.geoBounds(main);
+  const near = box ? coords.filter(c => inBounds(c, box, 12)) : coords;
+  let target;
+  if (country.iso2 === 'US' && feature) target = feature;
+  else if (box && !inBounds(here, box, 12)) target = d3.geoCircle().center(here).radius(2.5)();
+  else if (main) target = { type: 'FeatureCollection', features: [main, { type: 'Feature', properties: {}, geometry: { type: 'MultiPoint', coordinates: near } }] };
+  else if (new Set(coords.map(String)).size > 1) target = { type: 'MultiPoint', coordinates: coords };
+  else target = d3.geoCircle().center(here).radius(1.4)();
+  // Centre Mercator on the country so shapes crossing 180° (Fiji, Kiribati) stay whole.
+  const projection = country.iso2 === 'US' ? d3.geoAlbersUsa() : d3.geoMercator().rotate([-d3.geoCentroid(target)[0], 0]);
+  projection.fitExtent([[12, 12], [W - 12, H - 12]], target);
   const path = d3.geoPath(projection);
   const dots = country.regions.map(r => {
     const p = projection([r.lon, r.lat]);
-    if (!p) return '';
+    if (!p || p[0] < 0 || p[0] > W || p[1] < 0 || p[1] > H) return '';
     const on = r.id === activeId;
     return `<circle class="${on ? 'on' : ''}" cx="${p[0].toFixed(1)}" cy="${p[1].toFixed(1)}" r="${on ? 7 : 5}" data-region="${r.id}"><title>${esc(r.name)}</title></circle>`;
   }).join('');
   const active = country.regions.find(r => r.id === activeId);
   const ap = active && projection([active.lon, active.lat]);
-  const label = ap ? `<text class="on" x="${Math.min(W - 6, Math.max(6, ap[0])).toFixed(1)}" y="${(ap[1] > 24 ? ap[1] - 11 : ap[1] + 20).toFixed(1)}" text-anchor="middle">${esc(active.name)}</text>` : '';
+  // Anchor the label away from the nearer edge so long names aren't clipped.
+  const anchor = ap && (ap[0] < W / 3 ? 'start' : ap[0] > (2 * W) / 3 ? 'end' : 'middle');
+  const lx = ap && (anchor === 'start' ? Math.max(4, ap[0] - 10) : anchor === 'end' ? Math.min(W - 4, ap[0] + 10) : ap[0]);
+  const label = ap ? `<text class="on" x="${lx.toFixed(1)}" y="${(ap[1] > 24 ? ap[1] - 11 : ap[1] + 20).toFixed(1)}" text-anchor="${anchor}">${esc(active.name)}</text>` : '';
   container.innerHTML = `<svg class="locator" viewBox="0 0 ${W} ${H}" role="img" aria-label="Map of ${esc(country.name)} highlighting ${esc(active?.name || '')}">
     ${feature ? `<path d="${path(feature)}"></path>` : ''}${dots}${label}</svg>`;
   container.querySelector('svg').addEventListener('click', e => {
