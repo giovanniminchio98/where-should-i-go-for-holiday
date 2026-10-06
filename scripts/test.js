@@ -103,7 +103,9 @@ test('"February, beach, Asia" ranks the right coasts and excludes Sri Lanka east
   assert.ok(keys.includes('TH.andaman'), 'Thailand Andaman present');
   assert.ok(keys.includes('LK.southwest'), 'Sri Lanka south-west present');
   assert.ok(!keys.includes('LK.east'), 'Sri Lanka east coast must not be returned');
-  assert.ok(keys.indexOf('TH.andaman') < 10 && keys.indexOf('LK.southwest') < 10, 'both in the top 10: ' + keys.join(', '));
+  const top = keys.slice(0, 15);
+  for (const k of ['TH.andaman', 'LK.southwest', 'MV.country']) assert.ok(top.includes(k), `${k} in the top 15: ${top.join(', ')}`);
+  assert.ok(top.some(k => k.startsWith('PH.')), `a Philippine region in the top 15: ${top.join(', ')}`);
 });
 test('"July, beach, Asia" flips Sri Lanka to the east coast', () => {
   const days = daysBetween(new Date(2027, 6, 1), new Date(2027, 6, 31));

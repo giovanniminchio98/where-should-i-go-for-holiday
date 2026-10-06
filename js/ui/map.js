@@ -5,6 +5,10 @@ import { esc, tooltip } from '../lib/util.js';
 
 const ANTARCTICA = '010';
 
+// Shapes in the 110m topology without an ISO id (or drawn separately from the
+// country whose data covers them) → the iso2 of the country page to open.
+const SHAPE_ALIAS = { Kosovo: 'XK', 'N. Cyprus': 'CY', Somaliland: 'SO', 'New Caledonia': 'FR' };
+
 /**
  * Mount the world map.
  * opts.classFor(country)  → 'best' | 'shoulder' | 'worst' | 'na'
@@ -26,18 +30,20 @@ export async function mountWorldMap(container, opts) {
   const land = features.filter(f => f.id !== ANTARCTICA);
   const projection = d3.geoNaturalEarth1().fitExtent([[6, 6], [W - 6, H - 6]], { type: 'FeatureCollection', features: land });
   const path = d3.geoPath(projection);
-  const withData = new Set(countries().map(c => c.isoNum));
+  const countryFor = f => (f.id && findCountryByNum(f.id))
+    || countries().find(k => k.iso2 === SHAPE_ALIAS[f.properties.name]) || null;
+  const drawn = new Set();
 
   const shapes = land.map(f => {
-    const c = f.id && withData.has(f.id) ? findCountryByNum(f.id) : null;
+    const c = countryFor(f);
+    if (c) drawn.add(c.iso2);
     return `<path class="country${c ? ' has-data' : ''}" d="${path(f)}" data-num="${f.id || ''}"${c
       ? ` data-iso="${c.iso2}" tabindex="0" role="link" aria-label="${esc(c.name)}"`
       : ` aria-hidden="true"`}><title>${esc(c?.name || f.properties.name)}</title></path>`;
   }).join('');
 
   // Countries too small for the 110m topology (e.g. Maldives) are drawn as dots.
-  const present = new Set(land.map(f => f.id));
-  const dots = countries().filter(c => !present.has(c.isoNum)).map(c => {
+  const dots = countries().filter(c => !drawn.has(c.iso2)).map(c => {
     const r = c.regions[0];
     const p = projection([r.lon, r.lat]);
     return p ? `<circle class="dot has-data" cx="${p[0].toFixed(1)}" cy="${p[1].toFixed(1)}" r="5" data-iso="${c.iso2}" tabindex="0" role="link" aria-label="${esc(c.name)}"><title>${esc(c.name)}</title></circle>` : '';
