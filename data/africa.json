@@ -195,6 +195,85 @@
       "lastReviewed": "2026-10"
     },
     {
+      "iso2": "BJ",
+      "isoNum": "204",
+      "name": "Benin",
+      "aliases": ["Bénin", "Republic of Benin", "Dahomey"],
+      "continent": "Africa",
+      "flag": "🇧🇯",
+      "summary": "Benin is the birthplace of Vodun (voodoo). Ouidah hosts the national Vodun festival on 10 January, and the country also has Ganvié's stilt village, the royal palaces of Abomey and, in the north, Pendjari National Park. The dry season (mid-November to mid-March) is best. The south has rains from April to July and in October; the north has one rainy season from June to September. Check travel advice for the far north.",
+      "splitByRegion": false,
+      "splitReason": "The southern sights and Pendjari share a dry-season window.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Cotonou, Ouidah, Ganvié, Porto-Novo, Grand-Popo, Abomey, Dassa and the north (Natitingou, Pendjari).",
+          "lat": 6.37,
+          "lon": 2.39,
+          "tags": ["culture", "history", "voodoo", "wildlife"],
+          "best": [
+            { "from": "11-15", "to": "03-15", "why": "Dry season: sunny days, the Vodun festival in January and the best game viewing in Pendjari.", "goodFor": ["city", "nature", "roadtrip", "beach", "sun"] }
+          ],
+          "worst": [ { "from": "05-01", "to": "07-15", "why": "The main rains: heavy storms and flooding in Cotonou." } ],
+          "shoulder": [
+            { "from": "07-16", "to": "09-15", "why": "The little dry season on the coast." },
+            { "from": "09-16", "to": "11-14", "why": "The short rains." },
+            { "from": "03-16", "to": "04-30", "why": "Hot and humid, with the rains approaching." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "11-01", "to": "04-15" } ],
+            "nature": [ { "from": "12-01", "to": "04-15" } ],
+            "roadtrip": [ { "from": "11-15", "to": "03-31" } ],
+            "beach": [ { "from": "11-15", "to": "04-15" } ],
+            "sun": [ { "from": "11-15", "to": "03-15" } ]
+          },
+          "climate": {
+            "avgHighC": [31, 32, 32, 32, 31, 29, 28, 28, 28, 29, 31, 31],
+            "avgLowC": [23, 25, 26, 26, 25, 24, 23, 23, 23, 24, 24, 23],
+            "rainMm": [15, 35, 80, 130, 240, 350, 120, 40, 90, 150, 50, 15],
+            "rainDays": [1, 2, 5, 8, 12, 14, 7, 4, 7, 10, 4, 1],
+            "sunHours": [210, 210, 220, 220, 220, 160, 160, 180, 190, 220, 240, 220],
+            "seaTempC": [27, 28, 28, 28, 28, 27, 25, 24, 25, 26, 27, 27],
+            "humidity": [80, 79, 79, 80, 82, 84, 84, 83, 83, 82, 80, 80]
+          },
+          "crowds": [3, 2, 2, 1, 1, 1, 1, 1, 1, 1, 2, 2],
+          "risks": [
+            { "type": "flooding", "from": "05-15", "to": "07-15", "note": "Flooding in Cotonou." },
+            { "type": "rough seas", "from": "01-01", "to": "12-31", "note": "Dangerous rip currents." }
+          ],
+          "recurringHolidays": [
+            { "name": "Fête du Vodoun (Vodun Day)", "approx": "January 10", "effect": "Ouidah fills up for the national Vodun festival; book well ahead.", "dates": { "from": "01-08", "to": "01-12" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 25, "shoulder": 30, "high": 35 },
+            "midrangePerDay": { "low": 55, "shoulder": 65, "high": 80 },
+            "hotelNightMid": { "low": 40, "shoulder": 50, "high": 70 },
+            "notes": "Inexpensive. Ouidah guesthouses fill up for 10 January."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Cotonou", "aliases": [], "region": "country" },
+        { "name": "Ouidah", "aliases": [], "region": "country" },
+        { "name": "Ganvié", "aliases": ["Ganvie", "Lake Nokoué"], "region": "country" },
+        { "name": "Porto-Novo", "aliases": [], "region": "country" },
+        { "name": "Abomey", "aliases": [], "region": "country" },
+        { "name": "Grand-Popo", "aliases": ["Grand Popo"], "region": "country" },
+        { "name": "Natitingou", "aliases": ["Pendjari", "Pendjari National Park", "Tanéka"], "region": "country" },
+        { "name": "Dassa-Zoumè", "aliases": ["Dassa"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Benin" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/benin" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/benin/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
       "iso2": "BW",
       "isoNum": "072",
       "name": "Botswana",
@@ -271,6 +350,80 @@
       "lastReviewed": "2026-10"
     },
     {
+      "iso2": "BF",
+      "isoNum": "854",
+      "name": "Burkina Faso",
+      "aliases": ["Burkina"],
+      "continent": "Africa",
+      "flag": "🇧🇫",
+      "summary": "Burkina Faso is known for its culture: the FESPACO film festival in Ouagadougou, the painted houses of Tiébélé and the Sindou Peaks near Banfora. The cool, dry season (November to mid-February) is best. March to May is very hot, and the rains fall from June to September. Government travel advice currently warns against travel to most of the country.",
+      "splitByRegion": false,
+      "splitReason": "A landlocked Sahelian country with one wet-and-dry calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Ouagadougou, Bobo-Dioulasso, Banfora and the Sindou Peaks, and Tiébélé's painted villages.",
+          "lat": 12.37,
+          "lon": -1.52,
+          "tags": ["culture", "music", "film", "architecture"],
+          "best": [
+            { "from": "11-01", "to": "02-15", "why": "Cool, dry season: warm days and comfortable evenings for the markets and festivals.", "goodFor": ["city", "nature", "roadtrip"] }
+          ],
+          "worst": [ { "from": "03-15", "to": "05-31", "why": "Extreme heat of 40 °C+ and dusty skies." } ],
+          "shoulder": [
+            { "from": "06-01", "to": "10-31", "why": "The rains: green countryside and cooler days, but muddy roads in August." },
+            { "from": "02-16", "to": "03-14", "why": "Heating up." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "11-01", "to": "02-28" } ],
+            "nature": [ { "from": "11-01", "to": "02-15" } ],
+            "roadtrip": [ { "from": "11-01", "to": "02-15" } ]
+          },
+          "climate": {
+            "avgHighC": [33, 36, 39, 40, 38, 35, 32, 31, 33, 36, 36, 33],
+            "avgLowC": [16, 19, 23, 26, 26, 24, 23, 22, 22, 23, 20, 17],
+            "rainMm": [0, 0, 5, 20, 75, 110, 175, 215, 135, 35, 0, 0],
+            "rainDays": [0, 0, 1, 2, 6, 9, 12, 14, 10, 3, 0, 0],
+            "sunHours": [280, 270, 270, 260, 270, 250, 230, 210, 240, 280, 290, 280],
+            "seaTempC": null,
+            "humidity": [25, 22, 24, 35, 50, 60, 70, 77, 73, 58, 37, 28]
+          },
+          "crowds": [1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "risks": [
+            { "type": "extreme heat", "from": "03-01", "to": "05-31", "note": "Temperatures above 40 °C." },
+            { "type": "sandstorm", "from": "12-01", "to": "02-28", "note": "Harmattan dust." }
+          ],
+          "recurringHolidays": [
+            { "name": "FESPACO film festival", "approx": "Late February – early March (odd years)", "effect": "Africa's biggest film festival fills Ouagadougou's hotels.", "dates": { "from": "02-22", "to": "03-02" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 25, "shoulder": 30, "high": 35 },
+            "midrangePerDay": { "low": 50, "shoulder": 60, "high": 70 },
+            "hotelNightMid": { "low": 35, "shoulder": 45, "high": 55 },
+            "notes": "Very cheap, but tourism is minimal because of insecurity. Check government travel advice."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Ouagadougou", "aliases": ["Ouaga"], "region": "country" },
+        { "name": "Bobo-Dioulasso", "aliases": ["Bobo"], "region": "country" },
+        { "name": "Banfora", "aliases": ["Sindou Peaks", "Karfiguéla Falls", "Karfiguela"], "region": "country" },
+        { "name": "Tiébélé", "aliases": ["Tiebele"], "region": "country" },
+        { "name": "Gorom-Gorom", "aliases": [], "region": "country" },
+        { "name": "Arly", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Burkina_Faso" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/burkina-faso" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/burkina-faso/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
       "iso2": "BI",
       "isoNum": "108",
       "name": "Burundi",
@@ -333,6 +486,306 @@
         { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Burundi" },
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/burundi" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/burundi/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "CV",
+      "isoNum": "132",
+      "name": "Cabo Verde",
+      "aliases": ["Cape Verde", "Republic of Cabo Verde"],
+      "continent": "Africa",
+      "flag": "🇨🇻",
+      "summary": "Cabo Verde is a ten-island Atlantic archipelago with a dry, breezy climate and 25–30 °C all year. From November to June it's sunny, with steady trade winds that make Sal and Boa Vista kitesurfing hotspots, and good hiking on green Santo Antão. From August to October it's hotter and humid, with occasional heavy showers, the calmest sea and turtles nesting. Harmattan dust can haze the skies from December to February.",
+      "splitByRegion": false,
+      "splitReason": "The islands share one dry, trade-wind climate; the mountain islands are only a little greener.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Sal and Boa Vista's beaches, Santiago (Praia, Cidade Velha), Mindelo on São Vicente, the Santo Antão hiking trails and the Fogo volcano.",
+          "lat": 16.6,
+          "lon": -22.9,
+          "tags": ["beach", "kitesurf", "hiking", "islands", "music"],
+          "best": [
+            { "from": "11-01", "to": "02-28", "why": "Winter sun at 25 °C; peak windsurfing and kitesurfing on Sal and Boa Vista.", "goodFor": ["beach", "sun", "mountain", "nature"] },
+            { "from": "03-01", "to": "06-30", "why": "Dry, sunny 26 °C days with steady trade winds; ideal for Santo Antão and Fogo hikes.", "goodFor": ["beach", "sun", "mountain", "nature"] }
+          ],
+          "worst": [
+            { "from": "09-01", "to": "10-15", "why": "The peak of the short rainy season: sticky humidity, heavy showers and occasional tropical storms." }
+          ],
+          "shoulder": [
+            { "from": "07-01", "to": "08-31", "why": "Hot, humid and calmer, with loggerhead turtles nesting on Boa Vista and Sal." },
+            { "from": "10-16", "to": "10-31", "why": "The rains are ending." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "01-01", "to": "12-31" } ],
+            "sun": [ { "from": "11-01", "to": "07-31" } ],
+            "mountain": [ { "from": "11-01", "to": "06-30" } ],
+            "nature": [ { "from": "11-01", "to": "06-30" } ]
+          },
+          "climate": {
+            "avgHighC": [25, 25, 26, 26, 27, 28, 28, 29, 30, 29, 28, 26],
+            "avgLowC": [19, 19, 19, 20, 20, 21, 23, 24, 24, 24, 22, 20],
+            "rainMm": [2, 1, 0, 0, 0, 0, 3, 20, 40, 10, 3, 2],
+            "rainDays": [0, 0, 0, 0, 0, 0, 1, 3, 4, 1, 0, 0],
+            "sunHours": [230, 240, 280, 290, 300, 280, 250, 230, 220, 240, 230, 220],
+            "seaTempC": [22, 21, 21, 21, 22, 23, 24, 26, 27, 26, 24, 23],
+            "humidity": [70, 70, 70, 71, 73, 75, 77, 78, 78, 76, 73, 71]
+          },
+          "crowds": [4, 4, 4, 4, 3, 3, 4, 4, 2, 3, 3, 5],
+          "risks": [
+            { "type": "strong wind", "from": "12-01", "to": "04-30", "note": "Strong trade winds (great for kitesurfing, choppy for swimmers)." },
+            { "type": "sandstorm", "from": "12-15", "to": "02-28", "note": "Saharan dust haze." }
+          ],
+          "recurringHolidays": [
+            { "name": "Carnival (Mindelo)", "approx": "February or March, before Lent", "effect": "Mindelo's carnival is the archipelago's biggest party; ferries and guesthouses fill up.", "moving": { "anchor": "easter", "offsetDays": -49, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 35, "shoulder": 40, "high": 50 },
+            "midrangePerDay": { "low": 80, "shoulder": 100, "high": 130 },
+            "hotelNightMid": { "low": 60, "shoulder": 80, "high": 120 },
+            "notes": "Sal and Boa Vista are all-inclusive resort islands. Santo Antão and Fogo have cheap guesthouses. Inter-island ferries are irregular."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Praia", "aliases": ["Santiago", "Cidade Velha", "Tarrafal"], "region": "country" },
+        { "name": "Mindelo", "aliases": ["São Vicente", "Sao Vicente"], "region": "country" },
+        { "name": "Santa Maria", "aliases": ["Sal", "Espargos"], "region": "country" },
+        { "name": "Sal Rei", "aliases": ["Boa Vista"], "region": "country" },
+        { "name": "Ponta do Sol", "aliases": ["Santo Antão", "Santo Antao", "Paul Valley"], "region": "country" },
+        { "name": "São Filipe", "aliases": ["Fogo", "Chã das Caldeiras", "Cha das Caldeiras"], "region": "country" },
+        { "name": "Maio", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Cabo_Verde" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/cabo-verde" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/cabo-verde/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "CM",
+      "isoNum": "120",
+      "name": "Cameroon",
+      "aliases": ["Cameroun", "Republic of Cameroon"],
+      "continent": "Africa",
+      "flag": "🇨🇲",
+      "summary": "Cameroon is called 'Africa in miniature': beaches at Kribi and Limbe, the 4,040 m Mount Cameroon, the highlands of the Ring Road, rainforest at Dja and Campo Ma'an and, in the north, Waza's savanna. In the south, the dry season (December to February) is the time to go; the rains peak from July to October, and Douala is among the wettest cities in Africa. Check travel advice for the north and the anglophone regions.",
+      "splitByRegion": false,
+      "splitReason": "Most visitors stay in the south and west, which share one wet-and-dry calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Douala and Yaoundé, Limbe and Mount Cameroon, Kribi and Campo Ma'an, the western highlands (Foumban, Bamenda) and Dja.",
+          "lat": 4.05,
+          "lon": 9.7,
+          "tags": ["beach", "mountain", "rainforest", "culture", "wildlife"],
+          "best": [
+            { "from": "12-01", "to": "02-28", "why": "Dry season: sunny beach days at Kribi, the best Mount Cameroon climbs and passable forest roads.", "goodFor": ["beach", "mountain", "nature", "roadtrip", "city"] }
+          ],
+          "worst": [
+            { "from": "07-01", "to": "10-15", "why": "The heaviest rains: Douala and Limbe get 700 mm a month and roads turn to mud." }
+          ],
+          "shoulder": [
+            { "from": "03-01", "to": "06-30", "why": "The rains are increasing, with hot and humid weather." },
+            { "from": "10-16", "to": "11-30", "why": "The rains are easing." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "11-15", "to": "03-31" } ],
+            "mountain": [ { "from": "12-01", "to": "03-15" } ],
+            "nature": [ { "from": "11-15", "to": "03-31" } ],
+            "roadtrip": [ { "from": "12-01", "to": "03-15" } ],
+            "city": [ { "from": "11-15", "to": "03-31" } ]
+          },
+          "climate": {
+            "avgHighC": [31, 32, 32, 32, 31, 29, 27, 27, 28, 29, 30, 31],
+            "avgLowC": [23, 23, 23, 23, 23, 23, 22, 22, 22, 22, 23, 23],
+            "rainMm": [55, 80, 200, 240, 330, 480, 720, 690, 560, 410, 150, 60],
+            "rainDays": [5, 7, 14, 17, 20, 23, 27, 27, 25, 22, 12, 6],
+            "sunHours": [160, 160, 140, 150, 150, 100, 60, 60, 80, 110, 140, 160],
+            "seaTempC": [28, 29, 29, 29, 28, 27, 26, 25, 26, 27, 28, 28],
+            "humidity": [82, 81, 83, 84, 85, 87, 88, 88, 88, 87, 85, 83]
+          },
+          "crowds": [2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2],
+          "risks": [
+            { "type": "heavy rain", "from": "06-01", "to": "10-31", "note": "Extreme rainfall on the coast." },
+            { "type": "landslides", "from": "07-01", "to": "10-15", "note": "Landslides in the western highlands." }
+          ],
+          "recurringHolidays": [
+            { "name": "Mount Cameroon Race of Hope", "approx": "February", "effect": "Crowds gather in Buea for the mountain race.", "dates": { "from": "02-15", "to": "02-28" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 35, "high": 40 },
+            "midrangePerDay": { "low": 60, "shoulder": 70, "high": 90 },
+            "hotelNightMid": { "low": 45, "shoulder": 55, "high": 75 },
+            "notes": "Mid-range hotels in Kribi and Limbe. A guide is mandatory for Mount Cameroon."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Douala", "aliases": [], "region": "country" },
+        { "name": "Yaoundé", "aliases": ["Yaounde"], "region": "country" },
+        { "name": "Limbe", "aliases": ["Buea", "Mount Cameroon"], "region": "country" },
+        { "name": "Kribi", "aliases": ["Lobé Falls", "Lobe Falls"], "region": "country" },
+        { "name": "Bamenda", "aliases": ["Ring Road"], "region": "country" },
+        { "name": "Foumban", "aliases": ["Bafoussam"], "region": "country" },
+        { "name": "Garoua", "aliases": ["Benoué"], "region": "country" },
+        { "name": "Maroua", "aliases": ["Waza", "Rhumsiki", "Rumsiki"], "region": "country" },
+        { "name": "Ebodjé", "aliases": ["Ebodje", "Campo Ma'an"], "region": "country" },
+        { "name": "Dja", "aliases": ["Dja Faunal Reserve"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Cameroon" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/cameroon" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/cameroon/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "CF",
+      "isoNum": "140",
+      "name": "Central African Republic",
+      "aliases": ["CAR", "Centrafrique", "République centrafricaine"],
+      "continent": "Africa",
+      "flag": "🇨🇫",
+      "summary": "The Central African Republic is home to Dzanga-Sangha, one of Africa's best places to see western lowland gorillas and forest elephants (at the Dzanga Bai clearing). The dry season (December to March) is best for reaching the park. Government travel advice warns against all travel to most of the country, so check it first.",
+      "splitByRegion": false,
+      "splitReason": "Tourism is effectively limited to Dzanga-Sangha, which follows one rainforest calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Bangui and the Dzanga-Sangha reserve in the south-west.",
+          "lat": 4.36,
+          "lon": 18.56,
+          "tags": ["rainforest", "gorillas", "wildlife", "off the beaten track"],
+          "best": [
+            { "from": "12-01", "to": "03-31", "why": "Dry season: drier forest trails for gorilla tracking and easier access to Bayanga.", "goodFor": ["nature"] }
+          ],
+          "worst": [
+            { "from": "07-01", "to": "10-31", "why": "Heavy rains: forest tracks flood and access is very difficult." }
+          ],
+          "shoulder": [
+            { "from": "04-01", "to": "06-30", "why": "The rains return." },
+            { "from": "11-01", "to": "11-30", "why": "The rains are easing." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "12-01", "to": "04-15" } ]
+          },
+          "climate": {
+            "avgHighC": [32, 34, 34, 33, 32, 31, 30, 30, 31, 31, 32, 32],
+            "avgLowC": [20, 21, 22, 22, 22, 21, 21, 21, 21, 21, 20, 20],
+            "rainMm": [20, 40, 110, 140, 180, 150, 190, 220, 180, 200, 90, 20],
+            "rainDays": [2, 4, 9, 11, 14, 13, 15, 17, 15, 16, 9, 2],
+            "sunHours": [220, 210, 210, 200, 200, 170, 150, 150, 170, 190, 210, 220],
+            "seaTempC": null,
+            "humidity": [68, 65, 70, 77, 80, 82, 83, 84, 83, 82, 78, 72]
+          },
+          "crowds": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "risks": [ { "type": "heavy rain", "from": "07-01", "to": "10-31", "note": "Flooded forest tracks." } ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 60, "shoulder": 70, "high": 80 },
+            "midrangePerDay": { "low": 150, "shoulder": 180, "high": 220 },
+            "hotelNightMid": { "low": 100, "shoulder": 120, "high": 150 },
+            "notes": "Access to Dzanga-Sangha is usually by charter flight or via Cameroon or Congo. Check government travel advice and insurance."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Bangui", "aliases": [], "region": "country" },
+        { "name": "Bayanga", "aliases": ["Dzanga-Sangha", "Dzanga Sangha", "Dzanga Bai"], "region": "country" },
+        { "name": "Boali", "aliases": ["Boali Falls"], "region": "country" },
+        { "name": "Berbérati", "aliases": ["Berberati"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Central_African_Republic" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/central-african-republic" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/central-african-republic/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "TD",
+      "isoNum": "148",
+      "name": "Chad",
+      "aliases": ["Tchad", "Republic of Chad"],
+      "continent": "Africa",
+      "flag": "🇹🇩",
+      "summary": "Chad has two remarkable sights: Zakouma National Park, a conservation success with huge buffalo herds and elephants, and the sandstone arches and gueltas of the Ennedi Plateau. Both are dry-season only. Zakouma opens from December to June, and its best game viewing is from March to May, when water is scarce. The rains (June to October) close the parks and the roads. Check travel advice.",
+      "splitByRegion": false,
+      "splitReason": "Travel is limited to dry-season trips to Zakouma and Ennedi, which follow one calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "N'Djamena, Zakouma National Park, the Ennedi Plateau and Abéché.",
+          "lat": 12.13,
+          "lon": 15.05,
+          "tags": ["wildlife", "desert", "safari", "off the beaten track"],
+          "best": [
+            { "from": "12-01", "to": "03-15", "why": "The cool, dry season: Zakouma's animals gather at the waterholes and the Ennedi Plateau is accessible.", "goodFor": ["nature", "roadtrip"] }
+          ],
+          "worst": [ { "from": "06-15", "to": "10-15", "why": "The rains: Zakouma closes and the roads become impassable." } ],
+          "shoulder": [
+            { "from": "03-16", "to": "06-14", "why": "Extreme 45 °C heat, but the best game viewing in Zakouma (until May)." },
+            { "from": "10-16", "to": "11-30", "why": "The rains are over, but it's still hot." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "12-01", "to": "05-31" } ],
+            "roadtrip": [ { "from": "12-01", "to": "03-15" } ]
+          },
+          "climate": {
+            "avgHighC": [34, 37, 40, 42, 40, 38, 33, 31, 33, 36, 36, 34],
+            "avgLowC": [14, 17, 21, 25, 27, 25, 23, 22, 22, 21, 17, 14],
+            "rainMm": [0, 0, 0, 5, 30, 60, 170, 230, 110, 30, 0, 0],
+            "rainDays": [0, 0, 0, 1, 3, 6, 12, 15, 9, 2, 0, 0],
+            "sunHours": [290, 280, 270, 270, 280, 250, 220, 210, 240, 280, 290, 290],
+            "seaTempC": null,
+            "humidity": [22, 18, 18, 24, 37, 50, 65, 74, 68, 46, 28, 24]
+          },
+          "crowds": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "risks": [
+            { "type": "extreme heat", "from": "03-15", "to": "06-15", "note": "Temperatures above 42 °C." },
+            { "type": "sandstorm", "from": "12-01", "to": "04-30", "note": "Harmattan dust." }
+          ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 60, "shoulder": 70, "high": 80 },
+            "midrangePerDay": { "low": 200, "shoulder": 250, "high": 300 },
+            "hotelNightMid": { "low": 100, "shoulder": 120, "high": 150 },
+            "notes": "Zakouma's camps (Camp Nomade, Tinga) are run by African Parks and book out early. Most travel is by charter flight."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "N'Djamena", "aliases": ["Ndjamena"], "region": "country" },
+        { "name": "Zakouma", "aliases": ["Zakouma National Park"], "region": "country" },
+        { "name": "Ennedi", "aliases": ["Ennedi Plateau", "Fada", "Guelta d'Archei"], "region": "country" },
+        { "name": "Abéché", "aliases": ["Abeche"], "region": "country" },
+        { "name": "Tibesti", "aliases": [], "region": "country" },
+        { "name": "Moundou", "aliases": [], "region": "country" },
+        { "name": "Lake Chad", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Chad" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/chad" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/chad/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"
@@ -413,6 +866,86 @@
       "lastReviewed": "2026-10"
     },
     {
+      "iso2": "CI",
+      "isoNum": "384",
+      "name": "Côte d'Ivoire",
+      "aliases": ["Ivory Coast", "Cote d'Ivoire", "Republic of Côte d'Ivoire"],
+      "continent": "Africa",
+      "flag": "🇨🇮",
+      "summary": "Côte d'Ivoire combines Abidjan's lively Plateau and nightlife, the colonial town of Grand-Bassam, the lagoon beaches of Assinie and the giant basilica of Yamoussoukro. The south has two rainy seasons: the main one from May to July and a short one from October to November. December to March is dry, hot and sunny, and the best time to visit. The north (Korhogo, Comoé) has a single, Sahel-style rainy season.",
+      "splitByRegion": false,
+      "splitReason": "Most visitors stay in the south (Abidjan, Grand-Bassam, Assinie, Yamoussoukro), which follows one calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Abidjan, Grand-Bassam, Assinie, Yamoussoukro, San-Pédro and Sassandra, Man's mountains and Korhogo in the north.",
+          "lat": 5.36,
+          "lon": -4.01,
+          "tags": ["city", "beach", "culture", "nightlife"],
+          "best": [
+            { "from": "12-01", "to": "03-31", "why": "Dry season: hot, sunny 31 °C days and calm lagoon beaches.", "goodFor": ["beach", "city", "sun", "nature"] }
+          ],
+          "worst": [
+            { "from": "05-15", "to": "07-15", "why": "The main rainy season: heavy daily downpours and flooding in Abidjan." }
+          ],
+          "shoulder": [
+            { "from": "07-16", "to": "09-30", "why": "The 'little dry season': cloudy and cooler, with fewer rains." },
+            { "from": "10-01", "to": "11-30", "why": "The short rains." },
+            { "from": "04-01", "to": "05-14", "why": "Hot and humid, with rains building." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "12-01", "to": "04-30" } ],
+            "city": [ { "from": "11-15", "to": "04-15" } ],
+            "sun": [ { "from": "12-01", "to": "03-31" } ],
+            "nature": [ { "from": "12-01", "to": "03-31" } ]
+          },
+          "climate": {
+            "avgHighC": [31, 32, 32, 32, 31, 29, 28, 27, 28, 29, 30, 30],
+            "avgLowC": [23, 24, 24, 24, 24, 23, 23, 22, 23, 23, 23, 23],
+            "rainMm": [40, 55, 100, 140, 300, 550, 230, 40, 70, 170, 150, 80],
+            "rainDays": [3, 4, 7, 10, 16, 20, 13, 7, 8, 13, 13, 7],
+            "sunHours": [190, 200, 210, 210, 190, 130, 130, 140, 150, 190, 210, 190],
+            "seaTempC": [27, 28, 28, 29, 28, 27, 25, 24, 25, 27, 28, 28],
+            "humidity": [80, 80, 80, 81, 83, 85, 85, 84, 84, 83, 82, 81]
+          },
+          "crowds": [3, 2, 2, 2, 2, 1, 2, 2, 1, 2, 2, 3],
+          "risks": [
+            { "type": "flooding", "from": "05-15", "to": "07-15", "note": "Flash floods and landslides in Abidjan." },
+            { "type": "rough seas", "from": "06-01", "to": "09-30", "note": "Dangerous Atlantic currents; swim only where locals do." }
+          ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 35, "shoulder": 40, "high": 45 },
+            "midrangePerDay": { "low": 80, "shoulder": 90, "high": 110 },
+            "hotelNightMid": { "low": 60, "shoulder": 70, "high": 90 },
+            "notes": "Abidjan is one of West Africa's pricier cities. Assinie beach hotels fill at weekends with city residents."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Abidjan", "aliases": ["Plateau", "Cocody", "Treichville"], "region": "country" },
+        { "name": "Grand-Bassam", "aliases": ["Grand Bassam"], "region": "country" },
+        { "name": "Assinie", "aliases": ["Assinie-Mafia"], "region": "country" },
+        { "name": "Yamoussoukro", "aliases": [], "region": "country" },
+        { "name": "San-Pédro", "aliases": ["San Pedro", "Grand-Béréby"], "region": "country" },
+        { "name": "Sassandra", "aliases": [], "region": "country" },
+        { "name": "Man", "aliases": ["Mount Tonkoui"], "region": "country" },
+        { "name": "Korhogo", "aliases": [], "region": "country" },
+        { "name": "Comoé", "aliases": ["Comoe National Park"], "region": "country" },
+        { "name": "Taï", "aliases": ["Tai National Park"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/C%C3%B4te_d'Ivoire" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/c-te-divoire" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/c-te-divoire/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
       "iso2": "DJ",
       "isoNum": "262",
       "name": "Djibouti",
@@ -475,6 +1008,80 @@
         { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Djibouti" },
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/djibouti" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/djibouti/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "CD",
+      "isoNum": "180",
+      "name": "DR Congo",
+      "aliases": ["Democratic Republic of the Congo", "DRC", "Congo-Kinshasa", "Zaire"],
+      "continent": "Africa",
+      "flag": "🇨🇩",
+      "summary": "Most visitors to DR Congo head to the east: mountain gorillas in Virunga National Park, an overnight on the rim of the Nyiragongo volcano above its lava lake, and eastern lowland gorillas at Kahuzi-Biega. The main dry season (June to mid-September) and a shorter spell from December to February make for easier treks. Security in the east changes quickly and parks sometimes close, so check government travel advice and Virunga's official site.",
+      "splitByRegion": false,
+      "splitReason": "Visitors mostly go to the eastern highlands (Virunga, Kahuzi-Biega), which follow one two-season calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Goma, Virunga and Nyiragongo, Bukavu and Kahuzi-Biega, plus Kinshasa.",
+          "lat": -1.68,
+          "lon": 29.22,
+          "tags": ["gorillas", "volcano", "rainforest", "wildlife"],
+          "best": [
+            { "from": "06-01", "to": "09-15", "why": "The main dry season: easier gorilla treks in Virunga and Kahuzi-Biega and clearer views from Nyiragongo.", "goodFor": ["nature", "mountain"] }
+          ],
+          "worst": [
+            { "from": "03-15", "to": "05-15", "why": "The long rains: slippery forest trails, muddy roads and flooding in Kinshasa." }
+          ],
+          "shoulder": [
+            { "from": "12-01", "to": "02-28", "why": "A shorter dry spell in the east; hot and humid in Kinshasa." },
+            { "from": "09-16", "to": "11-30", "why": "The short rains." },
+            { "from": "03-01", "to": "03-14", "why": "The rains are building." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "06-01", "to": "09-15" }, { "from": "12-15", "to": "02-28" } ],
+            "mountain": [ { "from": "06-01", "to": "09-15" }, { "from": "12-15", "to": "02-28" } ]
+          },
+          "climate": {
+            "avgHighC": [25, 25, 25, 24, 24, 24, 24, 25, 25, 24, 24, 24],
+            "avgLowC": [15, 15, 15, 15, 15, 14, 14, 14, 14, 15, 15, 15],
+            "rainMm": [90, 90, 120, 150, 110, 40, 20, 50, 110, 140, 130, 100],
+            "rainDays": [12, 12, 15, 18, 14, 6, 4, 8, 14, 18, 17, 14],
+            "sunHours": [180, 170, 170, 160, 170, 200, 210, 190, 180, 170, 160, 170],
+            "seaTempC": null,
+            "humidity": [76, 76, 78, 80, 79, 72, 68, 70, 75, 79, 80, 78]
+          },
+          "crowds": [1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 1],
+          "risks": [
+            { "type": "heavy rain", "from": "03-01", "to": "05-31", "note": "Slippery trails and impassable roads." },
+            { "type": "landslides", "from": "03-15", "to": "05-15", "note": "Landslides around Bukavu." }
+          ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 50, "shoulder": 60, "high": 70 },
+            "midrangePerDay": { "low": 150, "shoulder": 180, "high": 220 },
+            "hotelNightMid": { "low": 80, "shoulder": 100, "high": 130 },
+            "notes": "Gorilla permits in Virunga cost about $400. Book through the official park site, which also runs the lodges."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Goma", "aliases": ["Virunga", "Virunga National Park", "Nyiragongo"], "region": "country" },
+        { "name": "Bukavu", "aliases": ["Kahuzi-Biega"], "region": "country" },
+        { "name": "Kinshasa", "aliases": [], "region": "country" },
+        { "name": "Lubumbashi", "aliases": [], "region": "country" },
+        { "name": "Kisangani", "aliases": [], "region": "country" },
+        { "name": "Matadi", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/DR_Congo" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/dr-congo" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/dr-congo/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"
@@ -656,6 +1263,73 @@
         { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Egypt" },
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/egypt" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/egypt/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "GQ",
+      "isoNum": "226",
+      "name": "Equatorial Guinea",
+      "aliases": ["Guinea Ecuatorial", "Republic of Equatorial Guinea"],
+      "continent": "Africa",
+      "flag": "🇬🇶",
+      "summary": "Equatorial Guinea is split between Bioko Island (Malabo, with its colonial architecture, and the black-sand beaches and turtle nesting at Ureca) and the mainland, Río Muni (Bata and Monte Alén). The driest months on Bioko are December to February, which is also turtle-nesting season. From March to November it's hot, humid and often rainy, wettest in September and October. Visitor visas and permits are bureaucratic.",
+      "splitByRegion": false,
+      "splitReason": "A small country where Bioko and the mainland follow a similar equatorial calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Malabo and Bioko Island (Ureca, Moka, Luba), Bata and the mainland.",
+          "lat": 3.75,
+          "lon": 8.78,
+          "tags": ["islands", "turtles", "rainforest", "off the beaten track"],
+          "best": [
+            { "from": "12-01", "to": "02-28", "why": "The driest months on Bioko, with sea turtles nesting on the Ureca beaches.", "goodFor": ["nature", "beach"] }
+          ],
+          "worst": [ { "from": "09-01", "to": "10-31", "why": "The wettest weeks: heavy rain and overcast skies." } ],
+          "shoulder": [
+            { "from": "03-01", "to": "08-31", "why": "Hot, humid and frequently rainy." },
+            { "from": "11-01", "to": "11-30", "why": "The rains are easing." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "11-15", "to": "02-28" } ],
+            "beach": [ { "from": "12-01", "to": "02-28" } ]
+          },
+          "climate": {
+            "avgHighC": [31, 32, 32, 32, 31, 29, 29, 29, 29, 29, 30, 31],
+            "avgLowC": [21, 21, 22, 22, 22, 22, 21, 21, 21, 21, 22, 21],
+            "rainMm": [30, 40, 140, 180, 230, 230, 160, 150, 230, 260, 110, 40],
+            "rainDays": [3, 5, 12, 14, 18, 19, 16, 16, 20, 20, 11, 4],
+            "sunHours": [150, 150, 140, 140, 130, 100, 80, 80, 90, 100, 120, 140],
+            "seaTempC": [28, 29, 29, 29, 28, 27, 26, 25, 26, 27, 28, 28],
+            "humidity": [80, 80, 82, 83, 84, 86, 86, 86, 86, 85, 83, 81]
+          },
+          "crowds": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "risks": [ { "type": "heavy rain", "from": "03-01", "to": "10-31", "note": "Equatorial downpours." } ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 60, "shoulder": 70, "high": 80 },
+            "midrangePerDay": { "low": 150, "shoulder": 180, "high": 220 },
+            "hotelNightMid": { "low": 120, "shoulder": 150, "high": 180 },
+            "notes": "Expensive, with few tourist facilities. Photography permits may be required."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Malabo", "aliases": ["Bioko"], "region": "country" },
+        { "name": "Ureca", "aliases": ["Moka", "Luba"], "region": "country" },
+        { "name": "Bata", "aliases": ["Río Muni", "Rio Muni"], "region": "country" },
+        { "name": "Ciudad de la Paz", "aliases": ["Oyala"], "region": "country" },
+        { "name": "Annobón", "aliases": ["Annobon"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Equatorial_Guinea" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/equatorial-guinea" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/equatorial-guinea/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"
@@ -883,6 +1557,306 @@
       "lastReviewed": "2026-10"
     },
     {
+      "iso2": "GA",
+      "isoNum": "266",
+      "name": "Gabon",
+      "aliases": ["Gabonese Republic"],
+      "continent": "Africa",
+      "flag": "🇬🇦",
+      "summary": "About 88% of Gabon is rainforest, and 13 national parks protect it: Loango, where elephants walk the beaches and hippos surf, the forests of Lopé and the turtle beaches of Pongara. The long dry season (June to mid-September) is cooler and overcast, the best time for forest trails and humpback whales off Loango. The wettest months are October and November, then March to May.",
+      "splitByRegion": false,
+      "splitReason": "The parks and Libreville share one equatorial two-season calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Libreville, Pongara, Loango, Lopé, Ivindo, Lambaréné, Port-Gentil and Franceville.",
+          "lat": 0.39,
+          "lon": 9.45,
+          "tags": ["rainforest", "wildlife", "beach", "whales", "turtles"],
+          "best": [
+            { "from": "06-01", "to": "09-15", "why": "The long dry season: cooler, overcast days, humpback whales off Loango and easier forest trails.", "goodFor": ["nature", "beach"] }
+          ],
+          "worst": [
+            { "from": "10-01", "to": "11-30", "why": "The wettest months: torrential downpours and flooded park tracks." }
+          ],
+          "shoulder": [
+            { "from": "12-01", "to": "02-28", "why": "The short dry spell: hot and humid, with leatherback turtles nesting at Pongara." },
+            { "from": "03-01", "to": "05-31", "why": "The second heavy rains: hot and humid, with forest elephants in Lopé." },
+            { "from": "09-16", "to": "09-30", "why": "The rains are returning." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "06-01", "to": "09-15" }, { "from": "12-15", "to": "02-28" } ],
+            "beach": [ { "from": "06-01", "to": "09-30" }, { "from": "12-15", "to": "02-28" } ]
+          },
+          "climate": {
+            "avgHighC": [30, 31, 31, 31, 30, 28, 27, 28, 29, 29, 29, 30],
+            "avgLowC": [23, 23, 23, 23, 23, 22, 21, 21, 22, 22, 22, 23],
+            "rainMm": [250, 240, 360, 340, 240, 20, 5, 15, 100, 380, 400, 250],
+            "rainDays": [15, 14, 18, 19, 16, 3, 1, 3, 11, 22, 21, 16],
+            "sunHours": [170, 170, 170, 170, 160, 140, 120, 110, 110, 120, 140, 160],
+            "seaTempC": [28, 29, 29, 29, 28, 26, 25, 24, 25, 27, 28, 28],
+            "humidity": [84, 83, 83, 84, 84, 82, 81, 80, 82, 85, 86, 85]
+          },
+          "crowds": [1, 1, 1, 1, 1, 2, 3, 3, 2, 1, 1, 1],
+          "risks": [
+            { "type": "heavy rain", "from": "10-01", "to": "05-31", "note": "Equatorial downpours (except the dry seasons)." }
+          ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 60, "shoulder": 70, "high": 80 },
+            "midrangePerDay": { "low": 150, "shoulder": 180, "high": 220 },
+            "hotelNightMid": { "low": 100, "shoulder": 120, "high": 150 },
+            "notes": "Expensive. Park lodges (Loango, Lopé) are mostly packages with transfers by plane or boat."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Libreville", "aliases": [], "region": "country" },
+        { "name": "Loango", "aliases": ["Loango National Park", "Iguéla", "Iguela"], "region": "country" },
+        { "name": "Lopé", "aliases": ["Lope National Park"], "region": "country" },
+        { "name": "Pongara", "aliases": [], "region": "country" },
+        { "name": "Port-Gentil", "aliases": ["Port Gentil"], "region": "country" },
+        { "name": "Franceville", "aliases": ["Lékoni", "Lekoni"], "region": "country" },
+        { "name": "Lambaréné", "aliases": ["Lambarene"], "region": "country" },
+        { "name": "Ivindo", "aliases": ["Langoué", "Kongou Falls"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Gabon" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/gabon" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/gabon/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "GH",
+      "isoNum": "288",
+      "name": "Ghana",
+      "aliases": ["Republic of Ghana", "Gold Coast"],
+      "continent": "Africa",
+      "flag": "🇬🇭",
+      "summary": "Ghana is one of West Africa's easiest countries to travel: Accra's arts scene, the slave castles at Cape Coast and Elmina, the Kakum canopy walk, Ashanti culture in Kumasi and elephants at Mole National Park. The dry season (mid-November to March) is best, though Harmattan dust hazes the skies from December to February. The coast has its main rains from April to June and minor rains in September and October. December is peak diaspora season in Accra.",
+      "splitByRegion": false,
+      "splitReason": "The coast, Kumasi and Mole are close enough to share a dry-season window.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Accra, Cape Coast and Elmina, Kakum, Busua, Kumasi, the Volta region and Mole National Park.",
+          "lat": 5.6,
+          "lon": -0.19,
+          "tags": ["culture", "history", "beach", "wildlife"],
+          "best": [
+            { "from": "11-15", "to": "03-31", "why": "Dry season: sunny days, the best game viewing at Mole and easy road travel (with Harmattan haze from December to February).", "goodFor": ["beach", "city", "nature", "roadtrip", "sun"] }
+          ],
+          "worst": [
+            { "from": "05-01", "to": "06-30", "why": "The main rains on the coast: heavy downpours, flooding in Accra and muddy roads." }
+          ],
+          "shoulder": [
+            { "from": "07-01", "to": "09-15", "why": "The coast's cooler, drier spell, though the north is at its wettest." },
+            { "from": "09-16", "to": "11-14", "why": "The minor rains on the coast." },
+            { "from": "04-01", "to": "04-30", "why": "Hot and sticky as the rains begin." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "11-01", "to": "04-15" } ],
+            "city": [ { "from": "11-01", "to": "04-15" } ],
+            "nature": [ { "from": "12-01", "to": "04-15" } ],
+            "roadtrip": [ { "from": "11-15", "to": "04-15" } ],
+            "sun": [ { "from": "11-15", "to": "03-31" } ]
+          },
+          "climate": {
+            "avgHighC": [31, 31, 31, 31, 30, 28, 27, 27, 28, 29, 31, 31],
+            "avgLowC": [23, 24, 24, 24, 24, 23, 22, 22, 22, 23, 23, 23],
+            "rainMm": [15, 30, 55, 80, 140, 190, 50, 20, 40, 65, 35, 20],
+            "rainDays": [1, 2, 4, 6, 9, 10, 4, 3, 4, 6, 3, 2],
+            "sunHours": [210, 210, 220, 220, 220, 160, 160, 170, 180, 230, 240, 220],
+            "seaTempC": [27, 28, 28, 28, 28, 27, 25, 24, 25, 26, 27, 27],
+            "humidity": [78, 77, 77, 78, 80, 83, 83, 82, 81, 80, 78, 78]
+          },
+          "crowds": [3, 3, 3, 2, 2, 2, 3, 3, 2, 2, 3, 5],
+          "risks": [
+            { "type": "flooding", "from": "05-01", "to": "06-30", "note": "Urban flooding in Accra." },
+            { "type": "sandstorm", "from": "12-01", "to": "02-28", "note": "Harmattan dust haze." }
+          ],
+          "recurringHolidays": [
+            { "name": "December in Ghana", "approx": "Mid-December – early January", "effect": "Diaspora homecoming season, with concerts and festivals; Accra hotels and flights peak.", "dates": { "from": "12-15", "to": "01-05" } },
+            { "name": "PANAFEST & Emancipation Day", "approx": "Late July – early August (odd years)", "effect": "Cape Coast heritage events.", "dates": { "from": "07-25", "to": "08-02" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 35, "high": 45 },
+            "midrangePerDay": { "low": 60, "shoulder": 75, "high": 100 },
+            "hotelNightMid": { "low": 45, "shoulder": 60, "high": 90 },
+            "notes": "Good-value guesthouses on the coast. Accra prices jump in December."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Accra", "aliases": ["Labadi", "Osu", "Jamestown"], "region": "country" },
+        { "name": "Cape Coast", "aliases": ["Elmina", "Kakum"], "region": "country" },
+        { "name": "Kumasi", "aliases": ["Ashanti"], "region": "country" },
+        { "name": "Mole National Park", "aliases": ["Mole", "Tamale", "Larabanga"], "region": "country" },
+        { "name": "Busua", "aliases": ["Butre", "Ahanta"], "region": "country" },
+        { "name": "Ada Foah", "aliases": ["Ada"], "region": "country" },
+        { "name": "Akosombo", "aliases": ["Volta", "Hohoe", "Wli Falls"], "region": "country" },
+        { "name": "Kokrobite", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Ghana" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/ghana" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/ghana/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "GN",
+      "isoNum": "324",
+      "name": "Guinea",
+      "aliases": ["Guinée", "Guinea-Conakry", "Republic of Guinea"],
+      "continent": "Africa",
+      "flag": "🇬🇳",
+      "summary": "Guinea has the Fouta Djallon highlands (waterfalls, hiking and cool plateaux), the Îles de Los off Conakry and the forests near Mount Nimba. The coast is one of the wettest places in West Africa: Conakry gets more than 1,000 mm of rain in July alone. Travel in the dry season (mid-November to March), ideally right after the rains, when the waterfalls are still full.",
+      "splitByRegion": false,
+      "splitReason": "Travel follows one wet-and-dry calendar; the Fouta Djallon is just cooler.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Conakry and the Îles de Los, the Fouta Djallon highlands (Dalaba, Labé, Pita), Kindia and the forests near Mount Nimba.",
+          "lat": 9.64,
+          "lon": -13.58,
+          "tags": ["hiking", "waterfalls", "islands", "off the beaten track"],
+          "best": [
+            { "from": "11-15", "to": "03-31", "why": "Dry season: sunny days, cool highland nights and full waterfalls in November and December.", "goodFor": ["nature", "mountain", "beach", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "06-15", "to": "09-30", "why": "Torrential rains (Conakry gets more than 1,000 mm in July) and impassable roads." }
+          ],
+          "shoulder": [
+            { "from": "04-01", "to": "06-14", "why": "Hot and humid, with the rains arriving." },
+            { "from": "10-01", "to": "11-14", "why": "The rains are easing and the Fouta Djallon waterfalls are at their fullest." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "10-15", "to": "03-31" } ],
+            "mountain": [ { "from": "11-01", "to": "03-31" } ],
+            "beach": [ { "from": "12-01", "to": "04-30" } ],
+            "roadtrip": [ { "from": "12-01", "to": "04-15" } ]
+          },
+          "climate": {
+            "avgHighC": [31, 31, 32, 32, 32, 30, 28, 28, 29, 30, 31, 31],
+            "avgLowC": [22, 23, 23, 24, 24, 23, 23, 23, 23, 23, 23, 23],
+            "rainMm": [1, 1, 3, 20, 150, 450, 1200, 1100, 650, 300, 100, 10],
+            "rainDays": [0, 0, 0, 2, 10, 20, 28, 28, 24, 18, 8, 1],
+            "sunHours": [220, 220, 240, 220, 190, 140, 90, 80, 120, 170, 200, 210],
+            "seaTempC": [27, 27, 27, 28, 28, 28, 27, 26, 27, 28, 28, 28],
+            "humidity": [74, 74, 74, 75, 78, 83, 87, 88, 86, 83, 79, 76]
+          },
+          "crowds": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "risks": [ { "type": "heavy rain", "from": "06-01", "to": "10-15", "note": "Extreme rainfall and road washouts." } ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 35, "high": 40 },
+            "midrangePerDay": { "low": 60, "shoulder": 70, "high": 80 },
+            "hotelNightMid": { "low": 45, "shoulder": 55, "high": 65 },
+            "notes": "Very few tourist facilities outside Conakry; roads are rough."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Conakry", "aliases": [], "region": "country" },
+        { "name": "Îles de Los", "aliases": ["Iles de Los", "Kassa", "Roume"], "region": "country" },
+        { "name": "Dalaba", "aliases": ["Fouta Djallon", "Labé", "Labe", "Pita"], "region": "country" },
+        { "name": "Kindia", "aliases": [], "region": "country" },
+        { "name": "Kankan", "aliases": [], "region": "country" },
+        { "name": "Nzérékoré", "aliases": ["Nzerekore", "Mount Nimba"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Guinea" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/guinea" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/guinea/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "GW",
+      "isoNum": "624",
+      "name": "Guinea-Bissau",
+      "aliases": ["Guiné-Bissau", "Republic of Guinea-Bissau"],
+      "continent": "Africa",
+      "flag": "🇬🇼",
+      "summary": "Guinea-Bissau's highlight is the Bijagós archipelago: 88 islands of mangroves, saltwater hippos, nesting turtles and matriarchal island cultures. The dry season (mid-November to mid-May) is the time to go. From July to September the rains are torrential and boats to the islands are limited.",
+      "splitByRegion": false,
+      "splitReason": "A small country with one tropical wet-and-dry calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Bissau, the Bijagós archipelago (Bubaque, Orango, João Vieira), Varela and Cacheu.",
+          "lat": 11.86,
+          "lon": -15.6,
+          "tags": ["islands", "wildlife", "culture", "fishing"],
+          "best": [
+            { "from": "11-15", "to": "05-15", "why": "Dry season: sunny 31 °C days and calm sea crossings to the Bijagós.", "goodFor": ["beach", "nature", "sun"] }
+          ],
+          "worst": [ { "from": "07-01", "to": "09-30", "why": "Torrential rains, rough crossings and closed island lodges." } ],
+          "shoulder": [
+            { "from": "05-16", "to": "06-30", "why": "Hot and humid, with the rains arriving." },
+            { "from": "10-01", "to": "11-14", "why": "The rains are easing; turtles nesting on Poilão from August to November." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "11-15", "to": "05-31" } ],
+            "nature": [ { "from": "10-15", "to": "05-15" } ],
+            "sun": [ { "from": "11-15", "to": "05-31" } ]
+          },
+          "climate": {
+            "avgHighC": [31, 32, 33, 33, 32, 31, 29, 28, 29, 30, 31, 30],
+            "avgLowC": [18, 19, 20, 21, 22, 23, 23, 23, 23, 23, 22, 19],
+            "rainMm": [0, 1, 0, 1, 15, 170, 450, 550, 350, 140, 15, 1],
+            "rainDays": [0, 0, 0, 0, 2, 12, 22, 25, 20, 11, 2, 0],
+            "sunHours": [250, 250, 280, 270, 250, 190, 150, 130, 160, 210, 240, 240],
+            "seaTempC": [24, 23, 23, 24, 26, 28, 28, 28, 28, 28, 27, 25],
+            "humidity": [65, 66, 68, 70, 74, 80, 86, 88, 86, 82, 75, 68]
+          },
+          "crowds": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "risks": [
+            { "type": "heavy rain", "from": "06-15", "to": "10-15", "note": "Heavy rain and flooding." },
+            { "type": "rough seas", "from": "07-01", "to": "09-30", "note": "Island crossings can be cancelled." }
+          ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 35, "high": 40 },
+            "midrangePerDay": { "low": 60, "shoulder": 70, "high": 90 },
+            "hotelNightMid": { "low": 40, "shoulder": 50, "high": 70 },
+            "notes": "Bijagós lodges are mostly fishing camps. Boats from Bissau run a few times a week."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Bissau", "aliases": [], "region": "country" },
+        { "name": "Bubaque", "aliases": ["Bijagós", "Bijagos", "Orango", "João Vieira", "Joao Vieira"], "region": "country" },
+        { "name": "Cacheu", "aliases": [], "region": "country" },
+        { "name": "Varela", "aliases": [], "region": "country" },
+        { "name": "Bolama", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Guinea-Bissau" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/guinea-bissau" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/guinea-bissau/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
       "iso2": "KE",
       "isoNum": "404",
       "name": "Kenya",
@@ -1081,6 +2055,77 @@
         { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Lesotho" },
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/lesotho" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/lesotho/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "LR",
+      "isoNum": "430",
+      "name": "Liberia",
+      "aliases": ["Republic of Liberia"],
+      "continent": "Africa",
+      "flag": "🇱🇷",
+      "summary": "Liberia has Robertsport's surf breaks, the rainforest of Sapo National Park and a long, empty coastline. The dry season (mid-November to April) is the time to go, with the best surf from April to October. The rainy season (May to October) is among the wettest anywhere, and many roads become impassable.",
+      "splitByRegion": false,
+      "splitReason": "A small country with one tropical wet-and-dry calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Monrovia, Robertsport, Buchanan, Harper and Sapo National Park.",
+          "lat": 6.3,
+          "lon": -10.8,
+          "tags": ["surf", "rainforest", "beach", "off the beaten track"],
+          "best": [
+            { "from": "11-15", "to": "04-15", "why": "Dry season: sunny days, passable roads and calm beaches.", "goodFor": ["beach", "nature", "sun"] }
+          ],
+          "worst": [
+            { "from": "06-01", "to": "09-30", "why": "Very heavy rains (950 mm in June in Monrovia) and roads turned to mud." }
+          ],
+          "shoulder": [
+            { "from": "04-16", "to": "05-31", "why": "Hot and humid, with the rains starting; good surf." },
+            { "from": "10-01", "to": "11-14", "why": "Rains easing." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "11-15", "to": "04-30" } ],
+            "nature": [ { "from": "12-01", "to": "04-15" } ],
+            "sun": [ { "from": "12-01", "to": "04-15" } ]
+          },
+          "climate": {
+            "avgHighC": [30, 30, 31, 31, 30, 28, 27, 27, 27, 28, 29, 30],
+            "avgLowC": [22, 23, 23, 23, 23, 23, 22, 23, 23, 23, 23, 22],
+            "rainMm": [30, 50, 100, 140, 380, 950, 800, 400, 750, 600, 240, 80],
+            "rainDays": [4, 4, 7, 10, 18, 25, 24, 20, 24, 23, 15, 7],
+            "sunHours": [190, 200, 210, 200, 180, 120, 100, 100, 110, 150, 180, 190],
+            "seaTempC": [27, 28, 28, 28, 28, 27, 26, 25, 26, 27, 28, 28],
+            "humidity": [80, 79, 79, 80, 83, 87, 88, 88, 88, 86, 84, 81]
+          },
+          "crowds": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "risks": [ { "type": "heavy rain", "from": "05-15", "to": "10-31", "note": "Extreme rainfall and flooding." } ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 35, "shoulder": 40, "high": 45 },
+            "midrangePerDay": { "low": 70, "shoulder": 80, "high": 100 },
+            "hotelNightMid": { "low": 60, "shoulder": 70, "high": 90 },
+            "notes": "Monrovia hotels are expensive for the quality. Robertsport has simple surf lodges."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Monrovia", "aliases": [], "region": "country" },
+        { "name": "Robertsport", "aliases": [], "region": "country" },
+        { "name": "Buchanan", "aliases": [], "region": "country" },
+        { "name": "Harper", "aliases": ["Cape Palmas"], "region": "country" },
+        { "name": "Sapo National Park", "aliases": ["Sapo"], "region": "country" },
+        { "name": "Gbarnga", "aliases": ["Kpatawee Falls"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Liberia" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/liberia" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/liberia/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"
@@ -1366,6 +2411,158 @@
         { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Malawi" },
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/malawi" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/malawi/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "ML",
+      "isoNum": "466",
+      "name": "Mali",
+      "aliases": ["Republic of Mali"],
+      "continent": "Africa",
+      "flag": "🇲🇱",
+      "summary": "Mali has some of West Africa's greatest sights: the mud mosque of Djenné, Dogon Country and Timbuktu. Government travel advice currently warns against all or most travel, so check it before planning. In general the cool, dry season (November to February) is the best time. April to June is extremely hot, and the rains (July to October) green the Sahel and raise the Niger River.",
+      "splitByRegion": false,
+      "splitReason": "The visitor sites along the Niger share one Sahelian calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Bamako, Ségou, Djenné, Mopti, Dogon Country (Bandiagara) and Timbuktu.",
+          "lat": 12.64,
+          "lon": -8,
+          "tags": ["culture", "history", "architecture", "river"],
+          "best": [
+            { "from": "11-01", "to": "02-28", "why": "Cool, dry season: 30 °C days and cool nights; Djenné and Dogon Country at their most comfortable.", "goodFor": ["city", "nature", "roadtrip"] }
+          ],
+          "worst": [ { "from": "04-01", "to": "06-30", "why": "Extreme 40–45 °C heat before the rains." } ],
+          "shoulder": [
+            { "from": "07-01", "to": "10-31", "why": "Rainy season: green, but roads flood; the Niger is high enough for river boats from August." },
+            { "from": "03-01", "to": "03-31", "why": "Heating up fast." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "11-01", "to": "02-28" } ],
+            "nature": [ { "from": "11-01", "to": "02-28" } ],
+            "roadtrip": [ { "from": "11-01", "to": "02-28" } ]
+          },
+          "climate": {
+            "avgHighC": [33, 36, 38, 39, 38, 34, 31, 30, 31, 34, 35, 33],
+            "avgLowC": [17, 20, 23, 25, 25, 23, 22, 22, 21, 21, 19, 17],
+            "rainMm": [0, 0, 3, 15, 55, 135, 230, 300, 200, 60, 5, 0],
+            "rainDays": [0, 0, 0, 2, 5, 10, 15, 18, 14, 5, 0, 0],
+            "sunHours": [270, 260, 270, 250, 250, 240, 210, 200, 220, 260, 270, 260],
+            "seaTempC": null,
+            "humidity": [30, 27, 27, 35, 50, 62, 73, 78, 75, 62, 45, 35]
+          },
+          "crowds": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "risks": [
+            { "type": "extreme heat", "from": "03-15", "to": "06-30", "note": "Temperatures above 40 °C." },
+            { "type": "sandstorm", "from": "12-01", "to": "03-15", "note": "Harmattan dust." }
+          ],
+          "recurringHolidays": [
+            { "name": "Ramadan", "approx": "Moves about 11 days earlier each year", "effect": "Daytime services are limited.", "moving": { "anchor": "ramadanStart", "offsetDays": 0, "durationDays": 30 } },
+            { "name": "Tabaski (Eid al-Adha)", "approx": "Moves each year", "effect": "A major festival; transport is busy.", "moving": { "anchor": "eidAlAdha", "offsetDays": -1, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 35, "high": 40 },
+            "midrangePerDay": { "low": 60, "shoulder": 70, "high": 80 },
+            "hotelNightMid": { "low": 40, "shoulder": 50, "high": 60 },
+            "notes": "Tourism has largely collapsed because of insecurity. Check government travel advice and insurance cover."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Bamako", "aliases": [], "region": "country" },
+        { "name": "Djenné", "aliases": ["Djenne"], "region": "country" },
+        { "name": "Mopti", "aliases": [], "region": "country" },
+        { "name": "Bandiagara", "aliases": ["Dogon Country", "Sangha"], "region": "country" },
+        { "name": "Timbuktu", "aliases": ["Tombouctou"], "region": "country" },
+        { "name": "Ségou", "aliases": ["Segou"], "region": "country" },
+        { "name": "Kayes", "aliases": [], "region": "country" },
+        { "name": "Gao", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Mali" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/mali" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/mali/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "MR",
+      "isoNum": "478",
+      "name": "Mauritania",
+      "aliases": ["Islamic Republic of Mauritania"],
+      "continent": "Africa",
+      "flag": "🇲🇷",
+      "summary": "Mauritania is almost all Sahara. The cool season (November to mid-March) is the only comfortable time for the Adrar circuit (Chinguetti, Ouadane, Terjit), the iron-ore train and the birds of the Banc d'Arguin. From May to September interior temperatures pass 45 °C. Check government travel advice, because large areas of the east and north are advised against.",
+      "splitByRegion": false,
+      "splitReason": "Almost the entire country is Saharan, with one desert calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Nouakchott, Nouadhibou and the iron-ore train, the Adrar (Atar, Chinguetti, Ouadane, Terjit) and the Banc d'Arguin.",
+          "lat": 20.52,
+          "lon": -13.05,
+          "tags": ["desert", "dunes", "history", "birds"],
+          "best": [
+            { "from": "11-01", "to": "03-15", "why": "Cool season: warm days and cold nights for the Adrar's dunes and the ancient libraries of Chinguetti; migratory birds on the Banc d'Arguin.", "goodFor": ["nature", "roadtrip"] }
+          ],
+          "worst": [ { "from": "05-15", "to": "09-15", "why": "45 °C heat and sandstorms; the desert circuits shut down." } ],
+          "shoulder": [
+            { "from": "03-16", "to": "05-14", "why": "Heating up, with sand-laden winds." },
+            { "from": "09-16", "to": "10-31", "why": "The heat is easing." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "11-01", "to": "03-31" } ],
+            "roadtrip": [ { "from": "11-01", "to": "03-15" } ]
+          },
+          "climate": {
+            "avgHighC": [29, 32, 35, 38, 41, 44, 43, 42, 41, 38, 33, 29],
+            "avgLowC": [12, 14, 17, 20, 24, 27, 27, 27, 26, 22, 17, 13],
+            "rainMm": [1, 1, 1, 0, 1, 3, 10, 30, 20, 3, 1, 1],
+            "rainDays": [0, 0, 0, 0, 0, 1, 2, 4, 3, 1, 0, 0],
+            "sunHours": [270, 270, 300, 300, 320, 290, 290, 290, 270, 280, 270, 260],
+            "seaTempC": null,
+            "humidity": [30, 26, 22, 20, 20, 24, 32, 40, 38, 30, 30, 32]
+          },
+          "crowds": [2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 2, 2],
+          "risks": [
+            { "type": "extreme heat", "from": "05-01", "to": "09-30", "note": "Interior temperatures above 45 °C." },
+            { "type": "sandstorm", "from": "03-01", "to": "06-30", "note": "Sandstorms on desert routes." }
+          ],
+          "recurringHolidays": [
+            { "name": "Ramadan", "approx": "Moves about 11 days earlier each year", "effect": "Daytime services are limited.", "moving": { "anchor": "ramadanStart", "offsetDays": 0, "durationDays": 30 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 45, "high": 50 },
+            "midrangePerDay": { "low": 80, "shoulder": 90, "high": 110 },
+            "hotelNightMid": { "low": 50, "shoulder": 60, "high": 70 },
+            "notes": "Adrar guesthouses (auberges) are simple. Most visitors use a local agency with a 4x4 and driver."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Nouakchott", "aliases": [], "region": "country" },
+        { "name": "Nouadhibou", "aliases": ["Iron Ore Train"], "region": "country" },
+        { "name": "Atar", "aliases": ["Adrar"], "region": "country" },
+        { "name": "Chinguetti", "aliases": [], "region": "country" },
+        { "name": "Ouadane", "aliases": ["Wadan"], "region": "country" },
+        { "name": "Terjit", "aliases": [], "region": "country" },
+        { "name": "Banc d'Arguin", "aliases": ["Iwik"], "region": "country" },
+        { "name": "Tidjikja", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Mauritania" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/mauritania" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/mauritania/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"
@@ -1842,6 +3039,233 @@
       "lastReviewed": "2026-10"
     },
     {
+      "iso2": "NE",
+      "isoNum": "562",
+      "name": "Niger",
+      "aliases": ["Republic of the Niger"],
+      "continent": "Africa",
+      "flag": "🇳🇪",
+      "summary": "Niger is mostly Sahara and Sahel: Agadez's mud minaret, the Aïr Mountains and the Ténéré desert. The cool, dry months (November to mid-February) are the only comfortable time. Government travel advice currently warns against most travel. April to June is extremely hot, and the short rains (July to September) bring the Tuareg and Wodaabe gatherings near Ingall.",
+      "splitByRegion": false,
+      "splitReason": "The whole country shares one Sahelian-desert calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Niamey and the Niger River, Agadez, Zinder, the Aïr Mountains and the Ténéré desert.",
+          "lat": 13.51,
+          "lon": 2.11,
+          "tags": ["desert", "culture", "river", "off the beaten track"],
+          "best": [
+            { "from": "11-01", "to": "02-15", "why": "The cool, dry season: warm days, cold desert nights and clear skies.", "goodFor": ["nature", "city", "roadtrip"] }
+          ],
+          "worst": [ { "from": "04-01", "to": "06-15", "why": "Extreme heat of 42–46 °C before the rains." } ],
+          "shoulder": [
+            { "from": "06-16", "to": "09-30", "why": "Short rainy season: humid and green in the south; the Cure Salée nomad gathering in September." },
+            { "from": "02-16", "to": "03-31", "why": "Heating up quickly." },
+            { "from": "10-01", "to": "10-31", "why": "Hot, but the rains have ended." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "11-01", "to": "02-28" } ],
+            "city": [ { "from": "11-01", "to": "02-28" } ],
+            "roadtrip": [ { "from": "11-01", "to": "02-15" } ]
+          },
+          "climate": {
+            "avgHighC": [33, 36, 40, 42, 41, 38, 35, 32, 34, 38, 37, 34],
+            "avgLowC": [16, 19, 23, 27, 28, 26, 24, 23, 24, 23, 19, 16],
+            "rainMm": [0, 0, 3, 5, 35, 70, 150, 185, 90, 15, 0, 0],
+            "rainDays": [0, 0, 0, 1, 4, 7, 11, 13, 8, 2, 0, 0],
+            "sunHours": [280, 270, 270, 260, 270, 260, 250, 240, 260, 290, 290, 280],
+            "seaTempC": null,
+            "humidity": [22, 19, 20, 27, 40, 52, 63, 72, 68, 47, 27, 25]
+          },
+          "crowds": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "risks": [
+            { "type": "extreme heat", "from": "03-15", "to": "06-30", "note": "Temperatures above 42 °C." },
+            { "type": "sandstorm", "from": "12-01", "to": "04-30", "note": "Harmattan dust and sandstorms." }
+          ],
+          "recurringHolidays": [
+            { "name": "Ramadan", "approx": "Moves about 11 days earlier each year", "effect": "Daytime services are limited.", "moving": { "anchor": "ramadanStart", "offsetDays": 0, "durationDays": 30 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 35, "high": 40 },
+            "midrangePerDay": { "low": 60, "shoulder": 70, "high": 80 },
+            "hotelNightMid": { "low": 40, "shoulder": 50, "high": 60 },
+            "notes": "Very limited tourism infrastructure. Check government travel advice and insurance cover."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Niamey", "aliases": [], "region": "country" },
+        { "name": "Agadez", "aliases": [], "region": "country" },
+        { "name": "Zinder", "aliases": [], "region": "country" },
+        { "name": "Aïr Mountains", "aliases": ["Air Mountains", "Ténéré", "Tenere", "Timia"], "region": "country" },
+        { "name": "Ingall", "aliases": ["Cure Salée", "Cure Salee"], "region": "country" },
+        { "name": "Parc W du Niger", "aliases": ["Say"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Niger" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/niger" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/niger/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "NG",
+      "isoNum": "566",
+      "name": "Nigeria",
+      "aliases": ["Federal Republic of Nigeria", "Naija"],
+      "continent": "Africa",
+      "flag": "🇳🇬",
+      "summary": "Nigeria is Africa's most populous country and a cultural powerhouse: Lagos's art, music and food scene, the Osun-Osogbo sacred grove, Calabar's carnival and the Obudu plateau. The dry season (mid-November to February) is the most comfortable time and also 'Detty December' party season in Lagos. The heaviest rains fall from May to July and again in September and October. Check travel advice, because many states are advised against.",
+      "splitByRegion": false,
+      "splitReason": "Most visitors stay in Lagos, Abuja and the south, which share one wet-and-dry calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Lagos, Abuja, Ibadan and Osogbo, Benin City, Calabar and the Obudu plateau, Enugu, Jos and Yankari.",
+          "lat": 6.45,
+          "lon": 3.39,
+          "tags": ["city", "culture", "music", "food", "nightlife"],
+          "best": [
+            { "from": "11-15", "to": "02-28", "why": "Dry season: sunny and slightly less humid, with December's festival season in Lagos (Harmattan haze inland).", "goodFor": ["city", "beach", "nature", "roadtrip"] }
+          ],
+          "worst": [ { "from": "06-01", "to": "07-31", "why": "Peak rains: Lagos floods and traffic grinds to a halt." } ],
+          "shoulder": [
+            { "from": "03-01", "to": "05-31", "why": "Hot and humid, with the rains starting." },
+            { "from": "08-01", "to": "08-31", "why": "The 'August break': a short dry spell in the south." },
+            { "from": "09-01", "to": "11-14", "why": "The second rainy season in the south." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "11-01", "to": "03-15" } ],
+            "beach": [ { "from": "11-15", "to": "03-31" } ],
+            "nature": [ { "from": "11-15", "to": "03-15" } ],
+            "roadtrip": [ { "from": "11-15", "to": "02-28" } ]
+          },
+          "climate": {
+            "avgHighC": [31, 32, 33, 32, 31, 29, 28, 28, 28, 29, 31, 31],
+            "avgLowC": [23, 25, 26, 25, 24, 23, 23, 23, 23, 23, 24, 23],
+            "rainMm": [25, 45, 100, 150, 200, 300, 250, 60, 140, 200, 70, 15],
+            "rainDays": [2, 3, 6, 10, 14, 18, 15, 9, 14, 15, 6, 1],
+            "sunHours": [160, 170, 180, 180, 180, 120, 110, 120, 120, 160, 190, 180],
+            "seaTempC": [27, 28, 28, 29, 28, 27, 26, 25, 26, 27, 28, 28],
+            "humidity": [80, 79, 80, 82, 83, 86, 86, 85, 85, 84, 82, 81]
+          },
+          "crowds": [3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 5],
+          "risks": [
+            { "type": "flooding", "from": "05-15", "to": "10-31", "note": "Severe urban flooding in Lagos." },
+            { "type": "sandstorm", "from": "12-01", "to": "02-28", "note": "Harmattan dust haze, especially in the north." }
+          ],
+          "recurringHolidays": [
+            { "name": "Detty December", "approx": "Mid-December – early January", "effect": "Concerts, festivals and diaspora homecomings; Lagos hotels and flights peak.", "dates": { "from": "12-15", "to": "01-05" } },
+            { "name": "Calabar Carnival", "approx": "December", "effect": "A month-long street festival in Calabar.", "dates": { "from": "12-01", "to": "12-31" } },
+            { "name": "Osun-Osogbo Festival", "approx": "August", "effect": "A pilgrimage to the sacred grove at Osogbo.", "dates": { "from": "08-01", "to": "08-20" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 50, "high": 60 },
+            "midrangePerDay": { "low": 90, "shoulder": 110, "high": 150 },
+            "hotelNightMid": { "low": 70, "shoulder": 90, "high": 140 },
+            "notes": "Lagos hotels are expensive. Prices climb steeply over the December festive season."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Lagos", "aliases": ["Victoria Island", "Lekki", "Ikeja", "Ikoyi"], "region": "country" },
+        { "name": "Abuja", "aliases": [], "region": "country" },
+        { "name": "Calabar", "aliases": [], "region": "country" },
+        { "name": "Obudu", "aliases": ["Obudu Mountain Resort"], "region": "country" },
+        { "name": "Kano", "aliases": [], "region": "country" },
+        { "name": "Ibadan", "aliases": [], "region": "country" },
+        { "name": "Port Harcourt", "aliases": [], "region": "country" },
+        { "name": "Osogbo", "aliases": ["Osun-Osogbo"], "region": "country" },
+        { "name": "Yankari", "aliases": ["Yankari National Park"], "region": "country" },
+        { "name": "Jos", "aliases": [], "region": "country" },
+        { "name": "Enugu", "aliases": [], "region": "country" },
+        { "name": "Benin City", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Nigeria" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/nigeria" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/nigeria/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "CG",
+      "isoNum": "178",
+      "name": "Republic of the Congo",
+      "aliases": ["Congo-Brazzaville", "Congo", "Republic of Congo"],
+      "continent": "Africa",
+      "flag": "🇨🇬",
+      "summary": "The Republic of the Congo's big draw is Odzala-Kokoua National Park, where you can track western lowland gorillas from luxury forest camps, along with the remote Nouabalé-Ndoki forests and the Atlantic coast at Pointe-Noire and Conkouati-Douli. The main dry season (June to September) is best. November and December bring the heaviest storms.",
+      "splitByRegion": false,
+      "splitReason": "The visited areas share one equatorial wet-and-dry calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Brazzaville, Pointe-Noire, Odzala-Kokoua, Nouabalé-Ndoki and Conkouati-Douli.",
+          "lat": -4.27,
+          "lon": 15.27,
+          "tags": ["rainforest", "gorillas", "wildlife", "river"],
+          "best": [
+            { "from": "06-01", "to": "09-30", "why": "The main dry season: firmer forest trails and the best gorilla tracking conditions.", "goodFor": ["nature"] }
+          ],
+          "worst": [ { "from": "11-01", "to": "12-31", "why": "Heavy rains: torrential storms and flooded forest tracks." } ],
+          "shoulder": [
+            { "from": "01-01", "to": "05-31", "why": "Hot, humid and rainy, with a slightly drier spell in January and February." },
+            { "from": "10-01", "to": "10-31", "why": "The rains are returning." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "06-01", "to": "09-30" }, { "from": "01-01", "to": "02-28" } ],
+            "city": [ { "from": "06-01", "to": "09-30" } ]
+          },
+          "climate": {
+            "avgHighC": [31, 31, 32, 32, 31, 28, 27, 28, 30, 31, 31, 30],
+            "avgLowC": [21, 21, 22, 22, 22, 20, 18, 19, 21, 22, 22, 21],
+            "rainMm": [150, 150, 180, 200, 140, 10, 2, 5, 50, 140, 230, 190],
+            "rainDays": [11, 10, 13, 14, 10, 1, 0, 1, 5, 11, 15, 13],
+            "sunHours": [160, 160, 170, 170, 160, 140, 130, 140, 140, 150, 150, 150],
+            "seaTempC": null,
+            "humidity": [81, 80, 80, 81, 82, 80, 77, 75, 76, 79, 82, 82]
+          },
+          "crowds": [1, 1, 1, 1, 1, 2, 2, 2, 2, 1, 1, 1],
+          "risks": [ { "type": "heavy rain", "from": "10-15", "to": "05-15", "note": "Equatorial downpours." } ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 50, "shoulder": 60, "high": 70 },
+            "midrangePerDay": { "low": 150, "shoulder": 180, "high": 220 },
+            "hotelNightMid": { "low": 100, "shoulder": 120, "high": 150 },
+            "notes": "Odzala's camps are high-end packages ($800+ per person per night) reached by charter flight."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Brazzaville", "aliases": [], "region": "country" },
+        { "name": "Pointe-Noire", "aliases": ["Pointe Noire"], "region": "country" },
+        { "name": "Odzala", "aliases": ["Odzala-Kokoua", "Mboko", "Ngaga"], "region": "country" },
+        { "name": "Ouesso", "aliases": ["Nouabalé-Ndoki", "Nouabale-Ndoki"], "region": "country" },
+        { "name": "Conkouati-Douli", "aliases": ["Conkouati"], "region": "country" },
+        { "name": "Dolisie", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Republic_of_the_Congo" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/republic-of-the-congo" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/republic-of-the-congo/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
       "iso2": "RW",
       "isoNum": "646",
       "name": "Rwanda",
@@ -1912,6 +3336,158 @@
         { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Rwanda" },
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/rwanda" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/rwanda/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "ST",
+      "isoNum": "678",
+      "name": "São Tomé and Príncipe",
+      "aliases": ["Sao Tome and Principe", "São Tomé", "Sao Tome"],
+      "continent": "Africa",
+      "flag": "🇸🇹",
+      "summary": "São Tomé and Príncipe are two lush volcanic islands on the equator, with cocoa plantations (roças), the Pico Cão Grande spire, empty beaches and Príncipe's UNESCO biosphere reserve. The 'gravana' dry season (June to mid-September) is cooler and less rainy, and it's humpback-whale season. A shorter dry spell in December–February coincides with turtle nesting. March to May is the wettest time.",
+      "splitByRegion": false,
+      "splitReason": "Two small islands with the same equatorial two-season calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "São Tomé (the city, the roças, Pico Cão Grande, Praia Jalé, Ilhéu das Rolas) and Príncipe.",
+          "lat": 0.34,
+          "lon": 6.73,
+          "tags": ["islands", "beach", "rainforest", "cocoa", "hiking"],
+          "best": [
+            { "from": "06-01", "to": "09-15", "why": "Gravana dry season: cooler, drier days, humpback whales offshore and the best hiking.", "goodFor": ["beach", "nature", "mountain", "diving"] }
+          ],
+          "worst": [ { "from": "03-01", "to": "05-15", "why": "The heaviest rains: muddy trails and rough roads." } ],
+          "shoulder": [
+            { "from": "12-01", "to": "02-28", "why": "Gravanito (a short dry spell), with turtles nesting." },
+            { "from": "09-16", "to": "11-30", "why": "The rains are returning." },
+            { "from": "05-16", "to": "05-31", "why": "The rains are easing." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "06-01", "to": "09-30" }, { "from": "12-01", "to": "02-28" } ],
+            "nature": [ { "from": "06-01", "to": "09-30" }, { "from": "12-01", "to": "02-28" } ],
+            "mountain": [ { "from": "06-01", "to": "09-15" } ],
+            "diving": [ { "from": "06-01", "to": "10-15" } ]
+          },
+          "climate": {
+            "avgHighC": [30, 31, 31, 31, 30, 29, 28, 28, 29, 29, 29, 29],
+            "avgLowC": [22, 23, 23, 23, 23, 22, 21, 21, 21, 22, 22, 22],
+            "rainMm": [80, 110, 150, 130, 120, 15, 2, 5, 20, 110, 100, 90],
+            "rainDays": [8, 8, 11, 12, 10, 2, 0, 1, 4, 11, 11, 9],
+            "sunHours": [150, 160, 170, 160, 150, 140, 140, 150, 140, 130, 130, 140],
+            "seaTempC": [27, 28, 28, 28, 28, 26, 25, 24, 25, 26, 27, 27],
+            "humidity": [82, 81, 82, 83, 82, 79, 76, 76, 78, 81, 83, 83]
+          },
+          "crowds": [2, 1, 1, 1, 1, 2, 3, 3, 2, 1, 1, 2],
+          "risks": [ { "type": "heavy rain", "from": "03-01", "to": "05-15", "note": "Rain-washed roads in the south." } ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 45, "high": 55 },
+            "midrangePerDay": { "low": 90, "shoulder": 110, "high": 140 },
+            "hotelNightMid": { "low": 70, "shoulder": 90, "high": 130 },
+            "notes": "Roça (plantation-house) stays are a highlight. Flights go via Lisbon or Accra."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "São Tomé", "aliases": ["Sao Tome"], "region": "country" },
+        { "name": "Santo António", "aliases": ["Santo Antonio", "Príncipe", "Principe"], "region": "country" },
+        { "name": "Pico Cão Grande", "aliases": ["Pico Cao Grande"], "region": "country" },
+        { "name": "Ilhéu das Rolas", "aliases": ["Ilheu das Rolas", "Rolas"], "region": "country" },
+        { "name": "Porto Alegre", "aliases": ["Praia Jalé", "Jale"], "region": "country" },
+        { "name": "Santana", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/s-o-tom-and-pr-ncipe" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/s-o-tom-and-pr-ncipe/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "SN",
+      "isoNum": "686",
+      "name": "Senegal",
+      "aliases": ["Sénégal", "Republic of Senegal"],
+      "continent": "Africa",
+      "flag": "🇸🇳",
+      "summary": "Senegal's dry season (mid-November to April) brings sunny 25–28 °C days on the breezy Atlantic coast, which is the time for Dakar, Gorée, Saint-Louis, the Petite Côte and the mangroves of the Sine-Saloum delta. The rainy season (July to October) is hot and humid, and the Casamance tracks get muddy. Inland gets very hot from April to June.",
+      "splitByRegion": false,
+      "splitReason": "The coast, the Saloum delta and Casamance share one Sahelian dry-and-rainy calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Dakar and Gorée Island, Saint-Louis, the Petite Côte (Saly, Somone), the Sine-Saloum delta, Casamance (Cap Skirring) and Niokolo-Koba.",
+          "lat": 14.72,
+          "lon": -17.47,
+          "tags": ["beach", "culture", "music", "birds", "mangroves"],
+          "best": [
+            { "from": "11-15", "to": "04-30", "why": "Dry season: sunny 25–28 °C coastal days, birdlife in Djoudj and the Saloum delta and Saint-Louis's jazz festival in May.", "goodFor": ["beach", "city", "nature", "roadtrip", "sun"] }
+          ],
+          "worst": [
+            { "from": "07-15", "to": "10-15", "why": "Rainy season: hot, sticky and stormy, with muddy Casamance tracks and the peak malaria risk." }
+          ],
+          "shoulder": [
+            { "from": "05-01", "to": "07-14", "why": "Heat building inland; the coast stays breezy, and the first rains reach Casamance in June." },
+            { "from": "10-16", "to": "11-14", "why": "The rains have ended but it's still hot and humid." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "11-01", "to": "06-30" } ],
+            "city": [ { "from": "11-15", "to": "05-31" } ],
+            "nature": [ { "from": "11-15", "to": "04-30" } ],
+            "roadtrip": [ { "from": "11-15", "to": "05-15" } ],
+            "sun": [ { "from": "11-01", "to": "05-31" } ]
+          },
+          "climate": {
+            "avgHighC": [25, 25, 26, 25, 26, 29, 30, 30, 31, 31, 29, 27],
+            "avgLowC": [18, 17, 18, 18, 20, 23, 25, 25, 25, 25, 23, 20],
+            "rainMm": [1, 1, 0, 0, 1, 15, 65, 160, 130, 35, 3, 2],
+            "rainDays": [0, 0, 0, 0, 0, 2, 7, 12, 10, 3, 0, 0],
+            "sunHours": [240, 250, 290, 290, 300, 250, 220, 210, 220, 240, 240, 230],
+            "seaTempC": [20, 19, 19, 20, 22, 25, 27, 28, 28, 28, 26, 23],
+            "humidity": [68, 72, 77, 80, 80, 79, 80, 82, 82, 79, 72, 68]
+          },
+          "crowds": [3, 3, 3, 3, 2, 2, 2, 2, 1, 2, 3, 4],
+          "risks": [
+            { "type": "heavy rain", "from": "07-15", "to": "10-15", "note": "Flooding in Dakar's suburbs and on rural roads." },
+            { "type": "sandstorm", "from": "12-15", "to": "03-15", "note": "Harmattan dust haze." }
+          ],
+          "recurringHolidays": [
+            { "name": "Tabaski (Eid al-Adha)", "approx": "Moves each year", "effect": "Senegal's biggest festival: transport is packed and many businesses close.", "moving": { "anchor": "eidAlAdha", "offsetDays": -2, "durationDays": 5 } },
+            { "name": "Ramadan", "approx": "Moves about 11 days earlier each year", "effect": "Restaurants close by day outside tourist areas.", "moving": { "anchor": "ramadanStart", "offsetDays": 0, "durationDays": 30 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 35, "high": 45 },
+            "midrangePerDay": { "low": 70, "shoulder": 90, "high": 120 },
+            "hotelNightMid": { "low": 50, "shoulder": 65, "high": 90 },
+            "notes": "Petite Côte resorts serve European winter-sun visitors. Saloum delta eco-lodges cost $50–120."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Dakar", "aliases": ["Gorée", "Goree", "Île de Gorée", "Almadies"], "region": "country" },
+        { "name": "Saint-Louis", "aliases": ["Saint Louis", "Djoudj"], "region": "country" },
+        { "name": "Saly", "aliases": ["Mbour", "Petite Côte", "Somone"], "region": "country" },
+        { "name": "Toubacouta", "aliases": ["Sine-Saloum", "Saloum Delta", "Palmarin"], "region": "country" },
+        { "name": "Cap Skirring", "aliases": ["Ziguinchor", "Casamance"], "region": "country" },
+        { "name": "Lac Rose", "aliases": ["Lake Retba"], "region": "country" },
+        { "name": "Niokolo-Koba", "aliases": ["Tambacounda"], "region": "country" },
+        { "name": "Touba", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Senegal" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/senegal" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/senegal/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"
@@ -1990,6 +3566,82 @@
         { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Seychelles" },
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/seychelles" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/seychelles/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "SL",
+      "isoNum": "694",
+      "name": "Sierra Leone",
+      "aliases": ["Republic of Sierra Leone", "Salone"],
+      "continent": "Africa",
+      "flag": "🇸🇱",
+      "summary": "Sierra Leone has some of West Africa's finest beaches, on the Freetown peninsula (River No. 2, Bureh, Tokeh and the Banana Islands), plus the chimpanzees of Tacugama and the pygmy hippos of Tiwai Island. The dry season (mid-November to April) is the time to go. From June to September the rains are torrential, among the heaviest in the world.",
+      "splitByRegion": false,
+      "splitReason": "A small country with one tropical wet-and-dry calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Freetown, the peninsula beaches (River No. 2, Tokeh, Bureh), the Banana Islands, Tacugama and Tiwai Island.",
+          "lat": 8.48,
+          "lon": -13.23,
+          "tags": ["beach", "wildlife", "islands", "surf"],
+          "best": [
+            { "from": "11-15", "to": "04-15", "why": "Dry season: palm-fringed beaches, a calm sea and easier roads to Tiwai.", "goodFor": ["beach", "nature", "sun"] }
+          ],
+          "worst": [
+            { "from": "06-15", "to": "09-30", "why": "Torrential rains (800 mm a month in July and August), flooding and landslides around Freetown." }
+          ],
+          "shoulder": [
+            { "from": "04-16", "to": "06-14", "why": "Hot and humid, with the rains building." },
+            { "from": "10-01", "to": "11-14", "why": "Rains easing, very green." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "11-15", "to": "05-15" } ],
+            "nature": [ { "from": "11-01", "to": "04-30" } ],
+            "sun": [ { "from": "12-01", "to": "04-15" } ]
+          },
+          "climate": {
+            "avgHighC": [30, 31, 31, 31, 31, 29, 28, 27, 28, 29, 30, 30],
+            "avgLowC": [23, 24, 24, 24, 24, 23, 23, 23, 23, 23, 23, 23],
+            "rainMm": [5, 5, 15, 60, 180, 400, 800, 800, 550, 280, 120, 25],
+            "rainDays": [1, 1, 2, 6, 14, 22, 27, 27, 24, 19, 11, 3],
+            "sunHours": [210, 220, 230, 220, 200, 160, 110, 100, 130, 170, 190, 200],
+            "seaTempC": [27, 27, 27, 28, 28, 28, 27, 26, 27, 28, 28, 28],
+            "humidity": [76, 76, 76, 77, 80, 84, 87, 88, 86, 83, 80, 78]
+          },
+          "crowds": [2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 2],
+          "risks": [
+            { "type": "heavy rain", "from": "06-01", "to": "10-15", "note": "Extreme rainfall." },
+            { "type": "landslides", "from": "07-01", "to": "09-30", "note": "Landslides around Freetown's hills." }
+          ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 35, "high": 40 },
+            "midrangePerDay": { "low": 60, "shoulder": 75, "high": 100 },
+            "hotelNightMid": { "low": 50, "shoulder": 65, "high": 90 },
+            "notes": "Beach guesthouses on the peninsula cost $30–80. Freetown hotels are pricier."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Freetown", "aliases": ["Tacugama"], "region": "country" },
+        { "name": "River No. 2", "aliases": ["River Number Two", "Tokeh", "Lakka"], "region": "country" },
+        { "name": "Banana Islands", "aliases": [], "region": "country" },
+        { "name": "Bureh Beach", "aliases": ["Bureh"], "region": "country" },
+        { "name": "Tiwai Island", "aliases": ["Tiwai"], "region": "country" },
+        { "name": "Bo", "aliases": [], "region": "country" },
+        { "name": "Kenema", "aliases": [], "region": "country" },
+        { "name": "Makeni", "aliases": ["Outamba-Kilimi"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Sierra_Leone" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/sierra-leone" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/sierra-leone/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"
@@ -2627,6 +4279,157 @@
         { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Tanzania" },
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/tanzania" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/tanzania/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "GM",
+      "isoNum": "270",
+      "name": "The Gambia",
+      "aliases": ["Gambia", "Republic of The Gambia"],
+      "continent": "Africa",
+      "flag": "🇬🇲",
+      "summary": "The Gambia is a sliver of land along the Gambia River and a popular European winter-sun spot. The dry season (mid-November to April) is sunny and 30 °C, with superb birdwatching. The rainy season (July to October) brings heavy storms and humidity, so many hotels close and prices drop.",
+      "splitByRegion": false,
+      "splitReason": "A very small country with one tropical wet-and-dry calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Banjul, the resort strip (Kololi, Kotu, Bakau), the southern beaches (Sanyang, Kartong), Makasutu and the Gambia River up to Janjanbureh.",
+          "lat": 13.45,
+          "lon": -16.58,
+          "tags": ["beach", "birdwatching", "river", "culture"],
+          "best": [
+            { "from": "11-15", "to": "04-30", "why": "Dry season: sunny 30 °C days, a calm sea and peak birdwatching.", "goodFor": ["beach", "nature", "sun"] }
+          ],
+          "worst": [
+            { "from": "07-01", "to": "10-15", "why": "The rainy season: torrential storms, sticky humidity and many hotels closed." }
+          ],
+          "shoulder": [
+            { "from": "05-01", "to": "06-30", "why": "Hot and humid, with the rains approaching; low prices." },
+            { "from": "10-16", "to": "11-14", "why": "Lush and green after the rains, still humid." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "11-01", "to": "06-15" } ],
+            "nature": [ { "from": "11-01", "to": "04-30" } ],
+            "sun": [ { "from": "11-01", "to": "05-31" } ]
+          },
+          "climate": {
+            "avgHighC": [31, 32, 32, 32, 31, 31, 30, 29, 30, 31, 32, 31],
+            "avgLowC": [15, 16, 17, 18, 20, 23, 23, 23, 23, 22, 19, 16],
+            "rainMm": [1, 1, 0, 0, 5, 60, 200, 300, 220, 80, 3, 1],
+            "rainDays": [0, 0, 0, 0, 1, 5, 13, 17, 14, 6, 0, 0],
+            "sunHours": [250, 250, 290, 290, 290, 250, 210, 190, 210, 250, 250, 240],
+            "seaTempC": [22, 21, 21, 22, 24, 27, 28, 28, 28, 28, 26, 23],
+            "humidity": [60, 62, 66, 70, 74, 77, 82, 85, 84, 80, 70, 63]
+          },
+          "crowds": [4, 4, 4, 3, 2, 1, 1, 1, 1, 2, 3, 5],
+          "risks": [ { "type": "heavy rain", "from": "07-01", "to": "10-15", "note": "Flash flooding." } ],
+          "recurringHolidays": [
+            { "name": "Tobaski (Eid al-Adha)", "approx": "Moves each year", "effect": "A major holiday; transport is busy.", "moving": { "anchor": "eidAlAdha", "offsetDays": -1, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 25, "shoulder": 30, "high": 40 },
+            "midrangePerDay": { "low": 60, "shoulder": 75, "high": 100 },
+            "hotelNightMid": { "low": 40, "shoulder": 55, "high": 80 },
+            "notes": "Package holidays dominate. Eco-lodges upriver are simple and cheap."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Banjul", "aliases": [], "region": "country" },
+        { "name": "Serrekunda", "aliases": ["Kololi", "Senegambia Strip"], "region": "country" },
+        { "name": "Bakau", "aliases": ["Fajara", "Kachikally"], "region": "country" },
+        { "name": "Kotu", "aliases": [], "region": "country" },
+        { "name": "Kartong", "aliases": ["Sanyang", "Tanji"], "region": "country" },
+        { "name": "Janjanbureh", "aliases": ["Georgetown", "River Gambia"], "region": "country" },
+        { "name": "Makasutu", "aliases": ["Brikama"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/The_Gambia" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/the-gambia" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/the-gambia/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "TG",
+      "isoNum": "768",
+      "name": "Togo",
+      "aliases": ["Togolese Republic"],
+      "continent": "Africa",
+      "flag": "🇹🇬",
+      "summary": "Togo is a slim country with a lagoon-lined coast (Lomé, Aného, Lake Togo), the green, butterfly-filled hills around Kpalimé and the UNESCO-listed Tamberma tower houses of Koutammakou in the north. Mid-November to mid-March is the dry season and the best time. The south has rainy peaks in May–June and October; the north has one long rainy season from June to September.",
+      "splitByRegion": false,
+      "splitReason": "A slim country whose sights share one dry-season window.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Lomé, Aného and Lake Togo, Kpalimé and Mount Agou, Atakpamé, Kara and Koutammakou.",
+          "lat": 6.13,
+          "lon": 1.22,
+          "tags": ["culture", "hiking", "markets", "architecture"],
+          "best": [
+            { "from": "11-15", "to": "03-15", "why": "Dry season: sunny days, good roads and clear hill walks around Kpalimé (with Harmattan haze in mid-winter).", "goodFor": ["city", "nature", "roadtrip", "beach", "sun"] }
+          ],
+          "worst": [
+            { "from": "05-01", "to": "06-30", "why": "The main rains: heavy downpours on the coast and muddy hill tracks." }
+          ],
+          "shoulder": [
+            { "from": "07-01", "to": "09-15", "why": "A cooler, drier spell on the coast (but rainy in the north)." },
+            { "from": "09-16", "to": "11-14", "why": "The short rains." },
+            { "from": "03-16", "to": "04-30", "why": "Hot and humid, with rains approaching." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "11-01", "to": "04-15" } ],
+            "nature": [ { "from": "11-15", "to": "03-31" } ],
+            "roadtrip": [ { "from": "11-15", "to": "03-31" } ],
+            "beach": [ { "from": "11-15", "to": "04-15" } ],
+            "sun": [ { "from": "11-15", "to": "03-15" } ]
+          },
+          "climate": {
+            "avgHighC": [30, 31, 31, 31, 30, 28, 27, 27, 28, 29, 30, 30],
+            "avgLowC": [22, 24, 25, 25, 24, 23, 22, 22, 23, 23, 23, 23],
+            "rainMm": [10, 25, 50, 105, 150, 230, 90, 30, 60, 120, 30, 10],
+            "rainDays": [1, 2, 4, 7, 10, 12, 6, 3, 5, 8, 3, 1],
+            "sunHours": [220, 210, 220, 220, 220, 160, 160, 180, 190, 230, 240, 230],
+            "seaTempC": [27, 28, 28, 28, 28, 27, 25, 24, 25, 26, 27, 27],
+            "humidity": [78, 78, 78, 79, 81, 84, 83, 82, 82, 81, 79, 78]
+          },
+          "crowds": [2, 2, 2, 2, 1, 1, 2, 2, 1, 1, 2, 3],
+          "risks": [
+            { "type": "rough seas", "from": "01-01", "to": "12-31", "note": "Strong rip currents on the Gulf of Guinea coast." },
+            { "type": "sandstorm", "from": "12-01", "to": "02-28", "note": "Harmattan dust haze." }
+          ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 25, "shoulder": 30, "high": 35 },
+            "midrangePerDay": { "low": 50, "shoulder": 60, "high": 75 },
+            "hotelNightMid": { "low": 40, "shoulder": 50, "high": 65 },
+            "notes": "Inexpensive. Often combined overland with Ghana and Benin."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Lomé", "aliases": ["Lome"], "region": "country" },
+        { "name": "Kpalimé", "aliases": ["Kpalime", "Mount Agou"], "region": "country" },
+        { "name": "Aného", "aliases": ["Aneho", "Lake Togo", "Togoville"], "region": "country" },
+        { "name": "Koutammakou", "aliases": ["Tamberma", "Kandé", "Kande"], "region": "country" },
+        { "name": "Kara", "aliases": [], "region": "country" },
+        { "name": "Atakpamé", "aliases": ["Atakpame"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Togo" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/togo" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/togo/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"
