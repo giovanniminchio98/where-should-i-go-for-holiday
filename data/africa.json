@@ -1,0 +1,1625 @@
+{
+  "continent": "Africa",
+  "countries": [
+    {
+      "iso2": "DZ",
+      "isoNum": "012",
+      "name": "Algeria",
+      "aliases": ["Al-Jazair", "People's Democratic Republic of Algeria"],
+      "continent": "Africa",
+      "flag": "🇩🇿",
+      "summary": "Algeria is Africa's largest country. The Mediterranean north (Algiers, Constantine and the Roman ruins at Timgad and Djemila) has hot summers and mild, wet winters, so spring and autumn are best. The Sahara (Djanet's Tassili n'Ajjer, the Hoggar mountains, the M'zab valley) is a desert destination from October to March.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "north",
+          "name": "Mediterranean North",
+          "description": "Algiers, Oran, Constantine, Tlemcen and the Roman sites of Timgad, Djemila and Tipasa.",
+          "lat": 36.75,
+          "lon": 3.06,
+          "tags": ["city", "history", "ruins", "beach"],
+          "best": [
+            { "from": "04-01", "to": "06-15", "why": "Mild, green spring for the casbah and the Roman ruins.", "goodFor": ["city", "roadtrip", "nature"] },
+            { "from": "09-15", "to": "11-10", "why": "A warm sea and pleasant sightseeing.", "goodFor": ["city", "roadtrip", "beach"] }
+          ],
+          "worst": [ { "from": "12-01", "to": "02-28", "why": "Rainy, cool weather." } ],
+          "shoulder": [
+            { "from": "03-01", "to": "03-31", "why": "Spring showers." },
+            { "from": "06-16", "to": "09-14", "why": "A hot, humid summer and the domestic beach season." },
+            { "from": "11-11", "to": "11-30", "why": "Rains are returning." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "03-15", "to": "06-15" }, { "from": "09-15", "to": "11-30" } ],
+            "beach": [ { "from": "06-15", "to": "09-30" } ],
+            "roadtrip": [ { "from": "04-01", "to": "06-10" }, { "from": "09-20", "to": "11-10" } ]
+          },
+          "climate": {
+            "avgHighC": [17, 17, 19, 21, 24, 28, 31, 32, 29, 26, 21, 18],
+            "avgLowC": [6, 6, 8, 10, 13, 17, 20, 21, 19, 15, 11, 8],
+            "rainMm": [90, 80, 70, 60, 45, 15, 3, 10, 30, 70, 95, 110],
+            "rainDays": [11, 10, 9, 8, 6, 2, 1, 2, 4, 8, 10, 12],
+            "sunHours": [150, 160, 210, 230, 280, 300, 340, 310, 250, 210, 160, 140],
+            "seaTempC": [15, 14, 15, 16, 18, 21, 24, 25, 24, 21, 18, 16],
+            "humidity": [75, 73, 72, 71, 72, 71, 70, 70, 72, 73, 74, 75]
+          },
+          "crowds": [2, 2, 2, 3, 3, 4, 5, 5, 4, 3, 2, 2],
+          "risks": [ { "type": "extreme heat", "from": "07-01", "to": "08-31", "note": "Inland heatwaves." } ],
+          "recurringHolidays": [
+            { "name": "Ramadan", "approx": "Moves about 11 days earlier each year", "effect": "Restaurants close by day.", "moving": { "anchor": "ramadanStart", "offsetDays": 0, "durationDays": 30 } },
+            { "name": "Eid al-Fitr", "approx": "End of Ramadan", "effect": "A national holiday.", "moving": { "anchor": "eidAlFitr", "offsetDays": -1, "durationDays": 3 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 50, "high": 60 },
+            "midrangePerDay": { "low": 80, "shoulder": 100, "high": 130 },
+            "hotelNightMid": { "low": 50, "shoulder": 65, "high": 90 },
+            "notes": "Tourist visas need an invitation or tour booking, and some regions require police escorts."
+          }
+        },
+        {
+          "id": "sahara",
+          "name": "Algerian Sahara",
+          "description": "Djanet and the Tassili n'Ajjer, Tamanrasset and the Hoggar (Assekrem), Ghardaïa and the M'zab, and Timimoun.",
+          "lat": 24.55,
+          "lon": 9.48,
+          "tags": ["desert", "rock art", "trekking"],
+          "best": [
+            { "from": "10-15", "to": "03-31", "why": "Desert season: Tassili n'Ajjer rock art and dunes at 22–28 °C, with cold nights.", "goodFor": ["nature", "roadtrip", "mountain"] }
+          ],
+          "worst": [ { "from": "05-15", "to": "09-15", "why": "40 °C+ heat; many Saharan circuits shut down for summer." } ],
+          "shoulder": [
+            { "from": "04-01", "to": "05-14", "why": "Heating up." },
+            { "from": "09-16", "to": "10-14", "why": "The heat is easing." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "10-15", "to": "03-31" } ],
+            "roadtrip": [ { "from": "10-15", "to": "03-31" } ],
+            "mountain": [ { "from": "11-01", "to": "03-15" } ]
+          },
+          "climate": {
+            "avgHighC": [21, 24, 28, 32, 36, 38, 38, 37, 35, 31, 26, 22],
+            "avgLowC": [5, 7, 11, 16, 20, 23, 24, 24, 22, 17, 11, 6],
+            "rainMm": [1, 1, 1, 2, 3, 2, 1, 3, 2, 1, 1, 1],
+            "rainDays": [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+            "sunHours": [290, 280, 300, 310, 320, 330, 340, 330, 300, 300, 290, 280],
+            "seaTempC": null,
+            "humidity": [30, 26, 22, 18, 17, 16, 16, 18, 20, 22, 27, 31]
+          },
+          "crowds": [4, 4, 3, 2, 1, 1, 1, 1, 1, 3, 4, 5],
+          "risks": [ { "type": "extreme heat", "from": "05-01", "to": "09-30", "note": "Extreme desert heat." } ],
+          "recurringHolidays": [
+            { "name": "Ramadan", "approx": "Moves about 11 days earlier each year", "effect": "Restaurants close by day.", "moving": { "anchor": "ramadanStart", "offsetDays": 0, "durationDays": 30 } },
+            { "name": "Eid al-Fitr", "approx": "End of Ramadan", "effect": "A national holiday.", "moving": { "anchor": "eidAlFitr", "offsetDays": -1, "durationDays": 3 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 70, "shoulder": 80, "high": 90 },
+            "midrangePerDay": { "low": 120, "shoulder": 140, "high": 160 },
+            "hotelNightMid": { "low": 60, "shoulder": 70, "high": 80 },
+            "notes": "Deep-Sahara travel requires licensed agencies with 4x4s and guides."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Algiers", "aliases": ["Alger"], "region": "north" },
+        { "name": "Oran", "aliases": [], "region": "north" },
+        { "name": "Constantine", "aliases": [], "region": "north" },
+        { "name": "Tlemcen", "aliases": [], "region": "north" },
+        { "name": "Timgad", "aliases": ["Djemila", "Tipasa"], "region": "north" },
+        { "name": "Djanet", "aliases": ["Tassili n'Ajjer"], "region": "sahara" },
+        { "name": "Tamanrasset", "aliases": ["Hoggar", "Assekrem"], "region": "sahara" },
+        { "name": "Ghardaïa", "aliases": ["Ghardaia", "M'zab"], "region": "sahara" },
+        { "name": "Timimoun", "aliases": [], "region": "sahara" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Algeria" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/algeria" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/algeria/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "BI",
+      "isoNum": "108",
+      "name": "Burundi",
+      "aliases": ["Republic of Burundi"],
+      "continent": "Africa",
+      "flag": "🇧🇮",
+      "summary": "Burundi sees very few tourists. Lake Tanganyika's beaches near Bujumbura and the Kibira forest are best in the June–September dry season.",
+      "splitByRegion": false,
+      "splitReason": "Burundi is small, with one equatorial-highland calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Bujumbura and Lake Tanganyika, Gitega and Kibira National Park.",
+          "lat": -3.38,
+          "lon": 29.36,
+          "tags": ["lake", "nature", "remote"],
+          "best": [
+            { "from": "06-01", "to": "09-15", "why": "Dry season: Lake Tanganyika's beaches and the Kibira forest.", "goodFor": ["beach", "nature"] }
+          ],
+          "worst": [
+            { "from": "02-15", "to": "04-30", "why": "The heaviest long rains; roads turn to mud and hikes get washed out." }
+          ],
+          "shoulder": [
+            { "from": "09-16", "to": "02-14", "why": "The short rains with sunny breaks." },
+            { "from": "05-01", "to": "05-31", "why": "The rains are easing." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "06-01", "to": "09-30" } ],
+            "nature": [ { "from": "06-01", "to": "09-30" } ]
+          },
+          "climate": {
+            "avgHighC": [29, 29, 29, 29, 30, 30, 30, 31, 32, 31, 29, 29],
+            "avgLowC": [19, 19, 19, 19, 19, 18, 17, 18, 19, 20, 19, 19],
+            "rainMm": [100, 105, 120, 125, 60, 10, 5, 10, 40, 70, 100, 115],
+            "rainDays": [13, 13, 15, 16, 8, 1, 1, 2, 6, 10, 15, 15],
+            "sunHours": [160, 160, 180, 180, 220, 250, 260, 250, 220, 190, 160, 160],
+            "seaTempC": null,
+            "humidity": [76, 77, 78, 79, 74, 64, 60, 58, 62, 68, 76, 78]
+          },
+          "crowds": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "risks": [ { "type": "heavy rain", "from": "10-15", "to": "04-30", "note": "Floods around Bujumbura." } ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 45, "high": 50 },
+            "midrangePerDay": { "low": 80, "shoulder": 90, "high": 100 },
+            "hotelNightMid": { "low": 50, "shoulder": 55, "high": 65 },
+            "notes": "There's little tourist infrastructure, so bring cash (US dollars)."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Bujumbura", "aliases": ["Lake Tanganyika"], "region": "country" },
+        { "name": "Gitega", "aliases": [], "region": "country" },
+        { "name": "Kibira", "aliases": ["Kibira National Park"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Burundi" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/burundi" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/burundi/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "DJ",
+      "isoNum": "262",
+      "name": "Djibouti",
+      "aliases": ["Republic of Djibouti"],
+      "continent": "Africa",
+      "flag": "🇩🇯",
+      "summary": "Djibouti is one of the world's hottest countries. Visit from November to January to snorkel with whale sharks in the Gulf of Tadjoura and see the otherworldly Lac Assal and Lac Abbé. Summer is dangerously hot.",
+      "splitByRegion": false,
+      "splitReason": "Djibouti is small, with one hot desert-coast climate.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Djibouti City, the Gulf of Tadjoura, Lac Assal and Lac Abbé.",
+          "lat": 11.59,
+          "lon": 43.15,
+          "tags": ["diving", "desert", "wildlife"],
+          "best": [
+            { "from": "11-01", "to": "01-31", "why": "Whale sharks in the Gulf of Tadjoura (November–January), at a cooler 29 °C.", "goodFor": ["diving", "nature", "beach"] }
+          ],
+          "worst": [ { "from": "05-15", "to": "09-15", "why": "Brutal 40–45 °C heat." } ],
+          "shoulder": [
+            { "from": "02-01", "to": "05-14", "why": "Warming up." },
+            { "from": "09-16", "to": "10-31", "why": "The heat is easing." }
+          ],
+          "activityWindows": {
+            "diving": [ { "from": "10-15", "to": "02-28" } ],
+            "beach": [ { "from": "11-01", "to": "03-31" } ],
+            "nature": [ { "from": "11-01", "to": "02-28" } ]
+          },
+          "climate": {
+            "avgHighC": [29, 29, 31, 32, 35, 39, 42, 41, 37, 33, 31, 29],
+            "avgLowC": [23, 23, 25, 26, 28, 31, 31, 31, 30, 27, 25, 23],
+            "rainMm": [10, 15, 15, 10, 5, 0, 5, 5, 5, 10, 25, 15],
+            "rainDays": [1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 2, 1],
+            "sunHours": [240, 230, 270, 280, 310, 280, 260, 270, 280, 300, 280, 260],
+            "seaTempC": [26, 26, 27, 28, 29, 30, 30, 30, 30, 29, 28, 27],
+            "humidity": [72, 74, 74, 75, 72, 57, 49, 52, 62, 67, 70, 72]
+          },
+          "crowds": [2, 2, 2, 1, 1, 1, 1, 1, 1, 2, 2, 2],
+          "risks": [ { "type": "extreme heat", "from": "05-01", "to": "09-30", "note": "Among the hottest places on earth." } ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 70, "shoulder": 80, "high": 90 },
+            "midrangePerDay": { "low": 140, "shoulder": 160, "high": 180 },
+            "hotelNightMid": { "low": 100, "shoulder": 110, "high": 130 },
+            "notes": "Expensive, as it's a military-base economy."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Djibouti City", "aliases": ["Djibouti"], "region": "country" },
+        { "name": "Lac Assal", "aliases": ["Lake Assal"], "region": "country" },
+        { "name": "Lac Abbé", "aliases": ["Lac Abbe"], "region": "country" },
+        { "name": "Tadjoura", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Djibouti" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/djibouti" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/djibouti/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "EG",
+      "isoNum": "818",
+      "name": "Egypt",
+      "aliases": ["Misr", "Arab Republic of Egypt"],
+      "continent": "Africa",
+      "flag": "🇪🇬",
+      "summary": "Egypt is almost rainless. The Nile Valley (Cairo, Luxor, Aswan) is a winter destination: November to February is 23–28 °C and perfect for temples and Nile cruises, while summer reaches 40–45 °C in Luxor and Aswan. The Red Sea resorts (Hurghada, Sharm el-Sheikh, Dahab) are good year-round, best in spring and autumn. Alexandria and the Mediterranean coast are a summer escape for Egyptians.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "nile",
+          "name": "Cairo & the Nile Valley",
+          "description": "Cairo and Giza, Luxor, Aswan, Abu Simbel and the Nile cruise route, plus the western desert oases (Siwa, the White Desert).",
+          "lat": 25.69,
+          "lon": 32.64,
+          "tags": ["history", "culture", "river", "desert"],
+          "best": [
+            { "from": "11-01", "to": "02-28", "why": "Warm, dry 23–28 °C: perfect for the Valley of the Kings, Karnak and Nile cruises.", "goodFor": ["city", "roadtrip", "nature"] }
+          ],
+          "worst": [ { "from": "05-15", "to": "09-15", "why": "40–45 °C in Luxor and Aswan." } ],
+          "shoulder": [
+            { "from": "03-01", "to": "05-14", "why": "Hot afternoons and khamsin dust storms (March–April)." },
+            { "from": "09-16", "to": "10-31", "why": "The heat is easing." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "10-15", "to": "04-15" } ],
+            "roadtrip": [ { "from": "10-15", "to": "04-15" } ],
+            "nature": [ { "from": "10-15", "to": "03-31" } ]
+          },
+          "climate": {
+            "avgHighC": [23, 25, 29, 35, 39, 41, 41, 41, 39, 35, 29, 24],
+            "avgLowC": [6, 8, 11, 16, 21, 23, 24, 24, 22, 18, 12, 8],
+            "rainMm": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "sunHours": [290, 280, 300, 310, 340, 360, 370, 360, 330, 310, 290, 280],
+            "seaTempC": null,
+            "humidity": [45, 38, 32, 25, 22, 22, 25, 28, 30, 33, 40, 46]
+          },
+          "crowds": [5, 5, 4, 3, 2, 1, 1, 1, 2, 4, 5, 5],
+          "risks": [
+            { "type": "extreme heat", "from": "05-01", "to": "09-30", "note": "Visit tombs at dawn." },
+            { "type": "sandstorm", "from": "03-01", "to": "05-15", "note": "Khamsin winds." }
+          ],
+          "recurringHolidays": [
+            { "name": "Ramadan", "approx": "Moves about 11 days earlier each year", "effect": "Site hours shorten; iftar evenings are festive.", "moving": { "anchor": "ramadanStart", "offsetDays": 0, "durationDays": 30 } },
+            { "name": "Christmas & New Year", "approx": "Dec 20 – Jan 5", "effect": "Peak prices in Luxor and on the Red Sea.", "dates": { "from": "12-20", "to": "01-05" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 35, "high": 45 },
+            "midrangePerDay": { "low": 70, "shoulder": 90, "high": 130 },
+            "hotelNightMid": { "low": 40, "shoulder": 60, "high": 100 },
+            "notes": "The Grand Egyptian Museum and Valley of the Kings tickets have risen. Nile cruises cost $80–400 a night."
+          }
+        },
+        {
+          "id": "redsea",
+          "name": "Red Sea & Sinai",
+          "description": "Hurghada, El Gouna, Marsa Alam, Sharm el-Sheikh, Dahab, Saint Catherine and Mt Sinai.",
+          "lat": 27.26,
+          "lon": 33.81,
+          "tags": ["beach", "diving", "resort", "desert"],
+          "best": [
+            { "from": "03-15", "to": "05-31", "why": "A warm sea, sunny days and perfect diving.", "goodFor": ["beach", "diving", "sun", "nature"] },
+            { "from": "10-01", "to": "11-30", "why": "The sea at 27 °C, with calm conditions.", "goodFor": ["beach", "diving", "sun", "nature"] }
+          ],
+          "worst": [
+            { "from": "07-15", "to": "08-25", "why": "The hottest weeks (35–40 °C in Sharm) and peak family-holiday prices." }
+          ],
+          "shoulder": [
+            { "from": "12-01", "to": "03-14", "why": "Pleasant 21–24 °C winter sun, but the sea is 21–22 °C (wetsuit needed) and it's breezy." },
+            { "from": "06-01", "to": "07-14", "why": "Hot, with good diving." },
+            { "from": "08-26", "to": "09-30", "why": "Still hot, with a very warm sea." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "03-01", "to": "11-30" } ],
+            "diving": [ { "from": "01-01", "to": "12-31" } ],
+            "sun": [ { "from": "10-01", "to": "05-31" } ],
+            "nature": [ { "from": "10-15", "to": "04-15" } ]
+          },
+          "climate": {
+            "avgHighC": [21, 22, 24, 28, 31, 33, 34, 34, 32, 30, 26, 22],
+            "avgLowC": [10, 11, 14, 17, 21, 24, 25, 26, 24, 21, 16, 12],
+            "rainMm": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1],
+            "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "sunHours": [270, 270, 290, 310, 340, 360, 370, 360, 330, 310, 280, 260],
+            "seaTempC": [22, 21, 22, 23, 25, 27, 28, 28, 28, 27, 25, 23],
+            "humidity": [50, 48, 45, 43, 42, 45, 47, 48, 50, 52, 52, 51]
+          },
+          "crowds": [4, 4, 4, 4, 3, 3, 4, 4, 3, 4, 4, 5],
+          "risks": [
+            { "type": "extreme heat", "from": "06-15", "to": "09-15", "note": "Desert heat at the coast." },
+            { "type": "strong wind", "from": "12-01", "to": "03-31", "note": "Strong northerly winds (good for kitesurfing)." }
+          ],
+          "recurringHolidays": [
+            { "name": "Ramadan", "approx": "Moves about 11 days earlier each year", "effect": "Site hours shorten; iftar evenings are festive.", "moving": { "anchor": "ramadanStart", "offsetDays": 0, "durationDays": 30 } },
+            { "name": "Christmas & New Year", "approx": "Dec 20 – Jan 5", "effect": "Peak prices in Luxor and on the Red Sea.", "dates": { "from": "12-20", "to": "01-05" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 50, "high": 60 },
+            "midrangePerDay": { "low": 80, "shoulder": 100, "high": 130 },
+            "hotelNightMid": { "low": 50, "shoulder": 70, "high": 110 },
+            "notes": "All-inclusive deals are cheap. Liveaboard dive safaris cost $120–250 a day."
+          }
+        },
+        {
+          "id": "alexandria",
+          "name": "Alexandria & the Mediterranean",
+          "description": "Alexandria, El Alamein and the North Coast (Sahel), and Marsa Matrouh.",
+          "lat": 31.2,
+          "lon": 29.92,
+          "tags": ["city", "beach", "history"],
+          "best": [
+            { "from": "04-15", "to": "06-15", "why": "Mild, sunny days on the corniche.", "goodFor": ["city", "beach"] },
+            { "from": "09-15", "to": "11-15", "why": "A warm sea after the Egyptian summer crowds.", "goodFor": ["city", "beach"] }
+          ],
+          "worst": [ { "from": "12-15", "to": "02-15", "why": "Winter storms (nawas) bring rain and rough seas." } ],
+          "shoulder": [
+            { "from": "02-16", "to": "04-14", "why": "Cool spring." },
+            { "from": "06-16", "to": "09-14", "why": "The Egyptian summer peak on the North Coast." },
+            { "from": "11-16", "to": "12-14", "why": "Storms are beginning." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "10-01", "to": "06-15" } ],
+            "beach": [ { "from": "06-01", "to": "10-15" } ]
+          },
+          "climate": {
+            "avgHighC": [18, 19, 21, 24, 27, 29, 30, 31, 30, 28, 24, 20],
+            "avgLowC": [9, 9, 11, 13, 17, 20, 23, 23, 21, 18, 14, 11],
+            "rainMm": [50, 25, 15, 5, 1, 0, 0, 0, 1, 10, 30, 50],
+            "rainDays": [7, 5, 3, 1, 0, 0, 0, 0, 0, 2, 4, 7],
+            "sunHours": [200, 210, 250, 280, 320, 340, 350, 340, 300, 260, 210, 190],
+            "seaTempC": [18, 17, 17, 18, 21, 24, 26, 27, 27, 25, 22, 19],
+            "humidity": [68, 67, 67, 68, 71, 73, 75, 74, 70, 69, 68, 69]
+          },
+          "crowds": [2, 2, 2, 2, 3, 5, 5, 5, 4, 3, 2, 2],
+          "risks": [ { "type": "strong wind", "from": "12-01", "to": "02-28", "note": "Winter gales." } ],
+          "recurringHolidays": [
+            { "name": "Ramadan", "approx": "Moves about 11 days earlier each year", "effect": "Site hours shorten; iftar evenings are festive.", "moving": { "anchor": "ramadanStart", "offsetDays": 0, "durationDays": 30 } },
+            { "name": "Christmas & New Year", "approx": "Dec 20 – Jan 5", "effect": "Peak prices in Luxor and on the Red Sea.", "dates": { "from": "12-20", "to": "01-05" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 35, "high": 40 },
+            "midrangePerDay": { "low": 60, "shoulder": 70, "high": 90 },
+            "hotelNightMid": { "low": 40, "shoulder": 50, "high": 70 },
+            "notes": "North Coast resorts are packed with Cairenes from July to August."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Cairo", "aliases": [], "region": "nile" },
+        { "name": "Giza", "aliases": ["Pyramids", "Pyramids of Giza"], "region": "nile" },
+        { "name": "Luxor", "aliases": ["Valley of the Kings", "Karnak"], "region": "nile" },
+        { "name": "Aswan", "aliases": ["Philae"], "region": "nile" },
+        { "name": "Abu Simbel", "aliases": [], "region": "nile" },
+        { "name": "Siwa", "aliases": ["Siwa Oasis"], "region": "nile" },
+        { "name": "White Desert", "aliases": ["Bahariya", "Farafra"], "region": "nile" },
+        { "name": "Hurghada", "aliases": ["El Gouna"], "region": "redsea" },
+        { "name": "Sharm el-Sheikh", "aliases": ["Sharm", "Ras Mohammed"], "region": "redsea" },
+        { "name": "Dahab", "aliases": ["Blue Hole"], "region": "redsea" },
+        { "name": "Marsa Alam", "aliases": [], "region": "redsea" },
+        { "name": "Saint Catherine", "aliases": ["Mount Sinai"], "region": "redsea" },
+        { "name": "Alexandria", "aliases": [], "region": "alexandria" },
+        { "name": "El Alamein", "aliases": ["North Coast", "Sahel"], "region": "alexandria" },
+        { "name": "Marsa Matrouh", "aliases": [], "region": "alexandria" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.experienceegypt.eg" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Egypt" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/egypt" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/egypt/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "ER",
+      "isoNum": "232",
+      "name": "Eritrea",
+      "aliases": ["State of Eritrea"],
+      "continent": "Africa",
+      "flag": "🇪🇷",
+      "summary": "Asmara's art-deco streets enjoy spring-like weather much of the year. The coast at Massawa is pleasant in winter and brutally hot in summer. Travel permits are needed outside Asmara.",
+      "splitByRegion": false,
+      "splitReason": "Eritrea is small, and the Asmara highlands and the Massawa coast share the same dry season.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Asmara, Keren, Massawa and the Dahlak Islands.",
+          "lat": 15.33,
+          "lon": 38.93,
+          "tags": ["architecture", "history", "diving"],
+          "best": [
+            { "from": "10-01", "to": "03-31", "why": "Dry, sunny highlands, with the Massawa coast warm rather than scorching.", "goodFor": ["city", "nature", "diving", "roadtrip"] }
+          ],
+          "worst": [ { "from": "06-15", "to": "09-15", "why": "Massawa passes 40 °C, and the highlands have their rains." } ],
+          "shoulder": [
+            { "from": "04-01", "to": "06-14", "why": "Hot on the coast." },
+            { "from": "09-16", "to": "09-30", "why": "The rains are ending." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "10-01", "to": "04-30" } ],
+            "nature": [ { "from": "10-01", "to": "03-31" } ],
+            "diving": [ { "from": "10-01", "to": "04-30" } ],
+            "roadtrip": [ { "from": "10-01", "to": "03-31" } ]
+          },
+          "climate": {
+            "avgHighC": [23, 24, 26, 26, 27, 27, 23, 23, 25, 24, 23, 22],
+            "avgLowC": [7, 8, 10, 12, 13, 13, 13, 13, 12, 11, 9, 8],
+            "rainMm": [3, 2, 8, 30, 40, 40, 180, 160, 40, 15, 10, 5],
+            "rainDays": [0, 0, 1, 3, 4, 4, 13, 12, 4, 2, 1, 0],
+            "sunHours": [280, 270, 290, 280, 290, 270, 200, 200, 260, 280, 280, 280],
+            "seaTempC": null,
+            "humidity": [55, 52, 50, 50, 48, 46, 64, 66, 55, 55, 58, 57]
+          },
+          "crowds": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "risks": [ { "type": "extreme heat", "from": "05-15", "to": "09-15", "note": "Coastal heat." } ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 50, "shoulder": 60, "high": 70 },
+            "midrangePerDay": { "low": 100, "shoulder": 110, "high": 130 },
+            "hotelNightMid": { "low": 60, "shoulder": 70, "high": 80 },
+            "notes": "Bring cash. Travel permits for each region are issued in Asmara."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Asmara", "aliases": [], "region": "country" },
+        { "name": "Massawa", "aliases": ["Dahlak Islands"], "region": "country" },
+        { "name": "Keren", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Eritrea" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/eritrea" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/eritrea/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "ET",
+      "isoNum": "231",
+      "name": "Ethiopia",
+      "aliases": ["Federal Democratic Republic of Ethiopia"],
+      "continent": "Africa",
+      "flag": "🇪🇹",
+      "summary": "Ethiopia's historic north (Lalibela, Gondar, Aksum) and the Simien Mountains are best in the dry season from October to February, when the land is green after the rains and the Timkat (January) and Meskel (September) festivals take place. The main kiremt rains (June–September) bring mud and cloud. Some regions carry travel warnings, so check current advice.",
+      "splitByRegion": false,
+      "splitReason": "The main circuit is in the highlands, which share one calendar; the Danakil and Omo lowlands are hotter but have the same dry season.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "The whole country: Addis Ababa, Lalibela, Gondar, the Simien Mountains, Aksum, Bahir Dar, the Danakil, the Omo Valley and Harar.",
+          "lat": 9.03,
+          "lon": 38.74,
+          "tags": ["history", "culture", "mountain", "festivals"],
+          "best": [
+            { "from": "10-01", "to": "02-28", "why": "Dry and green after the rains, with the Meskel and Timkat festivals, Simien treks and Lalibela's churches.", "goodFor": ["mountain", "city", "nature", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "06-15", "to": "09-10", "why": "Main rains (kiremt): muddy, with cloud over the Simien and disrupted flights in the north." }
+          ],
+          "shoulder": [
+            { "from": "03-01", "to": "06-14", "why": "Hot lowlands and the short belg rains; the Danakil is too hot by May." },
+            { "from": "09-11", "to": "09-30", "why": "Meskel season, with flowers in bloom." }
+          ],
+          "activityWindows": {
+            "mountain": [ { "from": "10-01", "to": "03-31" } ],
+            "city": [ { "from": "10-01", "to": "04-30" } ],
+            "nature": [ { "from": "10-01", "to": "03-31" } ],
+            "roadtrip": [ { "from": "10-01", "to": "02-28" } ]
+          },
+          "climate": {
+            "avgHighC": [23, 24, 25, 25, 25, 23, 20, 20, 21, 22, 22, 22],
+            "avgLowC": [8, 9, 10, 11, 11, 11, 11, 11, 10, 9, 8, 7],
+            "rainMm": [15, 35, 65, 90, 85, 135, 280, 290, 190, 35, 10, 10],
+            "rainDays": [2, 4, 6, 9, 9, 15, 25, 25, 18, 4, 1, 1],
+            "sunHours": [270, 240, 240, 220, 230, 170, 110, 110, 160, 240, 270, 280],
+            "seaTempC": null,
+            "humidity": [50, 52, 52, 57, 57, 67, 79, 79, 74, 57, 52, 51]
+          },
+          "crowds": [4, 3, 2, 2, 2, 1, 1, 1, 3, 4, 4, 4],
+          "risks": [
+            { "type": "heavy rain", "from": "06-15", "to": "09-15", "note": "Kiremt downpours." },
+            { "type": "extreme heat", "from": "04-01", "to": "09-30", "note": "The Danakil passes 50 °C." }
+          ],
+          "recurringHolidays": [
+            { "name": "Timkat (Epiphany)", "approx": "Jan 18 – Jan 20", "effect": "Lalibela and Gondar hotels sell out.", "dates": { "from": "01-18", "to": "01-20" } },
+            { "name": "Meskel", "approx": "Sep 26 – Sep 28", "effect": "The Finding of the True Cross, with huge bonfires.", "dates": { "from": "09-26", "to": "09-28" } },
+            { "name": "Genna (Christmas)", "approx": "Jan 6 – Jan 7", "effect": "A pilgrimage to Lalibela.", "dates": { "from": "01-06", "to": "01-07" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 35, "high": 45 },
+            "midrangePerDay": { "low": 70, "shoulder": 85, "high": 110 },
+            "hotelNightMid": { "low": 40, "shoulder": 55, "high": 80 },
+            "notes": "Ethiopian Airlines gives domestic flight discounts if you fly in with them."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Addis Ababa", "aliases": [], "region": "country" },
+        { "name": "Lalibela", "aliases": [], "region": "country" },
+        { "name": "Gondar", "aliases": ["Simien Mountains", "Simien"], "region": "country" },
+        { "name": "Bahir Dar", "aliases": ["Lake Tana", "Blue Nile Falls"], "region": "country" },
+        { "name": "Aksum", "aliases": ["Axum"], "region": "country" },
+        { "name": "Danakil Depression", "aliases": ["Danakil", "Erta Ale", "Dallol"], "region": "country" },
+        { "name": "Omo Valley", "aliases": ["Jinka", "Turmi"], "region": "country" },
+        { "name": "Harar", "aliases": [], "region": "country" },
+        { "name": "Bale Mountains", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Ethiopia" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/ethiopia" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/ethiopia/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "KE",
+      "isoNum": "404",
+      "name": "Kenya",
+      "aliases": ["Republic of Kenya"],
+      "continent": "Africa",
+      "flag": "🇰🇪",
+      "summary": "Kenya has two dry seasons that make the best safari months: July to October, when the Great Migration's river crossings happen in the Masai Mara, and January to February, when it's hot and green with great game viewing. The long rains (April–May) make tracks muddy and close some camps. The coast (Diani, Watamu, Lamu) is best from October to March, when the sea is calm.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "safari",
+          "name": "Safari Parks & Highlands",
+          "description": "Nairobi, the Masai Mara, Amboseli, Samburu, Lake Nakuru and Naivasha, Laikipia, Mt Kenya and Tsavo.",
+          "lat": -1.29,
+          "lon": 36.82,
+          "tags": ["wildlife", "safari", "mountain"],
+          "best": [
+            { "from": "07-01", "to": "10-15", "why": "Great Migration river crossings in the Masai Mara and dry-season game viewing.", "goodFor": ["nature", "roadtrip", "mountain"] },
+            { "from": "01-05", "to": "02-28", "why": "The short dry season: great game viewing and fewer vehicles.", "goodFor": ["nature", "mountain"] }
+          ],
+          "worst": [ { "from": "04-01", "to": "05-31", "why": "Long rains: muddy tracks, with some camps closed." } ],
+          "shoulder": [
+            { "from": "06-01", "to": "06-30", "why": "Dry season beginning, before the peak prices." },
+            { "from": "10-16", "to": "12-20", "why": "The short rains (November) bring lush scenery and lower prices." },
+            { "from": "12-21", "to": "01-04", "why": "Festive peak." },
+            { "from": "03-01", "to": "03-31", "why": "Hot, with the rains approaching." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "06-15", "to": "10-31" }, { "from": "01-01", "to": "03-15" } ],
+            "mountain": [ { "from": "01-05", "to": "02-28" }, { "from": "07-01", "to": "09-30" } ],
+            "roadtrip": [ { "from": "06-15", "to": "10-15" } ]
+          },
+          "climate": {
+            "avgHighC": [25, 26, 26, 24, 23, 22, 21, 22, 24, 25, 23, 24],
+            "avgLowC": [12, 12, 14, 15, 14, 12, 11, 11, 11, 13, 14, 13],
+            "rainMm": [60, 45, 75, 170, 140, 40, 15, 25, 30, 60, 140, 90],
+            "rainDays": [5, 4, 8, 15, 13, 6, 4, 4, 4, 6, 14, 9],
+            "sunHours": [270, 250, 230, 190, 170, 150, 130, 140, 190, 230, 200, 230],
+            "seaTempC": null,
+            "humidity": [60, 55, 60, 70, 72, 70, 68, 66, 60, 58, 68, 65]
+          },
+          "crowds": [4, 4, 3, 2, 2, 3, 5, 5, 4, 3, 2, 4],
+          "risks": [ { "type": "heavy rain", "from": "03-25", "to": "05-31", "note": "Tracks become impassable." } ],
+          "recurringHolidays": [
+            { "name": "Great Migration in the Mara", "approx": "Mid-July – September", "effect": "Mara Conservancy camps peak in price.", "dates": { "from": "07-15", "to": "09-30" } },
+            { "name": "Christmas & New Year", "approx": "Dec 20 – Jan 5", "effect": "Peak lodge and coast prices.", "dates": { "from": "12-20", "to": "01-05" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 80, "shoulder": 120, "high": 200 },
+            "midrangePerDay": { "low": 250, "shoulder": 350, "high": 550 },
+            "hotelNightMid": { "low": 150, "shoulder": 250, "high": 450 },
+            "notes": "Mara conservancy camps are all-inclusive. Park fees are $100–200 per person per day."
+          }
+        },
+        {
+          "id": "coast",
+          "name": "Kenyan Coast",
+          "description": "Mombasa, Diani Beach, Watamu and Malindi, Kilifi and the Lamu archipelago.",
+          "lat": -4.04,
+          "lon": 39.67,
+          "tags": ["beach", "diving", "culture", "kitesurf"],
+          "best": [
+            { "from": "10-01", "to": "03-15", "why": "Dry seasons: a calm sea, kitesurfing (December–March) and whale sharks.", "goodFor": ["beach", "diving", "sun"] }
+          ],
+          "worst": [ { "from": "04-15", "to": "06-15", "why": "Long rains: humid with a rough sea, and many hotels close." } ],
+          "shoulder": [
+            { "from": "03-16", "to": "04-14", "why": "Hot, with the rains approaching." },
+            { "from": "06-16", "to": "09-30", "why": "The breezy kusi monsoon brings seaweed on the beaches, plus humpback whales (July–October)." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "10-01", "to": "03-31" } ],
+            "diving": [ { "from": "10-15", "to": "03-31" } ],
+            "sun": [ { "from": "12-01", "to": "03-31" } ],
+            "nature": [ { "from": "07-01", "to": "10-31" } ]
+          },
+          "climate": {
+            "avgHighC": [31, 32, 32, 31, 29, 28, 27, 27, 28, 29, 30, 31],
+            "avgLowC": [23, 24, 24, 24, 23, 22, 21, 21, 21, 22, 23, 23],
+            "rainMm": [30, 15, 55, 155, 240, 90, 70, 65, 65, 90, 95, 70],
+            "rainDays": [3, 2, 5, 12, 16, 10, 9, 9, 8, 8, 9, 6],
+            "sunHours": [270, 270, 270, 240, 220, 230, 230, 240, 250, 260, 260, 260],
+            "seaTempC": [28, 28, 29, 29, 28, 27, 26, 25, 26, 26, 27, 28],
+            "humidity": [70, 70, 72, 77, 80, 79, 78, 77, 76, 75, 75, 72]
+          },
+          "crowds": [4, 4, 3, 2, 1, 2, 4, 4, 3, 3, 3, 5],
+          "risks": [ { "type": "heavy rain", "from": "04-01", "to": "06-15", "note": "Coastal downpours." } ],
+          "recurringHolidays": [
+            { "name": "Christmas & New Year", "approx": "Dec 20 – Jan 5", "effect": "Peak lodge and coast prices.", "dates": { "from": "12-20", "to": "01-05" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 50, "high": 70 },
+            "midrangePerDay": { "low": 90, "shoulder": 110, "high": 150 },
+            "hotelNightMid": { "low": 60, "shoulder": 80, "high": 130 },
+            "notes": "Lamu is car-free, with dhow trips. Diani is the main resort strip."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Nairobi", "aliases": [], "region": "safari" },
+        { "name": "Masai Mara", "aliases": ["Maasai Mara", "Mara"], "region": "safari" },
+        { "name": "Amboseli", "aliases": [], "region": "safari" },
+        { "name": "Samburu", "aliases": [], "region": "safari" },
+        { "name": "Lake Nakuru", "aliases": ["Naivasha", "Hell's Gate"], "region": "safari" },
+        { "name": "Mount Kenya", "aliases": ["Nanyuki", "Laikipia"], "region": "safari" },
+        { "name": "Tsavo", "aliases": [], "region": "safari" },
+        { "name": "Mombasa", "aliases": [], "region": "coast" },
+        { "name": "Diani Beach", "aliases": ["Diani", "Ukunda"], "region": "coast" },
+        { "name": "Watamu", "aliases": ["Malindi"], "region": "coast" },
+        { "name": "Lamu", "aliases": ["Shela"], "region": "coast" },
+        { "name": "Kilifi", "aliases": [], "region": "coast" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://magicalkenya.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Kenya" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/kenya" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/kenya/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "LY",
+      "isoNum": "434",
+      "name": "Libya",
+      "aliases": ["State of Libya"],
+      "continent": "Africa",
+      "flag": "🇱🇾",
+      "summary": "Many governments advise against all travel to Libya, so check current advice. Leptis Magna and Sabratha are among the finest Roman ruins anywhere. The coast is best in spring and autumn, and the Saharan oases such as Ghadames in winter.",
+      "splitByRegion": false,
+      "splitReason": "Travel is very limited, and Tripoli and the Roman cities share one Mediterranean calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Tripoli, Leptis Magna, Sabratha, Cyrene and Ghadames.",
+          "lat": 32.89,
+          "lon": 13.19,
+          "tags": ["history", "ruins", "desert"],
+          "best": [
+            { "from": "03-15", "to": "05-15", "why": "Mild, sunny spring at the Roman ruins.", "goodFor": ["city", "roadtrip"] },
+            { "from": "10-01", "to": "11-30", "why": "Pleasant autumn on the coast.", "goodFor": ["city", "roadtrip"] }
+          ],
+          "worst": [ { "from": "06-15", "to": "09-15", "why": "Hot, with desert winds (ghibli)." } ],
+          "shoulder": [
+            { "from": "12-01", "to": "03-14", "why": "Cool, with some rain." },
+            { "from": "05-16", "to": "06-14", "why": "Getting hot." },
+            { "from": "09-16", "to": "09-30", "why": "The heat is easing." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "10-01", "to": "05-31" } ],
+            "roadtrip": [ { "from": "10-15", "to": "05-15" } ]
+          },
+          "climate": {
+            "avgHighC": [18, 19, 21, 24, 27, 30, 32, 33, 31, 28, 24, 19],
+            "avgLowC": [9, 9, 11, 14, 17, 21, 23, 23, 22, 19, 14, 10],
+            "rainMm": [70, 40, 30, 10, 5, 1, 0, 0, 10, 40, 60, 70],
+            "rainDays": [8, 6, 4, 2, 1, 0, 0, 0, 1, 4, 6, 8],
+            "sunHours": [180, 200, 240, 270, 310, 330, 360, 340, 280, 240, 200, 180],
+            "seaTempC": [16, 15, 16, 17, 19, 22, 25, 26, 26, 24, 21, 18],
+            "humidity": [66, 64, 64, 62, 65, 67, 69, 70, 69, 67, 65, 66]
+          },
+          "crowds": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "risks": [
+            { "type": "extreme heat", "from": "06-01", "to": "09-15", "note": "Ghibli winds push temperatures past 45 °C." }
+          ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 50, "high": 60 },
+            "midrangePerDay": { "low": 80, "shoulder": 90, "high": 110 },
+            "hotelNightMid": { "low": 50, "shoulder": 60, "high": 80 },
+            "notes": "There's no tourist infrastructure to speak of, and security dominates costs."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Tripoli", "aliases": [], "region": "country" },
+        { "name": "Leptis Magna", "aliases": ["Al Khums"], "region": "country" },
+        { "name": "Sabratha", "aliases": [], "region": "country" },
+        { "name": "Ghadames", "aliases": [], "region": "country" },
+        { "name": "Benghazi", "aliases": ["Cyrene"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Libya" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/libya" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/libya/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "MA",
+      "isoNum": "504",
+      "name": "Morocco",
+      "aliases": ["Al-Maghrib", "Kingdom of Morocco"],
+      "continent": "Africa",
+      "flag": "🇲🇦",
+      "summary": "Morocco has three faces. The Atlantic coast (Essaouira, Agadir) stays mild all year, cooled by the ocean. The imperial cities and the Atlas (Marrakech, Fes, Toubkal) are best in spring and autumn, but hit 40 °C in summer and have cold nights in winter. The Sahara around Merzouga is a desert-camp destination from October to April. Ramadan shifts by about 11 days a year, which changes opening hours.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "coast",
+          "name": "Atlantic & Mediterranean Coast",
+          "description": "Essaouira, Agadir and Taghazout, Rabat, Casablanca, Tangier, Asilah and Chefchaouen in the Rif.",
+          "lat": 31.51,
+          "lon": -9.77,
+          "tags": ["beach", "surf", "city", "culture"],
+          "best": [
+            { "from": "04-01", "to": "06-15", "why": "Sunny 20–24 °C days, good surf and blue-washed Chefchaouen in spring.", "goodFor": ["beach", "city", "roadtrip", "sun", "nature"] },
+            { "from": "09-01", "to": "10-31", "why": "Warm sea and calm, clear weather.", "goodFor": ["beach", "city", "roadtrip", "sun"] }
+          ],
+          "worst": [
+            { "from": "12-15", "to": "02-10", "why": "The rainiest, coolest weeks, with Atlantic storms (though Agadir stays sunny)." }
+          ],
+          "shoulder": [
+            { "from": "02-11", "to": "03-31", "why": "Spring blooms and big surf." },
+            { "from": "06-16", "to": "08-31", "why": "Windy in Essaouira and busy with Moroccan holidaymakers, with the sea cool at 20 °C." },
+            { "from": "11-01", "to": "12-14", "why": "Showers returning." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "06-01", "to": "10-15" } ],
+            "sun": [ { "from": "04-01", "to": "10-31" } ],
+            "city": [ { "from": "03-01", "to": "06-15" }, { "from": "09-01", "to": "11-30" } ],
+            "roadtrip": [ { "from": "03-01", "to": "06-15" }, { "from": "09-15", "to": "11-15" } ],
+            "nature": [ { "from": "03-01", "to": "05-31" } ]
+          },
+          "climate": {
+            "avgHighC": [18, 19, 20, 20, 21, 22, 22, 23, 23, 23, 21, 19],
+            "avgLowC": [9, 11, 12, 13, 15, 16, 17, 17, 17, 16, 13, 10],
+            "rainMm": [55, 45, 45, 25, 10, 2, 0, 1, 5, 35, 60, 60],
+            "rainDays": [6, 5, 5, 3, 2, 0, 0, 0, 1, 4, 6, 6],
+            "sunHours": [220, 220, 260, 280, 300, 290, 290, 280, 260, 250, 220, 210],
+            "seaTempC": [17, 17, 17, 18, 19, 20, 20, 21, 21, 21, 19, 18],
+            "humidity": [77, 79, 80, 80, 81, 83, 85, 85, 83, 79, 77, 77]
+          },
+          "crowds": [2, 2, 3, 4, 4, 4, 5, 5, 4, 3, 3, 3],
+          "risks": [
+            { "type": "strong wind", "from": "06-01", "to": "08-31", "note": "Essaouira's trade winds (great for kitesurfing)." }
+          ],
+          "recurringHolidays": [
+            { "name": "Ramadan", "approx": "Moves about 11 days earlier each year", "effect": "Many cafés close by day and some sights keep reduced hours, but the evenings are lively.", "moving": { "anchor": "ramadanStart", "offsetDays": 0, "durationDays": 30 } },
+            { "name": "Eid al-Adha", "approx": "Moves each year", "effect": "Families travel and transport is packed.", "moving": { "anchor": "eidAlAdha", "offsetDays": -1, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 35, "shoulder": 45, "high": 60 },
+            "midrangePerDay": { "low": 80, "shoulder": 100, "high": 140 },
+            "hotelNightMid": { "low": 50, "shoulder": 70, "high": 110 },
+            "notes": "Riads in Essaouira are good value. Taghazout surf camps cost $30–60 a night."
+          }
+        },
+        {
+          "id": "inland",
+          "name": "Imperial Cities & the Atlas",
+          "description": "Marrakech, Fes, Meknes and Volubilis, the High Atlas (Imlil, Toubkal), Aït Benhaddou, Ouarzazate and the Dades and Todra gorges.",
+          "lat": 31.63,
+          "lon": -7.99,
+          "tags": ["city", "culture", "mountain", "food", "history"],
+          "best": [
+            { "from": "03-15", "to": "05-31", "why": "Warm 25–30 °C with blossoms and snow-capped Atlas views; Toubkal treks from May.", "goodFor": ["city", "mountain", "roadtrip", "nature"] },
+            { "from": "09-20", "to": "11-15", "why": "Pleasant autumn for the souks and mountain villages.", "goodFor": ["city", "mountain", "roadtrip"] }
+          ],
+          "worst": [ { "from": "07-01", "to": "08-31", "why": "Marrakech hits 38–42 °C and the Fes medina is stifling." } ],
+          "shoulder": [
+            { "from": "11-16", "to": "03-14", "why": "Sunny 18–20 °C days but cold 5 °C nights and snow in the Atlas, with skiing at Oukaïmeden; Christmas crowds in Marrakech." },
+            { "from": "06-01", "to": "06-30", "why": "Getting hot." },
+            { "from": "09-01", "to": "09-19", "why": "The heat is easing." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "10-01", "to": "05-31" } ],
+            "mountain": [ { "from": "05-01", "to": "06-30" }, { "from": "09-15", "to": "10-31" } ],
+            "roadtrip": [ { "from": "03-01", "to": "05-31" }, { "from": "09-20", "to": "11-15" } ],
+            "snow": [ { "from": "01-01", "to": "03-10" } ],
+            "nature": [ { "from": "03-15", "to": "05-31" } ]
+          },
+          "climate": {
+            "avgHighC": [19, 20, 23, 25, 29, 33, 37, 37, 32, 28, 23, 19],
+            "avgLowC": [6, 8, 10, 12, 15, 18, 21, 21, 19, 15, 10, 7],
+            "rainMm": [30, 35, 35, 30, 15, 5, 2, 3, 10, 25, 40, 30],
+            "rainDays": [4, 5, 5, 5, 3, 1, 0, 1, 2, 4, 5, 4],
+            "sunHours": [220, 220, 260, 270, 300, 320, 340, 320, 270, 250, 220, 210],
+            "seaTempC": null,
+            "humidity": [66, 66, 62, 60, 56, 51, 46, 48, 55, 60, 65, 67]
+          },
+          "crowds": [3, 3, 4, 5, 4, 3, 3, 3, 4, 4, 3, 4],
+          "risks": [
+            { "type": "extreme heat", "from": "06-15", "to": "09-10", "note": "Interior heatwaves." },
+            { "type": "road closures", "from": "12-01", "to": "03-15", "note": "The Tizi n'Tichka pass can close with snow." }
+          ],
+          "recurringHolidays": [
+            { "name": "Ramadan", "approx": "Moves about 11 days earlier each year", "effect": "Many cafés close by day and some sights keep reduced hours, but the evenings are lively.", "moving": { "anchor": "ramadanStart", "offsetDays": 0, "durationDays": 30 } },
+            { "name": "Eid al-Adha", "approx": "Moves each year", "effect": "Families travel and transport is packed.", "moving": { "anchor": "eidAlAdha", "offsetDays": -1, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 50, "high": 70 },
+            "midrangePerDay": { "low": 90, "shoulder": 120, "high": 170 },
+            "hotelNightMid": { "low": 60, "shoulder": 90, "high": 150 },
+            "notes": "Marrakech riads range from $50 to $500 or more. Agree prices before any guided service."
+          }
+        },
+        {
+          "id": "sahara",
+          "name": "Sahara (Merzouga & Zagora)",
+          "description": "Merzouga and Erg Chebbi, Zagora and Erg Chigaga, and the Draa Valley.",
+          "lat": 31.1,
+          "lon": -4.01,
+          "tags": ["desert", "camping", "camels", "stars"],
+          "best": [
+            { "from": "10-01", "to": "11-30", "why": "Warm days and cool nights for camel treks and desert camps.", "goodFor": ["nature", "roadtrip"] },
+            { "from": "02-15", "to": "04-30", "why": "Mild spring days in the dunes.", "goodFor": ["nature", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "06-01", "to": "08-31", "why": "45 °C desert heat makes camel treks and dune camps miserable." }
+          ],
+          "shoulder": [
+            { "from": "12-01", "to": "02-14", "why": "Cold desert nights (near 0 °C) but clear days; camps are full over Christmas and New Year." },
+            { "from": "05-01", "to": "05-31", "why": "Heating up." },
+            { "from": "09-01", "to": "09-30", "why": "Still hot." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "10-01", "to": "04-30" } ],
+            "roadtrip": [ { "from": "10-01", "to": "04-30" } ]
+          },
+          "climate": {
+            "avgHighC": [18, 21, 25, 29, 34, 39, 43, 42, 36, 29, 23, 18],
+            "avgLowC": [4, 6, 10, 14, 19, 24, 27, 27, 22, 16, 9, 5],
+            "rainMm": [5, 5, 5, 5, 5, 2, 2, 5, 10, 10, 8, 6],
+            "rainDays": [1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1],
+            "sunHours": [260, 250, 280, 300, 320, 330, 340, 320, 280, 270, 250, 240],
+            "seaTempC": null,
+            "humidity": [45, 38, 30, 25, 20, 18, 17, 20, 26, 35, 42, 47]
+          },
+          "crowds": [3, 3, 4, 4, 3, 1, 1, 1, 2, 4, 4, 5],
+          "risks": [
+            { "type": "extreme heat", "from": "05-15", "to": "09-15", "note": "Dangerous desert heat." },
+            { "type": "sandstorm", "from": "03-01", "to": "05-31", "note": "Spring sandstorms." }
+          ],
+          "recurringHolidays": [
+            { "name": "Ramadan", "approx": "Moves about 11 days earlier each year", "effect": "Many cafés close by day and some sights keep reduced hours, but the evenings are lively.", "moving": { "anchor": "ramadanStart", "offsetDays": 0, "durationDays": 30 } },
+            { "name": "Eid al-Adha", "approx": "Moves each year", "effect": "Families travel and transport is packed.", "moving": { "anchor": "eidAlAdha", "offsetDays": -1, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 45, "shoulder": 55, "high": 65 },
+            "midrangePerDay": { "low": 100, "shoulder": 120, "high": 150 },
+            "hotelNightMid": { "low": 60, "shoulder": 80, "high": 110 },
+            "notes": "Desert camps cost $60–300 per person including dinner and camels."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Essaouira", "aliases": [], "region": "coast" },
+        { "name": "Agadir", "aliases": ["Taghazout"], "region": "coast" },
+        { "name": "Rabat", "aliases": [], "region": "coast" },
+        { "name": "Casablanca", "aliases": [], "region": "coast" },
+        { "name": "Tangier", "aliases": ["Tanger", "Asilah"], "region": "coast" },
+        { "name": "Chefchaouen", "aliases": [], "region": "coast" },
+        { "name": "Marrakech", "aliases": ["Marrakesh"], "region": "inland" },
+        { "name": "Fes", "aliases": ["Fez"], "region": "inland" },
+        { "name": "Meknes", "aliases": ["Volubilis"], "region": "inland" },
+        { "name": "Imlil", "aliases": ["Toubkal", "High Atlas"], "region": "inland" },
+        { "name": "Ouarzazate", "aliases": ["Aït Benhaddou", "Ait Benhaddou"], "region": "inland" },
+        { "name": "Dades Gorge", "aliases": ["Todra Gorge", "Tinghir"], "region": "inland" },
+        { "name": "Merzouga", "aliases": ["Erg Chebbi"], "region": "sahara" },
+        { "name": "Zagora", "aliases": ["Erg Chigaga", "M'Hamid"], "region": "sahara" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.visitmorocco.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Morocco" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/morocco" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/morocco/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "RW",
+      "isoNum": "646",
+      "name": "Rwanda",
+      "aliases": ["Republic of Rwanda"],
+      "continent": "Africa",
+      "flag": "🇷🇼",
+      "summary": "Rwanda is mild all year at altitude (Kigali around 26 °C). The dry seasons, June to mid-September and mid-December to February, are best for gorilla trekking in Volcanoes NP, chimps in Nyungwe and the Big Five at Akagera.",
+      "splitByRegion": false,
+      "splitReason": "Rwanda is small and hilly, with one equatorial calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Kigali, Volcanoes NP, Nyungwe, Akagera and Lake Kivu.",
+          "lat": -1.95,
+          "lon": 30.06,
+          "tags": ["gorillas", "wildlife", "city", "lake"],
+          "best": [
+            { "from": "06-01", "to": "09-15", "why": "Dry season: the best gorilla and golden-monkey trekking.", "goodFor": ["nature", "mountain", "city"] },
+            { "from": "12-15", "to": "02-15", "why": "The short dry season.", "goodFor": ["nature", "mountain", "city"] }
+          ],
+          "worst": [ { "from": "03-15", "to": "05-15", "why": "Long rains: muddy volcano slopes." } ],
+          "shoulder": [
+            { "from": "10-01", "to": "12-14", "why": "The short rains, with lush forest." },
+            { "from": "02-16", "to": "03-14", "why": "Rains are building." },
+            { "from": "05-16", "to": "05-31", "why": "The rains are ending." },
+            { "from": "09-16", "to": "09-30", "why": "Showers are returning." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "06-01", "to": "09-30" }, { "from": "12-15", "to": "02-28" } ],
+            "city": [ { "from": "01-01", "to": "12-31" } ],
+            "mountain": [ { "from": "06-01", "to": "09-15" } ]
+          },
+          "climate": {
+            "avgHighC": [27, 27, 27, 26, 25, 26, 27, 28, 28, 27, 26, 26],
+            "avgLowC": [16, 16, 16, 16, 16, 15, 15, 16, 16, 16, 16, 16],
+            "rainMm": [75, 90, 115, 155, 95, 20, 10, 30, 70, 100, 115, 80],
+            "rainDays": [11, 11, 15, 18, 13, 2, 1, 4, 10, 15, 16, 12],
+            "sunHours": [200, 190, 200, 180, 200, 240, 260, 250, 220, 200, 180, 190],
+            "seaTempC": null,
+            "humidity": [75, 76, 78, 80, 78, 68, 62, 62, 68, 74, 78, 77]
+          },
+          "crowds": [3, 3, 2, 2, 2, 4, 5, 5, 4, 3, 2, 3],
+          "risks": [ { "type": "heavy rain", "from": "03-15", "to": "05-15", "note": "Landslides on rural roads." } ],
+          "recurringHolidays": [
+            { "name": "Kwibuka (Genocide Memorial Week)", "approx": "Apr 7 – Apr 13", "effect": "A sombre national remembrance; some activities are limited.", "dates": { "from": "04-07", "to": "04-13" } },
+            { "name": "Kwita Izina", "approx": "Early September", "effect": "The gorilla-naming ceremony near Volcanoes NP." }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 60, "shoulder": 70, "high": 90 },
+            "midrangePerDay": { "low": 180, "shoulder": 220, "high": 300 },
+            "hotelNightMid": { "low": 100, "shoulder": 150, "high": 250 },
+            "notes": "Gorilla permits cost $1,500. Kigali is clean, safe and pricier than its neighbours."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Kigali", "aliases": [], "region": "country" },
+        { "name": "Volcanoes National Park", "aliases": ["Musanze", "Ruhengeri", "Gorillas Rwanda"], "region": "country" },
+        { "name": "Nyungwe", "aliases": ["Nyungwe Forest"], "region": "country" },
+        { "name": "Akagera", "aliases": [], "region": "country" },
+        { "name": "Lake Kivu", "aliases": ["Gisenyi", "Rubavu", "Kibuye"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.visitrwanda.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Rwanda" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/rwanda" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/rwanda/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "SO",
+      "isoNum": "706",
+      "name": "Somalia",
+      "aliases": ["Federal Republic of Somalia", "Somaliland"],
+      "continent": "Africa",
+      "flag": "🇸🇴",
+      "summary": "Many governments advise against all travel to Somalia. Somaliland in the north is more stable; its Laas Geel rock paintings are best visited in the cooler dry season from December to March.",
+      "splitByRegion": false,
+      "splitReason": "Travel is mostly limited to Somaliland (Hargeisa, Laas Geel), which shares the national dry-season calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Mogadishu, Somaliland (Hargeisa, Laas Geel, Berbera).",
+          "lat": 2.04,
+          "lon": 45.34,
+          "tags": ["history", "rock art", "remote"],
+          "best": [
+            { "from": "12-15", "to": "03-15", "why": "The jilal dry season, when Laas Geel's rock art is easiest to reach.", "goodFor": ["nature", "city"] }
+          ],
+          "worst": [ { "from": "04-01", "to": "06-30", "why": "The gu rains and rising heat." } ],
+          "shoulder": [ { "from": "07-01", "to": "12-14", "why": "The hagaa dry spell, then the deyr rains." } ],
+          "activityWindows": {
+            "nature": [ { "from": "12-15", "to": "03-15" } ],
+            "city": [ { "from": "12-01", "to": "03-31" } ]
+          },
+          "climate": {
+            "avgHighC": [30, 30, 31, 32, 32, 30, 29, 29, 30, 31, 31, 31],
+            "avgLowC": [23, 23, 24, 25, 25, 24, 23, 23, 23, 24, 24, 24],
+            "rainMm": [0, 0, 10, 60, 60, 80, 60, 40, 20, 30, 40, 10],
+            "rainDays": [0, 0, 1, 5, 6, 10, 9, 6, 3, 4, 5, 2],
+            "sunHours": [270, 260, 280, 260, 270, 240, 230, 250, 260, 260, 250, 260],
+            "seaTempC": [27, 27, 28, 29, 28, 27, 26, 26, 26, 27, 28, 28],
+            "humidity": [78, 77, 77, 79, 80, 81, 82, 81, 80, 79, 79, 79]
+          },
+          "crowds": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "risks": [ { "type": "heavy rain", "from": "04-01", "to": "06-15", "note": "Gu-season floods." } ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 70, "shoulder": 80, "high": 90 },
+            "midrangePerDay": { "low": 130, "shoulder": 140, "high": 160 },
+            "hotelNightMid": { "low": 80, "shoulder": 90, "high": 100 },
+            "notes": "Armed escorts are often mandatory outside towns."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Mogadishu", "aliases": [], "region": "country" },
+        { "name": "Hargeisa", "aliases": ["Somaliland", "Laas Geel"], "region": "country" },
+        { "name": "Berbera", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Somalia" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/somalia" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/somalia/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "SS",
+      "isoNum": "728",
+      "name": "South Sudan",
+      "aliases": ["Republic of South Sudan"],
+      "continent": "Africa",
+      "flag": "🇸🇸",
+      "summary": "Many governments advise against travel to South Sudan. Its dry season (December–February) is the only time roads are passable for cattle camps and the vast Boma antelope migration.",
+      "splitByRegion": false,
+      "splitReason": "Travel is minimal, and the country shares one tropical wet-and-dry calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Juba, the Mundari cattle camps and Boma National Park.",
+          "lat": 4.85,
+          "lon": 31.58,
+          "tags": ["culture", "wildlife", "remote"],
+          "best": [
+            { "from": "12-01", "to": "02-28", "why": "The dry season: cattle camps and the Boma migration.", "goodFor": ["nature", "roadtrip"] }
+          ],
+          "worst": [ { "from": "05-01", "to": "10-31", "why": "Rains make roads impassable." } ],
+          "shoulder": [
+            { "from": "03-01", "to": "04-30", "why": "Hot, with the rains beginning." },
+            { "from": "11-01", "to": "11-30", "why": "The rains are ending." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "12-01", "to": "03-15" } ],
+            "roadtrip": [ { "from": "12-01", "to": "02-28" } ]
+          },
+          "climate": {
+            "avgHighC": [37, 38, 37, 35, 33, 32, 31, 31, 32, 33, 35, 36],
+            "avgLowC": [21, 22, 24, 24, 23, 22, 21, 21, 21, 22, 22, 21],
+            "rainMm": [5, 15, 40, 110, 140, 130, 150, 140, 120, 100, 35, 10],
+            "rainDays": [1, 2, 5, 9, 12, 12, 14, 14, 12, 10, 5, 1],
+            "sunHours": [280, 250, 240, 220, 220, 200, 180, 190, 210, 230, 250, 270],
+            "seaTempC": null,
+            "humidity": [37, 38, 46, 59, 71, 75, 79, 79, 75, 70, 55, 43]
+          },
+          "crowds": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "risks": [ { "type": "flooding", "from": "07-01", "to": "10-31", "note": "Seasonal floods." } ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 80, "shoulder": 90, "high": 100 },
+            "midrangePerDay": { "low": 150, "shoulder": 160, "high": 180 },
+            "hotelNightMid": { "low": 100, "shoulder": 110, "high": 120 },
+            "notes": "Very expensive, and only practical with specialist operators."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Juba", "aliases": [], "region": "country" },
+        { "name": "Boma", "aliases": ["Boma National Park"], "region": "country" },
+        { "name": "Bor", "aliases": [], "region": "country" },
+        { "name": "Kapoeta", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/South_Sudan" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/south-sudan" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/south-sudan/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "SD",
+      "isoNum": "729",
+      "name": "Sudan",
+      "aliases": ["Republic of the Sudan"],
+      "continent": "Africa",
+      "flag": "🇸🇩",
+      "summary": "Sudan is at war, and many governments advise against all travel. In normal times the Meroë pyramids and Nubian sites are best from November to February; the rest of the year is extremely hot.",
+      "splitByRegion": false,
+      "splitReason": "Sudan's visitor sites (Khartoum, Meroë, Jebel Barkal, the Red Sea) share one hot desert calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Khartoum, the Meroë pyramids, Jebel Barkal and the Red Sea coast.",
+          "lat": 15.5,
+          "lon": 32.56,
+          "tags": ["history", "desert", "diving"],
+          "best": [
+            { "from": "11-15", "to": "02-15", "why": "The Meroë pyramids at 30 °C.", "goodFor": ["city", "nature", "roadtrip"] }
+          ],
+          "worst": [ { "from": "04-01", "to": "09-30", "why": "45 °C heat, haboob dust storms and summer rains." } ],
+          "shoulder": [
+            { "from": "10-01", "to": "11-14", "why": "The heat is easing." },
+            { "from": "02-16", "to": "03-31", "why": "Heating up." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "11-01", "to": "02-28" } ],
+            "nature": [ { "from": "11-15", "to": "02-28" } ],
+            "roadtrip": [ { "from": "11-15", "to": "02-28" } ],
+            "diving": [ { "from": "11-01", "to": "04-30" } ]
+          },
+          "climate": {
+            "avgHighC": [31, 33, 37, 40, 42, 41, 38, 37, 39, 40, 36, 32],
+            "avgLowC": [16, 17, 21, 24, 27, 27, 26, 25, 26, 26, 21, 17],
+            "rainMm": [0, 0, 0, 0, 5, 5, 45, 70, 25, 5, 0, 0],
+            "rainDays": [0, 0, 0, 0, 1, 1, 4, 5, 2, 1, 0, 0],
+            "sunHours": [310, 300, 310, 320, 320, 300, 280, 280, 290, 310, 310, 310],
+            "seaTempC": null,
+            "humidity": [26, 22, 18, 16, 20, 28, 43, 52, 45, 30, 24, 27]
+          },
+          "crowds": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "risks": [
+            { "type": "extreme heat", "from": "04-01", "to": "09-30", "note": "Extreme heat." },
+            { "type": "sandstorm", "from": "05-01", "to": "08-31", "note": "Haboob storms." }
+          ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 45, "high": 50 },
+            "midrangePerDay": { "low": 80, "shoulder": 90, "high": 100 },
+            "hotelNightMid": { "low": 50, "shoulder": 55, "high": 60 },
+            "notes": "There's no functioning tourist industry during the conflict."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Khartoum", "aliases": ["Omdurman"], "region": "country" },
+        { "name": "Meroë", "aliases": ["Meroe", "Begarawiya"], "region": "country" },
+        { "name": "Port Sudan", "aliases": ["Sanganeb"], "region": "country" },
+        { "name": "Karima", "aliases": ["Jebel Barkal"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Sudan" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/sudan" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/sudan/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "TZ",
+      "isoNum": "834",
+      "name": "Tanzania",
+      "aliases": ["United Republic of Tanzania"],
+      "continent": "Africa",
+      "flag": "🇹🇿",
+      "summary": "Tanzania's northern circuit (Serengeti, Ngorongoro, Kilimanjaro) is best in the dry season from June to October, when the migration moves north towards the Mara, and in January–February, when wildebeest calve in the southern Serengeti. The long rains (April–May) close some camps. The southern parks (Ruaha, Nyerere) are almost dry-season-only. Zanzibar is best from June to October and December to February.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "north",
+          "name": "Northern Safari Circuit & Kilimanjaro",
+          "description": "Arusha, the Serengeti, the Ngorongoro Crater, Tarangire, Lake Manyara and Kilimanjaro.",
+          "lat": -3.37,
+          "lon": 36.68,
+          "tags": ["wildlife", "safari", "mountain"],
+          "best": [
+            { "from": "06-15", "to": "10-31", "why": "Dry season: the Serengeti migration in the north (July–October) and clear Kilimanjaro climbs.", "goodFor": ["nature", "mountain", "roadtrip"] },
+            { "from": "01-01", "to": "02-28", "why": "Calving season in the southern Serengeti (Ndutu): green plains and predator action.", "goodFor": ["nature", "mountain"] }
+          ],
+          "worst": [
+            { "from": "04-01", "to": "05-20", "why": "Long rains: muddy, with some camps closed and wet Kilimanjaro trails." }
+          ],
+          "shoulder": [
+            { "from": "03-01", "to": "03-31", "why": "Hot, with the rains approaching." },
+            { "from": "05-21", "to": "06-14", "why": "The rains are ending and the grass is long." },
+            { "from": "11-01", "to": "12-31", "why": "The short rains bring lush scenery and lower prices." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "06-15", "to": "10-31" }, { "from": "01-01", "to": "03-15" } ],
+            "mountain": [ { "from": "06-15", "to": "10-15" }, { "from": "01-05", "to": "03-10" } ],
+            "roadtrip": [ { "from": "06-15", "to": "10-31" } ]
+          },
+          "climate": {
+            "avgHighC": [28, 29, 28, 26, 23, 22, 21, 22, 25, 27, 27, 27],
+            "avgLowC": [13, 13, 14, 15, 14, 12, 11, 11, 11, 13, 14, 13],
+            "rainMm": [60, 70, 140, 250, 130, 20, 10, 10, 15, 30, 110, 80],
+            "rainDays": [6, 7, 12, 19, 13, 3, 2, 2, 2, 4, 11, 9],
+            "sunHours": [260, 250, 230, 190, 190, 200, 210, 230, 260, 270, 240, 250],
+            "seaTempC": null,
+            "humidity": [60, 60, 65, 75, 75, 70, 66, 62, 57, 55, 60, 62]
+          },
+          "crowds": [4, 5, 3, 2, 2, 4, 5, 5, 4, 4, 3, 4],
+          "risks": [ { "type": "heavy rain", "from": "03-25", "to": "05-25", "note": "Roads and trails flood." } ],
+          "recurringHolidays": [
+            { "name": "Wildebeest calving", "approx": "Mid-January – February", "effect": "Ndutu camps fill up.", "dates": { "from": "01-15", "to": "02-28" } },
+            { "name": "Mara River crossings (northern Serengeti)", "approx": "Mid-July – September", "effect": "Kogatende camps peak.", "dates": { "from": "07-15", "to": "09-30" } },
+            { "name": "Christmas & New Year", "approx": "Dec 20 – Jan 5", "effect": "Peak lodge and beach prices.", "dates": { "from": "12-20", "to": "01-05" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 100, "shoulder": 150, "high": 250 },
+            "midrangePerDay": { "low": 300, "shoulder": 400, "high": 650 },
+            "hotelNightMid": { "low": 150, "shoulder": 300, "high": 600 },
+            "notes": "Park fees are $70–80 a day plus crater fees. Kilimanjaro climbs cost $2,000 or more."
+          }
+        },
+        {
+          "id": "south",
+          "name": "Southern & Western Parks",
+          "description": "Ruaha, Nyerere (Selous), Mikumi, Katavi, and Mahale and Gombe for chimpanzees.",
+          "lat": -7.77,
+          "lon": 35.69,
+          "tags": ["wildlife", "safari", "remote", "chimpanzees"],
+          "best": [
+            { "from": "06-15", "to": "10-31", "why": "Dry season: predators at the waterholes, plus walking and boat safaris.", "goodFor": ["nature"] }
+          ],
+          "worst": [ { "from": "01-15", "to": "04-30", "why": "Wet season: most southern camps are closed." } ],
+          "shoulder": [
+            { "from": "05-01", "to": "06-14", "why": "Camps are reopening." },
+            { "from": "11-01", "to": "01-14", "why": "The short rains, with lush scenery." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "06-01", "to": "10-31" } ]
+          },
+          "climate": {
+            "avgHighC": [28, 28, 28, 27, 26, 25, 24, 26, 28, 30, 31, 30],
+            "avgLowC": [15, 15, 15, 15, 13, 11, 10, 11, 12, 14, 16, 16],
+            "rainMm": [150, 140, 140, 70, 10, 1, 1, 1, 2, 10, 40, 120],
+            "rainDays": [13, 12, 12, 7, 1, 0, 0, 0, 0, 1, 4, 11],
+            "sunHours": [200, 190, 210, 230, 260, 270, 280, 290, 290, 290, 270, 210],
+            "seaTempC": null,
+            "humidity": [70, 72, 72, 68, 60, 55, 52, 48, 45, 46, 52, 65]
+          },
+          "crowds": [1, 1, 1, 1, 1, 3, 4, 4, 4, 4, 2, 1],
+          "risks": [
+            { "type": "flooding", "from": "01-01", "to": "04-30", "note": "Many roads and airstrips become unusable." }
+          ],
+          "recurringHolidays": [
+            { "name": "Christmas & New Year", "approx": "Dec 20 – Jan 5", "effect": "Peak lodge and beach prices.", "dates": { "from": "12-20", "to": "01-05" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 120, "shoulder": 150, "high": 200 },
+            "midrangePerDay": { "low": 300, "shoulder": 380, "high": 500 },
+            "hotelNightMid": { "low": 200, "shoulder": 280, "high": 400 },
+            "notes": "Usually fly-in safaris, with remote camps and higher costs."
+          }
+        },
+        {
+          "id": "zanzibar",
+          "name": "Zanzibar & the Coast",
+          "description": "Zanzibar (Stone Town, Nungwi, Paje), Pemba, Mafia Island and the Dar es Salaam coast.",
+          "lat": -6.16,
+          "lon": 39.19,
+          "tags": ["beach", "islands", "culture", "diving"],
+          "best": [
+            { "from": "06-15", "to": "10-15", "why": "Dry, breezy and sunny at 28 °C: perfect after a safari.", "goodFor": ["beach", "diving", "sun", "city"] },
+            { "from": "12-15", "to": "02-28", "why": "Hot and sunny with a calm sea, and kitesurfing at Paje.", "goodFor": ["beach", "diving", "sun", "city"] }
+          ],
+          "worst": [ { "from": "04-01", "to": "05-31", "why": "Masika long rains: many resorts close." } ],
+          "shoulder": [
+            { "from": "03-01", "to": "03-31", "why": "Hot, with the rains approaching." },
+            { "from": "06-01", "to": "06-14", "why": "The rains are ending." },
+            { "from": "10-16", "to": "12-14", "why": "The short rains, mostly showers." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "06-15", "to": "10-31" }, { "from": "12-15", "to": "03-15" } ],
+            "diving": [ { "from": "07-01", "to": "03-15" } ],
+            "sun": [ { "from": "06-15", "to": "10-15" }, { "from": "12-15", "to": "02-28" } ],
+            "city": [ { "from": "06-01", "to": "03-15" } ]
+          },
+          "climate": {
+            "avgHighC": [32, 32, 32, 30, 29, 28, 28, 28, 29, 30, 31, 32],
+            "avgLowC": [24, 24, 24, 24, 23, 22, 21, 21, 21, 22, 23, 24],
+            "rainMm": [75, 60, 150, 350, 240, 60, 45, 45, 50, 90, 180, 150],
+            "rainDays": [7, 6, 11, 19, 15, 6, 5, 6, 6, 7, 12, 10],
+            "sunHours": [250, 240, 240, 190, 220, 250, 260, 270, 270, 270, 240, 240],
+            "seaTempC": [29, 29, 29, 29, 28, 27, 26, 26, 26, 27, 28, 28],
+            "humidity": [75, 75, 77, 82, 80, 77, 76, 76, 75, 75, 76, 77]
+          },
+          "crowds": [5, 4, 3, 1, 1, 3, 5, 5, 4, 3, 3, 5],
+          "risks": [ { "type": "heavy rain", "from": "03-25", "to": "05-31", "note": "Heavy masika rains." } ],
+          "recurringHolidays": [
+            { "name": "Ramadan in Zanzibar", "approx": "Moves about 11 days earlier each year", "effect": "Restaurants in Stone Town close by day; dress modestly.", "moving": { "anchor": "ramadanStart", "offsetDays": 0, "durationDays": 30 } },
+            { "name": "Christmas & New Year", "approx": "Dec 20 – Jan 5", "effect": "Peak lodge and beach prices.", "dates": { "from": "12-20", "to": "01-05" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 55, "high": 80 },
+            "midrangePerDay": { "low": 100, "shoulder": 130, "high": 200 },
+            "hotelNightMid": { "low": 60, "shoulder": 90, "high": 170 },
+            "notes": "Stone Town guesthouses are good value; beach resorts on the north-east coast are pricier."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Arusha", "aliases": [], "region": "north" },
+        { "name": "Serengeti", "aliases": ["Serengeti National Park", "Ndutu", "Seronera"], "region": "north" },
+        { "name": "Ngorongoro", "aliases": ["Ngorongoro Crater", "Karatu"], "region": "north" },
+        { "name": "Tarangire", "aliases": [], "region": "north" },
+        { "name": "Lake Manyara", "aliases": [], "region": "north" },
+        { "name": "Kilimanjaro", "aliases": ["Mount Kilimanjaro", "Moshi"], "region": "north" },
+        { "name": "Ruaha", "aliases": ["Iringa"], "region": "south" },
+        { "name": "Nyerere", "aliases": ["Selous"], "region": "south" },
+        { "name": "Mikumi", "aliases": [], "region": "south" },
+        { "name": "Mahale", "aliases": ["Gombe", "Kigoma"], "region": "south" },
+        { "name": "Zanzibar", "aliases": ["Stone Town", "Unguja"], "region": "zanzibar" },
+        { "name": "Nungwi", "aliases": ["Kendwa"], "region": "zanzibar" },
+        { "name": "Paje", "aliases": ["Jambiani", "Michamvi"], "region": "zanzibar" },
+        { "name": "Pemba", "aliases": [], "region": "zanzibar" },
+        { "name": "Mafia Island", "aliases": ["Mafia"], "region": "zanzibar" },
+        { "name": "Dar es Salaam", "aliases": ["Dar"], "region": "zanzibar" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.tanzaniatourism.go.tz" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Tanzania" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/tanzania" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/tanzania/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "TN",
+      "isoNum": "788",
+      "name": "Tunisia",
+      "aliases": ["Tunisian Republic"],
+      "continent": "Africa",
+      "flag": "🇹🇳",
+      "summary": "Tunisia's Mediterranean coast (Tunis, Carthage, Hammamet, Djerba) is a classic beach destination from May to October, best in June and September. The Saharan south (Tozeur, Douz, Matmata and the Star Wars sets) is for the cooler months.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "coast",
+          "name": "Mediterranean Coast",
+          "description": "Tunis, Carthage and Sidi Bou Said, Hammamet, Sousse, Monastir, Mahdia, El Jem, Kairouan and Djerba.",
+          "lat": 36.4,
+          "lon": 10.6,
+          "tags": ["beach", "history", "ruins", "resort"],
+          "best": [
+            { "from": "05-01", "to": "06-20", "why": "Warm sea, sunny days and Roman ruins without the heat.", "goodFor": ["beach", "city", "sun", "roadtrip"] },
+            { "from": "09-10", "to": "10-25", "why": "The warmest sea and calm beaches.", "goodFor": ["beach", "city", "sun", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "07-15", "to": "08-20", "why": "Hot and crowded at peak prices." },
+            { "from": "12-01", "to": "02-28", "why": "Rainy and cool, with many resort hotels closed." }
+          ],
+          "shoulder": [
+            { "from": "03-01", "to": "04-30", "why": "Spring wildflowers, with a cool sea." },
+            { "from": "06-21", "to": "07-14", "why": "Hot beach season." },
+            { "from": "08-21", "to": "09-09", "why": "Still hot." },
+            { "from": "10-26", "to": "11-30", "why": "Rains are returning." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "06-01", "to": "10-10" } ],
+            "sun": [ { "from": "05-01", "to": "10-15" } ],
+            "city": [ { "from": "10-01", "to": "06-15" } ],
+            "roadtrip": [ { "from": "03-15", "to": "06-15" }, { "from": "09-15", "to": "11-15" } ]
+          },
+          "climate": {
+            "avgHighC": [16, 17, 19, 22, 26, 30, 33, 33, 30, 26, 21, 17],
+            "avgLowC": [7, 7, 9, 11, 15, 18, 21, 22, 20, 16, 12, 8],
+            "rainMm": [60, 50, 45, 35, 20, 10, 3, 8, 35, 55, 55, 65],
+            "rainDays": [9, 8, 7, 6, 4, 2, 1, 1, 4, 6, 7, 9],
+            "sunHours": [150, 170, 210, 240, 290, 330, 370, 340, 260, 220, 170, 150],
+            "seaTempC": [15, 14, 15, 16, 19, 23, 26, 27, 26, 23, 20, 17],
+            "humidity": [75, 73, 72, 70, 68, 63, 61, 63, 68, 72, 74, 76]
+          },
+          "crowds": [2, 2, 2, 3, 4, 5, 5, 5, 4, 3, 2, 2],
+          "risks": [ { "type": "extreme heat", "from": "07-01", "to": "08-31", "note": "Hot southerly winds (chergui)." } ],
+          "recurringHolidays": [
+            { "name": "Ramadan", "approx": "Moves about 11 days earlier each year", "effect": "Daytime cafés are quieter; resorts are unaffected.", "moving": { "anchor": "ramadanStart", "offsetDays": 0, "durationDays": 30 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 35, "shoulder": 45, "high": 60 },
+            "midrangePerDay": { "low": 70, "shoulder": 90, "high": 130 },
+            "hotelNightMid": { "low": 45, "shoulder": 65, "high": 110 },
+            "notes": "All-inclusive resorts are very cheap outside July and August."
+          }
+        },
+        {
+          "id": "south",
+          "name": "Tunisian Sahara",
+          "description": "Tozeur, Douz and Ksar Ghilane, Matmata, Tataouine (the Star Wars sets) and the Chott el Djerid salt lake.",
+          "lat": 33.92,
+          "lon": 8.13,
+          "tags": ["desert", "film sets", "oases"],
+          "best": [
+            { "from": "10-15", "to": "12-15", "why": "Warm days and cool nights in the oases and dunes.", "goodFor": ["nature", "roadtrip"] },
+            { "from": "02-15", "to": "04-30", "why": "Mild spring desert weather.", "goodFor": ["nature", "roadtrip"] }
+          ],
+          "worst": [ { "from": "06-01", "to": "09-15", "why": "40 °C heat in the oases and on desert excursions." } ],
+          "shoulder": [
+            { "from": "12-16", "to": "02-14", "why": "Cold nights, with the Sahara Festival in Douz in late December." },
+            { "from": "05-01", "to": "05-31", "why": "Heating up." },
+            { "from": "09-16", "to": "10-14", "why": "The heat is easing." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "10-15", "to": "04-30" } ],
+            "roadtrip": [ { "from": "10-15", "to": "04-30" } ]
+          },
+          "climate": {
+            "avgHighC": [17, 19, 23, 27, 32, 37, 40, 40, 35, 29, 22, 17],
+            "avgLowC": [5, 6, 9, 13, 17, 22, 25, 25, 22, 17, 10, 6],
+            "rainMm": [15, 10, 15, 10, 8, 2, 0, 2, 8, 12, 10, 12],
+            "rainDays": [2, 2, 2, 2, 1, 0, 0, 0, 1, 2, 2, 2],
+            "sunHours": [220, 230, 260, 280, 310, 340, 370, 340, 280, 250, 220, 210],
+            "seaTempC": null,
+            "humidity": [58, 52, 46, 40, 36, 30, 28, 31, 38, 45, 52, 58]
+          },
+          "crowds": [3, 3, 4, 3, 2, 1, 1, 1, 2, 4, 4, 4],
+          "risks": [ { "type": "extreme heat", "from": "05-15", "to": "09-15", "note": "Desert heat." } ],
+          "recurringHolidays": [
+            { "name": "Sahara Festival (Douz)", "approx": "Late December", "effect": "Camel races and Bedouin music.", "dates": { "from": "12-25", "to": "12-29" } },
+            { "name": "Ramadan", "approx": "Moves about 11 days earlier each year", "effect": "Daytime cafés are quieter; resorts are unaffected.", "moving": { "anchor": "ramadanStart", "offsetDays": 0, "durationDays": 30 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 50, "high": 60 },
+            "midrangePerDay": { "low": 80, "shoulder": 95, "high": 120 },
+            "hotelNightMid": { "low": 45, "shoulder": 60, "high": 80 },
+            "notes": "Most visitors join 2–3 day 4x4 tours from the coast."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Tunis", "aliases": ["Carthage", "Sidi Bou Said"], "region": "coast" },
+        { "name": "Hammamet", "aliases": ["Nabeul"], "region": "coast" },
+        { "name": "Sousse", "aliases": ["Port El Kantaoui"], "region": "coast" },
+        { "name": "Monastir", "aliases": [], "region": "coast" },
+        { "name": "Mahdia", "aliases": [], "region": "coast" },
+        { "name": "El Jem", "aliases": [], "region": "coast" },
+        { "name": "Djerba", "aliases": ["Houmt Souk"], "region": "coast" },
+        { "name": "Kairouan", "aliases": [], "region": "coast" },
+        { "name": "Tozeur", "aliases": ["Chott el Djerid"], "region": "south" },
+        { "name": "Douz", "aliases": ["Ksar Ghilane"], "region": "south" },
+        { "name": "Matmata", "aliases": [], "region": "south" },
+        { "name": "Tataouine", "aliases": ["Chenini"], "region": "south" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Tunisia" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/tunisia" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/tunisia/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "UG",
+      "isoNum": "800",
+      "name": "Uganda",
+      "aliases": ["Republic of Uganda"],
+      "continent": "Africa",
+      "flag": "🇺🇬",
+      "summary": "Uganda straddles the equator, so it's warm all year with two dry seasons, June–September and December–February. These are the best times for gorilla trekking in Bwindi, chimpanzees in Kibale and game drives at Murchison Falls. The rains make forest trails slippery but bring discounted permits.",
+      "splitByRegion": false,
+      "splitReason": "Uganda is equatorial, and two rainy seasons apply nationwide.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Kampala and Entebbe, Bwindi, Kibale, Queen Elizabeth NP, Murchison Falls, Jinja and the Rwenzori.",
+          "lat": 0.35,
+          "lon": 32.58,
+          "tags": ["wildlife", "gorillas", "primates", "rafting"],
+          "best": [
+            { "from": "06-01", "to": "09-30", "why": "The long dry season: gorilla and chimp trekking is easiest in Bwindi and Kibale, with good game drives at Murchison.", "goodFor": ["nature", "mountain", "roadtrip"] },
+            { "from": "12-15", "to": "02-28", "why": "The short dry season.", "goodFor": ["nature", "mountain"] }
+          ],
+          "worst": [ { "from": "03-15", "to": "05-31", "why": "Long rains make the gorilla trails slippery." } ],
+          "shoulder": [
+            { "from": "10-01", "to": "12-14", "why": "The short rains, with occasional permit discounts." },
+            { "from": "03-01", "to": "03-14", "why": "Rains are beginning." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "06-01", "to": "09-30" }, { "from": "12-15", "to": "02-28" } ],
+            "mountain": [ { "from": "06-15", "to": "08-31" }, { "from": "12-15", "to": "02-28" } ],
+            "roadtrip": [ { "from": "06-01", "to": "09-30" } ]
+          },
+          "climate": {
+            "avgHighC": [28, 28, 28, 27, 26, 26, 25, 26, 27, 27, 27, 27],
+            "avgLowC": [17, 17, 18, 18, 17, 17, 16, 16, 16, 17, 17, 17],
+            "rainMm": [60, 80, 150, 200, 150, 70, 60, 90, 110, 140, 140, 100],
+            "rainDays": [6, 7, 12, 16, 14, 7, 6, 8, 10, 12, 12, 9],
+            "sunHours": [220, 210, 200, 170, 180, 190, 190, 190, 200, 200, 190, 200],
+            "seaTempC": null,
+            "humidity": [70, 70, 73, 77, 78, 76, 74, 74, 73, 73, 74, 73]
+          },
+          "crowds": [3, 3, 2, 2, 2, 4, 5, 5, 4, 2, 2, 3],
+          "risks": [ { "type": "heavy rain", "from": "03-15", "to": "05-31", "note": "Muddy roads and trails." } ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 50, "shoulder": 60, "high": 80 },
+            "midrangePerDay": { "low": 150, "shoulder": 180, "high": 250 },
+            "hotelNightMid": { "low": 80, "shoulder": 120, "high": 200 },
+            "notes": "A gorilla permit costs about $800 in Uganda, versus $1,500 in Rwanda. Book months ahead for June to September."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Kampala", "aliases": ["Entebbe"], "region": "country" },
+        { "name": "Bwindi", "aliases": ["Bwindi Impenetrable Forest", "Gorillas"], "region": "country" },
+        { "name": "Kibale", "aliases": ["Fort Portal"], "region": "country" },
+        { "name": "Murchison Falls", "aliases": [], "region": "country" },
+        { "name": "Queen Elizabeth National Park", "aliases": ["Queen Elizabeth"], "region": "country" },
+        { "name": "Jinja", "aliases": ["Source of the Nile"], "region": "country" },
+        { "name": "Rwenzori", "aliases": ["Rwenzori Mountains"], "region": "country" },
+        { "name": "Lake Bunyonyi", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Uganda" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/uganda" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/uganda/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    }
+  ]
+}
