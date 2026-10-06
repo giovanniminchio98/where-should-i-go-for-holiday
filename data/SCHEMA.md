@@ -7,6 +7,7 @@ below, and CI runs it on every push.
 |---|---|
 | `meta.json` | Data version, exchange rates, inflation assumptions, continent → file mapping, sources |
 | `<continent>.json` | Full country records (`europe.json`, `asia.json`, `africa.json`, `north-america.json`, `south-america.json`, `oceania.json`) |
+| `cities.tsv` | **Generated** by `scripts/build-cities.js` from GeoNames: `name, country, lat, lon, population (thousands)`. It's the search fallback for towns that aren't curated. |
 | `index.json` | **Generated** by `node scripts/build-index.js`. Never edit it by hand. It holds names, aliases, cities and a compact copy of each region's windows and key climate series, which is enough for search, the map and the finder. |
 
 ## Conventions

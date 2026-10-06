@@ -43,8 +43,9 @@ function renderBase(name, params, hash) {
 const isMobile = () => matchMedia('(max-width: 719px)').matches;
 
 async function openPanel(iso, regionId, params) {
+  const city = params.get('city') || '';
   const key = `${iso}/${regionId || ''}`;
-  if (countryApi && openKey?.split('/')[0] === iso) {
+  if (countryApi && openKey?.split('/')[0] === iso && !city && !countryApi.city) {
     // Same country: just switch region without re-rendering everything.
     if (regionId && countryApi.region() !== regionId) countryApi.setRegion(regionId);
     openKey = key;
@@ -62,6 +63,7 @@ async function openPanel(iso, regionId, params) {
   const token = ++panelToken;
   const api = await renderCountry(panel, iso, regionId, {
     highlight: params.get('hl') === '1',
+    city,
     onRegion: id => history.replaceState(null, '', `#/country/${iso}/${id}`),
   });
   if (token !== panelToken) { api?.destroy(); return; }

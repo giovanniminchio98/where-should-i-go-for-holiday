@@ -15,6 +15,10 @@ It also has a **"Where should I go?" finder** (dates + activities + continents â
 a month-by-month **world map**, **compare** mode, a **saved** shortlist, **plan a year**,
 shareable PNG season cards, print styles, light/dark themes and offline support.
 
+Search covers every country, its regions and curated cities. If you type a town that isn't
+curated, an offline world gazetteer (about 47,000 places from GeoNames) finds it and shows the
+nearest region of its country, clearly marked **regional info**.
+
 Everything is based on **recurring seasonal patterns**, not one-off events, so the app stays
 useful year after year.
 
@@ -105,6 +109,19 @@ Climate normals don't need yearly updates. Prices and events do:
 5. Update `lastReviewed` on the countries you checked, bump `meta.json â†’ dataVersion` and
    `lastUpdated`, and bump `VERSION` in `sw.js` so offline caches refresh.
 6. `npm run check`, then push.
+
+### Unlisted towns (world gazetteer)
+
+`data/cities.tsv` lists about 47k places with 5,000+ people, plus capitals, from
+[GeoNames](https://www.geonames.org) (CC BY 4.0). It is fetched only when a search reaches 3+
+characters. Each place is matched to the nearest region of its country, using the region
+reference points and the curated cities as anchors, so adding more curated cities makes the
+matching more accurate. To regenerate it:
+
+```sh
+npm i --no-save all-the-cities@3.1.0
+node scripts/build-cities.js            # --min-pop=5000 by default
+```
 
 ### Refreshing climate from Open-Meteo
 
