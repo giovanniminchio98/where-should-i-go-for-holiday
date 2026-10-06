@@ -136,7 +136,7 @@ function regionBodyHtml(country, region, now) {
  * Render the country page into the panel element.
  * Returns { setRegion(id) } or null if the country isn't in the data.
  */
-export async function renderCountry(panel, iso2, regionId, { highlight = false, onRegion } = {}) {
+export async function renderCountry(panel, iso2, regionId, { highlight = false, onRegion, city = '' } = {}) {
   const idx = findCountry(iso2);
   if (!idx) {
     panel.innerHTML = `<div class="panel-inner"><div class="panel-bar"><button class="btn small" data-close type="button">← Close</button></div>
@@ -168,6 +168,7 @@ export async function renderCountry(panel, iso2, regionId, { highlight = false, 
       <div><h1 id="panel-title" tabindex="-1">${esc(country.name)}</h1>
       <div class="muted small">${esc(country.continent)} · ${country.regions.length > 1 ? `${country.regions.length} regions` : 'whole country'} · reviewed ${esc(country.lastReviewed)}</div></div>
     </div>
+    ${city ? `<div class="banner city-note" role="note">📍 <span><b>Regional info.</b> We don't have city-level data for <b>${esc(city)}</b>, so this shows the seasons for <b id="city-region">${esc(region.name)}</b>, the region it's in.</span></div>` : ''}
     <p class="verdict" id="verdict"></p>
     <p>${esc(country.summary)}</p>
     ${projected ? `<div class="banner" role="note">ℹ️ <span>${esc(t('price.banner', { ref: p.referenceYear, year }))} Climate figures are long-term averages and don't need updating.</span></div>` : ''}
@@ -261,6 +262,7 @@ export async function renderCountry(panel, iso2, regionId, { highlight = false, 
 
   return {
     setRegion,
+    city,
     region: () => region.id,
     destroy() { ac.abort(); destroyCharts(panel); },
   };

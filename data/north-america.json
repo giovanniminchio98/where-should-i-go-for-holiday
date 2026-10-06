@@ -2,6 +2,1664 @@
   "continent": "North America",
   "countries": [
     {
+      "iso2": "AG",
+      "isoNum": "028",
+      "name": "Antigua and Barbuda",
+      "aliases": ["Antigua & Barbuda", "Wadadli"],
+      "continent": "North America",
+      "flag": "🇦🇬",
+      "summary": "Antigua is one of the drier, sunnier islands in the eastern Caribbean, famous for its 365 beaches and its sailing. The dry season from mid-December to April is the best and busiest time, ending with the Classic Yacht Regatta and Antigua Sailing Week in late April and early May. May to July is good value, with Carnival from late July to early August. The hurricane season (June to November) peaks from mid-August to October; Irma (2017) destroyed most of Barbuda.",
+      "splitByRegion": false,
+      "splitReason": "Two low, dry islands with one tropical climate.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "St. John's, English Harbour and Nelson's Dockyard, the beaches of Dickenson Bay, Jolly Harbour and Half Moon Bay, and Barbuda.",
+          "lat": 17.12,
+          "lon": -61.85,
+          "tags": ["beach", "sailing", "diving", "honeymoon"],
+          "best": [
+            { "from": "01-06", "to": "05-10", "why": "Dry, sunny 28–29 °C days and steady trade winds, ending with the Classic Yacht Regatta and Sailing Week.", "goodFor": ["beach", "sun", "diving", "nature"] }
+          ],
+          "worst": [
+            { "from": "08-15", "to": "10-31", "why": "Hurricane peak, with the wettest weather of the year; many hotels close in September–October." }
+          ],
+          "shoulder": [
+            { "from": "12-01", "to": "01-05", "why": "Dry and sunny but festive peak prices." },
+            { "from": "05-11", "to": "08-14", "why": "Warm and good value; Carnival in late July and early August, but sargassum on east-facing beaches." },
+            { "from": "11-01", "to": "11-30", "why": "Rains easing; low prices before the season." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "11-15", "to": "08-15" } ],
+            "sun": [ { "from": "12-15", "to": "05-31" } ],
+            "diving": [ { "from": "12-01", "to": "08-15" } ],
+            "nature": [ { "from": "12-01", "to": "05-31" } ]
+          },
+          "climate": {
+            "avgHighC": [28, 28, 29, 29, 30, 31, 31, 31, 31, 31, 30, 29],
+            "avgLowC": [23, 22, 23, 23, 24, 25, 25, 25, 25, 24, 24, 23],
+            "rainMm": [60, 45, 50, 70, 90, 60, 80, 100, 130, 140, 130, 90],
+            "rainDays": [9, 7, 6, 6, 8, 7, 9, 10, 11, 12, 12, 10],
+            "sunHours": [250, 245, 270, 270, 270, 250, 265, 265, 240, 240, 230, 240],
+            "seaTempC": [26, 26, 26, 27, 27, 28, 28, 29, 29, 29, 28, 27],
+            "humidity": [76, 74, 73, 73, 75, 76, 76, 77, 78, 79, 79, 78]
+          },
+          "crowds": [5, 4, 4, 5, 3, 2, 3, 3, 1, 1, 2, 5],
+          "risks": [
+            { "type": "hurricane", "from": "06-01", "to": "11-30", "note": "Peak risk mid-August to October; Irma (2017) destroyed most buildings on Barbuda." },
+            { "type": "sargassum", "from": "04-01", "to": "09-30", "note": "Seaweed can pile up on the Atlantic-facing east coast (Half Moon Bay, Long Bay)." }
+          ],
+          "recurringHolidays": [
+            { "name": "Christmas & New Year", "approx": "Dec 18 – Jan 5", "effect": "Peak rates and minimum stays at the resorts; English Harbour is full of superyachts.", "dates": { "from": "12-18", "to": "01-05" } },
+            { "name": "Antigua Sailing Week", "approx": "Late April – early May", "effect": "One of the Caribbean's biggest regattas; English Harbour and Falmouth accommodation books out.", "dates": { "from": "04-25", "to": "05-02" } },
+            { "name": "Antigua Carnival", "approx": "Late July – first Tuesday of August", "effect": "Calypso, soca and the J'ouvert parade in St. John's.", "dates": { "from": "07-25", "to": "08-05" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 85, "shoulder": 100, "high": 125 },
+            "midrangePerDay": { "low": 190, "shoulder": 230, "high": 300 },
+            "hotelNightMid": { "low": 170, "shoulder": 220, "high": 320 },
+            "notes": "Mostly all-inclusive and upscale; apartments around Jolly Harbour and English Harbour are cheaper. Barbuda is a day trip by ferry or small plane."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "St. John's", "aliases": ["St Johns", "Saint John's", "Heritage Quay"], "region": "country" },
+        { "name": "English Harbour", "aliases": ["Nelson's Dockyard", "Nelsons Dockyard", "Shirley Heights", "Falmouth Harbour"], "region": "country" },
+        { "name": "Dickenson Bay", "aliases": ["Runaway Bay Antigua"], "region": "country" },
+        { "name": "Jolly Harbour", "aliases": ["Jolly Beach", "Valley Church"], "region": "country" },
+        { "name": "Half Moon Bay", "aliases": ["Long Bay"], "region": "country" },
+        { "name": "Darkwood Beach", "aliases": ["Ffryes Beach"], "region": "country" },
+        { "name": "Barbuda", "aliases": ["Codrington", "Pink Sand Beach", "Frigate Bird Sanctuary"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.visitantiguabarbuda.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Antigua_and_Barbuda" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/antigua-and-barbuda" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/antigua-and-barbuda/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "AW",
+      "isoNum": "533",
+      "name": "Aruba",
+      "aliases": ["One Happy Island", "Land Aruba"],
+      "continent": "North America",
+      "flag": "🇦🇼",
+      "summary": "Aruba lies off Venezuela, outside the hurricane belt, and is dry, sunny and breezy all year (29–32 °C, about 450 mm of rain). There is no bad time to visit: the winter high season (mid-December to April) is about escaping the northern winter and has the highest prices, while summer is hotter, windier and cheaper, with steady trade winds that make it a kitesurfing and windsurfing hotspot. The short rainy season from October to December brings only brief showers. Carnival before Lent and the US holidays are the busiest times.",
+      "splitByRegion": false,
+      "splitReason": "A small, flat, arid island with one climate.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Oranjestad, Palm Beach and Eagle Beach, Arashi and the California Lighthouse, Arikok National Park and San Nicolas with Baby Beach.",
+          "lat": 12.52,
+          "lon": -70.03,
+          "tags": ["beach", "sun", "kitesurf", "windsurf", "diving", "resorts"],
+          "best": [
+            { "from": "01-06", "to": "03-31", "why": "Dry, sunny 29 °C days and a cooling breeze while the north is in winter; Carnival season.", "goodFor": ["beach", "sun", "diving"] },
+            { "from": "04-01", "to": "09-30", "why": "The driest, sunniest months with strong trade winds for kitesurfing, and prices well below winter.", "goodFor": ["beach", "sun", "diving", "nature"] }
+          ],
+          "worst": [],
+          "shoulder": [
+            { "from": "10-01", "to": "01-05", "why": "The short rainy season (brief showers, calmer winds), then Christmas peak prices." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "01-01", "to": "12-31" } ],
+            "sun": [ { "from": "01-01", "to": "12-31" } ],
+            "diving": [ { "from": "01-01", "to": "12-31" } ],
+            "nature": [ { "from": "12-01", "to": "04-30" } ]
+          },
+          "climate": {
+            "avgHighC": [29, 29, 30, 30, 31, 31, 31, 32, 32, 31, 30, 29],
+            "avgLowC": [24, 24, 25, 26, 26, 27, 26, 27, 27, 26, 25, 25],
+            "rainMm": [40, 20, 10, 10, 15, 20, 25, 25, 40, 75, 95, 80],
+            "rainDays": [7, 4, 2, 2, 2, 3, 4, 3, 3, 7, 10, 10],
+            "sunHours": [270, 270, 290, 280, 290, 300, 310, 320, 280, 270, 250, 260],
+            "seaTempC": [26, 26, 26, 26, 27, 27, 28, 28, 28, 28, 28, 27],
+            "humidity": [77, 76, 76, 77, 77, 77, 77, 76, 76, 78, 79, 78]
+          },
+          "crowds": [5, 5, 4, 4, 3, 3, 4, 3, 3, 3, 3, 5],
+          "risks": [
+            { "type": "strong wind", "from": "05-01", "to": "08-31", "note": "Trade winds of 25–30 km/h; great for kitesurfing, choppy for snorkelling." },
+            { "type": "tropical storms", "from": "08-01", "to": "11-15", "note": "Aruba lies south of the hurricane belt and direct hits are very rare." }
+          ],
+          "recurringHolidays": [
+            { "name": "Carnival", "approx": "The weeks before Lent; Grand Parade on the Sunday before Ash Wednesday", "effect": "Night parades in Oranjestad and San Nicolas; hotels fill.", "moving": { "anchor": "easter", "offsetDays": -52, "durationDays": 6 } },
+            { "name": "Soul Beach Music Festival", "approx": "US Memorial Day weekend", "effect": "A big music festival; Palm Beach hotels book out.", "moving": { "anchor": "memorialDayUS", "offsetDays": -3, "durationDays": 4 } },
+            { "name": "Christmas & New Year", "approx": "Dec 18 – Jan 5", "effect": "Palm Beach and Eagle Beach resorts are at peak rates; book months ahead.", "dates": { "from": "12-18", "to": "01-05" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 100, "shoulder": 115, "high": 140 },
+            "midrangePerDay": { "low": 210, "shoulder": 250, "high": 320 },
+            "hotelNightMid": { "low": 190, "shoulder": 240, "high": 330 },
+            "notes": "Prices are in US dollars, and Aruba is one of the costlier Caribbean islands. Supermarkets and apartments help cut costs."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Oranjestad", "aliases": [], "region": "country" },
+        { "name": "Palm Beach", "aliases": ["Noord"], "region": "country" },
+        { "name": "Eagle Beach", "aliases": ["Manchebo Beach"], "region": "country" },
+        { "name": "Arashi Beach", "aliases": ["California Lighthouse", "Malmok"], "region": "country" },
+        { "name": "Arikok", "aliases": ["Arikok National Park", "Natural Pool", "Conchi", "Fontein Cave"], "region": "country" },
+        { "name": "Baby Beach", "aliases": ["San Nicolas", "Rodger's Beach"], "region": "country" },
+        { "name": "Hadicurari", "aliases": ["Fisherman's Huts"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.aruba.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Aruba" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "BB",
+      "isoNum": "052",
+      "name": "Barbados",
+      "aliases": ["Bim", "Bimshire", "Barbadoes"],
+      "continent": "North America",
+      "flag": "🇧🇧",
+      "summary": "Barbados is the most easterly Caribbean island and is breezy and 29–31 °C all year. The dry season from mid-December to April brings sunshine and calm west-coast seas, but also the highest prices. The rainy season runs from June to November, peaking in September to November, and although Barbados lies on the eastern edge of the hurricane belt, direct hits are rare. Summer belongs to Crop Over, the island's carnival, which climaxes with Grand Kadooment in early August.",
+      "splitByRegion": false,
+      "splitReason": "A small island with one tropical climate; the east (Atlantic) coast is windier and rougher than the calm west.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Bridgetown, the west-coast Platinum Coast (Holetown, Speightstown), the south coast (Oistins, St Lawrence Gap) and the wild east coast at Bathsheba.",
+          "lat": 13.1,
+          "lon": -59.61,
+          "tags": ["beach", "food", "rum", "diving", "surf", "festivals"],
+          "best": [
+            { "from": "01-06", "to": "04-30", "why": "Dry season: sunny 29 °C days, steady trade winds and calm, clear water on the west coast.", "goodFor": ["beach", "sun", "diving", "city"] }
+          ],
+          "worst": [
+            { "from": "08-15", "to": "10-31", "why": "Wettest, most humid weeks and peak hurricane season, with tropical storms and choppy seas." }
+          ],
+          "shoulder": [
+            { "from": "12-01", "to": "01-05", "why": "Dry and sunny but festive peak prices and minimum stays." },
+            { "from": "05-01", "to": "06-30", "why": "Warm and good value as the rains begin; sargassum can affect south and east beaches." },
+            { "from": "07-01", "to": "08-14", "why": "Crop Over season: lively and showery, with festival price rises." },
+            { "from": "11-01", "to": "11-30", "why": "Still showery, but prices are low before the winter season." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "11-15", "to": "08-15" } ],
+            "sun": [ { "from": "12-01", "to": "05-31" } ],
+            "diving": [ { "from": "12-01", "to": "08-15" } ],
+            "city": [ { "from": "11-15", "to": "05-31" } ]
+          },
+          "climate": {
+            "avgHighC": [29, 29, 30, 30, 31, 31, 31, 31, 31, 31, 30, 30],
+            "avgLowC": [22, 22, 22, 23, 24, 24, 24, 24, 24, 24, 23, 23],
+            "rainMm": [70, 40, 40, 55, 70, 110, 140, 150, 170, 180, 190, 100],
+            "rainDays": [10, 7, 7, 7, 8, 12, 15, 14, 14, 15, 15, 12],
+            "sunHours": [250, 245, 270, 265, 265, 240, 255, 260, 225, 225, 220, 235],
+            "seaTempC": [26, 26, 26, 27, 27, 28, 28, 28, 28, 28, 28, 27],
+            "humidity": [77, 75, 74, 74, 76, 78, 79, 79, 79, 79, 80, 78]
+          },
+          "crowds": [5, 5, 5, 4, 3, 2, 3, 3, 1, 1, 2, 5],
+          "risks": [
+            { "type": "hurricane", "from": "06-01", "to": "11-30", "note": "Barbados lies on the eastern edge of the belt; direct hits are rare, but storms pass close by (Beryl 2024)." },
+            { "type": "sargassum", "from": "04-01", "to": "09-30", "note": "Seaweed piles up on the south and east coasts in some years." }
+          ],
+          "recurringHolidays": [
+            { "name": "Christmas & New Year", "approx": "Dec 18 – Jan 5", "effect": "Platinum Coast villas and hotels charge peak rates, often with minimum stays.", "dates": { "from": "12-18", "to": "01-05" } },
+            { "name": "Crop Over", "approx": "July – first Monday in August", "effect": "The island's carnival: fetes, calypso tents and the Grand Kadooment road march; flights and hotels fill.", "dates": { "from": "07-01", "to": "08-06" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 80, "shoulder": 95, "high": 120 },
+            "midrangePerDay": { "low": 180, "shoulder": 220, "high": 290 },
+            "hotelNightMid": { "low": 160, "shoulder": 210, "high": 300 },
+            "notes": "The west coast is expensive; the south coast (St Lawrence Gap, Dover) has cheaper apartments. Oistins' Friday fish fry is a cheap night out."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Bridgetown", "aliases": ["Carlisle Bay"], "region": "country" },
+        { "name": "Holetown", "aliases": ["Platinum Coast", "St James"], "region": "country" },
+        { "name": "Speightstown", "aliases": [], "region": "country" },
+        { "name": "Oistins", "aliases": ["St Lawrence Gap", "Dover Beach", "South Coast"], "region": "country" },
+        { "name": "Bathsheba", "aliases": ["Soup Bowl"], "region": "country" },
+        { "name": "Crane Beach", "aliases": ["St Philip"], "region": "country" },
+        { "name": "Harrison's Cave", "aliases": ["Harrisons Cave"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.visitbarbados.org" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Barbados" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/barbados" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/barbados/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "BM",
+      "isoNum": "060",
+      "name": "Bermuda",
+      "aliases": ["Bermudas", "Somers Isles"],
+      "continent": "North America",
+      "flag": "🇧🇲",
+      "summary": "Bermuda is in the subtropical Atlantic, about 1,000 km east of North Carolina, not the Caribbean, so its seasons are very different. May to October is the warm season, with 25–30 °C days and a sea warm enough for the pink-sand beaches, peaking around Cup Match at the end of July. Hurricanes pass close by most often from August to October (Fabian 2003, Gonzalo 2014, Ernesto 2024). Winters are mild but windy and grey, with 20 °C days and a sea too cool for most swimmers, making it the quiet low season.",
+      "splitByRegion": false,
+      "splitReason": "A small group of islands with one subtropical oceanic climate.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Hamilton, the Town of St. George, the South Shore beaches (Horseshoe Bay, Warwick Long Bay, Elbow Beach) and the Royal Naval Dockyard.",
+          "lat": 32.3,
+          "lon": -64.78,
+          "tags": ["beach", "golf", "sailing", "diving", "history"],
+          "best": [
+            { "from": "05-01", "to": "08-31", "why": "Warm 24–30 °C days and a 22–28 °C sea for the pink-sand beaches, snorkelling and wreck diving.", "goodFor": ["beach", "sun", "diving", "city"] }
+          ],
+          "worst": [
+            { "from": "12-15", "to": "03-15", "why": "Mild but windy and grey, at 20 °C with a 19 °C sea; too cool for beach days." }
+          ],
+          "shoulder": [
+            { "from": "03-16", "to": "04-30", "why": "Spring warmth, Good Friday kites and quiet golf courses, but the sea is still cool." },
+            { "from": "09-01", "to": "10-31", "why": "A warm sea and fewer crowds, but the hurricane peak (September)." },
+            { "from": "11-01", "to": "12-14", "why": "Cooler, breezy and cheap; good for golf and walking." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "05-15", "to": "10-15" } ],
+            "sun": [ { "from": "05-01", "to": "09-30" } ],
+            "diving": [ { "from": "05-01", "to": "10-31" } ],
+            "city": [ { "from": "03-15", "to": "11-30" } ],
+            "nature": [ { "from": "04-01", "to": "11-15" } ]
+          },
+          "climate": {
+            "avgHighC": [20, 20, 20, 22, 24, 27, 29, 30, 29, 26, 23, 21],
+            "avgLowC": [16, 15, 15, 17, 20, 23, 25, 25, 24, 22, 19, 17],
+            "rainMm": [125, 120, 115, 90, 90, 110, 115, 140, 130, 145, 105, 110],
+            "rainDays": [13, 12, 11, 9, 8, 9, 10, 12, 11, 12, 11, 12],
+            "sunHours": [140, 140, 180, 210, 250, 270, 290, 270, 230, 190, 160, 140],
+            "seaTempC": [20, 19, 19, 20, 22, 25, 27, 28, 27, 25, 23, 21],
+            "humidity": [73, 71, 72, 74, 78, 80, 80, 79, 77, 76, 74, 73]
+          },
+          "crowds": [1, 1, 2, 3, 4, 5, 5, 5, 4, 3, 2, 2],
+          "risks": [
+            { "type": "hurricane", "from": "06-01", "to": "11-30", "note": "Storms pass close to Bermuda most often from August to October; buildings are hurricane-proof but flights are cancelled." },
+            { "type": "strong wind", "from": "11-01", "to": "03-31", "note": "Winter gales bring rough seas and cancelled ferry sailings." }
+          ],
+          "recurringHolidays": [
+            { "name": "Good Friday kite flying", "approx": "Good Friday", "effect": "Islanders fly home-made kites at Horseshoe Bay and across the island; a public holiday.", "moving": { "anchor": "easter", "offsetDays": -2, "durationDays": 1 } },
+            { "name": "Bermuda Day", "approx": "Late May", "effect": "A parade in Hamilton and the traditional first swim of the year.", "moving": { "anchor": "memorialDayUS", "offsetDays": -3, "durationDays": 1 } },
+            { "name": "Cup Match", "approx": "Thursday and Friday before the first Monday in August", "effect": "Bermuda's biggest holiday: a two-day cricket match, beach parties and full ferries.", "dates": { "from": "07-30", "to": "07-31" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 150, "shoulder": 180, "high": 200 },
+            "midrangePerDay": { "low": 300, "shoulder": 370, "high": 450 },
+            "hotelNightMid": { "low": 280, "shoulder": 350, "high": 450 },
+            "notes": "Very expensive: there are no hire cars, so visitors use buses, ferries and rented electric minicars. Guesthouses and winter deals are the cheapest options."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Hamilton", "aliases": ["City of Hamilton", "Front Street"], "region": "country" },
+        { "name": "St. George's", "aliases": ["Town of St. George", "St George's Bermuda", "Tobacco Bay"], "region": "country" },
+        { "name": "Horseshoe Bay", "aliases": ["South Shore", "Warwick Long Bay", "Elbow Beach", "Jobson's Cove"], "region": "country" },
+        { "name": "Royal Naval Dockyard", "aliases": ["Dockyard", "Sandys"], "region": "country" },
+        { "name": "Crystal Caves", "aliases": ["Hamilton Parish"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.gotobermuda.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Bermuda" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/bermuda" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/bermuda/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "KY",
+      "isoNum": "136",
+      "name": "Cayman Islands",
+      "aliases": ["Caymans", "the Caymans"],
+      "continent": "North America",
+      "flag": "🇰🇾",
+      "summary": "The Cayman Islands are a British Overseas Territory famous for Seven Mile Beach and world-class wall diving. The dry season from December to April is sunny and 29 °C with calm seas, and is the high season. May to October is hotter and wetter, and the hurricane season peaks from mid-August to October (Ivan devastated Grand Cayman in 2004). Diving is excellent all year, with the calmest water in summer.",
+      "splitByRegion": false,
+      "splitReason": "Three low, flat islands with one tropical climate.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Grand Cayman (George Town, Seven Mile Beach, West Bay, Stingray City, Rum Point), Cayman Brac and Little Cayman.",
+          "lat": 19.3,
+          "lon": -81.38,
+          "tags": ["beach", "diving", "snorkelling", "food"],
+          "best": [
+            { "from": "01-06", "to": "04-30", "why": "Dry season: sunny 29 °C days, low humidity and calm, clear water off Seven Mile Beach.", "goodFor": ["beach", "sun", "diving"] }
+          ],
+          "worst": [
+            { "from": "08-15", "to": "10-31", "why": "Hurricane peak and the wettest months; some dive operators and resorts close in September." }
+          ],
+          "shoulder": [
+            { "from": "05-01", "to": "08-14", "why": "Hotter, with afternoon showers, but the calmest seas for diving and lower prices." },
+            { "from": "11-01", "to": "01-05", "why": "Rains easing, Pirates Week, then Christmas peak prices." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "11-15", "to": "08-15" } ],
+            "sun": [ { "from": "12-01", "to": "04-30" } ],
+            "diving": [ { "from": "01-01", "to": "12-31" } ],
+            "nature": [ { "from": "12-01", "to": "05-31" } ]
+          },
+          "climate": {
+            "avgHighC": [29, 29, 29, 30, 31, 31, 32, 32, 32, 31, 30, 29],
+            "avgLowC": [22, 22, 23, 24, 25, 26, 26, 26, 26, 25, 24, 23],
+            "rainMm": [50, 30, 30, 40, 140, 180, 150, 160, 200, 220, 120, 60],
+            "rainDays": [6, 4, 3, 3, 8, 11, 10, 11, 13, 14, 9, 6],
+            "sunHours": [250, 250, 280, 290, 270, 240, 260, 250, 220, 220, 230, 240],
+            "seaTempC": [26, 26, 26, 27, 28, 28, 29, 29, 29, 29, 28, 27],
+            "humidity": [76, 75, 74, 74, 77, 78, 78, 78, 79, 80, 79, 77]
+          },
+          "crowds": [5, 5, 5, 4, 3, 3, 3, 2, 1, 1, 3, 5],
+          "risks": [
+            { "type": "hurricane", "from": "06-01", "to": "11-30", "note": "Peak risk mid-August to October; Ivan (2004) flooded much of Grand Cayman." },
+            { "type": "strong wind", "from": "12-01", "to": "03-15", "note": "Occasional 'Nor'westers' (winter cold fronts) churn up Seven Mile Beach." }
+          ],
+          "recurringHolidays": [
+            { "name": "Christmas & New Year", "approx": "Dec 18 – Jan 5", "effect": "Seven Mile Beach resorts at peak rates with minimum stays.", "dates": { "from": "12-18", "to": "01-05" } },
+            { "name": "Cayman Cookout", "approx": "Mid-January", "effect": "A celebrity-chef food festival at Seven Mile Beach; the big resorts fill.", "dates": { "from": "01-14", "to": "01-18" } },
+            { "name": "Batabano", "approx": "Early May", "effect": "The Cayman carnival, with a road parade along West Bay Road.", "dates": { "from": "05-02", "to": "05-10" } },
+            { "name": "Pirates Week", "approx": "Mid-November", "effect": "A festival with costumes, parades and fireworks in George Town.", "dates": { "from": "11-07", "to": "11-17" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 130, "shoulder": 150, "high": 180 },
+            "midrangePerDay": { "low": 260, "shoulder": 320, "high": 400 },
+            "hotelNightMid": { "low": 250, "shoulder": 320, "high": 450 },
+            "notes": "Among the most expensive places in the Caribbean, with prices in Cayman dollars (US dollars accepted everywhere). Condos and dive packages on Cayman Brac and Little Cayman are better value."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Grand Cayman", "aliases": ["George Town Cayman", "Seven Mile Beach", "West Bay", "Camana Bay"], "region": "country" },
+        { "name": "Stingray City", "aliases": ["Starfish Point", "Rum Point"], "region": "country" },
+        { "name": "Bodden Town", "aliases": ["East End Cayman", "Pedro St. James"], "region": "country" },
+        { "name": "Cayman Brac", "aliases": ["the Brac"], "region": "country" },
+        { "name": "Little Cayman", "aliases": ["Bloody Bay Wall"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.visitcaymanislands.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Cayman_Islands" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/cayman-islands" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/cayman-islands/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "CU",
+      "isoNum": "192",
+      "name": "Cuba",
+      "aliases": ["República de Cuba", "Republica de Cuba"],
+      "continent": "North America",
+      "flag": "🇨🇺",
+      "summary": "Cuba's dry season runs from December to April, when Havana, Viñales and Trinidad are sunny and 26–28 °C and the beaches of Varadero and the cays are at their best. May to October is hot and humid with heavy afternoon downpours, and the hurricane season (June to November) peaks from mid-August to October. The east (Santiago de Cuba, Baracoa, Holguín) is a couple of degrees hotter all year and Baracoa is the wettest corner of the island, with rain even in winter. Long power cuts and fuel and food shortages have hit the island since 2024, so check government travel advice before booking.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "west",
+          "name": "Havana & western-central Cuba",
+          "description": "Havana, Viñales and Pinar del Río, Varadero, the Bay of Pigs, Cienfuegos, Trinidad, Santa Clara and the northern cays (Cayo Santa María, Cayo Coco).",
+          "lat": 23.13,
+          "lon": -82.38,
+          "tags": ["city", "beach", "culture", "music", "diving", "roadtrip"],
+          "best": [
+            { "from": "12-01", "to": "04-15", "why": "Dry season: sunny 26–28 °C days, low humidity and calm seas, ideal for Havana's streets, the Viñales valley and Varadero.", "goodFor": ["city", "beach", "roadtrip", "nature", "sun", "diving"] }
+          ],
+          "worst": [
+            { "from": "08-15", "to": "10-31", "why": "Hurricane-season peak and the wettest weeks (October is Havana's rainiest month), with heavy downpours, 32 °C humid heat and some hotels closed." }
+          ],
+          "shoulder": [
+            { "from": "04-16", "to": "07-31", "why": "Hot and increasingly humid; afternoon storms from late May, but low prices outside the July–August Cuban holidays." },
+            { "from": "08-01", "to": "08-14", "why": "Very hot and humid, with the hurricane season building." },
+            { "from": "11-01", "to": "11-30", "why": "Rains easing and temperatures dropping, though late-season storms are still possible." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "11-15", "to": "04-30" } ],
+            "beach": [ { "from": "12-01", "to": "06-15" } ],
+            "sun": [ { "from": "12-01", "to": "04-30" } ],
+            "nature": [ { "from": "11-15", "to": "04-30" } ],
+            "roadtrip": [ { "from": "12-01", "to": "04-30" } ],
+            "diving": [ { "from": "11-01", "to": "06-15" } ]
+          },
+          "climate": {
+            "avgHighC": [26, 26, 28, 29, 30, 31, 32, 32, 31, 29, 28, 26],
+            "avgLowC": [18, 18, 19, 21, 22, 23, 24, 24, 24, 23, 21, 19],
+            "rainMm": [64, 69, 46, 54, 98, 182, 106, 100, 144, 181, 88, 58],
+            "rainDays": [5, 4, 3, 3, 6, 10, 8, 9, 10, 10, 6, 4],
+            "sunHours": [217, 211, 268, 273, 279, 237, 265, 258, 219, 216, 202, 202],
+            "seaTempC": [25, 24, 25, 26, 27, 28, 29, 30, 29, 28, 27, 26],
+            "humidity": [75, 74, 72, 71, 74, 78, 77, 78, 80, 80, 77, 75]
+          },
+          "crowds": [5, 5, 5, 4, 2, 2, 3, 3, 1, 1, 3, 5],
+          "risks": [
+            { "type": "hurricane", "from": "06-01", "to": "11-30", "note": "Peak risk mid-August to October; western Cuba was hit by Ian (2022) and Rafael (2024)." },
+            { "type": "heavy rain", "from": "05-15", "to": "10-31", "note": "Tropical downpours that flood Havana's streets for an hour or two." }
+          ],
+          "recurringHolidays": [
+            { "name": "Havana International Jazz Festival (Jazz Plaza)", "approx": "Late January", "effect": "Concerts across Havana; hotels and casas in Vedado fill up.", "dates": { "from": "01-20", "to": "01-28" } },
+            { "name": "Christmas & New Year", "approx": "Dec 18 – Jan 5", "effect": "Canadian and European holidaymakers fill Varadero and the cays, and casas particulares in Havana and Trinidad book out.", "dates": { "from": "12-18", "to": "01-05" } },
+            { "name": "Cuban summer holidays", "approx": "July – August", "effect": "Cuban families fill Varadero and the beach hotels; domestic buses and flights are full.", "dates": { "from": "07-01", "to": "08-31" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 45, "high": 55 },
+            "midrangePerDay": { "low": 90, "shoulder": 110, "high": 140 },
+            "hotelNightMid": { "low": 50, "shoulder": 65, "high": 90 },
+            "notes": "Casas particulares (private rooms) cost $30–60 a night and are better value than state hotels. Bring cash in euros or US dollars, as many foreign cards (all US-issued ones) don't work and ATMs are unreliable."
+          }
+        },
+        {
+          "id": "east",
+          "name": "Santiago de Cuba & the east",
+          "description": "Santiago de Cuba, the Sierra Maestra and Pico Turquino, Bayamo, Holguín and the Guardalavaca beaches, and Baracoa with Humboldt National Park.",
+          "lat": 20.02,
+          "lon": -75.83,
+          "tags": ["culture", "music", "beach", "hiking", "mountain", "nature"],
+          "best": [
+            { "from": "01-15", "to": "04-30", "why": "Driest, sunniest months: 30 °C days in Santiago, Guardalavaca's beaches at their calmest and Baracoa's winter rains easing off.", "goodFor": ["beach", "city", "nature", "mountain", "sun", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "08-15", "to": "11-15", "why": "Hurricane peak and the wettest season: October downpours, and Baracoa and Santiago have taken direct hits (Matthew 2016, Sandy 2012)." }
+          ],
+          "shoulder": [
+            { "from": "11-16", "to": "01-14", "why": "Dry and pleasant in Santiago and Holguín, but Baracoa is at its wettest and Christmas brings crowds." },
+            { "from": "05-01", "to": "07-31", "why": "Hot (33 °C) with May rains, but July brings Santiago's Carnival, the best in Cuba." },
+            { "from": "08-01", "to": "08-14", "why": "Sweltering heat and humidity as the hurricane season builds." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "12-01", "to": "06-30" } ],
+            "sun": [ { "from": "12-01", "to": "04-30" } ],
+            "city": [ { "from": "11-15", "to": "04-30" } ],
+            "nature": [ { "from": "01-15", "to": "05-15" } ],
+            "mountain": [ { "from": "12-01", "to": "04-30" } ],
+            "roadtrip": [ { "from": "12-01", "to": "04-30" } ]
+          },
+          "climate": {
+            "avgHighC": [30, 30, 30, 31, 31, 32, 33, 33, 32, 31, 30, 30],
+            "avgLowC": [21, 21, 21, 22, 23, 24, 24, 24, 24, 23, 23, 22],
+            "rainMm": [40, 40, 50, 80, 160, 110, 70, 90, 120, 190, 90, 40],
+            "rainDays": [4, 3, 4, 6, 10, 8, 6, 8, 10, 12, 7, 4],
+            "sunHours": [240, 230, 260, 250, 250, 230, 260, 250, 230, 220, 220, 230],
+            "seaTempC": [26, 26, 26, 27, 28, 28, 29, 29, 29, 29, 28, 27],
+            "humidity": [77, 76, 76, 77, 79, 79, 78, 79, 80, 81, 80, 78]
+          },
+          "crowds": [4, 4, 4, 3, 2, 2, 4, 3, 1, 1, 2, 4],
+          "risks": [
+            { "type": "hurricane", "from": "06-01", "to": "11-30", "note": "The east is the most exposed part of Cuba; peak risk is late August to October." },
+            { "type": "extreme heat", "from": "06-15", "to": "09-15", "note": "Santiago is Cuba's hottest city, with humid 33–35 °C afternoons." },
+            { "type": "landslides", "from": "10-01", "to": "01-31", "note": "Heavy rain blocks La Farola, the mountain road into Baracoa." }
+          ],
+          "recurringHolidays": [
+            { "name": "Carnival of Santiago de Cuba", "approx": "Late July", "effect": "Cuba's biggest carnival: congas and comparsas fill the streets and casas book out.", "dates": { "from": "07-18", "to": "07-27" } },
+            { "name": "Christmas & New Year", "approx": "Dec 18 – Jan 5", "effect": "Canadian and European holidaymakers fill Varadero and the cays, and casas particulares in Havana and Trinidad book out.", "dates": { "from": "12-18", "to": "01-05" } },
+            { "name": "Cuban summer holidays", "approx": "July – August", "effect": "Cuban families fill Varadero and the beach hotels; domestic buses and flights are full.", "dates": { "from": "07-01", "to": "08-31" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 35, "shoulder": 40, "high": 50 },
+            "midrangePerDay": { "low": 80, "shoulder": 100, "high": 125 },
+            "hotelNightMid": { "low": 45, "shoulder": 55, "high": 80 },
+            "notes": "Cheaper than Havana. Long-distance Víazul buses are slow and fill up, so many travellers fly to Santiago or Holguín or hire a car with driver."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Havana", "aliases": ["La Habana", "Habana", "Old Havana", "Habana Vieja", "Havana Vieja", "Vedado", "Miramar"], "region": "west" },
+        { "name": "Viñales", "aliases": ["Vinales", "Valle de Viñales", "Valle de Vinales", "Pinar del Río", "Pinar del Rio"], "region": "west" },
+        { "name": "Las Terrazas", "aliases": ["Soroa"], "region": "west" },
+        { "name": "Varadero", "aliases": ["Matanzas"], "region": "west" },
+        { "name": "Bay of Pigs", "aliases": ["Bahía de Cochinos", "Playa Girón", "Playa Giron", "Playa Larga", "Zapata"], "region": "west" },
+        { "name": "Cienfuegos", "aliases": [], "region": "west" },
+        { "name": "Trinidad de Cuba", "aliases": ["Valle de los Ingenios", "Playa Ancón", "Playa Ancon", "Topes de Collantes"], "region": "west" },
+        { "name": "Santa Clara", "aliases": ["Remedios"], "region": "west" },
+        { "name": "Cayo Santa María", "aliases": ["Cayo Santa Maria", "Cayos de Villa Clara"], "region": "west" },
+        { "name": "Cayo Coco", "aliases": ["Cayo Guillermo", "Jardines del Rey"], "region": "west" },
+        { "name": "Cayo Largo", "aliases": ["Cayo Largo del Sur"], "region": "west" },
+        { "name": "Camagüey", "aliases": ["Camaguey"], "region": "west" },
+        { "name": "Santiago de Cuba", "aliases": ["El Morro", "El Cobre"], "region": "east" },
+        { "name": "Baracoa", "aliases": ["Humboldt National Park", "Alejandro de Humboldt"], "region": "east" },
+        { "name": "Holguín", "aliases": ["Holguin", "Gibara"], "region": "east" },
+        { "name": "Guardalavaca", "aliases": ["Playa Esmeralda", "Playa Pesquero"], "region": "east" },
+        { "name": "Bayamo", "aliases": ["Granma"], "region": "east" },
+        { "name": "Sierra Maestra", "aliases": ["Pico Turquino", "Comandancia de la Plata"], "region": "east" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Cuba" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/cuba" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/cuba/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "CW",
+      "isoNum": "531",
+      "name": "Curaçao",
+      "aliases": ["Curacao", "Kòrsou", "Korsou", "Pais Kòrsou"],
+      "continent": "North America",
+      "flag": "🇨🇼",
+      "summary": "Curaçao lies outside the hurricane belt, off the Venezuelan coast, and is dry and breezy at 29–32 °C all year. January to mid-April is the high season, with Carnival in the weeks before Lent. From mid-April to September the island is at its driest, and the trade winds ease from August to October to give the calmest, clearest water for diving and snorkelling the west-coast reefs; Dutch summer holidays fill rental villas in July and August. The short rainy season from October to December brings brief showers, not washouts.",
+      "splitByRegion": false,
+      "splitReason": "A small, arid island with one climate.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Willemstad (Punda, Otrobanda, Pietermaai), the south-coast beaches (Jan Thiel, Mambo Beach), Westpunt and the coves of the west coast, Christoffel and Shete Boka national parks, and Klein Curaçao.",
+          "lat": 12.11,
+          "lon": -68.93,
+          "tags": ["beach", "diving", "snorkelling", "city", "architecture"],
+          "best": [
+            { "from": "01-06", "to": "04-15", "why": "Dry, breezy 29–30 °C days and the Carnival season; the winter high season.", "goodFor": ["beach", "sun", "city", "diving"] },
+            { "from": "04-16", "to": "09-30", "why": "The driest months; from August the winds ease and the west-coast reefs are at their calmest and clearest for diving.", "goodFor": ["beach", "sun", "diving", "nature", "city"] }
+          ],
+          "worst": [],
+          "shoulder": [
+            { "from": "10-01", "to": "01-05", "why": "The short rainy season with brief showers and calm seas, then Christmas peak prices." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "01-01", "to": "12-31" } ],
+            "sun": [ { "from": "01-01", "to": "12-31" } ],
+            "diving": [ { "from": "01-01", "to": "12-31" } ],
+            "city": [ { "from": "01-01", "to": "12-31" } ],
+            "nature": [ { "from": "12-01", "to": "04-30" } ]
+          },
+          "climate": {
+            "avgHighC": [29, 29, 30, 31, 31, 32, 32, 32, 32, 32, 31, 30],
+            "avgLowC": [24, 24, 25, 26, 26, 27, 26, 27, 27, 26, 26, 25],
+            "rainMm": [45, 25, 15, 20, 20, 20, 40, 40, 45, 95, 105, 95],
+            "rainDays": [9, 5, 3, 3, 3, 4, 6, 5, 5, 9, 12, 12],
+            "sunHours": [260, 260, 280, 270, 280, 290, 300, 310, 280, 270, 240, 240],
+            "seaTempC": [26, 26, 26, 26, 27, 27, 28, 28, 28, 28, 28, 27],
+            "humidity": [78, 77, 76, 77, 78, 78, 78, 77, 77, 78, 79, 79]
+          },
+          "crowds": [4, 4, 4, 3, 3, 3, 4, 4, 3, 3, 3, 4],
+          "risks": [
+            { "type": "tropical storms", "from": "08-01", "to": "11-15", "note": "Curaçao is south of the hurricane belt; passing storms occasionally bring heavy rain." }
+          ],
+          "recurringHolidays": [
+            { "name": "Carnival", "approx": "The weeks before Lent; Grand March on the Sunday before Ash Wednesday", "effect": "Parades in Willemstad; hotels fill and roads close.", "moving": { "anchor": "easter", "offsetDays": -52, "durationDays": 6 } },
+            { "name": "Dutch summer holidays", "approx": "July – August", "effect": "Dutch families fill villas and apartments; flights from Amsterdam are at peak prices.", "dates": { "from": "07-01", "to": "08-31" } },
+            { "name": "Christmas & New Year", "approx": "Dec 18 – Jan 5", "effect": "Fireworks and festivities in Willemstad; peak prices for flights and hotels.", "dates": { "from": "12-18", "to": "01-05" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 80, "shoulder": 90, "high": 110 },
+            "midrangePerDay": { "low": 170, "shoulder": 200, "high": 250 },
+            "hotelNightMid": { "low": 140, "shoulder": 170, "high": 220 },
+            "notes": "Better value than Aruba, with apartments and dive resorts. A hire car is the easiest way to reach the western beaches."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Willemstad", "aliases": ["Punda", "Otrobanda", "Pietermaai", "Handelskade"], "region": "country" },
+        { "name": "Jan Thiel", "aliases": ["Mambo Beach", "Seaquarium Beach"], "region": "country" },
+        { "name": "Westpunt", "aliases": ["Playa Kenepa", "Grote Knip", "Playa Lagun", "Playa Piskado"], "region": "country" },
+        { "name": "Christoffel National Park", "aliases": ["Christoffelberg", "Mount Christoffel", "Shete Boka"], "region": "country" },
+        { "name": "Klein Curaçao", "aliases": ["Klein Curacao"], "region": "country" },
+        { "name": "Caracasbaai", "aliases": ["Tugboat Beach"], "region": "country" },
+        { "name": "Playa Porto Mari", "aliases": ["Porto Mari"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.curacao.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Cura%C3%A7ao" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "DM",
+      "isoNum": "212",
+      "name": "Dominica",
+      "aliases": ["Commonwealth of Dominica", "Nature Isle", "Wai'tukubuli", "Dominique"],
+      "continent": "North America",
+      "flag": "🇩🇲",
+      "summary": "Dominica, the 'Nature Isle', is mountainous, rainforested and one of the wettest islands in the Caribbean, with black-sand beaches rather than white ones. February to May is the driest time and the best for hiking the Waitukubuli Trail and the Boiling Lake, diving Champagne Reef and spotting the resident sperm whales. Rain is heavy from June to November, and the hurricane season peaks from mid-August to October; Maria (2017) devastated the island. The World Creole Music Festival in late October and Independence on 3 November bring a lively end to the rainy season.",
+      "splitByRegion": false,
+      "splitReason": "A small island with one tropical calendar; the mountainous interior gets far more rain than the west coast around Roseau.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Roseau, Morne Trois Pitons and the Boiling Lake, Trafalgar Falls, Champagne Reef and Scotts Head, Portsmouth and the Indian River, Calibishie and the Kalinago Territory.",
+          "lat": 15.3,
+          "lon": -61.39,
+          "tags": ["hiking", "rainforest", "diving", "whales", "hot springs"],
+          "best": [
+            { "from": "02-01", "to": "05-31", "why": "The driest months: firmer trails for the Boiling Lake and Waitukubuli Trail, calm seas and sperm whales off the west coast.", "goodFor": ["nature", "mountain", "diving", "sun"] }
+          ],
+          "worst": [
+            { "from": "08-15", "to": "10-15", "why": "Hurricane peak and torrential rain, with flooding, landslides and closed trails." }
+          ],
+          "shoulder": [
+            { "from": "12-01", "to": "01-31", "why": "Showery but green and quiet; whale-watching season is under way." },
+            { "from": "06-01", "to": "08-14", "why": "Rain increasing, humid and hot; trails get muddy." },
+            { "from": "10-16", "to": "11-30", "why": "Still wet, but the World Creole Music Festival and Independence celebrations liven things up." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "12-15", "to": "06-15" } ],
+            "mountain": [ { "from": "02-01", "to": "05-31" } ],
+            "diving": [ { "from": "11-01", "to": "07-31" } ],
+            "sun": [ { "from": "02-01", "to": "05-31" } ],
+            "beach": [ { "from": "02-01", "to": "07-31" } ]
+          },
+          "climate": {
+            "avgHighC": [29, 29, 30, 31, 32, 32, 32, 32, 32, 32, 31, 30],
+            "avgLowC": [21, 21, 21, 22, 23, 24, 24, 24, 23, 23, 22, 22],
+            "rainMm": [120, 80, 80, 70, 110, 190, 250, 250, 230, 240, 230, 160],
+            "rainDays": [15, 11, 11, 10, 13, 18, 21, 21, 18, 18, 19, 17],
+            "sunHours": [220, 220, 240, 230, 220, 200, 210, 210, 200, 200, 190, 200],
+            "seaTempC": [27, 26, 26, 27, 28, 28, 28, 29, 29, 29, 28, 27],
+            "humidity": [78, 76, 75, 75, 77, 79, 80, 80, 80, 81, 81, 79]
+          },
+          "crowds": [3, 3, 3, 3, 2, 2, 2, 2, 1, 2, 2, 3],
+          "risks": [
+            { "type": "hurricane", "from": "06-01", "to": "11-30", "note": "Peak risk mid-August to October; Erika (2015) and Maria (2017) caused catastrophic floods and damage." },
+            { "type": "landslides", "from": "06-01", "to": "11-30", "note": "Heavy rain causes landslides and washes out roads and trail bridges." },
+            { "type": "flooding", "from": "08-01", "to": "11-30", "note": "Rivers rise fast after downpours; avoid river crossings on the trails." }
+          ],
+          "recurringHolidays": [
+            { "name": "Mas Domnik (Carnival)", "approx": "The Monday and Tuesday before Ash Wednesday", "effect": "Street parades and J'ouvert in Roseau; guesthouses fill.", "moving": { "anchor": "easter", "offsetDays": -48, "durationDays": 2 } },
+            { "name": "World Creole Music Festival", "approx": "Last weekend of October", "effect": "Three nights of Creole music in Roseau; rooms book out months ahead.", "dates": { "from": "10-24", "to": "10-27" } },
+            { "name": "Independence & Creole Day", "approx": "Early November", "effect": "National dress, Creole food and celebrations across the island.", "dates": { "from": "11-01", "to": "11-04" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 55, "shoulder": 65, "high": 75 },
+            "midrangePerDay": { "low": 120, "shoulder": 140, "high": 170 },
+            "hotelNightMid": { "low": 90, "shoulder": 110, "high": 140 },
+            "notes": "Small eco-lodges and guesthouses ($80–150) rather than big resorts. Roads are steep and winding, so a hired car with a local guide for hikes is the norm."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Roseau", "aliases": [], "region": "country" },
+        { "name": "Boiling Lake", "aliases": ["Morne Trois Pitons", "Morne Trois Pitons National Park", "Titou Gorge", "Valley of Desolation"], "region": "country" },
+        { "name": "Trafalgar Falls", "aliases": [], "region": "country" },
+        { "name": "Emerald Pool", "aliases": [], "region": "country" },
+        { "name": "Champagne Reef", "aliases": ["Scotts Head", "Scott's Head"], "region": "country" },
+        { "name": "Portsmouth", "aliases": ["Indian River", "Cabrits National Park", "Prince Rupert Bay"], "region": "country" },
+        { "name": "Calibishie", "aliases": ["Batibou Beach"], "region": "country" },
+        { "name": "Kalinago Territory", "aliases": ["Carib Territory"], "region": "country" },
+        { "name": "Waitukubuli Trail", "aliases": ["Waitukubuli National Trail"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://discoverdominica.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Dominica" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/dominica" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/dominica/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "DO",
+      "isoNum": "214",
+      "name": "Dominican Republic",
+      "aliases": ["República Dominicana", "Republica Dominicana", "DR", "RD", "Quisqueya"],
+      "continent": "North America",
+      "flag": "🇩🇴",
+      "summary": "The Dominican Republic is warm all year (28–31 °C), and the dry season from December to April is the classic time to go: sunny, less humid, and from mid-January to March humpback whales gather in Samaná Bay. May is wet, and the hurricane season (June to November) peaks from mid-August to October. Summer is hot and showery but good value, though sargassum can reach the Punta Cana coast. Semana Santa and Christmas bring Dominican crowds and peak prices.",
+      "splitByRegion": false,
+      "splitReason": "The beach areas share one Caribbean calendar; the central mountains (Jarabacoa, Constanza) are cooler but follow the same wet and dry seasons.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Punta Cana and Bávaro, La Romana and Bayahibe, Santo Domingo, Samaná and Las Terrenas, Puerto Plata, Sosúa and Cabarete, and the mountains around Jarabacoa.",
+          "lat": 18.58,
+          "lon": -68.4,
+          "tags": ["beach", "resorts", "whales", "kitesurf", "diving", "city"],
+          "best": [
+            { "from": "01-06", "to": "04-15", "why": "Dry, sunny 28 °C days and calm seas; humpback whales calve in Samaná Bay from mid-January to March.", "goodFor": ["beach", "sun", "diving", "nature", "city", "mountain"] }
+          ],
+          "worst": [
+            { "from": "08-15", "to": "10-31", "why": "Hurricane peak, the heaviest rain and sticky 31 °C heat; storm and flood risk is highest." }
+          ],
+          "shoulder": [
+            { "from": "12-01", "to": "01-05", "why": "Dry and sunny, but Christmas and New Year bring peak prices and full resorts." },
+            { "from": "04-16", "to": "06-30", "why": "May is the wettest spring month, but prices drop and June is good kitesurfing in Cabarete." },
+            { "from": "07-01", "to": "08-14", "why": "Hot, humid and showery; summer family crowds and sargassum on some eastern beaches." },
+            { "from": "11-01", "to": "11-30", "why": "The rains are easing and prices are still low." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "11-15", "to": "07-31" } ],
+            "sun": [ { "from": "12-01", "to": "04-30" } ],
+            "diving": [ { "from": "11-15", "to": "08-15" } ],
+            "nature": [ { "from": "01-15", "to": "03-31" }, { "from": "11-01", "to": "04-30" } ],
+            "city": [ { "from": "11-15", "to": "04-30" } ],
+            "mountain": [ { "from": "12-01", "to": "04-15" } ],
+            "roadtrip": [ { "from": "12-01", "to": "04-15" } ]
+          },
+          "climate": {
+            "avgHighC": [28, 28, 29, 29, 30, 31, 31, 31, 31, 31, 30, 29],
+            "avgLowC": [21, 21, 21, 22, 23, 24, 24, 24, 24, 23, 23, 22],
+            "rainMm": [60, 50, 50, 70, 140, 90, 80, 100, 110, 130, 120, 80],
+            "rainDays": [8, 6, 6, 7, 11, 9, 9, 10, 10, 11, 11, 9],
+            "sunHours": [250, 240, 260, 260, 240, 240, 260, 250, 230, 230, 230, 240],
+            "seaTempC": [26, 26, 26, 27, 27, 28, 28, 29, 29, 29, 28, 27],
+            "humidity": [78, 77, 76, 77, 79, 80, 80, 80, 81, 81, 80, 79]
+          },
+          "crowds": [5, 5, 5, 4, 3, 2, 3, 3, 2, 2, 2, 5],
+          "risks": [
+            { "type": "hurricane", "from": "06-01", "to": "11-30", "note": "Peak risk mid-August to October; the east and south coasts are most exposed." },
+            { "type": "sargassum", "from": "04-01", "to": "09-30", "note": "Seaweed can pile up on the Punta Cana and Bávaro beaches; resorts clear it daily." },
+            { "type": "heavy rain", "from": "05-01", "to": "05-31", "note": "Spring rains bring heavy afternoon downpours." }
+          ],
+          "recurringHolidays": [
+            { "name": "Christmas & New Year", "approx": "Dec 18 – Jan 5", "effect": "Resorts in Punta Cana and La Romana are at peak prices and Dominican families travel home.", "dates": { "from": "12-18", "to": "01-05" } },
+            { "name": "Carnival", "approx": "Sundays in February", "effect": "Parades in La Vega and Santo Domingo, ending around Independence Day (27 February).", "dates": { "from": "02-01", "to": "03-01" } },
+            { "name": "Semana Santa", "approx": "Holy Week", "effect": "Dominicans head to the beaches and rivers; resorts and roads are packed.", "moving": { "anchor": "easter", "offsetDays": -7, "durationDays": 8 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 45, "shoulder": 55, "high": 70 },
+            "midrangePerDay": { "low": 110, "shoulder": 140, "high": 190 },
+            "hotelNightMid": { "low": 90, "shoulder": 120, "high": 180 },
+            "notes": "All-inclusive resorts dominate Punta Cana and can be excellent value outside the peak. Independent travel in Santo Domingo, Las Terrenas and Cabarete is cheaper."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Santo Domingo", "aliases": ["Zona Colonial", "Colonial Zone"], "region": "country" },
+        { "name": "Punta Cana", "aliases": ["Bávaro", "Bavaro", "Cap Cana", "Uvero Alto"], "region": "country" },
+        { "name": "La Romana", "aliases": ["Casa de Campo", "Altos de Chavón", "Altos de Chavon"], "region": "country" },
+        { "name": "Bayahibe", "aliases": ["Isla Saona", "Saona Island", "Dominicus"], "region": "country" },
+        { "name": "Boca Chica", "aliases": ["Juan Dolio"], "region": "country" },
+        { "name": "Samaná", "aliases": ["Samana", "Santa Bárbara de Samaná", "Las Galeras", "Cayo Levantado"], "region": "country" },
+        { "name": "Las Terrenas", "aliases": [], "region": "country" },
+        { "name": "Puerto Plata", "aliases": ["Playa Dorada", "Costa Dorada"], "region": "country" },
+        { "name": "Sosúa", "aliases": ["Sosua"], "region": "country" },
+        { "name": "Cabarete", "aliases": [], "region": "country" },
+        { "name": "Santiago de los Caballeros", "aliases": [], "region": "country" },
+        { "name": "Jarabacoa", "aliases": ["Pico Duarte", "Constanza"], "region": "country" },
+        { "name": "Miches", "aliases": ["Montaña Redonda", "Montana Redonda"], "region": "country" },
+        { "name": "Barahona", "aliases": ["Bahía de las Águilas", "Bahia de las Aguilas", "Pedernales"], "region": "country" },
+        { "name": "Monte Cristi", "aliases": ["Montecristi"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.godominicanrepublic.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Dominican_Republic" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/dominican-republic" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/dominican-republic/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "GD",
+      "isoNum": "308",
+      "name": "Grenada",
+      "aliases": ["Spice Isle", "Isle of Spice", "Grenade"],
+      "continent": "North America",
+      "flag": "🇬🇩",
+      "summary": "Grenada, the 'Spice Isle', is 30–31 °C all year and lies near the southern edge of the hurricane belt. The dry season from January to May is the best time for Grand Anse beach, rainforest hikes and diving the underwater sculpture park. The rainy season runs from June to December with short, heavy showers, and the hurricane risk is lower than further north, though Ivan (2004) and Beryl (2024, which devastated Carriacou) show it is real. Spicemas, the island's carnival, peaks in the second week of August.",
+      "splitByRegion": false,
+      "splitReason": "A small island with one tropical climate; the interior around Grand Etang is wetter and cooler.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "St. George's, Grand Anse and the south-west beaches, Grand Etang rainforest, Gouyave and Grenville, and the islands of Carriacou and Petite Martinique.",
+          "lat": 12.05,
+          "lon": -61.75,
+          "tags": ["beach", "diving", "spices", "hiking", "sailing"],
+          "best": [
+            { "from": "01-06", "to": "05-31", "why": "Dry season: sunny 30 °C days, calm seas for diving and dry trails in Grand Etang.", "goodFor": ["beach", "sun", "diving", "nature"] }
+          ],
+          "worst": [
+            { "from": "09-01", "to": "10-31", "why": "The wettest weeks and the peak of the hurricane season, with heavy showers and humid heat." }
+          ],
+          "shoulder": [
+            { "from": "12-01", "to": "01-05", "why": "Drying out, with festive peak prices." },
+            { "from": "06-01", "to": "08-31", "why": "Rainy season begins with short, heavy showers; Spicemas in August and lower prices." },
+            { "from": "11-01", "to": "11-30", "why": "Showery and humid, but quiet and cheap." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "12-01", "to": "08-31" } ],
+            "sun": [ { "from": "01-01", "to": "05-31" } ],
+            "diving": [ { "from": "12-01", "to": "08-31" } ],
+            "nature": [ { "from": "01-01", "to": "06-15" } ]
+          },
+          "climate": {
+            "avgHighC": [30, 30, 30, 31, 31, 31, 31, 31, 31, 31, 31, 30],
+            "avgLowC": [24, 24, 24, 25, 25, 25, 25, 25, 25, 25, 25, 24],
+            "rainMm": [70, 50, 40, 50, 80, 170, 180, 190, 170, 190, 200, 140],
+            "rainDays": [13, 9, 8, 8, 10, 17, 19, 18, 16, 17, 18, 16],
+            "sunHours": [250, 240, 265, 255, 250, 220, 240, 240, 225, 230, 220, 230],
+            "seaTempC": [27, 27, 27, 27, 28, 28, 28, 28, 29, 29, 28, 28],
+            "humidity": [77, 75, 74, 74, 76, 79, 79, 79, 79, 80, 80, 78]
+          },
+          "crowds": [4, 4, 4, 4, 3, 2, 3, 3, 1, 1, 2, 4],
+          "risks": [
+            { "type": "hurricane", "from": "06-01", "to": "11-30", "note": "Grenada is near the southern edge of the belt, but Ivan (2004) and Beryl (2024) caused severe damage." },
+            { "type": "sargassum", "from": "04-01", "to": "09-30", "note": "Seaweed can reach the south-east and Atlantic-facing bays." }
+          ],
+          "recurringHolidays": [
+            { "name": "Christmas & New Year", "approx": "Dec 18 – Jan 5", "effect": "Hotels on Grand Anse are at peak rates; yachts crowd the marinas.", "dates": { "from": "12-18", "to": "01-05" } },
+            { "name": "Spicemas", "approx": "Second Monday and Tuesday of August, with events from late July", "effect": "Grenada's carnival, with J'ouvert 'jab jab' revellers; flights and hotels fill.", "dates": { "from": "08-08", "to": "08-12" } },
+            { "name": "Carriacou Regatta", "approx": "Early August", "effect": "Sailing races and festivities in Hillsborough.", "dates": { "from": "08-01", "to": "08-04" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 70, "shoulder": 85, "high": 100 },
+            "midrangePerDay": { "low": 150, "shoulder": 180, "high": 230 },
+            "hotelNightMid": { "low": 130, "shoulder": 160, "high": 230 },
+            "notes": "Good value for the eastern Caribbean. Cheap local minibuses run from St. George's to Grand Anse and Gouyave; the Osprey ferry goes to Carriacou."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "St. George's", "aliases": ["St Georges", "Saint George's", "St George's Grenada", "Carenage"], "region": "country" },
+        { "name": "Grand Anse", "aliases": ["Grand Anse Beach", "Morne Rouge", "BBC Beach"], "region": "country" },
+        { "name": "Grand Etang", "aliases": ["Grand Etang Lake", "Annandale Falls", "Seven Sisters Falls"], "region": "country" },
+        { "name": "Underwater Sculpture Park", "aliases": ["Molinière Bay", "Moliniere Bay"], "region": "country" },
+        { "name": "Gouyave", "aliases": [], "region": "country" },
+        { "name": "Grenville", "aliases": ["Belmont Estate", "River Antoine"], "region": "country" },
+        { "name": "Levera", "aliases": ["Levera Beach", "Bathway Beach"], "region": "country" },
+        { "name": "Lance aux Épines", "aliases": ["Lance aux Epines", "True Blue"], "region": "country" },
+        { "name": "Carriacou", "aliases": ["Hillsborough", "Paradise Beach", "Sandy Island", "Anse La Roche"], "region": "country" },
+        { "name": "Petite Martinique", "aliases": ["Petit Martinique"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.puregrenada.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Grenada" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/grenada" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/grenada/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "HT",
+      "isoNum": "332",
+      "name": "Haiti",
+      "aliases": ["Ayiti", "Haïti", "République d'Haïti"],
+      "continent": "North America",
+      "flag": "🇭🇹",
+      "summary": "The UK and US governments advise against all travel to Haiti because of gang violence, kidnapping and repeated closures of Port-au-Prince airport, so check government travel advice before considering a trip. Climatically the best time is the dry season from December to March, with 31 °C days and little rain. There are two rainy peaks (April–May and August–October), and the hurricane season peaks from mid-August to October, when deforested hillsides are prone to floods and landslides. Kanaval before Lent and the Fèt Gede in early November are the main cultural events.",
+      "splitByRegion": false,
+      "splitReason": "The country is small and shares one Caribbean wet-and-dry calendar; the mountains above Port-au-Prince are cooler but follow the same seasons.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Port-au-Prince and Pétion-Ville, Cap-Haïtien and the Citadelle Laferrière, Labadee, Jacmel, Île-à-Vache and the south coast.",
+          "lat": 18.54,
+          "lon": -72.34,
+          "tags": ["culture", "history", "beach", "art"],
+          "best": [
+            { "from": "12-01", "to": "03-31", "why": "Dry season: sunny 30–31 °C days, low rainfall and the Kanaval season.", "goodFor": ["beach", "sun", "city", "nature"] }
+          ],
+          "worst": [
+            { "from": "08-15", "to": "10-31", "why": "Hurricane peak and heavy rain, with floods and landslides on deforested slopes." }
+          ],
+          "shoulder": [
+            { "from": "04-01", "to": "06-15", "why": "The first rainy season peaks in May with afternoon storms." },
+            { "from": "06-16", "to": "08-14", "why": "A drier, very hot spell (35 °C in Port-au-Prince) as the hurricane season starts." },
+            { "from": "11-01", "to": "11-30", "why": "Rains easing, with the Fèt Gede festival." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "12-01", "to": "07-31" } ],
+            "sun": [ { "from": "12-01", "to": "03-31" } ],
+            "city": [ { "from": "12-01", "to": "03-31" } ],
+            "nature": [ { "from": "12-01", "to": "04-15" } ]
+          },
+          "climate": {
+            "avgHighC": [31, 31, 32, 32, 33, 34, 35, 34, 33, 32, 31, 31],
+            "avgLowC": [22, 22, 22, 23, 23, 24, 24, 24, 24, 23, 23, 22],
+            "rainMm": [33, 58, 86, 160, 231, 102, 76, 145, 175, 170, 86, 33],
+            "rainDays": [3, 5, 7, 11, 13, 8, 7, 11, 12, 12, 7, 3],
+            "sunHours": [260, 250, 270, 250, 250, 250, 280, 260, 240, 240, 240, 250],
+            "seaTempC": [26, 26, 26, 27, 28, 28, 29, 29, 29, 29, 28, 27],
+            "humidity": [70, 69, 69, 71, 74, 72, 70, 72, 75, 76, 74, 71]
+          },
+          "crowds": [2, 2, 2, 2, 1, 1, 2, 2, 1, 1, 1, 2],
+          "risks": [
+            { "type": "hurricane", "from": "06-01", "to": "11-30", "note": "Peak risk mid-August to October; storms cause deadly floods." },
+            { "type": "landslides", "from": "04-15", "to": "10-31", "note": "Heavy rain triggers floods and landslides in the hills and on the roads." },
+            { "type": "extreme heat", "from": "06-15", "to": "09-15", "note": "Port-au-Prince regularly reaches 35 °C." }
+          ],
+          "recurringHolidays": [
+            { "name": "Kanaval (Carnival)", "approx": "The three days before Ash Wednesday", "effect": "Haiti's national carnival with rara bands; Jacmel's papier-mâché carnival is held in the weeks before.", "moving": { "anchor": "easter", "offsetDays": -49, "durationDays": 3 } },
+            { "name": "Fèt Gede", "approx": "1–2 November", "effect": "The Vodou festival of the ancestors fills cemeteries with ceremonies.", "dates": { "from": "11-01", "to": "11-02" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 50, "shoulder": 55, "high": 60 },
+            "midrangePerDay": { "low": 100, "shoulder": 110, "high": 120 },
+            "hotelNightMid": { "low": 80, "shoulder": 90, "high": 100 },
+            "notes": "Tourism infrastructure is very limited and secure transport is expensive. Most foreign visitors are on organised or NGO-supported trips."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Port-au-Prince", "aliases": ["Pòtoprens", "Port au Prince", "Pétion-Ville", "Petion-Ville", "Petionville"], "region": "country" },
+        { "name": "Cap-Haïtien", "aliases": ["Cap-Haitien", "Cap Haitien", "Okap"], "region": "country" },
+        { "name": "Citadelle Laferrière", "aliases": ["Citadelle Laferriere", "Citadelle", "Sans-Souci Palace", "Milot"], "region": "country" },
+        { "name": "Labadee", "aliases": ["Labadie"], "region": "country" },
+        { "name": "Jacmel", "aliases": [], "region": "country" },
+        { "name": "Île-à-Vache", "aliases": ["Ile a Vache", "Les Cayes"], "region": "country" },
+        { "name": "Port-Salut", "aliases": ["Port Salut"], "region": "country" },
+        { "name": "Kenscoff", "aliases": ["Furcy"], "region": "country" },
+        { "name": "Côte des Arcadins", "aliases": ["Cote des Arcadins"], "region": "country" },
+        { "name": "Saut-d'Eau", "aliases": ["Saut d'Eau"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Haiti" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/haiti" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/haiti/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "JM",
+      "isoNum": "388",
+      "name": "Jamaica",
+      "aliases": ["Jamrock", "Xaymaca"],
+      "continent": "North America",
+      "flag": "🇯🇲",
+      "summary": "Jamaica's dry, sunny season runs from mid-December to April, with 30 °C days and the highest prices, especially over Christmas and New Year. May and October are the wettest months, and the hurricane season (June to November) peaks from mid-August to October; Hurricane Melissa struck the west of the island in October 2025. Summer is hot and showery but cheaper, and late July brings Reggae Sumfest to Montego Bay. The Blue Mountains are cooler and wetter than the coast.",
+      "splitByRegion": false,
+      "splitReason": "The resort coasts share one Caribbean calendar; only the Blue Mountains are noticeably cooler and wetter.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Montego Bay, Negril, Ocho Rios and Runaway Bay, Kingston and the Blue Mountains, Port Antonio and Treasure Beach on the south coast.",
+          "lat": 18.47,
+          "lon": -77.92,
+          "tags": ["beach", "music", "culture", "hiking", "diving"],
+          "best": [
+            { "from": "12-15", "to": "04-20", "why": "Dry season: sunny 29–30 °C days, low humidity and calm seas on the north and west coasts.", "goodFor": ["beach", "sun", "diving", "nature", "mountain", "city"] }
+          ],
+          "worst": [
+            { "from": "08-15", "to": "10-31", "why": "Hurricane peak and the wettest weeks (October), with storms, flooding and many hotels closing for refurbishment." }
+          ],
+          "shoulder": [
+            { "from": "04-21", "to": "06-30", "why": "Warm and good value, but May brings the spring rains and sargassum can reach some beaches." },
+            { "from": "07-01", "to": "08-14", "why": "Hot and humid with afternoon showers; Reggae Sumfest and summer family crowds." },
+            { "from": "11-01", "to": "12-14", "why": "Rain easing and pre-Christmas prices, with lush green hills." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "11-15", "to": "07-31" } ],
+            "sun": [ { "from": "12-15", "to": "04-30" } ],
+            "diving": [ { "from": "11-15", "to": "07-31" } ],
+            "nature": [ { "from": "12-01", "to": "04-30" } ],
+            "mountain": [ { "from": "12-15", "to": "04-15" } ],
+            "city": [ { "from": "11-15", "to": "04-30" } ],
+            "roadtrip": [ { "from": "12-15", "to": "04-30" } ]
+          },
+          "climate": {
+            "avgHighC": [30, 30, 30, 31, 31, 32, 32, 32, 32, 31, 31, 30],
+            "avgLowC": [22, 21, 22, 23, 24, 25, 25, 25, 25, 24, 23, 22],
+            "rainMm": [85, 60, 55, 70, 110, 95, 90, 120, 150, 175, 115, 85],
+            "rainDays": [7, 5, 5, 5, 8, 7, 7, 9, 11, 12, 9, 7],
+            "sunHours": [250, 250, 270, 270, 260, 240, 260, 250, 220, 230, 240, 240],
+            "seaTempC": [27, 26, 27, 27, 28, 29, 29, 29, 29, 29, 28, 27],
+            "humidity": [75, 74, 73, 74, 76, 77, 77, 77, 78, 79, 78, 76]
+          },
+          "crowds": [4, 4, 5, 4, 3, 2, 3, 3, 1, 1, 2, 5],
+          "risks": [
+            { "type": "hurricane", "from": "06-01", "to": "11-30", "note": "Peak risk mid-August to October; Hurricane Melissa (October 2025) devastated western Jamaica." },
+            { "type": "heavy rain", "from": "05-01", "to": "05-31", "note": "The spring rains bring short, heavy downpours." },
+            { "type": "sargassum", "from": "04-01", "to": "09-30", "note": "Seaweed can reach some east- and south-facing beaches." }
+          ],
+          "recurringHolidays": [
+            { "name": "Christmas & New Year", "approx": "Dec 18 – Jan 5", "effect": "Peak rates at the resorts of Montego Bay, Negril and Ocho Rios; book months ahead.", "dates": { "from": "12-18", "to": "01-05" } },
+            { "name": "Rebel Salute", "approx": "Mid-January", "effect": "A roots-reggae festival on the north coast; nearby hotels fill.", "dates": { "from": "01-15", "to": "01-18" } },
+            { "name": "Jamaica Carnival", "approx": "The week after Easter", "effect": "Soca fetes and the road march in Kingston; hotels in New Kingston book out.", "moving": { "anchor": "easter", "offsetDays": 1, "durationDays": 7 } },
+            { "name": "Reggae Sumfest", "approx": "Late July", "effect": "The biggest reggae festival in the Caribbean fills Montego Bay; prices rise.", "dates": { "from": "07-19", "to": "07-26" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 60, "shoulder": 70, "high": 90 },
+            "midrangePerDay": { "low": 150, "shoulder": 190, "high": 250 },
+            "hotelNightMid": { "low": 130, "shoulder": 170, "high": 240 },
+            "notes": "Most visitors stay all-inclusive ($250–500 a night for two). Guesthouses in Treasure Beach and Port Antonio cost $70–150. Check that hotels in the west have fully reopened after Hurricane Melissa."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Kingston", "aliases": ["New Kingston", "Port Royal", "Trench Town", "Bob Marley Museum"], "region": "country" },
+        { "name": "Montego Bay", "aliases": ["MoBay", "Mo Bay", "Hip Strip", "Rose Hall"], "region": "country" },
+        { "name": "Negril", "aliases": ["Negril Seven Mile Beach", "Rick's Café", "Ricks Cafe"], "region": "country" },
+        { "name": "Ocho Rios", "aliases": ["Ochi", "Dunn's River Falls", "Dunns River Falls"], "region": "country" },
+        { "name": "Port Antonio", "aliases": ["Blue Lagoon", "Frenchman's Cove", "Boston Bay"], "region": "country" },
+        { "name": "Treasure Beach", "aliases": ["YS Falls"], "region": "country" },
+        { "name": "Blue Mountains", "aliases": ["Blue Mountain Peak", "Holywell"], "region": "country" },
+        { "name": "Falmouth", "aliases": ["Luminous Lagoon", "Glistening Waters"], "region": "country" },
+        { "name": "Runaway Bay", "aliases": ["Discovery Bay"], "region": "country" },
+        { "name": "Nine Mile", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.visitjamaica.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Jamaica" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/jamaica" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/jamaica/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "PR",
+      "isoNum": "630",
+      "name": "Puerto Rico",
+      "aliases": ["Borinquen", "Borikén", "Boriken", "Commonwealth of Puerto Rico", "Estado Libre Asociado de Puerto Rico"],
+      "continent": "North America",
+      "flag": "🇵🇷",
+      "summary": "Puerto Rico, a US territory, is 28–31 °C all year. The drier winter from mid-December to April is the most popular time, with sunshine, a warm sea, big winter surf at Rincón and US snowbird crowds. Rain picks up from May, and the hurricane season (June to November) peaks from mid-August to mid-October; Maria (2017) and Fiona (2022) both hit in September. El Yunque rainforest is wet all year.",
+      "splitByRegion": false,
+      "splitReason": "The island is small and shares one Caribbean calendar; El Yunque is wetter, and the south coast around Ponce is drier.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "San Juan and Old San Juan, El Yunque, Fajardo, Vieques and Culebra, Rincón and the west coast, Ponce and Cabo Rojo.",
+          "lat": 18.47,
+          "lon": -66.11,
+          "tags": ["city", "beach", "rainforest", "surf", "diving", "history"],
+          "best": [
+            { "from": "01-06", "to": "04-30", "why": "Drier, sunny 28 °C days, a warm sea, big surf in Rincón and humpback whales off the west coast (January–March).", "goodFor": ["beach", "city", "sun", "nature", "diving", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "08-15", "to": "10-15", "why": "Hurricane peak: hot, humid and stormy, with a real risk of direct hits and power cuts." }
+          ],
+          "shoulder": [
+            { "from": "12-01", "to": "01-05", "why": "Dry-season weather but festive peak prices and crowds." },
+            { "from": "05-01", "to": "08-14", "why": "Hotter and more showery, with summer school-holiday crowds; calm seas are good for snorkelling." },
+            { "from": "10-16", "to": "11-30", "why": "The hurricane risk is fading, but the rains continue into November." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "12-01", "to": "08-15" } ],
+            "sun": [ { "from": "12-01", "to": "04-30" } ],
+            "city": [ { "from": "11-15", "to": "05-31" } ],
+            "nature": [ { "from": "12-01", "to": "04-30" } ],
+            "diving": [ { "from": "04-01", "to": "08-15" } ],
+            "roadtrip": [ { "from": "12-01", "to": "04-30" } ]
+          },
+          "climate": {
+            "avgHighC": [28, 28, 29, 29, 30, 31, 31, 31, 32, 31, 30, 29],
+            "avgLowC": [22, 22, 22, 23, 24, 25, 25, 25, 25, 24, 24, 23],
+            "rainMm": [95, 65, 60, 115, 150, 110, 115, 140, 140, 140, 155, 120],
+            "rainDays": [12, 9, 9, 9, 12, 10, 13, 13, 13, 13, 14, 13],
+            "sunHours": [220, 215, 255, 250, 240, 250, 265, 255, 230, 225, 200, 200],
+            "seaTempC": [26, 26, 26, 27, 27, 28, 28, 29, 29, 29, 28, 27],
+            "humidity": [78, 76, 75, 76, 78, 78, 79, 79, 79, 79, 80, 79]
+          },
+          "crowds": [5, 4, 5, 4, 3, 3, 4, 3, 2, 2, 3, 5],
+          "risks": [
+            { "type": "hurricane", "from": "06-01", "to": "11-30", "note": "Peak risk mid-August to mid-October; Maria (2017) and Fiona (2022) caused island-wide power cuts." },
+            { "type": "sargassum", "from": "04-01", "to": "09-30", "note": "Seaweed can affect east- and south-facing beaches." },
+            { "type": "high surf", "from": "11-15", "to": "03-31", "note": "Winter swells make north- and west-coast beaches dangerous for swimming." }
+          ],
+          "recurringHolidays": [
+            { "name": "Christmas & New Year", "approx": "Dec 18 – Jan 5", "effect": "Puerto Rico's long Christmas season (to Three Kings' Day) and US holidaymakers push up hotel prices.", "dates": { "from": "12-18", "to": "01-05" } },
+            { "name": "Fiestas de la Calle San Sebastián", "approx": "Mid-January", "effect": "A huge street festival in Old San Juan; streets are packed and parking impossible.", "dates": { "from": "01-15", "to": "01-19" } },
+            { "name": "Semana Santa", "approx": "Holy Week", "effect": "Puerto Ricans head to the beaches, Vieques and Culebra; ferries sell out.", "moving": { "anchor": "easter", "offsetDays": -7, "durationDays": 8 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 80, "shoulder": 95, "high": 120 },
+            "midrangePerDay": { "low": 170, "shoulder": 210, "high": 270 },
+            "hotelNightMid": { "low": 150, "shoulder": 190, "high": 260 },
+            "notes": "Prices are in US dollars and US citizens need no passport. Paradores and guesthouses outside San Juan are cheaper; Vieques and Culebra ferries need booking ahead."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "San Juan", "aliases": ["Old San Juan", "Viejo San Juan", "Condado", "Isla Verde"], "region": "country" },
+        { "name": "El Yunque", "aliases": ["El Yunque National Forest", "Luquillo"], "region": "country" },
+        { "name": "Fajardo", "aliases": ["Las Croabas", "Laguna Grande"], "region": "country" },
+        { "name": "Vieques", "aliases": ["Mosquito Bay", "Esperanza", "Isabel Segunda"], "region": "country" },
+        { "name": "Culebra", "aliases": ["Flamenco Beach", "Playa Flamenco"], "region": "country" },
+        { "name": "Rincón", "aliases": ["Rincon", "Aguadilla", "Isabela"], "region": "country" },
+        { "name": "Ponce", "aliases": ["Guánica", "Guanica"], "region": "country" },
+        { "name": "Arecibo", "aliases": ["Río Camuy Caves", "Rio Camuy", "Camuy"], "region": "country" },
+        { "name": "Cabo Rojo", "aliases": ["Playa Sucia", "La Parguera"], "region": "country" },
+        { "name": "Dorado", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.discoverpuertorico.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Puerto_Rico" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "KN",
+      "isoNum": "659",
+      "name": "Saint Kitts and Nevis",
+      "aliases": ["St. Kitts and Nevis", "St Kitts & Nevis", "St. Kitts", "Saint Christopher and Nevis", "Federation of Saint Christopher and Nevis"],
+      "continent": "North America",
+      "flag": "🇰🇳",
+      "summary": "Saint Kitts and Nevis are two small volcanic islands at 28–31 °C all year. The dry season from January to April is the best time, with sunshine and calm seas. Late June brings the St Kitts Music Festival, and the shoulder months of May to July are good value. The hurricane season peaks from mid-August to October, and the festive season is lively with Sugar Mas, the carnival, which peaks on Boxing Day and New Year's Day.",
+      "splitByRegion": false,
+      "splitReason": "Two small islands with one tropical climate; the mountain slopes are wetter than the coasts.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Basseterre, Frigate Bay and the South-East Peninsula, Brimstone Hill and Mount Liamuiga on Saint Kitts, and Charlestown and Pinney's Beach on Nevis.",
+          "lat": 17.3,
+          "lon": -62.72,
+          "tags": ["beach", "hiking", "history", "honeymoon"],
+          "best": [
+            { "from": "01-06", "to": "04-30", "why": "Dry season: sunny 28 °C days, calm seas and clear views from Brimstone Hill and Nevis Peak.", "goodFor": ["beach", "sun", "diving", "nature", "mountain"] }
+          ],
+          "worst": [
+            { "from": "08-15", "to": "10-31", "why": "Hurricane peak and the wettest months, with storms and humid heat." }
+          ],
+          "shoulder": [
+            { "from": "05-01", "to": "08-14", "why": "Warm and good value, with the Music Festival in June; showers increase." },
+            { "from": "11-01", "to": "01-05", "why": "Rains easing, then Sugar Mas carnival and festive peak prices." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "11-15", "to": "08-15" } ],
+            "sun": [ { "from": "12-15", "to": "05-31" } ],
+            "diving": [ { "from": "12-01", "to": "08-15" } ],
+            "nature": [ { "from": "12-01", "to": "05-31" } ],
+            "mountain": [ { "from": "01-01", "to": "04-30" } ]
+          },
+          "climate": {
+            "avgHighC": [28, 28, 28, 29, 30, 30, 31, 31, 31, 30, 29, 28],
+            "avgLowC": [22, 22, 22, 23, 24, 25, 25, 25, 25, 24, 24, 23],
+            "rainMm": [80, 55, 60, 70, 100, 85, 100, 120, 150, 140, 150, 110],
+            "rainDays": [10, 8, 8, 7, 9, 9, 11, 12, 12, 13, 13, 11],
+            "sunHours": [240, 240, 260, 260, 260, 250, 260, 260, 240, 240, 220, 230],
+            "seaTempC": [26, 26, 26, 27, 27, 28, 28, 29, 29, 29, 28, 27],
+            "humidity": [76, 74, 73, 73, 75, 77, 77, 77, 78, 79, 79, 78]
+          },
+          "crowds": [4, 4, 4, 4, 3, 3, 3, 2, 1, 1, 2, 5],
+          "risks": [
+            { "type": "hurricane", "from": "06-01", "to": "11-30", "note": "Peak risk mid-August to October; Georges (1998) caused severe damage." },
+            { "type": "sargassum", "from": "04-01", "to": "09-30", "note": "Seaweed can reach the Atlantic coast and the South-East Peninsula." }
+          ],
+          "recurringHolidays": [
+            { "name": "Sugar Mas", "approx": "Late November – early January", "effect": "Saint Kitts's carnival; J'ouvert and parades on 26 December and 1–2 January, with peak hotel prices.", "dates": { "from": "12-15", "to": "01-03" } },
+            { "name": "St Kitts Music Festival", "approx": "Late June", "effect": "A three-night festival in Basseterre; hotels and flights fill.", "dates": { "from": "06-25", "to": "06-28" } },
+            { "name": "Culturama", "approx": "Late July – early August", "effect": "Nevis's cultural festival in Charlestown.", "dates": { "from": "07-25", "to": "08-05" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 80, "shoulder": 95, "high": 115 },
+            "midrangePerDay": { "low": 170, "shoulder": 210, "high": 270 },
+            "hotelNightMid": { "low": 150, "shoulder": 190, "high": 270 },
+            "notes": "Upscale resorts on the South-East Peninsula and Nevis; guesthouses in Basseterre and Frigate Bay are cheaper. The Sea Bridge car ferry and water taxis link the two islands."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Basseterre", "aliases": ["St Kitts", "Port Zante"], "region": "country" },
+        { "name": "Frigate Bay", "aliases": ["South Frigate Bay"], "region": "country" },
+        { "name": "Christophe Harbour", "aliases": ["Cockleshell Bay", "South Friars Bay", "Southeast Peninsula"], "region": "country" },
+        { "name": "Brimstone Hill", "aliases": ["Brimstone Hill Fortress"], "region": "country" },
+        { "name": "Mount Liamuiga", "aliases": [], "region": "country" },
+        { "name": "Nevis", "aliases": ["Charlestown", "Pinney's Beach", "Pinneys Beach", "Nevis Peak"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Saint_Kitts_and_Nevis" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/st-kitts-and-nevis" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/st-kitts-and-nevis/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "LC",
+      "isoNum": "662",
+      "name": "Saint Lucia",
+      "aliases": ["St. Lucia", "Sainte-Lucie", "Sent Lisi"],
+      "continent": "North America",
+      "flag": "🇱🇨",
+      "summary": "Saint Lucia is a mountainous, green island at 29–31 °C all year. The dry season from mid-December to April is the best time for the beaches and for hiking the Pitons, with peak prices over Christmas and New Year. The rains build from June and peak from August to November, which is also the riskiest part of the hurricane season. May (the Saint Lucia Jazz & Arts Festival) and early summer (Carnival in July) are good-value shoulder months.",
+      "splitByRegion": false,
+      "splitReason": "A small island with one tropical climate; the rainforest interior is wetter than the coasts.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Castries, Rodney Bay and Gros Islet, Marigot Bay, Soufrière and the Pitons, Vieux Fort and the rainforest interior.",
+          "lat": 14.01,
+          "lon": -60.99,
+          "tags": ["beach", "hiking", "honeymoon", "diving", "rainforest"],
+          "best": [
+            { "from": "01-06", "to": "04-30", "why": "Dry season: sunny 29–30 °C days, clear skies for hiking the Pitons and calm seas for snorkelling.", "goodFor": ["beach", "sun", "diving", "nature", "mountain"] }
+          ],
+          "worst": [
+            { "from": "08-15", "to": "10-31", "why": "The wettest months and peak hurricane season, with heavy downpours, landslides and some resorts closed." }
+          ],
+          "shoulder": [
+            { "from": "12-01", "to": "01-05", "why": "Dry weather but festive peak prices." },
+            { "from": "05-01", "to": "06-30", "why": "Warm and good value; the Jazz Festival in May and the first showers in June." },
+            { "from": "07-01", "to": "08-14", "why": "Carnival in July, but showers increase and the hurricane season builds." },
+            { "from": "11-01", "to": "11-30", "why": "Still rainy, but yachts of the ARC rally arrive at Rodney Bay and prices are low." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "12-01", "to": "07-31" } ],
+            "sun": [ { "from": "12-15", "to": "05-31" } ],
+            "diving": [ { "from": "12-01", "to": "07-31" } ],
+            "nature": [ { "from": "12-15", "to": "05-31" } ],
+            "mountain": [ { "from": "01-01", "to": "05-15" } ]
+          },
+          "climate": {
+            "avgHighC": [29, 29, 30, 31, 31, 31, 31, 31, 31, 31, 30, 29],
+            "avgLowC": [23, 22, 23, 23, 24, 25, 25, 25, 25, 24, 24, 23],
+            "rainMm": [70, 50, 50, 60, 90, 130, 150, 170, 170, 190, 180, 110],
+            "rainDays": [13, 9, 9, 8, 10, 15, 17, 17, 16, 16, 17, 15],
+            "sunHours": [250, 240, 270, 260, 260, 240, 250, 250, 230, 230, 220, 230],
+            "seaTempC": [27, 26, 26, 27, 28, 28, 28, 29, 29, 29, 28, 27],
+            "humidity": [76, 74, 73, 73, 75, 78, 79, 79, 79, 80, 80, 78]
+          },
+          "crowds": [5, 4, 4, 4, 4, 2, 3, 2, 1, 1, 2, 5],
+          "risks": [
+            { "type": "hurricane", "from": "06-01", "to": "11-30", "note": "Peak risk mid-August to October; Tomas (2010) caused severe flooding and landslides." },
+            { "type": "landslides", "from": "08-01", "to": "11-30", "note": "Heavy rain blocks the winding roads to Soufrière." },
+            { "type": "sargassum", "from": "04-01", "to": "09-30", "note": "Seaweed can affect the Atlantic east coast." }
+          ],
+          "recurringHolidays": [
+            { "name": "Christmas & New Year", "approx": "Dec 18 – Jan 5", "effect": "Resorts around Soufrière and Rodney Bay charge peak rates with minimum stays.", "dates": { "from": "12-18", "to": "01-05" } },
+            { "name": "Saint Lucia Jazz & Arts Festival", "approx": "Early to mid-May", "effect": "Concerts across the island; Rodney Bay hotels fill.", "dates": { "from": "05-03", "to": "05-12" } },
+            { "name": "Saint Lucia Carnival", "approx": "Mid-July", "effect": "Fetes and the road parade in Castries; Carnival Monday and Tuesday are public holidays.", "dates": { "from": "07-10", "to": "07-22" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 80, "shoulder": 95, "high": 120 },
+            "midrangePerDay": { "low": 180, "shoulder": 230, "high": 300 },
+            "hotelNightMid": { "low": 160, "shoulder": 220, "high": 320 },
+            "notes": "Upscale resorts dominate; guesthouses in Rodney Bay and Soufrière cost $80–150. Hewanorra airport is 90 minutes' drive from Rodney Bay."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Castries", "aliases": ["Vigie"], "region": "country" },
+        { "name": "Rodney Bay", "aliases": ["Gros Islet", "Reduit Beach", "Pigeon Island National Landmark"], "region": "country" },
+        { "name": "Marigot Bay", "aliases": [], "region": "country" },
+        { "name": "Soufrière", "aliases": ["Soufriere", "Pitons", "Gros Piton", "Petit Piton", "Sulphur Springs", "Sugar Beach", "Anse Chastanet"], "region": "country" },
+        { "name": "Vieux Fort", "aliases": ["Hewanorra", "Anse de Sables"], "region": "country" },
+        { "name": "Anse La Raye", "aliases": ["Anse Cochon"], "region": "country" },
+        { "name": "Dennery", "aliases": ["Micoud"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.stlucia.org" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Saint_Lucia" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/st-lucia" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/st-lucia/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "VC",
+      "isoNum": "670",
+      "name": "Saint Vincent and the Grenadines",
+      "aliases": ["SVG", "St. Vincent and the Grenadines", "St Vincent", "Saint Vincent", "the Grenadines"],
+      "continent": "North America",
+      "flag": "🇻🇨",
+      "summary": "Saint Vincent is a volcanic, rainforested island and the Grenadines a chain of small, drier islands that are among the Caribbean's best sailing grounds. The dry season from January to May brings steady trade winds, sunshine and calm anchorages in the Tobago Cays, with the Bequia Easter Regatta. June to November is wet and humid, and the hurricane season peaks from mid-August to October; Beryl (July 2024) devastated Union Island, Mayreau and Canouan, a reminder that early storms happen. Vincy Mas carnival fills Kingstown in late June and early July.",
+      "splitByRegion": false,
+      "splitReason": "The islands share one trade-wind calendar; Saint Vincent's mountains are wetter than the low, dry Grenadines.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Kingstown and Saint Vincent's volcano and rainforest, Bequia, Mustique, Canouan, Mayreau, the Tobago Cays and Union Island.",
+          "lat": 13.16,
+          "lon": -61.23,
+          "tags": ["sailing", "islands", "beach", "snorkelling", "hiking"],
+          "best": [
+            { "from": "01-06", "to": "05-31", "why": "Dry season: steady trade winds for sailing, sunny 29–31 °C days and clear water in the Tobago Cays.", "goodFor": ["beach", "sun", "diving", "nature", "mountain"] }
+          ],
+          "worst": [
+            { "from": "08-15", "to": "10-31", "why": "Hurricane peak and the wettest months, with heavy rain, rough anchorages and many small resorts closed." }
+          ],
+          "shoulder": [
+            { "from": "12-01", "to": "01-05", "why": "Dry, but festive peak prices; Nine Mornings in Kingstown." },
+            { "from": "06-01", "to": "08-14", "why": "Showery and humid with Vincy Mas, but the hurricane season has begun (Beryl hit on 1 July 2024)." },
+            { "from": "11-01", "to": "11-30", "why": "Rains easing and charter prices low." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "12-01", "to": "07-31" } ],
+            "sun": [ { "from": "01-01", "to": "05-31" } ],
+            "diving": [ { "from": "12-01", "to": "07-31" } ],
+            "nature": [ { "from": "12-15", "to": "06-15" } ],
+            "mountain": [ { "from": "01-15", "to": "05-15" } ]
+          },
+          "climate": {
+            "avgHighC": [29, 29, 30, 31, 31, 31, 30, 31, 31, 31, 30, 29],
+            "avgLowC": [23, 23, 23, 24, 25, 25, 25, 25, 25, 25, 24, 24],
+            "rainMm": [110, 80, 80, 90, 130, 230, 260, 270, 240, 250, 240, 180],
+            "rainDays": [15, 11, 11, 9, 12, 19, 21, 20, 18, 18, 19, 17],
+            "sunHours": [240, 230, 250, 250, 240, 210, 230, 230, 220, 220, 210, 220],
+            "seaTempC": [27, 26, 26, 27, 28, 28, 28, 28, 29, 29, 28, 27],
+            "humidity": [77, 75, 74, 74, 76, 79, 80, 80, 80, 80, 80, 79]
+          },
+          "crowds": [4, 4, 4, 4, 3, 2, 3, 2, 1, 1, 2, 5],
+          "risks": [
+            { "type": "hurricane", "from": "06-01", "to": "11-30", "note": "Peak risk mid-August to October, but Beryl struck the Grenadines as a category 4 storm on 1 July 2024." },
+            { "type": "landslides", "from": "07-01", "to": "11-30", "note": "Heavy rain causes landslides on Saint Vincent's windward roads." }
+          ],
+          "recurringHolidays": [
+            { "name": "Christmas & New Year", "approx": "Dec 18 – Jan 5", "effect": "Mustique and the Grenadines resorts are at peak prices; yacht charters book out.", "dates": { "from": "12-18", "to": "01-05" } },
+            { "name": "Bequia Easter Regatta", "approx": "Easter weekend", "effect": "Yacht racing and parties in Admiralty Bay; Bequia guesthouses fill.", "moving": { "anchor": "easter", "offsetDays": -3, "durationDays": 5 } },
+            { "name": "Vincy Mas", "approx": "Late June – early July", "effect": "Saint Vincent's carnival in Kingstown, ending with Mardi Gras.", "dates": { "from": "06-26", "to": "07-07" } },
+            { "name": "Nine Mornings", "approx": "16–24 December", "effect": "Pre-dawn street parties and concerts in Kingstown before Christmas.", "dates": { "from": "12-16", "to": "12-24" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 70, "shoulder": 85, "high": 110 },
+            "midrangePerDay": { "low": 160, "shoulder": 200, "high": 260 },
+            "hotelNightMid": { "low": 130, "shoulder": 170, "high": 240 },
+            "notes": "Ferries link Kingstown, Bequia and the southern Grenadines cheaply; a day-sail to the Tobago Cays costs about $150. Mustique and Canouan are luxury-only."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Kingstown", "aliases": ["St. Vincent", "Villa", "Indian Bay"], "region": "country" },
+        { "name": "La Soufrière", "aliases": ["La Soufriere volcano"], "region": "country" },
+        { "name": "Dark View Falls", "aliases": ["Wallilabou Bay", "Wallilabou"], "region": "country" },
+        { "name": "Bequia", "aliases": ["Admiralty Bay", "Lower Bay", "Princess Margaret Beach"], "region": "country" },
+        { "name": "Mustique", "aliases": ["Basil's Bar", "Macaroni Beach"], "region": "country" },
+        { "name": "Canouan", "aliases": [], "region": "country" },
+        { "name": "Tobago Cays", "aliases": ["Tobago Cays Marine Park"], "region": "country" },
+        { "name": "Mayreau", "aliases": ["Salt Whistle Bay"], "region": "country" },
+        { "name": "Union Island", "aliases": ["Clifton", "Happy Island"], "region": "country" },
+        { "name": "Palm Island", "aliases": [], "region": "country" },
+        { "name": "Petit St Vincent", "aliases": ["PSV"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://discoversvg.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Saint_Vincent_and_the_Grenadines" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/st-vincent-and-the-grenadines" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/st-vincent-and-the-grenadines/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "BS",
+      "isoNum": "044",
+      "name": "The Bahamas",
+      "aliases": ["Bahamas", "Commonwealth of The Bahamas"],
+      "continent": "North America",
+      "flag": "🇧🇸",
+      "summary": "The Bahamas lie just north of the Tropic of Cancer, so winters are cooler than elsewhere in the Caribbean: December to February brings 25 °C days, cool evenings, a 23 °C sea and occasional cold fronts. March to May is the sweet spot, warm, dry and sunny before the rains, though US spring break fills Nassau in March. June to November is hot, humid and wet, and the hurricane season peaks from mid-August to October (Dorian devastated Abaco and Grand Bahama in 2019). Junkanoo parades on 26 December and 1 January are the highlight of the year.",
+      "splitByRegion": false,
+      "splitReason": "The islands share one subtropical calendar; the southern Out Islands are slightly warmer and drier than Nassau and Grand Bahama.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Nassau, Cable Beach and Paradise Island, Grand Bahama, the Exumas, Eleuthera and Harbour Island, the Abacos, Andros and Bimini.",
+          "lat": 25.06,
+          "lon": -77.34,
+          "tags": ["beach", "islands", "diving", "boating"],
+          "best": [
+            { "from": "03-15", "to": "05-31", "why": "Warm 27–29 °C days, dry and sunny, with the sea warming to 25 °C before the rainy season and hurricanes.", "goodFor": ["beach", "sun", "diving", "nature"] }
+          ],
+          "worst": [
+            { "from": "08-15", "to": "10-31", "why": "Hurricane peak, with heavy rain and humid heat; many Out Island resorts close in September–October." }
+          ],
+          "shoulder": [
+            { "from": "12-01", "to": "03-14", "why": "Dry and pleasant but cooler (25 °C) with a 23 °C sea and occasional windy cold fronts; Junkanoo and spring break push up prices." },
+            { "from": "06-01", "to": "08-14", "why": "Hot, humid and showery; cheaper, but the hurricane season has begun." },
+            { "from": "11-01", "to": "11-30", "why": "Rain easing, warm sea and low prices before the winter season." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "03-15", "to": "08-15" } ],
+            "sun": [ { "from": "12-01", "to": "05-31" } ],
+            "diving": [ { "from": "04-01", "to": "08-15" } ],
+            "nature": [ { "from": "12-01", "to": "06-15" } ]
+          },
+          "climate": {
+            "avgHighC": [25, 25, 26, 28, 29, 31, 32, 32, 31, 29, 28, 26],
+            "avgLowC": [18, 18, 19, 20, 22, 24, 24, 24, 24, 23, 21, 19],
+            "rainMm": [40, 45, 50, 60, 120, 230, 160, 210, 180, 150, 70, 50],
+            "rainDays": [6, 5, 5, 5, 9, 13, 13, 15, 15, 12, 8, 6],
+            "sunHours": [220, 230, 260, 280, 280, 250, 280, 270, 230, 230, 210, 210],
+            "seaTempC": [24, 23, 24, 25, 26, 28, 29, 29, 29, 28, 26, 25],
+            "humidity": [75, 73, 72, 72, 75, 78, 77, 78, 79, 78, 77, 76]
+          },
+          "crowds": [4, 4, 5, 4, 3, 3, 4, 3, 1, 1, 3, 5],
+          "risks": [
+            { "type": "hurricane", "from": "06-01", "to": "11-30", "note": "Peak risk mid-August to October; Dorian (2019) devastated Abaco and Grand Bahama." },
+            { "type": "strong wind", "from": "12-01", "to": "03-15", "note": "Winter cold fronts bring cool, blustery days and rough crossings." },
+            { "type": "sargassum", "from": "04-01", "to": "09-30", "note": "Seaweed can reach east-facing beaches in the southern islands." }
+          ],
+          "recurringHolidays": [
+            { "name": "Junkanoo", "approx": "26 December and 1 January", "effect": "All-night costumed parades on Bay Street in Nassau; hotels are at peak prices.", "dates": { "from": "12-26", "to": "01-01" } },
+            { "name": "US spring break", "approx": "March", "effect": "College students fill Nassau and Paradise Island; rates rise.", "dates": { "from": "03-01", "to": "03-31" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 100, "shoulder": 120, "high": 150 },
+            "midrangePerDay": { "low": 220, "shoulder": 270, "high": 350 },
+            "hotelNightMid": { "low": 200, "shoulder": 250, "high": 350 },
+            "notes": "One of the most expensive Caribbean destinations, as almost everything is imported. Local mailboats and inter-island flights connect the Out Islands; book small guesthouses early for March–April."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Nassau", "aliases": ["New Providence", "Cable Beach"], "region": "country" },
+        { "name": "Paradise Island", "aliases": ["Atlantis"], "region": "country" },
+        { "name": "Freeport", "aliases": ["Grand Bahama", "Lucaya"], "region": "country" },
+        { "name": "Exuma", "aliases": ["Great Exuma", "Exuma Cays", "Staniel Cay", "Pig Beach", "Thunderball Grotto"], "region": "country" },
+        { "name": "Eleuthera", "aliases": ["Governor's Harbour", "Glass Window Bridge"], "region": "country" },
+        { "name": "Harbour Island", "aliases": ["Pink Sands Beach", "Dunmore Town"], "region": "country" },
+        { "name": "Abaco", "aliases": ["Abacos", "Marsh Harbour", "Hope Town"], "region": "country" },
+        { "name": "Andros", "aliases": ["Andros Barrier Reef"], "region": "country" },
+        { "name": "Bimini", "aliases": [], "region": "country" },
+        { "name": "Cat Island", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.bahamas.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Bahamas" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/bahamas" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/bahamas/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "TT",
+      "isoNum": "780",
+      "name": "Trinidad and Tobago",
+      "aliases": ["T&T", "Trinidad", "Tobago", "Trinidad & Tobago"],
+      "continent": "North America",
+      "flag": "🇹🇹",
+      "summary": "Trinidad and Tobago lie just off Venezuela, south of the main hurricane belt, and are 31–32 °C all year. The dry season from January to May is the best time, and Carnival in Port of Spain (the Monday and Tuesday before Ash Wednesday) is one of the world's great street parties. The rainy season runs from June to December, with heavy afternoon downpours and flash floods, broken by a short drier spell in September–October. Leatherback turtles nest on Trinidad's north coast and in Tobago from March to August.",
+      "splitByRegion": false,
+      "splitReason": "Both islands share one wet-and-dry tropical calendar; Tobago is a little drier and breezier than Trinidad.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Port of Spain, Maracas Bay and the north coast, the Northern Range and Asa Wright, Caroni Swamp, and Tobago (Crown Point, Castara, Speyside).",
+          "lat": 10.65,
+          "lon": -61.51,
+          "tags": ["carnival", "music", "beach", "birdwatching", "diving", "turtles"],
+          "best": [
+            { "from": "01-06", "to": "05-15", "why": "Dry season: sunny 31 °C days, Carnival in Port of Spain and leatherback turtles nesting from March.", "goodFor": ["city", "beach", "sun", "diving", "nature"] }
+          ],
+          "worst": [
+            { "from": "06-15", "to": "08-31", "why": "The wettest months: daily downpours, flash floods in Port of Spain and sticky humidity." }
+          ],
+          "shoulder": [
+            { "from": "05-16", "to": "06-14", "why": "The rains begin, but turtle-nesting season peaks." },
+            { "from": "09-01", "to": "12-31", "why": "Showery, with a drier spell in September–October; Divali lights and parang music at Christmas." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "01-01", "to": "05-15" } ],
+            "beach": [ { "from": "01-01", "to": "06-15" }, { "from": "09-01", "to": "10-31" } ],
+            "sun": [ { "from": "01-06", "to": "05-15" } ],
+            "diving": [ { "from": "01-01", "to": "06-15" }, { "from": "09-01", "to": "11-30" } ],
+            "nature": [ { "from": "01-01", "to": "08-31" } ]
+          },
+          "climate": {
+            "avgHighC": [31, 31, 32, 32, 32, 31, 31, 31, 32, 32, 31, 31],
+            "avgLowC": [21, 21, 21, 22, 23, 23, 23, 23, 23, 23, 23, 22],
+            "rainMm": [70, 45, 35, 55, 110, 250, 250, 240, 190, 180, 210, 160],
+            "rainDays": [12, 8, 7, 7, 11, 20, 22, 20, 16, 15, 18, 16],
+            "sunHours": [250, 240, 260, 250, 230, 190, 210, 220, 210, 210, 210, 220],
+            "seaTempC": [27, 26, 26, 27, 27, 28, 28, 28, 29, 29, 28, 27],
+            "humidity": [79, 77, 74, 74, 77, 83, 84, 84, 83, 83, 84, 82]
+          },
+          "crowds": [3, 5, 3, 3, 2, 2, 2, 2, 2, 2, 2, 3],
+          "risks": [
+            { "type": "tropical storms", "from": "06-01", "to": "11-30", "note": "Trinidad is south of the main hurricane belt, but Tobago is occasionally brushed by tropical storms." },
+            { "type": "flooding", "from": "06-01", "to": "12-15", "note": "Flash floods in Port of Spain and the low-lying east during heavy downpours." }
+          ],
+          "recurringHolidays": [
+            { "name": "Carnival", "approx": "The Monday and Tuesday before Ash Wednesday", "effect": "Port of Spain's Carnival: fetes for weeks before, and flights and hotels sell out at triple prices.", "moving": { "anchor": "easter", "offsetDays": -49, "durationDays": 3 } },
+            { "name": "Divali", "approx": "October or November", "effect": "Lights and festivities across Trinidad; a public holiday.", "moving": { "anchor": "diwali", "offsetDays": 0, "durationDays": 1 } },
+            { "name": "Tobago Heritage Festival", "approx": "Late July – early August", "effect": "Traditional music, dance and food in Tobago's villages.", "dates": { "from": "07-15", "to": "08-01" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 60, "shoulder": 70, "high": 90 },
+            "midrangePerDay": { "low": 130, "shoulder": 150, "high": 200 },
+            "hotelNightMid": { "low": 100, "shoulder": 120, "high": 200 },
+            "notes": "Carnival week costs two to three times the usual rates, and costumes with a mas band cost $500–1,500. Tobago guesthouses are good value the rest of the year."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Port of Spain", "aliases": ["POS", "Queen's Park Savannah"], "region": "country" },
+        { "name": "Maracas Bay", "aliases": ["Maracas"], "region": "country" },
+        { "name": "Chaguaramas", "aliases": [], "region": "country" },
+        { "name": "Arima", "aliases": ["Asa Wright Nature Centre", "Asa Wright"], "region": "country" },
+        { "name": "Grande Riviere", "aliases": ["Grande Rivière", "Matelot"], "region": "country" },
+        { "name": "Caroni Swamp", "aliases": ["Caroni Bird Sanctuary"], "region": "country" },
+        { "name": "San Fernando", "aliases": ["Pitch Lake", "La Brea"], "region": "country" },
+        { "name": "Scarborough", "aliases": [], "region": "country" },
+        { "name": "Crown Point", "aliases": ["Pigeon Point", "Store Bay"], "region": "country" },
+        { "name": "Buccoo", "aliases": ["Buccoo Reef", "Nylon Pool"], "region": "country" },
+        { "name": "Castara", "aliases": ["Englishman's Bay"], "region": "country" },
+        { "name": "Speyside", "aliases": ["Charlotteville", "Little Tobago"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Trinidad_and_Tobago" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/trinidad-and-tobago" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/trinidad-and-tobago/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "TC",
+      "isoNum": "796",
+      "name": "Turks and Caicos Islands",
+      "aliases": ["TCI", "Turks & Caicos", "Turks and Caicos"],
+      "continent": "North America",
+      "flag": "🇹🇨",
+      "summary": "The Turks and Caicos are low, dry islands with little rain, famous for Grace Bay's beach and a huge barrier reef. The best time is January to May: sunny 27–30 °C days, low rainfall and humpback whales passing Grand Turk and Salt Cay from January to April. Prices peak over Christmas, US Thanksgiving and spring break. The hurricane season peaks from mid-August to October, when many resorts close, and Irma and Maria both hit in September 2017.",
+      "splitByRegion": false,
+      "splitReason": "Low, flat islands with one dry tropical climate.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Providenciales and Grace Bay, Grand Turk, Salt Cay, North and Middle Caicos, Parrot Cay and South Caicos.",
+          "lat": 21.79,
+          "lon": -72.2,
+          "tags": ["beach", "diving", "snorkelling", "kitesurf", "honeymoon", "whales"],
+          "best": [
+            { "from": "01-06", "to": "05-31", "why": "Dry, sunny 27–30 °C days, calm turquoise water and humpback whales off Grand Turk and Salt Cay (January–April).", "goodFor": ["beach", "sun", "diving", "nature"] }
+          ],
+          "worst": [
+            { "from": "08-15", "to": "10-31", "why": "Hurricane peak, the wettest months and hot, humid air; many resorts close in September." }
+          ],
+          "shoulder": [
+            { "from": "12-01", "to": "01-05", "why": "Festive peak prices, with occasional cool, windy fronts." },
+            { "from": "06-01", "to": "08-14", "why": "Hot and calm; the hurricane season has begun but prices drop." },
+            { "from": "11-01", "to": "11-30", "why": "Quiet and warm before the Thanksgiving rush." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "11-15", "to": "08-15" } ],
+            "sun": [ { "from": "12-01", "to": "06-30" } ],
+            "diving": [ { "from": "04-01", "to": "11-30" } ],
+            "nature": [ { "from": "01-01", "to": "04-15" } ]
+          },
+          "climate": {
+            "avgHighC": [27, 27, 28, 29, 30, 31, 32, 32, 32, 31, 29, 28],
+            "avgLowC": [22, 22, 22, 23, 24, 25, 26, 26, 26, 25, 24, 23],
+            "rainMm": [40, 30, 25, 35, 60, 45, 40, 55, 90, 110, 90, 50],
+            "rainDays": [6, 5, 4, 4, 6, 5, 5, 7, 9, 10, 9, 7],
+            "sunHours": [250, 250, 280, 290, 300, 290, 310, 300, 270, 260, 240, 240],
+            "seaTempC": [25, 25, 25, 26, 27, 28, 28, 29, 29, 28, 27, 26],
+            "humidity": [75, 74, 74, 74, 75, 76, 76, 77, 78, 78, 77, 76]
+          },
+          "crowds": [5, 5, 5, 4, 3, 3, 3, 2, 1, 1, 3, 5],
+          "risks": [
+            { "type": "hurricane", "from": "06-01", "to": "11-30", "note": "Peak risk mid-August to October; Irma and Maria both hit in September 2017." },
+            { "type": "sargassum", "from": "04-01", "to": "09-30", "note": "Seaweed can reach east- and south-facing beaches, though Grace Bay is sheltered." }
+          ],
+          "recurringHolidays": [
+            { "name": "Christmas & New Year", "approx": "Dec 18 – Jan 5", "effect": "Grace Bay resorts at peak rates with minimum stays.", "dates": { "from": "12-18", "to": "01-05" } },
+            { "name": "US Thanksgiving", "approx": "4th Thursday of November", "effect": "American holidaymakers fill Grace Bay; prices jump.", "moving": { "anchor": "thanksgivingUS", "offsetDays": -2, "durationDays": 6 } },
+            { "name": "Conch Festival", "approx": "Late November", "effect": "A food festival at Blue Hills, Providenciales.", "dates": { "from": "11-22", "to": "11-30" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 140, "shoulder": 160, "high": 200 },
+            "midrangePerDay": { "low": 280, "shoulder": 350, "high": 450 },
+            "hotelNightMid": { "low": 280, "shoulder": 350, "high": 500 },
+            "notes": "Very expensive, with prices in US dollars. Condos with kitchens and the smaller islands (Grand Turk, North Caicos) are better value than Grace Bay's resorts."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Providenciales", "aliases": ["Provo", "Grace Bay", "Long Bay", "Chalk Sound", "Taylor Bay"], "region": "country" },
+        { "name": "Grand Turk", "aliases": ["Cockburn Town", "Governor's Beach"], "region": "country" },
+        { "name": "Salt Cay", "aliases": [], "region": "country" },
+        { "name": "North Caicos", "aliases": ["Middle Caicos", "Mudjin Harbour", "Conch Bar Caves"], "region": "country" },
+        { "name": "Parrot Cay", "aliases": [], "region": "country" },
+        { "name": "South Caicos", "aliases": ["Cockburn Harbour"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.visittci.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Turks_and_Caicos_Islands" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/turks-and-caicos-islands" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/turks-and-caicos-islands/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
       "iso2": "US",
       "isoNum": "840",
       "name": "United States",

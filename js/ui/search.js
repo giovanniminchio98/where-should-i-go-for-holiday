@@ -1,7 +1,8 @@
 // Fuzzy search over countries, aliases, regions and cities (Fuse.js), as an
 // accessible combobox with keyboard navigation and recent searches.
 import { getFuse } from '../lib/libs.js';
-import { countries } from '../lib/data.js';
+import { countries, findCountry } from '../lib/data.js';
+import { loadGazetteer, searchGazetteer, regionForPlace } from '../lib/gazetteer.js';
 import { esc, store, debounce } from '../lib/util.js';
 import { t } from '../lib/strings.js';
 
@@ -45,7 +46,7 @@ function ensureFuse() {
   return fusePromise;
 }
 
-const KIND_RANK = { country: 0, city: 1, region: 2 };
+const KIND_RANK = { country: 0, city: 1, region: 2, place: 3 };
 
 export function searchPlaces(q, limit = 8) {
   const nq = norm(q);
@@ -59,7 +60,22 @@ export function searchPlaces(q, limit = 8) {
   else fuzzy = list.filter(e => e.n.includes(nq) || e.an.some(a => a.includes(nq)));
   const seen = new Set();
   const sortKind = arr => arr.sort((a, b) => KIND_RANK[a.kind] - KIND_RANK[b.kind]);
-  return [...sortKind(exact), ...sortKind(prefix), ...fuzzy].filter(e => (seen.has(e) ? false : seen.add(e))).slice(0, limit);
+  // Places from the world gazetteer (when loaded) rank above fuzzy guesses.
+  const places = searchGazetteer(q, 5).map(placeEntry).filter(Boolean);
+  return [...sortKind(exact), ...sortKind(prefix), ...places, ...fuzzy].filter(e => (seen.has(e) ? false : seen.add(e))).slice(0, limit);
+}
+
+/** A gazetteer place → search entry pointing at the nearest region, flagged as regional info. */
+function placeEntry(row) {
+  const c = findCountry(row.cc);
+  const r = regionForPlace(row);
+  if (!c || !r) return null;
+  return {
+    kind: 'place', label: row.name, aliases: [], flag: c.flag,
+    path: c.regions.length > 1 ? `${c.name} › ${r.name}` : c.name,
+    iso2: c.iso2, region: r.id, n: row.n, an: [],
+    href: `#/country/${c.iso2}/${r.id}?city=${encodeURIComponent(row.name)}`,
+  };
 }
 
 function matchedAlias(e, q) {
@@ -116,7 +132,7 @@ export function mountSearch(container, opts = {}) {
           <span class="flag" aria-hidden="true">${e.flag}</span>
           <span><span class="main">${esc(e.label)}</span>${alias ? ` <span class="path">(${esc(alias)})</span>` : ''}
           <span class="path"> → ${esc(e.path)}</span></span>
-          <span class="kind">${esc(e.kind)}</span></li>`;
+          <span class="kind">${e.kind === 'place' ? 'regional info' : esc(e.kind)}</span></li>`;
       }).join('') : `<li class="empty" role="presentation">${t('search.none')}</li>`);
     list.hidden = false;
     input.setAttribute('aria-expanded', 'true');
@@ -136,7 +152,12 @@ export function mountSearch(container, opts = {}) {
   }
 
   const update = debounce(() => render(input.value), 60);
-  input.addEventListener('input', () => { ensureFuse().then(() => { if (document.activeElement === input) update(); }); update(); });
+  input.addEventListener('input', () => {
+    ensureFuse().then(() => { if (document.activeElement === input) update(); });
+    // The world gazetteer is only fetched once someone types a real query.
+    if (input.value.trim().length >= 3) loadGazetteer().then(() => { if (document.activeElement === input) update(); }).catch(() => {});
+    update();
+  });
   input.addEventListener('focus', () => { ensureFuse(); render(input.value); });
   input.addEventListener('keydown', e => {
     if (e.key === 'ArrowDown') { e.preventDefault(); if (list.hidden) render(input.value); else move(1); }

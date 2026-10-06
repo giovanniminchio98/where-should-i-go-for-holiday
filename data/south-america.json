@@ -2,6 +2,475 @@
   "continent": "South America",
   "countries": [
     {
+      "iso2": "AR",
+      "isoNum": "032",
+      "name": "Argentina",
+      "aliases": ["República Argentina", "Republica Argentina", "Argentine Republic"],
+      "continent": "South America",
+      "flag": "🇦🇷",
+      "summary": "Argentina runs from the subtropical north to sub-Antarctic Tierra del Fuego, and it lies in the southern hemisphere, so summer is December to February. Buenos Aires and Mendoza are best in spring (September–November) and autumn (March–May), when days are 20–25 °C. Patagonia's season is November to March, as winter closes many trails and services in the far south, although Bariloche becomes a ski resort from July to September. The north-west (Salta, Jujuy) and Iguazú are best in the drier, cooler months from April to November, avoiding the summer rains and heat. Argentines take their holidays in January–February and the last two weeks of July, which fill the coast, Patagonia and Bariloche.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "buenosaires",
+          "name": "Buenos Aires & the Pampas",
+          "description": "Buenos Aires, Tigre and the Paraná Delta, the Pampas estancias (San Antonio de Areco), Rosario, Córdoba and its sierras, and the Atlantic beaches of Mar del Plata and Pinamar.",
+          "lat": -34.6,
+          "lon": -58.38,
+          "tags": ["city", "food", "tango", "nightlife", "beach", "estancias"],
+          "best": [
+            { "from": "03-01", "to": "05-20", "why": "Autumn: 18–25 °C days, the cultural season back in full swing after the summer exodus, and golden light in the parks of Palermo.", "goodFor": ["city", "roadtrip", "nature"] },
+            { "from": "09-15", "to": "11-30", "why": "Spring: 20–26 °C sunshine, jacarandas flowering purple across Buenos Aires in November and pleasant estancia weather.", "goodFor": ["city", "roadtrip", "nature", "sun"] }
+          ],
+          "worst": [
+            { "from": "01-01", "to": "02-15", "why": "Hot, humid high summer (30–35 °C heatwaves): many porteños leave and some restaurants close, while Mar del Plata's beaches are packed and expensive." }
+          ],
+          "shoulder": [
+            { "from": "05-21", "to": "09-14", "why": "Cool, damp winter (14–16 °C days, 5–8 °C nights); good for museums, theatre and tango, busy in the July holidays." },
+            { "from": "12-01", "to": "12-31", "why": "Hot early summer with Christmas and New Year bookings on the coast." },
+            { "from": "02-16", "to": "02-28", "why": "Still hot, but the coast empties after mid-February." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "03-01", "to": "06-15" }, { "from": "09-01", "to": "12-15" } ],
+            "beach": [ { "from": "12-15", "to": "03-15" } ],
+            "sun": [ { "from": "11-01", "to": "03-31" } ],
+            "roadtrip": [ { "from": "03-01", "to": "05-31" }, { "from": "09-15", "to": "11-30" } ],
+            "nature": [ { "from": "09-15", "to": "05-15" } ]
+          },
+          "climate": {
+            "avgHighC": [30, 29, 27, 23, 19, 16, 15, 18, 19, 23, 26, 29],
+            "avgLowC": [20, 19, 18, 14, 11, 8, 7, 9, 11, 14, 16, 19],
+            "rainMm": [139, 130, 141, 127, 92, 60, 72, 66, 79, 131, 129, 119],
+            "rainDays": [9, 8, 9, 9, 7, 6, 6, 6, 7, 10, 9, 9],
+            "sunHours": [280, 230, 215, 185, 155, 120, 140, 165, 175, 215, 240, 270],
+            "seaTempC": [19, 20, 19, 16, 13, 11, 10, 10, 10, 12, 15, 17],
+            "humidity": [64, 69, 72, 77, 79, 80, 79, 74, 71, 71, 67, 62]
+          },
+          "crowds": [4, 4, 3, 3, 2, 2, 3, 2, 3, 3, 3, 4],
+          "risks": [
+            { "type": "extreme heat", "from": "12-15", "to": "02-28", "note": "Heatwaves above 35 °C in Buenos Aires and Rosario, sometimes with power cuts." },
+            { "type": "flooding", "from": "10-01", "to": "03-31", "note": "Sudden summer storms and the 'sudestada' wind flood low-lying streets." }
+          ],
+          "recurringHolidays": [
+            { "name": "Buenos Aires Tango Festival", "approx": "Mid/late August (about two weeks)", "effect": "Free milongas, concerts and the Tango World Championship; central hotels fill.", "dates": { "from": "08-12", "to": "08-26" } },
+            { "name": "Argentine summer holidays", "approx": "January – February", "effect": "Atlantic resorts, Patagonia and the Lake District fill and prices peak; Buenos Aires empties.", "dates": { "from": "01-01", "to": "02-28" } },
+            { "name": "Winter school holidays", "approx": "Two weeks in mid/late July", "effect": "Bariloche, Iguazú and Salta fill with families and ski prices peak.", "dates": { "from": "07-10", "to": "07-31" } },
+            { "name": "Carnival", "approx": "Monday and Tuesday before Ash Wednesday", "effect": "A national long weekend: buses and flights sell out, with parades in Gualeguaychú and the Quebrada de Humahuaca.", "moving": { "anchor": "easter", "offsetDays": -50, "durationDays": 4 } },
+            { "name": "Semana Santa", "approx": "Easter week", "effect": "A long weekend of domestic travel; book transport and rooms ahead.", "moving": { "anchor": "easter", "offsetDays": -3, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 50, "high": 60 },
+            "midrangePerDay": { "low": 100, "shoulder": 120, "high": 150 },
+            "hotelNightMid": { "low": 70, "shoulder": 90, "high": 120 },
+            "notes": "Prices in dollars swing with the peso and inflation; foreign cards now get a near-market exchange rate. Steakhouses and wine are still good value."
+          },
+          "seaLat": -38,
+          "seaLon": -57.55
+        },
+        {
+          "id": "northwest",
+          "name": "Salta, Jujuy & the North-West",
+          "description": "Salta, San Salvador de Jujuy, the Quebrada de Humahuaca (Purmamarca, Tilcara, Humahuaca), Salinas Grandes, Cafayate and the Calchaquí Valleys, Cachi and Tucumán.",
+          "lat": -24.79,
+          "lon": -65.41,
+          "tags": ["mountain", "wine", "culture", "roadtrip", "desert"],
+          "best": [
+            { "from": "04-01", "to": "06-15", "why": "Dry autumn: clear skies, 20–24 °C days and the Quebrada de Humahuaca's coloured hills sharp in the light, just after the Cafayate harvest.", "goodFor": ["mountain", "roadtrip", "nature", "city", "sun"] },
+            { "from": "08-15", "to": "11-15", "why": "Dry, sunny spring with 25 °C days; the high roads to Salinas Grandes and Cachi are open and dry.", "goodFor": ["mountain", "roadtrip", "nature", "city", "sun"] }
+          ],
+          "worst": [
+            { "from": "01-01", "to": "02-28", "why": "Summer rains: daily storms and mudslides that cut the Quebrada and Calchaquí roads, plus Carnival and holiday crowds in Humahuaca." }
+          ],
+          "shoulder": [
+            { "from": "03-01", "to": "03-31", "why": "Rains easing, green valleys and the Cafayate grape harvest." },
+            { "from": "06-16", "to": "08-14", "why": "Dry and sunny but nights below freezing in the Quebrada, and Argentine winter holidays in July." },
+            { "from": "11-16", "to": "12-31", "why": "Hot, with the first summer storms." }
+          ],
+          "activityWindows": {
+            "mountain": [ { "from": "04-01", "to": "11-30" } ],
+            "roadtrip": [ { "from": "04-01", "to": "11-30" } ],
+            "nature": [ { "from": "03-15", "to": "11-30" } ],
+            "city": [ { "from": "03-01", "to": "12-15" } ],
+            "sun": [ { "from": "04-15", "to": "11-15" } ]
+          },
+          "climate": {
+            "avgHighC": [28, 28, 26, 24, 21, 20, 20, 23, 25, 28, 28, 29],
+            "avgLowC": [16, 16, 15, 12, 8, 4, 3, 4, 8, 12, 14, 16],
+            "rainMm": [190, 160, 120, 40, 10, 3, 3, 4, 7, 25, 60, 130],
+            "rainDays": [16, 14, 13, 6, 2, 1, 1, 1, 2, 5, 9, 13],
+            "sunHours": [190, 170, 170, 170, 180, 180, 210, 220, 210, 220, 210, 200],
+            "seaTempC": null,
+            "humidity": [75, 78, 80, 79, 77, 72, 64, 56, 55, 60, 66, 71]
+          },
+          "crowds": [3, 4, 3, 3, 2, 2, 4, 2, 3, 3, 3, 3],
+          "risks": [
+            { "type": "landslides", "from": "12-15", "to": "03-15", "note": "Summer storms send mudslides across the roads in the Quebrada de Humahuaca and the Cuesta del Obispo." },
+            { "type": "extreme cold", "from": "06-01", "to": "08-31", "note": "Nights well below freezing at Salinas Grandes and on the altiplano above Humahuaca." }
+          ],
+          "recurringHolidays": [
+            { "name": "Carnaval de la Quebrada", "approx": "Carnival week, February/March", "effect": "Humahuaca, Tilcara and Purmamarca fill with parades and parties; book well ahead.", "moving": { "anchor": "easter", "offsetDays": -50, "durationDays": 9 } },
+            { "name": "Argentine summer holidays", "approx": "January – February", "effect": "Atlantic resorts, Patagonia and the Lake District fill and prices peak; Buenos Aires empties.", "dates": { "from": "01-01", "to": "02-28" } },
+            { "name": "Winter school holidays", "approx": "Two weeks in mid/late July", "effect": "Bariloche, Iguazú and Salta fill with families and ski prices peak.", "dates": { "from": "07-10", "to": "07-31" } },
+            { "name": "Carnival", "approx": "Monday and Tuesday before Ash Wednesday", "effect": "A national long weekend: buses and flights sell out, with parades in Gualeguaychú and the Quebrada de Humahuaca.", "moving": { "anchor": "easter", "offsetDays": -50, "durationDays": 4 } },
+            { "name": "Semana Santa", "approx": "Easter week", "effect": "A long weekend of domestic travel; book transport and rooms ahead.", "moving": { "anchor": "easter", "offsetDays": -3, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 35, "shoulder": 45, "high": 55 },
+            "midrangePerDay": { "low": 80, "shoulder": 100, "high": 120 },
+            "hotelNightMid": { "low": 50, "shoulder": 70, "high": 90 },
+            "notes": "Hire a car in Salta for the Quebrada and Calchaquí loops. Cafayate bodegas offer cheap tastings."
+          }
+        },
+        {
+          "id": "iguazu",
+          "name": "Iguazú Falls & the North-East",
+          "description": "Iguazú Falls and Puerto Iguazú, the Jesuit missions of Misiones (San Ignacio Miní), the Esteros del Iberá wetlands and Corrientes.",
+          "lat": -25.6,
+          "lon": -54.58,
+          "tags": ["waterfalls", "nature", "wildlife", "jungle"],
+          "best": [
+            { "from": "03-15", "to": "05-31", "why": "Autumn: 25–28 °C, lower humidity and the falls running full after the summer rains, with fewer crowds.", "goodFor": ["nature", "roadtrip"] },
+            { "from": "08-15", "to": "11-15", "why": "Spring warmth (24–30 °C), good water levels at the falls and nesting birds and capybaras in the Iberá wetlands.", "goodFor": ["nature", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "12-15", "to": "02-28", "why": "Hot and very humid (35 °C+), with storms, mosquitoes and the busiest walkways at the falls during the summer holidays." }
+          ],
+          "shoulder": [
+            { "from": "06-01", "to": "08-14", "why": "Mild days but cool nights; the July winter holidays fill Puerto Iguazú." },
+            { "from": "11-16", "to": "12-14", "why": "Hot, humid and stormy as summer approaches." },
+            { "from": "03-01", "to": "03-14", "why": "Still hot; crowds thinning." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "03-01", "to": "11-30" } ],
+            "roadtrip": [ { "from": "04-01", "to": "11-15" } ]
+          },
+          "climate": {
+            "avgHighC": [33, 32, 31, 28, 24, 22, 22, 24, 26, 28, 30, 32],
+            "avgLowC": [21, 20, 19, 16, 13, 11, 10, 11, 13, 16, 18, 20],
+            "rainMm": [170, 160, 140, 180, 160, 130, 90, 110, 150, 210, 170, 170],
+            "rainDays": [11, 10, 9, 9, 9, 8, 7, 7, 9, 11, 10, 10],
+            "sunHours": [240, 210, 210, 190, 170, 150, 170, 180, 170, 200, 220, 240],
+            "seaTempC": null,
+            "humidity": [75, 78, 78, 80, 82, 82, 78, 73, 72, 73, 72, 73]
+          },
+          "crowds": [5, 4, 3, 3, 2, 2, 5, 3, 3, 3, 3, 4],
+          "risks": [
+            { "type": "extreme heat", "from": "12-01", "to": "02-28", "note": "Humid heat with the heat index above 40 °C." },
+            { "type": "flooding", "from": "04-01", "to": "10-31", "note": "Heavy rain upstream can push the river so high that the Devil's Throat walkway closes." }
+          ],
+          "recurringHolidays": [
+            { "name": "Argentine summer holidays", "approx": "January – February", "effect": "Atlantic resorts, Patagonia and the Lake District fill and prices peak; Buenos Aires empties.", "dates": { "from": "01-01", "to": "02-28" } },
+            { "name": "Winter school holidays", "approx": "Two weeks in mid/late July", "effect": "Bariloche, Iguazú and Salta fill with families and ski prices peak.", "dates": { "from": "07-10", "to": "07-31" } },
+            { "name": "Carnival", "approx": "Monday and Tuesday before Ash Wednesday", "effect": "A national long weekend: buses and flights sell out, with parades in Gualeguaychú and the Quebrada de Humahuaca.", "moving": { "anchor": "easter", "offsetDays": -50, "durationDays": 4 } },
+            { "name": "Semana Santa", "approx": "Easter week", "effect": "A long weekend of domestic travel; book transport and rooms ahead.", "moving": { "anchor": "easter", "offsetDays": -3, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 50, "high": 65 },
+            "midrangePerDay": { "low": 90, "shoulder": 110, "high": 140 },
+            "hotelNightMid": { "low": 60, "shoulder": 80, "high": 120 },
+            "notes": "Argentine-side park entry is about $40 for foreigners; most people also visit the Brazilian side for the panorama. Iberá lodges are all-inclusive and cost $200+ per person."
+          }
+        },
+        {
+          "id": "mendoza",
+          "name": "Mendoza & the Andes",
+          "description": "Mendoza and its wine country (Luján de Cuyo, Maipú, the Uco Valley), Aconcagua, the Las Leñas ski resort and San Rafael, and San Juan's Ischigualasto and Talampaya parks.",
+          "lat": -32.89,
+          "lon": -68.83,
+          "tags": ["wine", "mountain", "ski", "roadtrip", "adventure"],
+          "best": [
+            { "from": "03-01", "to": "05-15", "why": "Harvest season: golden vineyards, sunny 22–28 °C days and the Fiesta de la Vendimia in early March.", "goodFor": ["city", "roadtrip", "nature", "sun", "mountain"] },
+            { "from": "07-01", "to": "09-14", "why": "Ski season at Las Leñas and Penitentes, with dry, sunny 15–18 °C days in Mendoza city.", "goodFor": ["snow", "mountain", "city"] },
+            { "from": "09-15", "to": "11-30", "why": "Sunny spring with 25 °C days, vines leafing out and quiet bodegas.", "goodFor": ["city", "roadtrip", "nature", "sun"] }
+          ],
+          "worst": [
+            { "from": "05-16", "to": "06-20", "why": "Bare vines, chilly days and frosty nights before the ski season opens; Aconcagua and the high passes are closed." }
+          ],
+          "shoulder": [
+            { "from": "12-01", "to": "02-28", "why": "Hot (32 °C), dry summer: the Aconcagua climbing season and high-Andes road trips, with afternoon storms in the mountains." },
+            { "from": "06-21", "to": "06-30", "why": "Ski lifts start opening, depending on snow." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "03-01", "to": "05-15" }, { "from": "09-01", "to": "11-30" } ],
+            "roadtrip": [ { "from": "09-15", "to": "05-15" } ],
+            "mountain": [ { "from": "12-01", "to": "03-15" } ],
+            "snow": [ { "from": "07-01", "to": "09-15" } ],
+            "sun": [ { "from": "10-01", "to": "04-15" } ],
+            "nature": [ { "from": "09-15", "to": "05-15" } ]
+          },
+          "climate": {
+            "avgHighC": [32, 31, 28, 23, 19, 15, 15, 18, 21, 25, 29, 31],
+            "avgLowC": [19, 18, 16, 11, 6, 3, 2, 4, 7, 11, 15, 18],
+            "rainMm": [40, 39, 35, 15, 8, 6, 6, 6, 13, 18, 22, 30],
+            "rainDays": [5, 5, 5, 3, 2, 2, 2, 2, 3, 4, 5, 5],
+            "sunHours": [300, 260, 245, 210, 185, 160, 175, 205, 220, 260, 285, 300],
+            "seaTempC": null,
+            "humidity": [49, 53, 59, 62, 64, 64, 60, 51, 48, 46, 45, 45]
+          },
+          "crowds": [3, 3, 4, 3, 2, 2, 4, 3, 3, 3, 3, 3],
+          "risks": [
+            { "type": "road closures", "from": "06-01", "to": "09-30", "note": "Snow closes the Cristo Redentor pass to Chile (Route 7) for days at a time." },
+            { "type": "extreme heat", "from": "12-15", "to": "02-15", "note": "Days above 35 °C in the city and the San Juan deserts." },
+            { "type": "thunderstorms", "from": "11-01", "to": "03-15", "note": "Summer hailstorms damage vineyards and catch hikers in the mountains." }
+          ],
+          "recurringHolidays": [
+            { "name": "Fiesta Nacional de la Vendimia", "approx": "Late February – early March", "effect": "Mendoza's harvest festival with parades and a stadium show; hotels book out.", "dates": { "from": "02-28", "to": "03-08" } },
+            { "name": "Argentine summer holidays", "approx": "January – February", "effect": "Atlantic resorts, Patagonia and the Lake District fill and prices peak; Buenos Aires empties.", "dates": { "from": "01-01", "to": "02-28" } },
+            { "name": "Winter school holidays", "approx": "Two weeks in mid/late July", "effect": "Bariloche, Iguazú and Salta fill with families and ski prices peak.", "dates": { "from": "07-10", "to": "07-31" } },
+            { "name": "Carnival", "approx": "Monday and Tuesday before Ash Wednesday", "effect": "A national long weekend: buses and flights sell out, with parades in Gualeguaychú and the Quebrada de Humahuaca.", "moving": { "anchor": "easter", "offsetDays": -50, "durationDays": 4 } },
+            { "name": "Semana Santa", "approx": "Easter week", "effect": "A long weekend of domestic travel; book transport and rooms ahead.", "moving": { "anchor": "easter", "offsetDays": -3, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 50, "high": 65 },
+            "midrangePerDay": { "low": 100, "shoulder": 120, "high": 150 },
+            "hotelNightMid": { "low": 70, "shoulder": 90, "high": 130 },
+            "notes": "Bodega tastings cost $15–50; the Uco Valley's top lodges run $300+ a night. Las Leñas ski passes cost about $80–100 a day."
+          }
+        },
+        {
+          "id": "patagonia",
+          "name": "Patagonia & Tierra del Fuego",
+          "description": "Bariloche and the Lake District (San Martín de los Andes, Villa La Angostura), Península Valdés and Puerto Madryn, El Calafate and the Perito Moreno Glacier, El Chaltén and Fitz Roy, and Ushuaia.",
+          "lat": -50.34,
+          "lon": -72.26,
+          "tags": ["nature", "hiking", "glaciers", "wildlife", "ski", "roadtrip"],
+          "best": [
+            { "from": "11-01", "to": "03-31", "why": "Patagonian summer: long days, 15–22 °C, all trails, boats and estancias open, whales at Valdés until December and penguins until March.", "goodFor": ["nature", "mountain", "roadtrip"] },
+            { "from": "07-01", "to": "09-15", "why": "Ski season at Cerro Catedral (Bariloche) and Chapelco, with southern right whales arriving at Península Valdés from June.", "goodFor": ["snow", "mountain"] }
+          ],
+          "worst": [
+            { "from": "05-01", "to": "06-30", "why": "Late autumn and early winter: short, cold days, many El Chaltén and El Calafate services closed and the ski season not yet started." }
+          ],
+          "shoulder": [
+            { "from": "04-01", "to": "04-30", "why": "Autumn colours in the beech forests around El Chaltén and Bariloche, but colder, shorter days and fewer boat trips." },
+            { "from": "09-16", "to": "10-31", "why": "Spring: whales at Península Valdés (peak September–October) and the first penguins, but windy and some southern services still closed." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "10-01", "to": "04-15" } ],
+            "mountain": [ { "from": "11-01", "to": "04-15" } ],
+            "roadtrip": [ { "from": "11-01", "to": "03-31" } ],
+            "snow": [ { "from": "07-01", "to": "09-30" } ]
+          },
+          "climate": {
+            "avgHighC": [19, 19, 16, 12, 7, 4, 4, 6, 9, 13, 16, 18],
+            "avgLowC": [6, 6, 4, 1, -2, -4, -5, -3, -1, 2, 4, 5],
+            "rainMm": [12, 9, 10, 15, 20, 20, 20, 20, 13, 10, 10, 12],
+            "rainDays": [5, 4, 4, 5, 6, 6, 6, 5, 4, 4, 4, 5],
+            "sunHours": [230, 200, 160, 120, 80, 60, 70, 100, 140, 190, 220, 240],
+            "seaTempC": null,
+            "humidity": [50, 52, 58, 66, 75, 79, 79, 74, 64, 55, 50, 49]
+          },
+          "crowds": [5, 5, 4, 3, 2, 2, 4, 3, 2, 3, 3, 4],
+          "risks": [
+            { "type": "strong wind", "from": "10-01", "to": "03-31", "note": "Gusts over 100 km/h around El Chaltén and on the steppe can close trails and boat trips." },
+            { "type": "road closures", "from": "05-15", "to": "09-30", "note": "Snow and ice on Ruta 40 and the far south; Garibaldi Pass to Ushuaia can close." }
+          ],
+          "recurringHolidays": [
+            { "name": "Argentine summer holidays", "approx": "January – February", "effect": "Atlantic resorts, Patagonia and the Lake District fill and prices peak; Buenos Aires empties.", "dates": { "from": "01-01", "to": "02-28" } },
+            { "name": "Winter school holidays", "approx": "Two weeks in mid/late July", "effect": "Bariloche, Iguazú and Salta fill with families and ski prices peak.", "dates": { "from": "07-10", "to": "07-31" } },
+            { "name": "Carnival", "approx": "Monday and Tuesday before Ash Wednesday", "effect": "A national long weekend: buses and flights sell out, with parades in Gualeguaychú and the Quebrada de Humahuaca.", "moving": { "anchor": "easter", "offsetDays": -50, "durationDays": 4 } },
+            { "name": "Semana Santa", "approx": "Easter week", "effect": "A long weekend of domestic travel; book transport and rooms ahead.", "moving": { "anchor": "easter", "offsetDays": -3, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 50, "shoulder": 65, "high": 80 },
+            "midrangePerDay": { "low": 110, "shoulder": 140, "high": 180 },
+            "hotelNightMid": { "low": 80, "shoulder": 110, "high": 160 },
+            "notes": "Patagonia is Argentina's most expensive region: glacier tours ($100–250) and internal flights add up. Book El Chaltén and El Calafate rooms early for January–February."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Buenos Aires", "aliases": ["BA", "Baires", "CABA", "Palermo", "San Telmo", "Recoleta", "La Boca"], "region": "buenosaires" },
+        { "name": "La Plata", "aliases": [], "region": "buenosaires" },
+        { "name": "Tigre", "aliases": ["Paraná Delta", "Parana Delta"], "region": "buenosaires" },
+        { "name": "San Antonio de Areco", "aliases": ["Pampas", "Las Pampas"], "region": "buenosaires" },
+        { "name": "Córdoba", "aliases": ["Córdoba Argentina", "Cordoba Argentina", "Villa Carlos Paz", "Sierras de Córdoba"], "region": "buenosaires" },
+        { "name": "Rosario", "aliases": [], "region": "buenosaires" },
+        { "name": "Mar del Plata", "aliases": ["Mardel", "Pinamar", "Villa Gesell", "Cariló"], "region": "buenosaires" },
+        { "name": "Gualeguaychú", "aliases": ["Gualeguaychu"], "region": "buenosaires" },
+        { "name": "Salta", "aliases": ["Salta la Linda"], "region": "northwest" },
+        { "name": "San Salvador de Jujuy", "aliases": ["Jujuy"], "region": "northwest" },
+        { "name": "Purmamarca", "aliases": ["Cerro de los Siete Colores", "Quebrada de Humahuaca"], "region": "northwest" },
+        { "name": "Tilcara", "aliases": ["Pucará de Tilcara"], "region": "northwest" },
+        { "name": "Humahuaca", "aliases": ["Hornocal", "Serranía de Hornocal"], "region": "northwest" },
+        { "name": "Salinas Grandes", "aliases": [], "region": "northwest" },
+        { "name": "Cafayate", "aliases": ["Quebrada de las Conchas"], "region": "northwest" },
+        { "name": "Cachi", "aliases": ["Valles Calchaquíes", "Calchaquí Valleys", "Calchaqui Valleys"], "region": "northwest" },
+        { "name": "San Miguel de Tucumán", "aliases": ["Tucumán", "Tucuman", "Tafí del Valle"], "region": "northwest" },
+        { "name": "Puerto Iguazú", "aliases": ["Puerto Iguazu", "Iguazú Falls", "Iguazu Falls", "Cataratas del Iguazú", "Garganta del Diablo", "Devil's Throat"], "region": "iguazu" },
+        { "name": "Posadas", "aliases": ["Misiones", "San Ignacio", "San Ignacio Miní"], "region": "iguazu" },
+        { "name": "Esteros del Iberá", "aliases": ["Iberá", "Ibera", "Colonia Carlos Pellegrini"], "region": "iguazu" },
+        { "name": "Corrientes", "aliases": [], "region": "iguazu" },
+        { "name": "Mendoza", "aliases": ["Maipú", "Maipu", "Luján de Cuyo", "Lujan de Cuyo"], "region": "mendoza" },
+        { "name": "Valle de Uco", "aliases": ["Uco Valley", "Tupungato"], "region": "mendoza" },
+        { "name": "Aconcagua", "aliases": ["Puente del Inca", "Penitentes"], "region": "mendoza" },
+        { "name": "Las Leñas", "aliases": ["Las Lenas", "Malargüe", "Malargue", "San Rafael"], "region": "mendoza" },
+        { "name": "Ischigualasto", "aliases": ["Talampaya", "San Juan Argentina"], "region": "mendoza" },
+        { "name": "Bariloche", "aliases": ["San Carlos de Bariloche", "Cerro Catedral", "Nahuel Huapi"], "region": "patagonia" },
+        { "name": "San Martín de los Andes", "aliases": ["San Martin de los Andes", "Chapelco", "Villa La Angostura", "Ruta de los Siete Lagos", "Seven Lakes Road"], "region": "patagonia" },
+        { "name": "El Bolsón", "aliases": ["El Bolson"], "region": "patagonia" },
+        { "name": "Puerto Madryn", "aliases": ["Península Valdés", "Peninsula Valdes", "Puerto Pirámides", "Punta Tombo"], "region": "patagonia" },
+        { "name": "El Calafate", "aliases": ["Perito Moreno", "Perito Moreno Glacier", "Los Glaciares"], "region": "patagonia" },
+        { "name": "El Chaltén", "aliases": ["El Chalten", "Fitz Roy", "Laguna de los Tres"], "region": "patagonia" },
+        { "name": "Ushuaia", "aliases": ["Tierra del Fuego", "Beagle Channel", "Fin del Mundo"], "region": "patagonia" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.argentina.travel" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Argentina" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/argentina" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/argentina/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "BO",
+      "isoNum": "068",
+      "name": "Bolivia",
+      "aliases": ["Plurinational State of Bolivia", "Estado Plurinacional de Bolivia"],
+      "continent": "South America",
+      "flag": "🇧🇴",
+      "summary": "Bolivia's dry season (May to October) is the best time to travel: the altiplano is sunny with freezing nights, Uyuni and the Southern Altiplano tours run reliably and lowland roads are passable. The rainy season (December to March) brings storms, flooded roads and mud in the lowlands, but it also turns the Salar de Uyuni into a vast mirror, best from late January to March. Santa Cruz and the Amazon lowlands are hot and humid all year. Protests and road blockades can disrupt travel at short notice, so check government travel advice.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "altiplano",
+          "name": "La Paz, Uyuni & the Altiplano",
+          "description": "La Paz and El Alto, Lake Titicaca (Copacabana, Isla del Sol), the Salar de Uyuni and the Southern Altiplano lagoons, Potosí, Sucre, Cochabamba and Tiwanaku.",
+          "lat": -16.5,
+          "lon": -68.15,
+          "tags": ["altitude", "salt flats", "culture", "mountain", "roadtrip"],
+          "best": [
+            { "from": "04-15", "to": "10-31", "why": "Dry season: sunny skies, clear views of the Cordillera Real and reliable Uyuni and lagoon tours, though nights on the salt flats fall to −15 °C in May–August.", "goodFor": ["mountain", "roadtrip", "city", "nature", "sun"] }
+          ],
+          "worst": [
+            { "from": "12-01", "to": "01-14", "why": "The rainy season sets in: daily storms, flooded roads, landslides on the Death Road and Yungas, and the salt flat still too patchy for the mirror." }
+          ],
+          "shoulder": [
+            { "from": "01-15", "to": "03-31", "why": "The rains flood the Salar de Uyuni into a giant mirror (best February–March), but storms cut roads and some lagoon tours don't run." },
+            { "from": "04-01", "to": "04-14", "why": "Rains ending; Uyuni drying out." },
+            { "from": "11-01", "to": "11-30", "why": "Warmer, with the first rains." }
+          ],
+          "activityWindows": {
+            "mountain": [ { "from": "05-01", "to": "10-15" } ],
+            "roadtrip": [ { "from": "04-15", "to": "11-15" } ],
+            "city": [ { "from": "04-01", "to": "11-30" } ],
+            "nature": [ { "from": "04-15", "to": "11-15" }, { "from": "01-15", "to": "03-31" } ]
+          },
+          "climate": {
+            "avgHighC": [15, 15, 15, 15, 14, 13, 13, 14, 15, 16, 17, 16],
+            "avgLowC": [6, 6, 6, 4, 2, 1, 0, 1, 3, 4, 5, 6],
+            "rainMm": [130, 105, 70, 30, 10, 5, 7, 13, 30, 40, 50, 95],
+            "rainDays": [18, 15, 12, 6, 2, 1, 1, 3, 6, 8, 10, 14],
+            "sunHours": [160, 150, 180, 200, 240, 250, 260, 250, 220, 220, 200, 170],
+            "seaTempC": null,
+            "humidity": [65, 67, 64, 58, 52, 48, 47, 50, 52, 54, 56, 62]
+          },
+          "crowds": [3, 4, 3, 2, 3, 3, 5, 4, 3, 3, 2, 3],
+          "risks": [
+            { "type": "extreme cold", "from": "05-15", "to": "08-31", "note": "Nights fall to −15 °C or lower on Uyuni tours, in basic unheated lodgings." },
+            { "type": "flooding", "from": "12-01", "to": "03-31", "note": "Heavy rain floods the salar and cuts roads; landslides hit the Death Road." }
+          ],
+          "recurringHolidays": [
+            { "name": "Gran Poder", "approx": "Late May or June, Saturday before Trinity Sunday", "effect": "La Paz's huge folk-dance parade; central streets close.", "moving": { "anchor": "easter", "offsetDays": 55, "durationDays": 1 } },
+            { "name": "Carnival", "approx": "February/March, Saturday to Tuesday before Ash Wednesday", "effect": "Oruro's UNESCO-listed Carnival and celebrations nationwide; Oruro rooms triple in price and buses fill.", "moving": { "anchor": "easter", "offsetDays": -50, "durationDays": 4 } },
+            { "name": "Semana Santa", "approx": "Easter week", "effect": "Pilgrims walk to Copacabana on Lake Titicaca; transport fills.", "moving": { "anchor": "easter", "offsetDays": -3, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 25, "shoulder": 30, "high": 40 },
+            "midrangePerDay": { "low": 60, "shoulder": 75, "high": 95 },
+            "hotelNightMid": { "low": 35, "shoulder": 50, "high": 70 },
+            "notes": "Bolivia is South America's cheapest country. A 3-day Uyuni jeep tour costs about $150–250; carry US dollars in cash, as cards and ATMs can be unreliable."
+          }
+        },
+        {
+          "id": "lowlands",
+          "name": "Santa Cruz & the Amazon Lowlands",
+          "description": "Santa Cruz de la Sierra, Samaipata and Amboró National Park, the Jesuit missions of Chiquitos, Rurrenabaque, Madidi National Park and the Pampas del Yacuma.",
+          "lat": -17.78,
+          "lon": -63.18,
+          "tags": ["jungle", "wildlife", "nature", "culture"],
+          "best": [
+            { "from": "05-01", "to": "10-15", "why": "Dry season: wildlife gathers along the rivers in the Pampas and Madidi, flights and roads to Rurrenabaque run reliably and the heat is bearable.", "goodFor": ["nature", "roadtrip", "city"] }
+          ],
+          "worst": [
+            { "from": "12-15", "to": "03-15", "why": "Wet season: rivers flood, Rurrenabaque flights are delayed and roads become impassable mud; very hot and humid." }
+          ],
+          "shoulder": [
+            { "from": "03-16", "to": "04-30", "why": "Rains easing; lush green forest." },
+            { "from": "10-16", "to": "12-14", "why": "Heating up to 35 °C, with the first storms." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "05-01", "to": "10-31" } ],
+            "roadtrip": [ { "from": "05-01", "to": "10-15" } ],
+            "city": [ { "from": "04-15", "to": "11-15" } ]
+          },
+          "climate": {
+            "avgHighC": [31, 31, 30, 28, 26, 24, 25, 28, 30, 31, 31, 31],
+            "avgLowC": [22, 22, 21, 20, 17, 15, 15, 16, 18, 20, 21, 22],
+            "rainMm": [190, 140, 140, 90, 80, 60, 40, 40, 60, 100, 140, 170],
+            "rainDays": [14, 12, 12, 9, 8, 6, 4, 4, 6, 9, 11, 13],
+            "sunHours": [180, 170, 170, 170, 170, 160, 200, 210, 190, 190, 190, 180],
+            "seaTempC": null,
+            "humidity": [74, 76, 77, 77, 77, 75, 67, 60, 58, 64, 69, 72]
+          },
+          "crowds": [2, 3, 2, 2, 2, 3, 4, 4, 3, 2, 2, 2],
+          "risks": [
+            { "type": "flooding", "from": "01-01", "to": "04-15", "note": "The Beni and Mamoré rivers flood large parts of the lowlands." },
+            { "type": "cold snap", "from": "06-01", "to": "08-31", "note": "'Surazo' cold fronts can drop Santa Cruz and Rurrenabaque to 10 °C for a few days." },
+            { "type": "wildfire", "from": "08-01", "to": "10-15", "note": "Forest and pasture fires cause heavy smoke around Santa Cruz and the Chiquitania." }
+          ],
+          "recurringHolidays": [
+            { "name": "Carnival", "approx": "February/March, Saturday to Tuesday before Ash Wednesday", "effect": "Oruro's UNESCO-listed Carnival and celebrations nationwide; Oruro rooms triple in price and buses fill.", "moving": { "anchor": "easter", "offsetDays": -50, "durationDays": 4 } },
+            { "name": "Semana Santa", "approx": "Easter week", "effect": "Pilgrims walk to Copacabana on Lake Titicaca; transport fills.", "moving": { "anchor": "easter", "offsetDays": -3, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 35, "high": 45 },
+            "midrangePerDay": { "low": 70, "shoulder": 85, "high": 110 },
+            "hotelNightMid": { "low": 40, "shoulder": 55, "high": 80 },
+            "notes": "Madidi and Pampas tours from Rurrenabaque cost about $70–150 per person per day, all-inclusive. Santa Cruz is Bolivia's most modern and expensive city."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "La Paz", "aliases": ["El Alto", "Nuestra Señora de La Paz"], "region": "altiplano" },
+        { "name": "Uyuni", "aliases": ["Salar de Uyuni", "Uyuni Salt Flats", "Salt Flats"], "region": "altiplano" },
+        { "name": "Isla del Sol", "aliases": ["Copacabana Bolivia"], "region": "altiplano" },
+        { "name": "Potosí", "aliases": ["Potosi", "Cerro Rico"], "region": "altiplano" },
+        { "name": "Sucre", "aliases": [], "region": "altiplano" },
+        { "name": "Tiwanaku", "aliases": ["Tiahuanaco"], "region": "altiplano" },
+        { "name": "Oruro", "aliases": [], "region": "altiplano" },
+        { "name": "Laguna Colorada", "aliases": ["Eduardo Avaroa", "Southern Altiplano", "Tupiza"], "region": "altiplano" },
+        { "name": "Coroico", "aliases": ["Death Road", "Yungas", "North Yungas Road"], "region": "altiplano" },
+        { "name": "Cochabamba", "aliases": [], "region": "altiplano" },
+        { "name": "Santa Cruz", "aliases": ["Santa Cruz de la Sierra"], "region": "lowlands" },
+        { "name": "Samaipata", "aliases": ["Amboró", "Amboro"], "region": "lowlands" },
+        { "name": "Rurrenabaque", "aliases": ["Rurre", "Madidi", "Pampas del Yacuma"], "region": "lowlands" },
+        { "name": "Chiquitos", "aliases": ["Chiquitania", "San José de Chiquitos"], "region": "lowlands" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Bolivia" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/bolivia" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/bolivia/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
       "iso2": "BR",
       "isoNum": "076",
       "name": "Brazil",
@@ -365,6 +834,1456 @@
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/brazil" },
         { "label": "Climate data (World Bank)", "url": "https://climateknowledgeportal.worldbank.org/country/brazil/climate-data-historical" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/brazil/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "CL",
+      "isoNum": "152",
+      "name": "Chile",
+      "aliases": ["República de Chile", "Republica de Chile", "Republic of Chile"],
+      "continent": "South America",
+      "flag": "🇨🇱",
+      "summary": "Chile stretches 4,300 km from desert to ice, and its seasons are the reverse of Europe's. The Atacama in the north is dry and sunny all year, though summer 'Altiplanic winter' storms (January–February) can close high-altitude excursions. Central Chile (Santiago, Valparaíso, the wine valleys) is Mediterranean: best in spring (September–November) and at harvest (March–April), with skiing from June to September. The Lake District, Chiloé and Patagonia are summer destinations (December–March), as rain and winter close much of the south from May to September. Easter Island is warm all year, busiest in January–February.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "north",
+          "name": "Atacama Desert & the North",
+          "description": "San Pedro de Atacama, the Valle de la Luna, El Tatio geysers, the altiplano lagoons, Calama, Iquique, Arica and Lauca National Park.",
+          "lat": -22.91,
+          "lon": -68.2,
+          "tags": ["desert", "stars", "altitude", "adventure"],
+          "best": [
+            { "from": "03-15", "to": "05-31", "why": "Clear autumn skies, 22–25 °C days and the altiplano roads open after the summer storms; superb stargazing.", "goodFor": ["nature", "roadtrip", "mountain", "sun"] },
+            { "from": "09-01", "to": "12-15", "why": "Dry, sunny spring with milder nights for the geysers and lagoons, before the summer rush.", "goodFor": ["nature", "roadtrip", "mountain", "sun"] }
+          ],
+          "worst": [
+            { "from": "01-15", "to": "02-28", "why": "The 'Altiplanic winter': afternoon storms over the high Andes can close the roads to El Tatio, the lagoons and Bolivia, while Chilean holidaymakers fill San Pedro." }
+          ],
+          "shoulder": [
+            { "from": "03-01", "to": "03-14", "why": "Storms ending; the altiplano is green and quieter." },
+            { "from": "06-01", "to": "08-31", "why": "Sunny days but nights down to −10 °C at the geysers and lagoons; snow can close high passes, busy in July." },
+            { "from": "12-16", "to": "01-14", "why": "Warm and busy summer holidays, with the first altiplano storms." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "03-01", "to": "12-31" } ],
+            "roadtrip": [ { "from": "03-01", "to": "12-15" } ],
+            "mountain": [ { "from": "03-15", "to": "12-15" } ],
+            "sun": [ { "from": "03-01", "to": "12-31" } ]
+          },
+          "climate": {
+            "avgHighC": [26, 26, 25, 23, 20, 18, 18, 20, 22, 24, 25, 26],
+            "avgLowC": [8, 8, 6, 3, 0, -2, -3, -1, 1, 3, 5, 7],
+            "rainMm": [10, 12, 4, 1, 0, 1, 1, 1, 1, 0, 1, 2],
+            "rainDays": [2, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+            "sunHours": [330, 290, 320, 320, 300, 290, 300, 320, 330, 350, 350, 350],
+            "seaTempC": null,
+            "humidity": [30, 35, 30, 25, 25, 28, 28, 25, 22, 20, 20, 24]
+          },
+          "crowds": [4, 4, 3, 3, 2, 2, 4, 3, 3, 3, 3, 4],
+          "risks": [
+            { "type": "thunderstorms", "from": "01-01", "to": "03-15", "note": "Altiplanic storms with flash floods and closed high-altitude roads." },
+            { "type": "extreme cold", "from": "06-01", "to": "08-31", "note": "Pre-dawn temperatures around −10 °C at El Tatio and the altiplano lagoons." }
+          ],
+          "recurringHolidays": [
+            { "name": "Chilean summer holidays", "approx": "January – February", "effect": "Chileans head south and to the coast: the Lake District, Patagonia and beach resorts fill and prices peak.", "dates": { "from": "01-01", "to": "02-28" } },
+            { "name": "Winter school holidays", "approx": "Two weeks around early July", "effect": "Ski resorts, San Pedro and the cities are busy with families.", "dates": { "from": "07-01", "to": "07-14" } },
+            { "name": "Fiestas Patrias", "approx": "18–19 September", "effect": "Chile's national holidays bring fondas, barbecues and a long weekend; transport and the coast are busy.", "dates": { "from": "09-17", "to": "09-20" } },
+            { "name": "Semana Santa", "approx": "Easter week", "effect": "A long weekend of domestic travel; buses and coastal towns fill.", "moving": { "anchor": "easter", "offsetDays": -3, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 50, "shoulder": 60, "high": 75 },
+            "midrangePerDay": { "low": 110, "shoulder": 140, "high": 170 },
+            "hotelNightMid": { "low": 80, "shoulder": 100, "high": 140 },
+            "notes": "San Pedro is pricey for Chile: tours cost $25–80 each and hotels add up. Book observatory tours ahead; they don't run around the full moon."
+          }
+        },
+        {
+          "id": "central",
+          "name": "Santiago & Central Chile",
+          "description": "Santiago, Valparaíso and Viña del Mar, the Casablanca, Maipo and Colchagua wine valleys, the Cajón del Maipo, the Elqui Valley, and the Valle Nevado, La Parva and Portillo ski resorts.",
+          "lat": -33.45,
+          "lon": -70.67,
+          "tags": ["city", "wine", "beach", "ski", "food"],
+          "best": [
+            { "from": "09-15", "to": "11-30", "why": "Spring: 20–27 °C sunshine, the Andes still snow-capped above Santiago and quiet wineries.", "goodFor": ["city", "roadtrip", "nature", "mountain"] },
+            { "from": "03-01", "to": "05-14", "why": "Harvest time in the wine valleys, with warm, dry 22–28 °C days and the summer crowds gone.", "goodFor": ["city", "roadtrip", "nature", "sun"] },
+            { "from": "07-01", "to": "09-14", "why": "Ski season at Valle Nevado, La Parva and Portillo, an hour or two from Santiago.", "goodFor": ["snow", "mountain"] }
+          ],
+          "worst": [
+            { "from": "05-15", "to": "06-30", "why": "Cold, damp start to winter: frontal rain, Santiago's worst smog and the ski lifts not yet reliably open." }
+          ],
+          "shoulder": [
+            { "from": "12-01", "to": "02-28", "why": "Hot, dry summer (30 °C+): good for Valparaíso and the beaches, which are packed, while Santiago empties in February." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "09-01", "to": "05-15" } ],
+            "beach": [ { "from": "12-01", "to": "03-15" } ],
+            "sun": [ { "from": "10-15", "to": "04-15" } ],
+            "snow": [ { "from": "06-20", "to": "09-20" } ],
+            "mountain": [ { "from": "10-15", "to": "04-30" }, { "from": "07-01", "to": "09-15" } ],
+            "roadtrip": [ { "from": "09-15", "to": "05-15" } ],
+            "nature": [ { "from": "09-15", "to": "05-15" } ]
+          },
+          "climate": {
+            "avgHighC": [31, 31, 28, 24, 19, 16, 15, 17, 20, 23, 27, 30],
+            "avgLowC": [14, 13, 12, 9, 6, 4, 4, 4, 6, 8, 11, 13],
+            "rainMm": [1, 1, 4, 14, 48, 70, 70, 50, 20, 12, 6, 2],
+            "rainDays": [0, 0, 1, 2, 5, 6, 6, 5, 3, 2, 1, 0],
+            "sunHours": [360, 310, 270, 200, 150, 120, 140, 170, 200, 250, 300, 340],
+            "seaTempC": [15, 15, 15, 14, 13, 13, 12, 12, 12, 13, 13, 14],
+            "humidity": [55, 57, 62, 70, 78, 82, 81, 77, 73, 66, 59, 55]
+          },
+          "crowds": [4, 4, 3, 3, 2, 2, 4, 3, 4, 3, 3, 3],
+          "risks": [
+            { "type": "air pollution", "from": "05-01", "to": "08-31", "note": "Winter inversions trap smog over Santiago; alerts restrict wood stoves and cars." },
+            { "type": "wildfire", "from": "12-01", "to": "03-31", "note": "Forest fires around Valparaíso and Viña del Mar (deadly in February 2024)." }
+          ],
+          "recurringHolidays": [
+            { "name": "Viña del Mar International Song Festival", "approx": "Late February (about a week)", "effect": "A televised music festival that fills Viña del Mar's hotels.", "dates": { "from": "02-20", "to": "02-28" } },
+            { "name": "Chilean summer holidays", "approx": "January – February", "effect": "Chileans head south and to the coast: the Lake District, Patagonia and beach resorts fill and prices peak.", "dates": { "from": "01-01", "to": "02-28" } },
+            { "name": "Winter school holidays", "approx": "Two weeks around early July", "effect": "Ski resorts, San Pedro and the cities are busy with families.", "dates": { "from": "07-01", "to": "07-14" } },
+            { "name": "Fiestas Patrias", "approx": "18–19 September", "effect": "Chile's national holidays bring fondas, barbecues and a long weekend; transport and the coast are busy.", "dates": { "from": "09-17", "to": "09-20" } },
+            { "name": "Semana Santa", "approx": "Easter week", "effect": "A long weekend of domestic travel; buses and coastal towns fill.", "moving": { "anchor": "easter", "offsetDays": -3, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 45, "shoulder": 55, "high": 65 },
+            "midrangePerDay": { "low": 100, "shoulder": 120, "high": 150 },
+            "hotelNightMid": { "low": 70, "shoulder": 90, "high": 120 },
+            "notes": "Chile is one of South America's pricier countries. Wine-valley day tours from Santiago run $80–150 and ski passes about $100 a day."
+          },
+          "seaLat": -33.02,
+          "seaLon": -71.55
+        },
+        {
+          "id": "lakes",
+          "name": "Lake District, Chiloé & the Carretera Austral",
+          "description": "Pucón and Villarrica volcano, Puerto Varas and Lake Llanquihue, Osorno volcano, Puerto Montt, Valdivia, the Chiloé archipelago and the Carretera Austral (Futaleufú, Coyhaique, the Marble Caves).",
+          "lat": -41.32,
+          "lon": -72.98,
+          "tags": ["nature", "lakes", "volcanoes", "hiking", "roadtrip"],
+          "best": [
+            { "from": "12-01", "to": "03-15", "why": "Summer: the driest, warmest weeks (20–25 °C) with long days for climbing Villarrica, kayaking, the Carretera Austral and Chiloé.", "goodFor": ["nature", "roadtrip", "mountain"] }
+          ],
+          "worst": [
+            { "from": "05-01", "to": "08-31", "why": "Winter: relentless rain (200 mm+ a month), short days and many Carretera Austral services closed." }
+          ],
+          "shoulder": [
+            { "from": "03-16", "to": "04-30", "why": "Autumn colours and fewer people, but the rain is returning." },
+            { "from": "09-01", "to": "11-30", "why": "Spring: green and flowering, but showery and changeable." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "11-01", "to": "03-31" } ],
+            "roadtrip": [ { "from": "12-01", "to": "03-31" } ],
+            "mountain": [ { "from": "12-01", "to": "03-31" } ]
+          },
+          "climate": {
+            "avgHighC": [21, 21, 19, 16, 13, 11, 10, 11, 13, 15, 17, 19],
+            "avgLowC": [9, 9, 8, 6, 5, 4, 3, 3, 4, 5, 7, 8],
+            "rainMm": [85, 90, 115, 165, 240, 230, 220, 180, 140, 110, 105, 95],
+            "rainDays": [10, 10, 12, 15, 19, 19, 19, 18, 15, 14, 13, 12],
+            "sunHours": [230, 200, 160, 110, 70, 50, 60, 80, 110, 160, 190, 210],
+            "seaTempC": [14, 14, 13, 12, 11, 10, 10, 10, 10, 11, 12, 13],
+            "humidity": [77, 78, 81, 85, 88, 89, 88, 87, 84, 81, 79, 78]
+          },
+          "crowds": [5, 5, 3, 2, 1, 1, 2, 1, 2, 2, 3, 4],
+          "risks": [
+            { "type": "heavy rain", "from": "04-15", "to": "09-15", "note": "Frontal systems bring days of rain and strong wind." },
+            { "type": "road closures", "from": "05-01", "to": "09-30", "note": "Landslides and snow cut sections of the Carretera Austral, and ferries are cancelled in storms." }
+          ],
+          "recurringHolidays": [
+            { "name": "Semanas Musicales de Frutillar", "approx": "Late January – early February", "effect": "Frutillar's classical music festival fills hotels around Lake Llanquihue.", "dates": { "from": "01-27", "to": "02-05" } },
+            { "name": "Chilean summer holidays", "approx": "January – February", "effect": "Chileans head south and to the coast: the Lake District, Patagonia and beach resorts fill and prices peak.", "dates": { "from": "01-01", "to": "02-28" } },
+            { "name": "Winter school holidays", "approx": "Two weeks around early July", "effect": "Ski resorts, San Pedro and the cities are busy with families.", "dates": { "from": "07-01", "to": "07-14" } },
+            { "name": "Fiestas Patrias", "approx": "18–19 September", "effect": "Chile's national holidays bring fondas, barbecues and a long weekend; transport and the coast are busy.", "dates": { "from": "09-17", "to": "09-20" } },
+            { "name": "Semana Santa", "approx": "Easter week", "effect": "A long weekend of domestic travel; buses and coastal towns fill.", "moving": { "anchor": "easter", "offsetDays": -3, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 50, "high": 65 },
+            "midrangePerDay": { "low": 90, "shoulder": 110, "high": 140 },
+            "hotelNightMid": { "low": 60, "shoulder": 80, "high": 120 },
+            "notes": "Hostels and cabañas are good value outside January–February. On the Carretera Austral plan fuel, cash and ferry bookings ahead."
+          }
+        },
+        {
+          "id": "patagonia",
+          "name": "Torres del Paine & Chilean Patagonia",
+          "description": "Torres del Paine National Park, Puerto Natales, Punta Arenas and the penguins of Isla Magdalena, Chilean Tierra del Fuego and Puerto Williams on Navarino Island.",
+          "lat": -51.73,
+          "lon": -72.51,
+          "tags": ["nature", "hiking", "glaciers", "wildlife"],
+          "best": [
+            { "from": "11-15", "to": "03-15", "why": "Summer: 15–17 hours of daylight, all W and O trek refugios and boats running, and Isla Magdalena's penguins in residence.", "goodFor": ["nature", "mountain", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "05-01", "to": "08-31", "why": "Winter: snow, ice and 8 hours of daylight; most refugios, boats and Natales hotels close (guided winter treks are possible)." }
+          ],
+          "shoulder": [
+            { "from": "09-01", "to": "11-14", "why": "Spring: quieter trails and cheaper rooms, but wind and spring snow; refugios open from October." },
+            { "from": "03-16", "to": "04-30", "why": "Autumn colours in the lenga forests and calmer winds, with services closing by late April." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "10-15", "to": "04-15" } ],
+            "mountain": [ { "from": "11-01", "to": "04-15" } ],
+            "roadtrip": [ { "from": "11-01", "to": "03-31" } ]
+          },
+          "climate": {
+            "avgHighC": [16, 16, 14, 11, 7, 4, 4, 6, 9, 12, 14, 15],
+            "avgLowC": [7, 7, 5, 4, 2, 0, -1, 0, 1, 3, 4, 6],
+            "rainMm": [38, 30, 44, 46, 46, 40, 36, 36, 30, 25, 28, 35],
+            "rainDays": [8, 7, 9, 10, 10, 10, 9, 9, 8, 8, 8, 9],
+            "sunHours": [200, 170, 130, 90, 55, 35, 50, 80, 120, 170, 200, 210],
+            "seaTempC": [9, 9, 8, 7, 6, 5, 5, 5, 5, 6, 7, 8],
+            "humidity": [66, 69, 73, 78, 82, 85, 85, 81, 74, 68, 64, 65]
+          },
+          "crowds": [5, 5, 4, 2, 1, 1, 1, 1, 2, 3, 4, 5],
+          "risks": [
+            { "type": "strong wind", "from": "10-01", "to": "03-31", "note": "Gusts over 100 km/h on the W Trek can close passes and knock hikers over." },
+            { "type": "extreme cold", "from": "06-01", "to": "08-31", "note": "Snow and sub-zero temperatures; roads to the park can ice up." }
+          ],
+          "recurringHolidays": [
+            { "name": "Chilean summer holidays", "approx": "January – February", "effect": "Chileans head south and to the coast: the Lake District, Patagonia and beach resorts fill and prices peak.", "dates": { "from": "01-01", "to": "02-28" } },
+            { "name": "Winter school holidays", "approx": "Two weeks around early July", "effect": "Ski resorts, San Pedro and the cities are busy with families.", "dates": { "from": "07-01", "to": "07-14" } },
+            { "name": "Fiestas Patrias", "approx": "18–19 September", "effect": "Chile's national holidays bring fondas, barbecues and a long weekend; transport and the coast are busy.", "dates": { "from": "09-17", "to": "09-20" } },
+            { "name": "Semana Santa", "approx": "Easter week", "effect": "A long weekend of domestic travel; buses and coastal towns fill.", "moving": { "anchor": "easter", "offsetDays": -3, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 60, "shoulder": 75, "high": 90 },
+            "midrangePerDay": { "low": 130, "shoulder": 170, "high": 220 },
+            "hotelNightMid": { "low": 90, "shoulder": 130, "high": 200 },
+            "notes": "Torres del Paine entry is about $50 for foreigners, and refugio and campsite bookings must be made months ahead for December–February. Puerto Natales is the cheaper base."
+          }
+        },
+        {
+          "id": "easter",
+          "name": "Easter Island (Rapa Nui)",
+          "description": "Hanga Roa, the moai at Ahu Tongariki and the Rano Raraku quarry, the Orongo ceremonial village and Rano Kau crater, and Anakena beach.",
+          "lat": -27.15,
+          "lon": -109.43,
+          "tags": ["culture", "archaeology", "beach", "diving", "island"],
+          "best": [
+            { "from": "03-01", "to": "04-30", "why": "Warm 25–27 °C days, a 24 °C sea for Anakena and snorkelling, and fewer visitors after the summer peak.", "goodFor": ["beach", "diving", "sun", "nature"] },
+            { "from": "10-15", "to": "12-15", "why": "Spring warmth, drier weather and clear water for diving before the summer crowds.", "goodFor": ["beach", "diving", "sun", "nature"] }
+          ],
+          "worst": [
+            { "from": "06-01", "to": "08-31", "why": "Winter: cooler (21 °C), windy and wetter, with a choppy sea, though the moai sites stay open." }
+          ],
+          "shoulder": [
+            { "from": "12-16", "to": "02-28", "why": "Hot peak season including the Tapati festival in early February; flights and rooms book out." },
+            { "from": "05-01", "to": "05-31", "why": "The rainiest month, but quiet." },
+            { "from": "09-01", "to": "10-14", "why": "Cool and breezy, warming up." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "11-01", "to": "04-30" } ],
+            "diving": [ { "from": "10-01", "to": "05-31" } ],
+            "sun": [ { "from": "11-01", "to": "04-30" } ],
+            "nature": [ { "from": "09-01", "to": "05-31" } ]
+          },
+          "climate": {
+            "avgHighC": [27, 28, 27, 25, 23, 22, 21, 21, 21, 22, 24, 26],
+            "avgLowC": [19, 20, 19, 18, 17, 15, 15, 15, 15, 16, 17, 18],
+            "rainMm": [75, 90, 95, 120, 155, 110, 105, 90, 85, 70, 75, 80],
+            "rainDays": [11, 10, 12, 14, 16, 15, 16, 14, 12, 10, 10, 10],
+            "sunHours": [260, 230, 215, 180, 155, 135, 145, 165, 180, 210, 220, 240],
+            "seaTempC": [24, 25, 25, 24, 23, 22, 21, 20, 20, 20, 21, 23],
+            "humidity": [77, 77, 79, 81, 82, 82, 81, 80, 79, 78, 78, 77]
+          },
+          "crowds": [4, 5, 3, 3, 2, 2, 3, 2, 2, 3, 3, 4],
+          "risks": [
+            { "type": "rough seas", "from": "05-01", "to": "09-30", "note": "Winter swells make boat trips and snorkelling difficult." },
+            { "type": "heavy rain", "from": "04-01", "to": "07-31", "note": "Showery spells, heaviest in May." }
+          ],
+          "recurringHolidays": [
+            { "name": "Tapati Rapa Nui", "approx": "Late January – mid-February", "effect": "The island's cultural festival of competitions, dance and the haka pei; book flights and lodging months ahead.", "dates": { "from": "01-31", "to": "02-14" } },
+            { "name": "Chilean summer holidays", "approx": "January – February", "effect": "Chileans head south and to the coast: the Lake District, Patagonia and beach resorts fill and prices peak.", "dates": { "from": "01-01", "to": "02-28" } },
+            { "name": "Winter school holidays", "approx": "Two weeks around early July", "effect": "Ski resorts, San Pedro and the cities are busy with families.", "dates": { "from": "07-01", "to": "07-14" } },
+            { "name": "Fiestas Patrias", "approx": "18–19 September", "effect": "Chile's national holidays bring fondas, barbecues and a long weekend; transport and the coast are busy.", "dates": { "from": "09-17", "to": "09-20" } },
+            { "name": "Semana Santa", "approx": "Easter week", "effect": "A long weekend of domestic travel; buses and coastal towns fill.", "moving": { "anchor": "easter", "offsetDays": -3, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 70, "shoulder": 85, "high": 100 },
+            "midrangePerDay": { "low": 150, "shoulder": 180, "high": 220 },
+            "hotelNightMid": { "low": 110, "shoulder": 140, "high": 180 },
+            "notes": "Everything is flown in from Santiago, so food is expensive. The compulsory national park ticket (about $80) is valid for 10 days, and a licensed guide is required at most sites."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Santiago", "aliases": ["Santiago de Chile", "Stgo"], "region": "central" },
+        { "name": "Valparaíso", "aliases": ["Valparaiso", "Valpo"], "region": "central" },
+        { "name": "Viña del Mar", "aliases": ["Vina del Mar", "Viña"], "region": "central" },
+        { "name": "Casablanca", "aliases": ["Casablanca Valley", "Valle de Casablanca"], "region": "central" },
+        { "name": "Colchagua", "aliases": ["Colchagua Valley", "Valle de Colchagua"], "region": "central" },
+        { "name": "Cajón del Maipo", "aliases": ["Cajon del Maipo"], "region": "central" },
+        { "name": "Valle Nevado", "aliases": ["La Parva", "Farellones"], "region": "central" },
+        { "name": "Portillo", "aliases": [], "region": "central" },
+        { "name": "La Serena", "aliases": ["Elqui Valley", "Valle de Elqui", "Vicuña"], "region": "central" },
+        { "name": "San Pedro de Atacama", "aliases": ["Atacama", "Atacama Desert", "Valle de la Luna", "Moon Valley"], "region": "north" },
+        { "name": "El Tatio", "aliases": ["Tatio Geysers"], "region": "north" },
+        { "name": "Calama", "aliases": ["Chuquicamata"], "region": "north" },
+        { "name": "Iquique", "aliases": ["Humberstone"], "region": "north" },
+        { "name": "Arica", "aliases": ["Putre", "Lauca National Park"], "region": "north" },
+        { "name": "Pucón", "aliases": ["Pucon", "Villarrica"], "region": "lakes" },
+        { "name": "Puerto Varas", "aliases": ["Lake Llanquihue", "Frutillar", "Osorno Volcano"], "region": "lakes" },
+        { "name": "Puerto Montt", "aliases": [], "region": "lakes" },
+        { "name": "Valdivia", "aliases": [], "region": "lakes" },
+        { "name": "Chiloé", "aliases": ["Chiloe", "Castro", "Ancud"], "region": "lakes" },
+        { "name": "Carretera Austral", "aliases": ["Coyhaique", "Futaleufú", "Futaleufu", "Marble Caves", "Puerto Río Tranquilo"], "region": "lakes" },
+        { "name": "Torres del Paine", "aliases": ["Torres del Paine National Park", "W Trek"], "region": "patagonia" },
+        { "name": "Puerto Natales", "aliases": [], "region": "patagonia" },
+        { "name": "Punta Arenas", "aliases": ["Isla Magdalena"], "region": "patagonia" },
+        { "name": "Puerto Williams", "aliases": ["Navarino", "Cape Horn"], "region": "patagonia" },
+        { "name": "Easter Island", "aliases": ["Rapa Nui", "Isla de Pascua", "Hanga Roa", "Anakena"], "region": "easter" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://chile.travel" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Chile" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/chile" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/chile/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "CO",
+      "isoNum": "170",
+      "name": "Colombia",
+      "aliases": ["República de Colombia", "Republica de Colombia", "Republic of Colombia"],
+      "continent": "South America",
+      "flag": "🇨🇴",
+      "summary": "Colombia is close to the equator, so temperature depends on altitude rather than the month: the Caribbean coast is 30–32 °C all year, Medellín has mild 'eternal spring' weather and Bogotá, at 2,600 m, has cool 19 °C days. The seasons are wet and dry. The Andes have two drier spells (December–March and June–August) and two rainy seasons (April–May and October–November), while the Caribbean coast is driest from December to April and wettest from September to November. Colombians travel at Christmas–New Year, Semana Santa and in June–July, when coastal prices jump. Some rural areas remain unsafe, so check government travel advice.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "caribbean",
+          "name": "Caribbean Coast",
+          "description": "Cartagena and the Rosario Islands, Santa Marta, Tayrona National Park, Minca, Palomino, the Ciudad Perdida trek, Barranquilla, La Guajira and San Andrés.",
+          "lat": 10.39,
+          "lon": -75.51,
+          "tags": ["beach", "city", "culture", "diving", "nightlife", "hiking"],
+          "best": [
+            { "from": "01-15", "to": "04-15", "why": "Dry season: sunny 31 °C days, a steady breeze and calm seas after the Christmas crowds, with Barranquilla's Carnival in February or March.", "goodFor": ["beach", "city", "sun", "diving", "nature", "mountain"] }
+          ],
+          "worst": [
+            { "from": "09-15", "to": "11-30", "why": "The wettest months: heavy afternoon downpours, flooded streets, sticky humidity and muddy trails in Tayrona and to the Lost City." }
+          ],
+          "shoulder": [
+            { "from": "12-01", "to": "01-14", "why": "The dry season begins, but Christmas–New Year crowds push prices to their peak." },
+            { "from": "04-16", "to": "09-14", "why": "Hot and humid with short afternoon storms; the 'veranillo de San Juan' brings a drier spell in June–July." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "12-01", "to": "04-30" }, { "from": "06-15", "to": "08-15" } ],
+            "city": [ { "from": "12-01", "to": "04-30" } ],
+            "sun": [ { "from": "12-15", "to": "04-15" } ],
+            "diving": [ { "from": "01-01", "to": "04-30" }, { "from": "06-01", "to": "09-15" } ],
+            "nature": [ { "from": "12-15", "to": "04-15" } ],
+            "mountain": [ { "from": "12-15", "to": "04-15" } ]
+          },
+          "climate": {
+            "avgHighC": [31, 31, 31, 32, 32, 32, 32, 32, 32, 31, 31, 31],
+            "avgLowC": [23, 23, 24, 25, 26, 26, 25, 25, 25, 25, 25, 24],
+            "rainMm": [5, 1, 3, 25, 95, 95, 90, 110, 130, 240, 140, 40],
+            "rainDays": [1, 0, 0, 3, 9, 10, 9, 11, 12, 15, 11, 4],
+            "sunHours": [270, 250, 250, 220, 190, 180, 200, 200, 170, 160, 180, 230],
+            "seaTempC": [27, 26, 27, 27, 28, 28, 28, 28, 29, 29, 28, 28],
+            "humidity": [79, 78, 78, 80, 81, 81, 80, 81, 82, 83, 83, 81]
+          },
+          "crowds": [5, 4, 4, 3, 2, 3, 4, 3, 2, 2, 3, 5],
+          "risks": [
+            { "type": "hurricane", "from": "08-01", "to": "11-15", "note": "San Andrés and Providencia lie in the hurricane belt (Hurricane Iota, 2020); the mainland coast is rarely hit." },
+            { "type": "flooding", "from": "09-15", "to": "11-30", "note": "Downpours flood the streets of Cartagena and Santa Marta." }
+          ],
+          "recurringHolidays": [
+            { "name": "Barranquilla Carnival", "approx": "February/March, the four days before Ash Wednesday", "effect": "One of the world's biggest carnivals: Barranquilla's hotels sell out and triple their prices.", "moving": { "anchor": "easter", "offsetDays": -50, "durationDays": 4 } },
+            { "name": "Christmas and New Year", "approx": "Mid-December – mid-January", "effect": "Colombians head to the coast: Cartagena and Santa Marta prices peak and beaches fill.", "dates": { "from": "12-15", "to": "01-15" } },
+            { "name": "Semana Santa", "approx": "Easter week", "effect": "Domestic travel peaks; beaches and towns such as Villa de Leyva and Mompox fill.", "moving": { "anchor": "easter", "offsetDays": -7, "durationDays": 8 } },
+            { "name": "Mid-year school holidays", "approx": "Mid-June – early July", "effect": "Coastal resorts and the Coffee Triangle are busy with families.", "dates": { "from": "06-15", "to": "07-10" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 35, "shoulder": 45, "high": 60 },
+            "midrangePerDay": { "low": 90, "shoulder": 120, "high": 160 },
+            "hotelNightMid": { "low": 70, "shoulder": 100, "high": 160 },
+            "notes": "Cartagena's walled city is Colombia's priciest place to stay, especially in December–January. Tayrona's entry fee is about $20–30, and the park closes for a few weeks each year (usually in February, June and October) to recover."
+          }
+        },
+        {
+          "id": "andes",
+          "name": "Bogotá, Medellín & the Andes",
+          "description": "Bogotá and Zipaquirá, Medellín and Guatapé, the Coffee Triangle (Salento, the Cocora Valley, Manizales, Pereira), Villa de Leyva, San Gil and Barichara, Cali, Popayán and San Agustín.",
+          "lat": 6.25,
+          "lon": -75.57,
+          "tags": ["city", "culture", "coffee", "hiking", "mountain", "nightlife"],
+          "best": [
+            { "from": "12-15", "to": "03-15", "why": "Main dry season: sunny days, clear views of the Cocora Valley's wax palms and good hiking, with Medellín at 27 °C and Bogotá crisp and bright.", "goodFor": ["city", "mountain", "nature", "roadtrip"] },
+            { "from": "06-15", "to": "08-31", "why": "The second dry spell, with Medellín's Feria de las Flores in early August and good coffee-farm and hiking weather.", "goodFor": ["city", "mountain", "nature", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "10-01", "to": "11-30", "why": "The second and wettest rainy season: daily downpours, muddy trails and landslides on mountain roads." }
+          ],
+          "shoulder": [
+            { "from": "03-16", "to": "06-14", "why": "First rainy season (April–May): afternoon showers, but green, uncrowded and cheaper." },
+            { "from": "09-01", "to": "09-30", "why": "Rains returning." },
+            { "from": "12-01", "to": "12-14", "why": "Rains tapering off; Medellín's Christmas lights (alumbrados) switch on." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "12-01", "to": "03-31" }, { "from": "06-15", "to": "09-15" } ],
+            "mountain": [ { "from": "12-15", "to": "03-15" }, { "from": "06-15", "to": "09-15" } ],
+            "nature": [ { "from": "12-15", "to": "03-31" }, { "from": "06-01", "to": "09-15" } ],
+            "roadtrip": [ { "from": "12-15", "to": "03-15" }, { "from": "06-15", "to": "09-15" } ]
+          },
+          "climate": {
+            "avgHighC": [28, 28, 28, 27, 27, 28, 28, 28, 28, 27, 27, 27],
+            "avgLowC": [17, 17, 17, 17, 17, 17, 16, 16, 16, 16, 16, 17],
+            "rainMm": [60, 80, 130, 190, 200, 140, 120, 150, 180, 210, 150, 90],
+            "rainDays": [9, 11, 16, 20, 21, 16, 15, 16, 19, 22, 18, 13],
+            "sunHours": [180, 160, 150, 140, 150, 170, 200, 190, 160, 140, 140, 160],
+            "seaTempC": null,
+            "humidity": [66, 66, 68, 71, 72, 69, 65, 65, 69, 72, 73, 70]
+          },
+          "crowds": [4, 3, 3, 3, 2, 3, 4, 4, 2, 2, 2, 4],
+          "risks": [
+            { "type": "landslides", "from": "04-01", "to": "05-31", "note": "Rainy-season landslides close mountain roads, especially in the Coffee Triangle." },
+            { "type": "landslides", "from": "10-01", "to": "11-30", "note": "The heaviest rains of the year trigger landslides and road closures across the Andes." }
+          ],
+          "recurringHolidays": [
+            { "name": "Feria de las Flores", "approx": "Early August (about 10 days)", "effect": "Medellín's flower festival and silleteros parade; hotels fill and prices rise.", "dates": { "from": "08-01", "to": "08-10" } },
+            { "name": "Feria de Cali", "approx": "25–30 December", "effect": "Cali's salsa festival with parades and concerts; rooms book out.", "dates": { "from": "12-25", "to": "12-30" } },
+            { "name": "Christmas and New Year", "approx": "Mid-December – mid-January", "effect": "Colombians head to the coast: Cartagena and Santa Marta prices peak and beaches fill.", "dates": { "from": "12-15", "to": "01-15" } },
+            { "name": "Semana Santa", "approx": "Easter week", "effect": "Domestic travel peaks; beaches and towns such as Villa de Leyva and Mompox fill.", "moving": { "anchor": "easter", "offsetDays": -7, "durationDays": 8 } },
+            { "name": "Mid-year school holidays", "approx": "Mid-June – early July", "effect": "Coastal resorts and the Coffee Triangle are busy with families.", "dates": { "from": "06-15", "to": "07-10" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 40, "high": 50 },
+            "midrangePerDay": { "low": 70, "shoulder": 90, "high": 120 },
+            "hotelNightMid": { "low": 50, "shoulder": 70, "high": 100 },
+            "notes": "Colombia is good value: a set lunch (menú del día) costs $3–5. Medellín's El Poblado and Bogotá's Chapinero are the main mid-range areas."
+          }
+        },
+        {
+          "id": "amazon-pacific",
+          "name": "Amazon & Pacific Coast",
+          "description": "Leticia and the Amazon (Puerto Nariño, Amacayacu), the Pacific coast of Chocó (Nuquí, Bahía Solano), Gorgona island and La Macarena's Caño Cristales.",
+          "lat": -4.21,
+          "lon": -69.94,
+          "tags": ["jungle", "wildlife", "whales", "nature", "remote"],
+          "best": [
+            { "from": "07-01", "to": "10-31", "why": "Humpback whales calve off Nuquí and Bahía Solano, Caño Cristales glows red (July–November) and the Amazon is in its drier, low-water season for jungle walks.", "goodFor": ["nature"] }
+          ],
+          "worst": [
+            { "from": "01-15", "to": "04-30", "why": "Caño Cristales is closed, there are no whales on the Pacific, and the Amazon is at its rainiest with rising rivers." }
+          ],
+          "shoulder": [
+            { "from": "05-01", "to": "06-30", "why": "High water in the Amazon, good for canoe trips through flooded forest, before the whales arrive." },
+            { "from": "11-01", "to": "01-14", "why": "Caño Cristales' last weeks in November; rains increasing in the Amazon." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "07-01", "to": "11-15" } ]
+          },
+          "climate": {
+            "avgHighC": [31, 31, 31, 31, 30, 30, 30, 31, 32, 32, 32, 31],
+            "avgLowC": [22, 22, 22, 22, 22, 21, 20, 21, 21, 22, 22, 22],
+            "rainMm": [290, 280, 300, 280, 240, 170, 150, 140, 170, 230, 250, 280],
+            "rainDays": [18, 17, 19, 18, 16, 12, 11, 10, 12, 15, 16, 18],
+            "sunHours": [120, 110, 110, 120, 140, 150, 180, 190, 170, 150, 140, 130],
+            "seaTempC": null,
+            "humidity": [86, 86, 87, 87, 86, 85, 83, 82, 83, 84, 85, 86]
+          },
+          "crowds": [2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 2, 3],
+          "risks": [
+            { "type": "flooding", "from": "02-01", "to": "05-31", "note": "The Amazon rises by up to 10 m and riverside trails flood." },
+            { "type": "heavy rain", "from": "09-01", "to": "11-30", "note": "Chocó's Pacific coast is one of the wettest places on Earth, with the heaviest rain late in the year." }
+          ],
+          "recurringHolidays": [
+            { "name": "Christmas and New Year", "approx": "Mid-December – mid-January", "effect": "Colombians head to the coast: Cartagena and Santa Marta prices peak and beaches fill.", "dates": { "from": "12-15", "to": "01-15" } },
+            { "name": "Semana Santa", "approx": "Easter week", "effect": "Domestic travel peaks; beaches and towns such as Villa de Leyva and Mompox fill.", "moving": { "anchor": "easter", "offsetDays": -7, "durationDays": 8 } },
+            { "name": "Mid-year school holidays", "approx": "Mid-June – early July", "effect": "Coastal resorts and the Coffee Triangle are busy with families.", "dates": { "from": "06-15", "to": "07-10" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 50, "high": 60 },
+            "midrangePerDay": { "low": 90, "shoulder": 110, "high": 140 },
+            "hotelNightMid": { "low": 50, "shoulder": 70, "high": 100 },
+            "notes": "Flights to Leticia, Nuquí, Bahía Solano and La Macarena are the main cost. Caño Cristales must be visited with an authorised operator (packages from about $300 for 3 days). Yellow fever vaccination is recommended."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Cartagena", "aliases": ["Cartagena de Indias", "Rosario Islands", "Islas del Rosario", "Barú", "Baru"], "region": "caribbean" },
+        { "name": "Santa Marta", "aliases": ["Taganga", "El Rodadero"], "region": "caribbean" },
+        { "name": "Tayrona", "aliases": ["Tayrona National Park", "Parque Tayrona", "Cabo San Juan"], "region": "caribbean" },
+        { "name": "Palomino", "aliases": [], "region": "caribbean" },
+        { "name": "Minca", "aliases": [], "region": "caribbean" },
+        { "name": "Ciudad Perdida", "aliases": ["Lost City", "Teyuna"], "region": "caribbean" },
+        { "name": "Barranquilla", "aliases": [], "region": "caribbean" },
+        { "name": "San Andrés", "aliases": ["San Andres", "Providencia"], "region": "caribbean" },
+        { "name": "La Guajira", "aliases": ["Cabo de la Vela", "Punta Gallinas"], "region": "caribbean" },
+        { "name": "Bogotá", "aliases": ["Bogota", "Santa Fe de Bogotá"], "region": "andes" },
+        { "name": "Zipaquirá", "aliases": ["Zipaquira", "Salt Cathedral"], "region": "andes" },
+        { "name": "Medellín", "aliases": ["Medellin", "Comuna 13"], "region": "andes" },
+        { "name": "Guatapé", "aliases": ["Guatape", "El Peñol"], "region": "andes" },
+        { "name": "Salento", "aliases": ["Cocora Valley", "Valle de Cocora", "Coffee Triangle", "Eje Cafetero", "Zona Cafetera"], "region": "andes" },
+        { "name": "Manizales", "aliases": [], "region": "andes" },
+        { "name": "Pereira", "aliases": [], "region": "andes" },
+        { "name": "Villa de Leyva", "aliases": [], "region": "andes" },
+        { "name": "San Gil", "aliases": ["Barichara"], "region": "andes" },
+        { "name": "Cali", "aliases": ["Santiago de Cali"], "region": "andes" },
+        { "name": "Popayán", "aliases": ["Popayan"], "region": "andes" },
+        { "name": "San Agustín", "aliases": ["San Agustin"], "region": "andes" },
+        { "name": "Leticia", "aliases": ["Puerto Nariño", "Puerto Narino", "Amacayacu"], "region": "amazon-pacific" },
+        { "name": "Nuquí", "aliases": ["Nuqui", "Chocó"], "region": "amazon-pacific" },
+        { "name": "Bahía Solano", "aliases": ["Bahia Solano", "El Valle"], "region": "amazon-pacific" },
+        { "name": "Caño Cristales", "aliases": ["Cano Cristales", "La Macarena"], "region": "amazon-pacific" },
+        { "name": "Gorgona", "aliases": ["Isla Gorgona"], "region": "amazon-pacific" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://colombia.travel" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Colombia" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/colombia" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/colombia/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "EC",
+      "isoNum": "218",
+      "name": "Ecuador",
+      "aliases": ["República del Ecuador", "Republica del Ecuador", "Republic of Ecuador"],
+      "continent": "South America",
+      "flag": "🇪🇨",
+      "summary": "Ecuador sits on the equator, so temperature changes with altitude rather than month. The Andes (Quito, Cuenca, Cotopaxi) are driest and clearest from June to September, with afternoon showers the rest of the year, heaviest in March–April. The coast is hot and rainy but often sunny from January to April, and cooler and overcast from June to November, when humpback whales arrive off Puerto López. The Galápagos are a year-round destination: December to May is warm with calm seas and clear water, while June to November is cooler and choppier but brings the richest marine life. The Amazon is wet all year, wettest from April to July.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "andes",
+          "name": "Quito & the Andes",
+          "description": "Quito, Otavalo market, Cotopaxi, the Quilotoa Loop, Baños, Riobamba and Chimborazo, Mindo's cloud forest and Cuenca.",
+          "lat": -0.18,
+          "lon": -78.47,
+          "tags": ["city", "culture", "mountain", "volcanoes", "hiking", "markets"],
+          "best": [
+            { "from": "06-01", "to": "09-15", "why": "Dry season: sunny mornings, the clearest views of Cotopaxi and Chimborazo and the best hiking, with Inti Raymi solstice festivals around Otavalo in late June.", "goodFor": ["city", "mountain", "nature", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "03-01", "to": "04-30", "why": "The wettest months: heavy afternoon rain, volcanoes hidden in cloud and muddy trails." }
+          ],
+          "shoulder": [
+            { "from": "05-01", "to": "05-31", "why": "Rains easing." },
+            { "from": "09-16", "to": "12-14", "why": "Mostly fine mornings with afternoon showers, wetter in October–November." },
+            { "from": "12-15", "to": "02-28", "why": "A short dry spell around Christmas, then increasing rain." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "05-15", "to": "01-31" } ],
+            "mountain": [ { "from": "06-01", "to": "09-30" }, { "from": "12-01", "to": "01-31" } ],
+            "nature": [ { "from": "06-01", "to": "09-30" } ],
+            "roadtrip": [ { "from": "06-01", "to": "09-30" } ]
+          },
+          "climate": {
+            "avgHighC": [19, 19, 19, 19, 19, 20, 20, 20, 20, 20, 19, 19],
+            "avgLowC": [10, 10, 10, 10, 10, 9, 8, 8, 9, 10, 9, 10],
+            "rainMm": [80, 110, 140, 170, 110, 40, 20, 25, 70, 110, 100, 90],
+            "rainDays": [12, 14, 17, 18, 14, 7, 4, 5, 10, 15, 14, 13],
+            "sunHours": [170, 140, 140, 130, 160, 190, 230, 230, 190, 160, 170, 170],
+            "seaTempC": null,
+            "humidity": [75, 77, 78, 79, 76, 71, 65, 63, 68, 74, 76, 76]
+          },
+          "crowds": [3, 3, 3, 3, 2, 3, 4, 4, 3, 2, 3, 4],
+          "risks": [
+            { "type": "landslides", "from": "02-01", "to": "05-31", "note": "Heavy rain causes landslides on Andean roads, especially around Baños." }
+          ],
+          "recurringHolidays": [
+            { "name": "Inti Raymi", "approx": "Around 21–29 June", "effect": "Solstice festivals around Otavalo and Cotacachi with dancing in the streets.", "dates": { "from": "06-21", "to": "06-29" } },
+            { "name": "Fiestas de Quito", "approx": "1–6 December", "effect": "Quito's foundation festival with concerts and chiva party buses; 6 December is a city holiday.", "dates": { "from": "12-01", "to": "12-06" } },
+            { "name": "Carnival", "approx": "Monday and Tuesday before Ash Wednesday", "effect": "Ecuadorians head to the coast and Baños; water fights in the Andes, and buses and hotels fill.", "moving": { "anchor": "easter", "offsetDays": -50, "durationDays": 4 } },
+            { "name": "Semana Santa", "approx": "Easter week", "effect": "Processions in Quito and busy roads to the coast.", "moving": { "anchor": "easter", "offsetDays": -3, "durationDays": 4 } },
+            { "name": "Día de los Difuntos and Cuenca Independence", "approx": "2–3 November", "effect": "A long weekend of domestic travel, especially to Cuenca.", "dates": { "from": "10-31", "to": "11-03" } },
+            { "name": "Christmas and New Year", "approx": "Late December", "effect": "Año Viejo effigies burn at midnight; coast and Galápagos prices peak.", "dates": { "from": "12-23", "to": "01-02" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 35, "high": 45 },
+            "midrangePerDay": { "low": 70, "shoulder": 85, "high": 110 },
+            "hotelNightMid": { "low": 50, "shoulder": 65, "high": 90 },
+            "notes": "Ecuador uses the US dollar. Buses cost about $1–2 per hour of travel, and Quito's colonial centre has good-value boutique hotels."
+          }
+        },
+        {
+          "id": "coast",
+          "name": "Pacific Coast",
+          "description": "Guayaquil, Montañita and Olón, Puerto López and Machalilla National Park (Isla de la Plata), Canoa and Mompiche.",
+          "lat": -2.19,
+          "lon": -79.89,
+          "tags": ["beach", "surf", "whales", "city"],
+          "best": [
+            { "from": "01-01", "to": "04-30", "why": "Hot beach season: sunny spells, a 26 °C sea and the best surf at Montañita, broken by short tropical downpours.", "goodFor": ["beach", "sun"] },
+            { "from": "06-15", "to": "09-30", "why": "Humpback whales breed off Puerto López and Isla de la Plata, with dry, cooler and often overcast days.", "goodFor": ["nature"] }
+          ],
+          "worst": [
+            { "from": "10-15", "to": "11-30", "why": "Grey 'garúa' skies, a cool sea and the whales gone: the dullest time on the coast." }
+          ],
+          "shoulder": [
+            { "from": "05-01", "to": "06-14", "why": "Rains ending; cooler and cloudier." },
+            { "from": "10-01", "to": "10-14", "why": "The last whales leaving." },
+            { "from": "12-01", "to": "12-31", "why": "Heat building and the beach season starting, with Christmas crowds." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "12-15", "to": "05-15" } ],
+            "sun": [ { "from": "01-01", "to": "04-30" } ],
+            "nature": [ { "from": "06-15", "to": "09-30" } ],
+            "city": [ { "from": "05-01", "to": "12-15" } ]
+          },
+          "climate": {
+            "avgHighC": [31, 31, 32, 32, 31, 29, 28, 29, 30, 30, 31, 32],
+            "avgLowC": [23, 23, 23, 23, 22, 21, 20, 20, 20, 21, 21, 22],
+            "rainMm": [230, 280, 270, 200, 60, 20, 10, 1, 3, 3, 4, 30],
+            "rainDays": [14, 17, 17, 12, 4, 2, 1, 0, 0, 1, 1, 4],
+            "sunHours": [100, 90, 120, 140, 150, 120, 130, 150, 150, 130, 140, 140],
+            "seaTempC": [25, 26, 26, 26, 25, 24, 23, 22, 22, 23, 23, 24],
+            "humidity": [77, 80, 79, 77, 75, 75, 74, 72, 72, 72, 71, 73]
+          },
+          "crowds": [4, 5, 3, 3, 2, 2, 3, 3, 2, 2, 2, 3],
+          "risks": [
+            { "type": "flooding", "from": "01-15", "to": "04-15", "note": "Downpours flood Guayaquil and coastal roads, especially in El Niño years." }
+          ],
+          "recurringHolidays": [
+            { "name": "Carnival", "approx": "Monday and Tuesday before Ash Wednesday", "effect": "Ecuadorians head to the coast and Baños; water fights in the Andes, and buses and hotels fill.", "moving": { "anchor": "easter", "offsetDays": -50, "durationDays": 4 } },
+            { "name": "Semana Santa", "approx": "Easter week", "effect": "Processions in Quito and busy roads to the coast.", "moving": { "anchor": "easter", "offsetDays": -3, "durationDays": 4 } },
+            { "name": "Día de los Difuntos and Cuenca Independence", "approx": "2–3 November", "effect": "A long weekend of domestic travel, especially to Cuenca.", "dates": { "from": "10-31", "to": "11-03" } },
+            { "name": "Christmas and New Year", "approx": "Late December", "effect": "Año Viejo effigies burn at midnight; coast and Galápagos prices peak.", "dates": { "from": "12-23", "to": "01-02" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 35, "high": 45 },
+            "midrangePerDay": { "low": 65, "shoulder": 80, "high": 100 },
+            "hotelNightMid": { "low": 45, "shoulder": 60, "high": 90 },
+            "notes": "Isla de la Plata whale-watching trips cost about $45–60 from Puerto López. Coastal towns fill at Carnival and Semana Santa."
+          },
+          "seaLat": -1.55,
+          "seaLon": -80.81
+        },
+        {
+          "id": "amazon",
+          "name": "Ecuadorian Amazon",
+          "description": "Tena and Misahuallí, the Napo River lodges and Yasuní National Park, the Cuyabeno Wildlife Reserve and Puyo.",
+          "lat": -0.99,
+          "lon": -77.81,
+          "tags": ["jungle", "wildlife", "rafting", "nature"],
+          "best": [
+            { "from": "08-01", "to": "12-15", "why": "Drier months: fewer downpours, good wildlife on the trails and busy parrot clay licks in Yasuní, while Cuyabeno's lagoons still hold water.", "goodFor": ["nature"] }
+          ],
+          "worst": [
+            { "from": "04-01", "to": "06-30", "why": "Wettest months: torrential rain, flooded trails and swollen rivers that can stop rafting out of Tena (though Cuyabeno's high water suits canoeing)." }
+          ],
+          "shoulder": [
+            { "from": "12-16", "to": "03-31", "why": "Hot, with drier spells; Cuyabeno's lagoon can run low in January–February." },
+            { "from": "07-01", "to": "07-31", "why": "Rains easing." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "07-15", "to": "03-31" } ]
+          },
+          "climate": {
+            "avgHighC": [28, 28, 28, 28, 27, 26, 26, 27, 28, 29, 29, 28],
+            "avgLowC": [19, 19, 19, 19, 19, 18, 17, 17, 18, 18, 19, 19],
+            "rainMm": [290, 300, 400, 430, 420, 400, 330, 280, 290, 300, 320, 300],
+            "rainDays": [20, 20, 23, 24, 24, 23, 22, 19, 19, 20, 21, 21],
+            "sunHours": [100, 90, 90, 90, 100, 90, 100, 110, 110, 110, 110, 100],
+            "seaTempC": null,
+            "humidity": [86, 87, 88, 88, 89, 89, 88, 86, 85, 85, 86, 87]
+          },
+          "crowds": [2, 2, 2, 2, 2, 2, 3, 3, 2, 2, 2, 3],
+          "risks": [
+            { "type": "flooding", "from": "04-01", "to": "07-31", "note": "Rivers rise fast after storms; rafting trips are cancelled and roads flooded." },
+            { "type": "landslides", "from": "03-01", "to": "07-31", "note": "Landslides close the roads from the Andes (Baños–Puyo, Quito–Tena)." }
+          ],
+          "recurringHolidays": [
+            { "name": "Carnival", "approx": "Monday and Tuesday before Ash Wednesday", "effect": "Ecuadorians head to the coast and Baños; water fights in the Andes, and buses and hotels fill.", "moving": { "anchor": "easter", "offsetDays": -50, "durationDays": 4 } },
+            { "name": "Semana Santa", "approx": "Easter week", "effect": "Processions in Quito and busy roads to the coast.", "moving": { "anchor": "easter", "offsetDays": -3, "durationDays": 4 } },
+            { "name": "Día de los Difuntos and Cuenca Independence", "approx": "2–3 November", "effect": "A long weekend of domestic travel, especially to Cuenca.", "dates": { "from": "10-31", "to": "11-03" } },
+            { "name": "Christmas and New Year", "approx": "Late December", "effect": "Año Viejo effigies burn at midnight; coast and Galápagos prices peak.", "dates": { "from": "12-23", "to": "01-02" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 50, "high": 60 },
+            "midrangePerDay": { "low": 100, "shoulder": 130, "high": 160 },
+            "hotelNightMid": { "low": 70, "shoulder": 90, "high": 130 },
+            "notes": "Most trips are 3–5 day lodge packages: Cuyabeno from about $300, Yasuní lodges $250–600 per person per night. Yellow fever vaccination is recommended."
+          }
+        },
+        {
+          "id": "galapagos",
+          "name": "Galápagos Islands",
+          "description": "Santa Cruz (Puerto Ayora and the Charles Darwin Research Station), San Cristóbal, Isabela, Floreana, and cruise routes to Fernandina, Española and Genovesa.",
+          "lat": -0.74,
+          "lon": -90.31,
+          "tags": ["wildlife", "diving", "snorkelling", "islands", "beach", "cruise"],
+          "best": [
+            { "from": "02-01", "to": "05-15", "why": "Warm season: calm, clear 25–26 °C seas for snorkelling, sunny days with short showers, green islands, nesting turtles and waved albatrosses returning to Española in April.", "goodFor": ["beach", "diving", "nature", "sun"] },
+            { "from": "06-01", "to": "08-15", "why": "Cool Humboldt-current season: the richest marine life, blue-footed booby courtship and whale sharks arriving at Darwin and Wolf, with 22 °C water and garúa mist.", "goodFor": ["diving", "nature"] }
+          ],
+          "worst": [
+            { "from": "09-01", "to": "09-30", "why": "Roughest seas and coldest water (20–21 °C) of the year, grey skies, and many cruise ships take their annual dry-dock break." }
+          ],
+          "shoulder": [
+            { "from": "05-16", "to": "05-31", "why": "Transition to the cool season." },
+            { "from": "08-16", "to": "08-31", "why": "Choppy seas, cool water and busy summer-holiday cruises." },
+            { "from": "10-01", "to": "12-14", "why": "Seas calming and water warming; sea lion pups on the beaches." },
+            { "from": "12-15", "to": "01-31", "why": "Warm season begins; Christmas and New Year are the most expensive weeks." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "12-15", "to": "05-31" } ],
+            "diving": [ { "from": "01-01", "to": "12-31" } ],
+            "sun": [ { "from": "01-01", "to": "05-31" } ],
+            "nature": [ { "from": "01-01", "to": "12-31" } ]
+          },
+          "climate": {
+            "avgHighC": [30, 31, 31, 30, 28, 27, 26, 25, 25, 26, 27, 28],
+            "avgLowC": [22, 23, 23, 23, 22, 21, 20, 19, 19, 20, 20, 21],
+            "rainMm": [30, 55, 60, 40, 15, 10, 8, 5, 5, 5, 8, 15],
+            "rainDays": [5, 8, 9, 6, 4, 6, 6, 6, 5, 5, 4, 4],
+            "sunHours": [220, 210, 240, 230, 210, 170, 150, 150, 160, 180, 190, 210],
+            "seaTempC": [24, 26, 26, 26, 25, 23, 22, 21, 21, 22, 23, 24],
+            "humidity": [76, 77, 76, 77, 77, 80, 80, 80, 80, 79, 78, 77]
+          },
+          "crowds": [4, 3, 3, 3, 3, 4, 5, 5, 2, 3, 3, 5],
+          "risks": [
+            { "type": "rough seas", "from": "07-15", "to": "10-15", "note": "The cool season's southerly swell makes small-boat crossings rough and seasickness common." }
+          ],
+          "recurringHolidays": [
+            { "name": "Carnival", "approx": "Monday and Tuesday before Ash Wednesday", "effect": "Ecuadorians head to the coast and Baños; water fights in the Andes, and buses and hotels fill.", "moving": { "anchor": "easter", "offsetDays": -50, "durationDays": 4 } },
+            { "name": "Semana Santa", "approx": "Easter week", "effect": "Processions in Quito and busy roads to the coast.", "moving": { "anchor": "easter", "offsetDays": -3, "durationDays": 4 } },
+            { "name": "Día de los Difuntos and Cuenca Independence", "approx": "2–3 November", "effect": "A long weekend of domestic travel, especially to Cuenca.", "dates": { "from": "10-31", "to": "11-03" } },
+            { "name": "Christmas and New Year", "approx": "Late December", "effect": "Año Viejo effigies burn at midnight; coast and Galápagos prices peak.", "dates": { "from": "12-23", "to": "01-02" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 70, "shoulder": 90, "high": 110 },
+            "midrangePerDay": { "low": 250, "shoulder": 300, "high": 400 },
+            "hotelNightMid": { "low": 120, "shoulder": 150, "high": 220 },
+            "notes": "The Galápagos National Park fee is $200 (since 2024) plus a $20 transit card. Cruises cost $300–800+ per person per night; island-hopping from Santa Cruz is cheaper, with inter-island speedboats about $35–50."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Quito", "aliases": ["San Francisco de Quito", "Mitad del Mundo"], "region": "andes" },
+        { "name": "Otavalo", "aliases": ["Cotacachi"], "region": "andes" },
+        { "name": "Cotopaxi", "aliases": ["Cotopaxi National Park"], "region": "andes" },
+        { "name": "Quilotoa", "aliases": ["Quilotoa Loop", "Latacunga"], "region": "andes" },
+        { "name": "Baños", "aliases": ["Banos", "Baños de Agua Santa"], "region": "andes" },
+        { "name": "Riobamba", "aliases": ["Chimborazo"], "region": "andes" },
+        { "name": "Cuenca", "aliases": ["Cajas", "Ingapirca"], "region": "andes" },
+        { "name": "Mindo", "aliases": [], "region": "andes" },
+        { "name": "Vilcabamba", "aliases": ["Loja"], "region": "andes" },
+        { "name": "Guayaquil", "aliases": [], "region": "coast" },
+        { "name": "Montañita", "aliases": ["Montanita", "Olón", "Olon"], "region": "coast" },
+        { "name": "Puerto López", "aliases": ["Puerto Lopez", "Isla de la Plata", "Machalilla"], "region": "coast" },
+        { "name": "Canoa", "aliases": ["Mompiche", "Manta"], "region": "coast" },
+        { "name": "Tena", "aliases": ["Misahuallí", "Misahualli"], "region": "amazon" },
+        { "name": "Yasuní", "aliases": ["Yasuni", "Coca", "Puerto Francisco de Orellana"], "region": "amazon" },
+        { "name": "Cuyabeno", "aliases": ["Lago Agrio"], "region": "amazon" },
+        { "name": "Puyo", "aliases": [], "region": "amazon" },
+        { "name": "Galápagos", "aliases": ["Galapagos", "Galápagos Islands", "Galapagos Islands"], "region": "galapagos" },
+        { "name": "Puerto Ayora", "aliases": ["Santa Cruz Island", "Isla Santa Cruz"], "region": "galapagos" },
+        { "name": "San Cristóbal", "aliases": ["San Cristobal", "Puerto Baquerizo Moreno"], "region": "galapagos" },
+        { "name": "Isabela", "aliases": ["Puerto Villamil", "Isabela Island"], "region": "galapagos" },
+        { "name": "Floreana", "aliases": [], "region": "galapagos" },
+        { "name": "Baltra", "aliases": [], "region": "galapagos" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://ecuador.travel" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Ecuador" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/ecuador" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/ecuador/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "FK",
+      "isoNum": "238",
+      "name": "Falkland Islands",
+      "aliases": ["Falklands", "Islas Malvinas", "Malvinas"],
+      "continent": "South America",
+      "flag": "🇫🇰",
+      "summary": "The Falklands have a cool, windy oceanic climate: summer (December to February) reaches only 13–15 °C and winter about 5 °C. The wildlife season runs from October to March, when gentoo, rockhopper, Magellanic and king penguins nest, elephant seals haul out and black-browed albatrosses breed on the cliffs. Most visitors come between November and February, many on Antarctic cruises calling at Stanley. Winter (May to August) is cold and dark, the penguins are mostly at sea and many lodges close.",
+      "splitByRegion": false,
+      "splitReason": "Small islands with one cool oceanic climate; the wildlife season sets the calendar everywhere.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Stanley, Volunteer Point's king penguins, Sea Lion Island, Pebble, Saunders, Carcass and West Point islands.",
+          "lat": -51.69,
+          "lon": -57.86,
+          "tags": ["wildlife", "penguins", "nature", "remote"],
+          "best": [
+            { "from": "11-01", "to": "02-28", "why": "Peak wildlife season: penguin colonies with chicks, breeding albatrosses and the longest, mildest days (around 13 °C).", "goodFor": ["nature"] }
+          ],
+          "worst": [
+            { "from": "05-01", "to": "08-31", "why": "Winter: cold, short days, most penguins away at sea and many lodges closed." }
+          ],
+          "shoulder": [
+            { "from": "10-01", "to": "10-31", "why": "Penguins arriving to nest and elephant seals on the beaches; cold and windy." },
+            { "from": "03-01", "to": "04-30", "why": "Penguins moulting and leaving; quieter and cooler." },
+            { "from": "09-01", "to": "09-30", "why": "Late winter; wildlife returning." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "10-15", "to": "03-31" } ]
+          },
+          "climate": {
+            "avgHighC": [13, 13, 12, 9, 7, 5, 5, 6, 7, 9, 11, 12],
+            "avgLowC": [6, 6, 5, 3, 1, -1, -1, -1, 0, 2, 3, 5],
+            "rainMm": [70, 55, 60, 60, 60, 55, 50, 50, 40, 40, 45, 65],
+            "rainDays": [13, 11, 13, 13, 14, 13, 13, 12, 11, 11, 11, 12],
+            "sunHours": [200, 170, 140, 105, 75, 55, 65, 90, 130, 180, 200, 200],
+            "seaTempC": [9, 9, 8, 7, 6, 5, 4, 4, 4, 5, 6, 8],
+            "humidity": [75, 78, 80, 84, 87, 88, 88, 86, 81, 77, 74, 74]
+          },
+          "crowds": [4, 4, 3, 2, 1, 1, 1, 1, 1, 2, 4, 4],
+          "risks": [
+            { "type": "strong wind", "from": "01-01", "to": "12-31", "note": "Strong winds blow all year, often delaying inter-island flights and boat trips." }
+          ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 90, "shoulder": 110, "high": 130 },
+            "midrangePerDay": { "low": 200, "shoulder": 250, "high": 300 },
+            "hotelNightMid": { "low": 150, "shoulder": 180, "high": 220 },
+            "notes": "Flights come weekly from Punta Arenas or on the RAF airbridge from the UK. Island lodges such as Sea Lion and Pebble cost $200–300 per person full board; the Falkland pound is at par with sterling."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Stanley", "aliases": ["Port Stanley"], "region": "country" },
+        { "name": "Volunteer Point", "aliases": [], "region": "country" },
+        { "name": "Sea Lion Island", "aliases": [], "region": "country" },
+        { "name": "Carcass Island", "aliases": ["West Point Island"], "region": "country" },
+        { "name": "Pebble Island", "aliases": [], "region": "country" },
+        { "name": "Saunders Island", "aliases": ["The Neck"], "region": "country" },
+        { "name": "Mount Pleasant", "aliases": ["MPA"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Falkland_Islands" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/falkland-islands" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/falkland-islands/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "GY",
+      "isoNum": "328",
+      "name": "Guyana",
+      "aliases": ["Co-operative Republic of Guyana", "British Guiana"],
+      "continent": "South America",
+      "flag": "🇬🇾",
+      "summary": "Guyana's coast has two rainy seasons (May to July and December to January) and two drier spells (February to April and late August to November). Inland, the Rupununi savannahs have one long wet season from May to August, when the plains flood and the road south to Lethem is at its worst. September to November is the best time for wildlife (giant otters, jaguars, giant anteaters) and dry roads; February to April is a good second choice. Kaieteur Falls can be visited all year and is fullest in the rains.",
+      "splitByRegion": false,
+      "splitReason": "Most visitors combine Georgetown, Kaieteur and the Rupununi on one trip, and all three share the same drier spells (February–April and September–November).",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Georgetown, Kaieteur Falls, the Iwokrama rainforest and Surama, the Rupununi savannahs (Karanambu, Rewa, Lethem) and the Essequibo River.",
+          "lat": 6.8,
+          "lon": -58.16,
+          "tags": ["nature", "wildlife", "waterfalls", "jungle"],
+          "best": [
+            { "from": "09-01", "to": "11-30", "why": "The longest dry spell: sunny weather, open Rupununi roads and the best chances of giant otters, jaguars and giant anteaters.", "goodFor": ["nature", "city"] },
+            { "from": "02-15", "to": "04-15", "why": "Short dry season: drier trails, good birding and the Mashramani carnival on 23 February.", "goodFor": ["nature", "city"] }
+          ],
+          "worst": [
+            { "from": "05-15", "to": "07-31", "why": "Main rainy season: heavy downpours, flooded Rupununi savannahs and the road to Lethem at its worst (though Kaieteur Falls is at full roar)." }
+          ],
+          "shoulder": [
+            { "from": "08-01", "to": "08-31", "why": "Rains easing." },
+            { "from": "12-01", "to": "02-14", "why": "Short rainy season around Christmas." },
+            { "from": "04-16", "to": "05-14", "why": "Rains building." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "09-01", "to": "04-30" } ],
+            "city": [ { "from": "09-01", "to": "04-30" } ]
+          },
+          "climate": {
+            "avgHighC": [29, 29, 30, 30, 30, 30, 30, 31, 32, 32, 31, 30],
+            "avgLowC": [23, 23, 23, 24, 24, 23, 23, 23, 24, 24, 24, 23],
+            "rainMm": [185, 90, 110, 140, 290, 330, 250, 180, 85, 110, 160, 280],
+            "rainDays": [15, 10, 10, 12, 18, 21, 19, 14, 7, 7, 11, 17],
+            "sunHours": [200, 190, 210, 210, 200, 180, 210, 240, 250, 240, 210, 180],
+            "seaTempC": [27, 27, 27, 27, 28, 28, 28, 28, 29, 29, 28, 28],
+            "humidity": [80, 78, 77, 79, 82, 83, 82, 79, 77, 77, 79, 81]
+          },
+          "crowds": [2, 3, 3, 2, 2, 2, 2, 3, 2, 2, 2, 3],
+          "risks": [
+            { "type": "flooding", "from": "05-01", "to": "08-15", "note": "The Rupununi savannahs flood and the Linden–Lethem road can become impassable." },
+            { "type": "heavy rain", "from": "12-01", "to": "01-31", "note": "Short rainy season downpours flood low-lying Georgetown." }
+          ],
+          "recurringHolidays": [
+            { "name": "Mashramani", "approx": "Around 23 February (Republic Day)", "effect": "Georgetown's costume parades and street parties; book ahead.", "dates": { "from": "02-20", "to": "02-24" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 50, "shoulder": 60, "high": 70 },
+            "midrangePerDay": { "low": 120, "shoulder": 150, "high": 180 },
+            "hotelNightMid": { "low": 80, "shoulder": 100, "high": 130 },
+            "notes": "Guyana isn't cheap: Kaieteur day flights cost about $250–350, and Rupununi eco-lodges such as Karanambu and Rewa charge $200–300 per person per night, full board."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Georgetown", "aliases": ["Georgetown Guyana"], "region": "country" },
+        { "name": "Kaieteur Falls", "aliases": ["Kaieteur"], "region": "country" },
+        { "name": "Rupununi", "aliases": ["Lethem", "Karanambu", "Rewa", "Annai"], "region": "country" },
+        { "name": "Iwokrama", "aliases": ["Iwokrama Forest", "Surama"], "region": "country" },
+        { "name": "Bartica", "aliases": ["Essequibo"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://guyanatourism.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Guyana" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/guyana" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/guyana/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "PY",
+      "isoNum": "600",
+      "name": "Paraguay",
+      "aliases": ["República del Paraguay", "Republica del Paraguay", "Republic of Paraguay", "Tetã Paraguái"],
+      "continent": "South America",
+      "flag": "🇵🇾",
+      "summary": "Paraguay is hot: summers (December to February) regularly top 35 °C with humid storms, and the Chaco can pass 40 °C. The most comfortable months are April–May and mid-August to October, when days are 22–30 °C and the pink lapacho trees bloom in late winter. Winter (June to August) is mild, though cold southerly winds can bring frosty nights. The Chaco's dirt roads become impassable after heavy rain, so the drier winter months are best for wildlife there.",
+      "splitByRegion": false,
+      "splitReason": "Asunción, the Jesuit missions and the Chaco share one subtropical calendar of hot, stormy summers and mild, drier winters.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Asunción, San Bernardino and Lake Ypacaraí, Encarnación and the Jesuit missions of Trinidad and Jesús, Ciudad del Este and Itaipú, and the Chaco with its Mennonite colonies.",
+          "lat": -25.26,
+          "lon": -57.58,
+          "tags": ["culture", "nature", "wildlife", "missions"],
+          "best": [
+            { "from": "04-01", "to": "05-31", "why": "Autumn: warm 25–29 °C days, lower humidity and comfortable sightseeing at the Jesuit ruins.", "goodFor": ["city", "nature", "roadtrip"] },
+            { "from": "08-15", "to": "10-15", "why": "Dry, sunny late winter and spring: 25–30 °C, lapacho trees in pink bloom and the best Chaco wildlife watching.", "goodFor": ["city", "nature", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "12-01", "to": "02-28", "why": "Summer heat: 35–40 °C days, stifling humidity and violent storms." }
+          ],
+          "shoulder": [
+            { "from": "03-01", "to": "03-31", "why": "Still hot but cooling." },
+            { "from": "06-01", "to": "08-14", "why": "Mild winter: pleasant days, but cold snaps can bring frost at night." },
+            { "from": "10-16", "to": "11-30", "why": "Heat and storms building." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "04-01", "to": "10-31" } ],
+            "nature": [ { "from": "05-01", "to": "10-31" } ],
+            "roadtrip": [ { "from": "04-01", "to": "10-31" } ]
+          },
+          "climate": {
+            "avgHighC": [34, 33, 32, 29, 25, 23, 23, 25, 27, 30, 32, 34],
+            "avgLowC": [22, 22, 21, 18, 15, 13, 12, 13, 15, 18, 20, 21],
+            "rainMm": [150, 135, 135, 150, 110, 70, 45, 40, 80, 130, 160, 150],
+            "rainDays": [9, 8, 8, 8, 7, 6, 5, 5, 7, 9, 9, 9],
+            "sunHours": [270, 240, 240, 210, 190, 160, 190, 200, 200, 230, 250, 270],
+            "seaTempC": null,
+            "humidity": [67, 70, 71, 74, 77, 77, 72, 64, 62, 64, 64, 64]
+          },
+          "crowds": [2, 2, 2, 3, 2, 2, 3, 2, 2, 2, 2, 3],
+          "risks": [
+            { "type": "extreme heat", "from": "11-15", "to": "02-28", "note": "Days above 38 °C in Asunción and over 40 °C in the Chaco." },
+            { "type": "flooding", "from": "10-01", "to": "04-30", "note": "Heavy storms flood Asunción's streets and make Chaco roads impassable." },
+            { "type": "wildfire", "from": "08-01", "to": "09-30", "note": "Smoke from Chaco and Brazilian fires can blanket the country." }
+          ],
+          "recurringHolidays": [
+            { "name": "Semana Santa", "approx": "Easter week", "effect": "Holy Thursday and Good Friday are holidays: businesses close and buses fill.", "moving": { "anchor": "easter", "offsetDays": -3, "durationDays": 4 } },
+            { "name": "Virgen de Caacupé", "approx": "8 December", "effect": "Hundreds of thousands walk to Caacupé; roads east of Asunción are closed.", "dates": { "from": "12-07", "to": "12-08" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 25, "shoulder": 30, "high": 35 },
+            "midrangePerDay": { "low": 60, "shoulder": 75, "high": 90 },
+            "hotelNightMid": { "low": 40, "shoulder": 55, "high": 75 },
+            "notes": "Paraguay is one of South America's cheapest countries. Chaco trips need a 4x4 and a guide; the Mennonite colonies around Filadelfia have simple hotels."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Asunción", "aliases": ["Asuncion"], "region": "country" },
+        { "name": "Encarnación", "aliases": ["Encarnacion", "Trinidad ruins", "Jesús de Tavarangüé", "Jesus de Tavarangue"], "region": "country" },
+        { "name": "Ciudad del Este", "aliases": ["Itaipú", "Itaipu"], "region": "country" },
+        { "name": "San Bernardino", "aliases": ["Lake Ypacaraí", "Ypacarai"], "region": "country" },
+        { "name": "Filadelfia", "aliases": ["Chaco", "Gran Chaco", "Mennonite colonies"], "region": "country" },
+        { "name": "Caacupé", "aliases": ["Caacupe"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Paraguay" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/paraguay" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/paraguay/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "PE",
+      "isoNum": "604",
+      "name": "Peru",
+      "aliases": ["Perú", "Republic of Peru", "República del Perú"],
+      "continent": "South America",
+      "flag": "🇵🇪",
+      "summary": "Peru's three zones run on different calendars. The Andes (Cusco, Machu Picchu, Lake Titicaca) are dry and sunny from May to September, with freezing nights, and rainy from December to March; the Inca Trail closes every February. Lima and the central and southern coast are sunny and warm from December to April but sit under a grey, damp sea fog ('garúa') from June to October, while the far north coast around Máncora is sunny all year. The Amazon is wettest from December to April and drier from June to October, when trails are easier and wildlife gathers along the rivers. June to August is peak season in Cusco, so book Machu Picchu and the Inca Trail early.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "coast",
+          "name": "Lima & the Coast",
+          "description": "Lima, Paracas and the Ballestas Islands, Huacachina and Ica, the Nazca Lines, Trujillo and Chan Chan, Chiclayo, and the northern beaches of Máncora and Punta Sal.",
+          "lat": -12.05,
+          "lon": -77.04,
+          "tags": ["city", "food", "beach", "desert", "archaeology", "surf"],
+          "best": [
+            { "from": "12-15", "to": "04-15", "why": "Lima's summer: sunny 26–28 °C days, warm beaches south of the city and at Paracas, and clear skies for the Nazca flights.", "goodFor": ["city", "beach", "sun", "roadtrip", "nature"] }
+          ],
+          "worst": [
+            { "from": "06-15", "to": "09-30", "why": "Garúa season: Lima sits under a grey, damp sea fog for weeks at 17–19 °C and the sea is cold, though the far north coast at Máncora stays sunny." }
+          ],
+          "shoulder": [
+            { "from": "04-16", "to": "06-14", "why": "Cloud building as winter arrives; still mild." },
+            { "from": "10-01", "to": "12-14", "why": "The fog lifts and the sun returns." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "11-01", "to": "05-31" } ],
+            "beach": [ { "from": "12-01", "to": "04-15" } ],
+            "sun": [ { "from": "12-01", "to": "04-30" } ],
+            "roadtrip": [ { "from": "11-01", "to": "05-15" } ],
+            "nature": [ { "from": "12-01", "to": "05-31" } ]
+          },
+          "climate": {
+            "avgHighC": [26, 27, 27, 25, 22, 20, 19, 18, 19, 20, 22, 24],
+            "avgLowC": [20, 21, 20, 18, 17, 16, 15, 15, 15, 16, 17, 19],
+            "rainMm": [1, 1, 1, 0, 1, 1, 2, 2, 1, 1, 0, 1],
+            "rainDays": [0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0],
+            "sunHours": [190, 190, 210, 200, 140, 70, 50, 50, 70, 110, 140, 170],
+            "seaTempC": [20, 21, 20, 19, 18, 17, 16, 15, 15, 16, 17, 19],
+            "humidity": [78, 77, 78, 80, 83, 84, 85, 85, 85, 83, 81, 79]
+          },
+          "crowds": [4, 4, 3, 3, 2, 2, 4, 2, 2, 2, 2, 3],
+          "risks": [
+            { "type": "fog", "from": "06-01", "to": "10-31", "note": "Garúa: persistent low cloud and drizzle on the central and southern coast." },
+            { "type": "flooding", "from": "01-15", "to": "04-15", "note": "In El Niño years heavy rain floods the north coast, and 'huaico' mudslides block roads into the Andes." }
+          ],
+          "recurringHolidays": [
+            { "name": "Peruvian summer holidays", "approx": "January – mid-March", "effect": "Limeños pack the southern beaches and Paracas at weekends; resort prices rise.", "dates": { "from": "01-01", "to": "03-15" } },
+            { "name": "Semana Santa", "approx": "Easter week", "effect": "Holy Thursday and Good Friday are holidays; Ayacucho and Cusco hold big processions and transport fills.", "moving": { "anchor": "easter", "offsetDays": -3, "durationDays": 4 } },
+            { "name": "Fiestas Patrias", "approx": "28–29 July", "effect": "Independence holidays: Peruvians travel, Cusco and the coast fill and bus and flight prices jump.", "dates": { "from": "07-26", "to": "07-31" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 40, "high": 50 },
+            "midrangePerDay": { "low": 80, "shoulder": 100, "high": 130 },
+            "hotelNightMid": { "low": 60, "shoulder": 80, "high": 110 },
+            "notes": "Lima is one of the world's great food cities: set menús cost $4–6 and tasting menus from $150. A Nazca Lines overflight costs $100–150."
+          }
+        },
+        {
+          "id": "andes",
+          "name": "Cusco, Machu Picchu & the Andes",
+          "description": "Cusco, the Sacred Valley, Machu Picchu and the Inca Trail, Rainbow Mountain, Arequipa and the Colca Canyon, Lake Titicaca and Puno, and Huaraz and the Cordillera Blanca.",
+          "lat": -13.53,
+          "lon": -71.97,
+          "tags": ["culture", "archaeology", "hiking", "mountain", "altitude"],
+          "best": [
+            { "from": "05-01", "to": "09-30", "why": "Dry season: sunny 20 °C days, clear views of Machu Picchu and the snow peaks and the best trekking, with Inti Raymi on 24 June; nights near freezing and peak crowds.", "goodFor": ["mountain", "nature", "city", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "01-01", "to": "02-28", "why": "Peak rainy season: daily downpours, landslides on roads and the Machu Picchu rail line, mist-shrouded ruins, and the Inca Trail closed throughout February." }
+          ],
+          "shoulder": [
+            { "from": "03-01", "to": "04-30", "why": "Rains easing, green valleys and fewer people; the Inca Trail reopens in March." },
+            { "from": "10-01", "to": "12-31", "why": "Warm days with afternoon showers increasing from November; quieter than mid-year." }
+          ],
+          "activityWindows": {
+            "mountain": [ { "from": "04-15", "to": "10-15" } ],
+            "city": [ { "from": "04-01", "to": "11-30" } ],
+            "nature": [ { "from": "04-01", "to": "11-15" } ],
+            "roadtrip": [ { "from": "04-15", "to": "10-31" } ]
+          },
+          "climate": {
+            "avgHighC": [19, 19, 19, 20, 20, 20, 20, 20, 21, 21, 21, 20],
+            "avgLowC": [7, 7, 6, 5, 2, 0, -1, 1, 3, 5, 6, 6],
+            "rainMm": [160, 135, 110, 45, 10, 5, 5, 8, 25, 50, 75, 120],
+            "rainDays": [18, 15, 14, 8, 3, 1, 1, 2, 5, 9, 11, 15],
+            "sunHours": [120, 110, 140, 190, 230, 240, 260, 240, 200, 190, 180, 140],
+            "seaTempC": null,
+            "humidity": [70, 72, 72, 68, 62, 58, 55, 55, 58, 60, 62, 67]
+          },
+          "crowds": [2, 2, 2, 3, 4, 5, 5, 5, 4, 3, 3, 3],
+          "risks": [
+            { "type": "landslides", "from": "12-01", "to": "03-31", "note": "Rainy-season landslides close roads and occasionally the Machu Picchu railway." },
+            { "type": "extreme cold", "from": "06-01", "to": "08-31", "note": "Nights below freezing in Cusco and down to −10 °C at Lake Titicaca and the Colca Canyon." }
+          ],
+          "recurringHolidays": [
+            { "name": "Inti Raymi", "approx": "24 June", "effect": "Cusco's Inca sun festival at Sacsayhuamán: hotels sell out and prices double in the week around it.", "dates": { "from": "06-20", "to": "06-25" } },
+            { "name": "Inca Trail closure", "approx": "All of February", "effect": "The classic Inca Trail closes for maintenance; Machu Picchu itself stays open.", "dates": { "from": "02-01", "to": "02-28" } },
+            { "name": "Virgen de la Candelaria", "approx": "First half of February", "effect": "Puno's huge UNESCO-listed folk-dance festival; rooms book out.", "dates": { "from": "02-01", "to": "02-15" } },
+            { "name": "Corpus Christi", "approx": "Thursday 60 days after Easter", "effect": "Cusco's saints are paraded around the Plaza de Armas; the city fills.", "moving": { "anchor": "easter", "offsetDays": 60, "durationDays": 1 } },
+            { "name": "Semana Santa", "approx": "Easter week", "effect": "Holy Thursday and Good Friday are holidays; Ayacucho and Cusco hold big processions and transport fills.", "moving": { "anchor": "easter", "offsetDays": -3, "durationDays": 4 } },
+            { "name": "Fiestas Patrias", "approx": "28–29 July", "effect": "Independence holidays: Peruvians travel, Cusco and the coast fill and bus and flight prices jump.", "dates": { "from": "07-26", "to": "07-31" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 40, "high": 50 },
+            "midrangePerDay": { "low": 80, "shoulder": 100, "high": 130 },
+            "hotelNightMid": { "low": 50, "shoulder": 70, "high": 110 },
+            "notes": "Machu Picchu entry costs about $45 plus $24 each way for the bus; trains from Ollantaytambo run $60–150 each way. Inca Trail permits for May–August sell out months ahead."
+          }
+        },
+        {
+          "id": "amazon",
+          "name": "Peruvian Amazon",
+          "description": "Iquitos and the Pacaya-Samiria reserve, Puerto Maldonado and the Tambopata reserve, and Manu National Park.",
+          "lat": -12.59,
+          "lon": -69.19,
+          "tags": ["jungle", "wildlife", "nature", "river"],
+          "best": [
+            { "from": "06-01", "to": "09-30", "why": "Dry season: passable trails, low rivers that concentrate animals on the banks, busy macaw clay licks and fewer mosquitoes.", "goodFor": ["nature"] }
+          ],
+          "worst": [
+            { "from": "01-01", "to": "03-31", "why": "Peak wet season: heavy daily rain, flooded trails and Manu largely inaccessible (though Iquitos' high water is good for boat trips into the flooded forest)." }
+          ],
+          "shoulder": [
+            { "from": "04-01", "to": "05-31", "why": "Rains easing; still lush and green." },
+            { "from": "10-01", "to": "12-31", "why": "Rains returning; hot and humid, with good wildlife." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "05-01", "to": "11-15" } ]
+          },
+          "climate": {
+            "avgHighC": [31, 31, 31, 30, 29, 28, 29, 31, 32, 32, 32, 31],
+            "avgLowC": [22, 22, 22, 21, 19, 17, 16, 17, 19, 21, 22, 22],
+            "rainMm": [290, 280, 260, 180, 110, 60, 50, 60, 100, 190, 230, 280],
+            "rainDays": [18, 17, 17, 13, 9, 6, 5, 6, 8, 13, 15, 18],
+            "sunHours": [140, 130, 140, 150, 170, 180, 210, 200, 170, 160, 150, 140],
+            "seaTempC": null,
+            "humidity": [85, 86, 86, 85, 83, 80, 76, 74, 76, 80, 83, 85]
+          },
+          "crowds": [2, 2, 2, 2, 3, 3, 4, 4, 3, 2, 2, 2],
+          "risks": [
+            { "type": "heavy rain", "from": "11-01", "to": "04-15", "note": "Torrential downpours make trails muddy and delay boat and road transfers." },
+            { "type": "cold snap", "from": "06-01", "to": "08-31", "note": "'Friaje' cold fronts can drop temperatures to 10 °C for a few days." }
+          ],
+          "recurringHolidays": [
+            { "name": "Semana Santa", "approx": "Easter week", "effect": "Holy Thursday and Good Friday are holidays; Ayacucho and Cusco hold big processions and transport fills.", "moving": { "anchor": "easter", "offsetDays": -3, "durationDays": 4 } },
+            { "name": "Fiestas Patrias", "approx": "28–29 July", "effect": "Independence holidays: Peruvians travel, Cusco and the coast fill and bus and flight prices jump.", "dates": { "from": "07-26", "to": "07-31" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 50, "high": 60 },
+            "midrangePerDay": { "low": 120, "shoulder": 150, "high": 180 },
+            "hotelNightMid": { "low": 80, "shoulder": 100, "high": 140 },
+            "notes": "Most visits are lodge packages ($150–400 per person per night with meals, guides and boats). Yellow fever vaccination and malaria precautions are advised."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Lima", "aliases": ["Miraflores", "Barranco"], "region": "coast" },
+        { "name": "Paracas", "aliases": ["Ballestas Islands", "Islas Ballestas", "Pisco"], "region": "coast" },
+        { "name": "Huacachina", "aliases": ["Ica"], "region": "coast" },
+        { "name": "Nazca", "aliases": ["Nasca", "Nazca Lines"], "region": "coast" },
+        { "name": "Trujillo", "aliases": ["Chan Chan", "Huanchaco"], "region": "coast" },
+        { "name": "Chiclayo", "aliases": ["Sipán", "Sipan"], "region": "coast" },
+        { "name": "Máncora", "aliases": ["Mancora", "Punta Sal", "Piura"], "region": "coast" },
+        { "name": "Cusco", "aliases": ["Cuzco", "Qosqo"], "region": "andes" },
+        { "name": "Machu Picchu", "aliases": ["Aguas Calientes", "Machu Pichu"], "region": "andes" },
+        { "name": "Sacred Valley", "aliases": ["Valle Sagrado", "Ollantaytambo", "Pisac", "Urubamba"], "region": "andes" },
+        { "name": "Inca Trail", "aliases": ["Camino Inca", "Salkantay", "Salkantay Trek"], "region": "andes" },
+        { "name": "Rainbow Mountain", "aliases": ["Vinicunca"], "region": "andes" },
+        { "name": "Arequipa", "aliases": [], "region": "andes" },
+        { "name": "Colca Canyon", "aliases": ["Cañón del Colca", "Canon del Colca", "Chivay"], "region": "andes" },
+        { "name": "Puno", "aliases": ["Lake Titicaca", "Lago Titicaca", "Uros", "Taquile"], "region": "andes" },
+        { "name": "Huaraz", "aliases": ["Cordillera Blanca", "Huascarán", "Huascaran", "Laguna 69"], "region": "andes" },
+        { "name": "Ayacucho", "aliases": [], "region": "andes" },
+        { "name": "Iquitos", "aliases": ["Pacaya-Samiria"], "region": "amazon" },
+        { "name": "Puerto Maldonado", "aliases": ["Tambopata"], "region": "amazon" },
+        { "name": "Manu", "aliases": ["Manu National Park"], "region": "amazon" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.peru.travel" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Peru" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/peru" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/peru/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "SR",
+      "isoNum": "740",
+      "name": "Suriname",
+      "aliases": ["Republic of Suriname", "Surinam", "Dutch Guiana"],
+      "continent": "South America",
+      "flag": "🇸🇷",
+      "summary": "Suriname has two rainy seasons (December to January and the main rains from late April to mid-August) and two drier ones. The long dry season from late August to November is the best time for river trips into the interior and the Central Suriname Nature Reserve, while February to April is a shorter drier spell. Sea turtles nest on the beaches at Galibi and Matapica from about March to August, with leatherbacks peaking in April–June. Paramaribo is hot and humid all year.",
+      "splitByRegion": false,
+      "splitReason": "Paramaribo, the plantations and the interior rivers share one equatorial calendar of two rainy and two drier seasons.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Paramaribo, the Commewijne plantations, Brownsberg, the turtle beaches of Galibi and Matapica, the Upper Suriname River and the Central Suriname Nature Reserve.",
+          "lat": 5.85,
+          "lon": -55.2,
+          "tags": ["city", "culture", "nature", "jungle", "wildlife"],
+          "best": [
+            { "from": "08-20", "to": "11-30", "why": "Long dry season: sunny, hot days, low rivers for jungle lodges upriver and the best hiking in the Central Suriname Nature Reserve.", "goodFor": ["nature", "city"] },
+            { "from": "02-01", "to": "04-15", "why": "Short dry season: drier trails and the first sea turtles nesting at Galibi and Matapica.", "goodFor": ["nature", "city"] }
+          ],
+          "worst": [
+            { "from": "05-01", "to": "07-31", "why": "Main rainy season: heavy daily downpours, muddy roads and flooded trails, although leatherback turtles are nesting." }
+          ],
+          "shoulder": [
+            { "from": "08-01", "to": "08-19", "why": "Rains easing." },
+            { "from": "12-01", "to": "01-31", "why": "Short rainy season around Christmas." },
+            { "from": "04-16", "to": "04-30", "why": "Rains returning." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "08-15", "to": "04-30" } ],
+            "city": [ { "from": "08-15", "to": "04-30" } ]
+          },
+          "climate": {
+            "avgHighC": [29, 29, 30, 30, 30, 30, 31, 32, 33, 33, 32, 30],
+            "avgLowC": [22, 22, 22, 23, 23, 23, 22, 23, 23, 23, 23, 23],
+            "rainMm": [210, 160, 180, 230, 310, 300, 230, 160, 80, 80, 120, 200],
+            "rainDays": [16, 13, 14, 16, 21, 21, 18, 13, 7, 6, 9, 15],
+            "sunHours": [180, 170, 190, 180, 190, 200, 230, 260, 270, 260, 230, 190],
+            "seaTempC": [27, 27, 27, 27, 28, 28, 28, 28, 29, 29, 28, 28],
+            "humidity": [81, 79, 79, 80, 82, 83, 81, 78, 75, 75, 77, 80]
+          },
+          "crowds": [2, 2, 3, 2, 2, 2, 3, 3, 2, 2, 2, 3],
+          "risks": [
+            { "type": "heavy rain", "from": "05-01", "to": "07-31", "note": "Daily tropical downpours flood streets and interior tracks." },
+            { "type": "heavy rain", "from": "12-01", "to": "01-31", "note": "Short rainy season showers make interior roads muddy." }
+          ],
+          "recurringHolidays": [
+            { "name": "Keti Koti", "approx": "1 July", "effect": "Emancipation Day festival in Paramaribo with music and traditional dress.", "dates": { "from": "07-01", "to": "07-01" } },
+            { "name": "Owru Yari (New Year)", "approx": "30 December – 1 January", "effect": "Paramaribo's huge New Year street parties with pagara firecrackers; hotels fill.", "dates": { "from": "12-30", "to": "01-01" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 50, "high": 60 },
+            "midrangePerDay": { "low": 90, "shoulder": 110, "high": 140 },
+            "hotelNightMid": { "low": 60, "shoulder": 80, "high": 110 },
+            "notes": "Interior trips (Brownsberg, Awarradam, Raleighvallen) are sold as 3–5 day packages from Paramaribo for $300–800. US dollars and euros are widely accepted."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Paramaribo", "aliases": ["Parbo"], "region": "country" },
+        { "name": "Commewijne", "aliases": ["Plantation Loop", "Nieuw Amsterdam"], "region": "country" },
+        { "name": "Brownsberg", "aliases": ["Brokopondo"], "region": "country" },
+        { "name": "Galibi", "aliases": ["Matapica"], "region": "country" },
+        { "name": "Awarradam", "aliases": ["Upper Suriname River", "Boven-Suriname"], "region": "country" },
+        { "name": "Central Suriname Nature Reserve", "aliases": ["Raleighvallen", "Voltzberg"], "region": "country" },
+        { "name": "Nieuw Nickerie", "aliases": ["Nickerie"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Suriname" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/suriname" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/suriname/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "UY",
+      "isoNum": "858",
+      "name": "Uruguay",
+      "aliases": ["República Oriental del Uruguay", "Republica Oriental del Uruguay", "Oriental Republic of Uruguay"],
+      "continent": "South America",
+      "flag": "🇺🇾",
+      "summary": "Uruguay has a temperate climate with four seasons and rain spread through the year. The beach season runs from December to March and peaks in January, when Argentines and Brazilians fill Punta del Este and prices soar. Late February and March are warm and calmer, and Montevideo's Carnival, the world's longest, runs from late January into March. Spring (October–November) and autumn (April) are pleasant for Montevideo and Colonia, while winter (June to August) is cool, damp and windy at 14–16 °C.",
+      "splitByRegion": false,
+      "splitReason": "A small, low-lying country with one temperate climate; the coast and the interior share the same seasons.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Montevideo, Colonia del Sacramento, Carmelo, Punta del Este and José Ignacio, the Rocha coast (Cabo Polonio, Punta del Diablo) and the hot springs around Salto.",
+          "lat": -34.9,
+          "lon": -56.16,
+          "tags": ["beach", "city", "food", "wine", "culture"],
+          "best": [
+            { "from": "02-15", "to": "04-15", "why": "Late summer: warm 25–28 °C days and the warmest sea after the January crowds leave, with Carnival on Montevideo's tablados.", "goodFor": ["beach", "city", "sun", "roadtrip"] },
+            { "from": "10-15", "to": "12-15", "why": "Spring: 20–26 °C, quiet beaches and pleasant days in Montevideo and Colonia.", "goodFor": ["city", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "06-01", "to": "08-31", "why": "Winter: cold, damp and windy (14 °C days), with most beach resorts shut." }
+          ],
+          "shoulder": [
+            { "from": "12-16", "to": "02-14", "why": "Hot beach season; Punta del Este is packed and very expensive in January." },
+            { "from": "04-16", "to": "05-31", "why": "Cool autumn, quiet and cheaper." },
+            { "from": "09-01", "to": "10-14", "why": "Cool, showery spring." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "12-15", "to": "03-31" } ],
+            "sun": [ { "from": "12-01", "to": "03-31" } ],
+            "city": [ { "from": "09-15", "to": "05-15" } ],
+            "roadtrip": [ { "from": "10-01", "to": "04-30" } ]
+          },
+          "climate": {
+            "avgHighC": [28, 27, 25, 22, 18, 15, 14, 16, 18, 20, 23, 26],
+            "avgLowC": [17, 17, 16, 13, 10, 7, 7, 7, 9, 11, 13, 16],
+            "rainMm": [90, 100, 110, 100, 90, 85, 95, 90, 95, 105, 90, 90],
+            "rainDays": [6, 6, 6, 7, 7, 7, 7, 7, 7, 8, 7, 6],
+            "sunHours": [300, 250, 230, 190, 160, 130, 150, 170, 190, 230, 260, 290],
+            "seaTempC": [22, 22, 21, 19, 16, 14, 12, 12, 13, 15, 18, 20],
+            "humidity": [69, 72, 74, 76, 79, 81, 80, 78, 75, 74, 71, 68]
+          },
+          "crowds": [5, 4, 3, 3, 2, 2, 2, 2, 2, 3, 3, 4],
+          "risks": [
+            { "type": "strong wind", "from": "06-01", "to": "09-30", "note": "Cold 'pampero' winds and storms sweep the Río de la Plata." },
+            { "type": "thunderstorms", "from": "11-01", "to": "03-31", "note": "Sudden summer storms with strong gusts on the coast." }
+          ],
+          "recurringHolidays": [
+            { "name": "Montevideo Carnival", "approx": "Late January – early March", "effect": "Nightly murga and candombe shows on the tablados, with the Desfile de Llamadas parade the highlight.", "moving": { "anchor": "easter", "offsetDays": -87, "durationDays": 45 } },
+            { "name": "Semana de Turismo", "approx": "Holy Week", "effect": "Uruguay's 'Tourism Week': the whole country is on holiday and buses and rural lodgings fill.", "moving": { "anchor": "easter", "offsetDays": -7, "durationDays": 8 } },
+            { "name": "Punta del Este high season", "approx": "Late December – January", "effect": "Resorts are packed; prices double or triple and minimum stays apply.", "dates": { "from": "12-26", "to": "01-31" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 50, "shoulder": 60, "high": 80 },
+            "midrangePerDay": { "low": 110, "shoulder": 140, "high": 200 },
+            "hotelNightMid": { "low": 80, "shoulder": 110, "high": 180 },
+            "notes": "Uruguay is South America's most expensive country, and Punta del Este in January is pricier still. Montevideo's parrillas and the Mercado del Puerto are good value at lunch."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Montevideo", "aliases": ["Ciudad Vieja"], "region": "country" },
+        { "name": "Punta del Este", "aliases": ["La Barra", "José Ignacio", "Jose Ignacio"], "region": "country" },
+        { "name": "Colonia del Sacramento", "aliases": ["Colonia"], "region": "country" },
+        { "name": "Cabo Polonio", "aliases": ["Punta del Diablo", "La Paloma", "Rocha"], "region": "country" },
+        { "name": "Piriápolis", "aliases": ["Piriapolis"], "region": "country" },
+        { "name": "Carmelo", "aliases": [], "region": "country" },
+        { "name": "Salto", "aliases": ["Termas del Daymán", "Termas del Dayman"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Uruguay" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/uruguay" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/uruguay/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "VE",
+      "isoNum": "862",
+      "name": "Venezuela",
+      "aliases": ["República Bolivariana de Venezuela", "Bolivarian Republic of Venezuela"],
+      "continent": "South America",
+      "flag": "🇻🇪",
+      "summary": "Venezuela's dry season (December to April) is the best time for Los Roques and the Caribbean coast, the Andes around Mérida and treks to Roraima. Angel Falls is the exception: in the rainy season (June to November) it is at full flow and boats can reach its base, whereas by February–April the river can be too low for canoe trips and the falls thin to a trickle. The coast is hot all year (around 30 °C) and lies south of the main hurricane belt. Crime, political instability and shortages make travel difficult, and many governments advise against all or most travel, so check government travel advice before planning a trip.",
+      "splitByRegion": false,
+      "splitReason": "The whole country shares one tropical calendar of a December–April dry season and May–November rains, with temperature set by altitude.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Caracas, Los Roques and Margarita, Morrocoy and Choroní on the Caribbean coast, Mérida and the Andes, Canaima and Angel Falls, the Gran Sabana and Roraima, and the Llanos.",
+          "lat": 10.49,
+          "lon": -66.88,
+          "tags": ["beach", "diving", "waterfalls", "mountain", "nature"],
+          "best": [
+            { "from": "12-15", "to": "04-30", "why": "Dry season: sunny, calm weather for Los Roques and the islands, and clear skies for the Mérida cable car and Roraima treks (though Angel Falls is at its thinnest).", "goodFor": ["beach", "diving", "sun", "mountain", "nature"] }
+          ],
+          "worst": [
+            { "from": "09-15", "to": "11-15", "why": "Peak rains: frequent storms, landslide-prone roads in the Andes and muddy treks to Roraima." }
+          ],
+          "shoulder": [
+            { "from": "05-01", "to": "09-14", "why": "Rainy season: afternoon storms, but Angel Falls at full flow and boats running to its base." },
+            { "from": "11-16", "to": "12-14", "why": "Rains ending, with Angel Falls still in full flow." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "12-01", "to": "05-15" } ],
+            "diving": [ { "from": "12-01", "to": "08-31" } ],
+            "sun": [ { "from": "12-15", "to": "04-30" } ],
+            "mountain": [ { "from": "12-15", "to": "04-30" } ],
+            "nature": [ { "from": "06-01", "to": "12-31" } ]
+          },
+          "climate": {
+            "avgHighC": [26, 26, 27, 28, 28, 27, 27, 28, 28, 28, 27, 26],
+            "avgLowC": [16, 16, 17, 18, 19, 19, 18, 18, 18, 18, 18, 17],
+            "rainMm": [20, 12, 15, 35, 75, 100, 110, 110, 105, 110, 75, 45],
+            "rainDays": [4, 2, 2, 5, 9, 13, 14, 14, 12, 12, 10, 7],
+            "sunHours": [230, 220, 230, 200, 190, 190, 210, 220, 220, 210, 200, 210],
+            "seaTempC": [26, 26, 26, 26, 27, 28, 28, 28, 28, 28, 28, 27],
+            "humidity": [79, 77, 76, 78, 80, 81, 80, 80, 79, 80, 81, 81]
+          },
+          "crowds": [4, 3, 3, 3, 2, 2, 3, 3, 2, 2, 2, 4],
+          "risks": [
+            { "type": "flooding", "from": "06-01", "to": "11-30", "note": "Heavy rain causes floods and landslides, especially in the Andes and around Caracas." }
+          ],
+          "recurringHolidays": [
+            { "name": "Carnival", "approx": "Monday and Tuesday before Ash Wednesday", "effect": "Venezuelans head to the beaches and Margarita; transport and coastal hotels fill.", "moving": { "anchor": "easter", "offsetDays": -50, "durationDays": 4 } },
+            { "name": "Semana Santa", "approx": "Easter week", "effect": "Beaches and Mérida fill with domestic travellers.", "moving": { "anchor": "easter", "offsetDays": -7, "durationDays": 8 } },
+            { "name": "Christmas holidays", "approx": "Mid-December – early January", "effect": "Domestic travel peaks and coastal accommodation books out.", "dates": { "from": "12-15", "to": "01-06" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 50, "high": 60 },
+            "midrangePerDay": { "low": 90, "shoulder": 110, "high": 140 },
+            "hotelNightMid": { "low": 50, "shoulder": 70, "high": 100 },
+            "notes": "Prices are quoted, and usually paid, in US dollars cash; card payments by foreigners are difficult. Angel Falls is visited on 3-day packages from Canaima, flying in from Ciudad Bolívar or Puerto Ordaz."
+          },
+          "seaLat": 11.85,
+          "seaLon": -66.75
+        }
+      ],
+      "cities": [
+        { "name": "Caracas", "aliases": [], "region": "country" },
+        { "name": "Los Roques", "aliases": ["Archipiélago Los Roques", "Archipielago Los Roques", "Gran Roque"], "region": "country" },
+        { "name": "Margarita", "aliases": ["Isla Margarita", "Porlamar"], "region": "country" },
+        { "name": "Mérida", "aliases": ["Mérida Venezuela", "Merida Venezuela", "Mukumbarí"], "region": "country" },
+        { "name": "Canaima", "aliases": ["Angel Falls", "Salto Ángel", "Salto Angel", "Kerepakupai Merú"], "region": "country" },
+        { "name": "Roraima", "aliases": ["Mount Roraima", "Gran Sabana", "Santa Elena de Uairén"], "region": "country" },
+        { "name": "Morrocoy", "aliases": ["Chichiriviche", "Tucacas"], "region": "country" },
+        { "name": "Choroní", "aliases": ["Choroni", "Henri Pittier"], "region": "country" },
+        { "name": "Los Llanos", "aliases": ["Llanos Venezuela"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Venezuela" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/venezuela" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/venezuela/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"

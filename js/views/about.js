@@ -31,9 +31,11 @@ export function render(main) {
     <ul>
       <li><b>Season fit</b>: the average day value, where best = 1, shoulder = 0.6, mixed = 0.35 and worst = 0.</li>
       <li><b>Activity fit</b>: the share of your days that fall inside the region's window for each chosen activity, averaged across activities. Regions below 20% are left out.</li>
+      <li><b>Weather fit</b>: how well the month's averages suit your activities: little rain, comfortable highs (around 30 °C for beach, sun and diving; 20–26 °C otherwise) and, for beach and diving, a sea of 21–28 °C or warmer.</li>
       <li><b>Risk load</b>: the share of days with an active hazard, weighted by severity (hurricane, typhoon, cyclone or monsoon 1; flood, heat, fire, smoke, cold or landslide 0.6; others 0.3).</li>
     </ul>
-    <pre>score = 0.5 × season + 0.5 × activity − 0.15 × risk
+    <pre>score = 0.45 × season + 0.4 × activity + 0.15 × weather − 0.15 × risk
+no activity:   score = 0.85 × season + 0.15 × weather − 0.15 × risk
 avoid crowds:  score = 0.8 × score + 0.2 × (5 − crowds) / 4
 budget:        + 0.08 × cheapness</pre>
     <p>The score is shown out of 100. With “flexible ±2 weeks”, your dates are also tried shifted by ±7 and ±14 days, and the app tells you if a shift scores better.</p>

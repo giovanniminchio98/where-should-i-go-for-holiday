@@ -1,12 +1,16 @@
 {
-  "dataVersion": "0.1.0",
+  "dataVersion": "0.2.0",
   "lastUpdated": "2026-10-06",
   "climateNormals": "1991–2020 long-term monthly averages",
   "exchangeRates": {
     "base": "EUR",
     "date": "2026-10-01",
     "note": "Static reference rates for rough conversion only.",
-    "rates": { "EUR": 1, "USD": 1.17, "GBP": 0.87 }
+    "rates": {
+      "EUR": 1,
+      "USD": 1.17,
+      "GBP": 0.87
+    }
   },
   "inflation": {
     "note": "Annual price-growth assumption per continent, compounded from each price block's referenceYear.",
@@ -21,19 +25,59 @@
     }
   },
   "continents": [
-    { "name": "Africa", "file": "africa" },
-    { "name": "Asia", "file": "asia" },
-    { "name": "Europe", "file": "europe" },
-    { "name": "North America", "file": "north-america" },
-    { "name": "South America", "file": "south-america" },
-    { "name": "Oceania", "file": "oceania" }
+    {
+      "name": "Africa",
+      "file": "africa"
+    },
+    {
+      "name": "Asia",
+      "file": "asia"
+    },
+    {
+      "name": "Europe",
+      "file": "europe"
+    },
+    {
+      "name": "North America",
+      "file": "north-america"
+    },
+    {
+      "name": "South America",
+      "file": "south-america"
+    },
+    {
+      "name": "Oceania",
+      "file": "oceania"
+    }
   ],
   "sources": [
-    { "label": "WMO climate normals 1991–2020", "url": "https://community.wmo.int/en/activity-areas/climate-services/climate-products-and-initiatives/wmo-climatological-normals" },
-    { "label": "NOAA U.S. Climate Normals", "url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals" },
-    { "label": "World Bank Climate Change Knowledge Portal", "url": "https://climateknowledgeportal.worldbank.org" },
-    { "label": "Open-Meteo historical weather API (ERA5 reanalysis), used by scripts/fetch-climate.js", "url": "https://open-meteo.com/en/docs/historical-weather-api" },
-    { "label": "Open-Meteo marine API (sea surface temperature)", "url": "https://open-meteo.com/en/docs/marine-weather-api" },
-    { "label": "National tourism boards and government travel advisories (linked on each country page)", "url": "https://www.gov.uk/foreign-travel-advice" }
+    {
+      "label": "WMO climate normals 1991–2020",
+      "url": "https://community.wmo.int/en/activity-areas/climate-services/climate-products-and-initiatives/wmo-climatological-normals"
+    },
+    {
+      "label": "NOAA U.S. Climate Normals",
+      "url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals"
+    },
+    {
+      "label": "World Bank Climate Change Knowledge Portal",
+      "url": "https://climateknowledgeportal.worldbank.org"
+    },
+    {
+      "label": "Open-Meteo historical weather API (ERA5 reanalysis), used by scripts/fetch-climate.js",
+      "url": "https://open-meteo.com/en/docs/historical-weather-api"
+    },
+    {
+      "label": "Open-Meteo marine API (sea surface temperature)",
+      "url": "https://open-meteo.com/en/docs/marine-weather-api"
+    },
+    {
+      "label": "National tourism boards and government travel advisories (linked on each country page)",
+      "url": "https://www.gov.uk/foreign-travel-advice"
+    },
+    {
+      "label": "GeoNames world cities (CC BY 4.0), used to map unlisted towns to the nearest region",
+      "url": "https://www.geonames.org"
+    }
   ]
 }

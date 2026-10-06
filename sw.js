@@ -1,6 +1,6 @@
 // Offline support: precache the app shell; data is network-first (so yearly
 // updates arrive promptly), CDN libraries and fonts are cache-first.
-const VERSION = 'wtg-v2';
+const VERSION = 'wtg-v3';
 const SHELL = [
   './',
   'index.html',
@@ -9,7 +9,7 @@ const SHELL = [
   'manifest.webmanifest',
   'icons/icon.svg',
   'js/app.js',
-  'js/lib/data.js', 'js/lib/util.js', 'js/lib/libs.js', 'js/lib/strings.js',
+  'js/lib/data.js', 'js/lib/gazetteer.js', 'js/lib/util.js', 'js/lib/libs.js', 'js/lib/strings.js',
   'js/core/dates.js', 'js/core/season.js', 'js/core/score.js', 'js/core/holidays.js', 'js/core/prices.js',
   'js/ui/strip.js', 'js/ui/map.js', 'js/ui/charts.js', 'js/ui/search.js', 'js/ui/cards.js', 'js/ui/share.js',
   'js/views/home.js', 'js/views/country.js', 'js/views/finder.js', 'js/views/compare.js',

@@ -21,7 +21,7 @@
 // Afterwards run: node scripts/build-index.js && node scripts/validate.js
 
 import { writeFileSync } from 'node:fs';
-import { loadMeta, loadContinents } from './lib.js';
+import { loadMeta, loadContinents, fmt } from './lib.js';
 
 const args = Object.fromEntries(process.argv.slice(2).map(a => {
   const [k, v] = a.replace(/^--/, '').split('=');
@@ -97,37 +97,6 @@ async function fetchSea(lat, lon) {
 function selected(iso2, id) {
   if (!ONLY) return true;
   return ONLY.some(s => s === iso2 || s === `${iso2}.${id}`);
-}
-
-// Compact JSON formatter matching the hand-written style of the data files:
-// arrays of primitives and small flat objects stay on one line.
-function fmt(v, indent = '') {
-  const inner = indent + '  ';
-  const flat = x => x === null || typeof x !== 'object';
-  if (Array.isArray(v)) {
-    if (!v.length) return '[]';
-    if (v.every(flat)) return '[' + v.map(x => JSON.stringify(x)).join(', ') + ']';
-    const flatObj = y => y && typeof y === 'object' && !Array.isArray(y) && Object.values(y).every(flat);
-    const oneLine = v.every(x => x && typeof x === 'object' && !Array.isArray(x) && Object.values(x).every(y => flat(y) || flatObj(y) || (Array.isArray(y) && y.every(flat))));
-    if (oneLine && v.every(x => Object.values(x).every(flat))) {
-      const s = '[ ' + v.map(inlineObj).join(', ') + ' ]';
-      if (s.length < 110) return s;
-    }
-    if (oneLine) return '[\n' + v.map(x => inner + inlineObj(x)).join(',\n') + '\n' + indent + ']';
-    return '[\n' + v.map(x => inner + fmt(x, inner)).join(',\n') + '\n' + indent + ']';
-  }
-  if (v && typeof v === 'object') {
-    const entries = Object.entries(v);
-    if (!entries.length) return '{}';
-    if (entries.every(([, x]) => flat(x)) && JSON.stringify(v).length < 90) return inlineObj(v);
-    return '{\n' + entries.map(([k, x]) => `${inner}${JSON.stringify(k)}: ${fmt(x, inner)}`).join(',\n') + '\n' + indent + '}';
-  }
-  return JSON.stringify(v);
-}
-function inlineObj(o) {
-  const val = x => Array.isArray(x) ? '[' + x.map(y => JSON.stringify(y)).join(', ') + ']'
-    : x && typeof x === 'object' ? inlineObj(x) : JSON.stringify(x);
-  return '{ ' + Object.entries(o).map(([k, x]) => `${JSON.stringify(k)}: ${val(x)}`).join(', ') + ' }';
 }
 
 const meta = loadMeta();

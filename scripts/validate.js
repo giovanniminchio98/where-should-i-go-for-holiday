@@ -33,11 +33,11 @@ function checkStrings(obj, where) {
   else if (obj && typeof obj === 'object') for (const [k, v] of Object.entries(obj)) checkStrings(v, `${where}.${k}`);
 }
 
-function checkWindow(w, where, { why = false, goodFor = false } = {}) {
+function checkWindow(w, where, { why = false, goodFor = false, minWhy = 20 } = {}) {
   if (!w || typeof w !== 'object') return err(where, 'window must be an object');
   if (!isValidMmdd(w.from)) err(where, `invalid "from" date ${JSON.stringify(w.from)} (expected MM-DD)`);
   if (!isValidMmdd(w.to)) err(where, `invalid "to" date ${JSON.stringify(w.to)} (expected MM-DD)`);
-  if (why && !isStr(w.why, 20)) err(where, '"why" must be a sentence (≥ 20 chars)');
+  if (why && !isStr(w.why, minWhy)) err(where, `"why" must be a sentence (≥ ${minWhy} chars)`);
   if (goodFor && w.goodFor !== undefined) {
     if (!Array.isArray(w.goodFor)) err(where, '"goodFor" must be an array');
     else for (const a of w.goodFor) if (!ACTIVITIES.includes(a)) err(where, `unknown activity "${a}" in goodFor`);
@@ -75,7 +75,8 @@ function checkRegion(r, where, fx) {
 
   for (const kind of ['best', 'worst', 'shoulder']) {
     if (!Array.isArray(r[kind])) { err(where, `"${kind}" must be an array`); continue; }
-    r[kind].forEach((w, i) => checkWindow(w, `${where}.${kind}[${i}]`, { why: true, goodFor: kind === 'best' }));
+    // Shoulder periods are transitions, so a short note is enough; best/worst need a real reason.
+    r[kind].forEach((w, i) => checkWindow(w, `${where}.${kind}[${i}]`, { why: true, goodFor: kind === 'best', minWhy: kind === 'shoulder' ? 10 : 20 }));
   }
   if (Array.isArray(r.best) && !r.best.length) err(where, 'needs at least one "best" window');
   if (Array.isArray(r.worst) && !r.worst.length) warn(where, 'no "worst" window');

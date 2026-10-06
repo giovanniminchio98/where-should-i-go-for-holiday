@@ -15,14 +15,18 @@ It also has a **"Where should I go?" finder** (dates + activities + continents �
 a month-by-month **world map**, **compare** mode, a **saved** shortlist, **plan a year**,
 shareable PNG season cards, print styles, light/dark themes and offline support.
 
+Search covers every country, its regions and curated cities. If you type a town that isn't
+curated, an offline world gazetteer (about 47,000 places from GeoNames) finds it and shows the
+nearest region of its country, clearly marked **regional info**.
+
 Everything is based on **recurring seasonal patterns**, not one-off events, so the app stays
 useful year after year.
 
 ## Status
 
-Phase 1 covers **5 countries in full detail**: Italy, Thailand, USA, Brazil and Sri Lanka
-(28 regions). The rest of the world is added continent by continent; run
-`node scripts/validate.js` for the current coverage report.
+**181 countries and territories, 311 regions**: all of Europe, Asia and Africa, South
+America, the Caribbean and the USA. Canada, Mexico, Central America, Greenland and Oceania
+are being added next. Run `node scripts/validate.js` for the current coverage report.
 
 ## Run locally
 
@@ -89,6 +93,9 @@ npm run check                   # all three
    Split it into regions wherever the seasons differ meaningfully (opposite monsoons, mountains
    vs coast, hemispheres…). If it's climatically uniform, use one region and explain why in
    `splitReason`.
+   Or write it in the compact authoring shorthand documented at the top of
+   `scripts/add-countries.js` and merge it with `node scripts/add-countries.js my-countries.json`,
+   which expands it to the full schema and keeps each continent file sorted and formatted.
 2. Give each region a representative `lat`/`lon` and optionally refresh its climate with
    `node scripts/fetch-climate.js --only=XX --write` (see below).
 3. Run `npm run check`.
@@ -105,6 +112,19 @@ Climate normals don't need yearly updates. Prices and events do:
 5. Update `lastReviewed` on the countries you checked, bump `meta.json → dataVersion` and
    `lastUpdated`, and bump `VERSION` in `sw.js` so offline caches refresh.
 6. `npm run check`, then push.
+
+### Unlisted towns (world gazetteer)
+
+`data/cities.tsv` lists about 47k places with 5,000+ people, plus capitals, from
+[GeoNames](https://www.geonames.org) (CC BY 4.0). It is fetched only when a search reaches 3+
+characters. Each place is matched to the nearest region of its country, using the region
+reference points and the curated cities as anchors, so adding more curated cities makes the
+matching more accurate. To regenerate it:
+
+```sh
+npm i --no-save all-the-cities@3.1.0
+node scripts/build-cities.js            # --min-pop=5000 by default
+```
 
 ### Refreshing climate from Open-Meteo
 
@@ -130,10 +150,12 @@ For each region and the chosen days *D*:
 | season fit | mean day value over *D*: best 1 · shoulder 0.6 · mixed 0.35 · worst 0 |
 | activity fit | mean over chosen activities of the share of *D* inside that activity's window. Regions under 0.2 are excluded |
 | risk load | mean over *D* of the worst active risk severity: hurricane/typhoon/cyclone/monsoon 1 · flood/heat/fire/smoke/cold/landslide 0.6 · other 0.3 |
+| weather fit | mean of rain fit, temperature comfort for the chosen activities and (beach/diving) sea temperature, from the monthly climate averages |
 | crowd fit | (5 − mean crowd level) / 4 |
 
 ```
-score = 0.5·season + 0.5·activity − 0.15·risk        (season only, if no activity chosen)
+score = 0.45·season + 0.4·activity + 0.15·weather − 0.15·risk
+no activity chosen → 0.85·season + 0.15·weather − 0.15·risk
 avoid crowds → 0.8·score + 0.2·crowdFit
 budget       → + 0.08·cheapness
 ```
