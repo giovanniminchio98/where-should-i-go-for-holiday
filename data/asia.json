@@ -77,6 +77,232 @@
       "lastReviewed": "2026-10"
     },
     {
+      "iso2": "AM",
+      "isoNum": "051",
+      "name": "Armenia",
+      "aliases": ["Hayastan"],
+      "continent": "Asia",
+      "flag": "🇦🇲",
+      "summary": "Armenia's ancient monasteries and mountain scenery are best in late spring (May–June) and early autumn (September–October). Summer is hot in Yerevan (35–40 °C) but pleasant around Lake Sevan and Dilijan. Winter is cold and snowy, with skiing at Tsaghkadzor.",
+      "splitByRegion": false,
+      "splitReason": "Armenia is small and mountainous: Yerevan's valley is hotter, but the whole country shares one continental calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "The whole country: Yerevan, Garni and Geghard, Lake Sevan, Dilijan, Tatev, Noravank and Gyumri.",
+          "lat": 40.18,
+          "lon": 44.51,
+          "tags": ["culture", "history", "mountain", "wine"],
+          "best": [
+            { "from": "05-01", "to": "06-20", "why": "Wildflowers and mild 20–25 °C days at the Geghard, Tatev and Noravank monasteries.", "goodFor": ["city", "mountain", "nature", "roadtrip"] },
+            { "from": "09-01", "to": "10-31", "why": "Apricot and grape harvests, with golden mountains.", "goodFor": ["city", "mountain", "nature", "roadtrip"] }
+          ],
+          "worst": [ { "from": "07-10", "to": "08-20", "why": "Yerevan heat of 35–40 °C." } ],
+          "shoulder": [
+            { "from": "11-01", "to": "04-30", "why": "Cold, snowy uplands with skiing at Tsaghkadzor; Yerevan is quiet." },
+            { "from": "06-21", "to": "07-09", "why": "Getting hot in the valleys." },
+            { "from": "08-21", "to": "08-31", "why": "The heat is easing." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "04-15", "to": "06-20" }, { "from": "09-01", "to": "11-15" } ],
+            "mountain": [ { "from": "06-01", "to": "10-15" } ],
+            "nature": [ { "from": "05-01", "to": "10-15" } ],
+            "snow": [ { "from": "12-20", "to": "03-10" } ],
+            "roadtrip": [ { "from": "05-01", "to": "10-31" } ]
+          },
+          "climate": {
+            "avgHighC": [1, 4, 12, 19, 24, 30, 34, 33, 28, 20, 11, 4],
+            "avgLowC": [-8, -6, 0, 6, 11, 15, 19, 18, 13, 7, 1, -4],
+            "rainMm": [20, 20, 30, 40, 45, 25, 15, 10, 10, 25, 20, 20],
+            "rainDays": [4, 4, 6, 8, 9, 5, 3, 2, 2, 5, 4, 4],
+            "sunHours": [110, 130, 170, 200, 250, 300, 340, 330, 290, 220, 150, 100],
+            "seaTempC": null,
+            "humidity": [80, 75, 65, 58, 58, 50, 45, 45, 50, 62, 73, 80]
+          },
+          "crowds": [2, 2, 2, 3, 4, 4, 5, 5, 5, 4, 2, 2],
+          "risks": [
+            { "type": "extreme heat", "from": "07-01", "to": "08-20", "note": "Valley heat." },
+            { "type": "road closures", "from": "12-01", "to": "03-31", "note": "Mountain passes snowbound." }
+          ],
+          "recurringHolidays": [
+            { "name": "Vardavar", "approx": "July (14 weeks after Easter)", "effect": "A countrywide water-throwing festival." }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 35, "high": 45 },
+            "midrangePerDay": { "low": 65, "shoulder": 75, "high": 95 },
+            "hotelNightMid": { "low": 40, "shoulder": 50, "high": 75 },
+            "notes": "Very good value. Tatev's 'Wings of Tatev' cable car closes in strong winds."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Yerevan", "aliases": [], "region": "country" },
+        { "name": "Garni", "aliases": ["Geghard"], "region": "country" },
+        { "name": "Tatev", "aliases": ["Goris"], "region": "country" },
+        { "name": "Dilijan", "aliases": [], "region": "country" },
+        { "name": "Sevan", "aliases": ["Lake Sevan"], "region": "country" },
+        { "name": "Gyumri", "aliases": [], "region": "country" },
+        { "name": "Tsaghkadzor", "aliases": [], "region": "country" },
+        { "name": "Noravank", "aliases": ["Areni"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Armenia" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/armenia" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/armenia/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "AZ",
+      "isoNum": "031",
+      "name": "Azerbaijan",
+      "aliases": ["Azərbaycan"],
+      "continent": "Asia",
+      "flag": "🇦🇿",
+      "summary": "Azerbaijan's Baku is a windy Caspian city with mild springs and autumns, hot summers and cold, gusty winters. The Caucasus towns of Sheki and Gabala are greenest from May to October. Novruz in March and the Baku F1 race fill hotels.",
+      "splitByRegion": false,
+      "splitReason": "Baku and the Caucasus foothills (Sheki, Gabala, Quba) share one calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Baku, Gobustan, Sheki, Gabala, Quba and Khinalug.",
+          "lat": 40.41,
+          "lon": 49.87,
+          "tags": ["city", "mountain", "culture"],
+          "best": [
+            { "from": "05-01", "to": "06-20", "why": "Mild 20–27 °C days: Baku's Old City and green mountain villages.", "goodFor": ["city", "mountain", "nature", "roadtrip"] },
+            { "from": "09-10", "to": "10-31", "why": "Warm, calm autumn days.", "goodFor": ["city", "mountain", "roadtrip"] }
+          ],
+          "worst": [ { "from": "01-05", "to": "02-20", "why": "Cold, windy Khazri gales over a grey Caspian." } ],
+          "shoulder": [
+            { "from": "12-01", "to": "01-04", "why": "Festive lights, but chilly and windy." },
+            { "from": "02-21", "to": "04-30", "why": "Cool spring with Novruz in March." },
+            { "from": "06-21", "to": "09-09", "why": "Hot (30 °C), with Caspian beaches open in July–August." },
+            { "from": "11-01", "to": "11-30", "why": "Cooling and windy." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "04-15", "to": "06-30" }, { "from": "09-01", "to": "11-15" } ],
+            "mountain": [ { "from": "06-01", "to": "09-30" } ],
+            "beach": [ { "from": "07-01", "to": "08-31" } ],
+            "roadtrip": [ { "from": "05-01", "to": "10-15" } ],
+            "nature": [ { "from": "05-01", "to": "10-15" } ]
+          },
+          "climate": {
+            "avgHighC": [7, 7, 10, 16, 22, 27, 30, 30, 25, 19, 14, 9],
+            "avgLowC": [1, 1, 4, 9, 14, 19, 22, 22, 18, 13, 7, 3],
+            "rainMm": [20, 20, 20, 20, 15, 8, 5, 5, 15, 25, 30, 25],
+            "rainDays": [5, 5, 6, 5, 4, 2, 1, 1, 3, 5, 6, 6],
+            "sunHours": [90, 110, 150, 200, 270, 310, 320, 290, 230, 170, 110, 90],
+            "seaTempC": [7, 6, 7, 10, 16, 21, 25, 26, 23, 18, 13, 9],
+            "humidity": [80, 78, 78, 75, 72, 66, 62, 64, 70, 76, 80, 81]
+          },
+          "crowds": [2, 2, 3, 3, 4, 4, 5, 5, 4, 3, 2, 2],
+          "risks": [ { "type": "strong wind", "from": "11-01", "to": "03-31", "note": "Khazri northerly gales." } ],
+          "recurringHolidays": [
+            { "name": "Novruz", "approx": "Mar 20 – Mar 24", "effect": "The spring new year: a long holiday with festivities.", "dates": { "from": "03-20", "to": "03-24" } },
+            { "name": "Baku Grand Prix", "approx": "September", "effect": "Central Baku roads close and hotels spike." }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 45, "high": 55 },
+            "midrangePerDay": { "low": 90, "shoulder": 105, "high": 130 },
+            "hotelNightMid": { "low": 60, "shoulder": 75, "high": 100 },
+            "notes": "Baku hotels can be pricey around F1 and big events; the regions are cheap."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Baku", "aliases": [], "region": "country" },
+        { "name": "Sheki", "aliases": ["Shaki"], "region": "country" },
+        { "name": "Gabala", "aliases": ["Qabala"], "region": "country" },
+        { "name": "Gobustan", "aliases": ["Qobustan", "mud volcanoes"], "region": "country" },
+        { "name": "Quba", "aliases": ["Khinalug"], "region": "country" },
+        { "name": "Lahij", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Azerbaijan" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/azerbaijan" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/azerbaijan/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "BH",
+      "isoNum": "048",
+      "name": "Bahrain",
+      "aliases": ["Kingdom of Bahrain"],
+      "continent": "Asia",
+      "flag": "🇧🇭",
+      "summary": "Bahrain is mild and sunny from November to March, very hot and humid from June to September, and busiest around the Formula 1 Grand Prix in spring.",
+      "splitByRegion": false,
+      "splitReason": "Bahrain is a small island kingdom with one climate.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Manama, Muharraq and Bahrain Fort.",
+          "lat": 26.23,
+          "lon": 50.59,
+          "tags": ["city", "history", "culture"],
+          "best": [
+            { "from": "11-15", "to": "03-31", "why": "Mild and sunny, 20–27 °C.", "goodFor": ["city", "beach", "sun"] }
+          ],
+          "worst": [ { "from": "06-01", "to": "09-15", "why": "Very hot and humid (38 °C+)." } ],
+          "shoulder": [
+            { "from": "04-01", "to": "05-31", "why": "Getting hot; the F1 race is in March or April." },
+            { "from": "09-16", "to": "11-14", "why": "Heat easing." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "10-15", "to": "04-30" } ],
+            "beach": [ { "from": "10-15", "to": "05-15" } ],
+            "sun": [ { "from": "11-01", "to": "04-15" } ]
+          },
+          "climate": {
+            "avgHighC": [20, 21, 25, 29, 34, 37, 38, 38, 36, 33, 27, 22],
+            "avgLowC": [14, 15, 18, 22, 26, 29, 30, 30, 29, 25, 20, 16],
+            "rainMm": [15, 15, 13, 8, 1, 0, 0, 0, 0, 1, 4, 10],
+            "rainDays": [2, 2, 2, 1, 0, 0, 0, 0, 0, 0, 1, 2],
+            "sunHours": [220, 220, 240, 260, 300, 330, 330, 320, 300, 280, 240, 220],
+            "seaTempC": [20, 19, 21, 24, 28, 31, 33, 33, 32, 29, 25, 22],
+            "humidity": [75, 73, 69, 61, 56, 58, 62, 66, 68, 69, 71, 75]
+          },
+          "crowds": [3, 3, 4, 3, 2, 1, 1, 1, 2, 3, 3, 4],
+          "risks": [ { "type": "extreme heat", "from": "05-15", "to": "09-30", "note": "Humid heat." } ],
+          "recurringHolidays": [
+            { "name": "Bahrain Grand Prix", "approx": "March/April", "effect": "Hotel prices spike." },
+            { "name": "Ramadan", "approx": "Moves each year", "effect": "Discreet dining by day.", "moving": { "anchor": "ramadanStart", "offsetDays": 0, "durationDays": 30 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 60, "shoulder": 70, "high": 80 },
+            "midrangePerDay": { "low": 140, "shoulder": 160, "high": 200 },
+            "hotelNightMid": { "low": 100, "shoulder": 120, "high": 160 },
+            "notes": "A popular weekend escape from Saudi Arabia, so hotels are busier Thursday to Saturday."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Manama", "aliases": [], "region": "country" },
+        { "name": "Muharraq", "aliases": [], "region": "country" },
+        { "name": "Bahrain Fort", "aliases": ["Qal'at al-Bahrain"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Bahrain" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/bahrain" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/bahrain/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
       "iso2": "BD",
       "isoNum": "050",
       "name": "Bangladesh",
@@ -945,6 +1171,138 @@
         { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/China" },
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/china" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/china/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "GE",
+      "isoNum": "268",
+      "name": "Georgia",
+      "aliases": ["Sakartvelo"],
+      "continent": "Asia",
+      "flag": "🇬🇪",
+      "summary": "Georgia squeezes the Greater Caucasus, wine country and a subtropical Black Sea coast into a small area. Tbilisi and Kakheti are best in late spring and during the September–October grape harvest. The high mountains (Kazbegi, Svaneti, Tusheti) are mainly a June–September trekking destination, with good skiing at Gudauri in winter. Batumi on the Black Sea is warm and wet, with beach season in July–August.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "east",
+          "name": "Tbilisi, Wine Country & the Caucasus",
+          "description": "Tbilisi, Mtskheta, Kakheti (Sighnaghi, Telavi), Kazbegi, Svaneti (Mestia, Ushguli), Tusheti, Borjomi and Gudauri.",
+          "lat": 41.72,
+          "lon": 44.79,
+          "tags": ["city", "mountain", "wine", "trekking", "snow"],
+          "best": [
+            { "from": "05-01", "to": "06-20", "why": "Green, flowering valleys, with the Kazbegi and Svaneti hikes opening from June.", "goodFor": ["city", "mountain", "nature", "roadtrip"] },
+            { "from": "09-01", "to": "10-31", "why": "The Rtveli grape harvest in Kakheti, golden autumn and clear Caucasus views.", "goodFor": ["city", "mountain", "nature", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "03-01", "to": "04-10", "why": "Slushy, grey late winter: mountain passes are muddy or closed and the ski season is fading." }
+          ],
+          "shoulder": [
+            { "from": "04-11", "to": "04-30", "why": "Spring blossom in Tbilisi, with the mountains still snowy." },
+            { "from": "06-21", "to": "08-31", "why": "Tbilisi is hot (35 °C), but it's prime high-mountain trekking (Svaneti, Tusheti)." },
+            { "from": "11-01", "to": "02-28", "why": "Cold, with skiing at Gudauri and Bakuriani and Tbilisi's sulphur baths." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "04-15", "to": "06-30" }, { "from": "09-01", "to": "11-15" } ],
+            "mountain": [ { "from": "06-15", "to": "09-30" } ],
+            "nature": [ { "from": "05-01", "to": "10-31" } ],
+            "snow": [ { "from": "12-20", "to": "03-15" } ],
+            "roadtrip": [ { "from": "05-15", "to": "10-15" } ]
+          },
+          "climate": {
+            "avgHighC": [7, 9, 14, 19, 24, 28, 32, 31, 27, 20, 13, 8],
+            "avgLowC": [-1, 0, 4, 8, 13, 17, 20, 20, 15, 10, 5, 1],
+            "rainMm": [20, 25, 35, 60, 80, 75, 45, 45, 45, 40, 30, 20],
+            "rainDays": [4, 5, 7, 9, 11, 9, 6, 6, 6, 6, 5, 4],
+            "sunHours": [100, 110, 150, 180, 220, 260, 290, 270, 220, 170, 110, 90],
+            "seaTempC": null,
+            "humidity": [75, 72, 68, 65, 68, 64, 60, 62, 67, 75, 78, 77]
+          },
+          "crowds": [2, 2, 2, 3, 4, 4, 5, 5, 5, 4, 2, 2],
+          "risks": [
+            { "type": "road closures", "from": "11-15", "to": "05-15", "note": "The Tusheti road and some passes are closed." },
+            { "type": "avalanche", "from": "12-15", "to": "03-31", "note": "Off-piste avalanche risk at Gudauri." }
+          ],
+          "recurringHolidays": [
+            { "name": "Orthodox Christmas", "approx": "Jan 6 – Jan 8", "effect": "Church services and family gatherings; some closures.", "dates": { "from": "01-06", "to": "01-08" } },
+            { "name": "Rtveli (grape harvest)", "approx": "Mid-September – October", "effect": "Wine-country guesthouses in Kakheti fill up." }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 35, "high": 45 },
+            "midrangePerDay": { "low": 70, "shoulder": 80, "high": 100 },
+            "hotelNightMid": { "low": 40, "shoulder": 55, "high": 80 },
+            "notes": "Excellent value. Guesthouse dinners with home-made wine are a highlight."
+          }
+        },
+        {
+          "id": "blacksea",
+          "name": "Black Sea Coast",
+          "description": "Batumi, Kutaisi and the subtropical west.",
+          "lat": 41.64,
+          "lon": 41.64,
+          "tags": ["beach", "city", "nature"],
+          "best": [
+            { "from": "05-01", "to": "07-31", "why": "A warm sea (22–25 °C) and beach season before the wettest months, with Batumi's boulevard buzzing.", "goodFor": ["beach", "city", "nature"] }
+          ],
+          "worst": [
+            { "from": "11-01", "to": "02-28", "why": "Wet, grey and cool; Batumi is one of Europe's rainiest cities." }
+          ],
+          "shoulder": [
+            { "from": "03-01", "to": "04-30", "why": "Mild spring, with gardens in bloom." },
+            { "from": "08-01", "to": "10-31", "why": "Warm sea, but heavy downpours increase in September–October." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "06-15", "to": "09-15" } ],
+            "city": [ { "from": "05-01", "to": "10-15" } ],
+            "nature": [ { "from": "05-01", "to": "09-30" } ]
+          },
+          "climate": {
+            "avgHighC": [10, 10, 12, 16, 20, 24, 27, 27, 24, 20, 16, 12],
+            "avgLowC": [4, 4, 5, 8, 13, 17, 20, 20, 17, 13, 9, 6],
+            "rainMm": [270, 190, 150, 90, 85, 170, 180, 250, 320, 300, 270, 280],
+            "rainDays": [15, 14, 13, 11, 10, 11, 10, 12, 13, 13, 14, 15],
+            "sunHours": [80, 90, 120, 160, 210, 240, 230, 220, 180, 150, 100, 80],
+            "seaTempC": [11, 10, 10, 12, 16, 22, 25, 26, 24, 20, 16, 13],
+            "humidity": [75, 76, 77, 79, 80, 81, 82, 82, 82, 80, 76, 74]
+          },
+          "crowds": [2, 2, 2, 3, 3, 4, 5, 5, 4, 3, 2, 2],
+          "risks": [ { "type": "heavy rain", "from": "09-01", "to": "11-30", "note": "Subtropical downpours." } ],
+          "recurringHolidays": [
+            { "name": "Orthodox Christmas", "approx": "Jan 6 – Jan 8", "effect": "Church services and family gatherings; some closures.", "dates": { "from": "01-06", "to": "01-08" } },
+            { "name": "Rtveli (grape harvest)", "approx": "Mid-September – October", "effect": "Wine-country guesthouses in Kakheti fill up." }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 40, "high": 50 },
+            "midrangePerDay": { "low": 70, "shoulder": 85, "high": 110 },
+            "hotelNightMid": { "low": 40, "shoulder": 60, "high": 90 },
+            "notes": "Batumi is busy with Turkish, Israeli and Armenian visitors in August."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Tbilisi", "aliases": [], "region": "east" },
+        { "name": "Kazbegi", "aliases": ["Stepantsminda", "Gergeti"], "region": "east" },
+        { "name": "Mestia", "aliases": ["Svaneti", "Ushguli"], "region": "east" },
+        { "name": "Sighnaghi", "aliases": ["Kakheti", "Telavi"], "region": "east" },
+        { "name": "Mtskheta", "aliases": [], "region": "east" },
+        { "name": "Gudauri", "aliases": [], "region": "east" },
+        { "name": "Tusheti", "aliases": ["Omalo"], "region": "east" },
+        { "name": "Borjomi", "aliases": ["Bakuriani"], "region": "east" },
+        { "name": "Batumi", "aliases": [], "region": "blacksea" },
+        { "name": "Kutaisi", "aliases": ["Gelati"], "region": "blacksea" },
+        { "name": "Zugdidi", "aliases": [], "region": "blacksea" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://georgia.travel" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Georgia_(country)" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/georgia" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/georgia/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"
@@ -2043,6 +2401,346 @@
       "lastReviewed": "2026-10"
     },
     {
+      "iso2": "IR",
+      "isoNum": "364",
+      "name": "Iran",
+      "aliases": ["Persia", "Islamic Republic of Iran"],
+      "continent": "Asia",
+      "flag": "🇮🇷",
+      "summary": "Iran's central plateau (Tehran, Isfahan, Shiraz, Yazd) has hot, dry summers and cold winters, with spring and autumn as the classic times to see the mosques and Persian gardens. The Persian Gulf islands are a winter-sun destination. Nowruz (Persian New Year, around March 20) brings two weeks of nationwide travel. Check current travel advice; many governments advise against travel, and international bank cards don't work.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "plateau",
+          "name": "Central Plateau & the North",
+          "description": "Tehran, Isfahan, Shiraz and Persepolis, Yazd, Kashan, Tabriz, Mashhad and the Caspian coast.",
+          "lat": 32.65,
+          "lon": 51.67,
+          "tags": ["culture", "history", "architecture", "city"],
+          "best": [
+            { "from": "04-03", "to": "05-31", "why": "Spring after the Nowruz rush: Persian gardens in bloom and 20–28 °C in Isfahan and Shiraz.", "goodFor": ["city", "roadtrip", "nature"] },
+            { "from": "09-20", "to": "11-15", "why": "Golden autumn and the pomegranate harvest.", "goodFor": ["city", "roadtrip"] }
+          ],
+          "worst": [ { "from": "06-20", "to": "08-31", "why": "Desert heat of 38–42 °C in Yazd, Kashan and Isfahan." } ],
+          "shoulder": [
+            { "from": "11-16", "to": "03-18", "why": "Cool and crisp, with snow in Tehran's Alborz (skiing at Dizin)." },
+            { "from": "03-19", "to": "04-02", "why": "Nowruz: lovely weather but huge domestic crowds and full hotels." },
+            { "from": "06-01", "to": "06-19", "why": "Getting hot." },
+            { "from": "09-01", "to": "09-19", "why": "Still hot, but cooling." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "03-25", "to": "06-10" }, { "from": "09-15", "to": "11-30" } ],
+            "roadtrip": [ { "from": "04-01", "to": "06-01" }, { "from": "09-20", "to": "11-10" } ],
+            "mountain": [ { "from": "05-15", "to": "09-30" } ],
+            "snow": [ { "from": "12-15", "to": "03-15" } ],
+            "nature": [ { "from": "04-01", "to": "06-10" } ]
+          },
+          "climate": {
+            "avgHighC": [9, 12, 17, 23, 29, 35, 37, 36, 32, 25, 17, 11],
+            "avgLowC": [-3, -1, 4, 9, 14, 18, 21, 20, 15, 9, 3, -1],
+            "rainMm": [18, 14, 18, 16, 9, 1, 1, 0, 0, 4, 12, 20],
+            "rainDays": [4, 3, 4, 3, 2, 0, 0, 0, 0, 1, 3, 4],
+            "sunHours": [210, 210, 240, 250, 300, 350, 350, 350, 310, 270, 220, 200],
+            "seaTempC": null,
+            "humidity": [58, 50, 42, 36, 28, 19, 19, 19, 21, 30, 44, 57]
+          },
+          "crowds": [2, 2, 4, 5, 4, 2, 2, 2, 3, 4, 3, 2],
+          "risks": [
+            { "type": "extreme heat", "from": "06-15", "to": "08-31", "note": "Desert-city heat." },
+            { "type": "air pollution", "from": "11-15", "to": "01-31", "note": "Tehran's winter smog." }
+          ],
+          "recurringHolidays": [
+            { "name": "Nowruz (Persian New Year)", "approx": "Mar 19 – Apr 2", "effect": "Two weeks of nationwide travel: hotels are full and some sites close.", "dates": { "from": "03-19", "to": "04-02" } },
+            { "name": "Ramadan", "approx": "Moves about 11 days earlier each year", "effect": "Eating in public by day is prohibited.", "moving": { "anchor": "ramadanStart", "offsetDays": 0, "durationDays": 30 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 25, "shoulder": 30, "high": 40 },
+            "midrangePerDay": { "low": 50, "shoulder": 60, "high": 80 },
+            "hotelNightMid": { "low": 30, "shoulder": 40, "high": 60 },
+            "notes": "Very cheap for visitors, but bring all your cash in euros or dollars because foreign cards don't work."
+          }
+        },
+        {
+          "id": "gulf",
+          "name": "Persian Gulf Islands",
+          "description": "Kish, Qeshm, Hormuz and Bandar Abbas.",
+          "lat": 27.18,
+          "lon": 56.27,
+          "tags": ["beach", "islands", "geology", "diving"],
+          "best": [
+            { "from": "11-15", "to": "03-31", "why": "Warm, dry winter sun: Hormuz's rainbow island, Qeshm's geology and Kish's beaches.", "goodFor": ["beach", "nature", "city", "sun", "diving"] }
+          ],
+          "worst": [ { "from": "05-15", "to": "09-30", "why": "Brutal humid heat: 38 °C+ with a heat index near 50 °C." } ],
+          "shoulder": [
+            { "from": "04-01", "to": "05-14", "why": "Hot and getting humid." },
+            { "from": "10-01", "to": "11-14", "why": "Heat easing." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "11-01", "to": "04-15" } ],
+            "diving": [ { "from": "11-01", "to": "04-30" } ],
+            "nature": [ { "from": "11-15", "to": "03-31" } ],
+            "city": [ { "from": "11-15", "to": "03-31" } ],
+            "sun": [ { "from": "11-01", "to": "04-15" } ]
+          },
+          "climate": {
+            "avgHighC": [23, 24, 27, 31, 36, 38, 38, 38, 37, 35, 30, 25],
+            "avgLowC": [13, 15, 18, 22, 26, 29, 31, 31, 29, 25, 20, 15],
+            "rainMm": [45, 40, 25, 10, 1, 0, 2, 2, 0, 1, 15, 40],
+            "rainDays": [3, 3, 2, 1, 0, 0, 0, 0, 0, 0, 1, 3],
+            "sunHours": [230, 230, 250, 280, 330, 320, 290, 290, 300, 300, 250, 230],
+            "seaTempC": [22, 21, 23, 26, 29, 31, 32, 32, 31, 29, 26, 23],
+            "humidity": [68, 68, 66, 62, 58, 62, 68, 70, 68, 63, 62, 67]
+          },
+          "crowds": [4, 3, 4, 4, 2, 1, 1, 1, 1, 2, 3, 4],
+          "risks": [ { "type": "extreme heat", "from": "05-01", "to": "09-30", "note": "Dangerous humid heat." } ],
+          "recurringHolidays": [
+            { "name": "Nowruz (Persian New Year)", "approx": "Mar 19 – Apr 2", "effect": "Two weeks of nationwide travel: hotels are full and some sites close.", "dates": { "from": "03-19", "to": "04-02" } },
+            { "name": "Ramadan", "approx": "Moves about 11 days earlier each year", "effect": "Eating in public by day is prohibited.", "moving": { "anchor": "ramadanStart", "offsetDays": 0, "durationDays": 30 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 35, "high": 45 },
+            "midrangePerDay": { "low": 60, "shoulder": 70, "high": 90 },
+            "hotelNightMid": { "low": 40, "shoulder": 50, "high": 70 },
+            "notes": "Kish is a free-trade zone with visa-free entry for many nationalities; check the current rules."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Tehran", "aliases": [], "region": "plateau" },
+        { "name": "Isfahan", "aliases": ["Esfahan"], "region": "plateau" },
+        { "name": "Shiraz", "aliases": ["Persepolis"], "region": "plateau" },
+        { "name": "Yazd", "aliases": [], "region": "plateau" },
+        { "name": "Kashan", "aliases": [], "region": "plateau" },
+        { "name": "Tabriz", "aliases": ["Kandovan"], "region": "plateau" },
+        { "name": "Mashhad", "aliases": [], "region": "plateau" },
+        { "name": "Rasht", "aliases": ["Caspian", "Masuleh"], "region": "plateau" },
+        { "name": "Kish", "aliases": ["Kish Island"], "region": "gulf" },
+        { "name": "Qeshm", "aliases": [], "region": "gulf" },
+        { "name": "Hormuz", "aliases": ["Hormuz Island"], "region": "gulf" },
+        { "name": "Bandar Abbas", "aliases": [], "region": "gulf" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Iran" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/iran" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/iran/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "IQ",
+      "isoNum": "368",
+      "name": "Iraq",
+      "aliases": ["Republic of Iraq", "Mesopotamia"],
+      "continent": "Asia",
+      "flag": "🇮🇶",
+      "summary": "Iraq is one of the hottest countries on earth in summer (45–50 °C). Spring (late February–April) and late autumn are the only comfortable times for Babylon, Ur and the marshes. Kurdistan in the north is cooler, greener and the most visited region. Check current travel advice before planning.",
+      "splitByRegion": false,
+      "splitReason": "The main visitor areas (Baghdad, Babylon, Kurdistan, Basra) share the same hot desert calendar, with Kurdistan merely cooler.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Baghdad, Babylon and Ur, Najaf and Karbala, Basra and the marshes, Mosul and Iraqi Kurdistan.",
+          "lat": 33.31,
+          "lon": 44.36,
+          "tags": ["history", "culture", "city"],
+          "best": [
+            { "from": "02-15", "to": "04-15", "why": "Mild spring: Babylon, Ur and Kurdistan's green mountains.", "goodFor": ["city", "roadtrip", "mountain"] },
+            { "from": "10-15", "to": "11-30", "why": "A pleasant autumn after the heat breaks.", "goodFor": ["city", "roadtrip"] }
+          ],
+          "worst": [ { "from": "06-01", "to": "09-15", "why": "Extreme heat of 45–50 °C." } ],
+          "shoulder": [
+            { "from": "12-01", "to": "02-14", "why": "Cool, with occasional rain; snow in Kurdistan's mountains." },
+            { "from": "04-16", "to": "05-31", "why": "Heating up fast." },
+            { "from": "09-16", "to": "10-14", "why": "Still hot." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "10-15", "to": "04-15" } ],
+            "roadtrip": [ { "from": "02-15", "to": "04-30" }, { "from": "10-15", "to": "11-30" } ],
+            "mountain": [ { "from": "04-01", "to": "06-15" }, { "from": "09-15", "to": "10-31" } ]
+          },
+          "climate": {
+            "avgHighC": [16, 19, 24, 30, 37, 43, 46, 45, 41, 34, 24, 18],
+            "avgLowC": [4, 6, 10, 16, 21, 25, 28, 27, 23, 17, 10, 6],
+            "rainMm": [25, 20, 20, 15, 5, 0, 0, 0, 0, 5, 15, 25],
+            "rainDays": [5, 4, 4, 3, 1, 0, 0, 0, 0, 1, 3, 5],
+            "sunHours": [190, 200, 240, 250, 300, 350, 350, 350, 320, 270, 210, 180],
+            "seaTempC": null,
+            "humidity": [70, 60, 52, 45, 32, 22, 20, 22, 25, 35, 55, 70]
+          },
+          "crowds": [1, 1, 2, 2, 1, 1, 1, 1, 1, 2, 2, 1],
+          "risks": [
+            { "type": "extreme heat", "from": "05-20", "to": "09-15", "note": "Some of the world's highest temperatures." },
+            { "type": "sandstorm", "from": "04-01", "to": "07-31", "note": "Dust storms ground flights." }
+          ],
+          "recurringHolidays": [
+            { "name": "Arbaeen (Karbala)", "approx": "About 40 days after Ashura, moves each year", "effect": "Millions of pilgrims walk to Karbala; transport is overwhelmed." },
+            { "name": "Eid al-Fitr", "approx": "End of Ramadan", "effect": "A national holiday with heavy domestic travel.", "moving": { "anchor": "eidAlFitr", "offsetDays": -1, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 35, "shoulder": 40, "high": 50 },
+            "midrangePerDay": { "low": 80, "shoulder": 90, "high": 110 },
+            "hotelNightMid": { "low": 50, "shoulder": 60, "high": 80 },
+            "notes": "Iraqi Kurdistan has the most tourist infrastructure."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Baghdad", "aliases": [], "region": "country" },
+        { "name": "Erbil", "aliases": ["Kurdistan", "Hawler"], "region": "country" },
+        { "name": "Sulaymaniyah", "aliases": [], "region": "country" },
+        { "name": "Babylon", "aliases": ["Hillah"], "region": "country" },
+        { "name": "Basra", "aliases": ["Mesopotamian Marshes", "Chibayish"], "region": "country" },
+        { "name": "Najaf", "aliases": ["Karbala"], "region": "country" },
+        { "name": "Mosul", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Iraq" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/iraq" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/iraq/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "IL",
+      "isoNum": "376",
+      "name": "Israel",
+      "aliases": ["State of Israel"],
+      "continent": "Asia",
+      "flag": "🇮🇱",
+      "summary": "Israel has Mediterranean weather in the north and centre (Jerusalem, Tel Aviv, Galilee): hot summers, mild, rainy winters, and spring and autumn as the best seasons. The south (the Negev, Eilat, the Dead Sea) is desert and a winter-sun destination. Jewish holidays (Passover, the autumn High Holidays) fill hotels and close businesses. Check current security advice before travelling.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "centre",
+          "name": "Jerusalem, Tel Aviv & the North",
+          "description": "Jerusalem, Tel Aviv and Jaffa, Haifa and Acre, Galilee and Nazareth, Caesarea and the Golan.",
+          "lat": 31.78,
+          "lon": 35.22,
+          "tags": ["city", "history", "beach", "food"],
+          "best": [
+            { "from": "03-15", "to": "05-31", "why": "Green hills, 20–26 °C and wildflowers in Galilee.", "goodFor": ["city", "nature", "roadtrip", "mountain"] },
+            { "from": "10-01", "to": "11-30", "why": "A warm sea and comfortable touring after the High Holidays.", "goodFor": ["city", "beach", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "07-01", "to": "08-31", "why": "Humid in Tel Aviv, 30 °C+ in Jerusalem, and peak prices during the summer holidays." }
+          ],
+          "shoulder": [
+            { "from": "12-01", "to": "03-14", "why": "Rainy and cool (12 °C in Jerusalem, occasional snow), with Christmas in Bethlehem nearby." },
+            { "from": "06-01", "to": "06-30", "why": "Hot, with beach season in full swing." },
+            { "from": "09-01", "to": "09-30", "why": "The High Holidays bring closures and full hotels." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "03-01", "to": "06-15" }, { "from": "09-15", "to": "12-15" } ],
+            "beach": [ { "from": "05-15", "to": "10-31" } ],
+            "nature": [ { "from": "02-15", "to": "05-15" } ],
+            "roadtrip": [ { "from": "03-01", "to": "05-31" }, { "from": "10-01", "to": "11-30" } ],
+            "mountain": [ { "from": "02-15", "to": "05-15" }, { "from": "10-15", "to": "11-30" } ]
+          },
+          "climate": {
+            "avgHighC": [12, 13, 16, 21, 25, 27, 29, 29, 28, 25, 19, 14],
+            "avgLowC": [6, 6, 8, 12, 15, 17, 19, 19, 18, 16, 12, 8],
+            "rainMm": [130, 110, 80, 20, 5, 0, 0, 0, 1, 20, 70, 110],
+            "rainDays": [10, 9, 7, 3, 1, 0, 0, 0, 0, 2, 6, 9],
+            "sunHours": [190, 200, 240, 280, 330, 360, 370, 350, 310, 270, 220, 190],
+            "seaTempC": [18, 17, 17, 19, 22, 25, 28, 29, 28, 26, 22, 19],
+            "humidity": [65, 63, 58, 50, 46, 48, 53, 55, 56, 54, 58, 65]
+          },
+          "crowds": [3, 3, 4, 5, 4, 3, 4, 4, 4, 5, 4, 4],
+          "risks": [
+            { "type": "extreme heat", "from": "07-01", "to": "08-31", "note": "Heatwaves (sharav) push temperatures above 35 °C." }
+          ],
+          "recurringHolidays": [
+            { "name": "Passover", "approx": "March/April (Hebrew calendar)", "effect": "An Israeli holiday week: hotels are full and prices high." },
+            { "name": "High Holidays (Rosh Hashanah & Yom Kippur)", "approx": "September/October", "effect": "The country shuts down for 25 hours on Yom Kippur." }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 70, "shoulder": 80, "high": 100 },
+            "midrangePerDay": { "low": 160, "shoulder": 190, "high": 240 },
+            "hotelNightMid": { "low": 140, "shoulder": 170, "high": 230 },
+            "notes": "One of the region's most expensive destinations. Public transport stops on Shabbat (Friday evening to Saturday evening)."
+          }
+        },
+        {
+          "id": "south",
+          "name": "Negev, Dead Sea & Eilat",
+          "description": "Eilat on the Red Sea, the Negev desert, the Mitzpe Ramon crater and the Dead Sea (Ein Gedi, Masada).",
+          "lat": 29.56,
+          "lon": 34.95,
+          "tags": ["desert", "diving", "beach", "hiking"],
+          "best": [
+            { "from": "10-15", "to": "04-30", "why": "Warm winter sun at 22–30 °C: Red Sea diving and sunrise hikes up Masada.", "goodFor": ["beach", "diving", "nature", "mountain", "sun", "roadtrip"] }
+          ],
+          "worst": [ { "from": "06-15", "to": "08-31", "why": "40 °C+ desert heat; Masada's trails close by mid-morning." } ],
+          "shoulder": [
+            { "from": "05-01", "to": "06-14", "why": "Hot, so start very early." },
+            { "from": "09-01", "to": "10-14", "why": "Still hot, with the sea at its warmest." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "10-01", "to": "05-31" } ],
+            "diving": [ { "from": "01-01", "to": "12-31" } ],
+            "sun": [ { "from": "10-15", "to": "04-30" } ],
+            "nature": [ { "from": "10-15", "to": "04-30" } ],
+            "mountain": [ { "from": "11-01", "to": "04-15" } ],
+            "roadtrip": [ { "from": "10-15", "to": "04-30" } ]
+          },
+          "climate": {
+            "avgHighC": [21, 23, 26, 31, 35, 38, 40, 40, 37, 32, 27, 22],
+            "avgLowC": [10, 11, 14, 18, 22, 25, 26, 26, 25, 21, 16, 11],
+            "rainMm": [4, 4, 3, 2, 1, 0, 0, 0, 0, 1, 2, 6],
+            "rainDays": [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1],
+            "sunHours": [250, 250, 290, 300, 340, 370, 370, 360, 330, 300, 260, 240],
+            "seaTempC": [22, 21, 22, 23, 24, 26, 27, 28, 27, 26, 24, 23],
+            "humidity": [45, 42, 38, 32, 28, 27, 28, 30, 34, 38, 42, 46]
+          },
+          "crowds": [4, 4, 4, 4, 3, 3, 4, 4, 3, 4, 4, 4],
+          "risks": [
+            { "type": "extreme heat", "from": "05-15", "to": "09-15", "note": "Dangerous desert heat." },
+            { "type": "flooding", "from": "11-01", "to": "02-28", "note": "Flash floods in desert wadis after rare storms." }
+          ],
+          "recurringHolidays": [
+            { "name": "Passover", "approx": "March/April (Hebrew calendar)", "effect": "An Israeli holiday week: hotels are full and prices high." },
+            { "name": "High Holidays (Rosh Hashanah & Yom Kippur)", "approx": "September/October", "effect": "The country shuts down for 25 hours on Yom Kippur." }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 60, "shoulder": 70, "high": 90 },
+            "midrangePerDay": { "low": 150, "shoulder": 170, "high": 210 },
+            "hotelNightMid": { "low": 120, "shoulder": 150, "high": 200 },
+            "notes": "Eilat is VAT-free. Desert eco-lodges book up in spring."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Jerusalem", "aliases": ["Old City"], "region": "centre" },
+        { "name": "Tel Aviv", "aliases": ["Jaffa", "Tel Aviv-Yafo"], "region": "centre" },
+        { "name": "Haifa", "aliases": ["Acre", "Akko"], "region": "centre" },
+        { "name": "Nazareth", "aliases": ["Galilee", "Sea of Galilee", "Tiberias"], "region": "centre" },
+        { "name": "Caesarea", "aliases": [], "region": "centre" },
+        { "name": "Eilat", "aliases": [], "region": "south" },
+        { "name": "Masada", "aliases": ["Ein Gedi", "Dead Sea Israel"], "region": "south" },
+        { "name": "Mitzpe Ramon", "aliases": ["Negev", "Ramon Crater"], "region": "south" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Israel" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/israel" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/israel/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
       "iso2": "JP",
       "isoNum": "392",
       "name": "Japan",
@@ -2264,6 +2962,136 @@
       "lastReviewed": "2026-10"
     },
     {
+      "iso2": "JO",
+      "isoNum": "400",
+      "name": "Jordan",
+      "aliases": ["Hashemite Kingdom of Jordan"],
+      "continent": "Asia",
+      "flag": "🇯🇴",
+      "summary": "Jordan's highlands (Amman, Petra, Wadi Rum) are at their best in spring (March–May) and autumn (late September–November), with warm days and cool desert nights. Summer is very hot on Petra's exposed trails. The low-lying Dead Sea and Aqaba are winter-sun spots, around 25 °C in January.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "highlands",
+          "name": "Amman, Petra & Wadi Rum",
+          "description": "Amman, Jerash, Madaba, the Dana reserve, Petra and the Wadi Rum desert.",
+          "lat": 30.33,
+          "lon": 35.44,
+          "tags": ["history", "desert", "hiking", "culture"],
+          "best": [
+            { "from": "03-15", "to": "05-20", "why": "Spring wildflowers and 20–26 °C: ideal for hiking to Petra's Monastery and camping in Wadi Rum.", "goodFor": ["city", "mountain", "roadtrip", "nature"] },
+            { "from": "09-20", "to": "11-15", "why": "Warm days and cool, starry desert nights.", "goodFor": ["city", "mountain", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "06-25", "to": "08-31", "why": "Hot, exposed trails at Petra (35 °C in the sun) and scorching days in Wadi Rum." }
+          ],
+          "shoulder": [
+            { "from": "11-16", "to": "03-14", "why": "Cool and sometimes rainy (occasional snow in Amman and Petra), with near-freezing nights in Wadi Rum but quiet sites." },
+            { "from": "05-21", "to": "06-24", "why": "Getting hot; start early." },
+            { "from": "09-01", "to": "09-19", "why": "Heat is easing." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "09-15", "to": "05-31" } ],
+            "mountain": [ { "from": "03-01", "to": "05-31" }, { "from": "09-20", "to": "11-30" } ],
+            "roadtrip": [ { "from": "03-01", "to": "05-31" }, { "from": "09-20", "to": "11-30" } ],
+            "nature": [ { "from": "03-01", "to": "05-15" } ]
+          },
+          "climate": {
+            "avgHighC": [13, 14, 18, 23, 28, 31, 32, 33, 31, 27, 20, 15],
+            "avgLowC": [4, 4, 7, 10, 14, 17, 19, 19, 17, 14, 9, 5],
+            "rainMm": [60, 60, 35, 10, 3, 0, 0, 0, 0, 5, 30, 45],
+            "rainDays": [9, 8, 6, 3, 1, 0, 0, 0, 0, 2, 5, 7],
+            "sunHours": [180, 190, 240, 280, 330, 370, 380, 360, 320, 280, 220, 180],
+            "seaTempC": null,
+            "humidity": [70, 67, 58, 47, 38, 40, 44, 48, 49, 50, 59, 68]
+          },
+          "crowds": [2, 2, 4, 5, 4, 2, 2, 2, 3, 5, 4, 2],
+          "risks": [
+            { "type": "extreme heat", "from": "06-15", "to": "08-31", "note": "Heatstroke risk on Petra's trails." },
+            { "type": "flooding", "from": "11-15", "to": "03-15", "note": "Flash floods can close Petra's Siq." }
+          ],
+          "recurringHolidays": [
+            { "name": "Ramadan", "approx": "Moves about 11 days earlier each year", "effect": "Restaurants are quieter by day; sites keep shorter hours.", "moving": { "anchor": "ramadanStart", "offsetDays": 0, "durationDays": 30 } },
+            { "name": "Eid al-Adha", "approx": "Moves each year", "effect": "Domestic travel peaks at Aqaba and the Dead Sea.", "moving": { "anchor": "eidAlAdha", "offsetDays": -1, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 50, "high": 60 },
+            "midrangePerDay": { "low": 100, "shoulder": 120, "high": 150 },
+            "hotelNightMid": { "low": 60, "shoulder": 80, "high": 110 },
+            "notes": "The Jordan Pass (about 70–80 JOD) includes the visa fee and Petra entry. Wadi Rum camps cost $40–150."
+          }
+        },
+        {
+          "id": "aqaba",
+          "name": "Dead Sea & Aqaba",
+          "description": "The Dead Sea resorts, Wadi Mujib and Aqaba on the Red Sea.",
+          "lat": 29.53,
+          "lon": 35,
+          "tags": ["beach", "diving", "spa", "desert"],
+          "best": [
+            { "from": "10-15", "to": "04-30", "why": "Warm winter sun: floating in the Dead Sea at 25 °C and Red Sea diving with excellent visibility.", "goodFor": ["beach", "diving", "sun", "city"] }
+          ],
+          "worst": [
+            { "from": "06-15", "to": "08-31", "why": "40 °C+ at the Dead Sea (the lowest point on earth) and in Aqaba." }
+          ],
+          "shoulder": [
+            { "from": "05-01", "to": "06-14", "why": "Hot but manageable, and Wadi Mujib's canyon trails are open." },
+            { "from": "09-01", "to": "10-14", "why": "Still hot, with the sea at its warmest." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "10-01", "to": "05-31" } ],
+            "diving": [ { "from": "09-15", "to": "06-15" } ],
+            "sun": [ { "from": "10-15", "to": "04-30" } ],
+            "nature": [ { "from": "04-01", "to": "10-31" } ]
+          },
+          "climate": {
+            "avgHighC": [21, 23, 26, 30, 35, 38, 40, 39, 37, 32, 27, 22],
+            "avgLowC": [10, 11, 14, 18, 22, 25, 27, 27, 25, 21, 16, 12],
+            "rainMm": [5, 4, 4, 3, 1, 0, 0, 0, 0, 1, 3, 5],
+            "rainDays": [1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1],
+            "sunHours": [250, 250, 280, 300, 340, 370, 370, 360, 330, 300, 260, 240],
+            "seaTempC": [22, 21, 22, 23, 24, 26, 27, 28, 27, 26, 24, 23],
+            "humidity": [50, 46, 42, 37, 33, 33, 34, 36, 40, 42, 47, 51]
+          },
+          "crowds": [3, 3, 4, 4, 3, 2, 2, 2, 3, 4, 4, 4],
+          "risks": [ { "type": "extreme heat", "from": "05-20", "to": "09-15", "note": "Dangerous heat at the Dead Sea." } ],
+          "recurringHolidays": [
+            { "name": "Ramadan", "approx": "Moves about 11 days earlier each year", "effect": "Restaurants are quieter by day; sites keep shorter hours.", "moving": { "anchor": "ramadanStart", "offsetDays": 0, "durationDays": 30 } },
+            { "name": "Eid al-Adha", "approx": "Moves each year", "effect": "Domestic travel peaks at Aqaba and the Dead Sea.", "moving": { "anchor": "eidAlAdha", "offsetDays": -1, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 45, "shoulder": 55, "high": 65 },
+            "midrangePerDay": { "low": 110, "shoulder": 130, "high": 160 },
+            "hotelNightMid": { "low": 70, "shoulder": 90, "high": 120 },
+            "notes": "Dead Sea resorts are pricey, and Aqaba has better value."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Amman", "aliases": [], "region": "highlands" },
+        { "name": "Petra", "aliases": ["Wadi Musa"], "region": "highlands" },
+        { "name": "Wadi Rum", "aliases": [], "region": "highlands" },
+        { "name": "Jerash", "aliases": [], "region": "highlands" },
+        { "name": "Madaba", "aliases": ["Mount Nebo"], "region": "highlands" },
+        { "name": "Dana", "aliases": ["Dana Biosphere Reserve"], "region": "highlands" },
+        { "name": "Aqaba", "aliases": [], "region": "aqaba" },
+        { "name": "Dead Sea", "aliases": [], "region": "aqaba" },
+        { "name": "Wadi Mujib", "aliases": [], "region": "aqaba" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://international.visitjordan.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Jordan" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/jordan" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/jordan/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
       "iso2": "KZ",
       "isoNum": "398",
       "name": "Kazakhstan",
@@ -2338,6 +3166,75 @@
         { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Kazakhstan" },
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/kazakhstan" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/kazakhstan/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "KW",
+      "isoNum": "414",
+      "name": "Kuwait",
+      "aliases": ["State of Kuwait"],
+      "continent": "Asia",
+      "flag": "🇰🇼",
+      "summary": "Kuwait is among the hottest places on earth in summer (45–50 °C). November to March is the only comfortable time, with mild days and the Hala February festival.",
+      "splitByRegion": false,
+      "splitReason": "Kuwait is a small, flat desert state with one climate.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Kuwait City and Failaka Island.",
+          "lat": 29.37,
+          "lon": 47.98,
+          "tags": ["city", "culture"],
+          "best": [
+            { "from": "11-15", "to": "03-15", "why": "Mild days (19–27 °C) and the Hala February festival.", "goodFor": ["city", "sun"] }
+          ],
+          "worst": [ { "from": "05-15", "to": "09-30", "why": "Among the hottest cities on earth: 45–50 °C." } ],
+          "shoulder": [
+            { "from": "03-16", "to": "05-14", "why": "Warming fast, with dust storms." },
+            { "from": "10-01", "to": "11-14", "why": "The heat is easing." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "11-01", "to": "04-15" } ],
+            "sun": [ { "from": "11-15", "to": "03-31" } ]
+          },
+          "climate": {
+            "avgHighC": [19, 22, 27, 33, 40, 45, 46, 46, 43, 36, 27, 21],
+            "avgLowC": [8, 10, 14, 19, 25, 28, 30, 29, 26, 21, 14, 9],
+            "rainMm": [30, 10, 15, 15, 5, 0, 0, 0, 0, 5, 20, 25],
+            "rainDays": [3, 2, 2, 2, 1, 0, 0, 0, 0, 1, 2, 3],
+            "sunHours": [210, 220, 230, 250, 300, 330, 330, 330, 300, 270, 220, 200],
+            "seaTempC": [16, 16, 19, 23, 27, 30, 32, 32, 30, 27, 22, 18],
+            "humidity": [65, 55, 48, 40, 30, 22, 20, 22, 25, 35, 50, 62]
+          },
+          "crowds": [2, 3, 3, 2, 1, 1, 1, 1, 1, 2, 2, 2],
+          "risks": [
+            { "type": "extreme heat", "from": "05-01", "to": "09-30", "note": "Extreme heat." },
+            { "type": "sandstorm", "from": "04-01", "to": "07-31", "note": "Dust storms." }
+          ],
+          "recurringHolidays": [
+            { "name": "Ramadan", "approx": "Moves each year", "effect": "Discreet dining by day.", "moving": { "anchor": "ramadanStart", "offsetDays": 0, "durationDays": 30 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 60, "shoulder": 70, "high": 80 },
+            "midrangePerDay": { "low": 140, "shoulder": 160, "high": 190 },
+            "hotelNightMid": { "low": 90, "shoulder": 110, "high": 140 },
+            "notes": "Mostly business tourism, so weekend hotel rates are lower."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Kuwait City", "aliases": ["Kuwait Towers"], "region": "country" },
+        { "name": "Failaka Island", "aliases": ["Failaka"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Kuwait" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/kuwait" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/kuwait/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"
@@ -2491,6 +3388,86 @@
         { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Laos" },
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/laos" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/laos/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "LB",
+      "isoNum": "422",
+      "name": "Lebanon",
+      "aliases": ["Lebanese Republic"],
+      "continent": "Asia",
+      "flag": "🇱🇧",
+      "summary": "Lebanon packs Mediterranean beaches, Roman Baalbek, the Qadisha Valley and ski slopes into a tiny area. Spring and autumn are ideal. Summer is humid on the coast and busy with returning diaspora. In winter you can ski in the morning and walk the Beirut corniche in the afternoon. Check security advice, especially for the south.",
+      "splitByRegion": false,
+      "splitReason": "Lebanon is a small country where the coast and mountains share one calendar; the mountains are simply cooler and snowy in winter.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Beirut, Byblos, Baalbek and the Bekaa wine country, the Qadisha Valley and the Mt Lebanon ski resorts.",
+          "lat": 33.89,
+          "lon": 35.5,
+          "tags": ["city", "food", "history", "beach", "snow", "wine"],
+          "best": [
+            { "from": "04-15", "to": "06-15", "why": "Warm 22–28 °C for Baalbek, Byblos and hikes in the Qadisha Valley.", "goodFor": ["city", "mountain", "roadtrip", "nature"] },
+            { "from": "09-15", "to": "11-10", "why": "Warm sea and the wine harvest in the Bekaa.", "goodFor": ["city", "beach", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "07-15", "to": "08-31", "why": "Humid 31 °C on the coast, with Beirut traffic and peak summer prices." }
+          ],
+          "shoulder": [
+            { "from": "11-11", "to": "04-14", "why": "Rainy on the coast, but skiing at Mzaar and the Cedars (December–March)." },
+            { "from": "06-16", "to": "07-14", "why": "Beach season building." },
+            { "from": "09-01", "to": "09-14", "why": "Hot, but the sea is perfect." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "03-15", "to": "06-30" }, { "from": "09-15", "to": "11-30" } ],
+            "beach": [ { "from": "06-01", "to": "10-15" } ],
+            "mountain": [ { "from": "04-15", "to": "06-30" }, { "from": "09-15", "to": "10-31" } ],
+            "snow": [ { "from": "12-20", "to": "03-20" } ],
+            "roadtrip": [ { "from": "04-01", "to": "06-15" }, { "from": "09-15", "to": "11-10" } ]
+          },
+          "climate": {
+            "avgHighC": [17, 17, 19, 22, 25, 28, 30, 31, 30, 27, 23, 19],
+            "avgLowC": [11, 11, 12, 14, 18, 21, 24, 24, 23, 20, 16, 12],
+            "rainMm": [190, 130, 90, 40, 10, 1, 0, 0, 5, 50, 130, 170],
+            "rainDays": [13, 11, 9, 5, 2, 0, 0, 0, 1, 4, 8, 11],
+            "sunHours": [130, 150, 200, 240, 300, 330, 340, 320, 280, 230, 180, 140],
+            "seaTempC": [18, 17, 17, 18, 21, 25, 27, 28, 28, 26, 23, 20],
+            "humidity": [69, 68, 67, 68, 71, 73, 74, 72, 68, 65, 63, 67]
+          },
+          "crowds": [2, 2, 2, 3, 3, 4, 5, 5, 4, 3, 2, 3],
+          "risks": [
+            { "type": "heavy rain", "from": "12-01", "to": "02-28", "note": "Winter storms bring flash floods in Beirut." }
+          ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 50, "shoulder": 60, "high": 70 },
+            "midrangePerDay": { "low": 110, "shoulder": 130, "high": 160 },
+            "hotelNightMid": { "low": 80, "shoulder": 100, "high": 130 },
+            "notes": "Prices are often in US dollars, and cash is preferred."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Beirut", "aliases": [], "region": "country" },
+        { "name": "Byblos", "aliases": ["Jbeil"], "region": "country" },
+        { "name": "Baalbek", "aliases": [], "region": "country" },
+        { "name": "Tripoli", "aliases": [], "region": "country" },
+        { "name": "Sidon", "aliases": ["Saida"], "region": "country" },
+        { "name": "Tyre", "aliases": ["Sour"], "region": "country" },
+        { "name": "Qadisha Valley", "aliases": ["Bsharri", "The Cedars"], "region": "country" },
+        { "name": "Mzaar", "aliases": ["Faraya"], "region": "country" },
+        { "name": "Jeita Grotto", "aliases": ["Jeita"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Lebanon" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/lebanon" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/lebanon/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"
@@ -3089,6 +4066,139 @@
       "lastReviewed": "2026-10"
     },
     {
+      "iso2": "OM",
+      "isoNum": "512",
+      "name": "Oman",
+      "aliases": ["Sultanate of Oman"],
+      "continent": "Asia",
+      "flag": "🇴🇲",
+      "summary": "Northern Oman (Muscat, Nizwa, the Wahiba Sands, Musandam) is a classic winter-sun destination from October to April, and very hot in summer except on Jebel Akhdar. Dhofar in the far south has its own calendar: the khareef monsoon turns Salalah's mountains lush and green from July to September, drawing Gulf visitors escaping the heat.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "north",
+          "name": "Muscat & Northern Oman",
+          "description": "Muscat, Nizwa, Jebel Akhdar and Jebel Shams, the Wahiba Sands, Sur and Ras al Jinz turtles, the wadis and Musandam.",
+          "lat": 23.59,
+          "lon": 58.41,
+          "tags": ["desert", "mountain", "beach", "culture", "wadis"],
+          "best": [
+            { "from": "11-01", "to": "03-15", "why": "Warm and sunny (25–30 °C): Wahiba Sands camps, Nizwa's fort and souq, wadi swimming and the Musandam fjords.", "goodFor": ["beach", "nature", "mountain", "roadtrip", "city", "diving"] }
+          ],
+          "worst": [ { "from": "05-15", "to": "09-15", "why": "40 °C+ heat; only Jebel Akhdar (2,000 m) is comfortable." } ],
+          "shoulder": [
+            { "from": "03-16", "to": "05-14", "why": "Hot afternoons, so start early." },
+            { "from": "09-16", "to": "10-31", "why": "The heat is easing and turtles are nesting." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "10-15", "to": "04-15" } ],
+            "diving": [ { "from": "10-01", "to": "05-31" } ],
+            "nature": [ { "from": "10-15", "to": "04-15" } ],
+            "mountain": [ { "from": "10-15", "to": "04-30" }, { "from": "06-01", "to": "09-15" } ],
+            "roadtrip": [ { "from": "10-15", "to": "04-15" } ],
+            "city": [ { "from": "10-15", "to": "04-15" } ]
+          },
+          "climate": {
+            "avgHighC": [25, 26, 29, 34, 38, 40, 38, 36, 35, 34, 30, 27],
+            "avgLowC": [19, 19, 22, 26, 30, 31, 31, 29, 28, 26, 23, 20],
+            "rainMm": [15, 10, 10, 10, 1, 1, 3, 1, 0, 2, 10, 15],
+            "rainDays": [2, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 2],
+            "sunHours": [250, 240, 260, 290, 330, 320, 290, 290, 290, 300, 260, 250],
+            "seaTempC": [23, 23, 24, 26, 29, 30, 29, 27, 28, 28, 26, 24],
+            "humidity": [68, 70, 66, 60, 57, 60, 70, 77, 75, 70, 66, 68]
+          },
+          "crowds": [5, 5, 4, 3, 2, 1, 1, 1, 2, 3, 4, 5],
+          "risks": [
+            { "type": "extreme heat", "from": "05-01", "to": "09-30", "note": "Dangerous heat at low altitude." },
+            { "type": "cyclone", "from": "05-01", "to": "06-30", "note": "Arabian Sea cyclones (also possible in October–November)." }
+          ],
+          "recurringHolidays": [
+            { "name": "Ramadan", "approx": "Moves about 11 days earlier each year", "effect": "Discreet dining by day.", "moving": { "anchor": "ramadanStart", "offsetDays": 0, "durationDays": 30 } },
+            { "name": "Eid al-Adha", "approx": "Moves each year", "effect": "Domestic travel to the mountains and Salalah.", "moving": { "anchor": "eidAlAdha", "offsetDays": -1, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 50, "shoulder": 60, "high": 70 },
+            "midrangePerDay": { "low": 130, "shoulder": 150, "high": 190 },
+            "hotelNightMid": { "low": 80, "shoulder": 100, "high": 140 },
+            "notes": "Hiring a 4x4 is the best way to explore. Desert camps cost $80–250."
+          }
+        },
+        {
+          "id": "dhofar",
+          "name": "Salalah & Dhofar",
+          "description": "Salalah, Mirbat and the Dhofar mountains, which the khareef monsoon turns green each summer.",
+          "lat": 17.02,
+          "lon": 54.09,
+          "tags": ["beach", "nature", "frankincense", "mountain"],
+          "best": [
+            { "from": "10-01", "to": "04-30", "why": "Sunny 28–32 °C beaches and the frankincense sites.", "goodFor": ["beach", "sun", "nature", "roadtrip"] },
+            { "from": "07-10", "to": "09-05", "why": "Khareef season: monsoon mist turns Dhofar's mountains emerald green and waterfalls flow, at 25 °C.", "goodFor": ["nature", "mountain"] }
+          ],
+          "worst": [
+            { "from": "05-01", "to": "06-30", "why": "Hot and humid, with the monsoon swell building; swimming is unsafe." }
+          ],
+          "shoulder": [
+            { "from": "07-01", "to": "07-09", "why": "The khareef is arriving, with mist and drizzle." },
+            { "from": "09-06", "to": "09-30", "why": "The khareef is ending." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "10-01", "to": "04-30" } ],
+            "nature": [ { "from": "07-10", "to": "09-15" }, { "from": "10-01", "to": "04-30" } ],
+            "sun": [ { "from": "10-01", "to": "04-30" } ],
+            "roadtrip": [ { "from": "10-01", "to": "04-30" } ],
+            "mountain": [ { "from": "07-10", "to": "09-15" } ]
+          },
+          "climate": {
+            "avgHighC": [28, 29, 31, 33, 34, 33, 29, 28, 30, 32, 31, 29],
+            "avgLowC": [17, 18, 21, 24, 26, 27, 25, 24, 24, 22, 20, 18],
+            "rainMm": [3, 3, 3, 5, 7, 8, 30, 35, 10, 3, 5, 3],
+            "rainDays": [0, 0, 0, 1, 1, 2, 13, 16, 5, 0, 1, 0],
+            "sunHours": [290, 270, 290, 300, 320, 200, 60, 70, 220, 310, 300, 290],
+            "seaTempC": [25, 24, 25, 27, 28, 27, 24, 23, 24, 26, 26, 26],
+            "humidity": [50, 55, 60, 65, 70, 80, 90, 90, 82, 62, 52, 48]
+          },
+          "crowds": [3, 3, 3, 2, 2, 3, 5, 5, 3, 3, 3, 3],
+          "risks": [
+            { "type": "rough seas", "from": "06-01", "to": "09-15", "note": "Monsoon swell makes the sea dangerous." },
+            { "type": "cyclone", "from": "05-01", "to": "06-15", "note": "Cyclone risk before the monsoon." }
+          ],
+          "recurringHolidays": [
+            { "name": "Khareef Festival", "approx": "Jul 15 – Aug 31", "effect": "Salalah hotels are full of Gulf visitors.", "dates": { "from": "07-15", "to": "08-31" } },
+            { "name": "Ramadan", "approx": "Moves about 11 days earlier each year", "effect": "Discreet dining by day.", "moving": { "anchor": "ramadanStart", "offsetDays": 0, "durationDays": 30 } },
+            { "name": "Eid al-Adha", "approx": "Moves each year", "effect": "Domestic travel to the mountains and Salalah.", "moving": { "anchor": "eidAlAdha", "offsetDays": -1, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 50, "shoulder": 60, "high": 70 },
+            "midrangePerDay": { "low": 120, "shoulder": 140, "high": 170 },
+            "hotelNightMid": { "low": 70, "shoulder": 90, "high": 130 },
+            "notes": "Hotels are cheaper in winter than during the khareef peak."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Muscat", "aliases": ["Mutrah"], "region": "north" },
+        { "name": "Nizwa", "aliases": [], "region": "north" },
+        { "name": "Wahiba Sands", "aliases": ["Sharqiya Sands"], "region": "north" },
+        { "name": "Jebel Akhdar", "aliases": ["Jebel Shams"], "region": "north" },
+        { "name": "Sur", "aliases": ["Ras al Jinz"], "region": "north" },
+        { "name": "Wadi Shab", "aliases": ["Wadi Bani Khalid"], "region": "north" },
+        { "name": "Musandam", "aliases": ["Khasab"], "region": "north" },
+        { "name": "Salalah", "aliases": ["Dhofar", "Mirbat"], "region": "dhofar" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://experienceoman.om" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Oman" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/oman" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/oman/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
       "iso2": "PK",
       "isoNum": "586",
       "name": "Pakistan",
@@ -3223,6 +4333,79 @@
         { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Pakistan" },
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/pakistan" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/pakistan/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "PS",
+      "isoNum": "275",
+      "name": "Palestine",
+      "aliases": ["State of Palestine", "West Bank", "Palestinian Territories"],
+      "continent": "Asia",
+      "flag": "🇵🇸",
+      "summary": "Bethlehem, Hebron, Nablus, Ramallah and Jericho share Jerusalem's climate: mild, rainy winters, hot, dry summers, and the best visits in spring and autumn. Christmas in Bethlehem is a highlight. Gaza is inaccessible, and the security situation in the West Bank changes quickly, so check current advice.",
+      "splitByRegion": false,
+      "splitReason": "The West Bank is small and follows one Mediterranean calendar, with Jericho in the Jordan Valley simply warmer.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "The West Bank: Bethlehem, Hebron, Jericho, Nablus and Ramallah.",
+          "lat": 31.7,
+          "lon": 35.2,
+          "tags": ["history", "culture", "city"],
+          "best": [
+            { "from": "03-15", "to": "05-31", "why": "Mild spring with green hills: ideal for Bethlehem, Hebron and walking parts of the Abraham Path.", "goodFor": ["city", "nature", "roadtrip"] },
+            { "from": "10-01", "to": "11-30", "why": "Comfortable autumn and the olive harvest.", "goodFor": ["city", "nature", "roadtrip"] }
+          ],
+          "worst": [ { "from": "07-01", "to": "08-31", "why": "Hot, especially in Jericho (38 °C+)." } ],
+          "shoulder": [
+            { "from": "12-01", "to": "03-14", "why": "Cool and rainy, with Christmas celebrations in Bethlehem." },
+            { "from": "06-01", "to": "06-30", "why": "Heating up." },
+            { "from": "09-01", "to": "09-30", "why": "Still hot." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "03-01", "to": "06-15" }, { "from": "09-15", "to": "12-31" } ],
+            "nature": [ { "from": "02-15", "to": "05-15" }, { "from": "10-01", "to": "11-30" } ],
+            "roadtrip": [ { "from": "03-01", "to": "05-31" }, { "from": "10-01", "to": "11-30" } ]
+          },
+          "climate": {
+            "avgHighC": [12, 13, 16, 21, 25, 27, 29, 29, 28, 25, 19, 14],
+            "avgLowC": [6, 6, 8, 12, 15, 17, 19, 19, 18, 16, 12, 8],
+            "rainMm": [130, 110, 80, 20, 5, 0, 0, 0, 1, 20, 70, 110],
+            "rainDays": [10, 9, 7, 3, 1, 0, 0, 0, 0, 2, 6, 9],
+            "sunHours": [190, 200, 240, 280, 330, 360, 370, 350, 310, 270, 220, 190],
+            "seaTempC": null,
+            "humidity": [65, 63, 58, 50, 46, 48, 53, 55, 56, 54, 58, 65]
+          },
+          "crowds": [2, 2, 3, 4, 3, 2, 2, 2, 2, 3, 3, 4],
+          "risks": [ { "type": "extreme heat", "from": "07-01", "to": "08-31", "note": "Jordan Valley heat." } ],
+          "recurringHolidays": [
+            { "name": "Christmas in Bethlehem", "approx": "Dec 20 – Jan 7 (Western and Orthodox)", "effect": "Manger Square celebrations; hotels are full.", "dates": { "from": "12-20", "to": "01-07" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 35, "shoulder": 40, "high": 50 },
+            "midrangePerDay": { "low": 80, "shoulder": 90, "high": 110 },
+            "hotelNightMid": { "low": 60, "shoulder": 70, "high": 90 },
+            "notes": "Cheaper than Jerusalem. Expect checkpoints between cities."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Bethlehem", "aliases": [], "region": "country" },
+        { "name": "Ramallah", "aliases": [], "region": "country" },
+        { "name": "Jericho", "aliases": [], "region": "country" },
+        { "name": "Hebron", "aliases": ["Al-Khalil"], "region": "country" },
+        { "name": "Nablus", "aliases": [], "region": "country" },
+        { "name": "Gaza", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Palestinian_territories" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/the-occupied-palestinian-territories" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/the-occupied-palestinian-territories/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"
@@ -3477,6 +4660,256 @@
         { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Philippines" },
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/philippines" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/philippines/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "QA",
+      "isoNum": "634",
+      "name": "Qatar",
+      "aliases": ["State of Qatar"],
+      "continent": "Asia",
+      "flag": "🇶🇦",
+      "summary": "Qatar is pleasant from November to March (22–30 °C) for the Museum of Islamic Art, Souq Waqif and the Inland Sea dunes. Summer is extremely hot and humid (42 °C and up).",
+      "splitByRegion": false,
+      "splitReason": "Qatar is a small, flat desert peninsula with one climate.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Doha, Al Wakrah, the Inland Sea (Khor Al Adaid) and the north-west coast.",
+          "lat": 25.29,
+          "lon": 51.53,
+          "tags": ["city", "museums", "desert", "beach"],
+          "best": [
+            { "from": "11-01", "to": "03-31", "why": "Pleasant 22–30 °C: the Museum of Islamic Art, Souq Waqif and the desert dunes.", "goodFor": ["city", "beach", "sun", "nature"] }
+          ],
+          "worst": [ { "from": "05-15", "to": "09-30", "why": "42 °C days and very humid nights." } ],
+          "shoulder": [
+            { "from": "04-01", "to": "05-14", "why": "Hot afternoons." },
+            { "from": "10-01", "to": "10-31", "why": "The heat is easing." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "10-15", "to": "04-30" } ],
+            "beach": [ { "from": "10-15", "to": "05-15" } ],
+            "sun": [ { "from": "11-01", "to": "04-15" } ],
+            "nature": [ { "from": "11-01", "to": "03-31" } ]
+          },
+          "climate": {
+            "avgHighC": [22, 23, 27, 32, 38, 41, 42, 41, 39, 35, 29, 24],
+            "avgLowC": [13, 14, 17, 21, 26, 29, 30, 30, 28, 24, 19, 15],
+            "rainMm": [13, 17, 16, 9, 4, 0, 0, 0, 0, 1, 3, 12],
+            "rainDays": [2, 2, 2, 1, 0, 0, 0, 0, 0, 0, 1, 2],
+            "sunHours": [240, 240, 250, 280, 320, 340, 320, 320, 300, 290, 260, 240],
+            "seaTempC": [20, 19, 21, 24, 28, 31, 33, 33, 32, 29, 25, 22],
+            "humidity": [72, 68, 63, 55, 48, 48, 53, 57, 62, 64, 67, 72]
+          },
+          "crowds": [4, 4, 4, 3, 2, 1, 1, 1, 2, 3, 4, 4],
+          "risks": [ { "type": "extreme heat", "from": "05-01", "to": "09-30", "note": "Extreme heat and humidity." } ],
+          "recurringHolidays": [
+            { "name": "Ramadan", "approx": "Moves each year", "effect": "Discreet dining by day.", "moving": { "anchor": "ramadanStart", "offsetDays": 0, "durationDays": 30 } },
+            { "name": "Qatar National Day", "approx": "Dec 18", "effect": "Parades on the Corniche, with roads closed.", "dates": { "from": "12-18", "to": "12-18" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 70, "shoulder": 80, "high": 100 },
+            "midrangePerDay": { "low": 170, "shoulder": 200, "high": 260 },
+            "hotelNightMid": { "low": 120, "shoulder": 150, "high": 220 },
+            "notes": "Stopover packages with Qatar Airways are good value."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Doha", "aliases": ["Souq Waqif", "The Pearl"], "region": "country" },
+        { "name": "Al Wakrah", "aliases": [], "region": "country" },
+        { "name": "Khor Al Adaid", "aliases": ["Inland Sea"], "region": "country" },
+        { "name": "Al Zubarah", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://visitqatar.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Qatar" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/qatar" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/qatar/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "SA",
+      "isoNum": "682",
+      "name": "Saudi Arabia",
+      "aliases": ["Kingdom of Saudi Arabia", "KSA"],
+      "continent": "Asia",
+      "flag": "🇸🇦",
+      "summary": "Saudi Arabia only opened to tourists in 2019. Most of the country (Riyadh, AlUla, Jeddah) is a winter destination, best from November to March, with summer temperatures of 40–48 °C. The exception is the Asir highlands around Abha, which are 2,000 m up and pleasant in summer. Hajj season, Ramadan and the Eids reshape travel; Mecca is open to Muslims only.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "riyadh",
+          "name": "Riyadh, AlUla & the Interior",
+          "description": "Riyadh and Diriyah, the Edge of the World, AlUla (Hegra, Elephant Rock) and Hail.",
+          "lat": 24.71,
+          "lon": 46.68,
+          "tags": ["desert", "history", "city"],
+          "best": [
+            { "from": "11-01", "to": "03-15", "why": "Cool desert winter: AlUla's Hegra tombs, the Winter at Tantora festival and desert camps.", "goodFor": ["city", "nature", "roadtrip"] }
+          ],
+          "worst": [ { "from": "05-15", "to": "09-15", "why": "45 °C heat limits AlUla's outdoor sites." } ],
+          "shoulder": [
+            { "from": "03-16", "to": "05-14", "why": "Warming fast, with occasional sandstorms." },
+            { "from": "09-16", "to": "10-31", "why": "Heat easing." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "10-15", "to": "03-31" } ],
+            "nature": [ { "from": "11-01", "to": "03-15" } ],
+            "roadtrip": [ { "from": "11-01", "to": "03-15" } ]
+          },
+          "climate": {
+            "avgHighC": [20, 23, 28, 33, 40, 43, 44, 44, 41, 35, 27, 22],
+            "avgLowC": [9, 11, 15, 20, 25, 27, 29, 29, 26, 21, 15, 10],
+            "rainMm": [15, 8, 25, 30, 8, 0, 0, 0, 0, 1, 7, 15],
+            "rainDays": [2, 1, 3, 3, 1, 0, 0, 0, 0, 0, 1, 2],
+            "sunHours": [230, 240, 250, 260, 300, 330, 330, 320, 300, 290, 250, 230],
+            "seaTempC": null,
+            "humidity": [45, 37, 33, 30, 20, 13, 13, 14, 15, 22, 35, 46]
+          },
+          "crowds": [4, 4, 3, 2, 1, 1, 1, 1, 2, 3, 4, 4],
+          "risks": [
+            { "type": "extreme heat", "from": "05-01", "to": "09-30", "note": "Extreme summer heat." },
+            { "type": "sandstorm", "from": "03-01", "to": "06-30", "note": "Dust storms." }
+          ],
+          "recurringHolidays": [
+            { "name": "Ramadan", "approx": "Moves about 11 days earlier each year", "effect": "Restaurants close by day and nights are lively.", "moving": { "anchor": "ramadanStart", "offsetDays": 0, "durationDays": 30 } },
+            { "name": "Eid al-Fitr", "approx": "End of Ramadan", "effect": "A national holiday with busy domestic travel.", "moving": { "anchor": "eidAlFitr", "offsetDays": -1, "durationDays": 5 } },
+            { "name": "Hajj & Eid al-Adha", "approx": "Moves about 11 days earlier each year", "effect": "Jeddah and Medina flights are full and prices spike; Mecca is closed to non-pilgrims.", "moving": { "anchor": "eidAlAdha", "offsetDays": -6, "durationDays": 10 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 60, "shoulder": 70, "high": 80 },
+            "midrangePerDay": { "low": 150, "shoulder": 170, "high": 200 },
+            "hotelNightMid": { "low": 110, "shoulder": 130, "high": 160 },
+            "notes": "AlUla hotels are pricey in the winter festival season, while Riyadh Season events raise demand from October to March."
+          }
+        },
+        {
+          "id": "redsea",
+          "name": "Jeddah & the Red Sea",
+          "description": "Jeddah (historic Al-Balad), the Red Sea coast and islands (Yanbu, Farasan, the new Red Sea resorts), plus Mecca and Medina (Muslims only).",
+          "lat": 21.49,
+          "lon": 39.19,
+          "tags": ["beach", "diving", "city", "culture"],
+          "best": [
+            { "from": "11-01", "to": "03-31", "why": "Warm (29 °C) and sunny: Red Sea diving, strolls through Al-Balad and Jeddah Season events.", "goodFor": ["beach", "diving", "city", "sun"] }
+          ],
+          "worst": [ { "from": "06-01", "to": "09-15", "why": "Humid 37 °C, with a heat index of 45 °C+." } ],
+          "shoulder": [
+            { "from": "04-01", "to": "05-31", "why": "Hot and getting humid." },
+            { "from": "09-16", "to": "10-31", "why": "The heat is easing." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "10-15", "to": "05-15" } ],
+            "diving": [ { "from": "01-01", "to": "12-31" } ],
+            "city": [ { "from": "11-01", "to": "03-31" } ],
+            "sun": [ { "from": "11-01", "to": "04-15" } ]
+          },
+          "climate": {
+            "avgHighC": [29, 29, 30, 33, 35, 36, 37, 37, 36, 35, 32, 30],
+            "avgLowC": [19, 19, 20, 22, 24, 25, 27, 28, 26, 24, 22, 20],
+            "rainMm": [10, 3, 3, 1, 0, 0, 0, 0, 0, 1, 25, 30],
+            "rainDays": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2],
+            "sunHours": [260, 260, 280, 290, 310, 320, 320, 310, 290, 290, 260, 250],
+            "seaTempC": [25, 24, 25, 26, 28, 30, 31, 31, 30, 29, 27, 26],
+            "humidity": [60, 60, 60, 57, 55, 58, 55, 59, 65, 63, 64, 62]
+          },
+          "crowds": [4, 3, 3, 3, 2, 2, 2, 2, 2, 3, 3, 4],
+          "risks": [ { "type": "extreme heat", "from": "05-15", "to": "09-30", "note": "Humid heat on the coast." } ],
+          "recurringHolidays": [
+            { "name": "Ramadan", "approx": "Moves about 11 days earlier each year", "effect": "Restaurants close by day and nights are lively.", "moving": { "anchor": "ramadanStart", "offsetDays": 0, "durationDays": 30 } },
+            { "name": "Eid al-Fitr", "approx": "End of Ramadan", "effect": "A national holiday with busy domestic travel.", "moving": { "anchor": "eidAlFitr", "offsetDays": -1, "durationDays": 5 } },
+            { "name": "Hajj & Eid al-Adha", "approx": "Moves about 11 days earlier each year", "effect": "Jeddah and Medina flights are full and prices spike; Mecca is closed to non-pilgrims.", "moving": { "anchor": "eidAlAdha", "offsetDays": -6, "durationDays": 10 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 60, "shoulder": 70, "high": 80 },
+            "midrangePerDay": { "low": 140, "shoulder": 160, "high": 190 },
+            "hotelNightMid": { "low": 100, "shoulder": 120, "high": 150 },
+            "notes": "Liveaboards and the new Red Sea resorts are luxury-priced."
+          }
+        },
+        {
+          "id": "asir",
+          "name": "Asir Highlands",
+          "description": "Abha, Rijal Almaa village, Al Soudah and Taif: Saudi Arabia's cool summer escape at 2,000–3,000 m.",
+          "lat": 18.22,
+          "lon": 42.5,
+          "tags": ["mountain", "nature", "culture"],
+          "best": [
+            { "from": "03-01", "to": "05-31", "why": "Spring in the highlands at 20–28 °C, with terraced villages and juniper forests.", "goodFor": ["mountain", "nature", "city", "roadtrip"] },
+            { "from": "09-16", "to": "11-30", "why": "Clear, mild autumn days, ideal for village walks.", "goodFor": ["mountain", "nature", "city", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "12-15", "to": "02-15", "why": "Chilly 8 °C nights and fog, with many attractions quiet or closed." }
+          ],
+          "shoulder": [
+            { "from": "06-01", "to": "09-15", "why": "The peak domestic summer season: busy, with foggy afternoons and festivals." },
+            { "from": "12-01", "to": "12-14", "why": "Cooling down." },
+            { "from": "02-16", "to": "02-28", "why": "Warming up." }
+          ],
+          "activityWindows": {
+            "mountain": [ { "from": "03-01", "to": "11-30" } ],
+            "nature": [ { "from": "03-01", "to": "11-30" } ],
+            "city": [ { "from": "03-01", "to": "11-30" } ],
+            "roadtrip": [ { "from": "03-01", "to": "11-30" } ]
+          },
+          "climate": {
+            "avgHighC": [19, 20, 23, 25, 28, 30, 30, 29, 28, 25, 22, 20],
+            "avgLowC": [8, 9, 11, 13, 15, 17, 17, 17, 15, 12, 10, 9],
+            "rainMm": [30, 25, 50, 60, 40, 15, 40, 60, 15, 10, 20, 20],
+            "rainDays": [4, 4, 6, 7, 5, 3, 5, 7, 3, 2, 3, 3],
+            "sunHours": [260, 250, 260, 260, 290, 290, 250, 240, 280, 290, 270, 260],
+            "seaTempC": null,
+            "humidity": [55, 55, 55, 57, 50, 40, 48, 55, 45, 45, 50, 55]
+          },
+          "crowds": [2, 2, 2, 2, 3, 5, 5, 5, 3, 2, 2, 2],
+          "risks": [ { "type": "fog", "from": "06-15", "to": "09-15", "note": "Dense afternoon fog on the mountain roads." } ],
+          "recurringHolidays": [
+            { "name": "Ramadan", "approx": "Moves about 11 days earlier each year", "effect": "Restaurants close by day and nights are lively.", "moving": { "anchor": "ramadanStart", "offsetDays": 0, "durationDays": 30 } },
+            { "name": "Eid al-Fitr", "approx": "End of Ramadan", "effect": "A national holiday with busy domestic travel.", "moving": { "anchor": "eidAlFitr", "offsetDays": -1, "durationDays": 5 } },
+            { "name": "Hajj & Eid al-Adha", "approx": "Moves about 11 days earlier each year", "effect": "Jeddah and Medina flights are full and prices spike; Mecca is closed to non-pilgrims.", "moving": { "anchor": "eidAlAdha", "offsetDays": -6, "durationDays": 10 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 50, "shoulder": 60, "high": 70 },
+            "midrangePerDay": { "low": 110, "shoulder": 130, "high": 150 },
+            "hotelNightMid": { "low": 70, "shoulder": 90, "high": 110 },
+            "notes": "Prices rise in summer, when Saudi families escape the heat."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Riyadh", "aliases": ["Diriyah", "Edge of the World"], "region": "riyadh" },
+        { "name": "AlUla", "aliases": ["Al-Ula", "Hegra", "Mada'in Salih"], "region": "riyadh" },
+        { "name": "Hail", "aliases": [], "region": "riyadh" },
+        { "name": "Jeddah", "aliases": ["Al-Balad"], "region": "redsea" },
+        { "name": "Mecca", "aliases": ["Makkah"], "region": "redsea" },
+        { "name": "Medina", "aliases": ["Madinah"], "region": "redsea" },
+        { "name": "Yanbu", "aliases": [], "region": "redsea" },
+        { "name": "Farasan Islands", "aliases": ["Farasan"], "region": "redsea" },
+        { "name": "Abha", "aliases": [], "region": "asir" },
+        { "name": "Rijal Almaa", "aliases": [], "region": "asir" },
+        { "name": "Taif", "aliases": [], "region": "asir" },
+        { "name": "Al Soudah", "aliases": [], "region": "asir" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.visitsaudi.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Saudi_Arabia" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"
@@ -3903,6 +5336,76 @@
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/sri-lanka" },
         { "label": "Climate data (World Bank)", "url": "https://climateknowledgeportal.worldbank.org/country/sri-lanka/climate-data-historical" },
         { "label": "Electronic Travel Authorisation (ETA)", "url": "https://www.eta.gov.lk" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "SY",
+      "isoNum": "760",
+      "name": "Syria",
+      "aliases": ["Syrian Arab Republic"],
+      "continent": "Asia",
+      "flag": "🇸🇾",
+      "summary": "Syria's historic sites (Damascus, Aleppo, Palmyra, Krak des Chevaliers) are best in spring and autumn. Summers are very hot inland and winters cold and wet. After years of conflict, most governments still advise against travel, so check the latest situation.",
+      "splitByRegion": false,
+      "splitReason": "Damascus, Aleppo and Palmyra share one Mediterranean-to-desert calendar; the coast is milder.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Damascus, Aleppo, Palmyra, Krak des Chevaliers, Bosra and the coast.",
+          "lat": 33.51,
+          "lon": 36.29,
+          "tags": ["history", "culture", "city"],
+          "best": [
+            { "from": "04-01", "to": "05-31", "why": "Mild, green spring: comfortable for the souqs and ruins.", "goodFor": ["city", "roadtrip"] },
+            { "from": "09-20", "to": "11-10", "why": "Warm, clear autumn days.", "goodFor": ["city", "roadtrip"] }
+          ],
+          "worst": [ { "from": "07-01", "to": "08-31", "why": "Very hot in Damascus and Palmyra (36–42 °C)." } ],
+          "shoulder": [
+            { "from": "11-11", "to": "03-31", "why": "Cool and wet, with occasional snow in Damascus." },
+            { "from": "06-01", "to": "06-30", "why": "Heating up." },
+            { "from": "09-01", "to": "09-19", "why": "Still hot." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "03-15", "to": "06-15" }, { "from": "09-15", "to": "11-30" } ],
+            "roadtrip": [ { "from": "04-01", "to": "05-31" }, { "from": "09-20", "to": "11-10" } ]
+          },
+          "climate": {
+            "avgHighC": [13, 15, 19, 24, 29, 33, 36, 36, 33, 27, 20, 14],
+            "avgLowC": [1, 2, 5, 8, 12, 16, 18, 18, 15, 11, 6, 2],
+            "rainMm": [40, 30, 20, 10, 5, 0, 0, 0, 0, 7, 25, 40],
+            "rainDays": [7, 6, 4, 2, 1, 0, 0, 0, 0, 1, 4, 6],
+            "sunHours": [160, 180, 230, 260, 310, 350, 370, 350, 310, 260, 200, 160],
+            "seaTempC": null,
+            "humidity": [72, 64, 54, 46, 39, 36, 38, 40, 42, 46, 60, 72]
+          },
+          "crowds": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "risks": [ { "type": "extreme heat", "from": "06-15", "to": "08-31", "note": "Desert heat at Palmyra." } ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 35, "high": 40 },
+            "midrangePerDay": { "low": 60, "shoulder": 70, "high": 80 },
+            "hotelNightMid": { "low": 40, "shoulder": 45, "high": 55 },
+            "notes": "There's very limited tourism infrastructure, and access, banking and insurance are restricted."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Damascus", "aliases": [], "region": "country" },
+        { "name": "Aleppo", "aliases": [], "region": "country" },
+        { "name": "Palmyra", "aliases": ["Tadmur"], "region": "country" },
+        { "name": "Krak des Chevaliers", "aliases": ["Homs"], "region": "country" },
+        { "name": "Latakia", "aliases": [], "region": "country" },
+        { "name": "Bosra", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Syria" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/syria" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/syria/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"
@@ -4456,6 +5959,321 @@
       "lastReviewed": "2026-10"
     },
     {
+      "iso2": "TR",
+      "isoNum": "792",
+      "name": "Turkey",
+      "aliases": ["Türkiye", "Turkiye", "Republic of Türkiye"],
+      "continent": "Asia",
+      "flag": "🇹🇷",
+      "summary": "Turkey spans the Mediterranean, the Aegean, the Anatolian plateau and the frigid east. The coasts have hot, dry summers and mild, rainy winters, and late spring and early autumn are the sweet spot for both beaches and ruins. Istanbul is best from April to June and September to October. Cappadocia's balloons fly most reliably in spring and autumn, and eastern Anatolia is a summer-only destination. The two Bayram holidays send millions of Turks to the coast.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "istanbul",
+          "name": "Istanbul & Marmara",
+          "description": "Istanbul, Bursa, Edirne, Çanakkale and Gallipoli.",
+          "lat": 41.01,
+          "lon": 28.98,
+          "tags": ["city", "culture", "history", "food"],
+          "best": [
+            { "from": "04-01", "to": "06-10", "why": "The April tulip festival and warm 18–25 °C days for Bosphorus cruises and walking the old city.", "goodFor": ["city", "roadtrip"] },
+            { "from": "09-05", "to": "10-31", "why": "Mild autumn, a warm sea and fewer cruise crowds at the big sights.", "goodFor": ["city", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "07-15", "to": "08-20", "why": "Hot and humid (30 °C+), with peak cruise and tour crowds at Hagia Sophia and the Topkapı." }
+          ],
+          "shoulder": [
+            { "from": "11-01", "to": "03-31", "why": "Cool and rainy with occasional snow, but low prices and no queues." },
+            { "from": "06-11", "to": "07-14", "why": "Warm and busy." },
+            { "from": "08-21", "to": "09-04", "why": "Still hot, but the crowds are easing." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "03-25", "to": "06-15" }, { "from": "09-01", "to": "11-15" } ],
+            "roadtrip": [ { "from": "04-01", "to": "06-15" }, { "from": "09-05", "to": "10-31" } ],
+            "beach": [ { "from": "06-15", "to": "09-15" } ]
+          },
+          "climate": {
+            "avgHighC": [9, 10, 12, 17, 22, 27, 29, 29, 25, 20, 15, 11],
+            "avgLowC": [4, 4, 5, 9, 13, 18, 21, 21, 18, 14, 9, 6],
+            "rainMm": [105, 80, 70, 45, 35, 30, 20, 30, 50, 80, 100, 120],
+            "rainDays": [12, 11, 9, 7, 6, 4, 3, 3, 5, 8, 10, 13],
+            "sunHours": [80, 95, 140, 190, 260, 300, 340, 310, 240, 160, 100, 70],
+            "seaTempC": [9, 8, 9, 11, 15, 20, 23, 24, 22, 18, 14, 11],
+            "humidity": [77, 75, 73, 70, 70, 67, 66, 67, 70, 74, 76, 78]
+          },
+          "crowds": [2, 2, 3, 4, 5, 4, 4, 4, 4, 4, 3, 3],
+          "risks": [ { "type": "extreme heat", "from": "07-01", "to": "08-31", "note": "Humid heatwaves in the city." } ],
+          "recurringHolidays": [
+            { "name": "Ramazan Bayramı (Eid al-Fitr)", "approx": "End of Ramadan, moves each year", "effect": "A domestic travel surge: buses and flights are full and resort prices rise.", "moving": { "anchor": "eidAlFitr", "offsetDays": -1, "durationDays": 4 } },
+            { "name": "Kurban Bayramı (Eid al-Adha)", "approx": "Moves about 11 days earlier each year", "effect": "The longest public holiday: the coast is packed.", "moving": { "anchor": "eidAlAdha", "offsetDays": -1, "durationDays": 5 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 50, "high": 60 },
+            "midrangePerDay": { "low": 100, "shoulder": 120, "high": 160 },
+            "hotelNightMid": { "low": 70, "shoulder": 90, "high": 140 },
+            "notes": "The Istanbul Museum Pass saves queues. Hotels in Sultanahmet and Beyoğlu peak in May and October."
+          }
+        },
+        {
+          "id": "aegean",
+          "name": "Aegean Coast",
+          "description": "Izmir, Ephesus, Pamukkale, Bodrum, Çeşme, Kuşadası, Marmaris, Troy and Pergamon.",
+          "lat": 37.04,
+          "lon": 27.43,
+          "tags": ["beach", "history", "ruins", "sailing", "food"],
+          "best": [
+            { "from": "05-01", "to": "06-20", "why": "Wildflowers and 25 °C days: Ephesus and Pamukkale are comfortable and the sea is warming.", "goodFor": ["beach", "city", "nature", "roadtrip"] },
+            { "from": "09-10", "to": "10-25", "why": "Sea at 24 °C, harvest season and fewer crowds at the ruins.", "goodFor": ["beach", "diving", "city", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "07-15", "to": "08-20", "why": "35 °C+ at Ephesus and Pamukkale, with packed resorts." },
+            { "from": "12-01", "to": "02-28", "why": "The wettest months, when Bodrum and the resort towns shut." }
+          ],
+          "shoulder": [
+            { "from": "03-01", "to": "04-30", "why": "Green spring, with the ruins at their quietest." },
+            { "from": "06-21", "to": "07-14", "why": "Hot beach season building up." },
+            { "from": "08-21", "to": "09-09", "why": "Hot, but crowds are easing." },
+            { "from": "10-26", "to": "11-30", "why": "Mild, but resorts are closing." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "06-01", "to": "10-10" } ],
+            "diving": [ { "from": "06-01", "to": "10-31" } ],
+            "sun": [ { "from": "05-15", "to": "10-15" } ],
+            "city": [ { "from": "03-15", "to": "06-15" }, { "from": "09-10", "to": "11-15" } ],
+            "roadtrip": [ { "from": "04-01", "to": "06-15" }, { "from": "09-10", "to": "10-31" } ],
+            "nature": [ { "from": "04-01", "to": "06-10" } ]
+          },
+          "climate": {
+            "avgHighC": [15, 15, 17, 21, 25, 30, 33, 33, 29, 25, 20, 16],
+            "avgLowC": [8, 8, 9, 12, 16, 20, 23, 23, 20, 16, 12, 9],
+            "rainMm": [110, 85, 65, 35, 20, 5, 1, 1, 10, 40, 85, 120],
+            "rainDays": [11, 9, 7, 5, 3, 1, 0, 0, 1, 4, 8, 11],
+            "sunHours": [140, 150, 200, 240, 300, 340, 370, 350, 300, 230, 170, 130],
+            "seaTempC": [16, 15, 16, 17, 20, 23, 25, 25, 24, 22, 19, 17],
+            "humidity": [70, 68, 67, 65, 62, 55, 50, 52, 56, 63, 69, 72]
+          },
+          "crowds": [1, 1, 2, 3, 4, 5, 5, 5, 4, 3, 1, 1],
+          "risks": [
+            { "type": "extreme heat", "from": "07-01", "to": "08-31", "note": "Inland ruins exceed 38 °C." },
+            { "type": "wildfire", "from": "07-01", "to": "09-15", "note": "Forest fires near Marmaris and Bodrum." }
+          ],
+          "recurringHolidays": [
+            { "name": "Ramazan Bayramı (Eid al-Fitr)", "approx": "End of Ramadan, moves each year", "effect": "A domestic travel surge: buses and flights are full and resort prices rise.", "moving": { "anchor": "eidAlFitr", "offsetDays": -1, "durationDays": 4 } },
+            { "name": "Kurban Bayramı (Eid al-Adha)", "approx": "Moves about 11 days earlier each year", "effect": "The longest public holiday: the coast is packed.", "moving": { "anchor": "eidAlAdha", "offsetDays": -1, "durationDays": 5 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 50, "high": 70 },
+            "midrangePerDay": { "low": 100, "shoulder": 130, "high": 190 },
+            "hotelNightMid": { "low": 70, "shoulder": 100, "high": 170 },
+            "notes": "Bodrum and Çeşme (Alaçatı) are pricey in high summer. Visit Ephesus at 8 am."
+          }
+        },
+        {
+          "id": "mediterranean",
+          "name": "Turquoise Coast (Mediterranean)",
+          "description": "Antalya, Kemer, Side, Alanya, Kaş, Fethiye, Ölüdeniz, Dalyan and the Lycian Way.",
+          "lat": 36.9,
+          "lon": 30.7,
+          "tags": ["beach", "sailing", "hiking", "ruins", "diving"],
+          "best": [
+            { "from": "05-01", "to": "06-15", "why": "Hot sun and a warm sea, while the Lycian Way is still walkable.", "goodFor": ["beach", "sun", "diving", "nature", "roadtrip"] },
+            { "from": "09-15", "to": "10-31", "why": "Sea at 26 °C: perfect for gulet boat trips and comfortable hiking.", "goodFor": ["beach", "diving", "mountain", "nature", "roadtrip"] }
+          ],
+          "worst": [ { "from": "07-10", "to": "08-20", "why": "38 °C+ heat, packed resorts and peak prices." } ],
+          "shoulder": [
+            { "from": "03-15", "to": "04-30", "why": "Lycian Way hiking season with orange blossom; the sea is cool." },
+            { "from": "06-16", "to": "07-09", "why": "Hot and getting busy." },
+            { "from": "08-21", "to": "09-14", "why": "Very warm sea, with crowds easing." },
+            { "from": "11-01", "to": "03-14", "why": "Mild 15 °C winter but rainy; many resorts close, though Antalya stays open." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "05-15", "to": "10-31" } ],
+            "diving": [ { "from": "06-01", "to": "10-31" } ],
+            "sun": [ { "from": "05-01", "to": "10-31" } ],
+            "mountain": [ { "from": "03-15", "to": "05-31" }, { "from": "10-01", "to": "11-30" } ],
+            "nature": [ { "from": "03-15", "to": "05-31" }, { "from": "10-01", "to": "11-30" } ],
+            "roadtrip": [ { "from": "04-01", "to": "06-15" }, { "from": "09-15", "to": "11-15" } ],
+            "city": [ { "from": "10-01", "to": "05-31" } ]
+          },
+          "climate": {
+            "avgHighC": [15, 16, 18, 22, 26, 31, 34, 34, 31, 26, 21, 16],
+            "avgLowC": [6, 7, 8, 11, 15, 20, 23, 23, 19, 15, 10, 7],
+            "rainMm": [230, 150, 90, 45, 30, 10, 3, 2, 10, 70, 150, 260],
+            "rainDays": [11, 10, 8, 6, 4, 1, 0, 0, 1, 4, 7, 11],
+            "sunHours": [160, 170, 220, 250, 310, 350, 370, 350, 310, 240, 190, 150],
+            "seaTempC": [17, 17, 17, 18, 21, 24, 27, 28, 27, 24, 21, 18],
+            "humidity": [64, 65, 66, 67, 66, 61, 58, 59, 58, 60, 64, 67]
+          },
+          "crowds": [1, 1, 2, 3, 4, 5, 5, 5, 4, 3, 1, 1],
+          "risks": [
+            { "type": "extreme heat", "from": "07-01", "to": "08-31", "note": "Heatwaves of 40 °C+." },
+            { "type": "wildfire", "from": "07-01", "to": "09-30", "note": "Forest fires around Antalya and Muğla." }
+          ],
+          "recurringHolidays": [
+            { "name": "Ramazan Bayramı (Eid al-Fitr)", "approx": "End of Ramadan, moves each year", "effect": "A domestic travel surge: buses and flights are full and resort prices rise.", "moving": { "anchor": "eidAlFitr", "offsetDays": -1, "durationDays": 4 } },
+            { "name": "Kurban Bayramı (Eid al-Adha)", "approx": "Moves about 11 days earlier each year", "effect": "The longest public holiday: the coast is packed.", "moving": { "anchor": "eidAlAdha", "offsetDays": -1, "durationDays": 5 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 50, "high": 70 },
+            "midrangePerDay": { "low": 100, "shoulder": 130, "high": 200 },
+            "hotelNightMid": { "low": 70, "shoulder": 100, "high": 180 },
+            "notes": "All-inclusive deals around Antalya are excellent value in May and October. Kaş and Kalkan are boutique and pricier."
+          }
+        },
+        {
+          "id": "cappadocia",
+          "name": "Cappadocia & Central Anatolia",
+          "description": "Cappadocia (Göreme, Ürgüp, Uçhisar and the hot-air balloons), Ankara, Konya and Kayseri.",
+          "lat": 38.64,
+          "lon": 34.83,
+          "tags": ["balloons", "hiking", "history", "culture"],
+          "best": [
+            { "from": "04-15", "to": "06-15", "why": "Wildflowers, the most reliable balloon flights and good valley hikes.", "goodFor": ["nature", "mountain", "city", "roadtrip"] },
+            { "from": "09-10", "to": "10-31", "why": "Stable weather with balloons flying most mornings during the harvest.", "goodFor": ["nature", "mountain", "city", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "01-05", "to": "02-20", "why": "The coldest weeks: −6 °C nights, frequent balloon cancellations from wind and snow, and some cave hotels closed." }
+          ],
+          "shoulder": [
+            { "from": "12-01", "to": "01-04", "why": "Snow-dusted fairy chimneys over the festive season." },
+            { "from": "02-21", "to": "04-14", "why": "Cold spring days, with balloons flying more often." },
+            { "from": "06-16", "to": "09-09", "why": "Hot (30 °C), dry days with good flying weather but crowds." },
+            { "from": "11-01", "to": "11-30", "why": "Cooling quickly, but quiet." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "04-01", "to": "06-30" }, { "from": "09-01", "to": "11-15" } ],
+            "nature": [ { "from": "04-15", "to": "06-15" }, { "from": "09-10", "to": "10-31" } ],
+            "mountain": [ { "from": "04-15", "to": "06-15" }, { "from": "09-10", "to": "10-31" } ],
+            "roadtrip": [ { "from": "04-15", "to": "10-31" } ],
+            "snow": [ { "from": "12-15", "to": "03-15" } ]
+          },
+          "climate": {
+            "avgHighC": [4, 6, 11, 17, 22, 26, 30, 30, 26, 19, 12, 6],
+            "avgLowC": [-6, -5, -1, 4, 8, 12, 15, 15, 11, 6, 0, -3],
+            "rainMm": [40, 35, 40, 50, 45, 25, 7, 5, 12, 30, 35, 45],
+            "rainDays": [7, 7, 7, 8, 8, 4, 2, 1, 2, 5, 6, 8],
+            "sunHours": [110, 130, 170, 210, 260, 310, 350, 340, 290, 220, 160, 100],
+            "seaTempC": null,
+            "humidity": [75, 72, 67, 62, 60, 53, 45, 44, 49, 60, 70, 77]
+          },
+          "crowds": [2, 2, 3, 4, 5, 4, 4, 4, 5, 4, 2, 2],
+          "risks": [ { "type": "extreme cold", "from": "12-15", "to": "02-15", "note": "Freezing nights on the plateau." } ],
+          "recurringHolidays": [
+            { "name": "Seb-i Arus (Konya)", "approx": "Dec 10 – Dec 17", "effect": "Whirling-dervish ceremonies for Rumi; Konya hotels are full.", "dates": { "from": "12-10", "to": "12-17" } },
+            { "name": "Ramazan Bayramı (Eid al-Fitr)", "approx": "End of Ramadan, moves each year", "effect": "A domestic travel surge: buses and flights are full and resort prices rise.", "moving": { "anchor": "eidAlFitr", "offsetDays": -1, "durationDays": 4 } },
+            { "name": "Kurban Bayramı (Eid al-Adha)", "approx": "Moves about 11 days earlier each year", "effect": "The longest public holiday: the coast is packed.", "moving": { "anchor": "eidAlAdha", "offsetDays": -1, "durationDays": 5 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 50, "high": 60 },
+            "midrangePerDay": { "low": 100, "shoulder": 120, "high": 160 },
+            "hotelNightMid": { "low": 70, "shoulder": 90, "high": 140 },
+            "notes": "Balloon flights cost €150–300 per person, so book ahead and keep a spare morning in case of cancellation."
+          }
+        },
+        {
+          "id": "east",
+          "name": "Eastern Turkey & the Black Sea",
+          "description": "Eastern Anatolia (Van, Kars and Ani, Mt Nemrut, Mardin, Şanlıurfa and Göbekli Tepe, Doğubeyazıt and Mt Ararat) and the Black Sea coast (Trabzon, Sümela Monastery, Uzungöl).",
+          "lat": 38.5,
+          "lon": 43.38,
+          "tags": ["mountain", "history", "nature", "remote"],
+          "best": [
+            { "from": "06-01", "to": "09-30", "why": "The east's short summer: Mt Nemrut's sunrise is accessible, the Kaçkar and Black Sea plateaus are green, and the Ani ruins are open.", "goodFor": ["mountain", "nature", "roadtrip", "city"] }
+          ],
+          "worst": [
+            { "from": "12-01", "to": "03-15", "why": "Severe winter: −20 °C in Kars and Erzurum, Nemrut closed and mountain roads snowbound." }
+          ],
+          "shoulder": [
+            { "from": "03-16", "to": "05-31", "why": "Thawing, with Mardin and Urfa pleasant (the southeast is warmer)." },
+            { "from": "10-01", "to": "11-30", "why": "Autumn colour, with the high ground cold." }
+          ],
+          "activityWindows": {
+            "mountain": [ { "from": "06-15", "to": "09-15" } ],
+            "nature": [ { "from": "06-01", "to": "09-30" } ],
+            "roadtrip": [ { "from": "06-01", "to": "09-30" } ],
+            "city": [ { "from": "05-01", "to": "10-31" } ],
+            "snow": [ { "from": "12-15", "to": "03-31" } ]
+          },
+          "climate": {
+            "avgHighC": [0, 1, 6, 13, 19, 25, 29, 29, 25, 17, 9, 3],
+            "avgLowC": [-9, -8, -3, 3, 7, 11, 15, 15, 10, 5, -1, -5],
+            "rainMm": [35, 30, 45, 55, 45, 20, 6, 4, 10, 40, 40, 35],
+            "rainDays": [7, 7, 9, 10, 9, 4, 2, 1, 2, 6, 7, 8],
+            "sunHours": [120, 140, 170, 200, 260, 320, 350, 340, 290, 210, 150, 110],
+            "seaTempC": null,
+            "humidity": [70, 70, 68, 63, 60, 52, 45, 44, 47, 58, 67, 72]
+          },
+          "crowds": [1, 1, 1, 2, 3, 4, 5, 5, 4, 2, 1, 1],
+          "risks": [
+            { "type": "extreme cold", "from": "12-01", "to": "02-28", "note": "Some of Turkey's coldest temperatures." },
+            { "type": "road closures", "from": "11-15", "to": "04-15", "note": "Mountain passes close in snow." }
+          ],
+          "recurringHolidays": [
+            { "name": "Ramazan Bayramı (Eid al-Fitr)", "approx": "End of Ramadan, moves each year", "effect": "A domestic travel surge: buses and flights are full and resort prices rise.", "moving": { "anchor": "eidAlFitr", "offsetDays": -1, "durationDays": 4 } },
+            { "name": "Kurban Bayramı (Eid al-Adha)", "approx": "Moves about 11 days earlier each year", "effect": "The longest public holiday: the coast is packed.", "moving": { "anchor": "eidAlAdha", "offsetDays": -1, "durationDays": 5 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 35, "high": 45 },
+            "midrangePerDay": { "low": 70, "shoulder": 80, "high": 100 },
+            "hotelNightMid": { "low": 40, "shoulder": 50, "high": 70 },
+            "notes": "Cheaper than the west. Check advice for areas near the Syrian border."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Istanbul", "aliases": ["Constantinople"], "region": "istanbul" },
+        { "name": "Bursa", "aliases": [], "region": "istanbul" },
+        { "name": "Edirne", "aliases": [], "region": "istanbul" },
+        { "name": "Çanakkale", "aliases": ["Canakkale", "Gallipoli"], "region": "istanbul" },
+        { "name": "Izmir", "aliases": [], "region": "aegean" },
+        { "name": "Ephesus", "aliases": ["Selçuk", "Selcuk"], "region": "aegean" },
+        { "name": "Kuşadası", "aliases": ["Kusadasi"], "region": "aegean" },
+        { "name": "Bodrum", "aliases": [], "region": "aegean" },
+        { "name": "Çeşme", "aliases": ["Cesme", "Alaçatı", "Alacati"], "region": "aegean" },
+        { "name": "Pamukkale", "aliases": ["Hierapolis", "Denizli"], "region": "aegean" },
+        { "name": "Marmaris", "aliases": [], "region": "aegean" },
+        { "name": "Pergamon", "aliases": ["Bergama"], "region": "aegean" },
+        { "name": "Troy", "aliases": ["Truva"], "region": "aegean" },
+        { "name": "Antalya", "aliases": [], "region": "mediterranean" },
+        { "name": "Kemer", "aliases": [], "region": "mediterranean" },
+        { "name": "Side", "aliases": ["Manavgat"], "region": "mediterranean" },
+        { "name": "Alanya", "aliases": [], "region": "mediterranean" },
+        { "name": "Kaş", "aliases": ["Kas", "Kalkan"], "region": "mediterranean" },
+        { "name": "Fethiye", "aliases": ["Ölüdeniz", "Oludeniz"], "region": "mediterranean" },
+        { "name": "Dalyan", "aliases": [], "region": "mediterranean" },
+        { "name": "Göreme", "aliases": ["Cappadocia", "Goreme", "Ürgüp", "Uchisar"], "region": "cappadocia" },
+        { "name": "Ankara", "aliases": [], "region": "cappadocia" },
+        { "name": "Konya", "aliases": [], "region": "cappadocia" },
+        { "name": "Kayseri", "aliases": ["Erciyes"], "region": "cappadocia" },
+        { "name": "Trabzon", "aliases": ["Sümela", "Uzungöl"], "region": "east" },
+        { "name": "Kars", "aliases": ["Ani"], "region": "east" },
+        { "name": "Van", "aliases": [], "region": "east" },
+        { "name": "Mount Nemrut", "aliases": ["Nemrut", "Adıyaman"], "region": "east" },
+        { "name": "Mardin", "aliases": [], "region": "east" },
+        { "name": "Şanlıurfa", "aliases": ["Urfa", "Göbekli Tepe", "Gobekli Tepe"], "region": "east" },
+        { "name": "Erzurum", "aliases": [], "region": "east" },
+        { "name": "Doğubeyazıt", "aliases": ["Ararat", "Mount Ararat"], "region": "east" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.goturkiye.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Turkey" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/turkey" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/turkey/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
       "iso2": "TM",
       "isoNum": "795",
       "name": "Turkmenistan",
@@ -4522,6 +6340,90 @@
         { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Turkmenistan" },
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "AE",
+      "isoNum": "784",
+      "name": "United Arab Emirates",
+      "aliases": ["UAE", "Emirates"],
+      "continent": "Asia",
+      "flag": "🇦🇪",
+      "summary": "The UAE is a winter-sun destination: from November to March it's 24–30 °C and dry, perfect for beaches, desert safaris and outdoor dining. Summer (June–September) reaches 40–45 °C with high humidity, so life moves indoors, but hotel prices halve. During Ramadan, dining is discreet by day and there are evening iftars.",
+      "splitByRegion": false,
+      "splitReason": "The UAE is a small, uniformly hot desert federation; the Hajar Mountains are a few degrees cooler but follow the same calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "The whole country: Dubai, Abu Dhabi, Sharjah, Ras Al Khaimah, Fujairah, Al Ain and the Liwa desert.",
+          "lat": 25.2,
+          "lon": 55.27,
+          "tags": ["city", "beach", "desert", "shopping", "luxury"],
+          "best": [
+            { "from": "11-01", "to": "03-31", "why": "Perfect 24–30 °C sunshine for beaches, desert safaris and outdoor dining.", "goodFor": ["beach", "city", "sun", "nature", "roadtrip", "mountain"] }
+          ],
+          "worst": [
+            { "from": "06-01", "to": "09-15", "why": "40 °C+ with humidity limits outdoor activity (though hotel deals are big)." }
+          ],
+          "shoulder": [
+            { "from": "04-01", "to": "05-31", "why": "Hot, but the beaches are fine early and late in the day." },
+            { "from": "09-16", "to": "10-31", "why": "Still hot, with outdoor seasons reopening." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "10-15", "to": "05-15" } ],
+            "city": [ { "from": "01-01", "to": "12-31" } ],
+            "sun": [ { "from": "10-15", "to": "04-30" } ],
+            "diving": [ { "from": "10-01", "to": "05-31" } ],
+            "nature": [ { "from": "11-01", "to": "03-31" } ],
+            "roadtrip": [ { "from": "11-01", "to": "03-31" } ],
+            "mountain": [ { "from": "11-01", "to": "03-31" } ]
+          },
+          "climate": {
+            "avgHighC": [24, 25, 28, 33, 37, 39, 41, 41, 39, 35, 30, 26],
+            "avgLowC": [14, 15, 18, 21, 25, 27, 30, 30, 27, 24, 19, 16],
+            "rainMm": [19, 25, 22, 7, 0, 0, 1, 0, 0, 1, 3, 16],
+            "rainDays": [2, 3, 3, 1, 0, 0, 0, 0, 0, 0, 1, 2],
+            "sunHours": [250, 240, 260, 300, 340, 330, 310, 310, 300, 290, 260, 250],
+            "seaTempC": [22, 21, 23, 25, 28, 31, 32, 33, 32, 30, 27, 24],
+            "humidity": [65, 65, 63, 55, 53, 58, 57, 58, 62, 62, 62, 65]
+          },
+          "crowds": [5, 5, 5, 4, 3, 2, 2, 2, 3, 4, 5, 5],
+          "risks": [
+            { "type": "extreme heat", "from": "05-15", "to": "09-30", "note": "Dangerous midday heat." },
+            { "type": "sandstorm", "from": "03-15", "to": "07-31", "note": "Dust storms reduce visibility." }
+          ],
+          "recurringHolidays": [
+            { "name": "Ramadan", "approx": "Moves about 11 days earlier each year", "effect": "Eat discreetly by day; hotels offer deals and iftar tents.", "moving": { "anchor": "ramadanStart", "offsetDays": 0, "durationDays": 30 } },
+            { "name": "New Year's Eve fireworks", "approx": "Dec 28 – Jan 2", "effect": "Peak prices and minimum stays in Dubai.", "dates": { "from": "12-28", "to": "01-02" } },
+            { "name": "Abu Dhabi Grand Prix", "approx": "Late November / early December", "effect": "Abu Dhabi hotels triple in price." }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 70, "shoulder": 90, "high": 110 },
+            "midrangePerDay": { "low": 180, "shoulder": 220, "high": 300 },
+            "hotelNightMid": { "low": 130, "shoulder": 170, "high": 260 },
+            "notes": "Summer hotel rates are often half the winter price. Alcohol is expensive and only sold in licensed venues."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Dubai", "aliases": [], "region": "country" },
+        { "name": "Abu Dhabi", "aliases": [], "region": "country" },
+        { "name": "Sharjah", "aliases": [], "region": "country" },
+        { "name": "Ras Al Khaimah", "aliases": ["Jebel Jais", "RAK"], "region": "country" },
+        { "name": "Fujairah", "aliases": [], "region": "country" },
+        { "name": "Al Ain", "aliases": [], "region": "country" },
+        { "name": "Liwa Oasis", "aliases": ["Liwa"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Dubai official tourism site", "url": "https://www.visitdubai.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/United_Arab_Emirates" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"
@@ -4799,6 +6701,75 @@
         { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Vietnam" },
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/vietnam" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/vietnam/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "YE",
+      "isoNum": "887",
+      "name": "Yemen",
+      "aliases": ["Republic of Yemen"],
+      "continent": "Asia",
+      "flag": "🇾🇪",
+      "summary": "Many governments advise against all travel to Yemen. In normal times, the highlands (Sanaa, Shibam) are pleasant all year, and Socotra's otherworldly dragon-blood trees can only be reached from October to April, before monsoon winds close the island.",
+      "splitByRegion": false,
+      "splitReason": "War makes travel impossible for most visitors. These notes cover the Sanaa highlands and Socotra, which share the October–April dry season.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Sanaa, Shibam and the Hadramawt, Aden and Socotra.",
+          "lat": 15.37,
+          "lon": 44.19,
+          "tags": ["history", "nature", "remote"],
+          "best": [
+            { "from": "10-01", "to": "04-15", "why": "Dry, clear highlands, and calm seas for reaching Socotra.", "goodFor": ["nature", "city", "beach"] }
+          ],
+          "worst": [ { "from": "06-01", "to": "09-15", "why": "Monsoon winds cut off Socotra, and the lowlands are hot." } ],
+          "shoulder": [
+            { "from": "04-16", "to": "05-31", "why": "Heating up in the lowlands." },
+            { "from": "09-16", "to": "09-30", "why": "The winds are easing." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "10-01", "to": "04-15" } ],
+            "city": [ { "from": "10-01", "to": "04-30" } ],
+            "beach": [ { "from": "10-15", "to": "04-15" } ]
+          },
+          "climate": {
+            "avgHighC": [23, 24, 26, 27, 29, 30, 30, 29, 28, 25, 23, 22],
+            "avgLowC": [3, 4, 8, 11, 12, 13, 15, 15, 11, 6, 4, 3],
+            "rainMm": [5, 5, 20, 45, 30, 5, 45, 70, 10, 5, 5, 5],
+            "rainDays": [1, 1, 3, 5, 4, 1, 4, 6, 1, 0, 1, 1],
+            "sunHours": [300, 280, 290, 270, 300, 280, 240, 250, 280, 300, 300, 300],
+            "seaTempC": null,
+            "humidity": [40, 40, 45, 48, 40, 30, 40, 48, 35, 30, 35, 40]
+          },
+          "crowds": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "risks": [
+            { "type": "rough seas", "from": "06-01", "to": "09-15", "note": "Southwest monsoon winds around Socotra." }
+          ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 50, "shoulder": 60, "high": 70 },
+            "midrangePerDay": { "low": 100, "shoulder": 110, "high": 130 },
+            "hotelNightMid": { "low": 50, "shoulder": 60, "high": 70 },
+            "notes": "Socotra is only reachable on organised tours with charter flights."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Sanaa", "aliases": ["Sana'a"], "region": "country" },
+        { "name": "Socotra", "aliases": [], "region": "country" },
+        { "name": "Aden", "aliases": [], "region": "country" },
+        { "name": "Shibam", "aliases": ["Hadramawt"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Yemen" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/yemen" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/yemen/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"

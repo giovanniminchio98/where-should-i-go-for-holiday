@@ -54,7 +54,7 @@ below, and CI runs it on every push.
 | `lat`, `lon` | number | Representative point (used by `fetch-climate.js` and the locator map) |
 | `seaLat`, `seaLon` | number? | Optional offshore point for sea-temperature fetching |
 | `tags` | string[] | Free-form (`beach`, `snow`, `city`…) |
-| `best` | Window[] | ≥ 1. Each has `from`, `to`, `why` (≥ 20 chars) and optional `goodFor` (activity keys) |
+| `best` | Window[] | ≥ 1. Each has `from`, `to`, `why` (≥ 20 chars; shoulder windows ≥ 10) and optional `goodFor` (activity keys) |
 | `worst` | Window[] | `from`, `to`, `why`. Must not overlap `best` |
 | `shoulder` | Window[] | `from`, `to`, `why` |
 | `activityWindows` | object | Keys from `sun`, `beach`, `mountain`, `snow`, `city`, `nature`, `diving`, `roadtrip`; values are non-empty `{ from, to }[]`. Omit an activity the region doesn't offer |
