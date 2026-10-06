@@ -1,0 +1,15 @@
+/* Print-friendly country page. */
+@page { margin: 14mm; }
+body { background: #fff !important; color: #000 !important; display: block; }
+.site-header, .site-footer, .scrim, .tooltip, .toast, .panel-bar, .carousel-nav, .no-print, #main:has(+ .scrim.show) { display: none !important; }
+body.panel-is-open #main { display: none !important; }
+.panel { position: static !important; transform: none !important; width: auto !important; box-shadow: none !important; border: 0 !important; overflow: visible !important; }
+.panel-inner { padding: 0 !important; }
+.card, .chart-box, .period { box-shadow: none !important; break-inside: avoid; }
+.panel section { break-inside: avoid-page; margin-top: 20px; }
+.strip-week { animation: none !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.cls-best, .cls-shoulder, .cls-worst, .cls-na, .period, .badge { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+details.data-table { display: block; }
+details.data-table > *:not(summary) { display: block !important; }
+a { color: #000; }
+.link-list a::after { content: " (" attr(href) ")"; font-size: 0.8em; color: #555; }

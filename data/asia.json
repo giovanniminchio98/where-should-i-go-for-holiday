@@ -1,0 +1,532 @@
+{
+  "continent": "Asia",
+  "countries": [
+    {
+      "iso2": "TH",
+      "isoNum": "764",
+      "name": "Thailand",
+      "aliases": ["Siam", "Prathet Thai", "Kingdom of Thailand"],
+      "continent": "Asia",
+      "flag": "🇹🇭",
+      "summary": "Thailand has three seasons: cool and dry (November–February), hot (March–May) and the rainy monsoon (roughly May–October). The two coasts run on opposite calendars. The Andaman side (Phuket, Krabi) is at its best from December to March and rough in the southwest monsoon. The Gulf islands (Koh Samui, Phangan, Tao) stay fairly dry through the European summer but take a drenching in October–December. The north adds a 'burning season' of smoky haze in March–April.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "north",
+          "name": "Northern Thailand",
+          "description": "Chiang Mai, Chiang Rai, Pai, the Mae Hong Son loop, Sukhothai and the northern mountains.",
+          "lat": 18.79,
+          "lon": 98.98,
+          "tags": ["mountain", "culture", "city", "nature", "food"],
+          "best": [
+            { "from": "11-01", "to": "02-10", "why": "The cool dry season brings 28–30 °C days and 14–18 °C nights, clear mountain views and comfortable trekking. The Yi Peng lantern festival lights up Chiang Mai in November.", "goodFor": ["city", "mountain", "nature", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "03-01", "to": "04-10", "why": "Burning season: crop-burning smoke makes Chiang Mai's air among the most polluted in the world, hides the mountain views and comes with 36 °C heat." },
+            { "from": "08-01", "to": "09-30", "why": "The wettest months bring muddy, leech-heavy treks and landslides on mountain roads such as the Mae Hong Son loop." }
+          ],
+          "shoulder": [
+            { "from": "02-11", "to": "02-28", "why": "Warming up and still mostly clear, but haze can start in late February." },
+            { "from": "04-11", "to": "04-30", "why": "Songkran (Apr 13–15) is famously wild in Chiang Mai, but it's very hot and the haze lingers." },
+            { "from": "05-01", "to": "07-31", "why": "Green season: lush paddies, short afternoon storms and low prices." },
+            { "from": "10-01", "to": "10-31", "why": "Rains ease off and the landscape is at its greenest, just before peak prices." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "11-01", "to": "02-28" } ],
+            "mountain": [ { "from": "11-01", "to": "02-15" } ],
+            "nature": [ { "from": "10-15", "to": "02-28" }, { "from": "06-01", "to": "07-31" } ],
+            "roadtrip": [ { "from": "11-01", "to": "02-15" } ],
+            "sun": [ { "from": "11-01", "to": "02-28" } ]
+          },
+          "climate": {
+            "avgHighC": [29, 32, 35, 36, 34, 32, 31, 31, 31, 31, 30, 28],
+            "avgLowC": [14, 15, 18, 22, 23, 23, 23, 23, 23, 21, 18, 15],
+            "rainMm": [5, 5, 15, 50, 160, 130, 160, 230, 250, 120, 35, 10],
+            "rainDays": [1, 1, 2, 6, 15, 16, 19, 21, 18, 11, 4, 1],
+            "sunHours": [260, 250, 260, 240, 200, 140, 120, 110, 150, 190, 230, 250],
+            "seaTempC": null,
+            "humidity": [70, 60, 55, 60, 72, 78, 80, 83, 82, 79, 75, 72]
+          },
+          "crowds": [5, 4, 3, 3, 2, 2, 2, 2, 2, 3, 4, 5],
+          "risks": [
+            { "type": "air pollution", "from": "02-15", "to": "04-30", "note": "Crop-burning haze. Check the AQI daily; people with asthma should avoid this period." },
+            { "type": "extreme heat", "from": "03-20", "to": "05-10", "note": "Afternoon heat of 36–40 °C before the rains arrive." },
+            { "type": "monsoon", "from": "05-15", "to": "10-15", "note": "Southwest monsoon: daily storms that are heaviest in August and September." },
+            { "type": "landslides", "from": "08-01", "to": "09-30", "note": "Mountain roads around Pai and Mae Hong Son can be cut off." }
+          ],
+          "recurringHolidays": [
+            { "name": "Songkran (Thai New Year)", "approx": "Apr 13 – Apr 15", "dates": { "from": "04-13", "to": "04-15" }, "effect": "Nationwide water fights, with Chiang Mai the epicentre: buses and hotels book out and many businesses close." },
+            { "name": "Chinese New Year", "approx": "Late Jan / Feb, moves each year", "effect": "A surge of regional visitors: hotels fill and prices rise.", "moving": { "anchor": "chineseNewYear", "offsetDays": -2, "durationDays": 6 } },
+            { "name": "Yi Peng & Loy Krathong", "approx": "November full moon", "effect": "Chiang Mai's lantern festival: rooms triple in price and sell out months ahead." },
+            { "name": "Christmas & New Year", "approx": "Dec 20 – Jan 5", "dates": { "from": "12-20", "to": "01-05" }, "effect": "Peak-season prices and minimum stays." }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 35, "high": 45 },
+            "midrangePerDay": { "low": 70, "shoulder": 85, "high": 110 },
+            "hotelNightMid": { "low": 40, "shoulder": 50, "high": 75 },
+            "notes": "Pai and Chiang Mai guesthouses double in price around Yi Peng. Treks and elephant-sanctuary visits cost about the same all year."
+          }
+        },
+        {
+          "id": "central",
+          "name": "Bangkok & Central Thailand",
+          "description": "Bangkok, Ayutthaya, Kanchanaburi, Khao Yai, plus the upper Gulf resorts of Hua Hin and Pattaya.",
+          "lat": 13.75,
+          "lon": 100.5,
+          "tags": ["city", "culture", "food", "beach", "nightlife"],
+          "best": [
+            { "from": "11-15", "to": "02-20", "why": "The driest and least humid time: about 31 °C days, clear skies for temples, river trips and night markets, and comfortable evenings.", "goodFor": ["city", "nature", "roadtrip", "beach"] }
+          ],
+          "worst": [
+            { "from": "04-01", "to": "05-10", "why": "The hottest time of year, with a heat index of 40–45 °C and nights that barely cool. Sightseeing is draining (Songkran week is fun but chaotic)." },
+            { "from": "09-01", "to": "10-15", "why": "The peak of the rains brings daily downpours and flash flooding in Bangkok's streets and sois, with heavy traffic." }
+          ],
+          "shoulder": [
+            { "from": "02-21", "to": "03-31", "why": "Dry but heating up quickly (34–35 °C)." },
+            { "from": "05-11", "to": "08-31", "why": "Green season: short heavy showers, mostly dry mornings and good hotel deals." },
+            { "from": "10-16", "to": "11-14", "why": "Rains easing; the Loy Krathong river festival in November." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "11-01", "to": "03-15" } ],
+            "beach": [ { "from": "11-15", "to": "04-30" } ],
+            "sun": [ { "from": "11-15", "to": "04-15" } ],
+            "roadtrip": [ { "from": "11-15", "to": "02-28" } ],
+            "nature": [ { "from": "11-01", "to": "02-28" } ]
+          },
+          "climate": {
+            "avgHighC": [32, 33, 34, 35, 34, 33, 33, 32, 32, 32, 32, 31],
+            "avgLowC": [22, 24, 25, 27, 26, 26, 26, 26, 25, 25, 24, 22],
+            "rainMm": [13, 20, 42, 91, 247, 157, 159, 198, 344, 242, 48, 10],
+            "rainDays": [1, 3, 4, 6, 16, 16, 17, 19, 21, 17, 6, 1],
+            "sunHours": [270, 250, 270, 250, 210, 170, 150, 150, 150, 180, 230, 260],
+            "seaTempC": [27, 28, 29, 30, 30, 29, 29, 29, 29, 29, 28, 27],
+            "humidity": [67, 70, 72, 72, 75, 75, 76, 77, 80, 80, 73, 66]
+          },
+          "crowds": [5, 4, 4, 4, 3, 2, 3, 2, 2, 3, 4, 5],
+          "risks": [
+            { "type": "extreme heat", "from": "03-25", "to": "05-15", "note": "Heat index often 42 °C or more in the afternoons; plan indoor breaks." },
+            { "type": "flooding", "from": "08-15", "to": "10-31", "note": "Urban flash flooding after storms; Chao Phraya river flooding in very wet years." },
+            { "type": "air pollution", "from": "01-01", "to": "03-15", "note": "PM2.5 smog episodes in Bangkok during the dry season." }
+          ],
+          "recurringHolidays": [
+            { "name": "Songkran (Thai New Year)", "approx": "Apr 13 – Apr 15", "dates": { "from": "04-13", "to": "04-15" }, "effect": "Water fights on Khao San and Silom Roads; many Bangkokians leave the city, so long-distance transport is full." },
+            { "name": "Chinese New Year in Yaowarat", "approx": "Late Jan / Feb, moves each year", "effect": "Chinatown celebrations; hotel demand rises.", "moving": { "anchor": "chineseNewYear", "offsetDays": -1, "durationDays": 4 } },
+            { "name": "Loy Krathong", "approx": "November full moon", "effect": "Candle floats on the river; riverside hotels book up." },
+            { "name": "Christmas & New Year", "approx": "Dec 20 – Jan 5", "dates": { "from": "12-20", "to": "01-05" }, "effect": "Peak rates in Bangkok, Hua Hin and Pattaya." }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 35, "high": 45 },
+            "midrangePerDay": { "low": 80, "shoulder": 95, "high": 120 },
+            "hotelNightMid": { "low": 50, "shoulder": 60, "high": 90 },
+            "notes": "Bangkok has a huge hotel supply, so prices vary less by season than at the beaches. Hua Hin weekends fill with Bangkok residents."
+          }
+        },
+        {
+          "id": "andaman",
+          "name": "Andaman Coast",
+          "description": "The west coast and islands on the Andaman Sea: Phuket, Krabi and Ao Nang, Koh Phi Phi, Koh Lanta, Khao Lak, the Similan and Surin islands, and Koh Lipe.",
+          "lat": 7.88,
+          "lon": 98.39,
+          "tags": ["beach", "islands", "diving", "nightlife"],
+          "best": [
+            { "from": "12-01", "to": "03-31", "why": "The dry northeast monsoon brings calm, clear turquoise water, reliable sunshine and the best diving visibility. The Similan and Surin marine parks are open, and island-hopping boats run daily.", "goodFor": ["beach", "diving", "sun", "nature"] }
+          ],
+          "worst": [
+            { "from": "06-01", "to": "10-15", "why": "The southwest monsoon brings rough seas and red-flag beaches with deadly rip currents. The Similan and Surin parks close, many island ferries stop and rain falls most days." }
+          ],
+          "shoulder": [
+            { "from": "04-01", "to": "04-30", "why": "Hot (33 °C) and still calm, with fewer people. Songkran falls mid-month." },
+            { "from": "05-01", "to": "05-31", "why": "The monsoon arrives in the second half of the month, with the last dive trips before the parks close." },
+            { "from": "10-16", "to": "11-30", "why": "Rains taper off and the marine parks reopen around Oct 15. It's still showery, but prices are low." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "11-20", "to": "04-25" } ],
+            "diving": [ { "from": "11-01", "to": "05-10" } ],
+            "sun": [ { "from": "12-01", "to": "04-15" } ],
+            "nature": [ { "from": "11-15", "to": "04-30" } ]
+          },
+          "climate": {
+            "avgHighC": [32, 33, 33, 33, 32, 31, 31, 31, 30, 30, 31, 31],
+            "avgLowC": [23, 24, 24, 25, 25, 25, 25, 25, 24, 24, 24, 23],
+            "rainMm": [30, 20, 50, 130, 300, 260, 270, 280, 370, 310, 180, 60],
+            "rainDays": [4, 2, 5, 11, 21, 20, 21, 21, 23, 22, 15, 7],
+            "sunHours": [260, 250, 260, 220, 170, 150, 160, 160, 140, 160, 190, 240],
+            "seaTempC": [28, 28, 29, 30, 30, 29, 29, 29, 29, 29, 29, 28],
+            "humidity": [72, 72, 73, 77, 80, 81, 80, 80, 82, 83, 80, 75]
+          },
+          "crowds": [5, 5, 4, 3, 2, 2, 3, 3, 2, 2, 3, 5],
+          "risks": [
+            { "type": "monsoon", "from": "05-15", "to": "10-31", "note": "Southwest monsoon: heavy squalls, with September the wettest month." },
+            { "type": "rough seas", "from": "05-01", "to": "10-31", "note": "Rip currents cause drownings every year; obey the red flags. Many speedboat routes are suspended." }
+          ],
+          "recurringHolidays": [
+            { "name": "Christmas & New Year", "approx": "Dec 20 – Jan 5", "dates": { "from": "12-20", "to": "01-05" }, "effect": "Peak rates (2–3× low season) with minimum stays; book months ahead." },
+            { "name": "Chinese New Year", "approx": "Late Jan / Feb, moves each year", "effect": "Phuket and Krabi fill with regional visitors.", "moving": { "anchor": "chineseNewYear", "offsetDays": -2, "durationDays": 7 } },
+            { "name": "Songkran", "approx": "Apr 13 – Apr 15", "dates": { "from": "04-13", "to": "04-15" }, "effect": "Water festival in Patong and Phuket Town." },
+            { "name": "Phuket Vegetarian Festival", "approx": "Sep/Oct, 9 days (9th lunar month)", "effect": "Spectacular processions in Phuket Town; local hotels busy." }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 35, "shoulder": 45, "high": 60 },
+            "midrangePerDay": { "low": 90, "shoulder": 110, "high": 160 },
+            "hotelNightMid": { "low": 50, "shoulder": 70, "high": 130 },
+            "notes": "Low-season discounts of 40–60% on resorts are common. Phi Phi and Koh Lipe are the most expensive islands in peak season."
+          }
+        },
+        {
+          "id": "gulf",
+          "name": "Gulf Islands (Samui, Phangan, Tao)",
+          "description": "Koh Samui, Koh Phangan, Koh Tao and Ang Thong Marine Park in the southern Gulf of Thailand.",
+          "lat": 9.53,
+          "lon": 100.06,
+          "tags": ["beach", "islands", "diving", "nightlife"],
+          "best": [
+            { "from": "02-01", "to": "04-30", "why": "The driest, calmest months: glassy sea, excellent snorkelling at Koh Tao and Ang Thong, and day after day of sunshine.", "goodFor": ["beach", "diving", "sun", "nature"] },
+            { "from": "06-20", "to": "08-31", "why": "Mostly dry, with only brief showers, while the Andaman coast is in monsoon. This is Thailand's best beach option in the European summer.", "goodFor": ["beach", "diving", "sun"] }
+          ],
+          "worst": [
+            { "from": "10-15", "to": "12-15", "why": "The northeast monsoon hits the Gulf: November is the wettest month (500 mm or more), with flooding, cancelled ferries and murky diving." }
+          ],
+          "shoulder": [
+            { "from": "12-16", "to": "01-31", "why": "The monsoon tails off with mixed days, but holiday prices are at their highest." },
+            { "from": "05-01", "to": "06-19", "why": "Hot, with short showers and quieter beaches." },
+            { "from": "09-01", "to": "10-14", "why": "Showers increase towards October, but there are still plenty of sunny spells and deals." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "01-20", "to": "09-30" } ],
+            "diving": [ { "from": "03-01", "to": "09-30" } ],
+            "sun": [ { "from": "02-01", "to": "09-10" } ],
+            "nature": [ { "from": "02-01", "to": "09-30" } ]
+          },
+          "climate": {
+            "avgHighC": [29, 30, 32, 33, 33, 33, 32, 32, 32, 31, 29, 28],
+            "avgLowC": [23, 24, 24, 25, 25, 25, 25, 25, 24, 24, 24, 23],
+            "rainMm": [157, 63, 75, 80, 160, 120, 140, 140, 155, 300, 520, 290],
+            "rainDays": [10, 5, 6, 6, 13, 11, 13, 13, 14, 19, 20, 15],
+            "sunHours": [200, 230, 260, 250, 220, 200, 200, 200, 180, 160, 140, 170],
+            "seaTempC": [27, 27, 28, 29, 30, 30, 29, 29, 29, 28, 28, 27],
+            "humidity": [80, 80, 79, 78, 78, 76, 76, 76, 78, 84, 87, 83]
+          },
+          "crowds": [4, 4, 4, 3, 3, 3, 4, 5, 3, 2, 2, 4],
+          "risks": [
+            { "type": "monsoon", "from": "10-01", "to": "12-31", "note": "Northeast monsoon; flooding on Samui's ring road in heavy years." },
+            { "type": "rough seas", "from": "10-20", "to": "01-10", "note": "Ferries between Samui, Phangan and Tao are often cancelled and diving is poor." }
+          ],
+          "recurringHolidays": [
+            { "name": "Full Moon Party (Koh Phangan)", "approx": "Monthly, on or near the full moon", "effect": "Haad Rin rooms sell out and ferry prices rise for 3–4 nights each month." },
+            { "name": "Christmas & New Year", "approx": "Dec 20 – Jan 5", "dates": { "from": "12-20", "to": "01-05" }, "effect": "Peak prices despite mixed weather." },
+            { "name": "Chinese New Year", "approx": "Late Jan / Feb, moves each year", "effect": "Busy, with higher rates on Samui.", "moving": { "anchor": "chineseNewYear", "offsetDays": -2, "durationDays": 7 } },
+            { "name": "Songkran", "approx": "Apr 13 – Apr 15", "dates": { "from": "04-13", "to": "04-15" }, "effect": "Water festival on Chaweng and Lamai beach roads." }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 35, "shoulder": 45, "high": 55 },
+            "midrangePerDay": { "low": 90, "shoulder": 110, "high": 150 },
+            "hotelNightMid": { "low": 50, "shoulder": 70, "high": 120 },
+            "notes": "Koh Tao is one of the world's cheapest places to get dive-certified. Samui flights (Bangkok Airways) are pricey, so the ferry via Surat Thani is the budget route."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Chiang Mai", "aliases": ["Chiangmai"], "region": "north" },
+        { "name": "Chiang Rai", "aliases": ["White Temple", "Golden Triangle"], "region": "north" },
+        { "name": "Pai", "aliases": ["Mae Hong Son"], "region": "north" },
+        { "name": "Sukhothai", "aliases": [], "region": "north" },
+        { "name": "Bangkok", "aliases": ["Krung Thep", "BKK"], "region": "central" },
+        { "name": "Ayutthaya", "aliases": [], "region": "central" },
+        { "name": "Kanchanaburi", "aliases": ["River Kwai", "Erawan"], "region": "central" },
+        { "name": "Hua Hin", "aliases": [], "region": "central" },
+        { "name": "Pattaya", "aliases": [], "region": "central" },
+        { "name": "Khao Yai", "aliases": [], "region": "central" },
+        { "name": "Phuket", "aliases": ["Patong", "Kata", "Karon"], "region": "andaman" },
+        { "name": "Krabi", "aliases": ["Ao Nang", "Railay"], "region": "andaman" },
+        { "name": "Koh Phi Phi", "aliases": ["Phi Phi", "Ko Phi Phi", "Maya Bay"], "region": "andaman" },
+        { "name": "Koh Lanta", "aliases": ["Ko Lanta"], "region": "andaman" },
+        { "name": "Khao Lak", "aliases": ["Similan Islands", "Similans"], "region": "andaman" },
+        { "name": "Koh Lipe", "aliases": ["Ko Lipe"], "region": "andaman" },
+        { "name": "Koh Samui", "aliases": ["Ko Samui", "Samui", "Chaweng", "Lamai"], "region": "gulf" },
+        { "name": "Koh Phangan", "aliases": ["Ko Pha Ngan", "Phangan", "Haad Rin"], "region": "gulf" },
+        { "name": "Koh Tao", "aliases": ["Ko Tao"], "region": "gulf" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.tourismthailand.org" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/thailand" },
+        { "label": "Climate data (World Bank)", "url": "https://climateknowledgeportal.worldbank.org/country/thailand/climate-data-historical" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/thailand/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "LK",
+      "isoNum": "144",
+      "name": "Sri Lanka",
+      "aliases": ["Ceylon", "Shri Lanka"],
+      "continent": "Asia",
+      "flag": "🇱🇰",
+      "summary": "Sri Lanka gets two monsoons that hit opposite sides of the island. The southwest monsoon (May–September) soaks the west and south coasts while the east coast stays dry and sunny. The northeast monsoon (November–February) does the reverse. So there is always a good beach somewhere: the south-west from December to April, the east from May to September. October–November brings inter-monsoon storms to most of the island.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "southwest",
+          "name": "South-West Coast & Colombo",
+          "description": "Colombo, Negombo, Bentota, Hikkaduwa, Galle, Unawatuna, Mirissa, Weligama, Tangalle, and the far south-east around Yala.",
+          "lat": 6.03,
+          "lon": 80.22,
+          "tags": ["beach", "city", "culture", "wildlife", "surf"],
+          "best": [
+            { "from": "12-10", "to": "04-10", "why": "The northeast monsoon keeps this coast dry and sunny: calm, clear sea at Unawatuna, Mirissa and Bentota, blue-whale watching off Mirissa and Galle Fort in perfect weather.", "goodFor": ["beach", "diving", "nature", "sun", "city"] }
+          ],
+          "worst": [
+            { "from": "05-01", "to": "06-30", "why": "Peak southwest monsoon: heavy rain, big swell and unsafe red-flag beaches, and many beachfront restaurants close." },
+            { "from": "10-01", "to": "11-15", "why": "Inter-monsoon thunderstorms bring the heaviest downpours of the year and local flooding." }
+          ],
+          "shoulder": [
+            { "from": "04-11", "to": "04-30", "why": "Hot, with inter-monsoon showers starting. Sinhala & Tamil New Year closures around Apr 13–14." },
+            { "from": "07-01", "to": "09-30", "why": "The monsoon weakens with many dry days. Surf is up in the south and resort rates are low, but swimming is risky." },
+            { "from": "11-16", "to": "12-09", "why": "The weather is improving and beach season is reopening, with occasional storms." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "12-01", "to": "04-15" } ],
+            "diving": [ { "from": "12-01", "to": "04-15" } ],
+            "sun": [ { "from": "12-15", "to": "04-05" } ],
+            "nature": [ { "from": "12-01", "to": "04-15" } ],
+            "city": [ { "from": "12-01", "to": "04-15" }, { "from": "07-15", "to": "09-15" } ],
+            "roadtrip": [ { "from": "12-15", "to": "04-10" } ]
+          },
+          "climate": {
+            "avgHighC": [29, 30, 31, 31, 30, 29, 29, 29, 29, 29, 29, 29],
+            "avgLowC": [23, 23, 24, 25, 26, 25, 25, 25, 25, 24, 24, 23],
+            "rainMm": [90, 80, 130, 240, 330, 230, 140, 130, 220, 350, 310, 170],
+            "rainDays": [6, 6, 9, 15, 19, 18, 13, 12, 15, 19, 16, 10],
+            "sunHours": [250, 250, 270, 240, 200, 190, 200, 200, 190, 190, 200, 220],
+            "seaTempC": [27, 28, 29, 29, 29, 28, 28, 27, 27, 28, 28, 27],
+            "humidity": [75, 75, 76, 79, 81, 80, 79, 79, 79, 81, 81, 78]
+          },
+          "crowds": [5, 5, 4, 3, 2, 2, 2, 3, 2, 2, 3, 5],
+          "risks": [
+            { "type": "monsoon", "from": "05-01", "to": "09-30", "note": "Southwest monsoon: heaviest in May–June." },
+            { "type": "rough seas", "from": "05-01", "to": "09-30", "note": "Strong rip currents; drownings occur every season. Whale-watching boats stop." },
+            { "type": "flooding", "from": "10-01", "to": "11-30", "note": "Inter-monsoon thunderstorms; Colombo streets flood after cloudbursts." }
+          ],
+          "recurringHolidays": [
+            { "name": "Sinhala & Tamil New Year", "approx": "Apr 13 – Apr 14", "dates": { "from": "04-12", "to": "04-15" }, "effect": "Many businesses close for several days and trains and buses are packed." },
+            { "name": "Vesak Poya", "approx": "May full moon", "effect": "Lantern displays in Colombo; alcohol sales banned and some closures." },
+            { "name": "Poya (full-moon) days", "approx": "Monthly, on the full moon", "effect": "Public holiday with no alcohol sales in shops or most hotels." },
+            { "name": "Christmas & New Year", "approx": "Dec 20 – Jan 10", "dates": { "from": "12-20", "to": "01-10" }, "effect": "Peak season rates and full boutique hotels in Galle and Mirissa." }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 35, "high": 45 },
+            "midrangePerDay": { "low": 80, "shoulder": 95, "high": 130 },
+            "hotelNightMid": { "low": 45, "shoulder": 60, "high": 100 },
+            "notes": "Galle Fort boutique hotels are the priciest. Yala National Park closes for about 6 weeks (roughly Sep–mid-Oct) during the drought season."
+          }
+        },
+        {
+          "id": "east",
+          "name": "East Coast",
+          "description": "Trincomalee, Nilaveli, Uppuveli, Pasikudah, Batticaloa and Arugam Bay.",
+          "lat": 8.57,
+          "lon": 81.23,
+          "tags": ["beach", "diving", "surf", "wildlife"],
+          "best": [
+            { "from": "05-01", "to": "09-15", "why": "Dry season on the east while the southwest monsoon soaks the west: flat, clear sea at Trincomalee, Nilaveli and Pasikudah, surf at Arugam Bay, and snorkelling at Pigeon Island.", "goodFor": ["beach", "diving", "sun", "nature"] }
+          ],
+          "worst": [
+            { "from": "11-01", "to": "01-31", "why": "The northeast monsoon brings 350 mm or more of rain a month, rough seas and flooding. Many beach guesthouses on this coast close." }
+          ],
+          "shoulder": [
+            { "from": "02-01", "to": "03-31", "why": "The monsoon fades and guesthouses reopen, but the sea is still choppy and showers linger." },
+            { "from": "04-01", "to": "04-30", "why": "The season opens; Arugam Bay surf starts. Hot and quiet." },
+            { "from": "09-16", "to": "10-31", "why": "Hot and getting humid, with inter-monsoon showers building." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "04-15", "to": "09-30" } ],
+            "diving": [ { "from": "04-15", "to": "09-15" } ],
+            "sun": [ { "from": "04-15", "to": "09-30" } ],
+            "nature": [ { "from": "04-01", "to": "09-15" } ],
+            "roadtrip": [ { "from": "04-01", "to": "09-30" } ]
+          },
+          "climate": {
+            "avgHighC": [27, 28, 30, 32, 34, 34, 34, 33, 33, 31, 29, 27],
+            "avgLowC": [23, 23, 24, 25, 26, 26, 26, 25, 25, 24, 23, 23],
+            "rainMm": [180, 70, 50, 50, 60, 20, 50, 90, 100, 210, 350, 370],
+            "rainDays": [11, 5, 4, 4, 4, 2, 4, 6, 7, 13, 17, 17],
+            "sunHours": [200, 230, 260, 270, 270, 250, 250, 240, 230, 200, 170, 170],
+            "seaTempC": [26, 26, 27, 28, 29, 29, 29, 29, 29, 28, 27, 26],
+            "humidity": [80, 78, 76, 72, 66, 60, 60, 64, 66, 74, 82, 84]
+          },
+          "crowds": [2, 2, 2, 3, 4, 4, 5, 5, 4, 2, 1, 2],
+          "risks": [
+            { "type": "monsoon", "from": "11-01", "to": "01-31", "note": "Northeast monsoon; roads to Arugam Bay can flood." },
+            { "type": "cyclone", "from": "10-15", "to": "12-31", "note": "Bay of Bengal cyclones occasionally make landfall on the east coast." }
+          ],
+          "recurringHolidays": [
+            { "name": "Kataragama Esala festival", "approx": "July/August, about 2 weeks before the Esala full moon", "effect": "Pilgrim crowds near Arugam Bay and the Kumana area; buses full." },
+            { "name": "Sinhala & Tamil New Year", "approx": "Apr 13 – Apr 14", "dates": { "from": "04-12", "to": "04-15" }, "effect": "Closures and packed transport." },
+            { "name": "Sri Lankan school holidays", "approx": "August", "dates": { "from": "08-01", "to": "08-31" }, "effect": "Domestic tourists fill Trincomalee and Pasikudah hotels." }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 25, "shoulder": 30, "high": 40 },
+            "midrangePerDay": { "low": 65, "shoulder": 80, "high": 110 },
+            "hotelNightMid": { "low": 35, "shoulder": 50, "high": 85 },
+            "notes": "Cheaper than the south-west. Pasikudah's big resorts discount heavily outside May–September."
+          }
+        },
+        {
+          "id": "hills",
+          "name": "Hill Country",
+          "description": "Kandy, Nuwara Eliya, Hatton and Adam's Peak, Ella, Haputale, Horton Plains and the tea estates of the central highlands.",
+          "lat": 6.87,
+          "lon": 81.05,
+          "tags": ["mountain", "nature", "culture", "train"],
+          "best": [
+            { "from": "01-10", "to": "04-05", "why": "The driest spell across the highlands: clear views from the Kandy–Ella train, sunrise on Adam's Peak during pilgrimage season (Dec–May) and tea country at its best.", "goodFor": ["mountain", "nature", "roadtrip", "city"] }
+          ],
+          "worst": [
+            { "from": "10-10", "to": "12-10", "why": "Rain on both sides of the hills (inter-monsoon plus northeast monsoon): misty viewpoints, leeches on trails and a high risk of landslides." }
+          ],
+          "shoulder": [
+            { "from": "04-06", "to": "05-15", "why": "'April season' in Nuwara Eliya: festive but busy, with prices doubling. Showers increase." },
+            { "from": "05-16", "to": "06-30", "why": "The southwest monsoon soaks the western slopes (Hatton, Nuwara Eliya), while Ella and Haputale are drier." },
+            { "from": "07-01", "to": "09-15", "why": "A mixed picture: often dry on the eastern side (Ella). The Kandy Esala Perahera procession is the cultural highlight of the year." },
+            { "from": "09-16", "to": "10-09", "why": "Showers return across the hills, but it's quiet and cheap." },
+            { "from": "12-11", "to": "01-09", "why": "Rains easing; Adam's Peak pilgrimage season begins on the December Poya." }
+          ],
+          "activityWindows": {
+            "mountain": [ { "from": "01-05", "to": "04-15" }, { "from": "07-01", "to": "08-31" } ],
+            "nature": [ { "from": "01-01", "to": "04-15" }, { "from": "07-01", "to": "09-15" } ],
+            "city": [ { "from": "01-01", "to": "04-30" }, { "from": "07-01", "to": "09-30" } ],
+            "roadtrip": [ { "from": "01-10", "to": "04-10" } ]
+          },
+          "climate": {
+            "avgHighC": [25, 26, 28, 28, 27, 25, 25, 25, 25, 25, 25, 24],
+            "avgLowC": [15, 15, 16, 17, 18, 18, 17, 17, 17, 17, 17, 16],
+            "rainMm": [160, 90, 110, 200, 180, 170, 130, 130, 160, 280, 280, 220],
+            "rainDays": [12, 8, 10, 16, 15, 15, 13, 13, 15, 20, 19, 16],
+            "sunHours": [190, 210, 220, 190, 170, 140, 150, 150, 150, 150, 150, 160],
+            "seaTempC": null,
+            "humidity": [80, 77, 77, 80, 82, 82, 81, 81, 81, 84, 85, 84]
+          },
+          "crowds": [4, 4, 4, 4, 3, 2, 3, 4, 3, 2, 2, 4],
+          "risks": [
+            { "type": "landslides", "from": "05-15", "to": "06-30", "note": "Western slopes during the southwest monsoon." },
+            { "type": "landslides", "from": "10-15", "to": "12-15", "note": "The highest risk across the hills; roads and the railway are occasionally cut." }
+          ],
+          "recurringHolidays": [
+            { "name": "Kandy Esala Perahera", "approx": "July/August, 10 nights before the Esala full moon", "effect": "Nightly processions with elephants. Kandy rooms triple in price and sell out months ahead." },
+            { "name": "Nuwara Eliya 'April season'", "approx": "Apr 1 – Apr 30", "dates": { "from": "04-01", "to": "04-30" }, "effect": "Horse races and festivities; hotel prices double." },
+            { "name": "Adam's Peak pilgrimage season", "approx": "December Poya to May (Vesak) Poya", "effect": "Weekend and Poya nights see thousands of climbers on the trail; go midweek." },
+            { "name": "Sinhala & Tamil New Year", "approx": "Apr 13 – Apr 14", "dates": { "from": "04-12", "to": "04-15" }, "effect": "Trains booked out and many businesses closed." }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 25, "shoulder": 30, "high": 40 },
+            "midrangePerDay": { "low": 70, "shoulder": 80, "high": 110 },
+            "hotelNightMid": { "low": 40, "shoulder": 50, "high": 80 },
+            "notes": "Reserved seats on the Kandy–Ella train sell out weeks ahead in peak season. Tea-estate bungalows are a splurge worth booking early."
+          }
+        },
+        {
+          "id": "triangle",
+          "name": "Cultural Triangle & North",
+          "description": "Sigiriya, Dambulla, Polonnaruwa, Anuradhapura, Habarana, Minneriya and Kaudulla parks, plus Jaffna and the north.",
+          "lat": 7.95,
+          "lon": 80.76,
+          "tags": ["culture", "wildlife", "history"],
+          "best": [
+            { "from": "01-15", "to": "04-10", "why": "Dry, with clear mornings for climbing Sigiriya and cycling around the Polonnaruwa ruins. The northeast monsoon has ended.", "goodFor": ["city", "nature", "roadtrip"] },
+            { "from": "06-01", "to": "09-15", "why": "Mostly dry and breezy. The Minneriya elephant 'Gathering' (Jul–Sep) is one of Asia's great wildlife spectacles.", "goodFor": ["nature", "city", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "10-15", "to": "12-20", "why": "The heaviest rains of the year (inter-monsoon plus northeast monsoon) flood the plains around Anuradhapura and Polonnaruwa." }
+          ],
+          "shoulder": [
+            { "from": "12-21", "to": "01-14", "why": "Rains easing; Christmas brings busy hotels." },
+            { "from": "04-11", "to": "05-31", "why": "Hot (34 °C) and humid. Vesak lanterns light up the temples in May." },
+            { "from": "09-16", "to": "10-14", "why": "Hot, with storms building; the elephant gathering winds down." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "01-15", "to": "09-30" } ],
+            "nature": [ { "from": "01-15", "to": "04-15" }, { "from": "06-01", "to": "10-10" } ],
+            "roadtrip": [ { "from": "01-15", "to": "04-15" }, { "from": "06-01", "to": "09-15" } ],
+            "sun": [ { "from": "02-01", "to": "09-15" } ]
+          },
+          "climate": {
+            "avgHighC": [29, 31, 33, 34, 33, 32, 32, 32, 32, 31, 29, 28],
+            "avgLowC": [21, 21, 22, 24, 25, 25, 24, 24, 24, 23, 22, 21],
+            "rainMm": [150, 70, 90, 170, 110, 40, 60, 70, 100, 250, 300, 250],
+            "rainDays": [10, 5, 7, 12, 7, 4, 4, 5, 7, 15, 17, 15],
+            "sunHours": [210, 240, 260, 240, 250, 240, 250, 250, 230, 200, 170, 180],
+            "seaTempC": null,
+            "humidity": [78, 73, 72, 75, 72, 68, 67, 68, 70, 78, 83, 82]
+          },
+          "crowds": [4, 4, 4, 3, 2, 3, 4, 4, 3, 2, 2, 4],
+          "risks": [
+            { "type": "extreme heat", "from": "04-01", "to": "05-15", "note": "Climb Sigiriya at opening time (7 am) to avoid the 34 °C midday heat." },
+            { "type": "flooding", "from": "10-15", "to": "01-10", "note": "Monsoon flooding on the dry-zone plains; reservoirs overflow." }
+          ],
+          "recurringHolidays": [
+            { "name": "Vesak Poya", "approx": "May full moon", "effect": "Huge pilgrim numbers at Anuradhapura and Dambulla; lantern festivals." },
+            { "name": "Poson Poya", "approx": "June full moon", "effect": "Hundreds of thousands of pilgrims at Anuradhapura and Mihintale; roads jammed." },
+            { "name": "Sinhala & Tamil New Year", "approx": "Apr 13 – Apr 14", "dates": { "from": "04-12", "to": "04-15" }, "effect": "Closures and packed transport." }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 25, "shoulder": 30, "high": 40 },
+            "midrangePerDay": { "low": 75, "shoulder": 85, "high": 120 },
+            "hotelNightMid": { "low": 40, "shoulder": 55, "high": 90 },
+            "notes": "Site tickets are a big part of the budget: Sigiriya costs about $36 and the Polonnaruwa and Anuradhapura combined tickets about $25 each."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Colombo", "aliases": [], "region": "southwest" },
+        { "name": "Negombo", "aliases": [], "region": "southwest" },
+        { "name": "Galle", "aliases": ["Galle Fort"], "region": "southwest" },
+        { "name": "Unawatuna", "aliases": [], "region": "southwest" },
+        { "name": "Mirissa", "aliases": [], "region": "southwest" },
+        { "name": "Weligama", "aliases": [], "region": "southwest" },
+        { "name": "Hikkaduwa", "aliases": [], "region": "southwest" },
+        { "name": "Bentota", "aliases": [], "region": "southwest" },
+        { "name": "Tangalle", "aliases": [], "region": "southwest" },
+        { "name": "Yala National Park", "aliases": ["Yala", "Tissamaharama"], "region": "southwest" },
+        { "name": "Trincomalee", "aliases": ["Trinco", "Nilaveli", "Uppuveli", "Pigeon Island"], "region": "east" },
+        { "name": "Arugam Bay", "aliases": ["Arugambay"], "region": "east" },
+        { "name": "Pasikudah", "aliases": ["Passikudah"], "region": "east" },
+        { "name": "Batticaloa", "aliases": [], "region": "east" },
+        { "name": "Kandy", "aliases": [], "region": "hills" },
+        { "name": "Ella", "aliases": ["Nine Arch Bridge"], "region": "hills" },
+        { "name": "Nuwara Eliya", "aliases": ["Little England"], "region": "hills" },
+        { "name": "Haputale", "aliases": [], "region": "hills" },
+        { "name": "Adam's Peak", "aliases": ["Sri Pada", "Hatton"], "region": "hills" },
+        { "name": "Sigiriya", "aliases": ["Lion Rock"], "region": "triangle" },
+        { "name": "Dambulla", "aliases": [], "region": "triangle" },
+        { "name": "Polonnaruwa", "aliases": [], "region": "triangle" },
+        { "name": "Anuradhapura", "aliases": [], "region": "triangle" },
+        { "name": "Habarana", "aliases": ["Minneriya"], "region": "triangle" },
+        { "name": "Jaffna", "aliases": [], "region": "triangle" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.srilanka.travel" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/sri-lanka" },
+        { "label": "Climate data (World Bank)", "url": "https://climateknowledgeportal.worldbank.org/country/sri-lanka/climate-data-historical" },
+        { "label": "Electronic Travel Authorisation (ETA)", "url": "https://www.eta.gov.lk" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    }
+  ]
+}

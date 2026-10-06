@@ -1,0 +1,373 @@
+{
+  "continent": "South America",
+  "countries": [
+    {
+      "iso2": "BR",
+      "isoNum": "076",
+      "name": "Brazil",
+      "aliases": ["Brasil", "Federative Republic of Brazil"],
+      "continent": "South America",
+      "flag": "🇧🇷",
+      "summary": "Brazil is mostly tropical but its rains follow very different calendars. Rio and the south-east get hot, stormy summers (December–March) and mild, drier winters. The Salvador–Recife coast is wettest from April to July. The north coast (Fortaleza, Jericoacoara, Lençóis Maranhenses) is wettest from February to May. The Pantanal floods in the summer rains and is best for wildlife in the dry season (July–October). The far south has four real seasons and can be chilly in July. Carnival, New Year (Réveillon) and the December–January and July school holidays drive the biggest price spikes.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "southeast",
+          "name": "Rio de Janeiro & South-East",
+          "description": "Rio de Janeiro, São Paulo, Paraty, Ilha Grande, Búzios, Arraial do Cabo, Petrópolis and the Costa Verde.",
+          "lat": -22.91,
+          "lon": -43.17,
+          "tags": ["city", "beach", "nightlife", "culture", "nature"],
+          "best": [
+            { "from": "04-15", "to": "06-15", "why": "Calm after the summer: 25–28 °C, drier and clearer days for Sugarloaf and Christ the Redeemer, beaches without the crowds, and lower prices.", "goodFor": ["city", "beach", "nature", "roadtrip"] },
+            { "from": "08-15", "to": "10-31", "why": "Dry late winter turning into spring: warm, sunny days ideal for hiking Ilha Grande and exploring Paraty, before the summer rains and crowds.", "goodFor": ["city", "nature", "roadtrip", "mountain"] }
+          ],
+          "worst": [
+            { "from": "12-20", "to": "01-10", "why": "Réveillon and summer holidays: hotel prices triple with minimum stays, it's 35–40 °C, and afternoon storms bring flash floods." }
+          ],
+          "shoulder": [
+            { "from": "01-11", "to": "04-14", "why": "Hot, humid, rainy summer: beach life in full swing and Carnival (Feb/Mar), when prices spike." },
+            { "from": "06-16", "to": "08-14", "why": "Mild winter (24 °C days) with occasional cold fronts and a cooler sea; Brazilian school holidays in July." },
+            { "from": "11-01", "to": "12-19", "why": "Warming up, with rains returning and prices climbing towards the summer." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "10-15", "to": "04-30" } ],
+            "sun": [ { "from": "04-15", "to": "10-31" } ],
+            "city": [ { "from": "04-01", "to": "11-15" } ],
+            "nature": [ { "from": "04-01", "to": "10-31" } ],
+            "mountain": [ { "from": "05-01", "to": "09-30" } ],
+            "diving": [ { "from": "12-01", "to": "04-30" } ],
+            "roadtrip": [ { "from": "04-15", "to": "10-31" } ]
+          },
+          "climate": {
+            "avgHighC": [30, 30, 29, 28, 26, 25, 25, 26, 25, 26, 28, 29],
+            "avgLowC": [24, 24, 23, 22, 20, 19, 18, 19, 19, 20, 22, 23],
+            "rainMm": [135, 130, 135, 95, 70, 50, 45, 45, 60, 80, 105, 150],
+            "rainDays": [12, 10, 11, 9, 8, 6, 5, 5, 7, 9, 10, 12],
+            "sunHours": [210, 200, 210, 180, 180, 170, 190, 190, 150, 170, 180, 180],
+            "seaTempC": [25, 26, 26, 25, 24, 23, 22, 22, 22, 22, 23, 24],
+            "humidity": [79, 79, 80, 80, 80, 79, 77, 77, 79, 80, 79, 80]
+          },
+          "crowds": [5, 5, 3, 3, 2, 2, 3, 2, 2, 3, 3, 5],
+          "risks": [
+            { "type": "flooding", "from": "12-01", "to": "03-31", "note": "Summer cloudbursts cause flash floods and landslides in Rio and the Serra." },
+            { "type": "extreme heat", "from": "12-15", "to": "02-28", "note": "Heat index above 45 °C during summer heat waves." }
+          ],
+          "recurringHolidays": [
+            { "name": "Carnival", "approx": "Feb/March, the 5 days before Ash Wednesday", "effect": "Rio sells out, with prices 3–5× normal and minimum stays of 4–5 nights.", "moving": { "anchor": "easter", "offsetDays": -51, "durationDays": 6 } },
+            { "name": "Réveillon (New Year)", "approx": "Dec 29 – Jan 2", "dates": { "from": "12-29", "to": "01-02" }, "effect": "Copacabana's fireworks bring 2 million people; packages are compulsory at many hotels." },
+            { "name": "Brazilian school holidays", "approx": "Mid-December to early February, and July", "dates": { "from": "07-01", "to": "07-31" }, "effect": "Domestic flights and coastal towns like Paraty and Búzios fill up." }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 50, "high": 70 },
+            "midrangePerDay": { "low": 100, "shoulder": 120, "high": 180 },
+            "hotelNightMid": { "low": 70, "shoulder": 90, "high": 160 },
+            "notes": "Ipanema and Leblon are the most expensive areas. Carnival and New Year packages can cost more than $400 a night for mid-range hotels."
+          }
+        },
+        {
+          "id": "northeast",
+          "name": "North-East Coast (Salvador–Recife)",
+          "description": "Salvador and Bahia's coast, Morro de São Paulo, Maceió, Maragogi, Porto de Galinhas, Recife, Olinda, Natal and Fernando de Noronha.",
+          "lat": -12.97,
+          "lon": -38.5,
+          "tags": ["beach", "culture", "diving", "music"],
+          "best": [
+            { "from": "09-01", "to": "12-15", "why": "Dry and sunny: the natural pools at Porto de Galinhas and Maragogi are at their clearest, the sea is warm and the summer rush hasn't arrived. Noronha has excellent visibility.", "goodFor": ["beach", "diving", "sun", "city", "nature"] }
+          ],
+          "worst": [
+            { "from": "04-15", "to": "07-15", "why": "The rainy season on this coast brings frequent heavy downpours, murky sea and grey days (the São João festivals in June are the cultural upside)." }
+          ],
+          "shoulder": [
+            { "from": "12-16", "to": "04-14", "why": "Peak Brazilian summer: hot, sunny and busy, with Salvador's and Olinda's huge Carnivals. Rains start in April." },
+            { "from": "07-16", "to": "08-31", "why": "Rains easing, with lots of sunny spells and low prices." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "09-01", "to": "03-31" } ],
+            "sun": [ { "from": "09-01", "to": "03-15" } ],
+            "diving": [ { "from": "10-01", "to": "03-31" } ],
+            "city": [ { "from": "08-15", "to": "03-31" } ],
+            "nature": [ { "from": "08-15", "to": "02-28" } ],
+            "roadtrip": [ { "from": "09-01", "to": "02-28" } ]
+          },
+          "climate": {
+            "avgHighC": [30, 30, 30, 29, 28, 27, 26, 26, 27, 28, 29, 30],
+            "avgLowC": [24, 24, 24, 24, 23, 22, 21, 21, 22, 23, 23, 24],
+            "rainMm": [70, 110, 150, 290, 300, 230, 180, 120, 80, 90, 110, 80],
+            "rainDays": [10, 11, 14, 18, 20, 21, 21, 17, 11, 9, 9, 10],
+            "sunHours": [250, 230, 230, 190, 180, 170, 180, 200, 220, 240, 240, 240],
+            "seaTempC": [28, 28, 28, 28, 27, 26, 26, 25, 26, 26, 27, 28],
+            "humidity": [79, 80, 81, 83, 84, 83, 82, 80, 79, 79, 80, 80]
+          },
+          "crowds": [5, 5, 3, 2, 2, 3, 4, 2, 3, 3, 3, 5],
+          "risks": [
+            { "type": "flooding", "from": "04-15", "to": "07-15", "note": "Heavy rain brings urban flooding and landslides in Salvador and Recife." },
+            { "type": "shark warnings", "from": "01-01", "to": "12-31", "note": "Several Recife beaches (e.g. Boa Viagem) have permanent shark warnings; swim only where locals do." }
+          ],
+          "recurringHolidays": [
+            { "name": "Carnival (Salvador & Olinda)", "approx": "Feb/March, moves each year", "effect": "Salvador's street carnival draws millions; prices 3–4×.", "moving": { "anchor": "easter", "offsetDays": -51, "durationDays": 6 } },
+            { "name": "Festas Juninas / São João", "approx": "Jun 20 – Jun 29", "dates": { "from": "06-20", "to": "06-29" }, "effect": "Huge festivals in Caruaru and Campina Grande; buses and inland hotels sell out." },
+            { "name": "Lavagem do Bonfim (Salvador)", "approx": "2nd Thursday of January", "effect": "A large procession; central Salvador is busy." },
+            { "name": "Réveillon (New Year)", "approx": "Dec 29 – Jan 2", "dates": { "from": "12-29", "to": "01-02" }, "effect": "Beach towns at peak price." }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 35, "shoulder": 45, "high": 65 },
+            "midrangePerDay": { "low": 85, "shoulder": 100, "high": 150 },
+            "hotelNightMid": { "low": 60, "shoulder": 75, "high": 140 },
+            "notes": "Fernando de Noronha is a costly exception: there's a daily environmental fee and pousadas cost $250 a night or more."
+          }
+        },
+        {
+          "id": "north-coast",
+          "name": "North Coast (Fortaleza–Lençóis)",
+          "description": "Fortaleza, Jericoacoara, Canoa Quebrada, Lençóis Maranhenses (Barreirinhas, Atins) and São Luís.",
+          "lat": -3.73,
+          "lon": -38.52,
+          "tags": ["beach", "dunes", "kitesurf", "nature"],
+          "best": [
+            { "from": "07-01", "to": "09-30", "why": "The Lençóis Maranhenses lagoons are full and turquoise between the white dunes. Dry, breezy weather and famous sunsets in Jericoacoara.", "goodFor": ["nature", "beach", "sun", "roadtrip"] },
+            { "from": "10-01", "to": "11-30", "why": "Peak kitesurf winds and reliably dry sunshine. The Lençóis lagoons start shrinking by November.", "goodFor": ["beach", "sun", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "02-15", "to": "05-15", "why": "The rainy season: the heaviest rain on the north coast, flooded sandy roads to Jeri and Atins, and Lençóis lagoons only just beginning to fill." }
+          ],
+          "shoulder": [
+            { "from": "05-16", "to": "06-30", "why": "Rains ending, lagoons filling fast and green dunes, with few tourists." },
+            { "from": "12-01", "to": "02-14", "why": "Hot summer holidays with Brazilian crowds; showers return in January." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "06-15", "to": "01-31" } ],
+            "sun": [ { "from": "07-01", "to": "12-31" } ],
+            "nature": [ { "from": "06-15", "to": "09-30" } ],
+            "roadtrip": [ { "from": "07-01", "to": "12-15" } ],
+            "city": [ { "from": "07-01", "to": "01-31" } ]
+          },
+          "climate": {
+            "avgHighC": [31, 30, 30, 30, 30, 30, 30, 31, 31, 31, 31, 31],
+            "avgLowC": [24, 24, 23, 23, 23, 23, 22, 23, 23, 24, 24, 24],
+            "rainMm": [120, 180, 330, 350, 250, 140, 80, 20, 15, 15, 15, 50],
+            "rainDays": [11, 15, 22, 23, 18, 14, 9, 4, 2, 2, 2, 5],
+            "sunHours": [220, 170, 140, 140, 190, 230, 260, 290, 290, 300, 290, 270],
+            "seaTempC": [28, 28, 28, 28, 28, 28, 27, 27, 27, 27, 28, 28],
+            "humidity": [78, 81, 85, 86, 84, 81, 78, 73, 72, 72, 73, 74]
+          },
+          "crowds": [4, 3, 2, 2, 2, 3, 5, 4, 3, 3, 3, 4],
+          "risks": [
+            { "type": "flooding", "from": "02-15", "to": "05-15", "note": "Sand tracks to Jericoacoara and Atins become impassable after storms." }
+          ],
+          "recurringHolidays": [
+            { "name": "July school holidays", "approx": "Jul 1 – Jul 31", "dates": { "from": "07-01", "to": "07-31" }, "effect": "Brazilian families fill Jericoacoara and Barreirinhas; book 4x4 transfers early." },
+            { "name": "Carnival", "approx": "Feb/March, moves each year", "effect": "Fortaleza and Jeri busy, with price spikes.", "moving": { "anchor": "easter", "offsetDays": -51, "durationDays": 6 } },
+            { "name": "Réveillon (New Year)", "approx": "Dec 29 – Jan 2", "dates": { "from": "12-29", "to": "01-02" }, "effect": "Jericoacoara's biggest party; pousadas sell out." }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 35, "shoulder": 45, "high": 60 },
+            "midrangePerDay": { "low": 80, "shoulder": 95, "high": 140 },
+            "hotelNightMid": { "low": 55, "shoulder": 70, "high": 120 },
+            "notes": "Jericoacoara charges a daily tourism fee, and 4x4 transfers add $40–80 each way."
+          }
+        },
+        {
+          "id": "amazon",
+          "name": "Amazon",
+          "description": "Manaus, the Rio Negro and Anavilhanas lodges, Belém, Santarém and Alter do Chão.",
+          "lat": -3.12,
+          "lon": -60.02,
+          "tags": ["jungle", "wildlife", "river", "nature"],
+          "best": [
+            { "from": "07-01", "to": "10-15", "why": "The drier 'summer': more forest trails open, white-sand river beaches (Alter do Chão) emerge, wildlife is easier to spot and there are fewer mosquitoes.", "goodFor": ["nature", "sun"] }
+          ],
+          "worst": [
+            { "from": "01-15", "to": "04-14", "why": "Peak rains: daily torrential downpours, rising rivers and flooded trails. Wildlife disperses deep into the forest." }
+          ],
+          "shoulder": [
+            { "from": "04-15", "to": "06-30", "why": "High-water season: canoe through the flooded igapó forest at treetop level as the rains ease." },
+            { "from": "10-16", "to": "01-14", "why": "Very hot (33 °C) and the rivers at their lowest, so some lodges are harder to reach; rains return in December." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "04-15", "to": "10-31" } ],
+            "city": [ { "from": "06-01", "to": "11-30" } ],
+            "sun": [ { "from": "07-01", "to": "10-31" } ]
+          },
+          "climate": {
+            "avgHighC": [31, 31, 31, 31, 31, 31, 32, 33, 33, 33, 33, 32],
+            "avgLowC": [23, 23, 23, 23, 24, 23, 23, 24, 24, 24, 24, 24],
+            "rainMm": [260, 290, 300, 290, 230, 115, 90, 60, 85, 120, 180, 220],
+            "rainDays": [20, 19, 21, 20, 17, 11, 8, 6, 7, 10, 13, 17],
+            "sunHours": [120, 100, 110, 120, 160, 200, 240, 250, 220, 200, 170, 140],
+            "seaTempC": null,
+            "humidity": [88, 88, 89, 88, 86, 83, 80, 77, 77, 79, 83, 86]
+          },
+          "crowds": [2, 2, 2, 2, 2, 3, 4, 3, 3, 3, 2, 3],
+          "risks": [
+            { "type": "flooding", "from": "01-01", "to": "05-31", "note": "Peak river levels around May–June can flood riverside communities." },
+            { "type": "extreme heat", "from": "09-01", "to": "11-30", "note": "Humid heat of 35 °C or more at the end of the dry season." },
+            { "type": "wildfire", "from": "08-15", "to": "10-31", "note": "Fire-season smoke can affect air quality and visibility." }
+          ],
+          "recurringHolidays": [
+            { "name": "Parintins Folklore Festival", "approx": "Last weekend of June", "effect": "Boats and hotels to Parintins sell out months ahead." },
+            { "name": "Círio de Nazaré (Belém)", "approx": "Second Sunday of October", "effect": "Over 2 million pilgrims in Belém; hotels full." }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 45, "shoulder": 50, "high": 60 },
+            "midrangePerDay": { "low": 120, "shoulder": 130, "high": 150 },
+            "hotelNightMid": { "low": 70, "shoulder": 80, "high": 100 },
+            "notes": "Jungle lodges are usually sold as all-inclusive packages ($150–400 per person per night), so prices vary little by season."
+          }
+        },
+        {
+          "id": "pantanal",
+          "name": "Pantanal & Centre-West",
+          "description": "The Northern Pantanal (Cuiabá, Transpantaneira), the Southern Pantanal, Bonito, Chapada dos Guimarães, Chapada dos Veadeiros and Brasília.",
+          "lat": -15.6,
+          "lon": -56.1,
+          "tags": ["wildlife", "nature", "snorkelling", "roadtrip"],
+          "best": [
+            { "from": "07-01", "to": "10-15", "why": "Dry season: water shrinks into pools, so jaguars (at Porto Jofre), caimans, giant otters and hyacinth macaws are easy to see. The Transpantaneira road is passable.", "goodFor": ["nature", "roadtrip", "diving"] }
+          ],
+          "worst": [
+            { "from": "12-15", "to": "03-15", "why": "Wet season: up to 80% of the Pantanal floods, many lodges are reachable only by boat or close, and mosquitoes are intense." }
+          ],
+          "shoulder": [
+            { "from": "03-16", "to": "06-30", "why": "Waters receding, the landscape lush and birds nesting. Wildlife viewing gets better each week." },
+            { "from": "10-16", "to": "12-14", "why": "Very hot (36–38 °C) with the first rains, though Bonito's rivers are still crystal clear." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "05-01", "to": "10-31" } ],
+            "roadtrip": [ { "from": "06-15", "to": "10-15" } ],
+            "diving": [ { "from": "05-01", "to": "09-30" } ],
+            "sun": [ { "from": "05-01", "to": "09-30" } ]
+          },
+          "climate": {
+            "avgHighC": [33, 33, 33, 32, 30, 29, 31, 33, 34, 34, 33, 33],
+            "avgLowC": [23, 23, 23, 21, 19, 16, 15, 17, 21, 23, 23, 23],
+            "rainMm": [210, 200, 180, 100, 50, 15, 10, 15, 50, 120, 170, 200],
+            "rainDays": [18, 16, 15, 9, 5, 2, 2, 2, 5, 10, 14, 17],
+            "sunHours": [160, 150, 180, 210, 230, 240, 270, 260, 200, 180, 170, 160],
+            "seaTempC": null,
+            "humidity": [81, 82, 81, 78, 74, 67, 58, 52, 57, 70, 76, 80]
+          },
+          "crowds": [2, 2, 2, 2, 3, 3, 4, 4, 4, 3, 2, 2],
+          "risks": [
+            { "type": "wildfire", "from": "08-01", "to": "10-31", "note": "Large fires in dry years can close lodges and the Transpantaneira." },
+            { "type": "flooding", "from": "12-15", "to": "03-31", "note": "Seasonal floods cut road access to many lodges." },
+            { "type": "extreme heat", "from": "09-01", "to": "11-15", "note": "Temperatures can reach 40 °C before the rains." }
+          ],
+          "recurringHolidays": [
+            { "name": "July school holidays", "approx": "Jul 1 – Jul 31", "dates": { "from": "07-01", "to": "07-31" }, "effect": "Bonito's tours, which have daily visitor caps, sell out; book ahead." },
+            { "name": "Carnival", "approx": "Feb/March, moves each year", "effect": "Bonito and the Chapadas are busy.", "moving": { "anchor": "easter", "offsetDays": -51, "durationDays": 6 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 50, "shoulder": 60, "high": 70 },
+            "midrangePerDay": { "low": 150, "shoulder": 170, "high": 200 },
+            "hotelNightMid": { "low": 90, "shoulder": 110, "high": 140 },
+            "notes": "Pantanal lodges are full-board packages. Jaguar boat trips from Porto Jofre cost about $200–350 per person per day."
+          }
+        },
+        {
+          "id": "south",
+          "name": "South (Florianópolis & Iguaçu)",
+          "description": "Florianópolis and the Santa Catarina coast, Iguaçu Falls, Curitiba, Porto Alegre, Gramado and the Serra Gaúcha wine country.",
+          "lat": -27.6,
+          "lon": -48.55,
+          "tags": ["beach", "waterfalls", "nature", "wine", "city"],
+          "best": [
+            { "from": "03-01", "to": "04-30", "why": "Late summer: a warm sea at Florianópolis' 40-plus beaches with the holiday crowds gone, and Iguaçu Falls still full from the summer rains.", "goodFor": ["beach", "nature", "city", "roadtrip"] },
+            { "from": "10-01", "to": "12-15", "why": "Spring: warm, lush and quieter than summer, with powerful falls and pleasant beach days from November.", "goodFor": ["nature", "city", "roadtrip", "beach"] }
+          ],
+          "worst": [
+            { "from": "12-24", "to": "02-10", "why": "Peak summer holidays: Florianópolis gridlocked, accommodation prices double, and Brazilian and Argentine crowds everywhere, with frequent thunderstorms." }
+          ],
+          "shoulder": [
+            { "from": "02-11", "to": "02-28", "why": "Still hot and busy around Carnival, with crowds starting to thin." },
+            { "from": "05-01", "to": "09-30", "why": "Cool winter (12–20 °C): beaches deserted, but Gramado is cosy, wine country is open and southern right whales arrive (Jul–Nov)." },
+            { "from": "12-16", "to": "12-23", "why": "Beach season starting and prices rising before Christmas." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "12-01", "to": "04-15" } ],
+            "sun": [ { "from": "12-01", "to": "04-15" } ],
+            "nature": [ { "from": "03-01", "to": "05-31" }, { "from": "08-15", "to": "11-30" } ],
+            "city": [ { "from": "03-01", "to": "11-30" } ],
+            "roadtrip": [ { "from": "03-01", "to": "05-15" }, { "from": "09-15", "to": "12-10" } ],
+            "mountain": [ { "from": "04-01", "to": "10-31" } ]
+          },
+          "climate": {
+            "avgHighC": [29, 29, 28, 25, 22, 20, 19, 20, 21, 23, 25, 27],
+            "avgLowC": [21, 21, 20, 18, 15, 12, 12, 13, 14, 16, 18, 20],
+            "rainMm": [200, 190, 170, 110, 110, 90, 100, 110, 140, 140, 140, 150],
+            "rainDays": [15, 15, 14, 10, 9, 8, 9, 9, 12, 12, 12, 13],
+            "sunHours": [190, 170, 170, 170, 170, 150, 150, 150, 130, 160, 180, 190],
+            "seaTempC": [24, 25, 24, 23, 21, 19, 18, 17, 17, 19, 21, 23],
+            "humidity": [80, 81, 81, 81, 81, 81, 81, 81, 82, 80, 79, 79]
+          },
+          "crowds": [5, 5, 3, 2, 2, 3, 4, 2, 2, 2, 3, 4],
+          "risks": [
+            { "type": "heavy rain", "from": "01-01", "to": "03-15", "note": "Summer thunderstorms cause flash floods on the Santa Catarina coast." },
+            { "type": "cold snaps", "from": "06-01", "to": "08-15", "note": "Polar air can bring frost and near-freezing nights to the Serra Gaúcha." }
+          ],
+          "recurringHolidays": [
+            { "name": "Carnival", "approx": "Feb/March, moves each year", "effect": "Florianópolis is packed.", "moving": { "anchor": "easter", "offsetDays": -51, "durationDays": 6 } },
+            { "name": "Oktoberfest (Blumenau)", "approx": "About 3 weeks in October", "effect": "Brazil's biggest Oktoberfest; Blumenau hotels sell out." },
+            { "name": "Natal Luz (Gramado)", "approx": "Late October – mid-January", "effect": "Christmas light festival; Gramado hotels at their highest prices." },
+            { "name": "July winter holidays", "approx": "Jul 1 – Jul 31", "dates": { "from": "07-01", "to": "07-31" }, "effect": "Gramado and Campos do Jordão busy with domestic visitors." }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 50, "high": 70 },
+            "midrangePerDay": { "low": 100, "shoulder": 120, "high": 170 },
+            "hotelNightMid": { "low": 70, "shoulder": 85, "high": 150 },
+            "notes": "Iguaçu park tickets are separate on the Brazilian and Argentine sides; see both. Florianópolis rental prices in January rival Rio's."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Rio de Janeiro", "aliases": ["Rio", "Copacabana", "Ipanema"], "region": "southeast" },
+        { "name": "São Paulo", "aliases": ["Sao Paulo", "SP", "Sampa"], "region": "southeast" },
+        { "name": "Paraty", "aliases": ["Parati"], "region": "southeast" },
+        { "name": "Ilha Grande", "aliases": [], "region": "southeast" },
+        { "name": "Búzios", "aliases": ["Buzios", "Arraial do Cabo"], "region": "southeast" },
+        { "name": "Salvador", "aliases": ["Salvador da Bahia", "Bahia", "Morro de São Paulo"], "region": "northeast" },
+        { "name": "Recife", "aliases": ["Olinda"], "region": "northeast" },
+        { "name": "Porto de Galinhas", "aliases": [], "region": "northeast" },
+        { "name": "Maceió", "aliases": ["Maceio", "Maragogi"], "region": "northeast" },
+        { "name": "Natal", "aliases": ["Pipa"], "region": "northeast" },
+        { "name": "Fernando de Noronha", "aliases": ["Noronha"], "region": "northeast" },
+        { "name": "Fortaleza", "aliases": ["Canoa Quebrada"], "region": "north-coast" },
+        { "name": "Jericoacoara", "aliases": ["Jeri", "Jijoca"], "region": "north-coast" },
+        { "name": "Lençóis Maranhenses", "aliases": ["Lencois Maranhenses", "Barreirinhas", "Atins"], "region": "north-coast" },
+        { "name": "São Luís", "aliases": ["Sao Luis"], "region": "north-coast" },
+        { "name": "Manaus", "aliases": ["Amazon", "Amazonas"], "region": "amazon" },
+        { "name": "Belém", "aliases": ["Belem"], "region": "amazon" },
+        { "name": "Alter do Chão", "aliases": ["Alter do Chao", "Santarém"], "region": "amazon" },
+        { "name": "Cuiabá", "aliases": ["Cuiaba", "Pantanal", "Transpantaneira", "Porto Jofre"], "region": "pantanal" },
+        { "name": "Bonito", "aliases": ["Campo Grande"], "region": "pantanal" },
+        { "name": "Brasília", "aliases": ["Brasilia"], "region": "pantanal" },
+        { "name": "Chapada dos Veadeiros", "aliases": ["Alto Paraíso"], "region": "pantanal" },
+        { "name": "Florianópolis", "aliases": ["Florianopolis", "Floripa"], "region": "south" },
+        { "name": "Foz do Iguaçu", "aliases": ["Iguaçu Falls", "Iguazu", "Iguassu Falls", "Iguacu"], "region": "south" },
+        { "name": "Curitiba", "aliases": [], "region": "south" },
+        { "name": "Porto Alegre", "aliases": [], "region": "south" },
+        { "name": "Gramado", "aliases": ["Serra Gaúcha", "Bento Gonçalves"], "region": "south" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://visitbrasil.com" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/brazil" },
+        { "label": "Climate data (World Bank)", "url": "https://climateknowledgeportal.worldbank.org/country/brazil/climate-data-historical" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/brazil/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    }
+  ]
+}

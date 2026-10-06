@@ -1,0 +1,653 @@
+{
+  "continent": "North America",
+  "countries": [
+    {
+      "iso2": "US",
+      "isoNum": "840",
+      "name": "United States",
+      "aliases": ["USA", "US", "United States of America", "America", "Estados Unidos"],
+      "continent": "North America",
+      "flag": "🇺🇸",
+      "summary": "The USA spans Arctic tundra, subtropical Florida, desert canyon country and Pacific rainforest, so there's no single best season. A rough rule: the south and the deserts are best from autumn to spring, while the north, the mountains and Alaska are summer destinations. Hurricane season (June–November, peaking mid-August to mid-October) affects the Gulf, Florida and the south-east. Wildfire smoke now regularly affects the West from July to October. Thanksgiving, Christmas and the July 4 and spring-break weeks push domestic prices up nationwide.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "northeast",
+          "name": "Northeast & New England",
+          "description": "New York, Boston, Washington DC, Philadelphia and New England (Maine, Vermont, New Hampshire, Massachusetts, Connecticut, Rhode Island).",
+          "lat": 40.71,
+          "lon": -74,
+          "tags": ["city", "culture", "fall foliage", "snow", "beach"],
+          "best": [
+            { "from": "05-01", "to": "06-20", "why": "A spring of 20–26 °C, with Central Park and the Boston Public Garden in bloom and Broadway and the museums in full swing before the sticky summer humidity.", "goodFor": ["city", "nature", "roadtrip"] },
+            { "from": "09-10", "to": "10-31", "why": "Crisp, sunny autumn. Peak fall foliage sweeps New England from late September to mid-October, with harvest fairs and comfortable city walking.", "goodFor": ["city", "nature", "roadtrip", "mountain"] }
+          ],
+          "worst": [
+            { "from": "01-05", "to": "03-10", "why": "The coldest stretch (−5 to 5 °C): nor'easter blizzards cancel flights and slush fills the streets. New England ski resorts are the exception." }
+          ],
+          "shoulder": [
+            { "from": "03-11", "to": "04-30", "why": "Cool and changeable. DC's cherry blossoms (late Mar–early Apr) are a highlight, and hotels are cheaper." },
+            { "from": "06-21", "to": "09-09", "why": "Hot, humid cities (30 °C+ with storms), but it's peak beach season on Cape Cod, Maine and the Hamptons." },
+            { "from": "11-01", "to": "01-04", "why": "Chilly, with Thanksgiving and festive lights. It's magical in NYC, but December hotel prices are among the year's highest." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "04-15", "to": "06-30" }, { "from": "09-01", "to": "12-20" } ],
+            "beach": [ { "from": "06-25", "to": "09-05" } ],
+            "snow": [ { "from": "12-15", "to": "03-31" } ],
+            "mountain": [ { "from": "06-01", "to": "10-20" } ],
+            "nature": [ { "from": "05-15", "to": "06-30" }, { "from": "09-20", "to": "10-25" } ],
+            "roadtrip": [ { "from": "05-15", "to": "06-30" }, { "from": "09-15", "to": "10-25" } ],
+            "sun": [ { "from": "06-01", "to": "09-10" } ]
+          },
+          "climate": {
+            "avgHighC": [4, 6, 10, 17, 22, 27, 30, 29, 25, 18, 12, 6],
+            "avgLowC": [-3, -2, 2, 7, 13, 18, 21, 21, 17, 10, 5, 0],
+            "rainMm": [90, 80, 110, 105, 100, 105, 115, 105, 100, 110, 90, 100],
+            "rainDays": [11, 10, 11, 11, 12, 11, 10, 10, 9, 9, 10, 11],
+            "sunHours": [160, 170, 210, 230, 260, 280, 300, 270, 220, 190, 140, 140],
+            "seaTempC": [6, 5, 6, 9, 13, 19, 23, 24, 21, 17, 12, 8],
+            "humidity": [63, 62, 61, 59, 63, 67, 67, 69, 70, 67, 66, 65]
+          },
+          "crowds": [3, 2, 3, 4, 4, 5, 5, 5, 4, 4, 3, 5],
+          "risks": [
+            { "type": "blizzard", "from": "12-15", "to": "03-15", "note": "Nor'easters can shut airports and roads for 1–2 days." },
+            { "type": "extreme heat", "from": "07-01", "to": "08-15", "note": "Heat waves of 35 °C with high humidity in NYC, Philadelphia and DC." },
+            { "type": "hurricane", "from": "08-15", "to": "10-31", "note": "Direct hits are rare, but the remnants of tropical storms bring flooding." }
+          ],
+          "recurringHolidays": [
+            { "name": "Thanksgiving", "approx": "4th Thursday of November", "effect": "The busiest travel days of the year: airfares peak and the Macy's Parade fills Manhattan.", "moving": { "anchor": "thanksgivingUS", "offsetDays": -1, "durationDays": 5 } },
+            { "name": "Holiday season in NYC", "approx": "Dec 15 – Jan 1", "dates": { "from": "12-15", "to": "01-01" }, "effect": "The Rockefeller tree, windows and Times Square NYE: Manhattan hotels at their annual peak." },
+            { "name": "Independence Day", "approx": "Jul 4 weekend", "dates": { "from": "07-02", "to": "07-06" }, "effect": "Beach towns are full and road traffic is heavy." },
+            { "name": "Memorial Day weekend", "approx": "Last weekend of May", "effect": "Summer kick-off: Cape Cod and the Hamptons fill.", "moving": { "anchor": "memorialDayUS", "offsetDays": -3, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 110, "shoulder": 130, "high": 160 },
+            "midrangePerDay": { "low": 230, "shoulder": 280, "high": 350 },
+            "hotelNightMid": { "low": 180, "shoulder": 230, "high": 320 },
+            "notes": "Manhattan hotels are the priciest in the region (NYC adds about 15% in hotel taxes). New England inns peak in foliage season and need booking months ahead."
+          }
+        },
+        {
+          "id": "southeast",
+          "name": "South & Gulf Coast",
+          "description": "Georgia, the Carolinas, Tennessee, Alabama, Mississippi, Louisiana and Texas: Atlanta, Charleston, Savannah, Nashville, New Orleans, Austin, Houston, San Antonio and the Great Smoky Mountains.",
+          "lat": 29.95,
+          "lon": -90.07,
+          "tags": ["city", "music", "food", "beach", "mountain"],
+          "best": [
+            { "from": "03-10", "to": "05-15", "why": "Azaleas and magnolias at 22–28 °C, before the heavy humidity. It's festival season, with Jazz Fest, Charleston's food festivals and SXSW in Austin.", "goodFor": ["city", "nature", "roadtrip", "mountain"] },
+            { "from": "10-05", "to": "11-20", "why": "Dry, sunny and comfortable once the hurricane peak has passed: fall colour in the Smokies and festivals and football weekends across the South.", "goodFor": ["city", "nature", "roadtrip", "mountain"] }
+          ],
+          "worst": [
+            { "from": "07-01", "to": "09-15", "why": "Oppressive heat and humidity (heat index 40 °C+), daily thunderstorms and the peak hurricane threat on the Gulf and Atlantic coasts from late August." }
+          ],
+          "shoulder": [
+            { "from": "11-21", "to": "03-09", "why": "A mild (10–18 °C), cheap winter with occasional cold snaps. Mardi Gras (Feb/Mar) takes over New Orleans." },
+            { "from": "05-16", "to": "06-30", "why": "Hot and getting humid; Gulf beaches are lively. Hurricane season begins on June 1." },
+            { "from": "09-16", "to": "10-04", "why": "Still warm and humid, with hurricane risk lingering, but prices are dropping." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "03-01", "to": "05-31" }, { "from": "10-01", "to": "12-15" } ],
+            "beach": [ { "from": "05-01", "to": "09-30" } ],
+            "sun": [ { "from": "04-15", "to": "10-15" } ],
+            "nature": [ { "from": "04-01", "to": "06-15" }, { "from": "10-01", "to": "11-10" } ],
+            "mountain": [ { "from": "04-15", "to": "06-15" }, { "from": "09-15", "to": "11-05" } ],
+            "roadtrip": [ { "from": "03-15", "to": "05-31" }, { "from": "10-01", "to": "11-15" } ]
+          },
+          "climate": {
+            "avgHighC": [17, 19, 23, 26, 30, 32, 33, 33, 31, 27, 22, 18],
+            "avgLowC": [7, 9, 12, 16, 20, 23, 24, 24, 22, 17, 12, 9],
+            "rainMm": [130, 125, 110, 120, 130, 190, 150, 160, 130, 100, 110, 120],
+            "rainDays": [10, 9, 8, 7, 8, 13, 15, 14, 10, 7, 8, 10],
+            "sunHours": [150, 160, 220, 250, 280, 280, 270, 260, 240, 240, 180, 150],
+            "seaTempC": [18, 18, 20, 23, 26, 29, 30, 30, 29, 26, 22, 19],
+            "humidity": [76, 73, 72, 73, 74, 76, 79, 79, 77, 73, 76, 77]
+          },
+          "crowds": [2, 3, 4, 4, 3, 3, 3, 2, 2, 4, 3, 3],
+          "risks": [
+            { "type": "hurricane", "from": "06-01", "to": "11-30", "note": "Peak risk is Aug 20 – Oct 10 on the Gulf Coast (Louisiana, Texas, Alabama) and the Carolinas. Get flexible bookings." },
+            { "type": "extreme heat", "from": "06-15", "to": "09-10", "note": "Heat index above 40 °C in Texas and Louisiana; heat advisories are common." },
+            { "type": "tornado", "from": "03-01", "to": "05-31", "note": "'Dixie Alley' tornado season across Alabama, Mississippi and Tennessee." }
+          ],
+          "recurringHolidays": [
+            { "name": "Mardi Gras", "approx": "2 weeks before Lent, moves each year", "effect": "New Orleans hotels triple in price, with 4–5 night minimums.", "moving": { "anchor": "easter", "offsetDays": -58, "durationDays": 12 } },
+            { "name": "Spring Break", "approx": "Mar 1 – Apr 10", "dates": { "from": "03-01", "to": "04-10" }, "effect": "Gulf and Atlantic beach towns fill with students and families." },
+            { "name": "New Orleans Jazz Fest", "approx": "Last weekend of April – first weekend of May", "effect": "New Orleans hotels near capacity." },
+            { "name": "Thanksgiving", "approx": "4th Thursday of November", "effect": "Peak domestic travel and airfares.", "moving": { "anchor": "thanksgivingUS", "offsetDays": -1, "durationDays": 5 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 90, "shoulder": 110, "high": 140 },
+            "midrangePerDay": { "low": 190, "shoulder": 230, "high": 300 },
+            "hotelNightMid": { "low": 130, "shoulder": 160, "high": 250 },
+            "notes": "Nashville and Austin are now pricey on weekends. New Orleans during Mardi Gras and Jazz Fest can cost three times the usual rate."
+          }
+        },
+        {
+          "id": "florida",
+          "name": "Florida",
+          "description": "Miami and Miami Beach, Orlando's theme parks, the Florida Keys, Tampa, the Gulf beaches and the Everglades.",
+          "lat": 25.76,
+          "lon": -80.19,
+          "tags": ["beach", "sun", "theme parks", "diving", "nightlife"],
+          "best": [
+            { "from": "11-10", "to": "04-30", "why": "The dry season brings 24–28 °C, low humidity and sunshine from Miami to Key West. It's the Everglades' wildlife season, and there's no hurricane risk.", "goodFor": ["beach", "sun", "city", "nature", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "08-15", "to": "10-15", "why": "The peak of hurricane season, 32 °C with stifling humidity and thunderstorms nearly every afternoon. Storm evacuations are possible." }
+          ],
+          "shoulder": [
+            { "from": "05-01", "to": "08-14", "why": "Hot, humid wet season with afternoon storms but a warm sea and calm water for snorkelling the Keys, plus summer deals (except at Orlando parks)." },
+            { "from": "10-16", "to": "11-09", "why": "Hurricane risk fading and humidity dropping; good value before the winter peak." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "11-01", "to": "06-15" } ],
+            "sun": [ { "from": "11-01", "to": "05-31" } ],
+            "diving": [ { "from": "04-01", "to": "09-30" } ],
+            "city": [ { "from": "11-01", "to": "04-30" } ],
+            "nature": [ { "from": "12-01", "to": "04-15" } ],
+            "roadtrip": [ { "from": "11-15", "to": "05-15" } ]
+          },
+          "climate": {
+            "avgHighC": [24, 25, 26, 28, 30, 32, 33, 33, 32, 29, 27, 25],
+            "avgLowC": [16, 17, 19, 21, 23, 25, 26, 26, 25, 23, 20, 17],
+            "rainMm": [50, 55, 65, 80, 150, 250, 170, 220, 240, 170, 80, 55],
+            "rainDays": [7, 6, 6, 6, 10, 17, 17, 19, 18, 14, 9, 7],
+            "sunHours": [220, 220, 260, 280, 290, 260, 280, 270, 230, 230, 210, 210],
+            "seaTempC": [23, 23, 24, 26, 27, 29, 30, 30, 30, 28, 26, 24],
+            "humidity": [72, 71, 70, 68, 72, 76, 76, 77, 78, 76, 74, 73]
+          },
+          "crowds": [5, 5, 5, 4, 3, 3, 4, 3, 2, 3, 4, 5],
+          "risks": [
+            { "type": "hurricane", "from": "06-01", "to": "11-30", "note": "Peak Aug 15 – Oct 15. Monitor the National Hurricane Center and buy travel insurance." },
+            { "type": "extreme heat", "from": "06-01", "to": "09-15", "note": "Heat index of 40 °C or more, plus frequent lightning storms in the afternoon." }
+          ],
+          "recurringHolidays": [
+            { "name": "Spring Break", "approx": "Mar 1 – Apr 10", "dates": { "from": "03-01", "to": "04-10" }, "effect": "Panama City Beach, Daytona and Miami Beach overflow; hotel rates peak." },
+            { "name": "Christmas & New Year", "approx": "Dec 20 – Jan 2", "dates": { "from": "12-20", "to": "01-02" }, "effect": "Orlando parks at maximum capacity; Miami at peak rates." },
+            { "name": "Art Basel Miami Beach", "approx": "First week of December", "effect": "Miami Beach hotels triple in price." },
+            { "name": "Thanksgiving", "approx": "4th Thursday of November", "effect": "Theme parks are packed and airfares peak.", "moving": { "anchor": "thanksgivingUS", "offsetDays": -1, "durationDays": 5 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 100, "shoulder": 120, "high": 150 },
+            "midrangePerDay": { "low": 210, "shoulder": 250, "high": 330 },
+            "hotelNightMid": { "low": 160, "shoulder": 190, "high": 290 },
+            "notes": "Key West is the most expensive part of the state. Many Miami Beach hotels add 'resort fees' of $30–50 a night."
+          }
+        },
+        {
+          "id": "midwest",
+          "name": "Midwest & Great Lakes",
+          "description": "Chicago, Detroit, Minneapolis, Milwaukee, Michigan's lakeshore, Wisconsin's Door County and the Great Plains.",
+          "lat": 41.88,
+          "lon": -87.63,
+          "tags": ["city", "lakes", "food", "music"],
+          "best": [
+            { "from": "05-20", "to": "06-30", "why": "Warm, long days and the start of festival season (Chicago Blues Fest), with the lakeshore paths and beaches at their best.", "goodFor": ["city", "nature", "roadtrip"] },
+            { "from": "09-01", "to": "10-15", "why": "Comfortable 18–25 °C days, fall colour in Michigan and Wisconsin, apple harvests and the Chicago architecture boat tours still running.", "goodFor": ["city", "nature", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "12-15", "to": "03-05", "why": "Bitter cold, with −10 to −20 °C wind chills off the lakes, snowstorms and polar vortex outbreaks; lake resorts are closed." }
+          ],
+          "shoulder": [
+            { "from": "03-06", "to": "05-19", "why": "An unpredictable spring: sunny one day, snowing the next. Tornado season on the Plains." },
+            { "from": "07-01", "to": "08-31", "why": "Hot and humid but lively: lake beaches, Lollapalooza and summer festivals." },
+            { "from": "10-16", "to": "12-14", "why": "Chilly and increasingly grey; Thanksgiving and holiday markets." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "05-01", "to": "10-31" } ],
+            "beach": [ { "from": "06-15", "to": "09-05" } ],
+            "nature": [ { "from": "05-15", "to": "10-15" } ],
+            "roadtrip": [ { "from": "05-15", "to": "10-20" } ],
+            "snow": [ { "from": "12-20", "to": "03-10" } ],
+            "sun": [ { "from": "06-01", "to": "09-10" } ]
+          },
+          "climate": {
+            "avgHighC": [-1, 1, 7, 14, 21, 26, 29, 28, 24, 17, 9, 2],
+            "avgLowC": [-9, -7, -2, 4, 10, 16, 19, 19, 14, 7, 1, -5],
+            "rainMm": [50, 50, 65, 95, 105, 105, 95, 105, 85, 85, 80, 60],
+            "rainDays": [11, 9, 11, 12, 11, 10, 10, 9, 9, 10, 10, 11],
+            "sunHours": [135, 140, 180, 210, 265, 290, 310, 280, 225, 190, 120, 110],
+            "seaTempC": null,
+            "humidity": [72, 71, 69, 65, 64, 66, 68, 70, 70, 68, 73, 75]
+          },
+          "crowds": [2, 2, 2, 3, 4, 5, 5, 5, 4, 3, 2, 3],
+          "risks": [
+            { "type": "blizzard", "from": "12-01", "to": "03-15", "note": "Lake-effect snowstorms close roads and ground flights at O'Hare." },
+            { "type": "extreme cold", "from": "01-01", "to": "02-15", "note": "Polar vortex outbreaks can bring wind chills of −30 °C." },
+            { "type": "tornado", "from": "04-01", "to": "06-30", "note": "Tornado watches are common across Illinois, Iowa and the Plains." },
+            { "type": "extreme heat", "from": "07-01", "to": "08-15", "note": "Humid heat waves of 35 °C or more." }
+          ],
+          "recurringHolidays": [
+            { "name": "Memorial Day weekend", "approx": "Last weekend of May", "effect": "Lake resorts open and fill.", "moving": { "anchor": "memorialDayUS", "offsetDays": -3, "durationDays": 4 } },
+            { "name": "Lollapalooza (Chicago)", "approx": "Late July / early August, 4 days", "effect": "Downtown Chicago hotel rates double." },
+            { "name": "Thanksgiving", "approx": "4th Thursday of November", "effect": "Peak domestic travel.", "moving": { "anchor": "thanksgivingUS", "offsetDays": -1, "durationDays": 5 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 90, "shoulder": 100, "high": 120 },
+            "midrangePerDay": { "low": 180, "shoulder": 200, "high": 240 },
+            "hotelNightMid": { "low": 130, "shoulder": 150, "high": 200 },
+            "notes": "Big convention weeks in Chicago can double hotel prices, so check the convention calendar."
+          }
+        },
+        {
+          "id": "southwest",
+          "name": "Southwest & Canyon Country",
+          "description": "Arizona, Nevada, Utah and New Mexico: Las Vegas, Phoenix, the Grand Canyon, Sedona, Monument Valley, Zion, Bryce, Arches, Moab and Santa Fe.",
+          "lat": 36.17,
+          "lon": -115.14,
+          "tags": ["desert", "national parks", "roadtrip", "hiking", "city"],
+          "best": [
+            { "from": "03-15", "to": "05-20", "why": "Ideal for canyon country: 20–28 °C days for Zion, the Grand Canyon, Sedona and Monument Valley, with desert wildflowers and comfortable hiking.", "goodFor": ["roadtrip", "nature", "mountain", "city"] },
+            { "from": "09-20", "to": "11-10", "why": "The heat breaks. Clear skies, golden cottonwoods, quieter trails and Santa Fe's chile harvest.", "goodFor": ["roadtrip", "nature", "mountain", "city"] }
+          ],
+          "worst": [
+            { "from": "06-15", "to": "08-31", "why": "Dangerous heat (40–47 °C in Phoenix, Las Vegas and Death Valley) makes midday hiking unsafe. The July–August monsoon adds flash floods in slot canyons." }
+          ],
+          "shoulder": [
+            { "from": "11-11", "to": "03-14", "why": "A pleasant desert winter (Phoenix about 20 °C), but snow closes the Grand Canyon North Rim and some Bryce roads. It's ski season in Utah." },
+            { "from": "05-21", "to": "06-14", "why": "Getting hot in the low deserts, while the high country (North Rim, Bryce) opens fully." },
+            { "from": "09-01", "to": "09-19", "why": "Still hot, but the monsoon storms are ending and crowds are dropping." }
+          ],
+          "activityWindows": {
+            "roadtrip": [ { "from": "03-01", "to": "05-31" }, { "from": "09-15", "to": "11-15" } ],
+            "nature": [ { "from": "03-15", "to": "05-31" }, { "from": "09-20", "to": "11-15" } ],
+            "mountain": [ { "from": "03-15", "to": "05-20" }, { "from": "09-20", "to": "11-05" } ],
+            "sun": [ { "from": "10-15", "to": "05-15" } ],
+            "city": [ { "from": "10-01", "to": "05-15" } ],
+            "snow": [ { "from": "12-10", "to": "04-05" } ]
+          },
+          "climate": {
+            "avgHighC": [14, 17, 21, 26, 31, 37, 40, 39, 34, 27, 19, 14],
+            "avgLowC": [3, 5, 9, 13, 18, 24, 27, 26, 21, 14, 7, 3],
+            "rainMm": [13, 19, 11, 4, 3, 2, 10, 8, 6, 7, 10, 10],
+            "rainDays": [3, 4, 3, 2, 1, 1, 3, 2, 2, 2, 2, 3],
+            "sunHours": [240, 250, 310, 350, 380, 390, 370, 360, 330, 300, 250, 230],
+            "seaTempC": null,
+            "humidity": [40, 35, 30, 22, 18, 13, 17, 22, 22, 25, 32, 39]
+          },
+          "crowds": [3, 3, 4, 5, 4, 4, 4, 4, 4, 5, 3, 3],
+          "risks": [
+            { "type": "extreme heat", "from": "05-25", "to": "09-15", "note": "Heat kills hikers every summer. Hike at dawn and carry 4 litres of water or more." },
+            { "type": "flash floods", "from": "07-01", "to": "09-15", "note": "Monsoon storms upstream can flood slot canyons (Antelope, The Narrows) without warning." },
+            { "type": "wildfire", "from": "05-15", "to": "07-15", "note": "Pre-monsoon fire season in Arizona and New Mexico forests." }
+          ],
+          "recurringHolidays": [
+            { "name": "Spring Break", "approx": "Mar 1 – Apr 10", "dates": { "from": "03-01", "to": "04-10" }, "effect": "National parks are busiest; Zion shuttle lines are long." },
+            { "name": "Albuquerque International Balloon Fiesta", "approx": "First 9 days of October", "effect": "Albuquerque hotels sell out a year ahead." },
+            { "name": "Thanksgiving", "approx": "4th Thursday of November", "effect": "Park lodges full.", "moving": { "anchor": "thanksgivingUS", "offsetDays": -1, "durationDays": 5 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 90, "shoulder": 110, "high": 140 },
+            "midrangePerDay": { "low": 190, "shoulder": 230, "high": 290 },
+            "hotelNightMid": { "low": 120, "shoulder": 160, "high": 230 },
+            "notes": "Las Vegas prices swing wildly with conventions and weekends. Lodges inside the national parks book out 13 months ahead. An America the Beautiful pass ($80) covers park entry."
+          }
+        },
+        {
+          "id": "california",
+          "name": "California",
+          "description": "Los Angeles, San Francisco, San Diego, Big Sur, Napa and Sonoma wine country, Yosemite, Lake Tahoe and the Sierra Nevada.",
+          "lat": 34.05,
+          "lon": -118.24,
+          "tags": ["beach", "city", "roadtrip", "national parks", "wine", "snow"],
+          "best": [
+            { "from": "09-01", "to": "11-05", "why": "California's real summer: the warmest sea, clear skies with no June Gloom, harvest in Napa and Sonoma, and smaller crowds after Labor Day.", "goodFor": ["beach", "city", "roadtrip", "sun", "nature"] },
+            { "from": "04-01", "to": "05-20", "why": "Green hills, wildflower superblooms in wet years and Yosemite's waterfalls at peak flow. Mild, sunny weather is ideal for road trips.", "goodFor": ["roadtrip", "nature", "city"] }
+          ],
+          "worst": [
+            { "from": "07-01", "to": "08-20", "why": "Peak family-holiday crowds and prices: Yosemite and Big Sur gridlocked, the coast often foggy (June Gloom, SF's summer fog) and 38 °C or more inland." }
+          ],
+          "shoulder": [
+            { "from": "11-06", "to": "03-31", "why": "Mild winter, with storms bringing rain to the coast and snow to the Sierra. It's ski season at Tahoe and Mammoth and grey-whale migration along the coast." },
+            { "from": "05-21", "to": "06-30", "why": "'May Gray / June Gloom' marine layer on the coast while inland heats up; crowds build." },
+            { "from": "08-21", "to": "08-31", "why": "Families heading home, but still busy and hot inland." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "07-01", "to": "10-15" } ],
+            "sun": [ { "from": "05-01", "to": "10-31" } ],
+            "city": [ { "from": "03-01", "to": "11-15" } ],
+            "roadtrip": [ { "from": "04-01", "to": "06-15" }, { "from": "09-01", "to": "11-05" } ],
+            "nature": [ { "from": "04-01", "to": "06-15" }, { "from": "09-01", "to": "10-31" } ],
+            "mountain": [ { "from": "07-01", "to": "10-10" } ],
+            "snow": [ { "from": "12-10", "to": "04-10" } ],
+            "diving": [ { "from": "08-15", "to": "11-15" } ]
+          },
+          "climate": {
+            "avgHighC": [20, 20, 21, 23, 24, 26, 29, 30, 29, 26, 23, 20],
+            "avgLowC": [9, 10, 11, 13, 15, 17, 19, 19, 18, 15, 11, 9],
+            "rainMm": [80, 95, 60, 20, 6, 2, 1, 1, 5, 15, 25, 60],
+            "rainDays": [6, 6, 5, 3, 1, 0, 0, 0, 1, 2, 3, 5],
+            "sunHours": [220, 230, 270, 290, 280, 290, 340, 330, 280, 250, 220, 220],
+            "seaTempC": [15, 15, 15, 16, 17, 19, 20, 21, 20, 19, 17, 15],
+            "humidity": [60, 64, 68, 70, 73, 75, 74, 74, 72, 69, 63, 60]
+          },
+          "crowds": [3, 3, 4, 4, 4, 5, 5, 5, 4, 3, 3, 4],
+          "risks": [
+            { "type": "wildfire", "from": "07-01", "to": "11-30", "note": "Fire season peaks Sep–Nov with Santa Ana and Diablo winds; smoke and road closures possible." },
+            { "type": "flooding", "from": "12-15", "to": "03-15", "note": "Atmospheric-river storms cause mudslides and close Highway 1 at Big Sur." },
+            { "type": "extreme heat", "from": "07-01", "to": "09-15", "note": "Death Valley, Palm Springs and the Central Valley often exceed 40 °C." }
+          ],
+          "recurringHolidays": [
+            { "name": "Coachella", "approx": "Two weekends in mid-April", "effect": "Palm Springs area sold out." },
+            { "name": "Thanksgiving", "approx": "4th Thursday of November", "effect": "Peak domestic travel; Tahoe opens.", "moving": { "anchor": "thanksgivingUS", "offsetDays": -1, "durationDays": 5 } },
+            { "name": "Independence Day", "approx": "Jul 4 weekend", "dates": { "from": "07-02", "to": "07-06" }, "effect": "Beaches and national parks packed." },
+            { "name": "Christmas & New Year", "approx": "Dec 20 – Jan 2", "dates": { "from": "12-20", "to": "01-02" }, "effect": "Ski resorts and Disneyland at peak prices." }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 120, "shoulder": 140, "high": 170 },
+            "midrangePerDay": { "low": 250, "shoulder": 300, "high": 370 },
+            "hotelNightMid": { "low": 190, "shoulder": 240, "high": 330 },
+            "notes": "San Francisco and Napa are the most expensive; inland and desert towns are much cheaper. Yosemite needs park reservations at peak times."
+          }
+        },
+        {
+          "id": "pacific-northwest",
+          "name": "Pacific Northwest",
+          "description": "Washington and Oregon: Seattle, Portland, the Olympic Peninsula, Mount Rainier, the North Cascades, the San Juan Islands and the Oregon coast.",
+          "lat": 47.61,
+          "lon": -122.33,
+          "tags": ["city", "nature", "mountain", "national parks", "food"],
+          "best": [
+            { "from": "07-01", "to": "09-15", "why": "Dry, sunny and 22–27 °C: Olympic, Mount Rainier and North Cascades trails free of snow, wildflower meadows, and orca season around the San Juan Islands.", "goodFor": ["nature", "mountain", "roadtrip", "city", "sun"] }
+          ],
+          "worst": [
+            { "from": "11-01", "to": "02-15", "why": "Grey, drizzly and dark (sunset around 4:20 pm), with constant rain on the coast and snow closing mountain passes. It's good only for skiing." }
+          ],
+          "shoulder": [
+            { "from": "02-16", "to": "04-14", "why": "Still wet, with late-season skiing and blossom starting in Seattle." },
+            { "from": "04-15", "to": "06-30", "why": "Spring blooms (Skagit tulips in April) and showers. High trails and Rainier's Paradise stay snowy until July." },
+            { "from": "09-16", "to": "10-31", "why": "Fall colour and salmon runs as the rain returns in October." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "05-15", "to": "09-30" } ],
+            "nature": [ { "from": "06-15", "to": "09-30" } ],
+            "mountain": [ { "from": "07-10", "to": "09-30" } ],
+            "snow": [ { "from": "12-10", "to": "03-31" } ],
+            "roadtrip": [ { "from": "06-15", "to": "09-30" } ],
+            "beach": [ { "from": "07-01", "to": "09-10" } ],
+            "sun": [ { "from": "07-01", "to": "09-10" } ]
+          },
+          "climate": {
+            "avgHighC": [8, 10, 12, 15, 19, 22, 26, 26, 22, 16, 11, 8],
+            "avgLowC": [2, 2, 4, 6, 9, 12, 14, 14, 12, 8, 5, 2],
+            "rainMm": [140, 90, 95, 70, 50, 40, 15, 25, 40, 90, 150, 140],
+            "rainDays": [18, 15, 17, 14, 11, 9, 5, 5, 8, 14, 19, 18],
+            "sunHours": [70, 100, 160, 210, 260, 280, 330, 290, 220, 140, 80, 60],
+            "seaTempC": [8, 8, 8, 9, 10, 11, 12, 12, 12, 11, 10, 9],
+            "humidity": [79, 75, 72, 69, 67, 65, 64, 67, 71, 78, 81, 80]
+          },
+          "crowds": [2, 2, 2, 3, 3, 4, 5, 5, 4, 3, 2, 2],
+          "risks": [
+            { "type": "wildfire", "from": "07-20", "to": "09-30", "note": "Smoke from regional fires can bring unhealthy air for days at a time." },
+            { "type": "heavy rain", "from": "10-15", "to": "02-28", "note": "Atmospheric rivers cause flooding and landslides on the coast and in the Cascades." },
+            { "type": "road closures", "from": "11-15", "to": "06-15", "note": "North Cascades Highway and high park roads closed by snow." }
+          ],
+          "recurringHolidays": [
+            { "name": "Independence Day", "approx": "Jul 4 weekend", "dates": { "from": "07-02", "to": "07-06" }, "effect": "Campgrounds and ferries booked out." },
+            { "name": "Labor Day weekend", "approx": "First weekend of September", "effect": "End-of-summer rush to the parks and islands.", "moving": { "anchor": "laborDayUS", "offsetDays": -3, "durationDays": 4 } },
+            { "name": "Thanksgiving", "approx": "4th Thursday of November", "effect": "Peak domestic travel.", "moving": { "anchor": "thanksgivingUS", "offsetDays": -1, "durationDays": 5 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 100, "shoulder": 120, "high": 150 },
+            "midrangePerDay": { "low": 210, "shoulder": 250, "high": 310 },
+            "hotelNightMid": { "low": 150, "shoulder": 190, "high": 270 },
+            "notes": "Seattle summer prices rise with Alaska cruise departures. San Juan Islands ferries need vehicle reservations in summer."
+          }
+        },
+        {
+          "id": "rockies",
+          "name": "Rocky Mountains",
+          "description": "Colorado, Wyoming, Montana and Idaho: Denver, Aspen, Vail, Yellowstone, Grand Teton, Glacier National Park and Jackson Hole.",
+          "lat": 43.48,
+          "lon": -110.76,
+          "tags": ["mountain", "snow", "national parks", "wildlife", "hiking"],
+          "best": [
+            { "from": "06-20", "to": "09-25", "why": "Yellowstone, Grand Teton, Glacier and Rocky Mountain parks fully open: wildflowers in July, Going-to-the-Sun Road clear and the elk rut in September.", "goodFor": ["mountain", "nature", "roadtrip"] },
+            { "from": "01-10", "to": "03-20", "why": "Prime powder in Colorado, Wyoming and Montana after the holiday rush, with deep snow and sunny bluebird days.", "goodFor": ["snow"] }
+          ],
+          "worst": [
+            { "from": "04-10", "to": "05-31", "why": "Mud season: ski lifts closed, high roads (Beartooth, Going-to-the-Sun) still snowbound, many lodges shut and trails muddy." },
+            { "from": "10-20", "to": "11-25", "why": "The off-season gap: park roads closing, no reliable snow for skiing yet, and many services closed." }
+          ],
+          "shoulder": [
+            { "from": "11-26", "to": "01-09", "why": "The ski season opens. Christmas week is the most expensive of the year." },
+            { "from": "03-21", "to": "04-09", "why": "Spring skiing in sunny, softer snow, with deals." },
+            { "from": "06-01", "to": "06-19", "why": "Snowmelt and roaring waterfalls, but high passes may still be closed." },
+            { "from": "09-26", "to": "10-19", "why": "Golden aspens and crisp nights as services wind down and roads begin to close." }
+          ],
+          "activityWindows": {
+            "snow": [ { "from": "12-05", "to": "04-05" } ],
+            "mountain": [ { "from": "07-01", "to": "09-30" } ],
+            "nature": [ { "from": "06-01", "to": "10-10" } ],
+            "roadtrip": [ { "from": "06-15", "to": "09-30" } ],
+            "city": [ { "from": "05-15", "to": "10-15" } ],
+            "sun": [ { "from": "06-15", "to": "09-15" } ]
+          },
+          "climate": {
+            "avgHighC": [-3, 0, 5, 11, 17, 23, 28, 27, 21, 13, 4, -3],
+            "avgLowC": [-16, -15, -9, -4, 1, 4, 7, 6, 1, -4, -9, -15],
+            "rainMm": [45, 35, 35, 35, 45, 40, 30, 30, 35, 30, 40, 45],
+            "rainDays": [10, 8, 9, 9, 10, 9, 7, 7, 7, 7, 9, 10],
+            "sunHours": [140, 170, 220, 250, 280, 320, 360, 330, 270, 220, 150, 130],
+            "seaTempC": null,
+            "humidity": [75, 72, 66, 58, 55, 50, 45, 45, 50, 58, 70, 76]
+          },
+          "crowds": [4, 4, 4, 2, 2, 4, 5, 5, 4, 2, 1, 4],
+          "risks": [
+            { "type": "wildfire", "from": "07-01", "to": "09-30", "note": "Fires and smoke can close park roads and trails." },
+            { "type": "avalanche", "from": "12-01", "to": "04-15", "note": "Backcountry avalanche danger; check the regional avalanche centres." },
+            { "type": "road closures", "from": "11-01", "to": "05-31", "note": "Most Yellowstone roads close to cars from early November to late April; mountain passes snowbound." },
+            { "type": "thunderstorms", "from": "07-01", "to": "08-31", "note": "Afternoon lightning on exposed peaks; be off summits by noon." }
+          ],
+          "recurringHolidays": [
+            { "name": "Christmas & New Year ski peak", "approx": "Dec 20 – Jan 3", "dates": { "from": "12-20", "to": "01-03" }, "effect": "The year's highest lift and lodging prices." },
+            { "name": "Presidents' Day weekend", "approx": "3rd weekend of February", "effect": "The busiest ski weekend after Christmas.", "moving": { "anchor": "presidentsDayUS", "offsetDays": -3, "durationDays": 4 } },
+            { "name": "Independence Day", "approx": "Jul 4 weekend", "dates": { "from": "07-02", "to": "07-06" }, "effect": "Yellowstone and Grand Teton at peak capacity." }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 110, "shoulder": 130, "high": 160 },
+            "midrangePerDay": { "low": 230, "shoulder": 270, "high": 350 },
+            "hotelNightMid": { "low": 170, "shoulder": 210, "high": 320 },
+            "notes": "Aspen, Vail and Jackson are among the most expensive ski towns in the world. Buy Epic or Ikon passes early, as walk-up lift tickets cost $250 or more a day."
+          }
+        },
+        {
+          "id": "alaska",
+          "name": "Alaska",
+          "description": "Anchorage, the Kenai Peninsula, Denali, Fairbanks, Juneau and the Inside Passage.",
+          "lat": 61.22,
+          "lon": -149.9,
+          "tags": ["nature", "wildlife", "mountain", "glaciers", "aurora"],
+          "best": [
+            { "from": "06-01", "to": "08-31", "why": "Midnight sun (19+ hours of daylight), Denali park bus fully running, bears fishing for salmon, glacier cruises and every road and lodge open.", "goodFor": ["nature", "mountain", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "10-15", "to": "01-31", "why": "Darkness (5–6 hours of daylight in Anchorage, less in Fairbanks) and −15 °C, with most tours and lodges closed. Good only for aurora hunting." },
+            { "from": "04-01", "to": "05-14", "why": "Break-up season: muddy snowmelt, closed attractions and no aurora as the nights get bright." }
+          ],
+          "shoulder": [
+            { "from": "02-01", "to": "03-31", "why": "Aurora season with longer days; the Iditarod sled-dog race starts in early March. −10 °C." },
+            { "from": "05-15", "to": "05-31", "why": "Lodges reopening at low prices, though some roads and tours have not yet started." },
+            { "from": "09-01", "to": "10-14", "why": "Fall colour on the tundra and the first auroras, with discounted rates as the season winds down." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "06-01", "to": "09-10" } ],
+            "mountain": [ { "from": "06-15", "to": "09-05" } ],
+            "roadtrip": [ { "from": "06-01", "to": "09-05" } ],
+            "snow": [ { "from": "12-15", "to": "04-10" } ]
+          },
+          "climate": {
+            "avgHighC": [-6, -4, 0, 7, 13, 17, 19, 18, 13, 5, -2, -5],
+            "avgLowC": [-13, -11, -8, -2, 4, 8, 11, 10, 5, -3, -9, -12],
+            "rainMm": [19, 18, 15, 12, 18, 28, 48, 75, 75, 50, 30, 30],
+            "rainDays": [7, 7, 6, 5, 6, 8, 11, 14, 15, 11, 9, 9],
+            "sunHours": [50, 100, 180, 220, 260, 270, 240, 190, 140, 90, 50, 30],
+            "seaTempC": [3, 2, 2, 3, 6, 10, 12, 12, 10, 7, 4, 3],
+            "humidity": [75, 73, 68, 63, 60, 65, 72, 76, 76, 74, 78, 78]
+          },
+          "crowds": [1, 2, 3, 1, 3, 5, 5, 5, 3, 1, 1, 1],
+          "risks": [
+            { "type": "extreme cold", "from": "12-01", "to": "02-28", "note": "Fairbanks can drop below −35 °C; winter driving skills are essential." },
+            { "type": "wildfire", "from": "06-15", "to": "08-15", "note": "Interior fires can bring smoke to Fairbanks and Denali." }
+          ],
+          "recurringHolidays": [
+            { "name": "Fur Rendezvous & Iditarod start", "approx": "Late February – first Saturday of March", "effect": "Anchorage hotels busy for the winter festival and race start." },
+            { "name": "Cruise season", "approx": "May – September", "dates": { "from": "05-15", "to": "09-15" }, "effect": "Juneau, Ketchikan and Skagway can see 20,000 cruise passengers a day." }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 130, "shoulder": 160, "high": 190 },
+            "midrangePerDay": { "low": 260, "shoulder": 310, "high": 380 },
+            "hotelNightMid": { "low": 180, "shoulder": 230, "high": 320 },
+            "notes": "Summer car hire and lodges inside Denali book out early. Small-plane glacier landings cost $300–600 per person."
+          }
+        },
+        {
+          "id": "hawaii",
+          "name": "Hawaii",
+          "description": "Oahu (Honolulu, Waikiki, North Shore), Maui, Kauai and the Big Island (Hawai'i Volcanoes, Kona).",
+          "lat": 21.31,
+          "lon": -157.86,
+          "tags": ["beach", "islands", "diving", "volcano", "surf"],
+          "best": [
+            { "from": "04-15", "to": "06-10", "why": "Dry and sunny, with calmer seas on most coasts. It falls between the winter and summer peaks, so prices are better.", "goodFor": ["beach", "diving", "sun", "nature", "mountain"] },
+            { "from": "09-01", "to": "11-20", "why": "The warmest sea, dry leeward coasts and the fewest visitors of the year.", "goodFor": ["beach", "diving", "sun", "nature", "mountain"] }
+          ],
+          "worst": [
+            { "from": "12-18", "to": "01-05", "why": "Peak holiday season: the year's highest rates and sold-out flights. Big swells close North Shore beaches to swimmers." }
+          ],
+          "shoulder": [
+            { "from": "01-06", "to": "04-14", "why": "Rainier winter, but humpback whales (Jan–Mar) and big-wave surf on the North Shore." },
+            { "from": "06-11", "to": "08-31", "why": "The summer family peak: hot, with calm south shores and higher prices." },
+            { "from": "11-21", "to": "12-17", "why": "Thanksgiving week is busy and winter rains are increasing." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "04-01", "to": "10-31" } ],
+            "diving": [ { "from": "04-01", "to": "10-31" } ],
+            "sun": [ { "from": "04-01", "to": "10-31" } ],
+            "nature": [ { "from": "01-01", "to": "12-31" } ],
+            "mountain": [ { "from": "04-01", "to": "10-31" } ],
+            "roadtrip": [ { "from": "04-01", "to": "10-31" } ]
+          },
+          "climate": {
+            "avgHighC": [27, 27, 27, 28, 29, 30, 31, 31, 31, 30, 29, 27],
+            "avgLowC": [19, 19, 20, 21, 22, 23, 24, 24, 24, 23, 22, 20],
+            "rainMm": [60, 60, 55, 40, 30, 15, 15, 15, 20, 50, 70, 80],
+            "rainDays": [9, 8, 9, 8, 7, 6, 8, 7, 8, 9, 10, 10],
+            "sunHours": [210, 200, 240, 240, 270, 280, 290, 300, 270, 240, 200, 190],
+            "seaTempC": [24, 24, 24, 25, 25, 26, 26, 27, 27, 27, 26, 25],
+            "humidity": [72, 70, 68, 67, 66, 65, 66, 66, 67, 69, 71, 72]
+          },
+          "crowds": [5, 4, 4, 3, 3, 4, 5, 4, 2, 2, 3, 5],
+          "risks": [
+            { "type": "hurricane", "from": "07-01", "to": "10-31", "note": "Direct hits are rare, but tropical storms bring flooding and big surf." },
+            { "type": "high surf", "from": "11-01", "to": "03-31", "note": "Dangerous winter swells on north-facing shores; heed the lifeguards." }
+          ],
+          "recurringHolidays": [
+            { "name": "Christmas & New Year", "approx": "Dec 18 – Jan 5", "dates": { "from": "12-18", "to": "01-05" }, "effect": "Peak rates across the islands." },
+            { "name": "Japanese Golden Week", "approx": "Apr 29 – May 5", "dates": { "from": "04-29", "to": "05-05" }, "effect": "Waikiki busy with Japanese visitors." },
+            { "name": "Merrie Monarch Festival (Hilo)", "approx": "Week after Easter", "effect": "Hilo hotels sold out for the hula festival.", "moving": { "anchor": "easter", "offsetDays": 0, "durationDays": 7 } },
+            { "name": "Thanksgiving", "approx": "4th Thursday of November", "effect": "Busy, with higher airfares.", "moving": { "anchor": "thanksgivingUS", "offsetDays": -1, "durationDays": 5 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 140, "shoulder": 160, "high": 200 },
+            "midrangePerDay": { "low": 290, "shoulder": 330, "high": 420 },
+            "hotelNightMid": { "low": 230, "shoulder": 270, "high": 380 },
+            "notes": "Expect resort fees ($35–50 a night) and an 18% lodging tax. Maui and Kauai cost more than Oahu."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "New York", "aliases": ["NYC", "New York City", "Manhattan", "Brooklyn"], "region": "northeast" },
+        { "name": "Boston", "aliases": ["Cape Cod"], "region": "northeast" },
+        { "name": "Washington DC", "aliases": ["Washington D.C.", "DC"], "region": "northeast" },
+        { "name": "Philadelphia", "aliases": ["Philly"], "region": "northeast" },
+        { "name": "Maine", "aliases": ["Acadia", "Bar Harbor", "Portland Maine"], "region": "northeast" },
+        { "name": "Vermont", "aliases": ["Stowe"], "region": "northeast" },
+        { "name": "Atlanta", "aliases": [], "region": "southeast" },
+        { "name": "New Orleans", "aliases": ["NOLA"], "region": "southeast" },
+        { "name": "Nashville", "aliases": [], "region": "southeast" },
+        { "name": "Memphis", "aliases": [], "region": "southeast" },
+        { "name": "Charleston", "aliases": [], "region": "southeast" },
+        { "name": "Savannah", "aliases": [], "region": "southeast" },
+        { "name": "Great Smoky Mountains", "aliases": ["Smokies", "Gatlinburg", "Asheville"], "region": "southeast" },
+        { "name": "Austin", "aliases": [], "region": "southeast" },
+        { "name": "Houston", "aliases": [], "region": "southeast" },
+        { "name": "Dallas", "aliases": [], "region": "southeast" },
+        { "name": "San Antonio", "aliases": [], "region": "southeast" },
+        { "name": "Miami", "aliases": ["Miami Beach", "South Beach"], "region": "florida" },
+        { "name": "Orlando", "aliases": ["Disney World", "Walt Disney World"], "region": "florida" },
+        { "name": "Key West", "aliases": ["Florida Keys", "Keys"], "region": "florida" },
+        { "name": "Tampa", "aliases": ["St. Petersburg", "Clearwater"], "region": "florida" },
+        { "name": "Everglades", "aliases": [], "region": "florida" },
+        { "name": "Chicago", "aliases": [], "region": "midwest" },
+        { "name": "Detroit", "aliases": [], "region": "midwest" },
+        { "name": "Minneapolis", "aliases": ["Twin Cities"], "region": "midwest" },
+        { "name": "Milwaukee", "aliases": [], "region": "midwest" },
+        { "name": "Las Vegas", "aliases": ["Vegas"], "region": "southwest" },
+        { "name": "Phoenix", "aliases": ["Scottsdale"], "region": "southwest" },
+        { "name": "Grand Canyon", "aliases": [], "region": "southwest" },
+        { "name": "Sedona", "aliases": [], "region": "southwest" },
+        { "name": "Zion", "aliases": ["Zion National Park", "Bryce Canyon"], "region": "southwest" },
+        { "name": "Moab", "aliases": ["Arches", "Canyonlands"], "region": "southwest" },
+        { "name": "Monument Valley", "aliases": ["Page", "Antelope Canyon"], "region": "southwest" },
+        { "name": "Santa Fe", "aliases": ["Albuquerque"], "region": "southwest" },
+        { "name": "Salt Lake City", "aliases": ["Park City"], "region": "southwest" },
+        { "name": "Los Angeles", "aliases": ["LA", "Hollywood", "Santa Monica"], "region": "california" },
+        { "name": "San Francisco", "aliases": ["SF", "Bay Area"], "region": "california" },
+        { "name": "San Diego", "aliases": [], "region": "california" },
+        { "name": "Yosemite", "aliases": ["Yosemite National Park"], "region": "california" },
+        { "name": "Napa", "aliases": ["Napa Valley", "Sonoma"], "region": "california" },
+        { "name": "Big Sur", "aliases": ["Monterey", "Carmel"], "region": "california" },
+        { "name": "Lake Tahoe", "aliases": ["Tahoe"], "region": "california" },
+        { "name": "Palm Springs", "aliases": ["Joshua Tree", "Death Valley"], "region": "california" },
+        { "name": "Seattle", "aliases": [], "region": "pacific-northwest" },
+        { "name": "Portland", "aliases": ["Portland Oregon"], "region": "pacific-northwest" },
+        { "name": "Mount Rainier", "aliases": ["Rainier"], "region": "pacific-northwest" },
+        { "name": "Olympic National Park", "aliases": ["Olympic Peninsula"], "region": "pacific-northwest" },
+        { "name": "San Juan Islands", "aliases": [], "region": "pacific-northwest" },
+        { "name": "Denver", "aliases": ["Boulder", "Rocky Mountain National Park"], "region": "rockies" },
+        { "name": "Aspen", "aliases": ["Vail", "Breckenridge", "Telluride"], "region": "rockies" },
+        { "name": "Yellowstone", "aliases": ["Yellowstone National Park", "Old Faithful"], "region": "rockies" },
+        { "name": "Jackson Hole", "aliases": ["Jackson", "Grand Teton"], "region": "rockies" },
+        { "name": "Glacier National Park", "aliases": ["Glacier", "Montana"], "region": "rockies" },
+        { "name": "Anchorage", "aliases": [], "region": "alaska" },
+        { "name": "Fairbanks", "aliases": [], "region": "alaska" },
+        { "name": "Juneau", "aliases": ["Inside Passage", "Ketchikan", "Skagway"], "region": "alaska" },
+        { "name": "Denali", "aliases": ["Denali National Park", "Mount McKinley"], "region": "alaska" },
+        { "name": "Honolulu", "aliases": ["Waikiki", "Oahu", "North Shore"], "region": "hawaii" },
+        { "name": "Maui", "aliases": ["Lahaina", "Kaanapali", "Wailea"], "region": "hawaii" },
+        { "name": "Kauai", "aliases": ["Na Pali"], "region": "hawaii" },
+        { "name": "Big Island", "aliases": ["Hawaii Island", "Kona", "Hilo"], "region": "hawaii" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.visittheusa.com" },
+        { "label": "National Park Service", "url": "https://www.nps.gov" },
+        { "label": "Climate normals (NOAA)", "url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals" },
+        { "label": "National Hurricane Center", "url": "https://www.nhc.noaa.gov" },
+        { "label": "Entry requirements (ESTA)", "url": "https://esta.cbp.dhs.gov" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    }
+  ]
+}
