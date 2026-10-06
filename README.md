@@ -24,9 +24,9 @@ useful year after year.
 
 ## Status
 
-Phase 1 covers **5 countries in full detail**: Italy, Thailand, USA, Brazil and Sri Lanka
-(28 regions). The rest of the world is added continent by continent; run
-`node scripts/validate.js` for the current coverage report.
+**181 countries and territories, 311 regions**: all of Europe, Asia and Africa, South
+America, the Caribbean and the USA. Canada, Mexico, Central America, Greenland and Oceania
+are being added next. Run `node scripts/validate.js` for the current coverage report.
 
 ## Run locally
 
