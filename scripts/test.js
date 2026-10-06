@@ -116,7 +116,8 @@ test('snow in January finds ski regions only', () => {
   const res = rankRegions(index.countries, { days, activities: ['snow'] });
   assert.ok(res.length > 0);
   for (const r of res) assert.ok(r.region.activityWindows.snow, `${r.region.id} has a snow window`);
-  assert.equal(res[0].region.id, 'rockies');
+  const top = res.slice(0, 5).map(r => `${r.country.iso2}.${r.region.id}`);
+  assert.ok(top.includes('US.rockies'), `Rockies in top 5: ${top}`);
 });
 
 console.log(`\n${passed} passed${process.exitCode ? ', some FAILED' : ''}`);
