@@ -243,6 +243,96 @@
       "lastReviewed": "2026-10"
     },
     {
+      "iso2": "BZ",
+      "isoNum": "084",
+      "name": "Belize",
+      "aliases": ["British Honduras"],
+      "continent": "North America",
+      "flag": "🇧🇿",
+      "summary": "Belize is best in the dry season from February to May, when the sea is calm and clear for diving the Barrier Reef and the Great Blue Hole, the cayes are sunny and 28–31 °C, and jungle roads to the Maya sites are dry. Rains begin in June and are heaviest from September to November, the peak of the hurricane season, when some lodges close. December and January are pleasant but can bring grey, rainy days from northern cold fronts. Christmas, Easter and the February–March US holidays are the busiest weeks on Ambergris Caye and Caye Caulker.",
+      "splitByRegion": false,
+      "splitReason": "The cayes, the coast and the Cayo district share one tropical calendar; the far south (Toledo) is simply wetter.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Belize City, Ambergris Caye and Caye Caulker, the Barrier Reef and Great Blue Hole, San Ignacio and the Cayo jungle, Placencia, Hopkins and the south.",
+          "lat": 17.5,
+          "lon": -88.2,
+          "tags": ["diving", "beach", "reef", "islands", "ruins", "jungle", "wildlife"],
+          "best": [
+            { "from": "02-01", "to": "05-31", "why": "Dry season: sunny 28–31 °C days, calm, clear water for diving and snorkelling, and whale sharks at Gladden Spit around the March–May full moons.", "goodFor": ["diving", "beach", "sun", "nature", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "09-01", "to": "11-15", "why": "Peak of the hurricane and rainy season: heavy downpours, flooded jungle roads and some resorts closed." }
+          ],
+          "shoulder": [
+            { "from": "06-01", "to": "08-31", "why": "Hot and humid; the rains start in June but there are long dry spells, and lobster season opens on 1 July." },
+            { "from": "11-16", "to": "01-31", "why": "Rain easing, though cold fronts bring windy, grey days; Christmas is busy." }
+          ],
+          "activityWindows": {
+            "diving": [ { "from": "02-01", "to": "07-31" } ],
+            "beach": [ { "from": "02-01", "to": "06-15" } ],
+            "sun": [ { "from": "02-01", "to": "05-15" } ],
+            "nature": [ { "from": "12-01", "to": "05-31" } ],
+            "roadtrip": [ { "from": "01-15", "to": "05-31" } ]
+          },
+          "climate": {
+            "avgHighC": [27, 28, 29, 30, 31, 31, 31, 31, 31, 30, 28, 27],
+            "avgLowC": [20, 21, 22, 23, 24, 25, 24, 24, 24, 23, 22, 21],
+            "rainMm": [137, 61, 38, 56, 109, 196, 163, 170, 244, 306, 226, 185],
+            "rainDays": [12, 7, 5, 4, 7, 14, 17, 16, 17, 17, 14, 13],
+            "sunHours": [190, 210, 240, 260, 250, 210, 220, 230, 190, 190, 170, 170],
+            "seaTempC": [26, 26, 27, 28, 28, 29, 29, 29, 29, 28, 27, 26],
+            "humidity": [83, 81, 80, 79, 80, 82, 82, 82, 84, 85, 85, 85]
+          },
+          "crowds": [4, 4, 5, 4, 2, 2, 3, 2, 1, 1, 2, 4],
+          "risks": [
+            { "type": "hurricane", "from": "06-01", "to": "11-30", "note": "Peak August to October; Hattie (1961) and Lisa (2022) hit Belize City." },
+            { "type": "heavy rain", "from": "06-01", "to": "11-30", "note": "Floods close roads in Cayo and the south, and the ATM cave shuts after heavy rain." },
+            { "type": "sargassum", "from": "04-01", "to": "09-30", "note": "Seaweed can wash up on the cayes in some years." }
+          ],
+          "recurringHolidays": [
+            { "name": "Semana Santa", "approx": "Holy Week, March or April", "effect": "Belizeans and Guatemalans fill the cayes; ferries and hotels book up.", "moving": { "anchor": "easter", "offsetDays": -7, "durationDays": 8 } },
+            { "name": "September Celebrations", "approx": "10–21 September", "effect": "St George's Caye Day and Independence Day parades and parties, centred on Belize City.", "dates": { "from": "09-10", "to": "09-21" } },
+            { "name": "Garifuna Settlement Day", "approx": "19 November", "effect": "Drumming and re-enactments in Dangriga and Hopkins; rooms fill.", "dates": { "from": "11-18", "to": "11-19" } },
+            { "name": "Christmas & New Year", "approx": "Mid-December – early January", "effect": "Peak season on the cayes with the highest rates.", "dates": { "from": "12-18", "to": "01-03" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 50, "shoulder": 60, "high": 75 },
+            "midrangePerDay": { "low": 110, "shoulder": 140, "high": 180 },
+            "hotelNightMid": { "low": 90, "shoulder": 120, "high": 170 },
+            "notes": "Belize is pricier than its neighbours, as much is imported. Caye Caulker is the budget option; Ambergris Caye and Placencia are more upmarket. Blue Hole dive trips cost $300+."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Belize City", "aliases": [], "region": "country" },
+        { "name": "Ambergris Caye", "aliases": ["San Pedro Belize", "San Pedro Town", "Hol Chan", "Shark Ray Alley"], "region": "country" },
+        { "name": "Caye Caulker", "aliases": ["Cay Caulker"], "region": "country" },
+        { "name": "Great Blue Hole", "aliases": ["Lighthouse Reef", "Half Moon Caye"], "region": "country" },
+        { "name": "San Ignacio", "aliases": ["San Ignacio Belize", "San Ignacio Cayo", "Cayo", "Cayo District", "Xunantunich"], "region": "country" },
+        { "name": "ATM Cave", "aliases": ["Actun Tunichil Muknal"], "region": "country" },
+        { "name": "Caracol", "aliases": ["Mountain Pine Ridge"], "region": "country" },
+        { "name": "Placencia", "aliases": ["Laughing Bird Caye", "Gladden Spit"], "region": "country" },
+        { "name": "Hopkins", "aliases": ["Dangriga", "Cockscomb Basin", "Cockscomb"], "region": "country" },
+        { "name": "Lamanai", "aliases": ["Orange Walk"], "region": "country" },
+        { "name": "Glover's Reef", "aliases": ["South Water Caye", "Tobacco Caye"], "region": "country" },
+        { "name": "Punta Gorda", "aliases": ["Toledo District"], "region": "country" },
+        { "name": "Belmopan", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.travelbelize.org" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Belize" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/belize" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/belize/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
       "iso2": "BM",
       "isoNum": "060",
       "name": "Bermuda",
@@ -324,6 +414,503 @@
       "lastReviewed": "2026-10"
     },
     {
+      "iso2": "CA",
+      "isoNum": "124",
+      "name": "Canada",
+      "aliases": ["Canadá", "Kanada"],
+      "continent": "North America",
+      "flag": "🇨🇦",
+      "summary": "For most of Canada, July to September is the main season: warm days, open mountain roads and trails, whale watching on both coasts and festivals in the cities. Late September to mid-October is often the best-value window, with autumn colours in Ontario, Québec and the Maritimes and golden larches in the Rockies. Winter (December to March) is long and very cold inland, but it is ski season in Whistler, Banff and Mont-Tremblant and aurora season in the north, while Vancouver and Victoria have mild, wet winters rather than snowy ones. April and May are the awkward months: ski hills close, trails are muddy or still under snow and many rural businesses have not yet opened.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "bc",
+          "name": "British Columbia",
+          "description": "Vancouver, Whistler and the Sea-to-Sky corridor, Victoria and Vancouver Island, Tofino and Pacific Rim, and the Okanagan wine country.",
+          "lat": 49.28,
+          "lon": -123.12,
+          "tags": ["city", "nature", "mountain", "ski", "hiking", "wine", "whales"],
+          "best": [
+            { "from": "06-15", "to": "09-15", "why": "Dry, sunny summer: 22 °C in Vancouver, hot lake days in the Okanagan, whale watching off Victoria and Tofino and open alpine trails around Whistler.", "goodFor": ["city", "nature", "mountain", "roadtrip", "beach", "sun"] }
+          ],
+          "worst": [
+            { "from": "10-20", "to": "11-30", "why": "The wettest, darkest weeks on the coast: Pacific storms bring days of rain to Vancouver, and Whistler's ski lifts have not yet opened." }
+          ],
+          "shoulder": [
+            { "from": "12-01", "to": "03-31", "why": "Mild (6 °C) but grey and rainy in Vancouver; ski season in Whistler, storm watching in Tofino." },
+            { "from": "04-01", "to": "06-14", "why": "Spring blossom and drier spells; the high trails are still under snow." },
+            { "from": "09-16", "to": "10-19", "why": "Crisp autumn, harvest in the Okanagan, salmon runs; rain returns in October." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "05-15", "to": "09-30" } ],
+            "nature": [ { "from": "06-01", "to": "09-30" } ],
+            "mountain": [ { "from": "07-01", "to": "09-30" } ],
+            "roadtrip": [ { "from": "06-01", "to": "09-30" } ],
+            "beach": [ { "from": "07-01", "to": "08-31" } ],
+            "sun": [ { "from": "07-01", "to": "08-31" } ],
+            "snow": [ { "from": "11-25", "to": "04-20" } ]
+          },
+          "climate": {
+            "avgHighC": [7, 8, 10, 13, 17, 19, 22, 22, 19, 14, 9, 6],
+            "avgLowC": [1, 1, 3, 5, 8, 11, 13, 13, 11, 7, 3, 0],
+            "rainMm": [168, 104, 114, 84, 68, 55, 40, 43, 54, 113, 189, 175],
+            "rainDays": [19, 15, 18, 15, 13, 11, 6, 7, 9, 16, 20, 20],
+            "sunHours": [56, 90, 128, 174, 218, 215, 280, 264, 197, 121, 60, 48],
+            "seaTempC": [8, 8, 8, 9, 11, 13, 15, 16, 14, 12, 10, 9],
+            "humidity": [82, 79, 76, 73, 71, 70, 69, 70, 75, 80, 83, 83]
+          },
+          "crowds": [3, 3, 3, 2, 3, 4, 5, 5, 4, 2, 2, 4],
+          "risks": [
+            { "type": "wildfire", "from": "07-01", "to": "09-15", "note": "Interior wildfires can close Okanagan highways and blanket Vancouver in smoke." },
+            { "type": "heavy rain", "from": "10-15", "to": "01-31", "note": "Atmospheric rivers bring flooding and landslides; in November 2021 they cut every highway out of Vancouver." },
+            { "type": "avalanche", "from": "12-01", "to": "04-30", "note": "High backcountry avalanche danger around Whistler and the Coast Mountains." }
+          ],
+          "recurringHolidays": [
+            { "name": "Canadian summer holidays", "approx": "Late June – Labour Day", "effect": "National-park campgrounds, ferries and lake cottages book out months ahead and prices peak.", "dates": { "from": "06-25", "to": "09-01" } },
+            { "name": "Canada Day", "approx": "1 July", "effect": "Fireworks and concerts in every city, especially Ottawa; a busy long weekend on the roads.", "dates": { "from": "07-01", "to": "07-01" } },
+            { "name": "Victoria Day weekend", "approx": "Weekend before 25 May", "effect": "The unofficial start of summer: cottages, campgrounds and parks fill up.", "dates": { "from": "05-16", "to": "05-25" } },
+            { "name": "March break", "approx": "Mid-March (dates vary by province)", "effect": "School spring break: ski resorts, Florida-bound flights and family attractions are at their busiest.", "dates": { "from": "03-08", "to": "03-22" } },
+            { "name": "Christmas & New Year", "approx": "Late December – early January", "effect": "Peak week at the ski resorts, with top prices in Whistler, Banff and Mont-Tremblant.", "dates": { "from": "12-20", "to": "01-03" } },
+            { "name": "Labour Day weekend", "approx": "First weekend of September", "effect": "The last summer long weekend: busy highways, ferries and parks.", "moving": { "anchor": "laborDayUS", "offsetDays": -2, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 60, "shoulder": 75, "high": 95 },
+            "midrangePerDay": { "low": 140, "shoulder": 180, "high": 240 },
+            "hotelNightMid": { "low": 140, "shoulder": 190, "high": 290 },
+            "notes": "Vancouver and Whistler are among Canada's most expensive places; Whistler lift tickets cost $150+ a day in peak season. BC Ferries to Vancouver Island need reservations in summer."
+          }
+        },
+        {
+          "id": "rockies",
+          "name": "Alberta & the Rockies",
+          "description": "Banff, Lake Louise and Moraine Lake, the Icefields Parkway, Jasper, Canmore and Kananaskis, Yoho, plus Calgary and Edmonton.",
+          "lat": 51.18,
+          "lon": -115.57,
+          "tags": ["mountain", "nature", "ski", "hiking", "lakes", "wildlife", "roadtrip"],
+          "best": [
+            { "from": "06-25", "to": "09-30", "why": "Summer and early autumn: the turquoise lakes are ice-free, the Icefields Parkway and high trails are open, and golden larches peak in mid to late September.", "goodFor": ["mountain", "nature", "roadtrip", "city"] },
+            { "from": "01-08", "to": "03-31", "why": "Prime ski season at Sunshine Village, Lake Louise and Norquay: reliable dry snow and sunnier, slightly milder days after the Christmas rush.", "goodFor": ["snow", "mountain"] }
+          ],
+          "worst": [
+            { "from": "04-15", "to": "05-31", "why": "Mud season: the ski hills close, lakes stay frozen until late May or June, and most high trails are snowbound." }
+          ],
+          "shoulder": [
+            { "from": "06-01", "to": "06-24", "why": "Lakes thawing, wildflowers and bears by the roads; some trails still snowy, but cheaper." },
+            { "from": "10-01", "to": "11-30", "why": "Quiet and cold after the larches; snow from late October and Lake Louise's lifts open in November." },
+            { "from": "12-01", "to": "01-07", "why": "Early ski season and Christmas in Banff: very cold (−15 °C nights), festive and expensive." },
+            { "from": "04-01", "to": "04-14", "why": "Spring skiing on slushy snow at the end of the season." }
+          ],
+          "activityWindows": {
+            "mountain": [ { "from": "06-25", "to": "09-30" } ],
+            "nature": [ { "from": "06-15", "to": "10-10" } ],
+            "roadtrip": [ { "from": "06-01", "to": "10-10" } ],
+            "city": [ { "from": "05-15", "to": "09-30" } ],
+            "snow": [ { "from": "11-20", "to": "04-30" } ]
+          },
+          "climate": {
+            "avgHighC": [-1, 1, 5, 10, 15, 19, 22, 22, 16, 10, 2, -2],
+            "avgLowC": [-15, -13, -9, -4, 1, 5, 7, 6, 2, -3, -10, -15],
+            "rainMm": [28, 26, 28, 35, 57, 62, 56, 51, 42, 26, 26, 28],
+            "rainDays": [9, 8, 9, 9, 13, 15, 13, 12, 10, 8, 9, 9],
+            "sunHours": [90, 120, 160, 180, 210, 230, 280, 260, 180, 150, 90, 75],
+            "seaTempC": null,
+            "humidity": [70, 67, 60, 55, 55, 60, 60, 60, 63, 63, 70, 72]
+          },
+          "crowds": [3, 3, 4, 2, 2, 4, 5, 5, 4, 2, 2, 4],
+          "risks": [
+            { "type": "wildfire", "from": "07-01", "to": "09-15", "note": "Forest fires and smoke; the 2024 Jasper fire destroyed a third of the town." },
+            { "type": "extreme cold", "from": "12-01", "to": "02-28", "note": "Arctic outbreaks can drop below −30 °C for days." },
+            { "type": "road closures", "from": "11-01", "to": "04-30", "note": "Snowstorms and avalanche control close the Icefields Parkway and mountain passes; winter tyres are required." },
+            { "type": "avalanche", "from": "12-01", "to": "05-15", "note": "Backcountry avalanche danger in the national parks." }
+          ],
+          "recurringHolidays": [
+            { "name": "Calgary Stampede", "approx": "First half of July (10 days)", "effect": "Rodeo and fair draw over a million visitors; Calgary hotels triple their prices.", "dates": { "from": "07-03", "to": "07-12" } },
+            { "name": "Canadian summer holidays", "approx": "Late June – Labour Day", "effect": "National-park campgrounds, ferries and lake cottages book out months ahead and prices peak.", "dates": { "from": "06-25", "to": "09-01" } },
+            { "name": "Canada Day", "approx": "1 July", "effect": "Fireworks and concerts in every city, especially Ottawa; a busy long weekend on the roads.", "dates": { "from": "07-01", "to": "07-01" } },
+            { "name": "Victoria Day weekend", "approx": "Weekend before 25 May", "effect": "The unofficial start of summer: cottages, campgrounds and parks fill up.", "dates": { "from": "05-16", "to": "05-25" } },
+            { "name": "March break", "approx": "Mid-March (dates vary by province)", "effect": "School spring break: ski resorts, Florida-bound flights and family attractions are at their busiest.", "dates": { "from": "03-08", "to": "03-22" } },
+            { "name": "Christmas & New Year", "approx": "Late December – early January", "effect": "Peak week at the ski resorts, with top prices in Whistler, Banff and Mont-Tremblant.", "dates": { "from": "12-20", "to": "01-03" } },
+            { "name": "Labour Day weekend", "approx": "First weekend of September", "effect": "The last summer long weekend: busy highways, ferries and parks.", "moving": { "anchor": "laborDayUS", "offsetDays": -2, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 65, "shoulder": 85, "high": 120 },
+            "midrangePerDay": { "low": 150, "shoulder": 200, "high": 280 },
+            "hotelNightMid": { "low": 150, "shoulder": 220, "high": 380 },
+            "notes": "Banff and Lake Louise hotels are very expensive in July–August; Canmore is cheaper. A Parks Canada pass is required, and the Moraine Lake road is shuttle-only (book ahead)."
+          }
+        },
+        {
+          "id": "prairies",
+          "name": "Saskatchewan & Manitoba",
+          "description": "Winnipeg, Regina and Saskatoon, Riding Mountain and Grasslands national parks, and Churchill on Hudson Bay for polar bears and belugas.",
+          "lat": 49.9,
+          "lon": -97.14,
+          "tags": ["wildlife", "nature", "city", "roadtrip", "aurora"],
+          "best": [
+            { "from": "06-15", "to": "09-15", "why": "Warm, sunny prairie summer (25 °C) with long days, festivals in Winnipeg, and belugas gathering in Churchill's river mouth in July and August.", "goodFor": ["city", "nature", "roadtrip", "sun"] },
+            { "from": "10-10", "to": "11-20", "why": "Polar bear season in Churchill, as the bears wait for Hudson Bay to freeze; tours fill a year ahead.", "goodFor": ["nature"] }
+          ],
+          "worst": [
+            { "from": "11-21", "to": "02-28", "why": "Brutal cold: Winnipeg averages −16 °C in January and wind chills reach −40 °C." }
+          ],
+          "shoulder": [
+            { "from": "03-01", "to": "06-14", "why": "Long thaw with mud and spring floods; pleasant by late May, with mosquitoes in June." },
+            { "from": "09-16", "to": "10-09", "why": "Harvest colours and cool, clear days; first frosts." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "06-01", "to": "09-15" } ],
+            "nature": [ { "from": "07-01", "to": "08-31" }, { "from": "10-10", "to": "11-20" } ],
+            "roadtrip": [ { "from": "06-01", "to": "09-30" } ],
+            "sun": [ { "from": "06-15", "to": "08-31" } ]
+          },
+          "climate": {
+            "avgHighC": [-11, -8, 0, 11, 19, 24, 26, 25, 19, 10, -1, -9],
+            "avgLowC": [-21, -18, -10, -2, 5, 11, 14, 12, 6, -1, -10, -18],
+            "rainMm": [20, 15, 26, 32, 60, 90, 80, 77, 48, 37, 25, 18],
+            "rainDays": [10, 8, 9, 8, 11, 12, 11, 10, 9, 8, 10, 10],
+            "sunHours": [120, 150, 180, 230, 280, 290, 320, 290, 190, 150, 100, 100],
+            "seaTempC": null,
+            "humidity": [75, 75, 74, 62, 57, 63, 66, 67, 68, 70, 79, 78]
+          },
+          "crowds": [1, 2, 1, 1, 2, 3, 4, 4, 2, 3, 3, 1],
+          "risks": [
+            { "type": "extreme cold", "from": "12-01", "to": "03-15", "note": "Wind chills of −40 °C; frostbite within minutes on exposed skin." },
+            { "type": "thunderstorms", "from": "06-01", "to": "08-31", "note": "Severe storms with hail and occasional tornadoes on the open prairie." },
+            { "type": "flooding", "from": "04-01", "to": "05-15", "note": "Spring flooding on the Red and Assiniboine rivers." },
+            { "type": "wildfire", "from": "06-01", "to": "08-31", "note": "Northern forest fires can send smoke south and close roads." }
+          ],
+          "recurringHolidays": [
+            { "name": "Festival du Voyageur", "approx": "Mid-February", "effect": "Western Canada's biggest winter festival in Winnipeg's French quarter.", "dates": { "from": "02-13", "to": "02-22" } },
+            { "name": "Canadian summer holidays", "approx": "Late June – Labour Day", "effect": "National-park campgrounds, ferries and lake cottages book out months ahead and prices peak.", "dates": { "from": "06-25", "to": "09-01" } },
+            { "name": "Canada Day", "approx": "1 July", "effect": "Fireworks and concerts in every city, especially Ottawa; a busy long weekend on the roads.", "dates": { "from": "07-01", "to": "07-01" } },
+            { "name": "Victoria Day weekend", "approx": "Weekend before 25 May", "effect": "The unofficial start of summer: cottages, campgrounds and parks fill up.", "dates": { "from": "05-16", "to": "05-25" } },
+            { "name": "March break", "approx": "Mid-March (dates vary by province)", "effect": "School spring break: ski resorts, Florida-bound flights and family attractions are at their busiest.", "dates": { "from": "03-08", "to": "03-22" } },
+            { "name": "Christmas & New Year", "approx": "Late December – early January", "effect": "Peak week at the ski resorts, with top prices in Whistler, Banff and Mont-Tremblant.", "dates": { "from": "12-20", "to": "01-03" } },
+            { "name": "Labour Day weekend", "approx": "First weekend of September", "effect": "The last summer long weekend: busy highways, ferries and parks.", "moving": { "anchor": "laborDayUS", "offsetDays": -2, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 50, "shoulder": 60, "high": 70 },
+            "midrangePerDay": { "low": 100, "shoulder": 120, "high": 150 },
+            "hotelNightMid": { "low": 90, "shoulder": 110, "high": 140 },
+            "notes": "Winnipeg, Regina and Saskatoon are good value. Churchill has no road: fly or take the two-day train from Winnipeg, and polar bear tour packages cost $6,000–12,000."
+          }
+        },
+        {
+          "id": "ontario",
+          "name": "Ontario",
+          "description": "Toronto, Niagara Falls and Niagara-on-the-Lake, Ottawa, Muskoka cottage country, Algonquin Park, Prince Edward County and the Bruce Peninsula.",
+          "lat": 43.65,
+          "lon": -79.38,
+          "tags": ["city", "nature", "lakes", "canoeing", "food", "autumn"],
+          "best": [
+            { "from": "06-01", "to": "08-31", "why": "Summer: 26 °C days, lakes warm enough to swim in Muskoka, canoe trips in Algonquin, Niagara boats running and festivals in Toronto.", "goodFor": ["city", "nature", "roadtrip", "sun"] },
+            { "from": "09-01", "to": "10-20", "why": "Early autumn: comfortable 20 °C days, TIFF in Toronto and fall colours peaking from late September in Algonquin to mid-October further south.", "goodFor": ["city", "nature", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "01-01", "to": "02-28", "why": "Deep winter: −7 °C nights, grey skies, slush and biting wind chill (though Ottawa's Winterlude and the Rideau Canal skateway are fun)." }
+          ],
+          "shoulder": [
+            { "from": "03-01", "to": "05-31", "why": "Cold, muddy thaw and black-fly season in May; cherry blossom and quiet attractions." },
+            { "from": "10-21", "to": "12-31", "why": "Leaves gone, grey and cold; Christmas markets in Toronto and Ottawa." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "05-15", "to": "10-31" } ],
+            "nature": [ { "from": "06-15", "to": "10-15" } ],
+            "roadtrip": [ { "from": "06-01", "to": "10-20" } ],
+            "sun": [ { "from": "06-15", "to": "08-31" } ],
+            "snow": [ { "from": "12-20", "to": "03-15" } ]
+          },
+          "climate": {
+            "avgHighC": [-1, 0, 5, 12, 19, 24, 27, 26, 22, 14, 7, 1],
+            "avgLowC": [-7, -6, -2, 4, 10, 15, 18, 18, 14, 7, 2, -4],
+            "rainMm": [61, 51, 53, 69, 81, 71, 75, 79, 79, 64, 82, 62],
+            "rainDays": [16, 12, 12, 12, 13, 11, 11, 10, 11, 12, 13, 15],
+            "sunHours": [100, 112, 159, 184, 236, 265, 295, 259, 195, 155, 92, 81],
+            "seaTempC": null,
+            "humidity": [75, 73, 70, 65, 65, 68, 70, 73, 75, 73, 75, 77]
+          },
+          "crowds": [2, 3, 3, 2, 3, 4, 5, 5, 4, 4, 2, 3],
+          "risks": [
+            { "type": "extreme cold", "from": "12-15", "to": "02-28", "note": "Wind chills below −25 °C and lake-effect snow squalls on the highways." },
+            { "type": "extreme heat", "from": "07-01", "to": "08-15", "note": "Humid heatwaves with a humidex around 40 in Toronto." },
+            { "type": "thunderstorms", "from": "06-01", "to": "08-31", "note": "Summer storms with hail and occasional tornadoes." }
+          ],
+          "recurringHolidays": [
+            { "name": "Toronto International Film Festival (TIFF)", "approx": "Early to mid-September", "effect": "Hotel prices in downtown Toronto spike and rooms sell out.", "moving": { "anchor": "laborDayUS", "offsetDays": 3, "durationDays": 11 } },
+            { "name": "Winterlude", "approx": "First three weekends of February", "effect": "Ottawa's ice-sculpture festival and canal skating; busy weekends.", "dates": { "from": "01-30", "to": "02-16" } },
+            { "name": "Toronto Caribbean Carnival", "approx": "Late July – early August", "effect": "Huge parade weekend over the Civic Holiday; hotels fill.", "dates": { "from": "07-30", "to": "08-03" } },
+            { "name": "Canadian summer holidays", "approx": "Late June – Labour Day", "effect": "National-park campgrounds, ferries and lake cottages book out months ahead and prices peak.", "dates": { "from": "06-25", "to": "09-01" } },
+            { "name": "Canada Day", "approx": "1 July", "effect": "Fireworks and concerts in every city, especially Ottawa; a busy long weekend on the roads.", "dates": { "from": "07-01", "to": "07-01" } },
+            { "name": "Victoria Day weekend", "approx": "Weekend before 25 May", "effect": "The unofficial start of summer: cottages, campgrounds and parks fill up.", "dates": { "from": "05-16", "to": "05-25" } },
+            { "name": "March break", "approx": "Mid-March (dates vary by province)", "effect": "School spring break: ski resorts, Florida-bound flights and family attractions are at their busiest.", "dates": { "from": "03-08", "to": "03-22" } },
+            { "name": "Christmas & New Year", "approx": "Late December – early January", "effect": "Peak week at the ski resorts, with top prices in Whistler, Banff and Mont-Tremblant.", "dates": { "from": "12-20", "to": "01-03" } },
+            { "name": "Labour Day weekend", "approx": "First weekend of September", "effect": "The last summer long weekend: busy highways, ferries and parks.", "moving": { "anchor": "laborDayUS", "offsetDays": -2, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 55, "shoulder": 70, "high": 85 },
+            "midrangePerDay": { "low": 120, "shoulder": 150, "high": 190 },
+            "hotelNightMid": { "low": 130, "shoulder": 170, "high": 230 },
+            "notes": "Toronto hotels are pricey, especially in September; Niagara Falls is cheaper midweek. Algonquin campsites and Muskoka cottages are booked months ahead for July and August."
+          }
+        },
+        {
+          "id": "quebec",
+          "name": "Québec",
+          "description": "Montréal, Québec City, Mont-Tremblant and the Laurentians, Charlevoix, Tadoussac and the Saguenay fjord, the Eastern Townships and the Gaspé Peninsula.",
+          "lat": 45.5,
+          "lon": -73.57,
+          "tags": ["city", "food", "culture", "festivals", "ski", "nature", "autumn"],
+          "best": [
+            { "from": "06-01", "to": "09-15", "why": "Summer festival season: 25 °C days, terraces and jazz in Montréal, whale watching at Tadoussac and the Gaspé coast road open.", "goodFor": ["city", "nature", "roadtrip", "sun"] },
+            { "from": "09-16", "to": "10-15", "why": "Fall colours in the Laurentians, Charlevoix and the Eastern Townships, with crisp days and fewer crowds.", "goodFor": ["city", "nature", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "11-01", "to": "12-10", "why": "Grey, wet and dark: the leaves are gone, snow has not settled and the ski hills are not yet fully open." }
+          ],
+          "shoulder": [
+            { "from": "12-11", "to": "03-15", "why": "Deep winter (−10 °C, often −25 °C): ski season at Mont-Tremblant, the Québec Winter Carnival and Christmas markets." },
+            { "from": "03-16", "to": "05-31", "why": "Sugar-shack season, then a muddy thaw; mild by late May." },
+            { "from": "10-16", "to": "10-31", "why": "Late colours and cool, damp days." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "05-15", "to": "10-20" } ],
+            "nature": [ { "from": "06-15", "to": "10-15" } ],
+            "roadtrip": [ { "from": "06-01", "to": "10-15" } ],
+            "sun": [ { "from": "06-15", "to": "08-31" } ],
+            "mountain": [ { "from": "06-15", "to": "10-10" } ],
+            "snow": [ { "from": "12-10", "to": "04-05" } ]
+          },
+          "climate": {
+            "avgHighC": [-5, -3, 3, 12, 19, 24, 27, 25, 20, 13, 5, -2],
+            "avgLowC": [-14, -12, -6, 1, 8, 13, 16, 15, 10, 4, -2, -10],
+            "rainMm": [77, 62, 70, 82, 81, 87, 89, 94, 83, 91, 96, 84],
+            "rainDays": [17, 13, 13, 12, 13, 13, 12, 11, 11, 13, 14, 16],
+            "sunHours": [113, 131, 160, 184, 229, 250, 271, 234, 174, 137, 79, 85],
+            "seaTempC": null,
+            "humidity": [72, 70, 67, 62, 62, 67, 70, 73, 76, 74, 77, 77]
+          },
+          "crowds": [2, 3, 3, 2, 3, 4, 5, 5, 3, 4, 1, 3],
+          "risks": [
+            { "type": "extreme cold", "from": "12-15", "to": "02-28", "note": "Cold snaps below −25 °C and occasional freezing rain." },
+            { "type": "blizzard", "from": "12-01", "to": "03-15", "note": "Snowstorms can close highways and delay flights." }
+          ],
+          "recurringHolidays": [
+            { "name": "Québec Winter Carnival", "approx": "Late January – mid-February", "effect": "Québec City's snow festival with parades and ice palace; hotels fill on weekends.", "dates": { "from": "01-30", "to": "02-15" } },
+            { "name": "Canadian Grand Prix", "approx": "Mid-June", "effect": "Montréal hotels triple in price over race weekend.", "dates": { "from": "06-12", "to": "06-15" } },
+            { "name": "Montréal International Jazz Festival", "approx": "Late June – early July", "effect": "Free outdoor concerts downtown; hotels book up.", "dates": { "from": "06-26", "to": "07-05" } },
+            { "name": "Construction holiday", "approx": "Last two weeks of July", "effect": "Much of Québec goes on holiday at once: busy roads, campgrounds and resorts.", "dates": { "from": "07-17", "to": "08-02" } },
+            { "name": "Canadian summer holidays", "approx": "Late June – Labour Day", "effect": "National-park campgrounds, ferries and lake cottages book out months ahead and prices peak.", "dates": { "from": "06-25", "to": "09-01" } },
+            { "name": "Canada Day", "approx": "1 July", "effect": "Fireworks and concerts in every city, especially Ottawa; a busy long weekend on the roads.", "dates": { "from": "07-01", "to": "07-01" } },
+            { "name": "Victoria Day weekend", "approx": "Weekend before 25 May", "effect": "The unofficial start of summer: cottages, campgrounds and parks fill up.", "dates": { "from": "05-16", "to": "05-25" } },
+            { "name": "March break", "approx": "Mid-March (dates vary by province)", "effect": "School spring break: ski resorts, Florida-bound flights and family attractions are at their busiest.", "dates": { "from": "03-08", "to": "03-22" } },
+            { "name": "Christmas & New Year", "approx": "Late December – early January", "effect": "Peak week at the ski resorts, with top prices in Whistler, Banff and Mont-Tremblant.", "dates": { "from": "12-20", "to": "01-03" } },
+            { "name": "Labour Day weekend", "approx": "First weekend of September", "effect": "The last summer long weekend: busy highways, ferries and parks.", "moving": { "anchor": "laborDayUS", "offsetDays": -2, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 50, "shoulder": 65, "high": 80 },
+            "midrangePerDay": { "low": 110, "shoulder": 140, "high": 180 },
+            "hotelNightMid": { "low": 110, "shoulder": 150, "high": 210 },
+            "notes": "Montréal is cheaper than Toronto or Vancouver. Québec City is pricier during the Winter Carnival and in July–August."
+          }
+        },
+        {
+          "id": "atlantic",
+          "name": "Atlantic Canada",
+          "description": "Nova Scotia (Halifax, Peggy's Cove, Lunenburg, the Cabot Trail), New Brunswick and the Bay of Fundy, Prince Edward Island, and Newfoundland and Labrador (St. John's, Gros Morne, Twillingate).",
+          "lat": 44.65,
+          "lon": -63.57,
+          "tags": ["coast", "seafood", "whales", "roadtrip", "beach", "hiking"],
+          "best": [
+            { "from": "07-01", "to": "10-15", "why": "Warmest and driest-feeling months: 23 °C days, whale watching in the Bay of Fundy and off Newfoundland, PEI beaches, then fall colours and the Celtic Colours festival on the Cabot Trail.", "goodFor": ["roadtrip", "nature", "city", "beach", "sun"] }
+          ],
+          "worst": [
+            { "from": "12-01", "to": "03-31", "why": "Cold, stormy and snowy, with nor'easters; many inns, ferries and tour operators close for the winter." }
+          ],
+          "shoulder": [
+            { "from": "05-15", "to": "06-30", "why": "Iceberg season off Newfoundland (May–June); cool, foggy and quiet, with lupins blooming in June." },
+            { "from": "04-01", "to": "05-14", "why": "Cold spring with fog and lingering sea ice; much is still closed." },
+            { "from": "10-16", "to": "11-30", "why": "Late colours, then wind and rain; seasonal businesses close." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "06-01", "to": "10-15" } ],
+            "nature": [ { "from": "05-15", "to": "10-15" } ],
+            "roadtrip": [ { "from": "06-15", "to": "10-15" } ],
+            "beach": [ { "from": "07-15", "to": "08-31" } ],
+            "sun": [ { "from": "07-01", "to": "08-31" } ]
+          },
+          "climate": {
+            "avgHighC": [-1, 0, 3, 9, 14, 19, 23, 23, 19, 13, 8, 2],
+            "avgLowC": [-9, -9, -5, 0, 5, 10, 14, 14, 10, 5, 0, -5],
+            "rainMm": [134, 106, 120, 111, 111, 96, 96, 94, 103, 124, 135, 135],
+            "rainDays": [17, 13, 15, 15, 14, 13, 12, 11, 11, 13, 15, 16],
+            "sunHours": [99, 113, 140, 163, 209, 213, 231, 226, 180, 151, 93, 85],
+            "seaTempC": [3, 1, 1, 3, 6, 10, 15, 17, 16, 12, 8, 5],
+            "humidity": [77, 75, 74, 74, 77, 82, 84, 82, 80, 78, 80, 79]
+          },
+          "crowds": [1, 1, 1, 1, 2, 3, 5, 5, 4, 3, 1, 1],
+          "risks": [
+            { "type": "hurricane", "from": "08-01", "to": "10-31", "note": "Post-tropical storms (Fiona 2022, Dorian 2019) bring flooding, power cuts and ferry cancellations." },
+            { "type": "fog", "from": "05-01", "to": "07-31", "note": "Thick coastal fog, especially in Newfoundland and on the Bay of Fundy." },
+            { "type": "blizzard", "from": "12-15", "to": "03-31", "note": "Nor'easters dump heavy snow and close roads and ferries." }
+          ],
+          "recurringHolidays": [
+            { "name": "Celtic Colours International Festival", "approx": "Mid-October", "effect": "Fiddle concerts across Cape Breton at peak foliage; inns book out.", "dates": { "from": "10-09", "to": "10-17" } },
+            { "name": "Canadian summer holidays", "approx": "Late June – Labour Day", "effect": "National-park campgrounds, ferries and lake cottages book out months ahead and prices peak.", "dates": { "from": "06-25", "to": "09-01" } },
+            { "name": "Canada Day", "approx": "1 July", "effect": "Fireworks and concerts in every city, especially Ottawa; a busy long weekend on the roads.", "dates": { "from": "07-01", "to": "07-01" } },
+            { "name": "Victoria Day weekend", "approx": "Weekend before 25 May", "effect": "The unofficial start of summer: cottages, campgrounds and parks fill up.", "dates": { "from": "05-16", "to": "05-25" } },
+            { "name": "March break", "approx": "Mid-March (dates vary by province)", "effect": "School spring break: ski resorts, Florida-bound flights and family attractions are at their busiest.", "dates": { "from": "03-08", "to": "03-22" } },
+            { "name": "Christmas & New Year", "approx": "Late December – early January", "effect": "Peak week at the ski resorts, with top prices in Whistler, Banff and Mont-Tremblant.", "dates": { "from": "12-20", "to": "01-03" } },
+            { "name": "Labour Day weekend", "approx": "First weekend of September", "effect": "The last summer long weekend: busy highways, ferries and parks.", "moving": { "anchor": "laborDayUS", "offsetDays": -2, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 50, "shoulder": 60, "high": 75 },
+            "midrangePerDay": { "low": 100, "shoulder": 130, "high": 170 },
+            "hotelNightMid": { "low": 100, "shoulder": 130, "high": 180 },
+            "notes": "A rental car is essential. Ferries to Newfoundland and the Magdalen Islands need booking in summer, and lobster is cheap here."
+          }
+        },
+        {
+          "id": "north",
+          "name": "The North (Yukon, NWT & Nunavut)",
+          "description": "Whitehorse, Dawson City and Kluane in the Yukon, Yellowknife, Inuvik and Nahanni in the Northwest Territories, and Iqaluit and Baffin Island in Nunavut.",
+          "lat": 62.45,
+          "lon": -114.37,
+          "tags": ["aurora", "wilderness", "midnight sun", "canoeing", "roadtrip", "dog sledding"],
+          "best": [
+            { "from": "06-01", "to": "08-25", "why": "Midnight sun and 20 °C days: hiking, canoeing and road trips on the Klondike and Dempster highways, with the Arctic coast open to visits.", "goodFor": ["nature", "mountain", "roadtrip"] },
+            { "from": "02-15", "to": "03-31", "why": "Late-winter aurora season: long nights for northern lights, clearer skies, dog sledding and ice roads, with days long enough to enjoy.", "goodFor": ["nature", "snow"] }
+          ],
+          "worst": [
+            { "from": "10-11", "to": "12-10", "why": "Freeze-up: lakes are neither frozen nor open, skies are often cloudy, days are short and many tours pause." }
+          ],
+          "shoulder": [
+            { "from": "08-26", "to": "10-10", "why": "The aurora returns over unfrozen lakes and the tundra turns red and gold; cooling fast." },
+            { "from": "12-11", "to": "02-14", "why": "Deep cold (−30 °C) and darkness, but good aurora odds and dog sledding." },
+            { "from": "04-01", "to": "05-31", "why": "Spring break-up: ice roads and river crossings close, long bright days return." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "06-01", "to": "09-30" }, { "from": "12-15", "to": "03-31" } ],
+            "mountain": [ { "from": "06-15", "to": "08-31" } ],
+            "roadtrip": [ { "from": "06-15", "to": "09-10" } ],
+            "snow": [ { "from": "12-01", "to": "04-10" } ]
+          },
+          "climate": {
+            "avgHighC": [-22, -19, -11, 1, 10, 18, 21, 18, 10, 1, -10, -19],
+            "avgLowC": [-30, -28, -23, -11, 0, 8, 12, 10, 4, -4, -18, -27],
+            "rainMm": [14, 13, 13, 11, 19, 27, 36, 40, 33, 30, 24, 15],
+            "rainDays": [12, 10, 9, 7, 7, 9, 10, 12, 13, 15, 15, 12],
+            "sunHours": [52, 117, 190, 272, 315, 338, 357, 281, 155, 74, 46, 25],
+            "seaTempC": null,
+            "humidity": [72, 71, 69, 64, 55, 51, 56, 63, 72, 80, 82, 76]
+          },
+          "crowds": [2, 3, 3, 2, 1, 3, 4, 4, 3, 1, 1, 2],
+          "risks": [
+            { "type": "extreme cold", "from": "12-01", "to": "03-15", "note": "Temperatures of −40 °C are possible; frostbite and vehicle failures are real risks." },
+            { "type": "wildfire", "from": "06-01", "to": "08-31", "note": "Forest fires; all of Yellowknife was evacuated in August 2023." },
+            { "type": "road closures", "from": "04-15", "to": "05-31", "note": "Ice roads and river ferries close during spring break-up (and again at freeze-up)." }
+          ],
+          "recurringHolidays": [
+            { "name": "Canadian summer holidays", "approx": "Late June – Labour Day", "effect": "National-park campgrounds, ferries and lake cottages book out months ahead and prices peak.", "dates": { "from": "06-25", "to": "09-01" } },
+            { "name": "Canada Day", "approx": "1 July", "effect": "Fireworks and concerts in every city, especially Ottawa; a busy long weekend on the roads.", "dates": { "from": "07-01", "to": "07-01" } },
+            { "name": "Victoria Day weekend", "approx": "Weekend before 25 May", "effect": "The unofficial start of summer: cottages, campgrounds and parks fill up.", "dates": { "from": "05-16", "to": "05-25" } },
+            { "name": "March break", "approx": "Mid-March (dates vary by province)", "effect": "School spring break: ski resorts, Florida-bound flights and family attractions are at their busiest.", "dates": { "from": "03-08", "to": "03-22" } },
+            { "name": "Christmas & New Year", "approx": "Late December – early January", "effect": "Peak week at the ski resorts, with top prices in Whistler, Banff and Mont-Tremblant.", "dates": { "from": "12-20", "to": "01-03" } },
+            { "name": "Labour Day weekend", "approx": "First weekend of September", "effect": "The last summer long weekend: busy highways, ferries and parks.", "moving": { "anchor": "laborDayUS", "offsetDays": -2, "durationDays": 4 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 90, "shoulder": 110, "high": 140 },
+            "midrangePerDay": { "low": 180, "shoulder": 230, "high": 300 },
+            "hotelNightMid": { "low": 180, "shoulder": 230, "high": 300 },
+            "notes": "Flights are the main cost; Nunavut is very expensive, with food prices two to three times those in the south. Yellowknife aurora packages (cabins, warm clothing) run $150–250 a night."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Vancouver", "aliases": ["YVR", "Stanley Park", "Granville Island", "North Vancouver", "Grouse Mountain"], "region": "bc" },
+        { "name": "Whistler", "aliases": ["Whistler Blackcomb", "Sea-to-Sky Highway", "Squamish"], "region": "bc" },
+        { "name": "Victoria", "aliases": ["Victoria BC", "Victoria British Columbia", "Butchart Gardens", "Vancouver Island"], "region": "bc" },
+        { "name": "Tofino", "aliases": ["Ucluelet", "Pacific Rim National Park", "Long Beach Tofino"], "region": "bc" },
+        { "name": "Okanagan", "aliases": ["Okanagan Valley", "Kelowna", "Penticton"], "region": "bc" },
+        { "name": "Haida Gwaii", "aliases": ["Queen Charlotte Islands"], "region": "bc" },
+        { "name": "Revelstoke", "aliases": ["Golden BC", "Kicking Horse"], "region": "bc" },
+        { "name": "Banff", "aliases": ["Banff National Park", "Banff Gondola", "Sulphur Mountain"], "region": "rockies" },
+        { "name": "Lake Louise", "aliases": ["Moraine Lake", "Lake Louise Ski Resort"], "region": "rockies" },
+        { "name": "Jasper", "aliases": ["Jasper National Park", "Maligne Lake"], "region": "rockies" },
+        { "name": "Icefields Parkway", "aliases": ["Columbia Icefield", "Athabasca Glacier"], "region": "rockies" },
+        { "name": "Calgary", "aliases": ["YYC", "Calgary Stampede"], "region": "rockies" },
+        { "name": "Canmore", "aliases": ["Kananaskis"], "region": "rockies" },
+        { "name": "Yoho National Park", "aliases": ["Yoho", "Emerald Lake", "Field BC"], "region": "rockies" },
+        { "name": "Waterton Lakes", "aliases": ["Waterton"], "region": "rockies" },
+        { "name": "Edmonton", "aliases": ["West Edmonton Mall"], "region": "rockies" },
+        { "name": "Drumheller", "aliases": ["Royal Tyrrell Museum", "Alberta Badlands"], "region": "rockies" },
+        { "name": "Winnipeg", "aliases": ["The Forks", "Canadian Museum for Human Rights"], "region": "prairies" },
+        { "name": "Churchill", "aliases": ["Churchill Manitoba", "Polar Bear Capital"], "region": "prairies" },
+        { "name": "Regina", "aliases": [], "region": "prairies" },
+        { "name": "Saskatoon", "aliases": [], "region": "prairies" },
+        { "name": "Riding Mountain National Park", "aliases": ["Riding Mountain"], "region": "prairies" },
+        { "name": "Grasslands National Park", "aliases": [], "region": "prairies" },
+        { "name": "Toronto", "aliases": ["YYZ", "CN Tower", "Toronto Islands"], "region": "ontario" },
+        { "name": "Niagara Falls", "aliases": ["Niagara", "Horseshoe Falls", "Niagara-on-the-Lake"], "region": "ontario" },
+        { "name": "Ottawa", "aliases": ["Parliament Hill", "Rideau Canal"], "region": "ontario" },
+        { "name": "Muskoka", "aliases": ["Muskoka Lakes", "Huntsville", "Cottage Country"], "region": "ontario" },
+        { "name": "Algonquin Provincial Park", "aliases": ["Algonquin", "Algonquin Park"], "region": "ontario" },
+        { "name": "Prince Edward County", "aliases": ["Sandbanks"], "region": "ontario" },
+        { "name": "Tobermory", "aliases": ["Bruce Peninsula", "Flowerpot Island"], "region": "ontario" },
+        { "name": "Blue Mountain", "aliases": ["Collingwood"], "region": "ontario" },
+        { "name": "Thousand Islands", "aliases": ["1000 Islands", "Gananoque"], "region": "ontario" },
+        { "name": "Georgian Bay", "aliases": ["Killarney Provincial Park"], "region": "ontario" },
+        { "name": "Montréal", "aliases": ["Montreal", "Vieux-Montréal", "Vieux-Montreal", "Old Montreal", "Mount Royal"], "region": "quebec" },
+        { "name": "Québec City", "aliases": ["Quebec City", "Ville de Québec", "Vieux-Québec", "Old Quebec", "Chateau Frontenac"], "region": "quebec" },
+        { "name": "Mont-Tremblant", "aliases": ["Mont Tremblant", "Tremblant", "Laurentians", "Laurentides"], "region": "quebec" },
+        { "name": "Charlevoix", "aliases": ["Baie-Saint-Paul", "La Malbaie"], "region": "quebec" },
+        { "name": "Tadoussac", "aliases": ["Saguenay Fjord", "Saguenay"], "region": "quebec" },
+        { "name": "Gaspésie", "aliases": ["Gaspesie", "Gaspé Peninsula", "Gaspe Peninsula", "Percé", "Perce", "Forillon"], "region": "quebec" },
+        { "name": "Eastern Townships", "aliases": ["Cantons-de-l'Est", "Magog", "North Hatley"], "region": "quebec" },
+        { "name": "Magdalen Islands", "aliases": ["Îles de la Madeleine", "Iles de la Madeleine"], "region": "quebec" },
+        { "name": "Halifax", "aliases": ["Peggy's Cove", "Peggys Cove"], "region": "atlantic" },
+        { "name": "Lunenburg", "aliases": ["Mahone Bay"], "region": "atlantic" },
+        { "name": "Cabot Trail", "aliases": ["Cape Breton", "Cape Breton Highlands", "Baddeck", "Ingonish"], "region": "atlantic" },
+        { "name": "Bay of Fundy", "aliases": ["Fundy", "Hopewell Rocks", "Fundy National Park", "St. Andrews by-the-Sea"], "region": "atlantic" },
+        { "name": "Saint John NB", "aliases": ["Saint John New Brunswick", "Fredericton", "Moncton"], "region": "atlantic" },
+        { "name": "Charlottetown", "aliases": ["Prince Edward Island", "PEI", "Cavendish", "Green Gables"], "region": "atlantic" },
+        { "name": "St. John's", "aliases": ["St. John's Newfoundland", "St Johns Newfoundland", "St. John's NL", "Signal Hill", "Cape Spear"], "region": "atlantic" },
+        { "name": "Gros Morne", "aliases": ["Gros Morne National Park", "Western Brook Pond"], "region": "atlantic" },
+        { "name": "Twillingate", "aliases": ["Iceberg Alley", "Fogo Island"], "region": "atlantic" },
+        { "name": "L'Anse aux Meadows", "aliases": ["Lanse aux Meadows", "St. Anthony"], "region": "atlantic" },
+        { "name": "Labrador", "aliases": ["Torngat Mountains", "Red Bay"], "region": "atlantic" },
+        { "name": "Whitehorse", "aliases": ["Yukon"], "region": "north" },
+        { "name": "Dawson City", "aliases": ["Klondike", "Tombstone Territorial Park"], "region": "north" },
+        { "name": "Kluane", "aliases": ["Kluane National Park", "Haines Junction"], "region": "north" },
+        { "name": "Yellowknife", "aliases": ["Northwest Territories", "NWT", "Great Slave Lake"], "region": "north" },
+        { "name": "Inuvik", "aliases": ["Tuktoyaktuk", "Dempster Highway"], "region": "north" },
+        { "name": "Nahanni", "aliases": ["Nahanni National Park", "Virginia Falls"], "region": "north" },
+        { "name": "Iqaluit", "aliases": ["Nunavut", "Baffin Island", "Pond Inlet"], "region": "north" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://travel.destinationcanada.com" },
+        { "label": "Parks Canada (national park passes and bookings)", "url": "https://parks.canada.ca" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Canada" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/canada" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/canada/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
       "iso2": "KY",
       "isoNum": "136",
       "name": "Cayman Islands",
@@ -399,6 +986,155 @@
         { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Cayman_Islands" },
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/cayman-islands" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/cayman-islands/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "CR",
+      "isoNum": "188",
+      "name": "Costa Rica",
+      "aliases": ["República de Costa Rica", "Republica de Costa Rica"],
+      "continent": "North America",
+      "flag": "🇨🇷",
+      "summary": "Costa Rica has two climates. The Pacific side and the central valley (Guanacaste, Nicoya, Manuel Antonio, Osa, San José, Arenal and Monteverde) have a dry season from mid-December to April and a 'green season' from May to November, when afternoon rain is the rule and September and October are very wet. The Caribbean coast (Tortuguero, Puerto Viejo, Cahuita) is wet most of the year but has its driest spells in September–October and February–April, the reverse of the Pacific in autumn. Christmas, New Year and Semana Santa are the busiest and most expensive weeks, and Costa Rican school holidays fill the beaches from mid-December to early February.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "pacific",
+          "name": "Pacific coast & central highlands",
+          "description": "Guanacaste (Tamarindo, Papagayo), the Nicoya Peninsula (Nosara, Santa Teresa), Manuel Antonio, Uvita, the Osa Peninsula and Corcovado, plus San José, Arenal and Monteverde.",
+          "lat": 10.3,
+          "lon": -85.84,
+          "tags": ["beach", "surf", "wildlife", "rainforest", "volcanoes", "nature"],
+          "best": [
+            { "from": "12-15", "to": "04-15", "why": "Dry season: sunny 32 °C days in Guanacaste, clear views of Arenal, dry trails in Corcovado and calm seas for diving off the Catalina Islands.", "goodFor": ["beach", "sun", "nature", "mountain", "roadtrip", "diving"] }
+          ],
+          "worst": [
+            { "from": "09-01", "to": "10-31", "why": "The wettest months: torrential afternoon and evening rain, flooded roads, and many Osa lodges closed." }
+          ],
+          "shoulder": [
+            { "from": "04-16", "to": "08-31", "why": "Green season: sunny mornings and afternoon showers, a drier spell in July, lower prices and turtle nesting at Ostional." },
+            { "from": "11-01", "to": "12-14", "why": "Rain easing and everything lush; quiet before the holiday peak." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "12-01", "to": "04-30" } ],
+            "sun": [ { "from": "12-15", "to": "04-15" } ],
+            "nature": [ { "from": "12-01", "to": "04-30" }, { "from": "07-01", "to": "08-15" } ],
+            "mountain": [ { "from": "12-15", "to": "04-15" } ],
+            "roadtrip": [ { "from": "12-01", "to": "04-30" } ],
+            "diving": [ { "from": "12-01", "to": "04-30" } ]
+          },
+          "climate": {
+            "avgHighC": [33, 34, 35, 35, 33, 31, 31, 31, 31, 30, 31, 32],
+            "avgLowC": [21, 21, 22, 23, 23, 23, 22, 22, 22, 22, 22, 21],
+            "rainMm": [2, 3, 6, 27, 211, 253, 170, 225, 324, 320, 102, 15],
+            "rainDays": [1, 1, 1, 3, 13, 18, 15, 18, 21, 21, 10, 2],
+            "sunHours": [280, 270, 290, 260, 200, 170, 180, 180, 160, 170, 200, 250],
+            "seaTempC": [26, 25, 26, 27, 28, 28, 28, 28, 28, 28, 27, 26],
+            "humidity": [68, 65, 63, 65, 77, 83, 81, 83, 86, 87, 81, 73]
+          },
+          "crowds": [5, 4, 5, 4, 2, 3, 4, 3, 1, 1, 2, 5],
+          "risks": [
+            { "type": "heavy rain", "from": "05-01", "to": "11-15", "note": "Daily downpours; rivers rise quickly and some fords on Nicoya and Osa roads become impassable." },
+            { "type": "landslides", "from": "09-01", "to": "11-15", "note": "Landslides close mountain roads, including the routes to Monteverde and Route 27." },
+            { "type": "strong wind", "from": "12-15", "to": "03-15", "note": "Papagayo winds blow hard across Guanacaste and Arenal." },
+            { "type": "rough seas", "from": "01-01", "to": "12-31", "note": "Strong rip currents on many surf beaches; swim only where it is safe." }
+          ],
+          "recurringHolidays": [
+            { "name": "Semana Santa", "approx": "Holy Week, March or April", "effect": "Ticos head to the beaches; many businesses close on Thursday and Friday and hotels are full.", "moving": { "anchor": "easter", "offsetDays": -7, "durationDays": 8 } },
+            { "name": "Christmas, New Year & school holidays", "approx": "Mid-December – early February", "effect": "Peak season: beach towns fill with local families and foreign visitors, and prices are highest over Christmas and New Year.", "dates": { "from": "12-15", "to": "02-05" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 55, "shoulder": 65, "high": 85 },
+            "midrangePerDay": { "low": 120, "shoulder": 150, "high": 200 },
+            "hotelNightMid": { "low": 100, "shoulder": 130, "high": 190 },
+            "notes": "Costa Rica is the most expensive country in Central America. National park entries ($15–20) must be booked online, and a 4x4 helps in Nicoya and Osa in the green season."
+          }
+        },
+        {
+          "id": "caribbean",
+          "name": "Caribbean coast",
+          "description": "Tortuguero and its canals, Puerto Viejo de Talamanca and Playa Cocles, Cahuita National Park, Gandoca-Manzanillo and Limón.",
+          "lat": 9.66,
+          "lon": -82.75,
+          "tags": ["beach", "wildlife", "turtles", "rainforest", "reggae", "snorkelling"],
+          "best": [
+            { "from": "09-01", "to": "10-15", "why": "The Caribbean's driest, calmest spell, when the Pacific is at its wettest: clear water for snorkelling at Cahuita and green turtles nesting at Tortuguero.", "goodFor": ["beach", "sun", "nature", "diving"] },
+            { "from": "02-15", "to": "04-15", "why": "A second dry spell with sunny days and leatherback turtles arriving at Tortuguero from March.", "goodFor": ["beach", "sun", "nature", "diving"] }
+          ],
+          "worst": [
+            { "from": "11-15", "to": "01-31", "why": "The heaviest rains of the year, with flooding around Limón and Sixaola and big, murky swells." }
+          ],
+          "shoulder": [
+            { "from": "04-16", "to": "08-31", "why": "Unsettled, showery weather with sunny breaks; turtle nesting at Tortuguero (green turtles from July)." },
+            { "from": "02-01", "to": "02-14", "why": "Rain easing." },
+            { "from": "10-16", "to": "11-14", "why": "Rain returning after the dry spell." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "02-15", "to": "04-15" }, { "from": "09-01", "to": "10-15" } ],
+            "sun": [ { "from": "03-01", "to": "04-15" }, { "from": "09-01", "to": "10-15" } ],
+            "nature": [ { "from": "07-01", "to": "10-31" }, { "from": "02-15", "to": "04-30" } ],
+            "diving": [ { "from": "02-15", "to": "04-15" }, { "from": "09-01", "to": "10-15" } ]
+          },
+          "climate": {
+            "avgHighC": [29, 29, 29, 30, 30, 30, 29, 29, 30, 30, 29, 29],
+            "avgLowC": [21, 21, 22, 22, 23, 23, 23, 23, 23, 22, 22, 21],
+            "rainMm": [293, 186, 183, 254, 286, 281, 430, 290, 159, 200, 383, 437],
+            "rainDays": [18, 14, 14, 14, 17, 18, 21, 19, 14, 15, 19, 21],
+            "sunHours": [170, 190, 210, 200, 190, 170, 150, 170, 200, 200, 160, 150],
+            "seaTempC": [27, 27, 27, 28, 28, 28, 28, 28, 29, 29, 28, 27],
+            "humidity": [86, 85, 85, 85, 86, 87, 88, 87, 85, 85, 87, 87]
+          },
+          "crowds": [3, 3, 3, 4, 2, 2, 4, 3, 3, 3, 1, 3],
+          "risks": [
+            { "type": "heavy rain", "from": "11-01", "to": "01-31", "note": "Floods around Limón and Sixaola can cut the coast road." },
+            { "type": "heavy rain", "from": "06-15", "to": "07-31", "note": "A second wet spell in mid-summer." },
+            { "type": "rough seas", "from": "12-01", "to": "03-31", "note": "Big swells and rip currents at Playa Cocles and Salsa Brava." }
+          ],
+          "recurringHolidays": [
+            { "name": "Limón Carnival", "approx": "Around 12 October", "effect": "Afro-Caribbean parades and calypso in Puerto Limón; nearby hotels fill.", "dates": { "from": "10-05", "to": "10-14" } },
+            { "name": "Semana Santa", "approx": "Holy Week, March or April", "effect": "Ticos head to the beaches; many businesses close on Thursday and Friday and hotels are full.", "moving": { "anchor": "easter", "offsetDays": -7, "durationDays": 8 } },
+            { "name": "Christmas, New Year & school holidays", "approx": "Mid-December – early February", "effect": "Peak season: beach towns fill with local families and foreign visitors, and prices are highest over Christmas and New Year.", "dates": { "from": "12-15", "to": "02-05" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 45, "shoulder": 55, "high": 65 },
+            "midrangePerDay": { "low": 90, "shoulder": 110, "high": 140 },
+            "hotelNightMid": { "low": 70, "shoulder": 90, "high": 120 },
+            "notes": "Cheaper and more laid-back than the Pacific beach towns. Tortuguero is reached only by boat or small plane, usually on a 2–3 night package."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "San José", "aliases": ["San Jose Costa Rica", "Chepe", "Central Valley", "Alajuela"], "region": "pacific" },
+        { "name": "Arenal", "aliases": ["La Fortuna", "Arenal Volcano", "Volcán Arenal", "Volcan Arenal"], "region": "pacific" },
+        { "name": "Monteverde", "aliases": ["Monteverde Cloud Forest", "Santa Elena Monteverde"], "region": "pacific" },
+        { "name": "Río Celeste", "aliases": ["Rio Celeste", "Tenorio"], "region": "pacific" },
+        { "name": "Rincón de la Vieja", "aliases": ["Rincon de la Vieja"], "region": "pacific" },
+        { "name": "Tamarindo", "aliases": ["Guanacaste", "Playa Grande", "Playa Flamingo", "Playas del Coco", "Papagayo"], "region": "pacific" },
+        { "name": "Nosara", "aliases": ["Playa Guiones", "Ostional"], "region": "pacific" },
+        { "name": "Santa Teresa", "aliases": ["Mal País", "Mal Pais", "Montezuma", "Nicoya Peninsula", "Nicoya"], "region": "pacific" },
+        { "name": "Manuel Antonio", "aliases": ["Quepos"], "region": "pacific" },
+        { "name": "Jacó", "aliases": ["Jaco"], "region": "pacific" },
+        { "name": "Uvita", "aliases": ["Dominical", "Marino Ballena", "Ojochal"], "region": "pacific" },
+        { "name": "Corcovado", "aliases": ["Osa Peninsula", "Drake Bay", "Puerto Jiménez", "Puerto Jimenez"], "region": "pacific" },
+        { "name": "Chirripó", "aliases": ["Chirripo", "Cerro Chirripó"], "region": "pacific" },
+        { "name": "Tortuguero", "aliases": ["Tortuguero National Park"], "region": "caribbean" },
+        { "name": "Puerto Viejo", "aliases": ["Puerto Viejo de Talamanca", "Playa Cocles", "Punta Uva", "Gandoca-Manzanillo"], "region": "caribbean" },
+        { "name": "Cahuita", "aliases": ["Cahuita National Park"], "region": "caribbean" },
+        { "name": "Limón", "aliases": ["Limon", "Puerto Limón", "Puerto Limon"], "region": "caribbean" },
+        { "name": "Liberia", "aliases": ["Liberia Costa Rica", "Liberia Guanacaste"], "region": "pacific" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.visitcostarica.com" },
+        { "label": "National park entry tickets (SINAC)", "url": "https://serviciosenlinea.sinac.go.cr" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Costa_Rica" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/costa-rica" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/costa-rica/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"
@@ -810,6 +1546,177 @@
       "lastReviewed": "2026-10"
     },
     {
+      "iso2": "SV",
+      "isoNum": "222",
+      "name": "El Salvador",
+      "aliases": ["República de El Salvador", "Republica de El Salvador"],
+      "continent": "North America",
+      "flag": "🇸🇻",
+      "summary": "El Salvador's dry season runs from mid-November to April, with sunny 30–33 °C days on the coast, cooler air on the Ruta de las Flores and clear views from the volcanoes. The rainy season (May to October) brings heavy afternoon and night storms, peaking in September and early October, but also the biggest Pacific swells, so surfers come to El Tunco and Punta Roca from March to October. The country is small, so the coast, the capital and the volcano highlands are all within two hours of each other. Gang violence has fallen sharply since 2022, but check government travel advice.",
+      "splitByRegion": false,
+      "splitReason": "The country is small and shares one Pacific-slope calendar; the highlands are just a few degrees cooler than the coast.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "San Salvador, the Surf City coast (El Tunco, El Zonte, Punta Roca), the eastern beaches around El Cuco, the Ruta de las Flores, Santa Ana volcano and Lake Coatepeque, and Suchitoto.",
+          "lat": 13.69,
+          "lon": -89.22,
+          "tags": ["surf", "beach", "volcanoes", "colonial towns", "coffee", "hiking"],
+          "best": [
+            { "from": "11-15", "to": "04-15", "why": "Dry season: sunny skies, 30 °C on the coast and fresh mornings in the highlands, with clear crater views from Santa Ana volcano.", "goodFor": ["beach", "sun", "city", "nature", "mountain", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "09-01", "to": "10-15", "why": "The wettest weeks: torrential storms, flooding and landslides, and murky, stormy seas." }
+          ],
+          "shoulder": [
+            { "from": "04-16", "to": "08-31", "why": "Rainy season, but mostly late-afternoon and night storms; the best surf, green landscapes and low prices." },
+            { "from": "10-16", "to": "11-14", "why": "Rains tapering off; still humid." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "11-01", "to": "05-15" } ],
+            "sun": [ { "from": "11-15", "to": "04-15" } ],
+            "city": [ { "from": "11-01", "to": "04-30" } ],
+            "nature": [ { "from": "11-01", "to": "04-30" } ],
+            "mountain": [ { "from": "11-15", "to": "04-15" } ],
+            "roadtrip": [ { "from": "11-15", "to": "04-30" } ]
+          },
+          "climate": {
+            "avgHighC": [31, 32, 33, 33, 32, 30, 31, 31, 30, 30, 30, 30],
+            "avgLowC": [17, 17, 18, 20, 20, 20, 20, 20, 20, 19, 18, 17],
+            "rainMm": [5, 5, 10, 40, 170, 300, 290, 300, 330, 220, 45, 10],
+            "rainDays": [1, 1, 2, 4, 12, 19, 19, 20, 21, 15, 4, 1],
+            "sunHours": [270, 260, 270, 240, 210, 180, 220, 210, 170, 200, 240, 260],
+            "seaTempC": [28, 28, 28, 29, 29, 29, 29, 29, 29, 29, 29, 28],
+            "humidity": [66, 64, 65, 68, 75, 82, 80, 81, 84, 82, 74, 68]
+          },
+          "crowds": [2, 2, 3, 3, 2, 2, 2, 3, 1, 1, 2, 4],
+          "risks": [
+            { "type": "heavy rain", "from": "05-15", "to": "10-31", "note": "Intense storms cause flash floods in San Salvador." },
+            { "type": "landslides", "from": "06-01", "to": "10-31", "note": "Landslides on volcano slopes and the coastal highway." },
+            { "type": "hurricane", "from": "06-01", "to": "11-15", "note": "Tropical storms from both oceans bring flooding (Amanda and Cristóbal, 2020)." },
+            { "type": "extreme heat", "from": "03-01", "to": "05-15", "note": "Coastal temperatures reach 35 °C before the rains." }
+          ],
+          "recurringHolidays": [
+            { "name": "Semana Santa", "approx": "Holy Week, March or April", "effect": "Salvadorans head to the beaches; coastal hotels book out and prices rise.", "moving": { "anchor": "easter", "offsetDays": -7, "durationDays": 8 } },
+            { "name": "Fiestas Agostinas", "approx": "1–6 August", "effect": "The capital's patron-saint holidays: offices close and the beaches fill.", "dates": { "from": "08-01", "to": "08-06" } },
+            { "name": "Christmas & New Year", "approx": "Late December – early January", "effect": "Busy beaches and fireworks; returning emigrants fill flights.", "dates": { "from": "12-20", "to": "01-02" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 35, "shoulder": 40, "high": 50 },
+            "midrangePerDay": { "low": 70, "shoulder": 85, "high": 110 },
+            "hotelNightMid": { "low": 50, "shoulder": 65, "high": 90 },
+            "notes": "Cheap by regional standards, and the US dollar is the currency. Beach hotels in El Tunco and El Zonte are fully booked at Semana Santa."
+          },
+          "seaLat": 13.49,
+          "seaLon": -89.38
+        }
+      ],
+      "cities": [
+        { "name": "San Salvador", "aliases": [], "region": "country" },
+        { "name": "El Tunco", "aliases": ["Playa El Tunco", "La Libertad", "Surf City El Salvador", "El Zonte", "Punta Roca"], "region": "country" },
+        { "name": "Santa Ana", "aliases": ["Santa Ana El Salvador", "Santa Ana volcano", "Ilamatepec", "Cerro Verde", "Lake Coatepeque", "Lago de Coatepeque"], "region": "country" },
+        { "name": "Ruta de las Flores", "aliases": ["Juayúa", "Juayua", "Concepción de Ataco", "Ataco", "Apaneca"], "region": "country" },
+        { "name": "Suchitoto", "aliases": ["Lago Suchitlán"], "region": "country" },
+        { "name": "El Cuco", "aliases": ["Playa Las Flores", "Las Flores El Salvador"], "region": "country" },
+        { "name": "Joya de Cerén", "aliases": ["Joya de Ceren", "Tazumal"], "region": "country" },
+        { "name": "El Imposible", "aliases": ["El Imposible National Park"], "region": "country" },
+        { "name": "Perquín", "aliases": ["Perquin"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://elsalvador.travel" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/El_Salvador" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/el-salvador" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/el-salvador/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "GL",
+      "isoNum": "304",
+      "name": "Greenland",
+      "aliases": ["Kalaallit Nunaat", "Grønland", "Gronland"],
+      "continent": "North America",
+      "flag": "🇬🇱",
+      "summary": "Greenland, a self-governing territory of Denmark, has a short summer season from mid-June to August, when the midnight sun shines north of the Arctic Circle, temperatures reach 8–12 °C, boats sail among the icebergs of the Ilulissat Icefjord and Disko Bay, and hiking trails are snow-free. March and April are the second season: long, bright, very cold days for dog sledding, with the northern lights at night. From November to January the sun barely rises or does not rise at all north of the Arctic Circle, and few tours run. There are no roads between towns, so everything depends on Air Greenland flights and coastal boats.",
+      "splitByRegion": false,
+      "splitReason": "All the visited settlements share one Arctic calendar of a short midnight-sun summer and a long, dark winter; the east coast (Tasiilaq) is snowier and stormier but follows the same seasons.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Nuuk, Kangerlussuaq, Sisimiut, Ilulissat and Disko Bay on the west coast, Narsarsuaq and Qaqortoq in the south, and Tasiilaq in the east.",
+          "lat": 69.22,
+          "lon": -51.1,
+          "tags": ["icebergs", "midnight sun", "aurora", "dog sledding", "hiking", "wildlife"],
+          "best": [
+            { "from": "06-15", "to": "08-31", "why": "Arctic summer: the midnight sun, 8–12 °C days, boat trips among Ilulissat's icebergs, whale watching and hiking on snow-free trails.", "goodFor": ["nature", "mountain"] },
+            { "from": "03-01", "to": "04-15", "why": "Late-winter light: long, bright days for dog sledding and snowmobiling, frozen fjords and the northern lights at night.", "goodFor": ["nature", "snow"] }
+          ],
+          "worst": [
+            { "from": "11-01", "to": "01-31", "why": "Polar night: the sun does not rise in Ilulissat in December, it is −15 °C or colder, and very few tours operate." }
+          ],
+          "shoulder": [
+            { "from": "09-01", "to": "10-31", "why": "The northern lights return over open water and the tundra turns red; cold storms and boat trips wind down." },
+            { "from": "02-01", "to": "02-28", "why": "The sun returns, but it is bitterly cold and days are still short." },
+            { "from": "04-16", "to": "06-14", "why": "Spring melt: sledding ends but the sea ice blocks many boats; slushy and changeable." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "06-15", "to": "09-15" }, { "from": "02-15", "to": "04-15" } ],
+            "mountain": [ { "from": "07-01", "to": "08-31" } ],
+            "snow": [ { "from": "02-15", "to": "04-30" } ]
+          },
+          "climate": {
+            "avgHighC": [-10, -12, -11, -5, 3, 8, 10, 9, 4, -2, -6, -9],
+            "avgLowC": [-18, -19, -19, -13, -3, 2, 4, 3, -1, -7, -12, -16],
+            "rainMm": [13, 14, 16, 20, 18, 25, 35, 40, 40, 30, 22, 15],
+            "rainDays": [6, 6, 7, 7, 6, 6, 8, 9, 10, 9, 8, 7],
+            "sunHours": [5, 45, 150, 240, 300, 310, 290, 220, 130, 70, 15, 0],
+            "seaTempC": [-1, -1, -1, -1, 0, 2, 4, 5, 3, 1, 0, -1],
+            "humidity": [70, 70, 70, 72, 75, 78, 80, 80, 78, 75, 72, 70]
+          },
+          "crowds": [1, 1, 2, 2, 2, 4, 5, 5, 3, 1, 1, 1],
+          "risks": [
+            { "type": "extreme cold", "from": "12-01", "to": "03-31", "note": "Temperatures below −25 °C with wind chill; proper Arctic clothing is essential." },
+            { "type": "strong wind", "from": "10-01", "to": "03-31", "note": "Violent piteraq katabatic storms hit the east coast around Tasiilaq." },
+            { "type": "fog", "from": "06-01", "to": "08-31", "note": "Coastal fog often grounds Air Greenland's small planes; build buffer days into itineraries." }
+          ],
+          "recurringHolidays": [
+            { "name": "National Day (Ulloq Inuiattut)", "approx": "21 June", "effect": "Midsummer celebrations with kaffemiks and events in every town; some offices close.", "dates": { "from": "06-21", "to": "06-21" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 120, "shoulder": 150, "high": 180 },
+            "midrangePerDay": { "low": 220, "shoulder": 280, "high": 350 },
+            "hotelNightMid": { "low": 180, "shoulder": 230, "high": 300 },
+            "notes": "Very expensive: flights via Copenhagen or Reykjavík and internal Air Greenland hops make up most of the cost, and boat and sledding tours run $150–400. Prices are in Danish kroner."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Nuuk", "aliases": ["Godthåb", "Godthab"], "region": "country" },
+        { "name": "Ilulissat", "aliases": ["Ilulissat Icefjord", "Jakobshavn", "Sermermiut"], "region": "country" },
+        { "name": "Disko Bay", "aliases": ["Qeqertarsuaq", "Disko Island", "Qasigiannguit"], "region": "country" },
+        { "name": "Kangerlussuaq", "aliases": ["Søndre Strømfjord", "Sondre Stromfjord", "Russell Glacier"], "region": "country" },
+        { "name": "Sisimiut", "aliases": ["Arctic Circle Trail"], "region": "country" },
+        { "name": "Tasiilaq", "aliases": ["Ammassalik", "East Greenland", "Kulusuk"], "region": "country" },
+        { "name": "Narsarsuaq", "aliases": ["Narsaq", "Qaqortoq", "South Greenland"], "region": "country" },
+        { "name": "Uummannaq", "aliases": [], "region": "country" },
+        { "name": "Ittoqqortoormiit", "aliases": ["Scoresbysund", "Scoresby Sund"], "region": "country" },
+        { "name": "Qaanaaq", "aliases": ["Thule"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://visitgreenland.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Greenland" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
       "iso2": "GD",
       "isoNum": "308",
       "name": "Grenada",
@@ -895,6 +1802,94 @@
       "lastReviewed": "2026-10"
     },
     {
+      "iso2": "GT",
+      "isoNum": "320",
+      "name": "Guatemala",
+      "aliases": ["República de Guatemala", "Republica de Guatemala"],
+      "continent": "North America",
+      "flag": "🇬🇹",
+      "summary": "Guatemala's dry season runs from November to April, with sunny days of 24–28 °C in Antigua and around Lake Atitlán, clear views for volcano hikes and dry trails at Tikal. The rainy season from May to October usually brings afternoon and evening downpours rather than all-day rain, and the landscape is lush, but September and October are the wettest months, with landslides on mountain roads. The highlands are cool at night all year, while the Petén lowlands around Tikal are hot and humid. Semana Santa in Antigua is spectacular but the busiest and most expensive week of the year.",
+      "splitByRegion": false,
+      "splitReason": "The highlands and the Petén lowlands share the same dry season (November to April) and rainy season (May to October); only the temperatures differ.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Guatemala City, Antigua and its volcanoes, Lake Atitlán, Chichicastenango, Quetzaltenango, Semuc Champey, Río Dulce, and Flores and Tikal in the Petén.",
+          "lat": 14.56,
+          "lon": -90.73,
+          "tags": ["culture", "colonial towns", "volcanoes", "ruins", "lakes", "markets", "hiking"],
+          "best": [
+            { "from": "11-01", "to": "04-15", "why": "Dry season: sunny 24–28 °C days in Antigua and Atitlán, clear volcano summits for the Acatenango hike and dry jungle trails at Tikal.", "goodFor": ["city", "nature", "mountain", "roadtrip", "sun"] }
+          ],
+          "worst": [
+            { "from": "08-15", "to": "10-15", "why": "The wettest weeks: heavy daily storms, landslides on mountain roads, and mud at Tikal and Semuc Champey." }
+          ],
+          "shoulder": [
+            { "from": "04-16", "to": "08-14", "why": "Rains from May, mostly in the afternoons, with a drier spell (canícula) in July; green and quiet." },
+            { "from": "10-16", "to": "10-31", "why": "Rains easing; roads can still be damaged." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "11-01", "to": "04-30" } ],
+            "nature": [ { "from": "11-15", "to": "04-30" } ],
+            "mountain": [ { "from": "11-15", "to": "03-31" } ],
+            "roadtrip": [ { "from": "11-15", "to": "04-30" } ],
+            "sun": [ { "from": "12-01", "to": "04-15" } ]
+          },
+          "climate": {
+            "avgHighC": [24, 25, 27, 28, 28, 26, 25, 26, 25, 24, 24, 23],
+            "avgLowC": [12, 12, 14, 15, 16, 17, 16, 16, 16, 16, 14, 13],
+            "rainMm": [1, 3, 4, 23, 105, 274, 203, 199, 237, 128, 25, 7],
+            "rainDays": [2, 2, 3, 5, 13, 22, 20, 20, 21, 15, 5, 2],
+            "sunHours": [250, 250, 270, 230, 200, 160, 190, 190, 150, 170, 210, 230],
+            "seaTempC": null,
+            "humidity": [72, 70, 67, 68, 74, 82, 80, 80, 83, 81, 77, 75]
+          },
+          "crowds": [3, 3, 4, 4, 2, 2, 3, 2, 1, 1, 3, 4],
+          "risks": [
+            { "type": "heavy rain", "from": "06-01", "to": "10-31", "note": "Torrential afternoon storms and flash floods in the highlands." },
+            { "type": "landslides", "from": "06-01", "to": "10-31", "note": "Mountain roads, including the routes to Atitlán and Semuc Champey, can be blocked for days." },
+            { "type": "hurricane", "from": "08-01", "to": "11-15", "note": "Tropical storms bring flooding to the north and east; Eta and Iota (2020) devastated Alta Verapaz." }
+          ],
+          "recurringHolidays": [
+            { "name": "Semana Santa", "approx": "Holy Week, March or April", "effect": "Antigua's famous processions and flower carpets; hotels triple their prices and book out months ahead, and Guatemalans head to Atitlán and the beaches.", "moving": { "anchor": "easter", "offsetDays": -7, "durationDays": 8 } },
+            { "name": "All Saints' Day kite festivals", "approx": "1 November", "effect": "Giant kites at Sumpango and Santiago Sacatepéquez near Antigua draw big crowds.", "dates": { "from": "11-01", "to": "11-01" } },
+            { "name": "Christmas & New Year", "approx": "Late December – early January", "effect": "Busy in Antigua and Atitlán, with fireworks and the Burning of the Devil on 7 December.", "dates": { "from": "12-20", "to": "01-02" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 35, "high": 45 },
+            "midrangePerDay": { "low": 65, "shoulder": 80, "high": 110 },
+            "hotelNightMid": { "low": 45, "shoulder": 60, "high": 100 },
+            "notes": "Good value overall; Antigua is the priciest base. Tourist shuttles link the main sights cheaply, and Fuego is an active volcano, so check eruption alerts before hiking."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Guatemala City", "aliases": ["Ciudad de Guatemala", "Guate", "Zona Viva"], "region": "country" },
+        { "name": "Antigua Guatemala", "aliases": ["La Antigua Guatemala", "Antigua GT"], "region": "country" },
+        { "name": "Lake Atitlán", "aliases": ["Lago de Atitlán", "Lago de Atitlan", "Lake Atitlan", "Panajachel", "San Pedro La Laguna", "San Marcos La Laguna", "San Juan La Laguna"], "region": "country" },
+        { "name": "Tikal", "aliases": ["Tikal National Park", "Petén", "Peten", "Yaxhá", "Yaxha"], "region": "country" },
+        { "name": "Flores", "aliases": ["Flores Guatemala", "Flores Petén", "Isla de Flores", "Santa Elena Petén"], "region": "country" },
+        { "name": "Chichicastenango", "aliases": ["Chichi"], "region": "country" },
+        { "name": "Semuc Champey", "aliases": ["Lanquín", "Lanquin", "Cobán", "Coban"], "region": "country" },
+        { "name": "Quetzaltenango", "aliases": ["Xela"], "region": "country" },
+        { "name": "Acatenango", "aliases": ["Volcán Acatenango", "Volcán de Fuego", "Volcan de Fuego", "Pacaya"], "region": "country" },
+        { "name": "Río Dulce", "aliases": ["Rio Dulce", "Livingston"], "region": "country" },
+        { "name": "El Mirador", "aliases": [], "region": "country" },
+        { "name": "Monterrico", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://visitguatemala.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Guatemala" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/guatemala" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/guatemala/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
       "iso2": "HT",
       "isoNum": "332",
       "name": "Haiti",
@@ -974,6 +1969,97 @@
         { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Haiti" },
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/haiti" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/haiti/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "HN",
+      "isoNum": "340",
+      "name": "Honduras",
+      "aliases": ["República de Honduras", "Republica de Honduras"],
+      "continent": "North America",
+      "flag": "🇭🇳",
+      "summary": "Most visitors come for the Bay Islands (Roatán, Utila, Guanaja) and the Maya ruins of Copán. On the Caribbean side the driest, calmest months are March to June, ideal for diving, while October to January brings the heaviest rains, cold-front storms and choppy seas. Copán and the highlands follow the usual Central American pattern of a dry season from November to April and afternoon storms from May to October. Hurricanes can strike from June to November (Mitch in 1998, Eta and Iota in 2020). Crime is high on the mainland, especially in the cities, so check government travel advice.",
+      "splitByRegion": false,
+      "splitReason": "The Bay Islands and the north coast set the calendar for most trips; Copán's dry season (November to April) overlaps with the islands' best months from February to April.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "The Bay Islands (Roatán, Utila, Guanaja) and Cayos Cochinos, the north coast (La Ceiba, Tela, Pico Bonito), Copán Ruinas, Lake Yojoa, Tegucigalpa and La Mosquitia.",
+          "lat": 16.32,
+          "lon": -86.53,
+          "tags": ["diving", "beach", "reef", "islands", "ruins", "jungle"],
+          "best": [
+            { "from": "02-15", "to": "06-15", "why": "Driest, calmest months on the Caribbean: 29–31 °C, flat, clear sea for diving, whale sharks off Utila in March and April, and dry trails at Copán.", "goodFor": ["diving", "beach", "sun", "nature", "roadtrip", "city"] }
+          ],
+          "worst": [
+            { "from": "10-01", "to": "12-15", "why": "The heaviest rains on the north coast and the islands, with cold-front storms, rough seas and the hurricane season's tail." }
+          ],
+          "shoulder": [
+            { "from": "06-16", "to": "09-30", "why": "Hot and humid with showers and hurricane risk, but often calm seas and good diving; whale sharks again in August and September." },
+            { "from": "12-16", "to": "02-14", "why": "Northers bring rain and choppy crossings between showers; busy at Christmas." }
+          ],
+          "activityWindows": {
+            "diving": [ { "from": "02-15", "to": "09-30" } ],
+            "beach": [ { "from": "02-15", "to": "08-31" } ],
+            "sun": [ { "from": "03-01", "to": "06-15" } ],
+            "nature": [ { "from": "01-15", "to": "05-31" } ],
+            "city": [ { "from": "11-15", "to": "05-31" } ],
+            "roadtrip": [ { "from": "02-01", "to": "05-31" } ]
+          },
+          "climate": {
+            "avgHighC": [28, 28, 29, 30, 31, 31, 31, 31, 31, 30, 29, 28],
+            "avgLowC": [23, 23, 23, 24, 25, 26, 26, 26, 25, 25, 24, 23],
+            "rainMm": [200, 110, 70, 50, 90, 140, 170, 150, 220, 330, 330, 260],
+            "rainDays": [15, 10, 7, 5, 7, 11, 13, 13, 15, 18, 19, 18],
+            "sunHours": [190, 200, 240, 260, 250, 220, 230, 230, 200, 180, 170, 170],
+            "seaTempC": [27, 27, 27, 28, 28, 29, 29, 29, 29, 29, 28, 27],
+            "humidity": [82, 80, 79, 78, 79, 80, 80, 80, 82, 84, 85, 84]
+          },
+          "crowds": [3, 3, 4, 4, 3, 2, 4, 3, 2, 1, 2, 4],
+          "risks": [
+            { "type": "hurricane", "from": "06-01", "to": "11-30", "note": "Peak September to November; Mitch (1998) and Eta and Iota (2020) caused catastrophic floods." },
+            { "type": "heavy rain", "from": "09-15", "to": "01-31", "note": "Floods on the north coast and in the Sula valley, and cancelled island ferries." },
+            { "type": "landslides", "from": "06-01", "to": "11-30", "note": "Landslides on mountain roads after heavy rain." }
+          ],
+          "recurringHolidays": [
+            { "name": "Semana Santa", "approx": "Holy Week, March or April", "effect": "Hondurans pour into the Bay Islands and the north-coast beaches; ferries and hotels book out.", "moving": { "anchor": "easter", "offsetDays": -7, "durationDays": 8 } },
+            { "name": "Carnaval de La Ceiba", "approx": "Mid to late May", "effect": "Central America's biggest street carnival; La Ceiba hotels fill.", "dates": { "from": "05-14", "to": "05-22" } },
+            { "name": "Christmas & New Year", "approx": "Late December – early January", "effect": "Busy on Roatán and Utila, with cruise ships and returning emigrants.", "dates": { "from": "12-20", "to": "01-02" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 50, "high": 60 },
+            "midrangePerDay": { "low": 80, "shoulder": 100, "high": 130 },
+            "hotelNightMid": { "low": 60, "shoulder": 80, "high": 120 },
+            "notes": "Utila is one of the world's cheapest places to learn to dive. Roatán is pricier, especially in West Bay; ferries and flights from La Ceiba reach both islands."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Roatán", "aliases": ["Roatan", "West Bay Roatán", "West Bay Roatan", "West End Roatan", "Coxen Hole", "French Harbour"], "region": "country" },
+        { "name": "Utila", "aliases": [], "region": "country" },
+        { "name": "Guanaja", "aliases": [], "region": "country" },
+        { "name": "Bay Islands", "aliases": ["Islas de la Bahía", "Islas de la Bahia"], "region": "country" },
+        { "name": "Cayos Cochinos", "aliases": ["Cayos Cochinos Marine Reserve"], "region": "country" },
+        { "name": "Copán Ruinas", "aliases": ["Copan Ruinas", "Copán", "Copan"], "region": "country" },
+        { "name": "La Ceiba", "aliases": ["Pico Bonito", "Río Cangrejal", "Rio Cangrejal"], "region": "country" },
+        { "name": "Tela", "aliases": ["Lancetilla"], "region": "country" },
+        { "name": "Lake Yojoa", "aliases": ["Lago de Yojoa", "Pulhapanzak"], "region": "country" },
+        { "name": "Tegucigalpa", "aliases": ["Tegus", "Valle de Ángeles"], "region": "country" },
+        { "name": "San Pedro Sula", "aliases": [], "region": "country" },
+        { "name": "Gracias", "aliases": ["Celaque"], "region": "country" },
+        { "name": "La Mosquitia", "aliases": ["Mosquitia", "Río Plátano", "Rio Platano"], "region": "country" },
+        { "name": "Trujillo Honduras", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://honduras.travel" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Honduras" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/honduras" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/honduras/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"
@@ -1064,6 +2150,484 @@
         { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Jamaica" },
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/jamaica" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/jamaica/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "MX",
+      "isoNum": "484",
+      "name": "Mexico",
+      "aliases": ["México", "Estados Unidos Mexicanos", "United Mexican States"],
+      "continent": "North America",
+      "flag": "🇲🇽",
+      "summary": "Mexico's main season is the dry season from November or December to April, when the Caribbean coast, the Pacific resorts and Baja are sunny and 28–30 °C, and the central highlands (Mexico City, Oaxaca, San Miguel de Allende) have clear, mild days and cool nights. The rainy season runs from June to October: in the highlands it usually means a short afternoon downpour, but on the coasts it is hot and humid, with hurricanes most likely from August to October. Sargassum seaweed can foul Caribbean beaches from about April to September. Christmas, March (US spring break) and Semana Santa are the busiest and most expensive weeks, and Día de Muertos (31 October–2 November) is worth timing a trip around. Security varies greatly by state, so check government travel advice.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "yucatan",
+          "name": "Yucatán Peninsula & Caribbean coast",
+          "description": "Cancún, Playa del Carmen and the Riviera Maya, Tulum, Cozumel, Isla Mujeres, Holbox, Bacalar, Mérida, Valladolid, Chichén Itzá, Uxmal and Campeche.",
+          "lat": 21.16,
+          "lon": -86.85,
+          "tags": ["beach", "diving", "ruins", "cenotes", "culture", "resort"],
+          "best": [
+            { "from": "12-01", "to": "04-15", "why": "Dry season: 28 °C days, low humidity, calm turquoise sea and little sargassum; comfortable for the ruins and Mérida.", "goodFor": ["beach", "sun", "diving", "city", "nature", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "09-01", "to": "10-31", "why": "Peak hurricane season and the wettest months, with humid 32 °C heat and some hotels closed for renovation." }
+          ],
+          "shoulder": [
+            { "from": "04-16", "to": "08-31", "why": "Hot and humid with sargassum on many beaches; 38 °C inland in May, whale sharks off Holbox and Isla Mujeres from June to September." },
+            { "from": "11-01", "to": "11-30", "why": "Rains easing and prices low, though storms are still possible; Día de Muertos in Mérida." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "11-15", "to": "04-30" } ],
+            "sun": [ { "from": "12-01", "to": "05-15" } ],
+            "diving": [ { "from": "11-01", "to": "08-31" } ],
+            "city": [ { "from": "11-01", "to": "03-31" } ],
+            "nature": [ { "from": "12-01", "to": "03-31" }, { "from": "06-01", "to": "09-15" } ],
+            "roadtrip": [ { "from": "11-15", "to": "04-15" } ]
+          },
+          "climate": {
+            "avgHighC": [28, 29, 30, 31, 32, 33, 33, 33, 32, 31, 30, 28],
+            "avgLowC": [20, 20, 21, 23, 24, 25, 25, 25, 24, 23, 22, 21],
+            "rainMm": [96, 44, 38, 41, 91, 156, 79, 107, 217, 252, 108, 82],
+            "rainDays": [8, 5, 4, 4, 6, 11, 10, 11, 15, 15, 10, 8],
+            "sunHours": [220, 230, 260, 270, 270, 240, 260, 260, 210, 220, 210, 210],
+            "seaTempC": [26, 26, 26, 27, 28, 28, 29, 29, 29, 28, 27, 26],
+            "humidity": [80, 78, 77, 77, 78, 81, 80, 80, 83, 84, 82, 81]
+          },
+          "crowds": [5, 4, 5, 4, 3, 3, 4, 4, 2, 2, 3, 5],
+          "risks": [
+            { "type": "hurricane", "from": "06-01", "to": "11-30", "note": "Peak risk August to October; Wilma (2005) and Beryl (2024) hit the Riviera Maya." },
+            { "type": "heavy rain", "from": "06-01", "to": "10-31", "note": "Tropical downpours flood streets in Cancún and Playa del Carmen." },
+            { "type": "sargassum", "from": "04-01", "to": "09-30", "note": "Seaweed mats pile up on east-facing beaches; amounts vary a lot from year to year." },
+            { "type": "extreme heat", "from": "04-15", "to": "06-30", "note": "Inland sites such as Chichén Itzá and Mérida reach 38 °C." }
+          ],
+          "recurringHolidays": [
+            { "name": "US spring break", "approx": "March", "effect": "College crowds in Cancún's hotel zone; rates rise.", "dates": { "from": "03-01", "to": "03-31" } },
+            { "name": "Spring equinox at Chichén Itzá", "approx": "Around 21 March", "effect": "The serpent shadow on El Castillo draws huge crowds.", "dates": { "from": "03-19", "to": "03-22" } },
+            { "name": "Semana Santa", "approx": "Holy Week, March or April", "effect": "Mexican families fill the beaches, buses and hotels, and prices rise sharply.", "moving": { "anchor": "easter", "offsetDays": -7, "durationDays": 8 } },
+            { "name": "Día de Muertos", "approx": "31 October – 2 November", "effect": "Altars, cemetery vigils and parades, especially in Oaxaca, Pátzcuaro and Mexico City; hotels book out months ahead.", "dates": { "from": "10-31", "to": "11-02" } },
+            { "name": "Christmas & New Year", "approx": "Mid-December – early January", "effect": "Peak season at every beach resort, with the year's highest prices.", "dates": { "from": "12-18", "to": "01-06" } },
+            { "name": "Independence Day", "approx": "15–16 September", "effect": "The Grito on the night of the 15th and parades on the 16th; crowds in the Zócalo and closures in the capital.", "dates": { "from": "09-15", "to": "09-16" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 45, "shoulder": 60, "high": 80 },
+            "midrangePerDay": { "low": 110, "shoulder": 150, "high": 220 },
+            "hotelNightMid": { "low": 90, "shoulder": 140, "high": 230 },
+            "notes": "Tulum and the Cancún hotel zone are expensive; Mérida, Valladolid and Bacalar are much better value. Many cenotes and ruins charge separate entry fees, and Quintana Roo levies a visitor tax."
+          }
+        },
+        {
+          "id": "pacific",
+          "name": "Pacific coast",
+          "description": "Puerto Vallarta and the Riviera Nayarit (Sayulita, Punta Mita), Mazatlán, Zihuatanejo and Ixtapa, Acapulco, Puerto Escondido and Huatulco.",
+          "lat": 20.65,
+          "lon": -105.23,
+          "tags": ["beach", "surf", "resort", "whales", "food"],
+          "best": [
+            { "from": "11-15", "to": "04-30", "why": "Dry season: sunny 28 °C days, cool evenings and calm seas, with humpback whales in Banderas Bay from December to March.", "goodFor": ["beach", "sun", "nature", "city", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "07-15", "to": "10-15", "why": "Hot, humid rainy season: heavy tropical storms and the hurricane peak, with some beach towns half closed." }
+          ],
+          "shoulder": [
+            { "from": "05-01", "to": "07-14", "why": "Heat and humidity building, rains from mid-June; big surf in Puerto Escondido and turtle nesting." },
+            { "from": "10-16", "to": "11-14", "why": "Rains tailing off and everything green; Día de Muertos." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "11-01", "to": "05-31" } ],
+            "sun": [ { "from": "11-15", "to": "05-15" } ],
+            "nature": [ { "from": "12-01", "to": "03-31" } ],
+            "city": [ { "from": "11-01", "to": "04-30" } ],
+            "roadtrip": [ { "from": "11-15", "to": "04-30" } ]
+          },
+          "climate": {
+            "avgHighC": [27, 27, 27, 28, 30, 32, 33, 33, 32, 32, 31, 28],
+            "avgLowC": [16, 16, 16, 17, 20, 23, 24, 24, 24, 23, 20, 17],
+            "rainMm": [24, 7, 3, 2, 10, 160, 320, 310, 380, 110, 25, 15],
+            "rainDays": [2, 1, 0, 0, 1, 10, 18, 17, 18, 6, 1, 1],
+            "sunHours": [260, 260, 290, 290, 300, 240, 230, 230, 200, 250, 260, 250],
+            "seaTempC": [24, 23, 23, 24, 26, 28, 29, 30, 30, 29, 28, 26],
+            "humidity": [69, 68, 68, 68, 70, 75, 79, 80, 80, 77, 72, 70]
+          },
+          "crowds": [5, 5, 5, 4, 2, 2, 3, 3, 1, 2, 3, 5],
+          "risks": [
+            { "type": "hurricane", "from": "06-01", "to": "11-15", "note": "Peak August to October; Otis devastated Acapulco in October 2023." },
+            { "type": "heavy rain", "from": "06-15", "to": "10-15", "note": "Tropical downpours cause floods and landslides on coastal roads." },
+            { "type": "rough seas", "from": "05-01", "to": "09-30", "note": "Big southern swells and strong rip currents, especially at Puerto Escondido's Zicatela." }
+          ],
+          "recurringHolidays": [
+            { "name": "Semana Santa", "approx": "Holy Week, March or April", "effect": "Mexican families fill the beaches, buses and hotels, and prices rise sharply.", "moving": { "anchor": "easter", "offsetDays": -7, "durationDays": 8 } },
+            { "name": "Día de Muertos", "approx": "31 October – 2 November", "effect": "Altars, cemetery vigils and parades, especially in Oaxaca, Pátzcuaro and Mexico City; hotels book out months ahead.", "dates": { "from": "10-31", "to": "11-02" } },
+            { "name": "Christmas & New Year", "approx": "Mid-December – early January", "effect": "Peak season at every beach resort, with the year's highest prices.", "dates": { "from": "12-18", "to": "01-06" } },
+            { "name": "Independence Day", "approx": "15–16 September", "effect": "The Grito on the night of the 15th and parades on the 16th; crowds in the Zócalo and closures in the capital.", "dates": { "from": "09-15", "to": "09-16" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 55, "high": 70 },
+            "midrangePerDay": { "low": 100, "shoulder": 130, "high": 180 },
+            "hotelNightMid": { "low": 80, "shoulder": 120, "high": 180 },
+            "notes": "Puerto Vallarta and Punta Mita are the priciest; Mazatlán, Zihuatanejo and Puerto Escondido are good value. Winter is high season with many North American snowbirds."
+          }
+        },
+        {
+          "id": "highlands",
+          "name": "Mexico City & the central highlands",
+          "description": "Mexico City and Teotihuacán, Puebla, Oaxaca, San Miguel de Allende and Guanajuato, Guadalajara and Tequila, Morelia and Pátzcuaro, the Monarch butterfly reserves, Chiapas (San Cristóbal, Palenque) and the Copper Canyon.",
+          "lat": 19.43,
+          "lon": -99.13,
+          "tags": ["city", "culture", "food", "colonial towns", "ruins", "markets"],
+          "best": [
+            { "from": "10-20", "to": "04-15", "why": "Dry season: sunny 23–27 °C days and cool nights, Día de Muertos, and Monarch butterflies wintering in Michoacán from November to March.", "goodFor": ["city", "nature", "roadtrip", "mountain", "sun"] }
+          ],
+          "worst": [
+            { "from": "07-01", "to": "09-15", "why": "The wettest weeks: heavy afternoon storms flood Mexico City's streets and mountain roads in Oaxaca and Chiapas." }
+          ],
+          "shoulder": [
+            { "from": "04-16", "to": "06-30", "why": "The warmest, haziest months with poor air quality in the capital; storms from June but mornings still clear." },
+            { "from": "09-16", "to": "10-19", "why": "Rains easing and the landscape green; Independence Day celebrations." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "10-15", "to": "05-31" } ],
+            "nature": [ { "from": "11-15", "to": "03-15" } ],
+            "roadtrip": [ { "from": "10-15", "to": "04-30" } ],
+            "mountain": [ { "from": "10-15", "to": "04-15" } ],
+            "sun": [ { "from": "11-01", "to": "04-30" } ]
+          },
+          "climate": {
+            "avgHighC": [22, 24, 26, 27, 27, 25, 24, 24, 23, 23, 23, 22],
+            "avgLowC": [6, 7, 9, 11, 12, 13, 12, 12, 12, 10, 8, 7],
+            "rainMm": [8, 5, 10, 24, 54, 128, 158, 154, 127, 56, 11, 6],
+            "rainDays": [2, 2, 3, 6, 10, 17, 21, 20, 17, 9, 3, 2],
+            "sunHours": [230, 230, 250, 220, 210, 170, 160, 170, 150, 180, 210, 210],
+            "seaTempC": null,
+            "humidity": [50, 45, 40, 45, 50, 62, 68, 68, 70, 65, 58, 54]
+          },
+          "crowds": [3, 2, 3, 4, 2, 2, 3, 2, 2, 3, 5, 4],
+          "risks": [
+            { "type": "air pollution", "from": "02-15", "to": "05-31", "note": "Ozone alerts and traffic restrictions in Mexico City during the dry, hot spring." },
+            { "type": "thunderstorms", "from": "06-01", "to": "09-30", "note": "Afternoon storms with hail and street flooding." },
+            { "type": "landslides", "from": "07-01", "to": "10-15", "note": "Mountain roads in Oaxaca and Chiapas can be cut by landslides." }
+          ],
+          "recurringHolidays": [
+            { "name": "Guelaguetza", "approx": "Last two Mondays of July", "effect": "Oaxaca's great dance festival; hotels triple and sell out.", "dates": { "from": "07-18", "to": "07-31" } },
+            { "name": "Semana Santa", "approx": "Holy Week, March or April", "effect": "Mexican families fill the beaches, buses and hotels, and prices rise sharply.", "moving": { "anchor": "easter", "offsetDays": -7, "durationDays": 8 } },
+            { "name": "Día de Muertos", "approx": "31 October – 2 November", "effect": "Altars, cemetery vigils and parades, especially in Oaxaca, Pátzcuaro and Mexico City; hotels book out months ahead.", "dates": { "from": "10-31", "to": "11-02" } },
+            { "name": "Christmas & New Year", "approx": "Mid-December – early January", "effect": "Peak season at every beach resort, with the year's highest prices.", "dates": { "from": "12-18", "to": "01-06" } },
+            { "name": "Independence Day", "approx": "15–16 September", "effect": "The Grito on the night of the 15th and parades on the 16th; crowds in the Zócalo and closures in the capital.", "dates": { "from": "09-15", "to": "09-16" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 35, "shoulder": 45, "high": 55 },
+            "midrangePerDay": { "low": 80, "shoulder": 100, "high": 140 },
+            "hotelNightMid": { "low": 60, "shoulder": 80, "high": 120 },
+            "notes": "Excellent value: street food and long-distance buses are cheap and comfortable. San Miguel de Allende and Mexico City's Roma and Condesa neighbourhoods are pricier."
+          }
+        },
+        {
+          "id": "baja",
+          "name": "Baja California & Los Cabos",
+          "description": "Cabo San Lucas and San José del Cabo, Todos Santos, La Paz and Espíritu Santo, Loreto, the whale lagoons, Ensenada and the Valle de Guadalupe wine country.",
+          "lat": 22.89,
+          "lon": -109.91,
+          "tags": ["beach", "resort", "whales", "diving", "desert", "wine"],
+          "best": [
+            { "from": "11-01", "to": "05-31", "why": "Dry and sunny: 26–30 °C days, grey whales in the lagoons and humpbacks off Cabo from January to March, whale sharks in La Paz.", "goodFor": ["beach", "sun", "nature", "diving", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "08-01", "to": "10-15", "why": "Hot, humid hurricane season, with the year's few heavy rains coming from tropical storms." }
+          ],
+          "shoulder": [
+            { "from": "06-01", "to": "07-31", "why": "Hot and dry with a warming sea and fewer visitors; good diving in the Sea of Cortez." },
+            { "from": "10-16", "to": "10-31", "why": "Marlin fishing tournaments, warm sea; late storms still possible." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "10-15", "to": "06-30" } ],
+            "sun": [ { "from": "10-15", "to": "06-30" } ],
+            "diving": [ { "from": "06-15", "to": "11-30" } ],
+            "nature": [ { "from": "12-15", "to": "04-15" } ],
+            "roadtrip": [ { "from": "11-01", "to": "05-31" } ]
+          },
+          "climate": {
+            "avgHighC": [26, 26, 27, 29, 31, 32, 33, 34, 33, 32, 30, 27],
+            "avgLowC": [13, 13, 14, 15, 17, 20, 23, 24, 24, 21, 17, 14],
+            "rainMm": [13, 5, 2, 0, 0, 1, 11, 61, 104, 33, 10, 15],
+            "rainDays": [2, 1, 0, 0, 0, 0, 2, 4, 5, 2, 1, 2],
+            "sunHours": [260, 260, 290, 300, 320, 300, 280, 270, 250, 260, 250, 240],
+            "seaTempC": [22, 21, 21, 22, 23, 25, 27, 28, 29, 28, 26, 23],
+            "humidity": [64, 63, 63, 63, 66, 69, 71, 72, 73, 71, 67, 65]
+          },
+          "crowds": [4, 4, 5, 4, 3, 3, 3, 2, 1, 2, 4, 5],
+          "risks": [
+            { "type": "hurricane", "from": "06-01", "to": "11-15", "note": "Peak late August to October; Odile (2014) and Norma (2023) hit Los Cabos." },
+            { "type": "extreme heat", "from": "07-01", "to": "09-30", "note": "Humid 35 °C days on the coast; hotter inland." },
+            { "type": "rough seas", "from": "01-01", "to": "12-31", "note": "Many Pacific-facing Cabo beaches have dangerous shorebreak and are unsafe for swimming." }
+          ],
+          "recurringHolidays": [
+            { "name": "US spring break", "approx": "March", "effect": "Cabo San Lucas fills with college groups; prices peak.", "dates": { "from": "03-01", "to": "03-31" } },
+            { "name": "Fiestas de la Vendimia", "approx": "August", "effect": "Harvest festival in the Valle de Guadalupe; wineries and inns are busy.", "dates": { "from": "08-01", "to": "08-20" } },
+            { "name": "Semana Santa", "approx": "Holy Week, March or April", "effect": "Mexican families fill the beaches, buses and hotels, and prices rise sharply.", "moving": { "anchor": "easter", "offsetDays": -7, "durationDays": 8 } },
+            { "name": "Día de Muertos", "approx": "31 October – 2 November", "effect": "Altars, cemetery vigils and parades, especially in Oaxaca, Pátzcuaro and Mexico City; hotels book out months ahead.", "dates": { "from": "10-31", "to": "11-02" } },
+            { "name": "Christmas & New Year", "approx": "Mid-December – early January", "effect": "Peak season at every beach resort, with the year's highest prices.", "dates": { "from": "12-18", "to": "01-06" } },
+            { "name": "Independence Day", "approx": "15–16 September", "effect": "The Grito on the night of the 15th and parades on the 16th; crowds in the Zócalo and closures in the capital.", "dates": { "from": "09-15", "to": "09-16" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 60, "shoulder": 80, "high": 100 },
+            "midrangePerDay": { "low": 140, "shoulder": 190, "high": 260 },
+            "hotelNightMid": { "low": 140, "shoulder": 200, "high": 320 },
+            "notes": "Los Cabos is one of Mexico's priciest destinations, dominated by all-inclusives. La Paz, Loreto and Todos Santos are cheaper; whale-watching trips to the lagoons cost $80–150."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Cancún", "aliases": ["Cancun", "Zona Hotelera Cancún", "Cancun Hotel Zone", "Puerto Morelos"], "region": "yucatan" },
+        { "name": "Tulum", "aliases": ["Tulum ruins", "Sian Ka'an", "Sian Kaan"], "region": "yucatan" },
+        { "name": "Playa del Carmen", "aliases": ["Riviera Maya", "Akumal", "Puerto Aventuras"], "region": "yucatan" },
+        { "name": "Cozumel", "aliases": [], "region": "yucatan" },
+        { "name": "Isla Mujeres", "aliases": [], "region": "yucatan" },
+        { "name": "Holbox", "aliases": ["Isla Holbox"], "region": "yucatan" },
+        { "name": "Bacalar", "aliases": ["Laguna Bacalar", "Mahahual", "Costa Maya", "Chetumal"], "region": "yucatan" },
+        { "name": "Mérida", "aliases": ["Mérida Yucatán", "Merida Yucatan", "Merida Mexico", "Progreso", "Celestún", "Celestun"], "region": "yucatan" },
+        { "name": "Chichén Itzá", "aliases": ["Chichen Itza"], "region": "yucatan" },
+        { "name": "Valladolid", "aliases": ["Valladolid Yucatán", "Valladolid Mexico", "Valladolid Yucatan", "Cenote Ik Kil"], "region": "yucatan" },
+        { "name": "Uxmal", "aliases": ["Ruta Puuc"], "region": "yucatan" },
+        { "name": "Izamal", "aliases": [], "region": "yucatan" },
+        { "name": "Campeche", "aliases": ["San Francisco de Campeche", "Calakmul"], "region": "yucatan" },
+        { "name": "Las Coloradas", "aliases": ["Río Lagartos", "Rio Lagartos"], "region": "yucatan" },
+        { "name": "Puerto Vallarta", "aliases": ["Vallarta", "Nuevo Vallarta", "Banderas Bay", "Bucerías", "Bucerias"], "region": "pacific" },
+        { "name": "Sayulita", "aliases": ["San Pancho", "San Francisco Nayarit", "Punta Mita", "Riviera Nayarit"], "region": "pacific" },
+        { "name": "Mazatlán", "aliases": ["Mazatlan"], "region": "pacific" },
+        { "name": "Acapulco", "aliases": [], "region": "pacific" },
+        { "name": "Zihuatanejo", "aliases": ["Ixtapa", "Zihua"], "region": "pacific" },
+        { "name": "Puerto Escondido", "aliases": ["Zicatela", "Mazunte", "Zipolite"], "region": "pacific" },
+        { "name": "Huatulco", "aliases": ["Bahías de Huatulco", "Bahias de Huatulco"], "region": "pacific" },
+        { "name": "Manzanillo", "aliases": ["Manzanillo Mexico", "Barra de Navidad"], "region": "pacific" },
+        { "name": "Mexico City", "aliases": ["CDMX", "Ciudad de México", "Ciudad de Mexico", "México DF", "Mexico DF", "Coyoacán", "Coyoacan", "Condesa", "Xochimilco", "Teotihuacán", "Teotihuacan"], "region": "highlands" },
+        { "name": "Oaxaca", "aliases": ["Oaxaca de Juárez", "Oaxaca de Juarez", "Monte Albán", "Monte Alban", "Hierve el Agua"], "region": "highlands" },
+        { "name": "San Miguel de Allende", "aliases": ["San Miguel Allende"], "region": "highlands" },
+        { "name": "Guanajuato", "aliases": [], "region": "highlands" },
+        { "name": "Puebla", "aliases": ["Cholula"], "region": "highlands" },
+        { "name": "Guadalajara", "aliases": ["Guadalajara Mexico", "Guadalajara Jalisco", "Tlaquepaque", "Ajijic", "Lake Chapala"], "region": "highlands" },
+        { "name": "Tequila", "aliases": ["Tequila Jalisco"], "region": "highlands" },
+        { "name": "Morelia", "aliases": ["Pátzcuaro", "Patzcuaro", "Janitzio"], "region": "highlands" },
+        { "name": "San Cristóbal de las Casas", "aliases": ["San Cristobal de las Casas", "Chiapas", "Cañón del Sumidero", "Sumidero Canyon"], "region": "highlands" },
+        { "name": "Palenque", "aliases": ["Agua Azul", "Misol-Ha"], "region": "highlands" },
+        { "name": "Copper Canyon", "aliases": ["Barrancas del Cobre", "Creel", "El Chepe", "Chihuahua"], "region": "highlands" },
+        { "name": "Monarch Butterfly Biosphere Reserve", "aliases": ["Monarch butterflies", "El Rosario", "Sierra Chincua", "Angangueo"], "region": "highlands" },
+        { "name": "Taxco", "aliases": [], "region": "highlands" },
+        { "name": "Querétaro", "aliases": ["Queretaro", "Peña de Bernal", "Bernal"], "region": "highlands" },
+        { "name": "Zacatecas", "aliases": [], "region": "highlands" },
+        { "name": "Monterrey", "aliases": [], "region": "highlands" },
+        { "name": "Valle de Bravo", "aliases": [], "region": "highlands" },
+        { "name": "Cabo San Lucas", "aliases": ["Cabo", "Los Cabos", "El Arco"], "region": "baja" },
+        { "name": "San José del Cabo", "aliases": ["San Jose del Cabo"], "region": "baja" },
+        { "name": "Todos Santos", "aliases": ["Cerritos", "El Pescadero"], "region": "baja" },
+        { "name": "La Paz", "aliases": ["La Paz Baja California Sur", "La Paz Mexico", "Isla Espíritu Santo", "Isla Espiritu Santo", "Balandra"], "region": "baja" },
+        { "name": "Loreto", "aliases": ["Bahía Concepción", "Bahia Concepcion", "Mulegé", "Mulege"], "region": "baja" },
+        { "name": "Cabo Pulmo", "aliases": [], "region": "baja" },
+        { "name": "Ensenada", "aliases": ["Rosarito"], "region": "baja" },
+        { "name": "Valle de Guadalupe", "aliases": ["Guadalupe Valley"], "region": "baja" },
+        { "name": "Tijuana", "aliases": [], "region": "baja" },
+        { "name": "Laguna San Ignacio", "aliases": ["Guerrero Negro", "Ojo de Liebre", "Scammon's Lagoon"], "region": "baja" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.visitmexico.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Mexico" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/mexico" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/mexico/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "NI",
+      "isoNum": "558",
+      "name": "Nicaragua",
+      "aliases": ["República de Nicaragua", "Republica de Nicaragua"],
+      "continent": "North America",
+      "flag": "🇳🇮",
+      "summary": "Nicaragua's Pacific side, where Granada, León, Ometepe and the San Juan del Sur beaches are, is dry from mid-November to April, with hot, sunny 31–34 °C days and steady offshore winds that make the surf clean. March and April are the hottest and dustiest months, and the rains come from May to October, heaviest in September and October. The Caribbean coast and the Corn Islands are wet for much of the year, with their driest weeks from February to May. Political repression has continued since 2018 and foreigners have been detained or expelled, so check government travel advice before going.",
+      "splitByRegion": false,
+      "splitReason": "Almost all visits are on the Pacific side, which shares one dry season (November to April); the Corn Islands' best months (February to May) fall inside it.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Granada and Las Isletas, León and Cerro Negro, Masaya and Laguna de Apoyo, Ometepe, San Juan del Sur and the Popoyo surf coast, the northern coffee highlands and the Corn Islands.",
+          "lat": 11.93,
+          "lon": -85.96,
+          "tags": ["colonial towns", "volcanoes", "surf", "beach", "lakes", "budget"],
+          "best": [
+            { "from": "11-15", "to": "04-15", "why": "Dry season: sunny skies, offshore winds and clean surf, dry trails up Ometepe's volcanoes and pleasant evenings in Granada and León.", "goodFor": ["beach", "sun", "city", "nature", "mountain", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "09-01", "to": "10-31", "why": "The rainiest months: heavy storms, flooded dirt roads to the beaches and hurricane risk on the Caribbean side." }
+          ],
+          "shoulder": [
+            { "from": "04-16", "to": "08-31", "why": "Very hot (35 °C in León) until the rains arrive in May; then green, quiet and good for surfing, with leatherback and olive ridley turtles nesting from July." },
+            { "from": "11-01", "to": "11-14", "why": "Rains ending; landscapes still green." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "11-15", "to": "05-15" } ],
+            "sun": [ { "from": "12-01", "to": "04-30" } ],
+            "city": [ { "from": "11-15", "to": "04-15" } ],
+            "nature": [ { "from": "11-15", "to": "04-30" } ],
+            "mountain": [ { "from": "11-15", "to": "03-31" } ],
+            "roadtrip": [ { "from": "11-15", "to": "04-15" } ],
+            "diving": [ { "from": "02-01", "to": "05-31" } ]
+          },
+          "climate": {
+            "avgHighC": [31, 32, 33, 34, 33, 31, 31, 31, 31, 31, 31, 31],
+            "avgLowC": [21, 21, 22, 23, 24, 23, 23, 23, 23, 22, 22, 21],
+            "rainMm": [2, 1, 4, 4, 136, 237, 132, 121, 213, 315, 44, 9],
+            "rainDays": [1, 0, 1, 1, 8, 17, 14, 14, 17, 18, 6, 2],
+            "sunHours": [270, 260, 280, 270, 230, 180, 190, 200, 180, 190, 220, 250],
+            "seaTempC": [26, 24, 24, 26, 28, 29, 29, 29, 29, 28, 28, 27],
+            "humidity": [70, 67, 65, 66, 73, 81, 79, 79, 83, 84, 79, 74]
+          },
+          "crowds": [3, 3, 4, 3, 2, 1, 2, 2, 1, 1, 2, 4],
+          "risks": [
+            { "type": "heavy rain", "from": "05-15", "to": "10-31", "note": "Downpours flood roads and make beach tracks impassable." },
+            { "type": "hurricane", "from": "06-01", "to": "11-30", "note": "The Caribbean coast and Corn Islands are exposed (Eta and Iota 2020, Julia 2022)." },
+            { "type": "extreme heat", "from": "03-15", "to": "05-15", "note": "León and Managua reach 36–38 °C." },
+            { "type": "strong wind", "from": "12-01", "to": "03-15", "note": "Strong trade winds make Lake Nicaragua ferry crossings to Ometepe rough." }
+          ],
+          "recurringHolidays": [
+            { "name": "Semana Santa", "approx": "Holy Week, March or April", "effect": "Nicaraguans fill the beaches of San Juan del Sur and Poneloya; hotels and buses book out.", "moving": { "anchor": "easter", "offsetDays": -7, "durationDays": 8 } },
+            { "name": "La Purísima and La Gritería", "approx": "7–8 December", "effect": "Fireworks and altar-hopping, especially in León and Granada; businesses close.", "dates": { "from": "12-07", "to": "12-08" } },
+            { "name": "Christmas & New Year", "approx": "Late December – early January", "effect": "The busiest weeks on the Pacific beaches.", "dates": { "from": "12-20", "to": "01-02" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 25, "shoulder": 30, "high": 40 },
+            "midrangePerDay": { "low": 55, "shoulder": 70, "high": 90 },
+            "hotelNightMid": { "low": 35, "shoulder": 50, "high": 75 },
+            "notes": "One of the cheapest countries in the Americas. US dollars are widely accepted alongside córdobas; carry cash, as ATMs are scarce outside the cities."
+          },
+          "seaLat": 11.25,
+          "seaLon": -85.87
+        }
+      ],
+      "cities": [
+        { "name": "Managua", "aliases": [], "region": "country" },
+        { "name": "Granada", "aliases": ["Granada Nicaragua", "Granada NI", "Las Isletas"], "region": "country" },
+        { "name": "León", "aliases": ["León Nicaragua", "Leon Nicaragua", "Cerro Negro", "Las Peñitas"], "region": "country" },
+        { "name": "Ometepe", "aliases": ["Isla de Ometepe", "Moyogalpa", "Volcán Concepción", "Volcán Maderas"], "region": "country" },
+        { "name": "San Juan del Sur", "aliases": ["Playa Maderas", "Playa Marsella"], "region": "country" },
+        { "name": "Popoyo", "aliases": ["Playa Popoyo", "Playa Gigante", "Rivas"], "region": "country" },
+        { "name": "Masaya", "aliases": ["Masaya Volcano", "Laguna de Apoyo"], "region": "country" },
+        { "name": "Corn Islands", "aliases": ["Big Corn Island", "Little Corn Island", "Islas del Maíz"], "region": "country" },
+        { "name": "Matagalpa", "aliases": ["Selva Negra", "Jinotega"], "region": "country" },
+        { "name": "Estelí", "aliases": ["Esteli", "Somoto Canyon"], "region": "country" },
+        { "name": "Bluefields", "aliases": ["Pearl Lagoon"], "region": "country" },
+        { "name": "Río San Juan", "aliases": ["Rio San Juan", "El Castillo", "San Carlos Nicaragua"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.visitanicaragua.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Nicaragua" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/nicaragua" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/nicaragua/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "PA",
+      "isoNum": "591",
+      "name": "Panama",
+      "aliases": ["Panamá", "República de Panamá", "Republica de Panama"],
+      "continent": "North America",
+      "flag": "🇵🇦",
+      "summary": "Panama's dry season runs from mid-December to April, when Panama City, the Pacific beaches and the Boquete highlands get sunny days and steady trade winds. The rainy season from May to November brings daily afternoon downpours, heaviest in October and November, though mornings are often fine. Bocas del Toro on the Caribbean has its own pattern, with its driest spells in September–October and February–March, and the San Blas islands are best from January to April. Panama lies south of the hurricane belt, and Carnival in February or March is the biggest party of the year.",
+      "splitByRegion": false,
+      "splitReason": "Panama City, the Pacific coast, Boquete and San Blas share the December–April dry season; Bocas del Toro's drier spells (February–March and September–October) are noted in the windows.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Panama City and the Canal, the Pacific beaches and Pearl Islands, Boquete and Chiriquí, Coiba, the Azuero Peninsula, the San Blas (Guna Yala) islands and Bocas del Toro.",
+          "lat": 8.98,
+          "lon": -79.52,
+          "tags": ["city", "beach", "islands", "diving", "rainforest", "canal", "highlands"],
+          "best": [
+            { "from": "12-15", "to": "04-15", "why": "Dry season: sunny 31 °C days in Panama City, cool, clear mornings in Boquete and calm, turquoise water in San Blas once the trade winds ease from March.", "goodFor": ["city", "beach", "sun", "diving", "nature", "mountain", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "10-01", "to": "11-30", "why": "The wettest months, with heavy daily storms, flooding and rough crossings to the islands." }
+          ],
+          "shoulder": [
+            { "from": "04-16", "to": "09-30", "why": "Green season: humid, with afternoon downpours but often fine mornings; Bocas del Toro is at its best in September." },
+            { "from": "12-01", "to": "12-14", "why": "Rains easing as the dry season approaches." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "12-15", "to": "04-30" } ],
+            "beach": [ { "from": "12-15", "to": "04-30" }, { "from": "09-01", "to": "10-15" } ],
+            "sun": [ { "from": "01-01", "to": "04-15" } ],
+            "diving": [ { "from": "01-01", "to": "04-30" }, { "from": "09-01", "to": "10-31" } ],
+            "nature": [ { "from": "12-15", "to": "04-30" } ],
+            "mountain": [ { "from": "12-15", "to": "04-15" } ],
+            "roadtrip": [ { "from": "12-15", "to": "04-15" } ]
+          },
+          "climate": {
+            "avgHighC": [31, 31, 32, 32, 31, 30, 30, 30, 30, 29, 29, 30],
+            "avgLowC": [22, 22, 23, 24, 24, 24, 24, 24, 24, 23, 23, 23],
+            "rainMm": [29, 10, 13, 73, 225, 233, 180, 220, 231, 297, 259, 108],
+            "rainDays": [4, 2, 2, 6, 16, 18, 17, 18, 19, 21, 19, 10],
+            "sunHours": [240, 240, 260, 220, 170, 140, 150, 150, 140, 140, 150, 190],
+            "seaTempC": [26, 25, 25, 26, 28, 28, 28, 28, 28, 28, 28, 27],
+            "humidity": [76, 73, 72, 75, 82, 84, 84, 84, 85, 86, 86, 82]
+          },
+          "crowds": [4, 4, 4, 3, 2, 2, 3, 2, 1, 1, 2, 4],
+          "risks": [
+            { "type": "heavy rain", "from": "05-01", "to": "11-30", "note": "Tropical downpours flood streets in Panama City." },
+            { "type": "flooding", "from": "10-01", "to": "11-30", "note": "River floods and landslides in Chiriquí and Bocas del Toro." },
+            { "type": "rough seas", "from": "12-15", "to": "03-15", "note": "Strong trade winds make boat crossings to San Blas rough." }
+          ],
+          "recurringHolidays": [
+            { "name": "Carnival", "approx": "Four days before Ash Wednesday", "effect": "Water trucks and parades in Las Tablas and Panama City; the capital empties and beach hotels book out.", "moving": { "anchor": "easter", "offsetDays": -52, "durationDays": 6 } },
+            { "name": "Semana Santa", "approx": "Holy Week, March or April", "effect": "Panamanians head to the beaches and the interior; hotels are full.", "moving": { "anchor": "easter", "offsetDays": -7, "durationDays": 8 } },
+            { "name": "Fiestas Patrias", "approx": "3–10 November", "effect": "Independence and patriotic holidays with parades; many businesses close.", "dates": { "from": "11-03", "to": "11-10" } },
+            { "name": "Christmas & New Year", "approx": "Late December – early January", "effect": "Peak season on the islands and in Boquete.", "dates": { "from": "12-20", "to": "01-02" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 45, "shoulder": 55, "high": 70 },
+            "midrangePerDay": { "low": 100, "shoulder": 125, "high": 160 },
+            "hotelNightMid": { "low": 80, "shoulder": 100, "high": 140 },
+            "notes": "The US dollar is used alongside the balboa. Panama City is pricey, but San Blas cabins (with meals and boat trips) are good value; Guna Yala charges its own entry fees."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Panama City", "aliases": ["Ciudad de Panamá", "Ciudad de Panama", "Casco Viejo", "Casco Antiguo", "Amador Causeway"], "region": "country" },
+        { "name": "Panama Canal", "aliases": ["Miraflores Locks", "Agua Clara Locks", "Gatún Lake", "Gatun Lake"], "region": "country" },
+        { "name": "Bocas del Toro", "aliases": ["Bocas", "Isla Colón", "Isla Colon", "Isla Bastimentos", "Red Frog Beach"], "region": "country" },
+        { "name": "San Blas Islands", "aliases": ["San Blas", "Guna Yala", "Kuna Yala"], "region": "country" },
+        { "name": "Boquete", "aliases": ["Volcán Barú", "Volcan Baru", "Chiriquí", "Chiriqui"], "region": "country" },
+        { "name": "Pearl Islands", "aliases": ["Islas de las Perlas", "Isla Contadora", "Contadora"], "region": "country" },
+        { "name": "Coiba", "aliases": ["Coiba National Park", "Santa Catalina"], "region": "country" },
+        { "name": "Pedasí", "aliases": ["Pedasi", "Playa Venao", "Isla Iguana", "Azuero"], "region": "country" },
+        { "name": "Portobelo", "aliases": ["Colón", "Colon Panama"], "region": "country" },
+        { "name": "El Valle de Antón", "aliases": ["Valle de Anton"], "region": "country" },
+        { "name": "Isla Taboga", "aliases": ["Taboga"], "region": "country" },
+        { "name": "Darién", "aliases": ["Darien"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.visitpanama.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Panama" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/panama" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/panama/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"

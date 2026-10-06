@@ -24,9 +24,10 @@ useful year after year.
 
 ## Status
 
-**181 countries and territories, 311 regions**: all of Europe, Asia and Africa, South
-America, the Caribbean and the USA. Canada, Mexico, Central America, Greenland and Oceania
-are being added next. Run `node scripts/validate.js` for the current coverage report.
+**207 countries and territories, 355 regions**: every UN member state plus Taiwan, Kosovo,
+Palestine, the Vatican and territories such as Puerto Rico, Greenland, Guam, Bermuda and the
+Falklands (France's overseas regions and Spain's Canaries are regions of their countries).
+Run `node scripts/validate.js` for the current coverage report.
 
 ## Run locally
 
