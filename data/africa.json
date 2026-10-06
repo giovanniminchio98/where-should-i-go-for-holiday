@@ -122,6 +122,155 @@
       "lastReviewed": "2026-10"
     },
     {
+      "iso2": "AO",
+      "isoNum": "024",
+      "name": "Angola",
+      "aliases": ["Republic of Angola"],
+      "continent": "Africa",
+      "flag": "🇦🇴",
+      "summary": "Angola is a big, little-visited country. The cool, dry 'cacimbo' season (mid-May to September) brings grey skies to the coast but sunny, dry weather inland, which suits road trips to the Kalandula Falls, the Serra da Leba road and the Namibe desert. The hot, rainy season peaks from February to April. Luanda is one of Africa's most expensive cities.",
+      "splitByRegion": false,
+      "splitReason": "Few visitors travel beyond the main road-trip route, which follows one wet-and-dry pattern.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Luanda, Benguela and Lobito, Lubango and the Serra da Leba, Namibe and the Iona desert, and the Kalandula Falls.",
+          "lat": -8.84,
+          "lon": 13.23,
+          "tags": ["roadtrip", "desert", "waterfall", "beach"],
+          "best": [
+            { "from": "05-15", "to": "09-30", "why": "Cacimbo season: dry and cool (24 °C), with sunny skies inland for road trips; the coast is often overcast.", "goodFor": ["roadtrip", "nature", "city"] }
+          ],
+          "worst": [
+            { "from": "02-01", "to": "04-15", "why": "The heaviest rains and heat: roads in the interior flood and humidity is high." }
+          ],
+          "shoulder": [
+            { "from": "10-01", "to": "01-31", "why": "Hot, with the rains building inland; the coast stays sunny and Luanda's beaches are at their best." },
+            { "from": "04-16", "to": "05-14", "why": "The rains are ending." }
+          ],
+          "activityWindows": {
+            "roadtrip": [ { "from": "05-15", "to": "10-15" } ],
+            "nature": [ { "from": "05-15", "to": "10-31" } ],
+            "city": [ { "from": "05-15", "to": "10-31" } ],
+            "beach": [ { "from": "10-01", "to": "04-30" } ]
+          },
+          "climate": {
+            "avgHighC": [30, 31, 31, 30, 28, 25, 24, 24, 25, 27, 29, 30],
+            "avgLowC": [23, 24, 24, 23, 22, 19, 18, 18, 20, 22, 23, 23],
+            "rainMm": [30, 35, 100, 120, 15, 0, 0, 1, 2, 6, 30, 25],
+            "rainDays": [3, 4, 7, 9, 2, 0, 0, 0, 1, 2, 4, 3],
+            "sunHours": [220, 220, 220, 210, 220, 180, 150, 150, 160, 190, 220, 230],
+            "seaTempC": [26, 27, 27, 27, 25, 22, 20, 20, 21, 23, 25, 26],
+            "humidity": [78, 77, 78, 80, 80, 80, 82, 83, 81, 80, 79, 79]
+          },
+          "crowds": [2, 2, 2, 2, 2, 3, 3, 3, 2, 2, 2, 2],
+          "risks": [ { "type": "heavy rain", "from": "02-01", "to": "04-30", "note": "Flooding and landslides inland." } ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 60, "shoulder": 70, "high": 80 },
+            "midrangePerDay": { "low": 150, "shoulder": 180, "high": 220 },
+            "hotelNightMid": { "low": 120, "shoulder": 150, "high": 180 },
+            "notes": "Luanda hotels are expensive. Prices are lower in the provinces, but tourist infrastructure is thin."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Luanda", "aliases": ["Ilha do Cabo", "Mussulo"], "region": "country" },
+        { "name": "Benguela", "aliases": ["Lobito"], "region": "country" },
+        { "name": "Lubango", "aliases": ["Serra da Leba", "Tundavala"], "region": "country" },
+        { "name": "Namibe", "aliases": ["Iona National Park"], "region": "country" },
+        { "name": "Kalandula Falls", "aliases": ["Kalandula", "Malanje"], "region": "country" },
+        { "name": "Huambo", "aliases": [], "region": "country" },
+        { "name": "Cabinda", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Angola" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/angola" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/angola/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "BW",
+      "isoNum": "072",
+      "name": "Botswana",
+      "aliases": ["Republic of Botswana"],
+      "continent": "Africa",
+      "flag": "🇧🇼",
+      "summary": "Botswana is a low-volume, high-cost safari country. The Okavango Delta floods in the middle of the dry season: water from Angola's rains peaks in the Delta from June to August, just as the land dries out. That, plus the huge elephant herds along the Chobe River, makes June to October the prime season. The green season (December to March) is hot and wet, with lower prices, newborn animals and the zebra migration in the Makgadikgadi Pans.",
+      "splitByRegion": false,
+      "splitReason": "The Delta, Chobe and the Kalahari share the same summer-rain, dry-winter safari calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "The Okavango Delta and Moremi, Chobe and Savuti, the Linyanti, the Makgadikgadi and Nxai Pans and the Central Kalahari.",
+          "lat": -19.98,
+          "lon": 23.42,
+          "tags": ["wildlife", "safari", "delta", "desert"],
+          "best": [
+            { "from": "06-01", "to": "10-15", "why": "Dry season with the Delta in flood: mokoro trips, huge elephant herds on the Chobe and the best game viewing.", "goodFor": ["nature", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "01-01", "to": "02-28", "why": "The heaviest rains: some camps and tracks close and game disperses into the thick bush." }
+          ],
+          "shoulder": [
+            { "from": "12-01", "to": "12-31", "why": "Rains begin; green-season rates and newborn antelope." },
+            { "from": "03-01", "to": "05-31", "why": "The rains end and the floodwaters reach the Delta from May; green-season rates linger and the Makgadikgadi zebra migration is under way." },
+            { "from": "10-16", "to": "11-30", "why": "Extreme heat (up to 40 °C), but superb predator sightings at the last waterholes." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "05-01", "to": "11-15" } ],
+            "roadtrip": [ { "from": "05-15", "to": "10-31" } ]
+          },
+          "climate": {
+            "avgHighC": [32, 31, 31, 30, 28, 25, 25, 28, 32, 35, 34, 32],
+            "avgLowC": [19, 19, 18, 15, 10, 6, 6, 9, 13, 18, 19, 19],
+            "rainMm": [105, 80, 70, 25, 5, 1, 0, 0, 2, 15, 50, 85],
+            "rainDays": [10, 8, 6, 3, 1, 0, 0, 0, 0, 2, 5, 8],
+            "sunHours": [240, 230, 250, 270, 290, 290, 300, 310, 300, 290, 260, 240],
+            "seaTempC": null,
+            "humidity": [62, 65, 62, 55, 45, 42, 38, 32, 28, 32, 45, 58]
+          },
+          "crowds": [2, 2, 2, 3, 3, 4, 5, 5, 5, 4, 3, 2],
+          "risks": [
+            { "type": "extreme heat", "from": "10-01", "to": "11-30", "note": "Days near 40 °C before the rains." },
+            { "type": "heavy rain", "from": "12-15", "to": "03-15", "note": "Sandy tracks turn to mud." }
+          ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 70, "shoulder": 90, "high": 110 },
+            "midrangePerDay": { "low": 300, "shoulder": 450, "high": 700 },
+            "hotelNightMid": { "low": 200, "shoulder": 300, "high": 500 },
+            "notes": "Okavango and Chobe camps are all-inclusive and costly ($500–2,000 per person per night in peak season). Self-drive camping and lodges in Maun or Kasane are the budget route."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Gaborone", "aliases": [], "region": "country" },
+        { "name": "Maun", "aliases": ["Okavango Delta", "Okavango", "Moremi"], "region": "country" },
+        { "name": "Kasane", "aliases": ["Chobe", "Chobe National Park"], "region": "country" },
+        { "name": "Makgadikgadi", "aliases": ["Nxai Pan", "Makgadikgadi Pans"], "region": "country" },
+        { "name": "Central Kalahari", "aliases": ["Kalahari", "Deception Valley"], "region": "country" },
+        { "name": "Tsodilo Hills", "aliases": ["Tsodilo"], "region": "country" },
+        { "name": "Savuti", "aliases": ["Linyanti"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.botswanatourism.co.bw" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Botswana" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/botswana" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/botswana/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
       "iso2": "BI",
       "isoNum": "108",
       "name": "Burundi",
@@ -184,6 +333,81 @@
         { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Burundi" },
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/burundi" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/burundi/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "KM",
+      "isoNum": "174",
+      "name": "Comoros",
+      "aliases": ["Union of the Comoros", "Komori"],
+      "continent": "Africa",
+      "flag": "🇰🇲",
+      "summary": "The Comoros are three volcanic islands between Madagascar and Mozambique, with almost no tourism: Grande Comore with the Karthala volcano, wild Mohéli with nesting turtles and whale sharks, and Anjouan with ylang-ylang plantations. The coolest, driest months are July to November. December to April is hot, humid and wet, with cyclone risk. Most of the population is Muslim, so Ramadan affects opening hours.",
+      "splitByRegion": false,
+      "splitReason": "Three small islands with the same tropical cyclone-season pattern.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Moroni and Grande Comore, the Karthala volcano, Mohéli Marine Park and Anjouan.",
+          "lat": -11.7,
+          "lon": 43.26,
+          "tags": ["islands", "volcano", "diving", "turtles", "off the beaten track"],
+          "best": [
+            { "from": "07-15", "to": "11-15", "why": "The driest, coolest months: sunny 27 °C days for climbing Karthala, turtle-watching on Mohéli and diving.", "goodFor": ["beach", "diving", "nature", "mountain", "sun"] }
+          ],
+          "worst": [ { "from": "01-01", "to": "04-30", "why": "Hot, humid cyclone season with torrential rain." } ],
+          "shoulder": [
+            { "from": "05-01", "to": "07-14", "why": "Cooler, but showers persist." },
+            { "from": "11-16", "to": "12-31", "why": "Rains building and very humid." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "06-01", "to": "12-15" } ],
+            "diving": [ { "from": "07-01", "to": "12-15" } ],
+            "nature": [ { "from": "06-15", "to": "11-30" } ],
+            "mountain": [ { "from": "07-15", "to": "11-15" } ],
+            "sun": [ { "from": "07-15", "to": "11-30" } ]
+          },
+          "climate": {
+            "avgHighC": [30, 30, 31, 30, 29, 28, 27, 27, 28, 29, 30, 31],
+            "avgLowC": [24, 24, 24, 23, 22, 20, 19, 19, 20, 21, 23, 24],
+            "rainMm": [310, 260, 300, 360, 300, 260, 210, 130, 100, 110, 140, 230],
+            "rainDays": [18, 16, 18, 17, 15, 13, 11, 9, 7, 7, 9, 14],
+            "sunHours": [180, 170, 200, 210, 230, 230, 240, 250, 250, 260, 240, 200],
+            "seaTempC": [28, 29, 29, 29, 28, 27, 26, 25, 25, 26, 27, 28],
+            "humidity": [79, 80, 80, 80, 78, 77, 76, 74, 73, 73, 75, 78]
+          },
+          "crowds": [1, 1, 1, 1, 1, 1, 2, 3, 2, 2, 1, 2],
+          "risks": [
+            { "type": "cyclone", "from": "12-15", "to": "04-15", "note": "Tropical cyclones." },
+            { "type": "heavy rain", "from": "01-01", "to": "05-31", "note": "Torrential downpours." }
+          ],
+          "recurringHolidays": [
+            { "name": "Ramadan", "approx": "Moves about 11 days earlier each year", "effect": "Restaurants close by day.", "moving": { "anchor": "ramadanStart", "offsetDays": 0, "durationDays": 30 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 45, "high": 50 },
+            "midrangePerDay": { "low": 80, "shoulder": 90, "high": 110 },
+            "hotelNightMid": { "low": 60, "shoulder": 70, "high": 90 },
+            "notes": "Very little tourist infrastructure; inter-island flights and boats are irregular."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Moroni", "aliases": ["Grande Comore", "Ngazidja"], "region": "country" },
+        { "name": "Mount Karthala", "aliases": ["Karthala"], "region": "country" },
+        { "name": "Mohéli", "aliases": ["Moheli", "Mwali", "Fomboni"], "region": "country" },
+        { "name": "Anjouan", "aliases": ["Ndzuwani", "Mutsamudu"], "region": "country" },
+        { "name": "Mitsamiouli", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Comoros" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/comoros" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/comoros/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"
@@ -504,6 +728,79 @@
       "lastReviewed": "2026-10"
     },
     {
+      "iso2": "SZ",
+      "isoNum": "748",
+      "name": "Eswatini",
+      "aliases": ["Swaziland", "Kingdom of Eswatini"],
+      "continent": "Africa",
+      "flag": "🇸🇿",
+      "summary": "Eswatini (formerly Swaziland) is a small kingdom with wildlife reserves (Hlane, Mkhaya, Mlilwane), mountain hiking at Malolotja and lively cultural festivals. The dry winter (May to September) is best for game viewing and includes the Umhlanga Reed Dance in late August or early September. Summers are hot and humid, with heavy thunderstorms.",
+      "splitByRegion": false,
+      "splitReason": "A small country where the reserves and valleys share one summer-rain calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Mbabane, the Ezulwini Valley and Mlilwane, Hlane, Mkhaya, Malolotja and Lobamba.",
+          "lat": -26.31,
+          "lon": 31.14,
+          "tags": ["wildlife", "culture", "hiking"],
+          "best": [
+            { "from": "05-01", "to": "09-30", "why": "Dry winter: good game viewing, sunny 20 °C days and the Umhlanga Reed Dance.", "goodFor": ["nature", "roadtrip", "mountain"] }
+          ],
+          "worst": [ { "from": "12-15", "to": "02-28", "why": "Hot, humid lowveld with heavy thunderstorms." } ],
+          "shoulder": [
+            { "from": "03-01", "to": "04-30", "why": "The rains are ending and the landscape is lush." },
+            { "from": "10-01", "to": "12-14", "why": "Heating up, with the first storms." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "04-15", "to": "10-15" } ],
+            "roadtrip": [ { "from": "04-15", "to": "10-31" } ],
+            "mountain": [ { "from": "04-01", "to": "10-15" } ]
+          },
+          "climate": {
+            "avgHighC": [24, 24, 23, 22, 20, 18, 18, 20, 22, 23, 23, 24],
+            "avgLowC": [15, 15, 14, 11, 8, 5, 5, 7, 10, 12, 13, 14],
+            "rainMm": [250, 200, 180, 80, 30, 20, 15, 30, 65, 130, 170, 200],
+            "rainDays": [16, 14, 13, 9, 5, 3, 3, 4, 8, 12, 14, 15],
+            "sunHours": [180, 180, 190, 200, 220, 220, 230, 230, 200, 180, 170, 180],
+            "seaTempC": null,
+            "humidity": [78, 79, 79, 76, 72, 68, 66, 66, 70, 75, 77, 78]
+          },
+          "crowds": [3, 2, 2, 3, 2, 2, 3, 4, 3, 2, 2, 3],
+          "risks": [ { "type": "thunderstorms", "from": "11-01", "to": "03-15", "note": "Violent summer storms." } ],
+          "recurringHolidays": [
+            { "name": "Umhlanga Reed Dance", "approx": "Late August – early September", "effect": "A huge national ceremony; accommodation fills up.", "dates": { "from": "08-25", "to": "09-05" } },
+            { "name": "Incwala", "approx": "December – January", "effect": "The sacred kingship ceremony.", "dates": { "from": "12-20", "to": "01-10" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 35, "high": 40 },
+            "midrangePerDay": { "low": 70, "shoulder": 90, "high": 110 },
+            "hotelNightMid": { "low": 50, "shoulder": 65, "high": 80 },
+            "notes": "Often combined with Kruger. Big Game Parks reserves offer rest camps and lodges."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Mbabane", "aliases": [], "region": "country" },
+        { "name": "Manzini", "aliases": [], "region": "country" },
+        { "name": "Ezulwini", "aliases": ["Ezulwini Valley", "Mlilwane"], "region": "country" },
+        { "name": "Hlane", "aliases": ["Hlane Royal National Park"], "region": "country" },
+        { "name": "Mkhaya", "aliases": [], "region": "country" },
+        { "name": "Malolotja", "aliases": [], "region": "country" },
+        { "name": "Lobamba", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Eswatini" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/eswatini" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/eswatini/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
       "iso2": "ET",
       "isoNum": "231",
       "name": "Ethiopia",
@@ -711,6 +1008,84 @@
       "lastReviewed": "2026-10"
     },
     {
+      "iso2": "LS",
+      "isoNum": "426",
+      "name": "Lesotho",
+      "aliases": ["Kingdom of Lesotho", "Kingdom in the Sky"],
+      "continent": "Africa",
+      "flag": "🇱🇸",
+      "summary": "Lesotho is a mountain kingdom where every point lies above 1,400 m. Autumn (March to May) and spring (September to November) are best for hiking, pony trekking and the Sani Pass. Winter brings freezing nights, snow on the passes and skiing at Afriski. Summer is green but has daily thunderstorms that wash out dirt roads.",
+      "splitByRegion": false,
+      "splitReason": "A small, entirely highland country with one mountain climate.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Maseru, the Sani Pass, Semonkong and the Maletsunyane Falls, Malealea, Katse Dam and the Afriski ski area.",
+          "lat": -29.31,
+          "lon": 27.48,
+          "tags": ["mountain", "hiking", "pony trekking", "skiing"],
+          "best": [
+            { "from": "03-01", "to": "05-15", "why": "Autumn: clear, dry days of 20 °C for hiking and pony trekking.", "goodFor": ["mountain", "nature", "roadtrip"] },
+            { "from": "09-15", "to": "11-30", "why": "Spring: warm days and wildflowers, before the summer storms.", "goodFor": ["mountain", "nature", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "01-01", "to": "02-28", "why": "The heaviest summer rains, with daily thunderstorms and flash floods on mountain roads." }
+          ],
+          "shoulder": [
+            { "from": "05-16", "to": "09-14", "why": "Winter: freezing nights (−10 °C in the highlands), snow closing the passes and skiing at Afriski." },
+            { "from": "12-01", "to": "12-31", "why": "Green and warm, with afternoon storms." }
+          ],
+          "activityWindows": {
+            "mountain": [ { "from": "03-01", "to": "05-15" }, { "from": "09-15", "to": "11-30" } ],
+            "nature": [ { "from": "03-01", "to": "05-31" }, { "from": "09-01", "to": "11-30" } ],
+            "snow": [ { "from": "06-15", "to": "08-31" } ],
+            "roadtrip": [ { "from": "03-15", "to": "05-15" }, { "from": "09-15", "to": "11-30" } ]
+          },
+          "climate": {
+            "avgHighC": [28, 27, 25, 21, 18, 15, 15, 18, 22, 24, 26, 28],
+            "avgLowC": [14, 14, 12, 7, 2, -2, -2, 1, 5, 9, 11, 13],
+            "rainMm": [110, 90, 85, 50, 25, 10, 10, 15, 25, 70, 85, 85],
+            "rainDays": [11, 9, 9, 6, 3, 2, 2, 2, 3, 7, 9, 10],
+            "sunHours": [280, 250, 250, 240, 250, 240, 260, 270, 270, 280, 270, 290],
+            "seaTempC": null,
+            "humidity": [60, 64, 66, 62, 58, 55, 52, 48, 46, 52, 56, 58]
+          },
+          "crowds": [2, 1, 2, 3, 2, 2, 3, 2, 2, 3, 2, 3],
+          "risks": [
+            { "type": "thunderstorms", "from": "11-15", "to": "03-15", "note": "Lightning on exposed passes." },
+            { "type": "road closures", "from": "06-01", "to": "08-31", "note": "Snow closes the Sani Pass and highland roads." }
+          ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 35, "high": 40 },
+            "midrangePerDay": { "low": 70, "shoulder": 90, "high": 110 },
+            "hotelNightMid": { "low": 50, "shoulder": 60, "high": 80 },
+            "notes": "A 4x4 is required for the Sani Pass. Rustic lodges and community trekking are inexpensive."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Maseru", "aliases": [], "region": "country" },
+        { "name": "Sani Pass", "aliases": ["Sani Top"], "region": "country" },
+        { "name": "Semonkong", "aliases": ["Maletsunyane Falls"], "region": "country" },
+        { "name": "Malealea", "aliases": [], "region": "country" },
+        { "name": "Afriski", "aliases": ["Mahlasela"], "region": "country" },
+        { "name": "Katse Dam", "aliases": ["Katse"], "region": "country" },
+        { "name": "Thaba-Bosiu", "aliases": ["Thaba Bosiu"], "region": "country" },
+        { "name": "Sehlabathebe", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Lesotho" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/lesotho" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/lesotho/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
       "iso2": "LY",
       "isoNum": "434",
       "name": "Libya",
@@ -777,6 +1152,297 @@
         { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Libya" },
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/libya" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/libya/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "MG",
+      "isoNum": "450",
+      "name": "Madagascar",
+      "aliases": ["Republic of Madagascar", "Madagasikara"],
+      "continent": "Africa",
+      "flag": "🇲🇬",
+      "summary": "Madagascar is a mini-continent of lemurs, baobabs and limestone tsingy. The dry season (April to November) is the time to go. April to June is green after the rains; September to November is warm, with baby lemurs and the best wildlife. The cyclone season (January to March) washes out roads and closes the Tsingy de Bemaraha. The highlands get cold at night in July and August, and humpback whales gather off Île Sainte-Marie from July to September.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "highlands",
+          "name": "Highlands & Eastern Rainforests",
+          "description": "Antananarivo, Andasibe, Ranomafana, Antsirabe, Fianarantsoa, Isalo and Île Sainte-Marie.",
+          "lat": -18.88,
+          "lon": 47.51,
+          "tags": ["wildlife", "lemurs", "hiking", "rainforest", "culture"],
+          "best": [
+            { "from": "04-15", "to": "06-15", "why": "Dry after the rains: green forests and comfortable 20–24 °C highland days.", "goodFor": ["nature", "roadtrip", "mountain"] },
+            { "from": "09-01", "to": "11-15", "why": "Warm, dry days and baby lemurs in Ranomafana and Andasibe; humpbacks off Sainte-Marie until September.", "goodFor": ["nature", "roadtrip", "mountain"] }
+          ],
+          "worst": [
+            { "from": "01-01", "to": "03-15", "why": "Cyclone season and heavy rain: unpaved roads become impassable." }
+          ],
+          "shoulder": [
+            { "from": "06-16", "to": "08-31", "why": "Cool winter (6 °C nights in Tana) but dry; humpback whale season off Île Sainte-Marie." },
+            { "from": "11-16", "to": "12-31", "why": "The rains are beginning." },
+            { "from": "03-16", "to": "04-14", "why": "The rains are ending; roads are still muddy." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "04-15", "to": "11-30" } ],
+            "roadtrip": [ { "from": "04-15", "to": "11-15" } ],
+            "mountain": [ { "from": "04-15", "to": "11-15" } ]
+          },
+          "climate": {
+            "avgHighC": [26, 26, 26, 25, 23, 21, 20, 21, 24, 26, 27, 26],
+            "avgLowC": [16, 16, 16, 15, 13, 11, 10, 10, 11, 13, 15, 16],
+            "rainMm": [290, 260, 190, 55, 20, 10, 10, 10, 15, 60, 140, 280],
+            "rainDays": [21, 18, 16, 8, 4, 4, 5, 4, 3, 7, 13, 20],
+            "sunHours": [190, 170, 190, 210, 220, 200, 200, 220, 240, 250, 220, 190],
+            "seaTempC": null,
+            "humidity": [80, 82, 80, 78, 78, 78, 77, 74, 70, 70, 74, 79]
+          },
+          "crowds": [1, 1, 1, 2, 2, 2, 4, 5, 4, 4, 3, 2],
+          "risks": [
+            { "type": "cyclone", "from": "01-01", "to": "03-31", "note": "Cyclones from the Indian Ocean." },
+            { "type": "landslides", "from": "01-01", "to": "03-15", "note": "Road washouts on RN7 and the east coast." }
+          ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 25, "shoulder": 30, "high": 40 },
+            "midrangePerDay": { "low": 60, "shoulder": 80, "high": 110 },
+            "hotelNightMid": { "low": 40, "shoulder": 55, "high": 80 },
+            "notes": "Most visitors hire a car with a driver ($60–90 a day). Domestic flights are expensive and often rescheduled."
+          }
+        },
+        {
+          "id": "coast",
+          "name": "West & North Coast",
+          "description": "Nosy Be and Nosy Komba, Antsiranana (Diego Suarez) and Ankarana, the Tsingy de Bemaraha, Morondava's Avenue of the Baobabs and Toliara (Ifaty, Anakao).",
+          "lat": -13.4,
+          "lon": 48.27,
+          "tags": ["beach", "diving", "baobabs", "tsingy", "islands"],
+          "best": [
+            { "from": "05-01", "to": "10-31", "why": "Dry season: sunny 28–30 °C days, a calm sea around Nosy Be and the Tsingy de Bemaraha open.", "goodFor": ["beach", "diving", "sun", "nature", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "01-01", "to": "03-31", "why": "Cyclones and heavy rain: the Tsingy de Bemaraha and the Morondava roads close." }
+          ],
+          "shoulder": [
+            { "from": "11-01", "to": "12-31", "why": "Hot and humid as the rains start; whale sharks off Nosy Be (October–December)." },
+            { "from": "04-01", "to": "04-30", "why": "The rains are ending; the Tsingy reopens from late April or May." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "04-15", "to": "12-15" } ],
+            "diving": [ { "from": "04-15", "to": "12-15" } ],
+            "sun": [ { "from": "05-01", "to": "11-15" } ],
+            "nature": [ { "from": "05-01", "to": "11-15" } ],
+            "roadtrip": [ { "from": "05-01", "to": "11-15" } ]
+          },
+          "climate": {
+            "avgHighC": [31, 31, 31, 31, 30, 29, 28, 28, 29, 30, 31, 31],
+            "avgLowC": [23, 23, 23, 22, 21, 19, 18, 18, 19, 20, 22, 23],
+            "rainMm": [400, 380, 280, 140, 50, 30, 25, 25, 30, 60, 140, 300],
+            "rainDays": [19, 18, 16, 10, 5, 4, 4, 4, 4, 6, 10, 16],
+            "sunHours": [200, 190, 220, 250, 260, 250, 260, 270, 280, 280, 260, 220],
+            "seaTempC": [29, 29, 29, 29, 28, 27, 26, 26, 26, 27, 28, 29],
+            "humidity": [82, 83, 82, 80, 77, 75, 74, 73, 73, 74, 77, 80]
+          },
+          "crowds": [1, 1, 1, 2, 2, 3, 4, 5, 4, 4, 3, 2],
+          "risks": [
+            { "type": "cyclone", "from": "12-15", "to": "03-31", "note": "Tropical cyclones." },
+            { "type": "road closures", "from": "12-01", "to": "04-30", "note": "Western dirt roads to the Tsingy close." }
+          ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 40, "high": 50 },
+            "midrangePerDay": { "low": 70, "shoulder": 90, "high": 120 },
+            "hotelNightMid": { "low": 50, "shoulder": 70, "high": 100 },
+            "notes": "Nosy Be has the most resort-style hotels. The Tsingy de Bemaraha is reached by 4x4 from Morondava (1–2 days)."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Antananarivo", "aliases": ["Tana", "Tananarive"], "region": "highlands" },
+        { "name": "Andasibe", "aliases": ["Périnet", "Perinet", "Analamazaotra"], "region": "highlands" },
+        { "name": "Ranomafana", "aliases": [], "region": "highlands" },
+        { "name": "Antsirabe", "aliases": [], "region": "highlands" },
+        { "name": "Isalo", "aliases": ["Ranohira", "Isalo National Park"], "region": "highlands" },
+        { "name": "Île Sainte-Marie", "aliases": ["Sainte-Marie", "Nosy Boraha"], "region": "highlands" },
+        { "name": "Fianarantsoa", "aliases": [], "region": "highlands" },
+        { "name": "Nosy Be", "aliases": ["Hell-Ville", "Nosy Komba"], "region": "coast" },
+        { "name": "Antsiranana", "aliases": ["Diego Suarez", "Diego"], "region": "coast" },
+        { "name": "Ankarana", "aliases": [], "region": "coast" },
+        { "name": "Tsingy de Bemaraha", "aliases": ["Bemaraha"], "region": "coast" },
+        { "name": "Morondava", "aliases": ["Avenue of the Baobabs", "Kirindy"], "region": "coast" },
+        { "name": "Toliara", "aliases": ["Tuléar", "Tulear", "Ifaty", "Anakao"], "region": "coast" }
+      ],
+      "links": [
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Madagascar" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/madagascar" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/madagascar/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "MW",
+      "isoNum": "454",
+      "name": "Malawi",
+      "aliases": ["Republic of Malawi", "Warm Heart of Africa"],
+      "continent": "Africa",
+      "flag": "🇲🇼",
+      "summary": "Malawi is dominated by Lake Malawi, a freshwater 'inland sea' with beaches, cichlid snorkelling and kayaking. The cool, dry season (May to September) is the most comfortable time for the lake and for game in Liwonde and Majete. October and November are very hot but good for wildlife. The rains (December to March) bring humidity and muddy roads.",
+      "splitByRegion": false,
+      "splitReason": "A small country whose lake and parks share one tropical wet-and-dry calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Lilongwe and Blantyre, Lake Malawi (Cape Maclear, Nkhata Bay, Likoma), Liwonde and Majete, Zomba, Mount Mulanje and the Nyika Plateau.",
+          "lat": -13.96,
+          "lon": 33.79,
+          "tags": ["lake", "beach", "wildlife", "hiking", "snorkelling"],
+          "best": [
+            { "from": "05-01", "to": "09-30", "why": "Cool, dry season: sunny 25 °C days on the lake, clear water and good game viewing in Liwonde.", "goodFor": ["beach", "nature", "mountain", "roadtrip", "sun"] }
+          ],
+          "worst": [
+            { "from": "12-15", "to": "03-15", "why": "The rains: heavy downpours, high humidity and washed-out roads." }
+          ],
+          "shoulder": [
+            { "from": "10-01", "to": "12-14", "why": "Very hot before the rains, but the lake is at its clearest for snorkelling and the game viewing is excellent." },
+            { "from": "03-16", "to": "04-30", "why": "Lush after the rains, with roads still muddy." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "05-01", "to": "11-30" } ],
+            "nature": [ { "from": "05-01", "to": "11-15" } ],
+            "mountain": [ { "from": "05-01", "to": "09-30" } ],
+            "roadtrip": [ { "from": "05-01", "to": "10-31" } ],
+            "sun": [ { "from": "05-01", "to": "10-31" } ]
+          },
+          "climate": {
+            "avgHighC": [27, 27, 27, 26, 25, 23, 23, 25, 28, 30, 30, 28],
+            "avgLowC": [17, 17, 16, 14, 11, 8, 7, 9, 12, 15, 17, 17],
+            "rainMm": [210, 190, 130, 40, 5, 1, 1, 1, 2, 10, 70, 180],
+            "rainDays": [18, 16, 13, 5, 1, 0, 0, 0, 0, 1, 6, 15],
+            "sunHours": [170, 170, 200, 240, 260, 260, 270, 290, 300, 300, 250, 190],
+            "seaTempC": [27, 27, 27, 26, 25, 24, 23, 23, 24, 26, 27, 28],
+            "humidity": [80, 82, 80, 74, 68, 64, 60, 55, 50, 50, 60, 75]
+          },
+          "crowds": [1, 1, 1, 2, 2, 3, 4, 4, 3, 3, 2, 2],
+          "risks": [
+            { "type": "heavy rain", "from": "12-01", "to": "03-31", "note": "Roads flood and some lodges close." },
+            { "type": "extreme heat", "from": "10-01", "to": "11-30", "note": "Lakeshore highs above 33 °C." }
+          ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 30, "shoulder": 35, "high": 40 },
+            "midrangePerDay": { "low": 80, "shoulder": 110, "high": 150 },
+            "hotelNightMid": { "low": 50, "shoulder": 70, "high": 100 },
+            "notes": "One of Africa's cheaper safari-and-beach countries. Lakeshore backpacker lodges cost $15–40 a night."
+          },
+          "seaLat": -14.02,
+          "seaLon": 34.84
+        }
+      ],
+      "cities": [
+        { "name": "Lilongwe", "aliases": [], "region": "country" },
+        { "name": "Blantyre", "aliases": [], "region": "country" },
+        { "name": "Cape Maclear", "aliases": ["Monkey Bay", "Lake Malawi"], "region": "country" },
+        { "name": "Nkhata Bay", "aliases": [], "region": "country" },
+        { "name": "Likoma Island", "aliases": ["Likoma"], "region": "country" },
+        { "name": "Liwonde", "aliases": ["Liwonde National Park"], "region": "country" },
+        { "name": "Zomba", "aliases": ["Zomba Plateau"], "region": "country" },
+        { "name": "Mulanje", "aliases": ["Mount Mulanje"], "region": "country" },
+        { "name": "Nyika", "aliases": ["Nyika Plateau"], "region": "country" },
+        { "name": "Senga Bay", "aliases": ["Salima"], "region": "country" },
+        { "name": "Majete", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.visitmalawi.mw" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Malawi" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/malawi" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/malawi/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "MU",
+      "isoNum": "480",
+      "name": "Mauritius",
+      "aliases": ["Republic of Mauritius", "Maurice"],
+      "continent": "Africa",
+      "flag": "🇲🇺",
+      "summary": "Mauritius is warm all year. The best spells are April to June and September to early December, which are sunny, less humid and calm. Summer (December to April) is hot and humid, with cyclone risk peaking from January to March. The winter months (June to September) are drier but windy and cooler (24 °C), with chilly evenings and a choppy east coast, which is ideal for kitesurfing.",
+      "splitByRegion": false,
+      "splitReason": "A small island with one tropical climate (the east coast is a little windier).",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Port Louis, Grand Baie, Flic en Flac and Tamarin, Le Morne, Belle Mare and Île aux Cerfs, Chamarel and the Black River Gorges, Mahébourg and Rodrigues.",
+          "lat": -20.16,
+          "lon": 57.5,
+          "tags": ["beach", "diving", "honeymoon", "kitesurf", "hiking"],
+          "best": [
+            { "from": "04-15", "to": "06-15", "why": "Sunny, less humid weather, with a warm sea after the cyclone season.", "goodFor": ["beach", "diving", "sun", "nature"] },
+            { "from": "09-15", "to": "12-10", "why": "Warm, dry and sunny, with calm seas and great diving.", "goodFor": ["beach", "diving", "sun", "nature"] }
+          ],
+          "worst": [ { "from": "01-15", "to": "03-15", "why": "Peak cyclone season: hot, humid and stormy." } ],
+          "shoulder": [
+            { "from": "06-16", "to": "09-14", "why": "Cool, windy winter: great kitesurfing in the south-east, chilly evenings and occasional showers." },
+            { "from": "12-11", "to": "01-14", "why": "Hot, humid festive peak with the highest prices." },
+            { "from": "03-16", "to": "04-14", "why": "The cyclone risk is fading." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "09-15", "to": "06-15" } ],
+            "diving": [ { "from": "10-01", "to": "05-31" } ],
+            "sun": [ { "from": "09-15", "to": "12-15" }, { "from": "04-01", "to": "06-15" } ],
+            "nature": [ { "from": "05-01", "to": "11-30" } ]
+          },
+          "climate": {
+            "avgHighC": [30, 30, 30, 29, 27, 26, 25, 25, 26, 27, 28, 30],
+            "avgLowC": [23, 23, 23, 22, 20, 19, 18, 18, 18, 19, 21, 22],
+            "rainMm": [230, 280, 220, 150, 100, 70, 70, 60, 40, 40, 60, 170],
+            "rainDays": [15, 15, 15, 12, 10, 9, 10, 9, 6, 6, 7, 11],
+            "sunHours": [240, 220, 230, 230, 220, 210, 220, 230, 240, 260, 260, 260],
+            "seaTempC": [27, 28, 28, 27, 26, 25, 24, 23, 23, 24, 25, 26],
+            "humidity": [78, 79, 78, 77, 75, 74, 73, 72, 71, 71, 73, 76]
+          },
+          "crowds": [4, 3, 3, 3, 3, 2, 3, 3, 3, 4, 4, 5],
+          "risks": [
+            { "type": "cyclone", "from": "12-15", "to": "03-31", "note": "Tropical cyclones; resorts follow class 1–4 warnings." }
+          ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 50, "shoulder": 60, "high": 80 },
+            "midrangePerDay": { "low": 120, "shoulder": 150, "high": 200 },
+            "hotelNightMid": { "low": 120, "shoulder": 170, "high": 250 },
+            "notes": "Mostly a resort destination. Guesthouses in Grand Baie and Flic en Flac cost $60–120 a night."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Port Louis", "aliases": [], "region": "country" },
+        { "name": "Grand Baie", "aliases": ["Pereybere", "Trou aux Biches"], "region": "country" },
+        { "name": "Flic en Flac", "aliases": ["Tamarin", "Black River"], "region": "country" },
+        { "name": "Le Morne", "aliases": ["Le Morne Brabant"], "region": "country" },
+        { "name": "Belle Mare", "aliases": ["Trou d'Eau Douce", "Île aux Cerfs", "Ile aux Cerfs"], "region": "country" },
+        { "name": "Chamarel", "aliases": ["Black River Gorges"], "region": "country" },
+        { "name": "Mahébourg", "aliases": ["Mahebourg", "Blue Bay"], "region": "country" },
+        { "name": "Rodrigues", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://mauritiusnow.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Mauritius" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/mauritius" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/mauritius/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"
@@ -971,6 +1637,211 @@
       "lastReviewed": "2026-10"
     },
     {
+      "iso2": "MZ",
+      "isoNum": "508",
+      "name": "Mozambique",
+      "aliases": ["Moçambique", "Republic of Mozambique"],
+      "continent": "Africa",
+      "flag": "🇲🇿",
+      "summary": "Mozambique has 2,500 km of Indian Ocean coast. In the south (Tofo, Vilankulo and the Bazaruto archipelago) the dry, sunny winter from May to October brings 26 °C days, humpback whales and year-round whale sharks and manta rays. The north (Pemba, the Quirimbas, Ilha de Moçambique) has a similar dry season but a stronger rainy and cyclone season from December to March. Check government travel advice before visiting Cabo Delgado province in the far north, where there has been an insurgency.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "south",
+          "name": "Southern Coast & Bazaruto",
+          "description": "Maputo, Ponta do Ouro, Tofo and Inhambane, Vilankulo and the Bazaruto archipelago, Beira and Gorongosa.",
+          "lat": -23.87,
+          "lon": 35.38,
+          "tags": ["beach", "diving", "whale sharks", "islands"],
+          "best": [
+            { "from": "05-01", "to": "10-31", "why": "Dry, sunny 26 °C days, humpback whales (June–October), and great diving with mantas and whale sharks.", "goodFor": ["beach", "diving", "sun", "nature"] }
+          ],
+          "worst": [ { "from": "01-01", "to": "03-15", "why": "Peak cyclone season, with heavy rain and high humidity." } ],
+          "shoulder": [
+            { "from": "11-01", "to": "12-31", "why": "Hot and humid as the rains begin; South African holidaymakers fill Ponta do Ouro in December." },
+            { "from": "03-16", "to": "04-30", "why": "The cyclone risk fades and it's still hot, with warm water." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "04-15", "to": "12-15" } ],
+            "diving": [ { "from": "04-01", "to": "11-30" } ],
+            "sun": [ { "from": "05-01", "to": "11-15" } ],
+            "nature": [ { "from": "06-01", "to": "10-31" } ]
+          },
+          "climate": {
+            "avgHighC": [31, 31, 30, 29, 27, 26, 25, 26, 27, 28, 29, 30],
+            "avgLowC": [23, 23, 22, 20, 18, 16, 15, 16, 18, 20, 21, 22],
+            "rainMm": [150, 145, 140, 90, 55, 40, 35, 30, 30, 50, 80, 120],
+            "rainDays": [11, 10, 10, 8, 6, 5, 5, 4, 4, 6, 8, 10],
+            "sunHours": [230, 220, 220, 220, 230, 220, 230, 240, 240, 240, 230, 230],
+            "seaTempC": [28, 28, 28, 27, 25, 24, 23, 23, 24, 25, 26, 27],
+            "humidity": [77, 78, 78, 77, 76, 75, 74, 73, 73, 74, 75, 76]
+          },
+          "crowds": [4, 2, 2, 3, 3, 3, 4, 4, 3, 3, 3, 4],
+          "risks": [
+            { "type": "cyclone", "from": "12-15", "to": "03-31", "note": "Tropical cyclones from the Mozambique Channel." },
+            { "type": "heavy rain", "from": "12-15", "to": "03-15", "note": "Sand roads flood." }
+          ],
+          "recurringHolidays": [
+            { "name": "South African school holidays", "approx": "Mid-December – mid-January", "effect": "Ponta do Ouro and the southern beaches fill up with South African visitors.", "dates": { "from": "12-10", "to": "01-15" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 35, "shoulder": 40, "high": 50 },
+            "midrangePerDay": { "low": 80, "shoulder": 100, "high": 140 },
+            "hotelNightMid": { "low": 60, "shoulder": 80, "high": 120 },
+            "notes": "Tofo is a backpacker and diver hub. Bazaruto island lodges are luxury-only ($500+). Malaria precautions are advised."
+          }
+        },
+        {
+          "id": "north",
+          "name": "Northern Coast & Quirimbas",
+          "description": "Ilha de Moçambique, Nampula and Nacala, Pemba, Ibo and the Quirimbas archipelago, and Lake Niassa.",
+          "lat": -12.97,
+          "lon": 40.52,
+          "tags": ["beach", "islands", "history", "diving"],
+          "best": [
+            { "from": "05-15", "to": "11-15", "why": "Dry season: sunny 28 °C days, a calm, clear sea and the best diving.", "goodFor": ["beach", "diving", "sun"] }
+          ],
+          "worst": [ { "from": "12-15", "to": "03-31", "why": "The rainy season, with cyclone risk and humid, sticky heat." } ],
+          "shoulder": [
+            { "from": "04-01", "to": "05-14", "why": "The rains are ending and everything is lush." },
+            { "from": "11-16", "to": "12-14", "why": "Hot and humid, with the first rains." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "05-01", "to": "12-15" } ],
+            "diving": [ { "from": "05-15", "to": "12-15" } ],
+            "sun": [ { "from": "05-15", "to": "11-30" } ]
+          },
+          "climate": {
+            "avgHighC": [31, 31, 31, 30, 29, 28, 27, 28, 29, 30, 31, 31],
+            "avgLowC": [24, 24, 23, 23, 22, 20, 19, 19, 20, 22, 24, 24],
+            "rainMm": [200, 180, 220, 130, 30, 15, 10, 5, 5, 10, 40, 120],
+            "rainDays": [14, 13, 15, 10, 4, 2, 2, 1, 1, 2, 4, 10],
+            "sunHours": [220, 210, 220, 240, 270, 270, 280, 290, 290, 300, 290, 240],
+            "seaTempC": [29, 29, 29, 28, 27, 26, 25, 25, 25, 26, 28, 29],
+            "humidity": [80, 80, 81, 79, 76, 74, 72, 71, 71, 72, 74, 78]
+          },
+          "crowds": [1, 1, 1, 1, 2, 2, 3, 3, 3, 3, 2, 2],
+          "risks": [ { "type": "cyclone", "from": "12-15", "to": "04-15", "note": "Cyclones hitting the northern coast." } ],
+          "recurringHolidays": [
+            { "name": "South African school holidays", "approx": "Mid-December – mid-January", "effect": "Ponta do Ouro and the southern beaches fill up with South African visitors.", "dates": { "from": "12-10", "to": "01-15" } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 35, "shoulder": 40, "high": 50 },
+            "midrangePerDay": { "low": 90, "shoulder": 110, "high": 140 },
+            "hotelNightMid": { "low": 60, "shoulder": 80, "high": 110 },
+            "notes": "Ilha de Moçambique has charming guesthouses. Check current travel advice before travelling to Cabo Delgado (Pemba and the Quirimbas)."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Maputo", "aliases": [], "region": "south" },
+        { "name": "Ponta do Ouro", "aliases": ["Ponta Malongane"], "region": "south" },
+        { "name": "Tofo", "aliases": ["Praia do Tofo", "Inhambane", "Barra"], "region": "south" },
+        { "name": "Vilankulo", "aliases": ["Vilanculos"], "region": "south" },
+        { "name": "Bazaruto", "aliases": ["Bazaruto Archipelago", "Benguerra"], "region": "south" },
+        { "name": "Xai-Xai", "aliases": ["Bilene"], "region": "south" },
+        { "name": "Beira", "aliases": [], "region": "south" },
+        { "name": "Gorongosa", "aliases": ["Gorongosa National Park"], "region": "south" },
+        { "name": "Pemba", "aliases": [], "region": "north" },
+        { "name": "Ibo Island", "aliases": ["Quirimbas", "Ibo"], "region": "north" },
+        { "name": "Ilha de Moçambique", "aliases": ["Mozambique Island", "Ilha de Mocambique"], "region": "north" },
+        { "name": "Nampula", "aliases": [], "region": "north" },
+        { "name": "Nacala", "aliases": [], "region": "north" },
+        { "name": "Lichinga", "aliases": ["Lake Niassa"], "region": "north" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.visitmozambique.net" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Mozambique" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/mozambique" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/mozambique/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "NA",
+      "isoNum": "516",
+      "name": "Namibia",
+      "aliases": ["Republic of Namibia"],
+      "continent": "Africa",
+      "flag": "🇳🇦",
+      "summary": "Namibia is one of the driest countries on Earth and a classic self-drive destination. The dry winter (May to October) is best: Etosha's animals crowd the waterholes, skies are clear for the Sossusvlei dunes and days are a comfortable 25 °C, though desert nights get close to freezing. November to February is very hot, with the summer rains arriving from December. Swakopmund on the coast stays cool and foggy all year.",
+      "splitByRegion": false,
+      "splitReason": "The whole country shares one desert calendar: a dry winter and a hot summer with rains.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Windhoek, Sossusvlei and the Namib dunes, Swakopmund, Etosha, Damaraland, the Skeleton Coast, Fish River Canyon and the Caprivi Strip.",
+          "lat": -22.56,
+          "lon": 17.08,
+          "tags": ["desert", "self-drive", "wildlife", "dunes", "stars"],
+          "best": [
+            { "from": "05-15", "to": "10-31", "why": "Dry season: clear skies over Sossusvlei, animals gathered at Etosha's waterholes and comfortable 25 °C days.", "goodFor": ["nature", "roadtrip", "sun"] }
+          ],
+          "worst": [
+            { "from": "01-15", "to": "03-15", "why": "Heat and the summer rains: Etosha's animals disperse and gravel roads and river crossings can flood." }
+          ],
+          "shoulder": [
+            { "from": "11-01", "to": "01-14", "why": "Very hot (35 °C+) with the first storms; Sossusvlei is scorching by midday." },
+            { "from": "03-16", "to": "05-14", "why": "Green landscapes after the rains, warm days and fewer visitors." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "04-15", "to": "11-15" } ],
+            "roadtrip": [ { "from": "04-01", "to": "11-30" } ],
+            "sun": [ { "from": "04-01", "to": "11-30" } ]
+          },
+          "climate": {
+            "avgHighC": [30, 29, 27, 26, 23, 20, 20, 23, 27, 29, 30, 31],
+            "avgLowC": [17, 17, 15, 13, 9, 7, 6, 9, 12, 14, 16, 17],
+            "rainMm": [80, 75, 80, 40, 8, 1, 1, 2, 4, 15, 25, 45],
+            "rainDays": [8, 8, 8, 4, 1, 0, 0, 0, 1, 2, 4, 6],
+            "sunHours": [290, 260, 270, 290, 310, 300, 320, 330, 310, 310, 300, 300],
+            "seaTempC": null,
+            "humidity": [40, 48, 50, 45, 35, 30, 28, 24, 22, 25, 30, 35]
+          },
+          "crowds": [3, 2, 2, 3, 3, 3, 4, 5, 5, 4, 3, 3],
+          "risks": [
+            { "type": "extreme heat", "from": "11-15", "to": "02-28", "note": "Desert temperatures above 40 °C in the Namib and the south." },
+            { "type": "flooding", "from": "01-15", "to": "03-31", "note": "Flash floods in dry riverbeds on gravel roads." }
+          ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 60, "shoulder": 75, "high": 90 },
+            "midrangePerDay": { "low": 130, "shoulder": 160, "high": 200 },
+            "hotelNightMid": { "low": 80, "shoulder": 110, "high": 150 },
+            "notes": "Most visitors rent a 4x4 with rooftop tents ($100–200 a day). Lodges near Sossusvlei and Etosha book out in July–October. Malaria precautions are advised in the far north in the rainy season."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Windhoek", "aliases": [], "region": "country" },
+        { "name": "Swakopmund", "aliases": ["Walvis Bay"], "region": "country" },
+        { "name": "Sossusvlei", "aliases": ["Sesriem", "Deadvlei", "Namib-Naukluft"], "region": "country" },
+        { "name": "Etosha", "aliases": ["Etosha National Park", "Okaukuejo"], "region": "country" },
+        { "name": "Twyfelfontein", "aliases": ["Damaraland"], "region": "country" },
+        { "name": "Fish River Canyon", "aliases": ["Ai-Ais"], "region": "country" },
+        { "name": "Lüderitz", "aliases": ["Luderitz", "Kolmanskop"], "region": "country" },
+        { "name": "Skeleton Coast", "aliases": [], "region": "country" },
+        { "name": "Katima Mulilo", "aliases": ["Caprivi", "Zambezi Region"], "region": "country" },
+        { "name": "Opuwo", "aliases": ["Kaokoland"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://visitnamibia.com.na" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Namibia" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/namibia" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/namibia/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
       "iso2": "RW",
       "isoNum": "646",
       "name": "Rwanda",
@@ -1046,6 +1917,84 @@
       "lastReviewed": "2026-10"
     },
     {
+      "iso2": "SC",
+      "isoNum": "690",
+      "name": "Seychelles",
+      "aliases": ["Republic of Seychelles"],
+      "continent": "Africa",
+      "flag": "🇸🇨",
+      "summary": "The Seychelles lie outside the cyclone belt and stay at 26–31 °C all year. April–May and October–November are the calm transition months between the two trade winds: the sea is glassy, the snorkelling visibility is at its best and it's less humid. The south-east trades (June to September) are drier but stir up the sea and bring seaweed to some beaches. The north-west monsoon (December to March) is hotter and wetter.",
+      "splitByRegion": false,
+      "splitReason": "The inner islands share one equatorial trade-wind calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Mahé and Victoria, Praslin and the Vallée de Mai, La Digue and the outer islands.",
+          "lat": -4.62,
+          "lon": 55.45,
+          "tags": ["beach", "islands", "snorkelling", "diving", "honeymoon"],
+          "best": [
+            { "from": "04-01", "to": "05-31", "why": "Calm transition season: glassy sea, the best snorkelling visibility and less humidity.", "goodFor": ["beach", "diving", "sun", "nature"] },
+            { "from": "10-01", "to": "11-30", "why": "Calm seas and warm water; whale sharks off Mahé.", "goodFor": ["beach", "diving", "sun", "nature"] }
+          ],
+          "worst": [
+            { "from": "06-15", "to": "08-31", "why": "South-east trade winds: a choppy sea, seaweed on some beaches and murky water for snorkelling." }
+          ],
+          "shoulder": [
+            { "from": "12-01", "to": "03-31", "why": "North-west monsoon: hot and humid with heavy downpours (January is the wettest month); Christmas peak prices." },
+            { "from": "06-01", "to": "06-14", "why": "The trade winds are picking up." },
+            { "from": "09-01", "to": "09-30", "why": "The winds are easing." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "09-15", "to": "06-15" } ],
+            "diving": [ { "from": "04-01", "to": "05-31" }, { "from": "10-01", "to": "11-30" } ],
+            "sun": [ { "from": "04-01", "to": "05-31" }, { "from": "09-15", "to": "11-30" } ],
+            "nature": [ { "from": "04-01", "to": "11-30" } ]
+          },
+          "climate": {
+            "avgHighC": [30, 30, 31, 31, 30, 29, 28, 28, 29, 29, 30, 30],
+            "avgLowC": [25, 25, 25, 26, 26, 25, 24, 24, 25, 25, 25, 25],
+            "rainMm": [380, 260, 200, 180, 150, 100, 85, 120, 140, 200, 230, 300],
+            "rainDays": [17, 12, 11, 13, 12, 10, 10, 10, 11, 13, 15, 18],
+            "sunHours": [160, 180, 220, 240, 250, 230, 220, 220, 220, 220, 200, 170],
+            "seaTempC": [28, 28, 29, 29, 29, 28, 27, 26, 27, 27, 28, 28],
+            "humidity": [82, 81, 80, 80, 79, 79, 80, 79, 78, 79, 80, 82]
+          },
+          "crowds": [3, 2, 2, 4, 3, 2, 3, 4, 3, 4, 3, 5],
+          "risks": [
+            { "type": "rough seas", "from": "06-01", "to": "09-15", "note": "Strong south-east trades." },
+            { "type": "heavy rain", "from": "12-15", "to": "02-28", "note": "Monsoon downpours." }
+          ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 80, "shoulder": 100, "high": 120 },
+            "midrangePerDay": { "low": 180, "shoulder": 230, "high": 300 },
+            "hotelNightMid": { "low": 150, "shoulder": 220, "high": 320 },
+            "notes": "Expensive. Self-catering guesthouses ($100–200) are the budget option; ferries link Mahé, Praslin and La Digue."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Mahé", "aliases": ["Mahe", "Victoria", "Beau Vallon"], "region": "country" },
+        { "name": "Praslin", "aliases": ["Anse Lazio", "Vallée de Mai", "Vallee de Mai"], "region": "country" },
+        { "name": "La Digue", "aliases": ["Anse Source d'Argent"], "region": "country" },
+        { "name": "Silhouette Island", "aliases": ["Silhouette"], "region": "country" },
+        { "name": "Bird Island", "aliases": [], "region": "country" },
+        { "name": "Aldabra", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.seychelles.travel" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Seychelles" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/seychelles" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/seychelles/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
       "iso2": "SO",
       "isoNum": "706",
       "name": "Somalia",
@@ -1103,6 +2052,267 @@
         { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Somalia" },
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/somalia" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/somalia/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "ZA",
+      "isoNum": "710",
+      "name": "South Africa",
+      "aliases": ["RSA", "Suid-Afrika", "Republic of South Africa"],
+      "continent": "Africa",
+      "flag": "🇿🇦",
+      "summary": "South Africa has two rainfall patterns. The Western Cape (Cape Town, the Winelands) gets winter rain and is best from February to April and October to November, with hot, crowded summers in December and January. The north-east (Kruger, Johannesburg, the Drakensberg) gets summer thunderstorms, so the dry winter from May to October is safari season. The Garden Route is mild all year. South African school holidays (mid-December to mid-January) fill the coast and the parks.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "cape",
+          "name": "Cape Town & the Western Cape",
+          "description": "Cape Town and Table Mountain, the Cape Peninsula, the Winelands (Stellenbosch, Franschhoek), Hermanus and the Cederberg.",
+          "lat": -33.92,
+          "lon": 18.42,
+          "tags": ["city", "wine", "food", "beach", "hiking", "whales"],
+          "best": [
+            { "from": "02-01", "to": "04-15", "why": "Late summer: warm, dry 25 °C days, harvest in the Winelands and calmer winds than December.", "goodFor": ["city", "beach", "roadtrip", "sun", "nature"] },
+            { "from": "10-15", "to": "11-30", "why": "Spring: wildflowers, whales still in Hermanus Bay and pleasant 22 °C days before the holiday rush.", "goodFor": ["city", "roadtrip", "nature", "sun"] }
+          ],
+          "worst": [
+            { "from": "06-01", "to": "08-15", "why": "Winter storms: cold, wet and windy, with Table Mountain often in cloud (though it's whale season and prices are low)." }
+          ],
+          "shoulder": [
+            { "from": "12-01", "to": "01-31", "why": "Hot, sunny peak season, but the 'Cape Doctor' south-easter blows hard and prices peak over Christmas and New Year." },
+            { "from": "04-16", "to": "05-31", "why": "Autumn colour in the Winelands; first cold fronts." },
+            { "from": "08-16", "to": "10-14", "why": "Spring flowers on the West Coast and southern right whales (July–November), with showers easing." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "10-01", "to": "05-15" } ],
+            "beach": [ { "from": "12-01", "to": "03-31" } ],
+            "sun": [ { "from": "11-01", "to": "04-15" } ],
+            "roadtrip": [ { "from": "09-01", "to": "05-15" } ],
+            "nature": [ { "from": "08-15", "to": "11-30" }, { "from": "02-01", "to": "04-30" } ]
+          },
+          "climate": {
+            "avgHighC": [26, 27, 25, 23, 20, 18, 18, 18, 19, 21, 24, 25],
+            "avgLowC": [16, 16, 14, 12, 10, 8, 7, 8, 9, 11, 13, 15],
+            "rainMm": [15, 17, 20, 41, 69, 93, 82, 77, 40, 30, 14, 17],
+            "rainDays": [3, 3, 3, 6, 9, 10, 10, 10, 7, 5, 3, 3],
+            "sunHours": [340, 300, 290, 250, 220, 190, 210, 220, 240, 290, 320, 340],
+            "seaTempC": [16, 16, 16, 16, 15, 15, 14, 14, 14, 15, 15, 16],
+            "humidity": [70, 71, 72, 75, 77, 78, 77, 76, 74, 72, 70, 70]
+          },
+          "crowds": [5, 4, 4, 3, 2, 2, 2, 2, 3, 3, 4, 5],
+          "risks": [
+            { "type": "strong wind", "from": "11-01", "to": "02-28", "note": "The south-easter 'Cape Doctor' can close Table Mountain's cable car." },
+            { "type": "wildfire", "from": "12-01", "to": "03-31", "note": "Fynbos fires on the peninsula and in the mountains." }
+          ],
+          "recurringHolidays": [
+            { "name": "South African summer school holidays", "approx": "Mid-December – mid-January", "effect": "Coast and national-park accommodation books out months ahead and prices peak.", "dates": { "from": "12-10", "to": "01-15" } },
+            { "name": "Easter", "approx": "Moves each year", "effect": "A long weekend with busy roads and parks.", "moving": { "anchor": "easter", "offsetDays": -3, "durationDays": 5 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 40, "shoulder": 50, "high": 70 },
+            "midrangePerDay": { "low": 80, "shoulder": 100, "high": 150 },
+            "hotelNightMid": { "low": 70, "shoulder": 90, "high": 140 },
+            "notes": "Cape Town is pricier than the rest of the country. The Winelands have excellent wine estates at moderate prices."
+          }
+        },
+        {
+          "id": "garden",
+          "name": "Garden Route & Eastern Cape",
+          "description": "Mossel Bay, Wilderness, Knysna, Plettenberg Bay, Tsitsikamma, Oudtshoorn, Jeffreys Bay, Gqeberha, Addo and the Wild Coast.",
+          "lat": -34.04,
+          "lon": 23.05,
+          "tags": ["roadtrip", "beach", "hiking", "wildlife", "surf"],
+          "best": [
+            { "from": "02-01", "to": "04-30", "why": "Warm days and a 20 °C sea after the holiday crowds have gone.", "goodFor": ["beach", "roadtrip", "nature", "sun"] },
+            { "from": "10-01", "to": "11-30", "why": "Spring: green forests, whale watching in Plettenberg Bay and quiet roads.", "goodFor": ["roadtrip", "nature"] }
+          ],
+          "worst": [
+            { "from": "06-15", "to": "08-15", "why": "Cold fronts bring rain, chilly 7 °C nights and a sea too cold for swimming." }
+          ],
+          "shoulder": [
+            { "from": "12-01", "to": "01-31", "why": "Hot and beautiful but packed with South African holidaymakers; book well ahead." },
+            { "from": "05-01", "to": "06-14", "why": "Autumn showers, cooler nights." },
+            { "from": "08-16", "to": "09-30", "why": "Spring weather, still cool and showery." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "12-01", "to": "04-15" } ],
+            "roadtrip": [ { "from": "09-15", "to": "05-15" } ],
+            "nature": [ { "from": "09-01", "to": "05-31" } ],
+            "sun": [ { "from": "11-01", "to": "04-15" } ]
+          },
+          "climate": {
+            "avgHighC": [26, 26, 25, 24, 22, 21, 20, 20, 20, 21, 23, 25],
+            "avgLowC": [15, 16, 15, 12, 10, 7, 7, 8, 10, 11, 13, 14],
+            "rainMm": [55, 60, 70, 60, 55, 45, 50, 60, 60, 65, 60, 50],
+            "rainDays": [8, 8, 9, 8, 7, 6, 7, 8, 8, 9, 9, 8],
+            "sunHours": [250, 230, 220, 210, 200, 190, 200, 210, 210, 220, 230, 250],
+            "seaTempC": [21, 21, 20, 19, 18, 17, 16, 16, 16, 17, 18, 20],
+            "humidity": [76, 77, 78, 77, 75, 73, 73, 74, 75, 76, 77, 76]
+          },
+          "crowds": [5, 3, 3, 3, 2, 2, 3, 2, 2, 3, 3, 5],
+          "risks": [ { "type": "strong wind", "from": "06-01", "to": "08-31", "note": "Winter gales along the coast." } ],
+          "recurringHolidays": [
+            { "name": "South African summer school holidays", "approx": "Mid-December – mid-January", "effect": "Coast and national-park accommodation books out months ahead and prices peak.", "dates": { "from": "12-10", "to": "01-15" } },
+            { "name": "Easter", "approx": "Moves each year", "effect": "A long weekend with busy roads and parks.", "moving": { "anchor": "easter", "offsetDays": -3, "durationDays": 5 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 35, "shoulder": 45, "high": 60 },
+            "midrangePerDay": { "low": 70, "shoulder": 90, "high": 130 },
+            "hotelNightMid": { "low": 60, "shoulder": 80, "high": 130 },
+            "notes": "Self-drive is the way to see it. Guesthouses are good value outside December and January."
+          }
+        },
+        {
+          "id": "kruger",
+          "name": "Kruger & the Highveld",
+          "description": "Johannesburg and Pretoria, Kruger National Park and the private reserves (Sabi Sand), the Panorama Route and Blyde River Canyon, Pilanesberg and Madikwe.",
+          "lat": -24.99,
+          "lon": 31.59,
+          "tags": ["wildlife", "safari", "city", "scenery"],
+          "best": [
+            { "from": "05-15", "to": "10-15", "why": "Dry winter: thin bush and animals gathering at waterholes make it the best game viewing, with sunny 25 °C days and no malaria risk to speak of.", "goodFor": ["nature", "roadtrip", "city"] }
+          ],
+          "worst": [
+            { "from": "12-01", "to": "02-28", "why": "Hot, humid rainy season: daily thunderstorms, thick bush that hides the animals, and peak malaria risk in the lowveld." }
+          ],
+          "shoulder": [
+            { "from": "10-16", "to": "11-30", "why": "Hot 35 °C days and the first storms; baby impala arrive and the bush turns green." },
+            { "from": "03-01", "to": "05-14", "why": "The rains are tapering off and the bush is still thick and lush; quieter parks." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "05-01", "to": "10-31" } ],
+            "roadtrip": [ { "from": "04-15", "to": "10-31" } ],
+            "city": [ { "from": "04-01", "to": "10-31" } ]
+          },
+          "climate": {
+            "avgHighC": [33, 32, 31, 29, 27, 25, 25, 27, 29, 30, 31, 32],
+            "avgLowC": [20, 20, 19, 15, 10, 6, 6, 9, 13, 16, 18, 19],
+            "rainMm": [90, 85, 60, 35, 15, 8, 8, 8, 20, 45, 80, 95],
+            "rainDays": [9, 8, 7, 4, 2, 1, 1, 1, 2, 5, 8, 9],
+            "sunHours": [230, 220, 230, 240, 260, 250, 260, 270, 250, 230, 210, 220],
+            "seaTempC": null,
+            "humidity": [68, 70, 70, 68, 62, 58, 56, 54, 55, 60, 65, 68]
+          },
+          "crowds": [4, 3, 3, 4, 3, 3, 4, 4, 4, 4, 3, 5],
+          "risks": [
+            { "type": "thunderstorms", "from": "11-01", "to": "03-15", "note": "Afternoon storms with lightning and hail on the Highveld." },
+            { "type": "extreme heat", "from": "11-01", "to": "02-28", "note": "Lowveld days above 35 °C." }
+          ],
+          "recurringHolidays": [
+            { "name": "South African summer school holidays", "approx": "Mid-December – mid-January", "effect": "Coast and national-park accommodation books out months ahead and prices peak.", "dates": { "from": "12-10", "to": "01-15" } },
+            { "name": "Easter", "approx": "Moves each year", "effect": "A long weekend with busy roads and parks.", "moving": { "anchor": "easter", "offsetDays": -3, "durationDays": 5 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 45, "shoulder": 55, "high": 70 },
+            "midrangePerDay": { "low": 120, "shoulder": 180, "high": 280 },
+            "hotelNightMid": { "low": 70, "shoulder": 100, "high": 160 },
+            "notes": "Kruger rest camps are cheap ($60–120 a night) and need booking months ahead. Private reserves such as Sabi Sand cost $500–1,500 per person per night, all-inclusive. Malaria prophylaxis is advised for Kruger in the rainy season."
+          }
+        },
+        {
+          "id": "kzn",
+          "name": "KwaZulu-Natal & the Drakensberg",
+          "description": "Durban and Umhlanga, the iSimangaliso Wetland (St Lucia, Sodwana Bay), Hluhluwe-iMfolozi and the Drakensberg mountains.",
+          "lat": -29.86,
+          "lon": 31.03,
+          "tags": ["beach", "diving", "wildlife", "hiking", "mountain"],
+          "best": [
+            { "from": "04-01", "to": "06-15", "why": "Dry, sunny autumn: 25 °C beach days, a warm sea and clear hiking in the Drakensberg.", "goodFor": ["beach", "nature", "mountain", "roadtrip", "diving", "sun"] },
+            { "from": "08-15", "to": "10-15", "why": "Spring sunshine before the summer storms; good diving on Aliwal Shoal.", "goodFor": ["beach", "nature", "mountain", "roadtrip", "diving"] }
+          ],
+          "worst": [
+            { "from": "12-15", "to": "02-28", "why": "Hot, humid peak summer with frequent thunderstorms and full holiday resorts." }
+          ],
+          "shoulder": [
+            { "from": "06-16", "to": "08-14", "why": "Dry 23 °C days on the coast and the Sardine Run (June–July), but frosty nights and occasional snow in the Drakensberg." },
+            { "from": "10-16", "to": "12-14", "why": "Humidity rising and afternoon storms building over the mountains." },
+            { "from": "03-01", "to": "03-31", "why": "Still hot and humid, but the rains are easing." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "03-15", "to": "11-30" } ],
+            "diving": [ { "from": "05-01", "to": "11-30" } ],
+            "nature": [ { "from": "04-01", "to": "10-31" } ],
+            "mountain": [ { "from": "04-01", "to": "06-15" }, { "from": "08-15", "to": "10-31" } ],
+            "roadtrip": [ { "from": "04-01", "to": "10-31" } ],
+            "sun": [ { "from": "04-01", "to": "10-15" } ]
+          },
+          "climate": {
+            "avgHighC": [28, 28, 28, 26, 25, 23, 23, 23, 23, 24, 26, 27],
+            "avgLowC": [21, 21, 20, 18, 15, 12, 11, 13, 15, 17, 18, 20],
+            "rainMm": [135, 115, 120, 75, 50, 30, 30, 45, 70, 100, 110, 120],
+            "rainDays": [15, 13, 13, 9, 6, 4, 4, 6, 9, 13, 14, 14],
+            "sunHours": [190, 190, 200, 210, 230, 230, 240, 230, 190, 170, 170, 190],
+            "seaTempC": [25, 26, 25, 24, 23, 21, 21, 20, 21, 22, 23, 24],
+            "humidity": [77, 77, 77, 75, 72, 68, 67, 70, 74, 77, 77, 77]
+          },
+          "crowds": [5, 3, 3, 4, 2, 3, 4, 3, 3, 3, 3, 5],
+          "risks": [
+            { "type": "thunderstorms", "from": "11-01", "to": "03-15", "note": "Violent afternoon storms in the Drakensberg." },
+            { "type": "shark warnings", "from": "05-15", "to": "07-31", "note": "Sardine Run season; follow beach-net advice." }
+          ],
+          "recurringHolidays": [
+            { "name": "South African summer school holidays", "approx": "Mid-December – mid-January", "effect": "Coast and national-park accommodation books out months ahead and prices peak.", "dates": { "from": "12-10", "to": "01-15" } },
+            { "name": "Easter", "approx": "Moves each year", "effect": "A long weekend with busy roads and parks.", "moving": { "anchor": "easter", "offsetDays": -3, "durationDays": 5 } }
+          ],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 35, "shoulder": 45, "high": 60 },
+            "midrangePerDay": { "low": 70, "shoulder": 90, "high": 130 },
+            "hotelNightMid": { "low": 60, "shoulder": 80, "high": 120 },
+            "notes": "Durban is one of South Africa's cheaper coastal cities. Drakensberg lodges and self-catering cottages are good value."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Cape Town", "aliases": ["Kaapstad", "Table Mountain", "Camps Bay"], "region": "cape" },
+        { "name": "Stellenbosch", "aliases": ["Franschhoek", "Paarl", "Cape Winelands"], "region": "cape" },
+        { "name": "Hermanus", "aliases": ["Gansbaai"], "region": "cape" },
+        { "name": "Simon's Town", "aliases": ["Boulders Beach", "Cape Point"], "region": "cape" },
+        { "name": "Cederberg", "aliases": ["Clanwilliam"], "region": "cape" },
+        { "name": "Langebaan", "aliases": ["West Coast National Park"], "region": "cape" },
+        { "name": "Knysna", "aliases": [], "region": "garden" },
+        { "name": "Plettenberg Bay", "aliases": ["Plett"], "region": "garden" },
+        { "name": "Mossel Bay", "aliases": [], "region": "garden" },
+        { "name": "Oudtshoorn", "aliases": ["Cango Caves"], "region": "garden" },
+        { "name": "Tsitsikamma", "aliases": ["Storms River"], "region": "garden" },
+        { "name": "Wilderness", "aliases": [], "region": "garden" },
+        { "name": "Gqeberha", "aliases": ["Port Elizabeth"], "region": "garden" },
+        { "name": "Addo", "aliases": ["Addo Elephant National Park"], "region": "garden" },
+        { "name": "Jeffreys Bay", "aliases": ["J-Bay"], "region": "garden" },
+        { "name": "Coffee Bay", "aliases": ["Wild Coast", "Port St Johns"], "region": "garden" },
+        { "name": "Johannesburg", "aliases": ["Joburg", "Jozi", "Soweto"], "region": "kruger" },
+        { "name": "Pretoria", "aliases": ["Tshwane"], "region": "kruger" },
+        { "name": "Kruger National Park", "aliases": ["Kruger", "Skukuza"], "region": "kruger" },
+        { "name": "Sabi Sand", "aliases": ["Sabi Sands"], "region": "kruger" },
+        { "name": "Mbombela", "aliases": ["Nelspruit", "Hazyview", "White River"], "region": "kruger" },
+        { "name": "Graskop", "aliases": ["Blyde River Canyon", "Panorama Route"], "region": "kruger" },
+        { "name": "Hoedspruit", "aliases": [], "region": "kruger" },
+        { "name": "Pilanesberg", "aliases": ["Sun City"], "region": "kruger" },
+        { "name": "Madikwe", "aliases": [], "region": "kruger" },
+        { "name": "Durban", "aliases": ["eThekwini"], "region": "kzn" },
+        { "name": "Umhlanga", "aliases": ["Ballito"], "region": "kzn" },
+        { "name": "St Lucia", "aliases": ["iSimangaliso"], "region": "kzn" },
+        { "name": "Hluhluwe", "aliases": ["Hluhluwe-iMfolozi"], "region": "kzn" },
+        { "name": "Sodwana Bay", "aliases": [], "region": "kzn" },
+        { "name": "Drakensberg", "aliases": ["Champagne Castle", "Royal Natal", "Cathedral Peak"], "region": "kzn" },
+        { "name": "Pietermaritzburg", "aliases": [], "region": "kzn" },
+        { "name": "Umkomaas", "aliases": ["Aliwal Shoal"], "region": "kzn" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.southafrica.net" },
+        { "label": "SANParks (national park bookings)", "url": "https://www.sanparks.org" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/South_Africa" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/south-africa" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/south-africa/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"
@@ -1617,6 +2827,158 @@
         { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Uganda" },
         { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/uganda" },
         { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/uganda/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "ZM",
+      "isoNum": "894",
+      "name": "Zambia",
+      "aliases": ["Republic of Zambia"],
+      "continent": "Africa",
+      "flag": "🇿🇲",
+      "summary": "Zambia is known for walking safaris (South Luangwa), canoe trips on the Lower Zambezi and the Zambian side of Victoria Falls, including the Devil's Pool. The dry season runs from June to October, and it gets very hot by October. From December to March the rains close many bush camps and wash out the park roads, while the Falls roar at their fullest from March to May.",
+      "splitByRegion": false,
+      "splitReason": "All the main parks and Livingstone share one wet-and-dry season pattern.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Lusaka, Livingstone and Victoria Falls, South Luangwa, the Lower Zambezi, Kafue, Liuwa Plain and Kasanka.",
+          "lat": -15.39,
+          "lon": 28.32,
+          "tags": ["wildlife", "safari", "walking", "waterfall"],
+          "best": [
+            { "from": "06-01", "to": "10-15", "why": "Dry season: walking safaris in South Luangwa, canoeing the Lower Zambezi and the Devil's Pool at the Falls (from mid-August).", "goodFor": ["nature", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "12-15", "to": "03-15", "why": "The rainy season: many bush camps close and roads into the parks wash out." }
+          ],
+          "shoulder": [
+            { "from": "03-16", "to": "05-31", "why": "Victoria Falls at full roar; the camps reopen from May." },
+            { "from": "10-16", "to": "12-14", "why": "Very hot (35–40 °C), but animals crowd the rivers; Kasanka's bat migration in November." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "05-15", "to": "11-15" } ],
+            "roadtrip": [ { "from": "06-01", "to": "10-31" } ]
+          },
+          "climate": {
+            "avgHighC": [26, 26, 26, 26, 25, 23, 23, 26, 29, 31, 29, 27],
+            "avgLowC": [17, 17, 16, 14, 12, 9, 9, 11, 14, 17, 17, 17],
+            "rainMm": [230, 190, 110, 25, 3, 0, 0, 0, 1, 15, 90, 200],
+            "rainDays": [18, 16, 11, 3, 1, 0, 0, 0, 0, 2, 9, 17],
+            "sunHours": [160, 160, 210, 260, 280, 280, 290, 300, 290, 280, 220, 170],
+            "seaTempC": null,
+            "humidity": [80, 80, 76, 65, 55, 50, 45, 38, 34, 38, 56, 76]
+          },
+          "crowds": [1, 1, 2, 3, 3, 4, 4, 5, 5, 4, 2, 1],
+          "risks": [
+            { "type": "heavy rain", "from": "12-01", "to": "03-31", "note": "Park roads close." },
+            { "type": "extreme heat", "from": "10-01", "to": "11-30", "note": "Valley floors above 38 °C." }
+          ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 50, "shoulder": 60, "high": 70 },
+            "midrangePerDay": { "low": 180, "shoulder": 260, "high": 400 },
+            "hotelNightMid": { "low": 100, "shoulder": 150, "high": 250 },
+            "notes": "Bush camps are all-inclusive ($400–900 per person per night). Livingstone has backpacker lodges and mid-range hotels."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Lusaka", "aliases": [], "region": "country" },
+        { "name": "Livingstone", "aliases": ["Devil's Pool", "Mosi-oa-Tunya"], "region": "country" },
+        { "name": "South Luangwa", "aliases": ["Mfuwe"], "region": "country" },
+        { "name": "Lower Zambezi", "aliases": [], "region": "country" },
+        { "name": "Kafue", "aliases": ["Kafue National Park", "Busanga Plains"], "region": "country" },
+        { "name": "Siavonga", "aliases": [], "region": "country" },
+        { "name": "Liuwa Plain", "aliases": [], "region": "country" },
+        { "name": "Kasanka", "aliases": [], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.zambiatourism.com" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Zambia" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/zambia" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/zambia/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    },
+    {
+      "iso2": "ZW",
+      "isoNum": "716",
+      "name": "Zimbabwe",
+      "aliases": ["Republic of Zimbabwe"],
+      "continent": "Africa",
+      "flag": "🇿🇼",
+      "summary": "Zimbabwe's dry season (June to October) is best for safaris in Hwange and the walking and canoe safaris of Mana Pools. Victoria Falls changes a lot through the year: it's at peak flow (with spray that can hide the view) from March to May, and at its lowest in October and November. The rains run from November to March, when Mana Pools closes and many roads get muddy.",
+      "splitByRegion": false,
+      "splitReason": "Victoria Falls, Hwange and Mana Pools all follow one wet-and-dry savanna calendar.",
+      "regions": [
+        {
+          "id": "country",
+          "name": "Whole country",
+          "description": "Victoria Falls, Hwange, Mana Pools, Lake Kariba, Harare, Bulawayo and Matobo, Great Zimbabwe and the Eastern Highlands.",
+          "lat": -17.93,
+          "lon": 25.83,
+          "tags": ["wildlife", "safari", "waterfall", "history"],
+          "best": [
+            { "from": "06-01", "to": "10-15", "why": "Dry season: superb game in Hwange and Mana Pools, cool mornings and the Falls still flowing well until September.", "goodFor": ["nature", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "12-15", "to": "02-28", "why": "The rainy season: hot, humid and muddy, with Mana Pools closed." }
+          ],
+          "shoulder": [
+            { "from": "03-01", "to": "05-31", "why": "Victoria Falls at peak flow with heavy spray as the rains end; the bush is thick and green." },
+            { "from": "10-16", "to": "12-14", "why": "Very hot, with the Falls at their lowest on the Zimbabwe side, but great game at the waterholes." }
+          ],
+          "activityWindows": {
+            "nature": [ { "from": "05-15", "to": "11-15" } ],
+            "roadtrip": [ { "from": "05-01", "to": "10-31" } ]
+          },
+          "climate": {
+            "avgHighC": [30, 30, 30, 30, 28, 25, 25, 28, 32, 34, 33, 31],
+            "avgLowC": [19, 19, 18, 16, 11, 7, 7, 10, 15, 18, 19, 19],
+            "rainMm": [165, 135, 85, 25, 3, 1, 0, 0, 2, 20, 65, 150],
+            "rainDays": [14, 12, 9, 3, 1, 0, 0, 0, 0, 2, 7, 13],
+            "sunHours": [210, 200, 240, 270, 290, 290, 300, 310, 300, 290, 240, 210],
+            "seaTempC": null,
+            "humidity": [72, 74, 70, 62, 52, 48, 42, 36, 32, 36, 52, 68]
+          },
+          "crowds": [2, 2, 3, 3, 3, 3, 4, 5, 5, 4, 3, 3],
+          "risks": [
+            { "type": "heavy rain", "from": "12-01", "to": "03-15", "note": "Dirt roads and park tracks become impassable." },
+            { "type": "extreme heat", "from": "10-01", "to": "11-30", "note": "35 °C+ in the Zambezi Valley." }
+          ],
+          "recurringHolidays": [],
+          "prices": {
+            "currency": "USD",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 50, "shoulder": 60, "high": 70 },
+            "midrangePerDay": { "low": 150, "shoulder": 220, "high": 350 },
+            "hotelNightMid": { "low": 100, "shoulder": 150, "high": 250 },
+            "notes": "Prices are quoted in US dollars. Mana Pools and Hwange camps are mid-to-high range; Victoria Falls town has budget lodges."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Victoria Falls", "aliases": ["Vic Falls"], "region": "country" },
+        { "name": "Hwange", "aliases": ["Hwange National Park"], "region": "country" },
+        { "name": "Mana Pools", "aliases": [], "region": "country" },
+        { "name": "Kariba", "aliases": ["Lake Kariba", "Matusadona"], "region": "country" },
+        { "name": "Harare", "aliases": [], "region": "country" },
+        { "name": "Bulawayo", "aliases": ["Matobo", "Matopos"], "region": "country" },
+        { "name": "Great Zimbabwe", "aliases": ["Masvingo"], "region": "country" },
+        { "name": "Nyanga", "aliases": ["Eastern Highlands", "Chimanimani"], "region": "country" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://zimbabwetourism.net" },
+        { "label": "Travel guide (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Zimbabwe" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/zimbabwe" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/zimbabwe/entry-requirements" }
       ],
       "dataYear": 2026,
       "lastReviewed": "2026-10"
