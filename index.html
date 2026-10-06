@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>WhenToGo — the best time to visit every country</title>
+  <meta name="description" content="Find the best and worst weeks to visit any country or region, based on climate normals, monsoons, hurricanes, crowds and recurring holidays.">
+  <meta name="theme-color" content="#f7f4ee" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#121412" media="(prefers-color-scheme: dark)">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/print.css" media="print">
+  <link rel="preload" href="data/index.json" as="fetch" crossorigin>
+  <script>
+    // Apply the saved theme before first paint to avoid a flash.
+    try { var t = localStorage.getItem('wtg:theme'); if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#/" aria-label="WhenToGo home">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="15" fill="var(--accent)"/><path d="M5 19h22" stroke="var(--best)" stroke-width="4" stroke-linecap="round"/><path d="M5 19h8" stroke="var(--shoulder)" stroke-width="4" stroke-linecap="round"/><path d="M21 19h6" stroke="var(--worst)" stroke-width="4" stroke-linecap="round"/><circle cx="16" cy="11" r="3.2" fill="#fff"/></svg>
+        <span>WhenToGo</span>
+      </a>
+      <div class="header-search" id="header-search"></div>
+      <nav class="site-nav" aria-label="Main">
+        <a href="#/finder" data-nav="finder">Finder</a>
+        <a href="#/compare" data-nav="compare">Compare</a>
+        <a href="#/plan" data-nav="plan">Plan a year</a>
+        <a href="#/saved" data-nav="saved">Saved</a>
+        <a href="#/about" data-nav="about">About</a>
+      </nav>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Toggle dark mode">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path class="sun" d="M12 4V2m0 20v-2m8-8h2M2 12h2m13.66-5.66 1.41-1.41M4.93 19.07l1.41-1.41m0-11.32L4.93 4.93m14.14 14.14-1.41-1.41M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10z"/><path class="moon" d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <div class="container loading-shell" aria-busy="true">
+      <p class="muted">Loading seasonal data…</p>
+    </div>
+  </main>
+
+  <div class="scrim" id="scrim" hidden></div>
+  <div class="panel" id="panel" hidden aria-labelledby="panel-title" role="dialog"></div>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Seasonal guidance based on long-term climate averages and recurring events. It's guidance, not a guarantee: always check current forecasts and travel advice.</p>
+      <p><a href="#/about">About the data</a> · <span id="data-version"></span></p>
+    </div>
+  </footer>
+  <div class="tooltip" id="tooltip" role="tooltip" hidden></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="container">WhenToGo needs JavaScript to show seasonal data.</p></noscript>
+</body>
+</html>

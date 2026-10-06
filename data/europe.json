@@ -1,0 +1,306 @@
+{
+  "continent": "Europe",
+  "countries": [
+    {
+      "iso2": "IT",
+      "isoNum": "380",
+      "name": "Italy",
+      "aliases": ["Italia", "Italian Republic", "Repubblica Italiana"],
+      "continent": "Europe",
+      "flag": "🇮🇹",
+      "summary": "Italy runs 1,200 km from the Alps to within sight of Africa, so its seasons shift as you go south. The north has cold, foggy winters and some of Europe's best skiing. The centre and south have hot, dry summers and mild, wetter winters, while Sicily and Sardinia have almost North African summers. Late spring and early autumn are the sweet spot nearly everywhere. The real enemy is August: heat, Ferragosto closures in the cities and beaches packed with Italian families.",
+      "splitByRegion": true,
+      "regions": [
+        {
+          "id": "north",
+          "name": "Northern Italy & Alps",
+          "description": "Lombardy, Piedmont, Veneto, Trentino–Alto Adige (Dolomites), Friuli, Emilia-Romagna and Liguria: Milan, Venice, Turin, Bologna, the Italian Lakes, the Dolomites and the Cinque Terre.",
+          "lat": 45.46,
+          "lon": 9.19,
+          "tags": ["city", "mountain", "snow", "lakes", "food", "wine"],
+          "best": [
+            { "from": "05-15", "to": "06-30", "why": "Warm (22–27 °C) without the summer haze. The lakes and Cinque Terre trails are fully open, mountain huts start opening from mid-June and the cities are in full swing.", "goodFor": ["city", "nature", "mountain", "roadtrip"] },
+            { "from": "09-01", "to": "10-10", "why": "Settled, golden weather: grape and truffle harvests in Piedmont, warm lake water, and Dolomite trails still open with fewer people.", "goodFor": ["city", "nature", "mountain", "roadtrip"] }
+          ],
+          "worst": [
+            { "from": "08-05", "to": "08-25", "why": "Ferragosto: many city restaurants and shops close, the coast and lakes are packed with Italian families, and the Po Valley sits at 33 °C or more with sticky humidity." },
+            { "from": "11-06", "to": "11-30", "why": "The wettest, greyest stretch. Dense fog blankets the Po Valley, Venice floods (acqua alta), and many lake hotels and mountain lifts are closed between seasons." },
+            { "from": "12-24", "to": "01-06", "why": "Christmas to Epiphany: ski resorts are fully booked at peak prices and city hotels are expensive." }
+          ],
+          "shoulder": [
+            { "from": "01-07", "to": "03-31", "why": "Prime ski season in the Dolomites and Aosta Valley at post-holiday prices. Cities are cold (0–10 °C), foggy and quiet. Watch for the Milan Fashion Week and Venice Carnival price spikes." },
+            { "from": "04-01", "to": "05-14", "why": "Spring blossom and mild 16–22 °C days, with lake ferries back on full timetables. Showers are frequent, and Easter and Milan Design Week push prices up." },
+            { "from": "07-01", "to": "08-04", "why": "Peak summer: perfect for the high Alps and the lakes, but hot (30–33 °C) and humid in Milan, Bologna and Venice." },
+            { "from": "10-11", "to": "11-05", "why": "Autumn colour and food festivals. Rainfall rises sharply from mid-October and mountain huts close." },
+            { "from": "12-01", "to": "12-23", "why": "Christmas markets in Bolzano, Merano and Trento; the ski season opens. It's cold and often foggy in the plains." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "04-01", "to": "06-30" }, { "from": "09-01", "to": "10-31" } ],
+            "mountain": [ { "from": "06-15", "to": "09-30" } ],
+            "snow": [ { "from": "12-10", "to": "04-05" } ],
+            "nature": [ { "from": "05-01", "to": "10-15" } ],
+            "sun": [ { "from": "06-01", "to": "09-10" } ],
+            "beach": [ { "from": "06-15", "to": "09-10" } ],
+            "roadtrip": [ { "from": "05-01", "to": "06-30" }, { "from": "09-01", "to": "10-15" } ]
+          },
+          "climate": {
+            "avgHighC": [6, 9, 14, 18, 23, 27, 29, 29, 24, 18, 11, 6],
+            "avgLowC": [-1, 0, 4, 8, 12, 16, 19, 18, 15, 10, 5, 0],
+            "rainMm": [62, 60, 80, 82, 96, 66, 68, 90, 70, 100, 105, 72],
+            "rainDays": [7, 6, 8, 9, 10, 8, 6, 7, 6, 8, 9, 7],
+            "sunHours": [70, 100, 150, 170, 210, 240, 270, 240, 180, 120, 70, 60],
+            "seaTempC": [14, 13, 14, 15, 18, 22, 24, 25, 23, 20, 17, 15],
+            "humidity": [85, 78, 72, 72, 72, 70, 70, 72, 75, 82, 87, 87]
+          },
+          "crowds": [2, 3, 3, 3, 4, 4, 4, 5, 4, 3, 2, 3],
+          "risks": [
+            { "type": "extreme heat", "from": "07-05", "to": "08-20", "note": "Heatwaves in the Po Valley plains (Milan, Bologna, Verona) can reach 35–38 °C." },
+            { "type": "thunderstorms", "from": "06-15", "to": "08-31", "note": "Afternoon storms with hail over the Alps and lakes; start mountain hikes early." },
+            { "type": "flooding", "from": "10-01", "to": "11-30", "note": "Venice acqua alta and flash floods or landslides in Liguria." },
+            { "type": "fog", "from": "11-01", "to": "02-15", "note": "Thick Po Valley fog can delay flights and make motorway driving hazardous." },
+            { "type": "avalanche", "from": "12-01", "to": "04-15", "note": "Off-piste avalanche danger; check the regional bulletins." }
+          ],
+          "recurringHolidays": [
+            { "name": "Easter week (Settimana Santa)", "approx": "March/April, moves each year", "effect": "Domestic travel surge: lake and Riviera hotels fill and prices rise about 20–30%.", "moving": { "anchor": "easter", "offsetDays": -3, "durationDays": 5 } },
+            { "name": "Venice Carnival", "approx": "About 2 weeks before Lent", "effect": "Venice hotels can double or triple; St Mark's Square is packed.", "moving": { "anchor": "easter", "offsetDays": -58, "durationDays": 12 } },
+            { "name": "Milan Design Week (Salone del Mobile)", "approx": "Mid-April, 6 days", "effect": "Milan hotel rates triple and rooms sell out months ahead." },
+            { "name": "Liberation Day & May Day bridges", "approx": "Apr 25 – May 1", "dates": { "from": "04-25", "to": "05-01" }, "effect": "Long 'ponte' weekends fill the lakes and Cinque Terre." },
+            { "name": "Ferragosto", "approx": "Aug 10 – Aug 20", "dates": { "from": "08-10", "to": "08-20" }, "effect": "City restaurants and shops close while the coast and mountains overflow." },
+            { "name": "Christmas to Epiphany", "approx": "Dec 24 – Jan 6", "dates": { "from": "12-24", "to": "01-06" }, "effect": "Peak ski-resort prices with minimum-stay rules." }
+          ],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 70, "shoulder": 85, "high": 110 },
+            "midrangePerDay": { "low": 140, "shoulder": 170, "high": 230 },
+            "hotelNightMid": { "low": 90, "shoulder": 120, "high": 190 },
+            "notes": "Milan hotels spike during the fashion weeks (Feb, Sep) and Design Week (Apr). Venice is the most expensive city, and Dolomites ski hotels peak at Christmas and in February."
+          }
+        },
+        {
+          "id": "central",
+          "name": "Central Italy",
+          "description": "Lazio, Tuscany, Umbria, Marche and Abruzzo: Rome, Florence, Siena, Pisa, the Chianti and Val d'Orcia countryside, Perugia and the Apennines.",
+          "lat": 41.9,
+          "lon": 12.5,
+          "tags": ["city", "culture", "food", "wine", "countryside", "beach"],
+          "best": [
+            { "from": "04-15", "to": "06-10", "why": "Warm 20–27 °C days, wisteria in Rome and poppy-dotted Tuscan hills, and long evenings for outdoor dining. The weather is ideal for walking cities." },
+            { "from": "09-10", "to": "10-25", "why": "Grape harvest in Chianti, softer light, a still-warm sea on the Tuscan coast, and summer heat and crowds easing at the Vatican and the Uffizi." }
+          ],
+          "worst": [
+            { "from": "07-15", "to": "08-25", "why": "Heatwaves of 33–38 °C in Rome and Florence, peak queues at the major museums and Ferragosto closures. Sightseeing in the midday sun is genuinely exhausting." }
+          ],
+          "shoulder": [
+            { "from": "03-01", "to": "04-14", "why": "Mild 15–20 °C with some rain. Queues are shorter, though Easter week in Rome is very busy." },
+            { "from": "06-11", "to": "07-14", "why": "Hot (29–32 °C) but the beach season is in full swing and evenings are lovely; crowds build." },
+            { "from": "08-26", "to": "09-09", "why": "Still hot, but Italians are returning to work and the crowds are thinning." },
+            { "from": "10-26", "to": "12-15", "why": "The wettest stretch (Oct–Nov), but prices are lowest, museums are quiet and the olive oil harvest is on." }
+          ],
+          "activityWindows": {
+            "city": [ { "from": "03-01", "to": "06-15" }, { "from": "09-10", "to": "12-10" } ],
+            "beach": [ { "from": "06-10", "to": "09-25" } ],
+            "sun": [ { "from": "05-20", "to": "09-30" } ],
+            "nature": [ { "from": "04-01", "to": "06-15" }, { "from": "09-01", "to": "10-31" } ],
+            "roadtrip": [ { "from": "04-10", "to": "06-15" }, { "from": "09-05", "to": "10-31" } ],
+            "mountain": [ { "from": "06-15", "to": "09-30" } ],
+            "snow": [ { "from": "01-05", "to": "03-10" } ],
+            "diving": [ { "from": "06-15", "to": "10-05" } ]
+          },
+          "climate": {
+            "avgHighC": [12, 13, 16, 19, 24, 28, 31, 31, 27, 22, 16, 13],
+            "avgLowC": [3, 4, 6, 8, 12, 16, 18, 18, 15, 12, 7, 4],
+            "rainMm": [67, 73, 58, 81, 53, 34, 19, 37, 73, 113, 111, 81],
+            "rainDays": [7, 7, 7, 8, 5, 4, 2, 3, 5, 8, 9, 8],
+            "sunHours": [120, 130, 170, 200, 250, 280, 320, 290, 220, 170, 120, 100],
+            "seaTempC": [14, 13, 14, 15, 18, 22, 25, 26, 24, 21, 18, 15],
+            "humidity": [75, 72, 70, 70, 68, 65, 62, 63, 68, 73, 77, 77]
+          },
+          "crowds": [2, 2, 3, 5, 4, 4, 4, 4, 4, 4, 2, 3],
+          "risks": [
+            { "type": "extreme heat", "from": "07-01", "to": "08-31", "note": "Regional heat alerts are common; Rome and Florence can exceed 38 °C." },
+            { "type": "wildfire", "from": "07-01", "to": "09-15", "note": "Fire risk on the Tuscan and Lazio coasts and hills in dry summers." },
+            { "type": "flooding", "from": "10-01", "to": "11-30", "note": "Autumn cloudbursts cause flash floods; the Arno and Tiber occasionally run high." }
+          ],
+          "recurringHolidays": [
+            { "name": "Holy Week & Easter in Rome", "approx": "March/April, moves each year", "effect": "Vatican ceremonies draw huge crowds and Rome hotels peak.", "moving": { "anchor": "easter", "offsetDays": -7, "durationDays": 9 } },
+            { "name": "Palio di Siena", "approx": "Jul 2 and Aug 16", "effect": "Siena fills and hotel rates soar around the horse race." },
+            { "name": "Ferragosto", "approx": "Aug 10 – Aug 20", "dates": { "from": "08-10", "to": "08-20" }, "effect": "Many family-run restaurants close and Tuscan beaches overflow." },
+            { "name": "Christmas & New Year", "approx": "Dec 20 – Jan 6", "dates": { "from": "12-20", "to": "01-06" }, "effect": "Rome is busy with pilgrims and holidaymakers." }
+          ],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 70, "shoulder": 85, "high": 110 },
+            "midrangePerDay": { "low": 140, "shoulder": 175, "high": 230 },
+            "hotelNightMid": { "low": 100, "shoulder": 130, "high": 200 },
+            "notes": "Rome and Florence city taxes add €3–7 per person per night. Tuscan agriturismi often require 3–7 night minimum stays in summer."
+          }
+        },
+        {
+          "id": "south",
+          "name": "Southern Italy",
+          "description": "Campania, Puglia, Basilicata and Calabria: Naples, Pompeii, the Amalfi Coast, Capri, Matera, Puglia's trulli and beaches, and the Calabrian coast.",
+          "lat": 40.85,
+          "lon": 14.27,
+          "tags": ["beach", "coast", "food", "culture", "islands"],
+          "best": [
+            { "from": "05-10", "to": "06-25", "why": "Days are 23–29 °C, with lemon groves in bloom and the sea swimmable from June. Hiking the Path of the Gods is comfortable, and hotels sit below August rates.", "goodFor": ["beach", "nature", "roadtrip", "city"] },
+            { "from": "09-05", "to": "10-15", "why": "The sea is at its warmest (24–26 °C), the grape and fig harvest is on, family crowds have gone and ferries still run full timetables.", "goodFor": ["beach", "diving", "roadtrip", "city"] }
+          ],
+          "worst": [
+            { "from": "08-01", "to": "08-25", "why": "Peak Italian holidays: the Amalfi Coast road is gridlocked, beach clubs are sold out, room rates double and it's 33 °C or more in Naples." },
+            { "from": "11-15", "to": "02-15", "why": "Most Amalfi, Capri and Puglia resort hotels close, ferries are reduced and these are the wettest months. Naples itself still works well for culture." }
+          ],
+          "shoulder": [
+            { "from": "02-16", "to": "05-09", "why": "Mild and green with resorts reopening from Easter. The sea is still cold (15–17 °C) and there are occasional rainy spells." },
+            { "from": "06-26", "to": "07-31", "why": "Classic beach summer: hot, sunny and busy, with prices climbing towards the August peak." },
+            { "from": "08-26", "to": "09-04", "why": "The sea is still very warm and crowds are ebbing, though prices fall slowly." },
+            { "from": "10-16", "to": "11-14", "why": "Rains return and many beach hotels close from early November, but Naples and Matera are lovely and cheap." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "06-05", "to": "09-30" } ],
+            "sun": [ { "from": "05-15", "to": "10-05" } ],
+            "city": [ { "from": "03-15", "to": "06-15" }, { "from": "09-15", "to": "11-15" } ],
+            "diving": [ { "from": "06-15", "to": "10-15" } ],
+            "nature": [ { "from": "04-01", "to": "06-15" }, { "from": "09-15", "to": "10-31" } ],
+            "roadtrip": [ { "from": "04-15", "to": "06-20" }, { "from": "09-10", "to": "10-31" } ],
+            "mountain": [ { "from": "05-15", "to": "06-30" }, { "from": "09-01", "to": "10-15" } ]
+          },
+          "climate": {
+            "avgHighC": [13, 14, 16, 19, 24, 28, 31, 31, 27, 23, 18, 14],
+            "avgLowC": [5, 5, 7, 10, 13, 17, 20, 20, 17, 13, 9, 6],
+            "rainMm": [100, 90, 75, 70, 45, 30, 20, 30, 80, 120, 150, 110],
+            "rainDays": [10, 9, 9, 8, 6, 4, 2, 3, 6, 9, 11, 11],
+            "sunHours": [120, 130, 170, 210, 260, 290, 330, 300, 230, 180, 130, 110],
+            "seaTempC": [15, 14, 14, 16, 19, 23, 26, 27, 25, 22, 19, 16],
+            "humidity": [75, 73, 72, 71, 71, 69, 67, 68, 70, 74, 76, 76]
+          },
+          "crowds": [1, 1, 2, 3, 4, 4, 5, 5, 4, 3, 1, 2],
+          "risks": [
+            { "type": "extreme heat", "from": "07-01", "to": "08-31", "note": "Inland Puglia and Basilicata can pass 40 °C." },
+            { "type": "wildfire", "from": "07-01", "to": "09-15", "note": "Brush fires in Calabria, Puglia and the hills behind the Amalfi Coast." },
+            { "type": "rough seas", "from": "11-01", "to": "03-15", "note": "Winter storms cancel ferries and hydrofoils to Capri and Ischia at short notice." }
+          ],
+          "recurringHolidays": [
+            { "name": "Easter", "approx": "March/April, moves each year", "effect": "Processions across the south; coastal resorts reopen and fill on Easter weekend.", "moving": { "anchor": "easter", "offsetDays": -3, "durationDays": 5 } },
+            { "name": "Ferragosto", "approx": "Aug 10 – Aug 20", "dates": { "from": "08-10", "to": "08-20" }, "effect": "Peak beach crowds and prices, with ferries and the Amalfi road at a standstill." },
+            { "name": "Feast of San Gennaro", "approx": "Sep 19", "effect": "Naples celebrates its patron saint; the historic centre is crowded." }
+          ],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 60, "shoulder": 75, "high": 100 },
+            "midrangePerDay": { "low": 120, "shoulder": 150, "high": 220 },
+            "hotelNightMid": { "low": 80, "shoulder": 110, "high": 200 },
+            "notes": "Positano and Capri are among Italy's most expensive places in summer (often €350+ a night). Puglia and Calabria are much cheaper."
+          }
+        },
+        {
+          "id": "islands",
+          "name": "Sicily & Sardinia",
+          "description": "Sicily (Palermo, Catania, Taormina, Syracuse, Mount Etna, the Aeolian Islands) and Sardinia (Cagliari, Costa Smeralda, Alghero, the Gulf of Orosei).",
+          "lat": 38.12,
+          "lon": 13.36,
+          "tags": ["beach", "islands", "diving", "culture", "food", "volcano"],
+          "best": [
+            { "from": "05-01", "to": "06-20", "why": "Wildflowers, 22–28 °C and a warming sea. It's the best time to hike Etna and the Sardinian coast, and ferries and car hire are still cheap.", "goodFor": ["nature", "mountain", "roadtrip", "beach"] },
+            { "from": "09-10", "to": "10-25", "why": "The warmest sea of the year (24–26 °C), harvest festivals and calm beaches with locals back at work; the sun still shines most days.", "goodFor": ["beach", "diving", "roadtrip", "city"] }
+          ],
+          "worst": [
+            { "from": "08-01", "to": "08-25", "why": "Sardinian beaches and ferries are packed, ferry and car-hire prices hit their peak, and the inland Sicilian heat often passes 35 °C." }
+          ],
+          "shoulder": [
+            { "from": "04-01", "to": "04-30", "why": "Spring green and Easter processions. The sea is still cool (16 °C), so it's better for touring than beaches." },
+            { "from": "06-21", "to": "07-31", "why": "Hot, dry and sunny with crowds building; book ferries early." },
+            { "from": "08-26", "to": "09-09", "why": "The sea is at its warmest and the crowds are starting to fall." },
+            { "from": "10-26", "to": "03-31", "why": "Mild 14–18 °C winter days. It's great for Palermo, Syracuse and the Valley of the Temples at low prices, but beach resorts are closed." }
+          ],
+          "activityWindows": {
+            "beach": [ { "from": "06-01", "to": "10-05" } ],
+            "sun": [ { "from": "05-01", "to": "10-15" } ],
+            "diving": [ { "from": "06-01", "to": "10-31" } ],
+            "nature": [ { "from": "04-01", "to": "06-15" }, { "from": "09-15", "to": "11-15" } ],
+            "mountain": [ { "from": "04-15", "to": "06-30" }, { "from": "09-15", "to": "10-31" } ],
+            "snow": [ { "from": "01-05", "to": "03-15" } ],
+            "city": [ { "from": "03-01", "to": "06-15" }, { "from": "09-15", "to": "11-30" } ],
+            "roadtrip": [ { "from": "04-01", "to": "06-15" }, { "from": "09-15", "to": "10-31" } ]
+          },
+          "climate": {
+            "avgHighC": [15, 15, 17, 20, 24, 28, 31, 31, 28, 24, 20, 16],
+            "avgLowC": [9, 9, 10, 12, 15, 19, 22, 23, 20, 17, 13, 10],
+            "rainMm": [70, 65, 55, 45, 25, 10, 5, 15, 45, 80, 90, 80],
+            "rainDays": [10, 9, 8, 6, 4, 2, 1, 2, 5, 8, 9, 10],
+            "sunHours": [140, 150, 190, 230, 280, 310, 350, 320, 250, 200, 150, 130],
+            "seaTempC": [15, 15, 15, 16, 19, 23, 26, 27, 25, 23, 20, 17],
+            "humidity": [72, 71, 71, 70, 70, 68, 68, 69, 70, 72, 72, 72]
+          },
+          "crowds": [1, 1, 2, 3, 3, 4, 5, 5, 4, 2, 1, 1],
+          "risks": [
+            { "type": "extreme heat", "from": "06-15", "to": "08-31", "note": "Scirocco winds from North Africa can push temperatures above 40 °C." },
+            { "type": "wildfire", "from": "07-01", "to": "09-15", "note": "Serious fire risk in Sardinia and Sicily during dry, windy summers." },
+            { "type": "rough seas", "from": "11-01", "to": "03-15", "note": "Ferries to the Aeolian and Egadi islands are frequently cancelled in winter." }
+          ],
+          "recurringHolidays": [
+            { "name": "Holy Week processions", "approx": "March/April, moves each year", "effect": "Trapani and Enna processions draw large crowds; book ahead.", "moving": { "anchor": "easter", "offsetDays": -7, "durationDays": 9 } },
+            { "name": "Feast of Sant'Agata (Catania)", "approx": "Feb 3 – Feb 5", "dates": { "from": "02-03", "to": "02-05" }, "effect": "One of the world's largest religious festivals; central Catania is packed." },
+            { "name": "Festino di Santa Rosalia (Palermo)", "approx": "Jul 14 – Jul 15", "dates": { "from": "07-14", "to": "07-15" }, "effect": "Palermo's street festival with fireworks; hotels busy." },
+            { "name": "Ferragosto", "approx": "Aug 10 – Aug 20", "dates": { "from": "08-10", "to": "08-20" }, "effect": "Ferry and car-hire prices peak; beaches overflow." }
+          ],
+          "prices": {
+            "currency": "EUR",
+            "referenceYear": 2026,
+            "budgetPerDay": { "low": 55, "shoulder": 70, "high": 95 },
+            "midrangePerDay": { "low": 110, "shoulder": 140, "high": 200 },
+            "hotelNightMid": { "low": 75, "shoulder": 100, "high": 180 },
+            "notes": "Costa Smeralda is luxury-priced in July–August. Car-hire rates in Sardinia can triple in August, so book months ahead."
+          }
+        }
+      ],
+      "cities": [
+        { "name": "Milan", "aliases": ["Milano"], "region": "north" },
+        { "name": "Venice", "aliases": ["Venezia"], "region": "north" },
+        { "name": "Turin", "aliases": ["Torino"], "region": "north" },
+        { "name": "Verona", "aliases": [], "region": "north" },
+        { "name": "Bologna", "aliases": [], "region": "north" },
+        { "name": "Genoa", "aliases": ["Genova"], "region": "north" },
+        { "name": "Lake Como", "aliases": ["Como", "Bellagio"], "region": "north" },
+        { "name": "Lake Garda", "aliases": ["Garda", "Sirmione"], "region": "north" },
+        { "name": "Dolomites", "aliases": ["Dolomiti", "Cortina d'Ampezzo", "Cortina", "Val Gardena"], "region": "north" },
+        { "name": "Bolzano", "aliases": ["Bozen", "South Tyrol", "Alto Adige"], "region": "north" },
+        { "name": "Cinque Terre", "aliases": ["Portofino", "Liguria"], "region": "north" },
+        { "name": "Rome", "aliases": ["Roma", "Vatican"], "region": "central" },
+        { "name": "Florence", "aliases": ["Firenze"], "region": "central" },
+        { "name": "Pisa", "aliases": [], "region": "central" },
+        { "name": "Siena", "aliases": [], "region": "central" },
+        { "name": "Tuscany", "aliases": ["Toscana", "Chianti", "Val d'Orcia"], "region": "central" },
+        { "name": "Perugia", "aliases": ["Umbria", "Assisi"], "region": "central" },
+        { "name": "Naples", "aliases": ["Napoli", "Pompeii"], "region": "south" },
+        { "name": "Amalfi", "aliases": ["Amalfi Coast", "Costiera Amalfitana"], "region": "south" },
+        { "name": "Positano", "aliases": [], "region": "south" },
+        { "name": "Sorrento", "aliases": [], "region": "south" },
+        { "name": "Capri", "aliases": ["Ischia"], "region": "south" },
+        { "name": "Bari", "aliases": ["Puglia", "Apulia", "Alberobello", "Polignano a Mare"], "region": "south" },
+        { "name": "Lecce", "aliases": ["Salento"], "region": "south" },
+        { "name": "Matera", "aliases": [], "region": "south" },
+        { "name": "Tropea", "aliases": ["Calabria"], "region": "south" },
+        { "name": "Palermo", "aliases": ["Sicily", "Sicilia"], "region": "islands" },
+        { "name": "Catania", "aliases": ["Etna", "Mount Etna"], "region": "islands" },
+        { "name": "Taormina", "aliases": [], "region": "islands" },
+        { "name": "Syracuse", "aliases": ["Siracusa", "Ortigia"], "region": "islands" },
+        { "name": "Aeolian Islands", "aliases": ["Lipari", "Stromboli", "Isole Eolie"], "region": "islands" },
+        { "name": "Cagliari", "aliases": ["Sardinia", "Sardegna"], "region": "islands" },
+        { "name": "Olbia", "aliases": ["Costa Smeralda"], "region": "islands" },
+        { "name": "Alghero", "aliases": [], "region": "islands" }
+      ],
+      "links": [
+        { "label": "Official tourism site", "url": "https://www.italia.it/en" },
+        { "label": "Government travel advice (UK FCDO)", "url": "https://www.gov.uk/foreign-travel-advice/italy" },
+        { "label": "Climate data (World Bank)", "url": "https://climateknowledgeportal.worldbank.org/country/italy/climate-data-historical" },
+        { "label": "Entry requirements", "url": "https://www.gov.uk/foreign-travel-advice/italy/entry-requirements" }
+      ],
+      "dataYear": 2026,
+      "lastReviewed": "2026-10"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "whentogo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Static, season-based travel timing web app. No build step needed to run; these scripts are dev-only.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "validate": "node scripts/validate.js",
+    "build-index": "node scripts/build-index.js",
+    "test": "node scripts/test.js",
+    "check": "node scripts/build-index.js && node scripts/validate.js && node scripts/test.js",
+    "fetch-climate": "node scripts/fetch-climate.js",
+    "serve": "npx serve ."
+  },
+  "engines": { "node": ">=18" }
+}
