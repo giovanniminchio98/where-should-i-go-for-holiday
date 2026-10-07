@@ -5,11 +5,11 @@
 import assert from 'node:assert/strict';
 import { join } from 'node:path';
 import { DATA, readJson } from './lib.js';
-import { mmddToDoy, doyToMmdd, inWindow, windowLength, daysBetween, formatRange } from '../js/core/dates.js';
+import { mmddToDoy, doyToMmdd, inWindow, windowLength, daysBetween, formatRange, monthOfDoy } from '../js/core/dates.js';
 import { dayClasses, weekClasses, BEST, WORST, verdict } from '../js/core/season.js';
 import { rankRegions } from '../js/core/score.js';
 import { easter, anchorDate, holidayDates } from '../js/core/holidays.js';
-import { convert, inflationFactor } from '../js/core/prices.js';
+import { convert, inflationFactor, tripEstimate } from '../js/core/prices.js';
 
 let passed = 0;
 const test = (name, fn) => {
@@ -87,6 +87,25 @@ test('lunar table lookups and out-of-range years', () => {
 });
 
 console.log('prices');
+test('trip estimate: per person, seasonal, stay + daily = total, flights excluded', () => {
+  const meta = readJson(join(DATA, 'meta.json'));
+  const it = readJson(join(DATA, 'europe.json')).countries.find(c => c.iso2 === 'IT');
+  const r = it.regions.find(x => x.id === 'central');
+  const opts = { year: r.prices.referenceYear, currency: 'EUR', meta, monthOf: monthOfDoy };
+  const aug = tripEstimate(r, it.continent, daysBetween(new Date(2027, 7, 1), new Date(2027, 7, 14)), opts);
+  const nov = tripEstimate(r, it.continent, daysBetween(new Date(2027, 10, 1), new Date(2027, 10, 14)), opts);
+  assert.equal(aug.days, 14);
+  assert.equal(aug.nights, 13);
+  assert.ok(Math.abs(aug.stay + aug.daily - aug.total) < 1e-6);
+  assert.ok(aug.total > nov.total, 'high season costs more than low season');
+  assert.ok(aug.total > 14 * 100 && aug.total < 14 * 400, `plausible daily cost: ${aug.total / 14}`);
+  const budget = tripEstimate(r, it.continent, daysBetween(new Date(2027, 7, 1), new Date(2027, 7, 14)), { ...opts, level: 'budget' });
+  const lux = tripEstimate(r, it.continent, daysBetween(new Date(2027, 7, 1), new Date(2027, 7, 14)), { ...opts, level: 'luxury' });
+  assert.ok(budget.total < aug.total && aug.total < lux.total);
+  assert.equal(budget.stay, null);
+  const usd = tripEstimate(r, it.continent, daysBetween(new Date(2027, 7, 1), new Date(2027, 7, 14)), { ...opts, currency: 'USD' });
+  assert.ok(Math.abs(usd.total - convert(aug.total, 'EUR', 'USD', meta.exchangeRates)) < 1e-6);
+});
 test('currency conversion and inflation', () => {
   const fx = { rates: { EUR: 1, USD: 1.17, GBP: 0.87 } };
   assert.equal(Math.round(convert(117, 'USD', 'EUR', fx)), 100);

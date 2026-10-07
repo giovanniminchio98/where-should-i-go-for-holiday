@@ -151,7 +151,14 @@ async function start() {
   route();
 
   if ('serviceWorker' in navigator && location.protocol !== 'file:') {
-    idle(() => navigator.serviceWorker.register('sw.js').catch(() => {}));
+    // When a new version takes over a page that was running the old one, reload once so
+    // the new styles and scripts apply straight away (not on the next visit).
+    const hadController = !!navigator.serviceWorker.controller;
+    let reloaded = false;
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      if (hadController && !reloaded) { reloaded = true; location.reload(); }
+    });
+    idle(() => navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' }).catch(() => {}));
   }
 }
 

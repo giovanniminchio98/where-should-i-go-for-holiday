@@ -18,7 +18,7 @@ export function render(main) {
     <p>Each region has <b>best</b>, <b>shoulder</b> and <b>worst</b> periods written as year-independent dates (for example May 15 – Jun 30), each with the reason. They combine weather, sea conditions, natural hazards, crowds, prices and closures. Weeks that fall in none of them are shown as mixed. Holidays that move each year (Easter, Carnival, Chinese New Year, Ramadan, Eid, Diwali and the US federal holidays) are calculated for the current year from a lookup table covering 2026–2035.</p>
 
     <h2>Prices</h2>
-    <p>Daily budgets and hotel rates are typical per-person figures for low, shoulder and high season, recorded at the price level of a stated reference year. In later years the app projects them forward using an annual inflation rate per continent, and labels the result as an estimate. Currency conversion uses static rates dated ${esc(m.exchangeRates.date)}:</p>
+    <p>Daily budgets and hotel rates are typical per-person figures for low, shoulder and high season, recorded at the price level of a stated reference year. In later years the app projects them forward using an annual inflation rate per continent, and labels the result as an estimate. Currency conversion uses static rates dated ${esc(m.exchangeRates.date)}. The finder's trip estimates add up these figures day by day for your dates, each at its season's price (per person, sharing a double room at mid-range level), and leave out flights:</p>
     <div class="card table-scroll"><table><caption>Exchange rates (1 ${esc(m.exchangeRates.base)} =)</caption><tbody>
       ${Object.entries(m.exchangeRates.rates).map(([k, v]) => `<tr><th scope="row">${esc(k)}</th><td>${v}</td></tr>`).join('')}
     </tbody></table></div>
