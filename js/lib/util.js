@@ -81,3 +81,9 @@ export const tooltip = {
 };
 
 export const plural = (n, one, many = one + 's') => `${n} ${n === 1 ? one : many}`;
+
+/** Rewrite the current route's URL without a navigation (e.g. finder filters). */
+export function replaceHash(hash) {
+  history.replaceState(null, '', hash);
+  window.dispatchEvent(new Event('wtg:hash-replaced'));
+}

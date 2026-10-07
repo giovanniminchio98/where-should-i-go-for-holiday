@@ -25,7 +25,7 @@ let returnFocus = null;
 let panelToken = 0;
 
 function renderBase(name, params, hash) {
-  if (baseHash === hash) return;
+  if (baseHash === hash) return false;
   baseCleanup?.();
   baseCleanup = null;
   baseHash = hash;
@@ -38,6 +38,7 @@ function renderBase(name, params, hash) {
   }
   const r = view.render(main, params);
   Promise.resolve(r).then(fn => { if (typeof fn === 'function') baseCleanup = fn; });
+  return true;
 }
 
 const isMobile = () => matchMedia('(max-width: 719px)').matches;
@@ -96,8 +97,9 @@ function route() {
   }
   closePanel();
   const name = VIEWS[parts[0]] ? parts[0] : '';
-  renderBase(name, params, location.hash || '#/');
-  if (name !== '' || !location.hash) window.scrollTo({ top: 0 });
+  // Only a newly rendered page starts at the top; closing a country panel (or going
+  // back to the page under it) keeps the scroll position, e.g. at the finder's map.
+  if (renderBase(name, params, location.hash || '#/') && (name !== '' || !location.hash)) window.scrollTo({ top: 0 });
 }
 
 function requestClose() {
@@ -144,6 +146,8 @@ async function start() {
     if (e.key === 'Escape' && !panel.hidden && !e.target.closest('.search')) requestClose();
   });
   window.addEventListener('hashchange', route);
+  // A page that rewrites its own URL (the finder's filters) stays the page under the panel.
+  window.addEventListener('wtg:hash-replaced', () => { if (panel.hidden && baseRoute) baseHash = location.hash; });
   route();
 
   if ('serviceWorker' in navigator && location.protocol !== 'file:') {

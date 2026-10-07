@@ -152,6 +152,7 @@ export function render(main) {
   const month = () => Number(slider.value) - 1;
   let mapApi;
   mountWorldMap(main.querySelector('#world-map'), {
+    zoomKey: 'home',
     classFor: c => scoreToClass(bestRegionInMonth(c, month()).s),
     labelFor: c => {
       const b = bestRegionInMonth(c, month());

@@ -119,7 +119,7 @@ function regionBodyHtml(country, region, now) {
       <h2 id="strip-h">The year at a glance</h2>
       ${stripHtml(region, { holidays: stripHolidays(region, now), label: region.name })}
       <div style="margin-top:12px">${legendHtml()}</div>
-      <p class="small muted" style="margin-top:6px">Hover, tap or use the arrow keys on the strip to see why each week is rated as it is. The marks under the strip show this year's holiday dates.</p>
+      <p class="small muted" style="margin-top:6px">Tap a week (or hover, or use the arrow keys) to see why it's rated as it is; on a phone, swipe the strip sideways to see the whole year. The marks under the strip show this year's holiday dates.</p>
     </section>
     <section aria-labelledby="best-h"><h2 id="best-h">Best time to go</h2>${periodCards(region.best, 'best')}</section>
     ${region.worst.length ? `<section aria-labelledby="worst-h"><h2 id="worst-h">When to avoid</h2>${periodCards(region.worst, 'worst')}</section>` : ''}
@@ -136,6 +136,15 @@ function regionBodyHtml(country, region, now) {
  * Render the country page into the panel element.
  * Returns { setRegion(id) } or null if the country isn't in the data.
  */
+/** Scroll the tab row sideways so the tab is visible, without scrolling anything else. */
+function revealTab(tab) {
+  const list = tab.parentElement;
+  if (!list || list.scrollWidth <= list.clientWidth) return;
+  const lr = list.getBoundingClientRect(), tr = tab.getBoundingClientRect();
+  if (tr.left < lr.left) list.scrollLeft -= lr.left - tr.left + 12;
+  else if (tr.right > lr.right) list.scrollLeft += tr.right - lr.right + 12;
+}
+
 export async function renderCountry(panel, iso2, regionId, { highlight = false, onRegion, city = '' } = {}) {
   const idx = findCountry(iso2);
   if (!idx) {
@@ -199,8 +208,8 @@ export async function renderCountry(panel, iso2, regionId, { highlight = false, 
       const on = tab.dataset.region === region.id;
       tab.setAttribute('aria-selected', String(on));
       tab.tabIndex = on ? 0 : -1;
-      if (on && focusTab) tab.focus();
-      if (on) tab.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+      if (on && focusTab) tab.focus({ preventScroll: true });
+      if (on) revealTab(tab);
     }
     attachStrips(panel, () => region);
     mountLocator($('#locator', panel), findCountry(country.iso2), region.id, id => setRegion(id));
@@ -221,7 +230,8 @@ export async function renderCountry(panel, iso2, regionId, { highlight = false, 
   if (highlight) {
     const target = $('#region-intro', panel);
     setTimeout(() => {
-      target.scrollIntoView({ block: 'start', behavior: 'smooth' });
+      // Scroll only the panel (scrollIntoView would also move the page underneath).
+      panel.scrollBy({ top: target.getBoundingClientRect().top - panel.getBoundingClientRect().top - 12, behavior: 'smooth' });
       target.classList.add('flash');
       $(`#tab-${region.id}`, panel)?.classList.add('flash');
     }, 250);
