@@ -1,6 +1,6 @@
 // Compare 2–4 places side by side: #/compare?p=IT.north,TH.andaman
 import { resolvePlace, loadCountries } from '../lib/data.js';
-import { esc } from '../lib/util.js';
+import { esc, replaceHash } from '../lib/util.js';
 import { verdict, monthScores } from '../core/season.js';
 import { MONTH_SHORT, todayDoy, monthOfDoy } from '../core/dates.js';
 import { stripHtml, attachStrips, legendHtml } from '../ui/strip.js';
@@ -13,7 +13,7 @@ export async function render(main, params) {
   const keys = (fromUrl.length ? fromUrl : compareList.all()).map(resolvePlace).filter(Boolean).map(p => p.key);
   const unique = [...new Set(keys)].slice(0, 4);
   compareList.set(unique);
-  if (!fromUrl.length && unique.length) history.replaceState(null, '', '#/compare?p=' + unique.join(','));
+  if (!fromUrl.length && unique.length) replaceHash('#/compare?p=' + unique.join(','));
 
   main.innerHTML = `
   <div class="container">

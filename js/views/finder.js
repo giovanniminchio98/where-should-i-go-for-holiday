@@ -2,7 +2,7 @@
 // #/finder?from=2027-02-01&to=2027-02-14&a=beach&c=Asia&flex=1&budget=mid&crowds=1&sort=score
 // (or month=2 instead of from/to).
 import { countries, loadCountries } from '../lib/data.js';
-import { esc } from '../lib/util.js';
+import { esc, replaceHash } from '../lib/util.js';
 import { t, ACTIVITY_ICON, riskIcon } from '../lib/strings.js';
 import { ACTIVITIES, rankRegions } from '../core/score.js';
 import { daysBetween, parseISODate, toISODate, addDays, MONTH_SHORT, formatRange, inWindow, formatDate } from '../core/dates.js';
@@ -48,7 +48,7 @@ function writeParams(s) {
   if (s.budget) p.set('budget', s.budget);
   if (s.avoidCrowds) p.set('crowds', '1');
   if (s.sort !== 'score') p.set('sort', s.sort);
-  history.replaceState(null, '', '#/finder?' + p);
+  replaceHash('#/finder?' + p);
 }
 
 /** The text that explains why a region fits the chosen days: the best (or shoulder) window covering most of them. */
@@ -122,6 +122,7 @@ export function render(main, params) {
   const bestByCountry = new Map();
 
   mountWorldMap(main.querySelector('#finder-map'), {
+    zoomKey: 'finder',
     classFor: c => {
       const r = bestByCountry.get(c.iso2);
       if (!r) return 'na';

@@ -262,7 +262,18 @@ button, input, select { font: inherit; color: inherit; }
 .map-controls { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-bottom: 10px; }
 .map-controls .month-label { font-family: var(--font-display); font-size: 1.5rem; min-width: 7.5ch; }
 .map-controls input[type="range"] { flex: 1; min-width: 160px; accent-color: var(--accent); }
-.world-map { width: 100%; aspect-ratio: 2 / 1; display: block; }
+.world-map { width: 100%; aspect-ratio: 2 / 1; display: block; touch-action: pan-y; border-radius: var(--radius-sm); }
+.world-map.zoomed { touch-action: none; cursor: grab; }
+.world-map.zoomed:active { cursor: grabbing; }
+.world-map path, .world-map circle { vector-effect: non-scaling-stroke; }
+.map-zoom-wrap { position: relative; }
+.map-zoom-ctl { position: absolute; right: 6px; bottom: 6px; display: flex; flex-direction: column; gap: 6px; }
+.map-zoom-ctl .icon-btn { width: 36px; height: 36px; font-size: 1.2rem; line-height: 1; background: var(--surface); box-shadow: var(--shadow); }
+@media (max-width: 560px) { .map-zoom-ctl { gap: 4px; right: 4px; bottom: 4px; } .map-zoom-ctl .icon-btn { width: 30px; height: 30px; font-size: 1rem; } }
+.map-hint { margin: 6px 0 0; font-size: 0.8rem; color: var(--muted); }
+.map-hint .touch-only { display: none; }
+@media (pointer: coarse) { .map-hint .touch-only { display: inline; } .map-hint .mouse-only { display: none; } }
+.map-zoom-ctl .icon-btn:disabled { opacity: 0.45; cursor: default; }
 .world-map path.country { stroke: var(--surface); stroke-width: 0.5; transition: fill .45s ease; fill: var(--na); }
 .world-map path.country.has-data { cursor: pointer; }
 .world-map path.country.has-data:hover, .world-map path.country.has-data:focus-visible { stroke: var(--text); stroke-width: 1.2; outline: none; }
@@ -284,15 +295,27 @@ button, input, select { font: inherit; color: inherit; }
 
 /* ── Season strip ─────────────────────────────────────── */
 .strip { position: relative; user-select: none; }
+.strip-inner { position: relative; }
+.strip-scroll { position: relative; }
 .strip-weeks { display: grid; grid-template-columns: repeat(52, minmax(0, 1fr)); gap: 2px; height: 44px; border-radius: 8px; outline: none; }
 .strip-weeks:focus-visible { outline: 3px solid var(--link); outline-offset: 3px; }
 .strip-week { border-radius: 3px; transition: transform .15s ease, filter .15s ease; transform-origin: bottom; animation: rise .5s cubic-bezier(.2,.8,.2,1) both; }
 .strip-week.active, .strip:not(.mini) .strip-week:hover { transform: scaleY(1.12); filter: brightness(1.08); }
-.strip-week.active { box-shadow: 0 0 0 2px var(--text); }
+.strip-week.active { box-shadow: 0 0 0 2px var(--bg), 0 0 0 4px var(--text); transform: scaleY(1.18); filter: none; position: relative; z-index: 1; }
+.strip-detail { margin: 10px 0 0; padding: 8px 12px; border-radius: var(--radius-sm); background: var(--surface-2); border-left: 4px solid var(--border); font-size: 0.9rem; line-height: 1.45; min-height: 2.9em; }
+.strip-detail.is-best { border-left-color: var(--best); }
+.strip-detail.is-shoulder { border-left-color: var(--shoulder); }
+.strip-detail.is-worst { border-left-color: var(--worst); }
+/* Phones: the full strip scrolls sideways so each week is big enough to tap. */
+@media (max-width: 719px) {
+  .strip:not(.mini) .strip-scroll { overflow-x: auto; overflow-y: hidden; padding: 28px 2px 4px; margin: -28px -2px 0; scrollbar-width: thin; overscroll-behavior-x: contain; scroll-snap-type: none; }
+  .strip:not(.mini) .strip-inner { min-width: 760px; }
+  .strip:not(.mini) .strip-months { font-size: 0.72rem; letter-spacing: 0.05em; }
+}
 @keyframes rise { from { transform: scaleY(0.2); opacity: 0; } to { transform: none; opacity: 1; } }
 .strip-months { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); overflow: hidden; font-size: 0.72rem; color: var(--muted); margin-top: 6px; text-transform: uppercase; letter-spacing: 0.05em; }
 .strip-months span { border-left: 1px solid var(--border); padding-left: 3px; overflow: hidden; white-space: nowrap; }
-@media (max-width: 560px) { .strip:not(.mini) .strip-months, .risk-timeline .strip-months { font-size: 0.62rem; letter-spacing: 0; } }
+@media (max-width: 560px) { .risk-timeline .strip-months { font-size: 0.62rem; letter-spacing: 0; } }
 .strip-today { position: absolute; top: -8px; height: calc(44px + 16px); width: 2px; background: var(--today); border-radius: 2px; pointer-events: none; }
 .strip-today::before { content: attr(data-label); position: absolute; top: -18px; left: 50%; transform: translateX(-50%); font-size: 0.68rem; font-weight: 700; white-space: nowrap; background: var(--today); color: var(--bg); padding: 1px 6px; border-radius: 999px; }
 .strip-range { position: absolute; top: -3px; height: calc(100% + 6px); border: 2px solid var(--text); border-radius: 6px; pointer-events: none; }
@@ -464,3 +487,8 @@ caption { text-align: left; color: var(--muted); font-size: 0.85rem; padding-bot
 .loading-shell { padding: 80px 16px; }
 .skeleton { background: linear-gradient(90deg, var(--surface-2), var(--surface), var(--surface-2)); background-size: 200% 100%; animation: shimmer 1.4s infinite; border-radius: var(--radius-sm); }
 @keyframes shimmer { to { background-position: -200% 0; } }
+
+/* iOS Safari zooms into any text field under 16px on focus and stays zoomed. */
+@media (pointer: coarse) {
+  input, select, textarea, .search-input { font-size: max(16px, 1em); }
+}

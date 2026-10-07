@@ -9,11 +9,155 @@ const ANTARCTICA = '010';
 // country whose data covers them) → the iso2 of the country page to open.
 const SHAPE_ALIAS = { Kosovo: 'XK', 'N. Cyprus': 'CY', Somaliland: 'SO', 'New Caledonia': 'FR' };
 
+// Map views remembered per page (zoomKey), so coming back to the finder keeps the zoom.
+const savedViews = new Map();
+
+/**
+ * Pan and zoom for an SVG map: + / − / reset buttons, pinch, double-click or double-tap,
+ * Ctrl/⌘ + wheel (and trackpad pinch), and drag to pan once zoomed in. A plain wheel or a
+ * one-finger swipe on the unzoomed map still scrolls the page.
+ */
+function attachZoom(svg, ctl, W, H, key) {
+  const layer = svg.querySelector('.zoom-layer');
+  const MAX = 12;
+  let v = { k: 1, x: 0, y: 0, ...(key && savedViews.get(key)) };
+  let moved = 0;
+
+  const clamp = () => {
+    v.k = Math.min(MAX, Math.max(1, v.k));
+    v.x = Math.min(0, Math.max(W - W * v.k, v.x));
+    v.y = Math.min(0, Math.max(H - H * v.k, v.y));
+  };
+  const apply = () => {
+    clamp();
+    layer.setAttribute('transform', `translate(${v.x.toFixed(2)} ${v.y.toFixed(2)}) scale(${v.k.toFixed(4)})`);
+    svg.style.setProperty('--zk', v.k);
+    for (const c of layer.querySelectorAll('circle.dot')) c.setAttribute('r', (5 / Math.sqrt(v.k)).toFixed(2));
+    svg.classList.toggle('zoomed', v.k > 1.01);
+    ctl.querySelector('[data-zoom=reset]').hidden = v.k <= 1.01;
+    ctl.querySelector('[data-zoom=out]').disabled = v.k <= 1.01;
+    ctl.querySelector('[data-zoom=in]').disabled = v.k >= MAX - 0.01;
+    if (key) savedViews.set(key, { ...v });
+  };
+  // Client coordinates → SVG user units.
+  const toSvg = (cx, cy) => {
+    const r = svg.getBoundingClientRect();
+    return [((cx - r.left) / r.width) * W, ((cy - r.top) / r.height) * H];
+  };
+  const zoomAt = (px, py, f) => {
+    const k = Math.min(MAX, Math.max(1, v.k * f));
+    v.x = px - ((px - v.x) * k) / v.k;
+    v.y = py - ((py - v.y) * k) / v.k;
+    v.k = k;
+    apply();
+  };
+  let anim;
+  const animateTo = target => {
+    cancelAnimationFrame(anim);
+    const from = { ...v }, t0 = performance.now();
+    const step = now => {
+      const t = Math.min(1, (now - t0) / 220), e = 1 - (1 - t) ** 3;
+      v = { k: from.k + (target.k - from.k) * e, x: from.x + (target.x - from.x) * e, y: from.y + (target.y - from.y) * e };
+      apply();
+      if (t < 1) anim = requestAnimationFrame(step);
+    };
+    anim = requestAnimationFrame(step);
+  };
+  const zoomCentre = f => {
+    const k = Math.min(MAX, Math.max(1, v.k * f));
+    const px = W / 2, py = H / 2;
+    const t = { k, x: px - ((px - v.x) * k) / v.k, y: py - ((py - v.y) * k) / v.k };
+    const save = v; v = { ...t }; clamp(); const c = { ...v }; v = save;
+    animateTo(c);
+  };
+
+  ctl.addEventListener('click', e => {
+    const b = e.target.closest('[data-zoom]');
+    if (!b) return;
+    if (b.dataset.zoom === 'in') zoomCentre(2);
+    else if (b.dataset.zoom === 'out') zoomCentre(0.5);
+    else animateTo({ k: 1, x: 0, y: 0 });
+  });
+
+  svg.addEventListener('wheel', e => {
+    if (!e.ctrlKey && !e.metaKey) return;          // plain wheel scrolls the page
+    e.preventDefault();
+    const [px, py] = toSvg(e.clientX, e.clientY);
+    zoomAt(px, py, Math.exp(-e.deltaY * (e.deltaMode ? 0.05 : 0.0025)));
+  }, { passive: false });
+
+  svg.addEventListener('dblclick', e => {
+    e.preventDefault();
+    const [px, py] = toSvg(e.clientX, e.clientY);
+    const k = Math.min(MAX, v.k * 2.5);
+    const save = v; v = { k, x: px - ((px - v.x) * k) / v.k, y: py - ((py - v.y) * k) / v.k }; clamp(); const t = { ...v }; v = save;
+    animateTo(t);
+  });
+
+  // Pointer drag (pan) and two-finger pinch.
+  const pts = new Map();
+  let last = null, pinch = null, start = null, lastTap = 0;
+  svg.addEventListener('pointerdown', e => {
+    pts.set(e.pointerId, [e.clientX, e.clientY]);
+    if (pts.size === 1) {
+      moved = 0;
+      start = [e.clientX, e.clientY];
+      last = toSvg(e.clientX, e.clientY);
+    } else if (pts.size === 2) {
+      const [a, b] = [...pts.values()];
+      pinch = { d: Math.hypot(a[0] - b[0], a[1] - b[1]), k: v.k };
+      moved = 99;
+    }
+  });
+  svg.addEventListener('pointermove', e => {
+    if (!pts.has(e.pointerId)) return;
+    pts.set(e.pointerId, [e.clientX, e.clientY]);
+    if (pts.size >= 2 && pinch) {
+      const [a, b] = [...pts.values()];
+      const d = Math.hypot(a[0] - b[0], a[1] - b[1]);
+      const [mx, my] = toSvg((a[0] + b[0]) / 2, (a[1] + b[1]) / 2);
+      zoomAt(mx, my, (pinch.k * (d / pinch.d)) / v.k);
+      return;
+    }
+    if (pts.size !== 1 || !last) return;
+    moved = Math.max(moved, Math.hypot(e.clientX - start[0], e.clientY - start[1]));
+    if (v.k <= 1.01 || moved < 4) return;           // unzoomed: let the page scroll
+    if (!svg.hasPointerCapture(e.pointerId)) svg.setPointerCapture(e.pointerId);
+    const p = toSvg(e.clientX, e.clientY);
+    v.x += p[0] - last[0];
+    v.y += p[1] - last[1];
+    last = p;
+    apply();
+  });
+  const end = e => {
+    pts.delete(e.pointerId);
+    if (pts.size < 2) pinch = null;
+    if (pts.size === 1) { const [p] = [...pts.values()]; last = toSvg(p[0], p[1]); start = p; }
+    if (!pts.size) last = null;
+    // Double-tap to zoom on touch screens (dblclick isn't reliable there).
+    if (e.type === 'pointerup' && e.pointerType === 'touch' && moved < 4) {
+      const now = performance.now();
+      if (now - lastTap < 300) {
+        const [px, py] = toSvg(e.clientX, e.clientY);
+        zoomAt(px, py, 2);
+        moved = 99;
+        lastTap = 0;
+      } else lastTap = now;
+    }
+  };
+  svg.addEventListener('pointerup', end);
+  svg.addEventListener('pointercancel', end);
+
+  apply();
+  return { dragged: () => moved >= 6 };
+}
+
 /**
  * Mount the world map.
  * opts.classFor(country)  → 'best' | 'shoulder' | 'worst' | 'na'
  * opts.labelFor(country)  → HTML for the tooltip
  * opts.onSelect(iso2)
+ * opts.zoomKey            remembers the pan/zoom under this key while the app is open
  * Returns { refresh() } to recolour after the inputs change.
  */
 export async function mountWorldMap(container, opts) {
@@ -49,10 +193,19 @@ export async function mountWorldMap(container, opts) {
     return p ? `<circle class="dot has-data" cx="${p[0].toFixed(1)}" cy="${p[1].toFixed(1)}" r="5" data-iso="${c.iso2}" tabindex="0" role="link" aria-label="${esc(c.name)}"><title>${esc(c.name)}</title></circle>` : '';
   }).join('');
 
-  container.innerHTML = `<svg class="world-map" viewBox="0 0 ${W} ${H}" role="group" aria-label="World map coloured by how good each country is in the selected period">
-    <path class="graticule" d="${path(d3.geoGraticule10())}" aria-hidden="true"></path>
-    ${shapes}${dots}</svg>`;
+  container.innerHTML = `<div class="map-zoom-wrap">
+    <svg class="world-map" viewBox="0 0 ${W} ${H}" role="group" aria-label="World map coloured by how good each country is in the selected period">
+      <g class="zoom-layer"><path class="graticule" d="${path(d3.geoGraticule10())}" aria-hidden="true"></path>
+      ${shapes}${dots}</g></svg>
+    <div class="map-zoom-ctl" role="group" aria-label="Map zoom">
+      <button type="button" class="icon-btn" data-zoom="in" aria-label="Zoom in">+</button>
+      <button type="button" class="icon-btn" data-zoom="out" aria-label="Zoom out">−</button>
+      <button type="button" class="icon-btn" data-zoom="reset" aria-label="Show the whole world" hidden>⤢</button>
+    </div>
+  </div>
+  <p class="map-hint"><span class="touch-only">Pinch or tap + to zoom, then drag to move around.</span><span class="mouse-only">Zoom with + / −, double-click or Ctrl + scroll, then drag to move around.</span></p>`;
   const svg = container.querySelector('svg');
+  const zoom = attachZoom(svg, container.querySelector('.map-zoom-ctl'), W, H, opts.zoomKey);
 
   const target = e => e.target.closest('[data-iso]');
   svg.addEventListener('pointermove', e => {
@@ -62,7 +215,11 @@ export async function mountWorldMap(container, opts) {
     tooltip.show(opts.labelFor(c), e.clientX, e.clientY);
   });
   svg.addEventListener('pointerleave', () => tooltip.hide());
-  svg.addEventListener('click', e => { const el = target(e); if (el) { tooltip.hide(); opts.onSelect(el.dataset.iso); } });
+  svg.addEventListener('click', e => {
+    if (zoom.dragged()) return;
+    const el = target(e);
+    if (el) { tooltip.hide(); opts.onSelect(el.dataset.iso); }
+  });
   svg.addEventListener('keydown', e => {
     const el = target(e);
     if (el && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); opts.onSelect(el.dataset.iso); }
