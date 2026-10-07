@@ -119,7 +119,7 @@ function regionBodyHtml(country, region, now) {
       <h2 id="strip-h">The year at a glance</h2>
       ${stripHtml(region, { holidays: stripHolidays(region, now), label: region.name })}
       <div style="margin-top:12px">${legendHtml()}</div>
-      <p class="small muted" style="margin-top:6px">Tap a week (or hover, or use the arrow keys) to see why it's rated as it is; on a phone, swipe the strip sideways to see the whole year. The marks under the strip show this year's holiday dates.</p>
+      <p class="small muted" style="margin-top:6px">Tap a week, or press and slide your finger along the strip, to see why each week is rated as it is (on a computer: hover, click-and-drag or the arrow keys). The marks under the strip show this year's holiday dates.</p>
     </section>
     <section aria-labelledby="best-h"><h2 id="best-h">Best time to go</h2>${periodCards(region.best, 'best')}</section>
     ${region.worst.length ? `<section aria-labelledby="worst-h"><h2 id="worst-h">When to avoid</h2>${periodCards(region.worst, 'worst')}</section>` : ''}
