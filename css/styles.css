@@ -177,6 +177,10 @@ button, input, select { font: inherit; color: inherit; }
   width: 100%; padding: 10px 12px; border-radius: var(--radius-sm); border: 1px solid var(--border);
   background: var(--surface); min-height: 42px;
 }
+.input[aria-invalid="true"] { border-color: var(--worst); box-shadow: 0 0 0 3px color-mix(in srgb, var(--worst) 22%, transparent); background: color-mix(in srgb, var(--worst) 6%, var(--surface)); }
+.field-error { margin: 2px 0 0; color: color-mix(in srgb, var(--worst) 72%, var(--text)); font-size: 0.86rem; font-weight: 600; }
+.trip-note { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; margin: 0 0 14px; }
+.trip-cost { margin: 2px 0 0; font-size: 0.92rem; }
 .toggle { display: inline-flex; align-items: center; gap: 10px; cursor: pointer; font-size: 0.92rem; }
 .toggle input { width: 18px; height: 18px; accent-color: var(--accent); }
 .segmented { display: inline-flex; border: 1px solid var(--border); border-radius: 999px; padding: 3px; background: var(--surface); }
@@ -486,6 +490,6 @@ caption { text-align: left; color: var(--muted); font-size: 0.85rem; padding-bot
 @keyframes shimmer { to { background-position: -200% 0; } }
 
 /* iOS Safari zooms into any text field under 16px on focus and stays zoomed. */
-@media (pointer: coarse) {
+@media (pointer: coarse), (max-width: 760px) {
   input, select, textarea, .search-input { font-size: max(16px, 1em); }
 }

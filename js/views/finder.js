@@ -1,11 +1,12 @@
 // "Where should I go?" finder. All inputs live in the URL so results can be shared:
 // #/finder?from=2027-02-01&to=2027-02-14&a=beach&c=Asia&flex=1&budget=mid&crowds=1&sort=score
 // (or month=2 instead of from/to).
-import { countries, loadCountries } from '../lib/data.js';
-import { esc, replaceHash } from '../lib/util.js';
+import { countries, loadCountries, state } from '../lib/data.js';
+import { esc, replaceHash, store } from '../lib/util.js';
+import { tripEstimate, formatMoney } from '../core/prices.js';
 import { t, ACTIVITY_ICON, riskIcon } from '../lib/strings.js';
 import { ACTIVITIES, rankRegions } from '../core/score.js';
-import { daysBetween, parseISODate, toISODate, addDays, MONTH_SHORT, formatRange, inWindow, formatDate } from '../core/dates.js';
+import { daysBetween, parseISODate, toISODate, addDays, MONTH_SHORT, formatRange, inWindow, formatDate, monthOfDoy } from '../core/dates.js';
 import { stripHtml, attachStrips, legendHtml } from '../ui/strip.js';
 import { mountWorldMap } from '../ui/map.js';
 import { priceBadge, placeHref, placeKey, favButton, wireFavButtons, compareList, deg } from '../ui/cards.js';
@@ -82,8 +83,9 @@ export function render(main, params) {
         <div class="field"><span class="field-label">Dates</span>
           <div class="date-row">
             <div class="field"><label for="f-from" class="visually-hidden">From</label><input class="input" type="date" id="f-from" value="${toISODate(s.from)}"></div>
-            <div class="field"><label for="f-to" class="visually-hidden">To</label><input class="input" type="date" id="f-to" value="${toISODate(s.to)}"></div>
+            <div class="field"><label for="f-to" class="visually-hidden">To</label><input class="input" type="date" id="f-to" value="${toISODate(s.to)}" min="${toISODate(s.from)}" aria-describedby="f-date-err"></div>
           </div>
+          <p class="field-error" id="f-date-err" role="alert" hidden></p>
           <div class="chips" role="group" aria-label="Whole month">${MONTH_SHORT.map((m, i) => `<button type="button" class="chip" data-month="${i}" style="padding:4px 9px;font-size:.8rem">${m}</button>`).join('')}</div>
           <label class="toggle"><input type="checkbox" id="f-flex" ${s.flexible ? 'checked' : ''}> Flexible ±2 weeks</label>
         </div>
@@ -109,6 +111,7 @@ export function render(main, params) {
             <select class="input" id="f-sort" style="min-height:36px;padding:6px 10px"><option value="score">Best match</option><option value="price">Cheapest</option><option value="temp">Warmest</option></select></div>
         </div>
         <div class="card map-card" style="margin-bottom:16px"><div id="finder-map"></div>${legendHtml()}</div>
+        <div class="trip-note small muted" id="f-cost-note"></div>
         <h2 class="visually-hidden">Results</h2><div class="results" id="results"></div>
       </div>
     </div>
@@ -138,9 +141,51 @@ export function render(main, params) {
     },
   }).then(api => { mapApi = api; });
 
+  // Trip cost estimate per result (per person, excluding flights), in the chosen currency.
+  const CURRENCIES = ['EUR', 'USD', 'GBP'];
+  const levelName = { '': 'mid-range', mid: 'mid-range', budget: 'budget', luxury: 'luxury' };
+  const money = v => formatMoney(v, store.get('currency', 'EUR'));
+  function costHtml(region, continent, days) {
+    const e = tripEstimate(region, continent, days, { level: s.budget, year: s.from.getFullYear(), currency: store.get('currency', 'EUR'), meta: state.meta, monthOf: monthOfDoy });
+    if (!e) return '';
+    const split = e.stay != null ? ` <span class="muted">(stay ≈ ${money(e.stay)} · food, transport &amp; activities ≈ ${money(e.daily)})</span>` : '';
+    return `<p class="trip-cost">💶 <b>≈ ${money(e.total)}</b> per person for ${e.days} day${e.days === 1 ? '' : 's'}${split}</p>`;
+  }
+  function renderCostNote() {
+    const cur = store.get('currency', 'EUR');
+    main.querySelector('#f-cost-note').innerHTML = `<span>💶 Trip estimates: per person, ${levelName[s.budget]} level${s.budget === 'budget' ? '' : ', sharing a double room'}, with each day priced for its season. Rough guide only — <b>flights not included</b>.</span>
+      <span class="segmented" role="group" aria-label="Currency">${CURRENCIES.map(c => `<button type="button" data-cur="${c}" aria-pressed="${c === cur}">${c}</button>`).join('')}</span>`;
+  }
+  main.querySelector('#f-cost-note').addEventListener('click', e => {
+    const b = e.target.closest('[data-cur]');
+    if (!b) return;
+    store.set('currency', b.dataset.cur);
+    run();
+  });
+
+  // The end date can't be before the start date: flag it in red and hold the search until it's fixed.
+  const fromEl = form.querySelector('#f-from'), toEl = form.querySelector('#f-to'), errEl = form.querySelector('#f-date-err');
+  function datesValid() {
+    const f = parseISODate(fromEl.value), to = parseISODate(toEl.value);
+    if (f) toEl.min = fromEl.value;
+    const msg = !f || !to ? 'Choose both a start and an end date.'
+      : to < f ? 'The end date is before the start date. Choose a later end date.' : '';
+    toEl.setAttribute('aria-invalid', String(!!msg && (!to || to < f)));
+    fromEl.setAttribute('aria-invalid', String(!!msg && !f));
+    errEl.textContent = msg;
+    errEl.hidden = !msg;
+    return !msg;
+  }
+
   let runId = 0;
   async function run() {
     const id = ++runId;
+    if (!datesValid()) {
+      main.querySelector('#f-summary').textContent = 'Fix the dates to see results.';
+      resultsEl.innerHTML = `<div class="card empty-state"><p><b>Those dates don't work.</b></p><p>The trip has to end on or after the day it starts.</p></div>`;
+      return;
+    }
+    renderCostNote();
     writeParams(s);
     const days = daysBetween(s.from, s.to);
     const res = rankRegions(countries(), { days, activities: s.activities, continents: s.continents, flexible: s.flexible, avoidCrowds: s.avoidCrowds, budget: s.budget });
@@ -175,6 +220,7 @@ export function render(main, params) {
           <div class="chips"><span class="badge ${reason.cls}">${esc(reason.label)}</span>${priceBadge(r.region.priceMidEur)}
             ${matched.map(a => `<span class="badge" title="${esc(t('act.' + a))}: ${Math.round(r.perActivity[a] * 100)}% of your days">${ACTIVITY_ICON[a]} ${esc(t('act.' + a))}</span>`).join('')}</div>
           ${reason.why ? `<p class="why">${esc(reason.why)}</p>` : ''}
+          ${costHtml(fr, r.country.continent, shifted || days)}
           <div class="stats"><span>Highs <b>${deg(r.avgHigh)}</b></span>${r.avgSea != null ? `<span>Sea <b>${deg(r.avgSea)}</b></span>` : ''}<span>Rain <b>${Math.round(r.avgRain)} mm</b>/mo</span><span>Crowds <b>${r.crowd.toFixed(1)}</b>/5</span></div>
           ${r.risks.length ? `<p class="small muted" style="margin:0">Watch out: ${r.risks.map(x => `${riskIcon(x)} ${esc(x)}`).join(' · ')}</p>` : ''}
           ${r.shift ? `<p class="small" style="margin:0">💡 Shift your dates by ${r.shift > 0 ? '+' : ''}${r.shift} days for a better match.</p>` : ''}
@@ -215,7 +261,7 @@ export function render(main, params) {
   form.addEventListener('change', e => {
     const id = e.target.id;
     if (id === 'f-from' || id === 'f-to') {
-      const f = parseISODate(form.querySelector('#f-from').value), to = parseISODate(form.querySelector('#f-to').value);
+      const f = parseISODate(fromEl.value), to = parseISODate(toEl.value);
       if (f && to && to >= f) { s.from = f; s.to = (to - f) / 864e5 > 364 ? addDays(f, 364) : to; }
     }
     if (id === 'f-flex') s.flexible = e.target.checked;
@@ -223,6 +269,7 @@ export function render(main, params) {
     if (id === 'f-crowds') s.avoidCrowds = e.target.checked;
     run();
   });
+  form.addEventListener('input', e => { if (e.target === fromEl || e.target === toEl) datesValid(); });
   main.querySelector('#f-sort').addEventListener('change', e => { s.sort = e.target.value; run(); });
   const ac = new AbortController();
   wireFavButtons(resultsEl, null, ac.signal);

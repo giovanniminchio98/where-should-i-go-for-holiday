@@ -1,6 +1,6 @@
 // Offline support: precache the app shell; data is network-first (so yearly
 // updates arrive promptly), CDN libraries and fonts are cache-first.
-const VERSION = 'wtg-v6';
+const VERSION = 'wtg-v7';
 const SHELL = [
   './',
   'index.html',
@@ -18,7 +18,10 @@ const SHELL = [
 ];
 
 self.addEventListener('install', e => {
-  e.waitUntil(caches.open(VERSION).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
+  // cache: 'reload' bypasses the browser's HTTP cache, so a new version never precaches stale files.
+  e.waitUntil(caches.open(VERSION)
+    .then(c => c.addAll(SHELL.map(u => new Request(u, { cache: 'reload' }))))
+    .then(() => self.skipWaiting()));
 });
 
 self.addEventListener('activate', e => {
