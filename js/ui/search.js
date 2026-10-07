@@ -116,6 +116,7 @@ export function mountSearch(container, opts = {}) {
     close();
     input.value = '';
     input.blur();
+    window.wtgResetZoom?.();
     if (opts.onSelect) opts.onSelect(e);
     else location.hash = e.href;
   };

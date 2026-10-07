@@ -20,6 +20,20 @@
   <script>
     // Apply the saved theme before first paint to avoid a flash.
     try { var t = localStorage.getItem('wtg:theme'); if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t; } catch (e) {}
+    // iPhone/iPad Safari auto-zooms on focused fields and keeps that zoom across the app.
+    // maximum-scale=1 stops the auto-zoom (and snaps back an existing one); since iOS 10,
+    // Safari ignores it for pinch-zoom, so people can still zoom by hand. iOS only: on
+    // other browsers it would block pinch-zoom.
+    (function () {
+      var ios = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+      var vp = document.querySelector('meta[name=viewport]');
+      if (!ios || !vp) return;
+      var base = 'width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=';
+      var flip = false;
+      vp.setAttribute('content', base + '1');
+      // Re-apply to undo any zoom Safari kept (e.g. after picking a search result).
+      window.wtgResetZoom = function () { flip = !flip; vp.setAttribute('content', base + (flip ? '1.0' : '1')); };
+    })();
   </script>
   <script type="module" src="js/app.js"></script>
 </head>

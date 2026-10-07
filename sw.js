@@ -1,6 +1,6 @@
 // Offline support: precache the app shell; data is network-first (so yearly
 // updates arrive promptly), CDN libraries and fonts are cache-first.
-const VERSION = 'wtg-v7';
+const VERSION = 'wtg-v8';
 const SHELL = [
   './',
   'index.html',
