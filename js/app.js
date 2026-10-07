@@ -97,6 +97,7 @@ function route() {
   }
   closePanel();
   const name = VIEWS[parts[0]] ? parts[0] : '';
+  if (baseRoute && baseRoute.name !== name) window.wtgResetZoom?.();
   // Only a newly rendered page starts at the top; closing a country panel (or going
   // back to the page under it) keeps the scroll position, e.g. at the finder's map.
   if (renderBase(name, params, location.hash || '#/') && (name !== '' || !location.hash)) window.scrollTo({ top: 0 });
